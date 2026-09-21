@@ -2,7 +2,12 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createExplosionLayout} from '../app/explosion-layout.ts';
 import {PointerTap} from '../app/pointer-tap.ts';
-import {atlasTools} from '../app/agent-tools.ts';
+import {createServer} from 'vite';
+// Use the app's bundler for its TypeScript and JSON dependency imports.
+const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
+let atlasTools;
+try { ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts')); }
+finally { await loader.close(); }
 
 for (const file of ['atlas.json']) {
   const atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
