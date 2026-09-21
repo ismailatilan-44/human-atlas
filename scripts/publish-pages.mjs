@@ -15,7 +15,6 @@ const [, owner, repo] = match;
 if (run('git', ['status', '--porcelain', '--untracked-files=no'], root, true)) {
   throw new Error('Commit tracked changes before publishing a reproducible source revision.');
 }
-const unpublishedPublicFiles = run('git', ['ls-files', '--others', '-z', '--', 'public'], root, true).split('\0').filter(Boolean);
 const revision = run('git', ['rev-parse', 'HEAD'], root, true);
 run('npm', ['run', 'build', '--', `--base=/${repo}/`]);
 const destination = fs.mkdtempSync(path.join(os.tmpdir(), 'atlas-pages-'));
@@ -33,6 +32,7 @@ try {
     if (entry !== '.git') fs.rmSync(path.join(destination, entry), { recursive: true, force: true });
   }
   fs.cpSync(path.join(root, 'dist'), destination, { recursive: true });
+  const unpublishedPublicFiles = run('git', ['ls-files', '--others', '-z', '--', 'public'], root, true).split('\0').filter(Boolean);
   // Exporters may be producing candidates concurrently; do not publish uncommitted assets.
   for (const file of unpublishedPublicFiles) {
     fs.rmSync(path.join(destination, file.slice('public/'.length)), { recursive: true, force: true });
