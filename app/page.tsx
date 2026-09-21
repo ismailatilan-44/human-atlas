@@ -776,7 +776,8 @@ export default function Home() {
               href={
                 chosenAnchor
                   ? "https://github.com/Z-Anatomy/Models-of-human-anatomy"
-                  : (selected?.sourceUrl ?? "https://lifesciencedb.jp/bp3d/")
+                  : (selectedParts.find((p) => p.sourceUrl)?.sourceUrl ??
+                    "https://lifesciencedb.jp/bp3d/")
               }
               target="_blank"
               rel="noreferrer"
@@ -906,8 +907,9 @@ export default function Home() {
             <h3>Ek modeller ve yüzey işaretleri</h3>
             <p>
               {atlas?.parts.filter((p) => p.sourceUrl).length ?? 0} ek parça ve{" "}
-              {atlas?.anchors?.length ?? 0} yüzey işareti Z-Anatomy kaynak geometrisinden
-              aktarılmıştır. Anatomik ilişkiler ve geometri uyumu uzman incelemesi bekler.
+              {atlas?.anchors?.length ?? 0} yüzey işareti Z-Anatomy ve BodyParts3D 4.3 kaynak
+              geometrilerinden aktarılmıştır. Anatomik ilişkiler ve geometri uyumu uzman incelemesi
+              bekler.
             </p>
             <a
               href={assetUrl("/models/extensions/ATTRIBUTION.md")}
@@ -929,6 +931,20 @@ export default function Home() {
               rel="noreferrer"
             >
               Siyatik sinirler: kaynak ve atıflar
+            </a>
+            <a
+              href={assetUrl("/models/extensions/THYROID-BP3D43-ATTRIBUTION.md")}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Tiroid lobları: BodyParts3D 4.3 kaynak ve atıfları
+            </a>
+            <a
+              href={assetUrl("/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md")}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Omurilik dokusu: BodyParts3D 4.3 kaynak ve atıfları
             </a>
             <h3>Source</h3>
             <p>

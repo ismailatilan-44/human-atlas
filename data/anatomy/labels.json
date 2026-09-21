@@ -667,7 +667,8 @@
     },
     {
       "ids": [
-        "atlas:thyroid-gland"
+        "atlas:thyroid-gland",
+        "FMA9603"
       ],
       "tr": "Tiroid bezi",
       "en": "Thyroid gland",
@@ -840,6 +841,85 @@
       "ta2Id": 1397,
       "aliases": [],
       "side": "right"
+    },
+    {
+      "ids": [
+        "FMA13369"
+      ],
+      "tr": "Tiroid lobu",
+      "en": "Lobe of thyroid gland",
+      "la": "Lobus glandulae thyreoideae",
+      "ta2Id": 3864,
+      "aliases": [
+        "tiroid",
+        "thyroid"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA13368"
+      ],
+      "tr": "Tiroid lobu",
+      "en": "Lobe of thyroid gland",
+      "la": "Lobus glandulae thyreoideae",
+      "ta2Id": 3864,
+      "aliases": [
+        "tiroid",
+        "thyroid"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA49178"
+      ],
+      "tr": "Tiroid isthmusu",
+      "en": "Isthmus of thyroid gland",
+      "la": "Isthmus glandulae thyreoideae",
+      "ta2Id": 3866,
+      "aliases": [
+        "tiroid",
+        "thyroid",
+        "istmus"
+      ],
+      "side": null
+    },
+    {
+      "ids": [
+        "FMA242005"
+      ],
+      "tr": "Omurilik sinir dokusu",
+      "en": "Neural tissue of spinal cord",
+      "la": null,
+      "ta2Id": null,
+      "aliases": [
+        "omurilik",
+        "spinal cord"
+      ],
+      "side": null
+    },
+    {
+      "ids": [
+        "FMA7647"
+      ],
+      "tr": "Omurilik",
+      "en": "Spinal cord",
+      "la": "Medulla spinalis",
+      "ta2Id": 6049,
+      "aliases": [],
+      "side": null
+    },
+    {
+      "ids": [
+        "FMA78497"
+      ],
+      "tr": "Omurilik merkez kanalı",
+      "en": "Central canal of spinal cord",
+      "la": "Canalis centralis",
+      "ta2Id": 6127,
+      "aliases": [],
+      "side": null
     }
   ]
 }

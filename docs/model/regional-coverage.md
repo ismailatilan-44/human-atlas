@@ -11,11 +11,11 @@ Makine kaydı: [coverage.json](../../data/anatomy/coverage.json). Mevcut ana atl
 - **Eksik:** İncelenen atlas/extension içinde bağımsız hedef kaydı bulunamadı. Ad taraması başka yüzeyin içindeki ayrıntının veya olası tüm eş adların yokluğunu kanıtlamaz.
 - **Doğrulanmamış:** Semantik hedef veya ilgili kemik yüzeyi var; bağımsız temsil ya da konum henüz doğrulanmadı.
 
-Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `full` sonucu çıkarılmadı. Toplam 65 hedef satırının 55’i mevcut, 3’ü kısmi, 6’sı eksik, 1’i doğrulanmamış. Mevcut 55 satırın 3’ü toplam altı yüzey referans noktasıdır; yeni bağımsız yüzey geometrisi sayılmaz.
+Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `full` sonucu çıkarılmadı. Toplam 65 hedef satırının 57’si mevcut, 2’si kısmi, 5’i eksik, 1’i doğrulanmamış. Mevcut 57 satırın 3’ü toplam altı yüzey referans noktasıdır; yeni bağımsız yüzey geometrisi sayılmaz.
 
 | Bölge | Mevcut | Kısmi | Eksik | Doğrulanmamış |
 | --- | ---: | ---: | ---: | ---: |
-| Baş ve boyun | 7 | 1 | 2 | 0 |
+| Baş ve boyun | 9 | 0 | 1 | 0 |
 | Toraks | 8 | 0 | 0 | 0 |
 | Abdomen ve pelvis | 13 | 0 | 3 | 0 |
 | Üst ekstremite | 15 | 1 | 1 | 1 |
@@ -32,8 +32,8 @@ Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `
 | Servikal omurlar | Mevcut | `FMA9915` |
 | Larinks kıkırdakları | Mevcut | `FMA55108` |
 | Beyin ventrikülleri ve interventriküler foramen | Mevcut | `FMA78454`, `FMA78469`, `FMA75351`, `FMA78450`, `FMA78449` |
-| Omurilik | Kısmi | `FMA7647`; aday: `za-spinal-substructures` |
-| Tiroid bezi | Eksik | Bağımsız kayıt bulunamadı; aday: `za-thyroid` |
+| Omurilik | Mevcut — doku gövdesi | `FMA7647`: FJ1737 merkez kanal + BP43-FJ4426 uzunlamasına sinir dokusu; kök/zar/segment ayrıntısı yok |
+| Tiroid bezi | Mevcut | `FMA9603`: BodyParts3D 4.3 sağ/sol lob ve isthmus |
 | Koklea, iki taraf | Eksik | Bağımsız kayıt bulunamadı; aday: `za-cochlea` |
 
 ## Toraks
@@ -149,3 +149,5 @@ Kaynak envanterindeki MESH taban polygon sayısı, Blender modifier sonrası ü�
 - [Pilot etiket kapsamı](labels-review.md)
 
 Bu katalog diğer bölgeleri çevrilmiş, etiketlenmiş, geometrisi tamamlanmış veya anatomik olarak kabul edilmiş saymaz. Sonraki ilerleme ölçütü, bu hedeflerde çalışan ve incelenen model davranışıdır.
+
+22 Eylül güncellemesi: Stilize Z-Anatomy tiroidi kabul edilmedi; yerine resmi BP3D 4.3 lob/isthmus yüzeyleri eklendi. Aynı kaynakta FJ4426 omurilik gövdesi bulundu ve mevcut merkezi kanal korunarak FMA7647 genişletildi. Yukarıdaki ilk Z-Anatomy aday değerlendirmeleri tarihî kaynak girdileridir.

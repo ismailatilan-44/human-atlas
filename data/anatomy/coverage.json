@@ -19,7 +19,7 @@
     {
       "id": "knowledge-snapshot",
       "path": "data/anatomy/knowledge.json",
-      "sha256": "be5705dd37a785a5aad88f2814886086263299f97c163c2c9306bd371f1c394b"
+      "sha256": "62b1eb01662d37fb05b60acc6bc48d96f2f10d36cca91589187b330ef2b9435e"
     },
     {
       "id": "upper-arm-nerves",
@@ -79,6 +79,16 @@
       "id": "sciatic-nerves",
       "path": "public/models/extensions/sciatic-nerves.json",
       "sha256": "c1ed2a84d350067078f794aa41e088b05ccd89772d06b4fd30312338972152a3"
+    },
+    {
+      "id": "thyroid-bp3d43",
+      "path": "public/models/extensions/thyroid-bp3d43.json",
+      "sha256": "1aeb6cb43a240baf4436767b6339f9ae99a2384f8bafaee44914c39f07de799b"
+    },
+    {
+      "id": "spinal-cord-bp3d43",
+      "path": "public/models/extensions/spinal-cord-bp3d43.json",
+      "sha256": "5aa8298fd162c654b570046c653b49e8107cccce01a8d2ab288dc95672c47184"
     }
   ],
   "regions": [
@@ -362,30 +372,43 @@
         {
           "id": "coverage:spinal-cord",
           "nameTr": "Omurilik",
-          "state": "partial",
+          "state": "existing",
           "currentBindings": [
             {
-              "sourceId": "human-atlas",
+              "sourceId": "spinal-cord-bp3d43",
               "conceptId": "FMA7647",
-              "sourceName": "spinal cord",
+              "sourceName": "Spinal cord",
               "geometryPartIds": [
-                "FJ1737"
+                "FJ1737",
+                "BP43-FJ4426"
               ]
             }
           ],
           "expertReview": "pending",
-          "note": "Yalnız FJ1737 / Central canal of spinal cord bağlı. Kaynakta bulunan üç küçük alt yüzey tam omuriliğin yerine doğrulanmış değil.",
+          "note": "Uzunlamasına sinir dokusu yüzeyi ve mevcut merkez kanal birlikte; kökler, zarlar ve segment ayrıntıları yok. Uzman incelemesi bekliyor.",
           "candidateIds": [
             "za-spinal-substructures"
-          ]
+          ],
+          "representation": "registered_geometry"
         },
         {
           "id": "coverage:thyroid",
           "nameTr": "Tiroid bezi",
-          "state": "missing",
-          "currentBindings": [],
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "thyroid-bp3d43",
+              "conceptId": "FMA9603",
+              "sourceName": "Thyroid gland",
+              "geometryPartIds": [
+                "BP43-FJ3671",
+                "BP43-FJ3672",
+                "BP43-FJ3670"
+              ]
+            }
+          ],
           "expertReview": "pending",
-          "note": "Bağımsız bez kavramı/parçası bulunamadı; thyroid sözcüğüyle çıkan kas/kıkırdak/damarlar bez sayılmadı.",
+          "note": "Resmi BodyParts3D 4.3 sağ/sol lob ve isthmus yüzeyleri mevcut; anatomik uzman incelemesi bekliyor.",
           "candidateIds": [
             "za-thyroid"
           ],
@@ -395,7 +418,8 @@
             ],
             "matches": [],
             "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
-          }
+          },
+          "representation": "registered_geometry"
         },
         {
           "id": "coverage:cochlea",
@@ -2800,9 +2824,9 @@
   ],
   "summaryByRegion": {
     "head-neck": {
-      "existing": 7,
-      "partial": 1,
-      "missing": 2,
+      "existing": 9,
+      "partial": 0,
+      "missing": 1,
       "unverified": 0
     },
     "thorax": {

@@ -26,8 +26,11 @@ export function getRepresentationNote(conceptId: string): string | undefined {
   if (conceptId === "atlas:left-sciatic-nerve" || conceptId === "atlas:right-sciatic-nerve") {
     return "Bu model pelvis ve uyluktaki ana sinir gövdelerini gösterir; ayrı tibial ve ortak fibular devamlar henüz eklenmedi.";
   }
+  if (conceptId === "FMA9603") {
+    return "Bu kaynak model sağ ve sol tiroid lobları ile isthmusu içerir. Paratiroidler ve piramidal lob bu pakete dahil değildir.";
+  }
   if (conceptId === "FMA7647") {
-    return "Kısmi temsil: Bu modelde omurilik yalnızca merkez kanalın geometrisiyle gösteriliyor; omuriliğin tamamı modellenmiş değil.";
+    return "Omuriliğin uzunlamasına sinir dokusu ve mevcut merkez kanal parçası birlikte gösteriliyor. Kökler, zarlar ve ayrı segment modelleri bu pakete dahil değildir.";
   }
   return undefined;
 }

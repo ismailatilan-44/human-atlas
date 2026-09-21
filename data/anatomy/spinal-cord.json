@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "scope": "Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred",
+  "entities": [],
+  "relations": [
+    {
+      "id": "FMA242005|part_of|FMA7647",
+      "subject": "FMA242005",
+      "predicate": "part_of",
+      "object": "FMA7647",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-spinal-cord-bp3d43",
+          "locator": "Official FMA2Obj 4.3 mapping: FMA242005 = FJ4426; FMA7647 part_of = FJ1737 + FJ4426"
+        }
+      ]
+    }
+  ]
+}

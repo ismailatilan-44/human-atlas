@@ -146,5 +146,38 @@
     "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/gluteal_tables.html",
     "retrievedOn": "2026-09-22",
     "use": "Selected anatomical facts with row/column or PDF page locators; no article text, slides or images redistributed"
+  },
+  {
+    "id": "bodyparts3d-4.3-live",
+    "title": "BodyParts3D live 4.3 reference anatomy",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "retrievedOn": "2026-09-22",
+    "license": {
+      "id": "CC-BY-SA-2.1-JP",
+      "url": "https://lifesciencedb.jp/bp3d/info_en/license/index.html"
+    },
+    "attribution": "/models/extensions/THYROID-BP3D43-ATTRIBUTION.md"
+  },
+  {
+    "id": "extension-thyroid-bp3d43",
+    "title": "BodyParts3D 4.3 thyroid lobes and isthmus",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "path": "public/models/extensions/thyroid-bp3d43.json",
+    "sha256": "1aeb6cb43a240baf4436767b6339f9ae99a2384f8bafaee44914c39f07de799b",
+    "retrievedOn": "2026-09-22",
+    "sourceId": "bodyparts3d-4.3-live",
+    "attribution": "/models/extensions/THYROID-BP3D43-ATTRIBUTION.md",
+    "use": "Official FMA component mapping and three unchanged source surfaces; nine independent neck reference comparisons"
+  },
+  {
+    "id": "extension-spinal-cord-bp3d43",
+    "title": "BodyParts3D 4.3 spinal cord neural tissue",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "path": "public/models/extensions/spinal-cord-bp3d43.json",
+    "sha256": "5aa8298fd162c654b570046c653b49e8107cccce01a8d2ab288dc95672c47184",
+    "retrievedOn": "2026-09-22",
+    "sourceId": "bodyparts3d-4.3-live",
+    "attribution": "/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md",
+    "use": "Official source tissue surface and FMA7647 component mapping; five independent reference comparisons"
   }
 ]

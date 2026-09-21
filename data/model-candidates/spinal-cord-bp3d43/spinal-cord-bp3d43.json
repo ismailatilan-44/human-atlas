@@ -1,0 +1,188 @@
+{
+  "version": "BodyParts3D 4.3 spinal cord candidate 1",
+  "status": "inactive_candidate_not_registered",
+  "sex": "male",
+  "scope": "Longitudinal neural tissue surface of spinal cord; source FMA7647 combines this with central canal FJ1737",
+  "source": {
+    "id": "bodyparts3d-4.3-live",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "downloadUrl": "https://lifesciencedb.jp/bp3d/download.cgi",
+    "license": "CC-BY-SA-2.1-JP",
+    "attribution": "ATTRIBUTION.md",
+    "archiveSha256": "86eeee2718f5ccbb94105f945fd1f050f0355bfaf53ce535f5b44f288c6202bf",
+    "officialMappingSha256": "4d4fa81affbbbc8a071f35c72c4be95eefd185e12ef23dabd37d280261f8fe3f",
+    "licenseEvidenceSha256": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+  },
+  "parts": [
+    {
+      "id": "BP43-FJ4426",
+      "conceptId": "FMA242005",
+      "name": "Neural tissue of spinal cord",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 102912,
+      "indices": 154368,
+      "vertexCount": 8576,
+      "indexCount": 29835,
+      "bounds": [
+        [
+          -0.009426100179553032,
+          1.1086711883544922,
+          -0.07428660243749619
+        ],
+        [
+          0.008121469989418983,
+          1.560501217842102,
+          -0.02685770019888878
+        ]
+      ],
+      "sourceObject": "spinal_cord_bp3d43_source/FJ4426_BP29816_FMA242005_Neural tissue of spinal cord.obj",
+      "sourceObjectType": "OBJ",
+      "sourceId": "FJ4426",
+      "sourceConceptId": "FMA242005",
+      "sourceMember": "spinal_cord_bp3d43_source/FJ4426_BP29816_FMA242005_Neural tissue of spinal cord.obj",
+      "sourceSha256": "16a3dbf5a0fbc6334df956071a8e27b4f538a9d1f18178919984df0856aa7053",
+      "representation": "source_anatomical_surface",
+      "expertReview": "pending",
+      "quality": {
+        "rawVertices": 8581,
+        "rawTriangles": 9952,
+        "removedDegenerateTriangles": 7,
+        "exportedVertices": 8576,
+        "uniquePositions": 4906,
+        "triangles": 9945,
+        "signedVolumeCm3": 27.948795005228703,
+        "boundaryEdgesAfterExactPositionWeld": 3,
+        "nonManifoldEdgesAfterExactPositionWeld": 3,
+        "componentsAfterExactPositionWeld": [
+          {
+            "vertices": 4906,
+            "boundsM": [
+              [
+                -0.009426100179553032,
+                1.1086711883544922,
+                -0.07428660243749619
+              ],
+              [
+                0.008121469989418983,
+                1.560501217842102,
+                -0.02685770019888878
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/spinal-cord-bp3d43.bin",
+      "bytes": 273708,
+      "gzip": "/models/extensions/spinal-cord-bp3d43.bin.gz",
+      "gzipBytes": 156120,
+      "sha256": "d3b05d434a2e917e29355666f719bea38ae9a8d40983f2d8215216e2902f979d"
+    }
+  ],
+  "triangles": 9945,
+  "concepts": [
+    {
+      "id": "FMA242005",
+      "name": "Neural tissue of spinal cord",
+      "elements": [
+        "BP43-FJ4426"
+      ]
+    },
+    {
+      "id": "FMA7647",
+      "name": "Spinal cord",
+      "elements": [
+        "BP43-FJ4426"
+      ]
+    }
+  ],
+  "registration": {
+    "method": "Unmodified base-atlas BP3D mm-to-m axis conversion; five same-ID references spanning cervical to lumbar levels and central canal, no fitting or deformation",
+    "matrixColumnVector": [
+      [
+        0.001,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0.001,
+        0.0781112
+      ],
+      [
+        0,
+        -0.001,
+        0,
+        -0.1
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "targetManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "measurements": [
+      {
+        "sourceId": "FJ3164",
+        "targetId": "FJ3164",
+        "name": "Fourth cervical vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.016673124890372572,
+        "p95Mm": 0.024864532315404805,
+        "maxMm": 0.12688947026617825
+      },
+      {
+        "sourceId": "FJ3156",
+        "targetId": "FJ3156",
+        "name": "Twelfth thoracic vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.03315689751160759,
+        "p95Mm": 0.09373015927849337,
+        "maxMm": 0.20348803082015365
+      },
+      {
+        "sourceId": "FJ3157",
+        "targetId": "FJ3157",
+        "name": "First lumbar vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.026589984737744956,
+        "p95Mm": 0.0640812490019011,
+        "maxMm": 0.20517023222055286
+      },
+      {
+        "sourceId": "FJ3171",
+        "targetId": "FJ3171",
+        "name": "Sixth thoracic vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.026477986011795754,
+        "p95Mm": 0.06241573028091788,
+        "maxMm": 0.23279653396457434
+      },
+      {
+        "sourceId": "FJ1737",
+        "targetId": "FJ1737",
+        "name": "Central canal of spinal cord",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.027222723489749807,
+        "p95Mm": 0.058337718655820936,
+        "maxMm": 0.09284889529226348
+      }
+    ]
+  },
+  "limitations": [
+    "Degenerate source faces and unused vertices are omitted from the display export; original OBJ retained unchanged.",
+    "Source neural tissue of spinal cord surface; no separate spinal gray/white matter, segment parcels, roots or meninges included.",
+    "FMA7647 source aggregation also includes the existing central canal FJ1737; the extension should merge by concept ID and preserve that part.",
+    "Individual reference morphology; anatomical expert review pending.",
+    "Inactive candidate: binaries are staged in data/model-candidates, not in public assets or the extension registry."
+  ]
+}

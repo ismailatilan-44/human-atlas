@@ -153,6 +153,7 @@ export interface Atlas {
   version: string;
   sex?: "male";
   source?: string | { url: string };
+  extendsConceptIds?: string[];
   scope?: string;
   parts: Part[];
   concepts: Concept[];

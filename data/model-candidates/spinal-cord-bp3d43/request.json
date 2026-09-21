@@ -1,0 +1,39 @@
+{
+  "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "method": "POST",
+  "fields": {
+    "ids": [
+      "FJ4426",
+      "FJ1737"
+    ],
+    "rep_id": [
+      "BP29641",
+      "BP21401"
+    ],
+    "type": "art_file",
+    "all_downloads": 1
+  },
+  "versionBasis": "Official FMA2Obj.txt header Data Version 4.3; FMA7647 part_of includes FJ1737+FJ4426",
+  "manifestRows": [
+    {
+      "fj_id": "FJ1737",
+      "bp_id": "BP21401",
+      "fma_id": "FMA242789",
+      "name": "Central canal of spinal cord",
+      "faces": "728",
+      "verts": "427",
+      "bytes": "46544",
+      "mtime": "1779787486"
+    },
+    {
+      "fj_id": "FJ4426",
+      "bp_id": "BP29641",
+      "fma_id": "FMA242005",
+      "name": "Neural tissue of spinal cord",
+      "faces": "9952",
+      "verts": "8581",
+      "bytes": "852923",
+      "mtime": "1779787488"
+    }
+  ]
+}

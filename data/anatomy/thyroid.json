@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "scope": "Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy",
+  "entities": [],
+  "relations": [
+    {
+      "id": "FMA13369|part_of|FMA9603",
+      "subject": "FMA13369",
+      "predicate": "part_of",
+      "object": "FMA9603",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "Official 4.3 FMA2Obj part_of mapping / FMA9603; FMA13369 / BP43-FJ3671"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named thyroid lobe/isthmus membership in official source mapping; not a claim of complete gland microanatomy"
+      }
+    },
+    {
+      "id": "FMA13368|part_of|FMA9603",
+      "subject": "FMA13368",
+      "predicate": "part_of",
+      "object": "FMA9603",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "Official 4.3 FMA2Obj part_of mapping / FMA9603; FMA13368 / BP43-FJ3672"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named thyroid lobe/isthmus membership in official source mapping; not a claim of complete gland microanatomy"
+      }
+    },
+    {
+      "id": "FMA49178|part_of|FMA9603",
+      "subject": "FMA49178",
+      "predicate": "part_of",
+      "object": "FMA9603",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "Official 4.3 FMA2Obj part_of mapping / FMA9603; FMA49178 / BP43-FJ3670"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named thyroid lobe/isthmus membership in official source mapping; not a claim of complete gland microanatomy"
+      }
+    }
+  ]
+}

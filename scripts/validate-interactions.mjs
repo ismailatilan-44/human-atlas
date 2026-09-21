@@ -5,12 +5,27 @@ import {PointerTap} from '../app/pointer-tap.ts';
 import {createServer} from 'vite';
 // Use the app's bundler for its TypeScript and JSON dependency imports.
 const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
-let atlasTools;
-try { ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts')); }
+let atlasTools, mergeAtlas;
+try {
+  ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts'));
+  ({mergeAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
+}
 finally { await loader.close(); }
 
 for (const file of ['atlas.json']) {
-  const atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
+  let atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
+  const registry=JSON.parse(await readFile(new URL('../public/models/extensions/index.json',import.meta.url)));
+  for (const url of registry.manifests) {
+    const extension=JSON.parse(await readFile(new URL('../public'+url,import.meta.url)));
+    const previous=atlas;
+    atlas=mergeAtlas(atlas,extension);
+    for (const id of extension.extendsConceptIds ?? []) {
+      const original=previous.concepts.find(c=>c.id===id);
+      const merged=atlas.concepts.find(c=>c.id===id);
+      for (const part of original.elements) assert(merged.elements.includes(part), 'Existing geometry was lost during extension');
+      assert.throws(()=>mergeAtlas(previous,{...extension,extendsConceptIds:[]}), /yinelenen/);
+    }
+  }
   const groups=[atlas.parts,...[...new Set(atlas.parts.map(p=>p.system))].map(system=>atlas.parts.filter(p=>p.system===system))];
   for(const group of groups) for(const aspect of [.46,1,1.7]) {
     const layout=createExplosionLayout(group,aspect),cells=[...layout.cells.values()];
@@ -34,7 +49,7 @@ for (const file of ['atlas.json']) {
   assert.throws(()=>inspect.execute({id:'nonexistent-structure'}));
   assert.equal(selected,previous);
   assert.throws(()=>find.execute({query:' '}));
-  console.log(`${file}: packing at desktop/mobile aspect ratios and search/inspection contracts passed.`);
+  console.log(`${file} with ${atlas.parts.length} registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.`);
 }
 const tap=new PointerTap();
 tap.down(1,10,10,5);assert.equal(tap.up(1,12,11),true);

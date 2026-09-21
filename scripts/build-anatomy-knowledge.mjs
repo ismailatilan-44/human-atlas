@@ -76,6 +76,8 @@ export function buildKnowledge() {
   const forearm = JSON.parse(read('data/anatomy/forearm.json'));
   const knee = JSON.parse(read('data/anatomy/knee.json'));
   const sciatic = JSON.parse(read('data/anatomy/sciatic.json'));
+  const thyroid = JSON.parse(read('data/anatomy/thyroid.json'));
+  const spinalCord = JSON.parse(read('data/anatomy/spinal-cord.json'));
   const entities = atlas.concepts.map(c => ({
     id: c.id, name: c.name, kind: 'source_concept',
     side: sideOf(c.name),
@@ -84,7 +86,7 @@ export function buildKnowledge() {
     evidence: [{ sourceId: 'human-atlas', locator: `atlas.json / concepts / ${c.id}` }],
   }));
   const entityMap = new Map();
-  for (const entity of [...entities, ...pilot.entities, ...forearm.entities, ...knee.entities, ...sciatic.entities]) {
+  for (const entity of [...entities, ...pilot.entities, ...forearm.entities, ...knee.entities, ...sciatic.entities, ...thyroid.entities, ...spinalCord.entities]) {
     assert(!entityMap.has(entity.id), `Duplicate authored entity ${entity.id}`);
     entityMap.set(entity.id, entity);
   }
@@ -104,6 +106,7 @@ export function buildKnowledge() {
       assert(concept.elements.length, `Empty registered concept ${concept.id}`);
       for (const id of concept.elements) assert(localParts.has(id), `Missing extension part ${id}`);
       const previous = entityMap.get(concept.id);
+      if (previous?.geometryPartIds.length) assert(manifest.extendsConceptIds?.includes(concept.id), `Explicit concept extension required: ${concept.id}`);
       const side = sideOf(concept.name);
       assert(!previous?.side || !side || previous.side === side, `Extension laterality mismatch ${concept.id}`);
       const evidence = [{ sourceId: source.id, locator: `${url} / concepts / ${concept.id}; registration` }];
@@ -147,9 +150,9 @@ export function buildKnowledge() {
   });
   const graph = {
     schemaVersion: 1,
-    coverage: { structural: 'BodyParts3D source PART-OF snapshot', functional: `${pilot.scope}; ${forearm.scope}; ${knee.scope}; ${sciatic.scope}`, complete: false },
+    coverage: { structural: 'BodyParts3D source PART-OF snapshot', functional: `${pilot.scope}; ${forearm.scope}; ${knee.scope}; ${sciatic.scope}; ${thyroid.scope}; ${spinalCord.scope}`, complete: false },
     sources, geometryPartIds,
-    entities: [...entityMap.values()], relations: [...relations, ...pilot.relations, ...forearm.relations, ...knee.relations, ...sciatic.relations],
+    entities: [...entityMap.values()], relations: [...relations, ...pilot.relations, ...forearm.relations, ...knee.relations, ...sciatic.relations, ...thyroid.relations, ...spinalCord.relations],
     assetBindings,
   };
   validateKnowledge(graph);

@@ -41,3 +41,7 @@ Aynı sabit TA2.csv hash'i tekrar doğrulanarak bilateral median sinir, medial/l
 Siyatik sinir sağ/sol kimlikleri, aynı sabit TA2.csv kaynağındaki 6569 / Sciatic nerve / Nervus ischiadicus satırına bağlandı. Türkçe Siyatik sinir etiketi editoryal çeviridir. Tiroid etiketi aday içindir; düşük detaylı kaynak aktif sahneye kabul edilmedi.
 
 Siyatik ilişkilerinin hedefleri TA2 2639/2640 (biceps femoris uzun/kısa baş), 2641 (semitendinosus), 2642 (semimembranosus) satırlarıyla iki taraflı etiketlendi.
+
+BodyParts3D 4.3 FMA9603 tiroid etiketi aynı TA2 3863 kaydına bağlandı. Sağ/sol loblar TA2 3864, isthmus TA2 3866; Türkçe etiketler editoryal, Latince kaynak terimi aynen korundu. Diz ilişkilerinin femur/tibia uçlarına TA2 1360/1397 yan işaretli etiketleri eklendi.
+
+FMA7647 omurilik / Medulla spinalis TA2 6049; FMA78497 merkez kanal / Canalis centralis TA2 6127. FMA242005 sinir dokusu için Türkçe editoryal etiket eklendi; doğrulanmış ayrı Latince satır olmadığından Latin alanı boş ve kaynak İngilizcesi yedek.

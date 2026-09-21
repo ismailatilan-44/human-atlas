@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "coverage": {
     "structural": "BodyParts3D source PART-OF snapshot",
-    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive",
+    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred",
     "complete": false
   },
   "sources": [
@@ -153,6 +153,39 @@
       "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/gluteal_tables.html",
       "retrievedOn": "2026-09-22",
       "use": "Selected anatomical facts with row/column or PDF page locators; no article text, slides or images redistributed"
+    },
+    {
+      "id": "bodyparts3d-4.3-live",
+      "title": "BodyParts3D live 4.3 reference anatomy",
+      "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+      "retrievedOn": "2026-09-22",
+      "license": {
+        "id": "CC-BY-SA-2.1-JP",
+        "url": "https://lifesciencedb.jp/bp3d/info_en/license/index.html"
+      },
+      "attribution": "/models/extensions/THYROID-BP3D43-ATTRIBUTION.md"
+    },
+    {
+      "id": "extension-thyroid-bp3d43",
+      "title": "BodyParts3D 4.3 thyroid lobes and isthmus",
+      "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+      "path": "public/models/extensions/thyroid-bp3d43.json",
+      "sha256": "1aeb6cb43a240baf4436767b6339f9ae99a2384f8bafaee44914c39f07de799b",
+      "retrievedOn": "2026-09-22",
+      "sourceId": "bodyparts3d-4.3-live",
+      "attribution": "/models/extensions/THYROID-BP3D43-ATTRIBUTION.md",
+      "use": "Official FMA component mapping and three unchanged source surfaces; nine independent neck reference comparisons"
+    },
+    {
+      "id": "extension-spinal-cord-bp3d43",
+      "title": "BodyParts3D 4.3 spinal cord neural tissue",
+      "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+      "path": "public/models/extensions/spinal-cord-bp3d43.json",
+      "sha256": "5aa8298fd162c654b570046c653b49e8107cccce01a8d2ab288dc95672c47184",
+      "retrievedOn": "2026-09-22",
+      "sourceId": "bodyparts3d-4.3-live",
+      "attribution": "/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md",
+      "use": "Official source tissue surface and FMA7647 component mapping; five independent reference comparisons"
     }
   ],
   "geometryPartIds": [
@@ -2403,7 +2436,11 @@
     "ZA-KNEE-PCL-L",
     "ZA-KNEE-PCL-R",
     "ZA-SCI-L",
-    "ZA-SCI-R"
+    "ZA-SCI-R",
+    "BP43-FJ3671",
+    "BP43-FJ3672",
+    "BP43-FJ3670",
+    "BP43-FJ4426"
   ],
   "entities": [
     {
@@ -81689,14 +81726,21 @@
       "name": "spinal cord",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
-        "FJ1737"
+        "FJ1737",
+        "BP43-FJ4426"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7647"
+        },
+        {
+          "sourceId": "extension-spinal-cord-bp3d43",
+          "locator": "/models/extensions/spinal-cord-bp3d43.json / concepts / FMA7647; registration"
         }
       ]
     },
@@ -100513,6 +100557,98 @@
         {
           "sourceId": "extension-sciatic-nerves",
           "locator": "/models/extensions/sciatic-nerves.json / concepts / atlas:right-sciatic-nerve; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA13369",
+      "name": "Left lobe of thyroid gland",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ3671"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA13369; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA13368",
+      "name": "Right lobe of thyroid gland",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ3672"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA13368; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA49178",
+      "name": "Isthmus of thyroid gland",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ3670"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA49178; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA9603",
+      "name": "Thyroid gland",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ3671",
+        "BP43-FJ3672",
+        "BP43-FJ3670"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA9603; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA242005",
+      "name": "Neural tissue of spinal cord",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ4426"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-spinal-cord-bp3d43",
+          "locator": "/models/extensions/spinal-cord-bp3d43.json / concepts / FMA242005; registration"
         }
       ]
     }
@@ -125158,6 +125294,71 @@
         "laterality": "instantiated from a general anatomical description; not specimen-validated",
         "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
       }
+    },
+    {
+      "id": "FMA13369|part_of|FMA9603",
+      "subject": "FMA13369",
+      "predicate": "part_of",
+      "object": "FMA9603",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "Official 4.3 FMA2Obj part_of mapping / FMA9603; FMA13369 / BP43-FJ3671"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named thyroid lobe/isthmus membership in official source mapping; not a claim of complete gland microanatomy"
+      }
+    },
+    {
+      "id": "FMA13368|part_of|FMA9603",
+      "subject": "FMA13368",
+      "predicate": "part_of",
+      "object": "FMA9603",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "Official 4.3 FMA2Obj part_of mapping / FMA9603; FMA13368 / BP43-FJ3672"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named thyroid lobe/isthmus membership in official source mapping; not a claim of complete gland microanatomy"
+      }
+    },
+    {
+      "id": "FMA49178|part_of|FMA9603",
+      "subject": "FMA49178",
+      "predicate": "part_of",
+      "object": "FMA9603",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "Official 4.3 FMA2Obj part_of mapping / FMA9603; FMA49178 / BP43-FJ3670"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named thyroid lobe/isthmus membership in official source mapping; not a claim of complete gland microanatomy"
+      }
+    },
+    {
+      "id": "FMA242005|part_of|FMA7647",
+      "subject": "FMA242005",
+      "predicate": "part_of",
+      "object": "FMA7647",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-spinal-cord-bp3d43",
+          "locator": "Official FMA2Obj 4.3 mapping: FMA242005 = FJ4426; FMA7647 part_of = FJ1737 + FJ4426"
+        }
+      ]
     }
   ],
   "assetBindings": [
@@ -125734,6 +125935,166 @@
         {
           "sourceId": "extension-sciatic-nerves",
           "locator": "/models/extensions/sciatic-nerves.json / concepts / atlas:right-sciatic-nerve; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA13369",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "thyroid_bp3d43_source/FJ3671_BP21433_FMA13369_Left lobe of thyroid gland.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ3671"
+      ],
+      "registrationSourceId": "extension-thyroid-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA13369; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA13368",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "thyroid_bp3d43_source/FJ3672_BP19828_FMA13368_Right lobe of thyroid gland.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ3672"
+      ],
+      "registrationSourceId": "extension-thyroid-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA13368; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA49178",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "thyroid_bp3d43_source/FJ3670_BP21406_FMA49178_Isthmus of thyroid gland.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ3670"
+      ],
+      "registrationSourceId": "extension-thyroid-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA49178; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA9603",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "thyroid_bp3d43_source/FJ3671_BP21433_FMA13369_Left lobe of thyroid gland.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ3671"
+      ],
+      "registrationSourceId": "extension-thyroid-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA9603; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA9603",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "thyroid_bp3d43_source/FJ3672_BP19828_FMA13368_Right lobe of thyroid gland.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ3672"
+      ],
+      "registrationSourceId": "extension-thyroid-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA9603; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA9603",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "thyroid_bp3d43_source/FJ3670_BP21406_FMA49178_Isthmus of thyroid gland.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ3670"
+      ],
+      "registrationSourceId": "extension-thyroid-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-thyroid-bp3d43",
+          "locator": "/models/extensions/thyroid-bp3d43.json / concepts / FMA9603; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA242005",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "spinal_cord_bp3d43_source/FJ4426_BP29816_FMA242005_Neural tissue of spinal cord.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ4426"
+      ],
+      "registrationSourceId": "extension-spinal-cord-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-spinal-cord-bp3d43",
+          "locator": "/models/extensions/spinal-cord-bp3d43.json / concepts / FMA242005; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7647",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "spinal_cord_bp3d43_source/FJ4426_BP29816_FMA242005_Neural tissue of spinal cord.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ4426"
+      ],
+      "registrationSourceId": "extension-spinal-cord-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-spinal-cord-bp3d43",
+          "locator": "/models/extensions/spinal-cord-bp3d43.json / concepts / FMA7647; registration"
         }
       ]
     }

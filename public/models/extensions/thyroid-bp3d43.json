@@ -1,0 +1,299 @@
+{
+  "version": "BodyParts3D 4.3 thyroid candidate 1",
+  "status": "registered_source_reference",
+  "sex": "male",
+  "source": {
+    "id": "bodyparts3d-4.3-live",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "downloadUrl": "https://lifesciencedb.jp/bp3d/download.cgi",
+    "license": "CC-BY-SA-2.1-JP",
+    "attribution": "/models/extensions/THYROID-BP3D43-ATTRIBUTION.md",
+    "archiveSha256": "42026590f461a479b4e35f6b2ac5a2835b34f0b42abec0ffb6d37d51792720bc",
+    "officialMappingSha256": "4d4fa81affbbbc8a071f35c72c4be95eefd185e12ef23dabd37d280261f8fe3f",
+    "licenseEvidenceSha256": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+  },
+  "parts": [
+    {
+      "id": "BP43-FJ3671",
+      "conceptId": "FMA13369",
+      "name": "Left lobe of thyroid gland",
+      "system": "endocrine",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 170676,
+      "indices": 256016,
+      "vertexCount": 14223,
+      "indexCount": 14223,
+      "bounds": [
+        [
+          0.0031918699387460947,
+          1.4488612413406372,
+          -0.008533899672329426
+        ],
+        [
+          0.0199241004884243,
+          1.4983311891555786,
+          0.010715999640524387
+        ]
+      ],
+      "sourceId": "FJ3671",
+      "sourceConceptId": "FMA13369",
+      "sourceObject": "thyroid_bp3d43_source/FJ3671_BP21433_FMA13369_Left lobe of thyroid gland.obj",
+      "sourceObjectType": "OBJ",
+      "sourceMember": "thyroid_bp3d43_source/FJ3671_BP21433_FMA13369_Left lobe of thyroid gland.obj",
+      "sourceSha256": "2a137c718b0f7f6150978730c78f9003db6dce5324e31ba5cb368d6ce7f57c58",
+      "representation": "source_anatomical_surface",
+      "expertReview": "pending",
+      "quality": {
+        "rawVertices": 14223,
+        "uniquePositions": 2440,
+        "triangles": 4741,
+        "signedVolumeCm3": 3.364329920274921,
+        "boundaryEdgesAfterExactPositionWeld": 263,
+        "nonManifoldEdgesAfterExactPositionWeld": 0
+      }
+    },
+    {
+      "id": "BP43-FJ3672",
+      "conceptId": "FMA13368",
+      "name": "Right lobe of thyroid gland",
+      "system": "endocrine",
+      "chunk": 0,
+      "positions": 312908,
+      "normals": 495104,
+      "indices": 586204,
+      "vertexCount": 15183,
+      "indexCount": 15183,
+      "bounds": [
+        [
+          -0.021273799240589142,
+          1.4483911991119385,
+          -0.008516100235283375
+        ],
+        [
+          -0.004390019923448563,
+          1.4978711605072021,
+          0.01155299972742796
+        ]
+      ],
+      "sourceId": "FJ3672",
+      "sourceConceptId": "FMA13368",
+      "sourceObject": "thyroid_bp3d43_source/FJ3672_BP19828_FMA13368_Right lobe of thyroid gland.obj",
+      "sourceObjectType": "OBJ",
+      "sourceMember": "thyroid_bp3d43_source/FJ3672_BP19828_FMA13368_Right lobe of thyroid gland.obj",
+      "sourceSha256": "579d28267ec22b2536878fe2c78947f812d60e3ce3b9e5621f1faab7ce6f63f2",
+      "representation": "source_anatomical_surface",
+      "expertReview": "pending",
+      "quality": {
+        "rawVertices": 15183,
+        "uniquePositions": 2614,
+        "triangles": 5061,
+        "signedVolumeCm3": 3.5155926423695285,
+        "boundaryEdgesAfterExactPositionWeld": 323,
+        "nonManifoldEdgesAfterExactPositionWeld": 0
+      }
+    },
+    {
+      "id": "BP43-FJ3670",
+      "conceptId": "FMA49178",
+      "name": "Isthmus of thyroid gland",
+      "system": "endocrine",
+      "chunk": 0,
+      "positions": 646936,
+      "normals": 709792,
+      "indices": 741220,
+      "vertexCount": 5238,
+      "indexCount": 5238,
+      "bounds": [
+        [
+          -0.005054399836808443,
+          1.448661208152771,
+          0.0030040000565350056
+        ],
+        [
+          0.003838790114969015,
+          1.466691255569458,
+          0.012556999921798706
+        ]
+      ],
+      "sourceId": "FJ3670",
+      "sourceConceptId": "FMA49178",
+      "sourceObject": "thyroid_bp3d43_source/FJ3670_BP21406_FMA49178_Isthmus of thyroid gland.obj",
+      "sourceObjectType": "OBJ",
+      "sourceMember": "thyroid_bp3d43_source/FJ3670_BP21406_FMA49178_Isthmus of thyroid gland.obj",
+      "sourceSha256": "798a3b54f78eb3cc20f118b914202855e003b252a7e479f022fe1c2d6b9b14c0",
+      "representation": "source_anatomical_surface",
+      "expertReview": "pending",
+      "quality": {
+        "rawVertices": 5238,
+        "uniquePositions": 968,
+        "triangles": 1746,
+        "signedVolumeCm3": 0.7161871508362222,
+        "boundaryEdgesAfterExactPositionWeld": 366,
+        "nonManifoldEdgesAfterExactPositionWeld": 0
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/thyroid-bp3d43.bin",
+      "bytes": 762172,
+      "gzip": "/models/extensions/thyroid-bp3d43.bin.gz",
+      "gzipBytes": 241625,
+      "sha256": "3ded7c49d98ffc389315a04dd65e9ce2bc34c0f6304553b5a090fd22efc8cc49"
+    }
+  ],
+  "triangles": 11548,
+  "concepts": [
+    {
+      "id": "FMA13369",
+      "name": "Left lobe of thyroid gland",
+      "elements": [
+        "BP43-FJ3671"
+      ]
+    },
+    {
+      "id": "FMA13368",
+      "name": "Right lobe of thyroid gland",
+      "elements": [
+        "BP43-FJ3672"
+      ]
+    },
+    {
+      "id": "FMA49178",
+      "name": "Isthmus of thyroid gland",
+      "elements": [
+        "BP43-FJ3670"
+      ]
+    },
+    {
+      "id": "FMA9603",
+      "name": "Thyroid gland",
+      "elements": [
+        "BP43-FJ3671",
+        "BP43-FJ3672",
+        "BP43-FJ3670"
+      ]
+    }
+  ],
+  "registration": {
+    "method": "Unmodified main atlas BP3D coordinate conversion; nine independent same-ID neck references, no fitted transform",
+    "matrixColumnVector": [
+      [
+        0.001,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0.001,
+        0.0781112
+      ],
+      [
+        0,
+        -0.001,
+        0,
+        -0.1
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "targetManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "measurements": [
+      {
+        "sourceId": "FJ3172",
+        "targetId": "FJ3172",
+        "name": "Seventh cervical vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.019974880792031458,
+        "p95Mm": 0.026953167434839997,
+        "maxMm": 0.16430311370640993
+      },
+      {
+        "sourceId": "FJ2541",
+        "targetId": "FJ2541",
+        "name": "Trachea",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.0813356751750048,
+        "p95Mm": 0.1934675412485376,
+        "maxMm": 0.3570692497305572
+      },
+      {
+        "sourceId": "FJ3170",
+        "targetId": "FJ3170",
+        "name": "Sixth cervical vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.021761292984806297,
+        "p95Mm": 0.049750732432585126,
+        "maxMm": 0.1785239583114162
+      },
+      {
+        "sourceId": "FJ2440",
+        "targetId": "FJ2440",
+        "name": "Cricoid cartilage",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.0071155570742570005,
+        "p95Mm": 0.003976330071964135,
+        "maxMm": 0.05772977237938903
+      },
+      {
+        "sourceId": "FJ3164",
+        "targetId": "FJ3164",
+        "name": "Fourth cervical vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.016673124890372572,
+        "p95Mm": 0.024864532315404805,
+        "maxMm": 0.12688947026617825
+      },
+      {
+        "sourceId": "FJ3161",
+        "targetId": "FJ3161",
+        "name": "Third cervical vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.0162715214007697,
+        "p95Mm": 0.006109603054937822,
+        "maxMm": 0.14463791740126908
+      },
+      {
+        "sourceId": "FJ2808",
+        "targetId": "FJ2808",
+        "name": "Thyroid cartilage",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.019541448349146926,
+        "p95Mm": 0.062363556935451925,
+        "maxMm": 0.10134557669516653
+      },
+      {
+        "sourceId": "FJ3167",
+        "targetId": "FJ3167",
+        "name": "Fifth cervical vertebra",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.01474054539868442,
+        "p95Mm": 0.0,
+        "maxMm": 0.16015292203519493
+      },
+      {
+        "sourceId": "FJ3201",
+        "targetId": "FJ3201",
+        "name": "Hyoid bone",
+        "role": "independent_reference_no_fit",
+        "rmsMm": 0.013533217771940652,
+        "p95Mm": 0.023025452719593886,
+        "maxMm": 0.12179820623714477
+      }
+    ]
+  },
+  "limitations": [
+    "Three source surfaces, separate left/right lobes and isthmus; no added smoothing, decimation or anatomical remodeling.",
+    "No blood vessels, nerves, fascia, parathyroids or pyramidal lobe included.",
+    "Individual male reference morphology, not a universal normal thyroid or clinical segmentation.",
+    "Exact-position-weld diagnostics find boundary edges in all three source surfaces; no watertight/manifold solid or clinical volume claim.",
+    "Source reference integrated for exploration; anatomical expert acceptance remains pending."
+  ]
+}

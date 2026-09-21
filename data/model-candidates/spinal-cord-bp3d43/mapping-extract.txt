@@ -1,0 +1,8 @@
+# Data Version	4.3
+# Objects set	4.3
+# Tree version	FMA3.0
+# FMA ID	is_a/part_of	model component
+FMA242005	is_a	FJ4426
+FMA242789	is_a	FJ1730+FJ1731+FJ1737+FJ1738+FJ1767+FJ1814
+FMA242005	part_of	FJ4426
+FMA7647	part_of	FJ1737+FJ4426

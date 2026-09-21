@@ -2,15 +2,17 @@
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
+**[Working model explorer](https://ismailatilan-44.github.io/human-atlas/)**
+
 **[Original upstream demo](https://human-atlas-seven.vercel.app)** — the local model-explorer changes below are not yet published there.
 
 ## Model explorer work
 
-This branch adds registered Z-Anatomy musculocutaneous, median and sciatic nerves plus bilateral menisci and cruciate ligaments (2,248 total meshes), six source-derived attachment markers, pilot Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus.
+This branch adds registered Z-Anatomy musculocutaneous, median and sciatic nerves plus bilateral menisci and cruciate ligaments and BodyParts3D 4.3 thyroid lobes/isthmus and spinal cord tissue (2,252 total meshes), six source-derived attachment markers, pilot Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus.
 
-Run locally to inspect the work. Read [delivery status](docs/model/2026-09-20-delivery-plan.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; nerve branches, brachial plexus, thyroid quality, full spinal cord and female pelvis remain open. Anatomical expert review is pending. The exported low-detail thyroid candidate is deliberately excluded from the active model registry after visual review.
+Run locally to inspect the work. Read [delivery status](docs/model/2026-09-20-delivery-plan.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; nerve branches, brachial plexus, detailed spinal segments/roots and female pelvis remain open. Anatomical expert review is pending. The low-detail Z-Anatomy thyroid candidate is deliberately excluded from the active model registry after visual review.
 
-The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md). Its CC BY-SA source declaration must not be replaced by the base atlas license.
+The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md), and [BodyParts3D 4.3 thyroid attribution](public/models/extensions/THYROID-BP3D43-ATTRIBUTION.md), and [spinal cord attribution](public/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md). Its CC BY-SA source declaration must not be replaced by the base atlas license.
 
 ## Explore
 

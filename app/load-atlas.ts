@@ -7,9 +7,19 @@ export function mergeAtlas(base: Atlas, extension: Atlas): Atlas {
   const conceptIds = new Set(base.concepts.map((c) => c.id));
   if (
     extension.parts.some((p) => partIds.has(p.id)) ||
-    extension.concepts.some((c) => conceptIds.has(c.id))
+    extension.concepts.some(
+      (c) => conceptIds.has(c.id) && !extension.extendsConceptIds?.includes(c.id),
+    )
   ) {
     throw new Error("Ek modelde yinelenen yapı kimliği var.");
+  }
+  const concepts = new Map(base.concepts.map((c) => [c.id, c]));
+  for (const concept of extension.concepts) {
+    const previous = concepts.get(concept.id);
+    concepts.set(concept.id, {
+      ...concept,
+      elements: [...new Set([...(previous?.elements ?? []), ...concept.elements])],
+    });
   }
   return prepareAtlas({
     ...base,
@@ -21,7 +31,7 @@ export function mergeAtlas(base: Atlas, extension: Atlas): Atlas {
         sourceUrl: typeof extension.source === "object" ? extension.source.url : undefined,
       })),
     ],
-    concepts: [...base.concepts, ...extension.concepts],
+    concepts: [...concepts.values()],
     chunks: [...base.chunks, ...extension.chunks],
     triangles: base.triangles + extension.triangles,
   });
