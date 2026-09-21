@@ -1,0 +1,1261 @@
+{
+  "version": "Z-Anatomy sciatic extension 1",
+  "sex": "male",
+  "scope": "Two sciatic nerve source curves from pelvic region through posterior thigh; all three splines per side preserved, separate tibial/common-fibular continuations omitted; expert anatomical review pending",
+  "parts": [
+    {
+      "id": "ZA-SCI-L",
+      "conceptId": "atlas:left-sciatic-nerve",
+      "name": "Left sciatic nerve",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 29808,
+      "indices": 44712,
+      "vertexCount": 2484,
+      "indexCount": 14688,
+      "bounds": [
+        [
+          0.016456201672554016,
+          0.5598978400230408,
+          -0.08445671945810318
+        ],
+        [
+          0.08128960430622101,
+          1.0058706998825073,
+          -0.031534139066934586
+        ]
+      ],
+      "sourceObject": "Sciatic nerve.l",
+      "sourceObjectType": "CURVE",
+      "sourceGeometry": {
+        "name": "Sciatic nerve.l",
+        "objectType": "CURVE",
+        "parent": "Sacral plexus.g",
+        "baseVertices": null,
+        "basePolygons": null,
+        "evaluatedVertices": 2484,
+        "evaluatedTriangles": 4896,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [],
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.05495322123169899
+          ],
+          [
+            0.0,
+            0.9999997615814209,
+            -3.258412846207648e-07,
+            0.045973069965839386
+          ],
+          [
+            0.0,
+            3.258412846207648e-07,
+            0.9999997615814209,
+            0.6734158992767334
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999995231628418,
+        "mirroredWindingCorrected": true,
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Left lower limb",
+          "Lumbosacral plexus",
+          "Nerves",
+          "Peripheral nervous system",
+          "Sciatic nerve"
+        ],
+        "curveSettings": {
+          "bevel_depth": 0.0005000000237487257,
+          "bevel_resolution": 4,
+          "resolution_u": 12,
+          "use_fill_caps": false
+        }
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-SCI-R",
+      "conceptId": "atlas:right-sciatic-nerve",
+      "name": "Right sciatic nerve",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 103464,
+      "normals": 133272,
+      "indices": 148176,
+      "vertexCount": 2484,
+      "indexCount": 14688,
+      "bounds": [
+        [
+          -0.08113567531108856,
+          0.5598350167274475,
+          -0.08441746979951859
+        ],
+        [
+          -0.016620900481939316,
+          1.0058462619781494,
+          -0.03147979453206062
+        ]
+      ],
+      "sourceObject": "Sciatic nerve.r",
+      "sourceObjectType": "CURVE",
+      "sourceGeometry": {
+        "name": "Sciatic nerve.r",
+        "objectType": "CURVE",
+        "parent": "Sacral plexus.g",
+        "baseVertices": null,
+        "basePolygons": null,
+        "evaluatedVertices": 2484,
+        "evaluatedTriangles": 4896,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [],
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.05495322123169899
+          ],
+          [
+            0.0,
+            0.9999997615814209,
+            1.4210852174103162e-14,
+            0.045973069965839386
+          ],
+          [
+            0.0,
+            -1.4210852174103162e-14,
+            0.9999997615814209,
+            0.6734158992767334
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999995231628418,
+        "mirroredWindingCorrected": false,
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Lumbosacral plexus",
+          "Nerves",
+          "Peripheral nervous system",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "curveSettings": {
+          "bevel_depth": 0.0005000000237487257,
+          "bevel_resolution": 4,
+          "resolution_u": 12,
+          "use_fill_caps": false
+        }
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "atlas:left-sciatic-nerve",
+      "name": "Left sciatic nerve",
+      "elements": [
+        "ZA-SCI-L"
+      ]
+    },
+    {
+      "id": "atlas:right-sciatic-nerve",
+      "name": "Right sciatic nerve",
+      "elements": [
+        "ZA-SCI-R"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/sciatic-nerves.bin",
+      "bytes": 206928,
+      "gzip": "/models/extensions/sciatic-nerves.bin.gz",
+      "gzipBytes": 114080,
+      "sha256": "d81e342e2254e7ec888a36992c0a1b7cedf37614c25b4b6f5219fed25fac3e0e"
+    }
+  ],
+  "triangles": 9792,
+  "source": {
+    "id": "zanatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "blenderVersion": "5.2.0 LTS",
+    "license": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)",
+    "attribution": "/models/extensions/SCIATIC-ATTRIBUTION.md",
+    "limitations": "Object-specific author/source provenance is not supplied by upstream; no blanket commercial clearance of the archive is asserted."
+  },
+  "targetAtlasSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+  "registration": {
+    "method": "Fresh labeled bidirectional nearest-surface similarity ICP using complete bilateral hip bones/femora and sacrum; eight nearby muscle meshes held out",
+    "initialization": "Matched bone centroids after axis conversion; no upper-arm or knee transform reused",
+    "matrixColumnVector": [
+      [
+        1.017976168661693,
+        -0.000332636025583992,
+        -0.00042994714698398685,
+        0.0003342913625739681
+      ],
+      [
+        0.0004124323652975845,
+        -0.05189054502995584,
+        1.016652829977103,
+        0.01309150338211551
+      ],
+      [
+        -0.0003541197802595032,
+        -1.01665285921704,
+        -0.05189040286423531,
+        0.03241474158421867
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 1.017976313803231,
+    "iterations": 39,
+    "lastTransformDelta": 5.6719168841517804e-08,
+    "converged": true,
+    "sourceUnits": "meters",
+    "sourceAxes": "X left, Y posterior, Z superior",
+    "targetUnits": "meters",
+    "targetAxes": "X left, Y superior, Z anterior",
+    "sourceSceneUnits": {
+      "system": "METRIC",
+      "scaleLength": 1.0
+    },
+    "measurements": [
+      {
+        "sourceObject": "Hip bone.l",
+        "targetPartId": "FJ3288",
+        "targetConceptId": "FMA16587",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 1894,
+          "rmsMm": 18.499606386804132,
+          "meanMm": 14.857709365279977,
+          "p95Mm": 34.03957711322273,
+          "maxMm": 35.82144639122405
+        },
+        "registeredBidirectional": {
+          "samples": 2880,
+          "rmsMm": 3.8275774311821738,
+          "meanMm": 3.190052801757597,
+          "p95Mm": 7.078931906516861,
+          "maxMm": 8.862441030276052
+        },
+        "nerveExtentBidirectional": {
+          "samples": 2711,
+          "rmsMm": 3.8010596443165645,
+          "meanMm": 3.160363270030481,
+          "p95Mm": 7.077279834740693,
+          "maxMm": 8.862441030276052
+        }
+      },
+      {
+        "sourceObject": "Hip bone.r",
+        "targetPartId": "FJ3152",
+        "targetConceptId": "FMA16586",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 1894,
+          "rmsMm": 18.49504010748588,
+          "meanMm": 14.857384275559543,
+          "p95Mm": 34.05516896353002,
+          "maxMm": 35.81622958676335
+        },
+        "registeredBidirectional": {
+          "samples": 2930,
+          "rmsMm": 3.8322312238945657,
+          "meanMm": 3.2186311954134137,
+          "p95Mm": 6.849043231542939,
+          "maxMm": 8.985268306485676
+        },
+        "nerveExtentBidirectional": {
+          "samples": 2760,
+          "rmsMm": 3.8172924528080623,
+          "meanMm": 3.1996396940233414,
+          "p95Mm": 6.841476338411663,
+          "maxMm": 8.985268306485676
+        }
+      },
+      {
+        "sourceObject": "Sacrum",
+        "targetPartId": "FJ3393",
+        "targetConceptId": "FMA16202",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 5832,
+          "rmsMm": 13.73583187312769,
+          "meanMm": 10.691960628160636,
+          "p95Mm": 28.573367451711643,
+          "maxMm": 31.68758632956164
+        },
+        "registeredBidirectional": {
+          "samples": 8603,
+          "rmsMm": 4.490485356181702,
+          "meanMm": 2.877264692955905,
+          "p95Mm": 6.378697746728667,
+          "maxMm": 29.0718070518162
+        },
+        "nerveExtentBidirectional": {
+          "samples": 8603,
+          "rmsMm": 4.490485356181702,
+          "meanMm": 2.877264692955905,
+          "p95Mm": 6.378697746728667,
+          "maxMm": 29.0718070518162
+        }
+      },
+      {
+        "sourceObject": "Femur.l",
+        "targetPartId": "FJ3259",
+        "targetConceptId": "FMA24475",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 1899,
+          "rmsMm": 10.177086726812966,
+          "meanMm": 7.80295784262862,
+          "p95Mm": 19.118945754638734,
+          "maxMm": 33.875089765573506
+        },
+        "registeredBidirectional": {
+          "samples": 2358,
+          "rmsMm": 2.7050585635039,
+          "meanMm": 2.1447411923659434,
+          "p95Mm": 5.507002218672027,
+          "maxMm": 7.926174734805804
+        },
+        "nerveExtentBidirectional": {
+          "samples": 1413,
+          "rmsMm": 2.3254263794642345,
+          "meanMm": 1.8609718747760853,
+          "p95Mm": 4.903800555841503,
+          "maxMm": 6.48922484859415
+        }
+      },
+      {
+        "sourceObject": "Femur.r",
+        "targetPartId": "FJ3365",
+        "targetConceptId": "FMA24474",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 1899,
+          "rmsMm": 10.183045916842367,
+          "meanMm": 7.823036434706356,
+          "p95Mm": 19.253318862827232,
+          "maxMm": 34.046327610145426
+        },
+        "registeredBidirectional": {
+          "samples": 2379,
+          "rmsMm": 2.6734476156527203,
+          "meanMm": 2.1234706588487358,
+          "p95Mm": 5.474172630383698,
+          "maxMm": 7.848920322115248
+        },
+        "nerveExtentBidirectional": {
+          "samples": 1428,
+          "rmsMm": 2.3401929481750203,
+          "meanMm": 1.8654249723088485,
+          "p95Mm": 4.88111470243149,
+          "maxMm": 7.008581685600744
+        }
+      },
+      {
+        "sourceObject": "Piriformis muscle.l",
+        "targetPartId": "FJ1428M",
+        "targetConceptId": "FMA22341",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 752,
+          "rmsMm": 19.29591085388909,
+          "meanMm": 18.08768043294406,
+          "p95Mm": 28.718737923521292,
+          "maxMm": 31.093998424876464
+        },
+        "registeredBidirectional": {
+          "samples": 1259,
+          "rmsMm": 1.9531871526660032,
+          "meanMm": 1.5615928875009208,
+          "p95Mm": 4.12349879553172,
+          "maxMm": 6.028939908559149
+        },
+        "nerveExtentBidirectional": {
+          "samples": 1259,
+          "rmsMm": 1.9531871526660032,
+          "meanMm": 1.5615928875009208,
+          "p95Mm": 4.12349879553172,
+          "maxMm": 6.028939908559149
+        }
+      },
+      {
+        "sourceObject": "Piriformis muscle.r",
+        "targetPartId": "FJ1428",
+        "targetConceptId": "FMA22340",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 752,
+          "rmsMm": 19.295979301740324,
+          "meanMm": 18.087605143283717,
+          "p95Mm": 28.718938172387578,
+          "maxMm": 31.09421803343018
+        },
+        "registeredBidirectional": {
+          "samples": 1263,
+          "rmsMm": 1.9419815471683128,
+          "meanMm": 1.5499670346673775,
+          "p95Mm": 4.123597956974585,
+          "maxMm": 6.07893422103731
+        },
+        "nerveExtentBidirectional": {
+          "samples": 1263,
+          "rmsMm": 1.9419815471683128,
+          "meanMm": 1.5499670346673775,
+          "p95Mm": 4.123597956974585,
+          "maxMm": 6.07893422103731
+        }
+      },
+      {
+        "sourceObject": "Gluteus maximus muscle.l",
+        "targetPartId": "FJ1418M",
+        "targetConceptId": "FMA22329",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 1663,
+          "rmsMm": 11.425300034444243,
+          "meanMm": 9.101582289010521,
+          "p95Mm": 21.600913147969113,
+          "maxMm": 36.82903714264011
+        },
+        "registeredBidirectional": {
+          "samples": 2999,
+          "rmsMm": 5.054927504368427,
+          "meanMm": 4.19825050543303,
+          "p95Mm": 9.712669327788866,
+          "maxMm": 14.088105809826413
+        },
+        "nerveExtentBidirectional": {
+          "samples": 2999,
+          "rmsMm": 5.054927504368427,
+          "meanMm": 4.19825050543303,
+          "p95Mm": 9.712669327788866,
+          "maxMm": 14.088105809826413
+        }
+      },
+      {
+        "sourceObject": "Gluteus maximus muscle.r",
+        "targetPartId": "FJ1418",
+        "targetConceptId": "FMA22328",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 1663,
+          "rmsMm": 11.425821499826922,
+          "meanMm": 9.10278391664528,
+          "p95Mm": 21.600943564647938,
+          "maxMm": 36.829151865985025
+        },
+        "registeredBidirectional": {
+          "samples": 2991,
+          "rmsMm": 5.070885068167529,
+          "meanMm": 4.207498367119717,
+          "p95Mm": 9.77794302420016,
+          "maxMm": 14.073875994142613
+        },
+        "nerveExtentBidirectional": {
+          "samples": 2991,
+          "rmsMm": 5.070885068167529,
+          "meanMm": 4.207498367119717,
+          "p95Mm": 9.77794302420016,
+          "maxMm": 14.073875994142613
+        }
+      },
+      {
+        "sourceObject": "Long head of biceps femoris.l",
+        "targetPartId": "FJ1395M",
+        "targetConceptId": "FMA45889",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 3623,
+          "rmsMm": 6.825612236433071,
+          "meanMm": 5.561682202987461,
+          "p95Mm": 13.561508062774607,
+          "maxMm": 17.91776906015092
+        },
+        "registeredBidirectional": {
+          "samples": 4349,
+          "rmsMm": 4.699302481398423,
+          "meanMm": 3.966631042429382,
+          "p95Mm": 8.536046264156212,
+          "maxMm": 13.254849161949988
+        },
+        "nerveExtentBidirectional": {
+          "samples": 3182,
+          "rmsMm": 4.214843153837861,
+          "meanMm": 3.612131841080085,
+          "p95Mm": 7.185473374126138,
+          "maxMm": 11.0061061715176
+        }
+      },
+      {
+        "sourceObject": "Long head of biceps femoris.r",
+        "targetPartId": "FJ1395",
+        "targetConceptId": "FMA45888",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 3623,
+          "rmsMm": 6.816325727273453,
+          "meanMm": 5.5531705763197525,
+          "p95Mm": 13.561474383449953,
+          "maxMm": 17.91769271993435
+        },
+        "registeredBidirectional": {
+          "samples": 4341,
+          "rmsMm": 4.659699631448537,
+          "meanMm": 3.941073926328322,
+          "p95Mm": 8.32839838986457,
+          "maxMm": 13.03136563267461
+        },
+        "nerveExtentBidirectional": {
+          "samples": 3171,
+          "rmsMm": 4.2257593903510875,
+          "meanMm": 3.6270127519974693,
+          "p95Mm": 7.201989255423891,
+          "maxMm": 10.831023221575466
+        }
+      },
+      {
+        "sourceObject": "Semitendinosus muscle.l",
+        "targetPartId": "FJ1436M",
+        "targetConceptId": "FMA22359",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 2158,
+          "rmsMm": 10.000743602215703,
+          "meanMm": 8.136717147469,
+          "p95Mm": 19.645312320856952,
+          "maxMm": 23.2670311662056
+        },
+        "registeredBidirectional": {
+          "samples": 2782,
+          "rmsMm": 4.955019906868964,
+          "meanMm": 3.978985016989299,
+          "p95Mm": 9.806824489761661,
+          "maxMm": 11.718500725904294
+        },
+        "nerveExtentBidirectional": {
+          "samples": 1717,
+          "rmsMm": 3.9046936099189664,
+          "meanMm": 3.1147806434776824,
+          "p95Mm": 7.504655898295164,
+          "maxMm": 10.777003846884345
+        }
+      },
+      {
+        "sourceObject": "Semitendinosus muscle.r",
+        "targetPartId": "FJ1436",
+        "targetConceptId": "FMA22358",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 2158,
+          "rmsMm": 9.989567933544157,
+          "meanMm": 8.12191260055534,
+          "p95Mm": 19.61658249409226,
+          "maxMm": 23.2666681628435
+        },
+        "registeredBidirectional": {
+          "samples": 2796,
+          "rmsMm": 4.9247417212982585,
+          "meanMm": 3.9568826194006252,
+          "p95Mm": 9.75271624032962,
+          "maxMm": 11.48034985037888
+        },
+        "nerveExtentBidirectional": {
+          "samples": 1719,
+          "rmsMm": 3.9080435316970035,
+          "meanMm": 3.11556072654918,
+          "p95Mm": 7.467288796918363,
+          "maxMm": 10.809078930935584
+        }
+      }
+    ],
+    "metric": "All vertices measured against opposite triangles in both directions, vertex-weighted not area-weighted. Additional nerve-extent metric spans the exported nerve vertical bounds +/-20 mm; it does not drive the fit. Axis baseline is one-way, not the symmetric registered statistic.",
+    "limitations": "Reference agreement is coordinate evidence, not validation of sciatic branch identities, root levels or anatomical path. No source path edits, piecewise transform, local warping or per-structure displacement."
+  },
+  "sourceExtent": [
+    {
+      "partId": "ZA-SCI-L",
+      "sourceObject": "Sciatic nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "cyclic": false,
+          "controlPointCount": 12,
+          "sourceWorldControlPoints": [
+            [
+              0.029755540192127228,
+              0.03256941959261894,
+              0.9779477715492249
+            ],
+            [
+              0.03032860904932022,
+              0.02700798399746418,
+              0.9648781418800354
+            ],
+            [
+              0.036578573286533356,
+              0.019975917413830757,
+              0.9467431306838989
+            ],
+            [
+              0.043854162096977234,
+              0.01821986958384514,
+              0.9202499389648438
+            ],
+            [
+              0.04865758866071701,
+              0.030568992719054222,
+              0.9003163576126099
+            ],
+            [
+              0.05299694463610649,
+              0.04874451085925102,
+              0.8844053745269775
+            ],
+            [
+              0.05266360938549042,
+              0.06356161087751389,
+              0.860442042350769
+            ],
+            [
+              0.06274556368589401,
+              0.06276074796915054,
+              0.8089743852615356
+            ],
+            [
+              0.0687769204378128,
+              0.050684913992881775,
+              0.7429169416427612
+            ],
+            [
+              0.07198262214660645,
+              0.040567461401224136,
+              0.6487572193145752
+            ],
+            [
+              0.07732699066400528,
+              0.03640076518058777,
+              0.5706820487976074
+            ],
+            [
+              0.07654892653226852,
+              0.03978976234793663,
+              0.5401191711425781
+            ]
+          ],
+          "pointRadii": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0,
+            12.0,
+            12.0,
+            10.0,
+            8.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "atlasControlPoints": [
+            [
+              0.03019342254724886,
+              1.005647100111288,
+              -0.05145369283888164
+            ],
+            [
+              0.030784262170694833,
+              0.9926486463976798,
+              -0.04512165802591331
+            ],
+            [
+              0.03715671303416999,
+              0.9745791113987062,
+              -0.03703366762650516
+            ],
+            [
+              0.04457506385314855,
+              0.9477388560297015,
+              -0.033876210617678024
+            ],
+            [
+              0.049469300246144585,
+              0.9268345024948254,
+              -0.04539832138337645
+            ],
+            [
+              0.05388745626609709,
+              0.9097172086614516,
+              -0.06305242319786368
+            ],
+            [
+              0.053553503189835684,
+              0.8845858143148709,
+              -0.07687268529553683
+            ],
+            [
+              0.06383908716936515,
+              0.8323067904198789,
+              -0.07339137848851117
+            ],
+            [
+              0.0700112826743557,
+              0.7657784125572499,
+              -0.05768883581027519
+            ],
+            [
+              0.07331845975094063,
+              0.6705769866468755,
+              -0.04251804798216419
+            ],
+            [
+              0.07879385372828318,
+              0.591420059918267,
+              -0.03423250485075108
+            ],
+            [
+              0.07801381610398765,
+              0.5601720460490885,
+              -0.03609174294870558
+            ]
+          ],
+          "atlasEndpoints": [
+            [
+              0.03019342254724886,
+              1.005647100111288,
+              -0.05145369283888164
+            ],
+            [
+              0.07801381610398765,
+              0.5601720460490885,
+              -0.03609174294870558
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "cyclic": false,
+          "controlPointCount": 4,
+          "sourceWorldControlPoints": [
+            [
+              0.020743172615766525,
+              0.038431864231824875,
+              0.9324549436569214
+            ],
+            [
+              0.029908182099461555,
+              0.03287903964519501,
+              0.9235824346542358
+            ],
+            [
+              0.04125278443098068,
+              0.031000902876257896,
+              0.9122042059898376
+            ],
+            [
+              0.04865758866071701,
+              0.030568992719054222,
+              0.9003163576126099
+            ]
+          ],
+          "pointRadii": [
+            1.0,
+            1.0,
+            2.0,
+            2.0
+          ],
+          "atlasControlPoints": [
+            [
+              0.021036656582569858,
+              0.9590887654513037,
+              -0.055049931318941245
+            ],
+            [
+              0.030372079601963364,
+              0.9503604231055215,
+              -0.04894748377079185
+            ],
+            [
+              0.04192613119129603,
+              0.9388948511554883,
+              -0.04645166713345904
+            ],
+            [
+              0.049469300246144585,
+              0.9268345024948254,
+              -0.04539832138337645
+            ]
+          ],
+          "atlasEndpoints": [
+            [
+              0.021036656582569858,
+              0.9590887654513037,
+              -0.055049931318941245
+            ],
+            [
+              0.049469300246144585,
+              0.9268345024948254,
+              -0.04539832138337645
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "cyclic": false,
+          "controlPointCount": 4,
+          "sourceWorldControlPoints": [
+            [
+              0.016562361270189285,
+              0.060710359364748,
+              0.9225463271141052
+            ],
+            [
+              0.029906002804636955,
+              0.0536663718521595,
+              0.9134965538978577
+            ],
+            [
+              0.04567347466945648,
+              0.0528695285320282,
+              0.8974764943122864
+            ],
+            [
+              0.05299694463610649,
+              0.04874451085925102,
+              0.8844053745269775
+            ]
+          ],
+          "pointRadii": [
+            1.0,
+            1.0,
+            2.0,
+            4.0
+          ],
+          "atlasControlPoints": [
+            [
+              0.016777539818437937,
+              0.947857374845085,
+              -0.07718378448265151
+            ],
+            [
+              0.03036728291185564,
+              0.9390279169949881,
+              -0.06955762330707627
+            ],
+            [
+              0.04642534634799402,
+              0.9227889297308163,
+              -0.06792180649518444
+            ],
+            [
+              0.05388745626609709,
+              0.9097172086614516,
+              -0.06305242319786368
+            ]
+          ],
+          "atlasEndpoints": [
+            [
+              0.016777539818437937,
+              0.947857374845085,
+              -0.07718378448265151
+            ],
+            [
+              0.05388745626609709,
+              0.9097172086614516,
+              -0.06305242319786368
+            ]
+          ]
+        }
+      ],
+      "atlasVerticalBoundsMeters": [
+        0.5598978400230408,
+        1.0058706998825073
+      ],
+      "omittedSeparateObjects": [
+        {
+          "sourceObject": "Tibial nerve.l",
+          "objectType": "CURVE",
+          "exported": false,
+          "sourceEndpointDistancesFromMainSciaticDistalMm": [
+            0.00017912410617129963,
+            482.9562617749745
+          ],
+          "nearestSourceEndpointDistanceMm": 0.00017912410617129963
+        },
+        {
+          "sourceObject": "Common fibular nerve.l",
+          "objectType": "CURVE",
+          "exported": false,
+          "sourceEndpointDistancesFromMainSciaticDistalMm": [
+            0.00017912410617129963,
+            161.69312117894353
+          ],
+          "nearestSourceEndpointDistanceMm": 0.00017912410617129963
+        }
+      ],
+      "limitations": "All three splines of this source object are preserved; individual proximal spline root/branch identities are not inferred. Separate tibial/common-fibular nerve objects and their distal branches are not exported. No claim of the complete lumbosacral plexus or nerve arborization."
+    },
+    {
+      "partId": "ZA-SCI-R",
+      "sourceObject": "Sciatic nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "cyclic": false,
+          "controlPointCount": 12,
+          "sourceWorldControlPoints": [
+            [
+              -0.029755540192127228,
+              0.032569520175457,
+              0.9779477715492249
+            ],
+            [
+              -0.03032860904932022,
+              0.02700807899236679,
+              0.9648781418800354
+            ],
+            [
+              -0.036578573286533356,
+              0.01997600682079792,
+              0.9467431306838989
+            ],
+            [
+              -0.043854162096977234,
+              0.018219949677586555,
+              0.9202499389648438
+            ],
+            [
+              -0.04865758866071701,
+              0.03056906722486019,
+              0.9003163576126099
+            ],
+            [
+              -0.05299694463610649,
+              0.04874458163976669,
+              0.8844053745269775
+            ],
+            [
+              -0.05266360938549042,
+              0.06356167793273926,
+              0.860442042350769
+            ],
+            [
+              -0.06274556368589401,
+              0.06276079267263412,
+              0.8089743256568909
+            ],
+            [
+              -0.0687769204378128,
+              0.050684936344623566,
+              0.7429169416427612
+            ],
+            [
+              -0.07198262214660645,
+              0.04056745022535324,
+              0.6487572193145752
+            ],
+            [
+              -0.07732699066400528,
+              0.03640073165297508,
+              0.5706820487976074
+            ],
+            [
+              -0.07654892653226852,
+              0.03978971764445305,
+              0.5401192307472229
+            ]
+          ],
+          "pointRadii": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0,
+            12.0,
+            12.0,
+            10.0,
+            8.0,
+            6.0,
+            5.0,
+            4.0
+          ],
+          "atlasControlPoints": [
+            [
+              -0.030387439088690002,
+              1.0056225505963456,
+              -0.051432721046002855
+            ],
+            [
+              -0.030963340342634597,
+              0.9926236244684097,
+              -0.04510027468200842
+            ],
+            [
+              -0.03731551877424235,
+              0.9745489343843304,
+              -0.03700785212968509
+            ],
+            [
+              -0.04470991999619296,
+              0.94770267812199,
+              -0.03384523279271874
+            ],
+            [
+              -0.04959523114094541,
+              0.9267943626999164,
+              -0.04536393590070814
+            ],
+            [
+              -0.05401179706032616,
+              0.9096734896781523,
+              -0.06301496062429938
+            ],
+            [
+              -0.053667095452744326,
+              0.8845423704813707,
+              -0.07683545501585691
+            ],
+            [
+              -0.06390788986284728,
+              0.8322549709004742,
+              -0.07334698195307712
+            ],
+            [
+              -0.07001524925234882,
+              0.7657216797414578,
+              -0.057640147998332655
+            ],
+            [
+              -0.0732347280513914,
+              0.670517611300573,
+              -0.04246705567950897
+            ],
+            [
+              -0.07864021364112954,
+              0.5913562773507113,
+              -0.034177704730923644
+            ],
+            [
+              -0.07783614979973748,
+              0.5601089664563461,
+              -0.036037485615604783
+            ]
+          ],
+          "atlasEndpoints": [
+            [
+              -0.030387439088690002,
+              1.0056225505963456,
+              -0.051432721046002855
+            ],
+            [
+              -0.07783614979973748,
+              0.5601089664563461,
+              -0.036037485615604783
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "cyclic": false,
+          "controlPointCount": 4,
+          "sourceWorldControlPoints": [
+            [
+              -0.020743172615766525,
+              0.03843194991350174,
+              0.9324549436569214
+            ],
+            [
+              -0.029908182099461555,
+              0.032879121601581573,
+              0.9235824346542358
+            ],
+            [
+              -0.04125278443098068,
+              0.031000981107354164,
+              0.9122042059898376
+            ],
+            [
+              -0.04865758866071701,
+              0.03056906722486019,
+              0.9003163576126099
+            ]
+          ],
+          "pointRadii": [
+            1.0,
+            1.0,
+            2.0,
+            2.0
+          ],
+          "atlasControlPoints": [
+            [
+              -0.021195454216503266,
+              0.9590716506937434,
+              -0.05503532729200586
+            ],
+            [
+              -0.03051955367579049,
+              0.9503357486481898,
+              -0.048926384934240535
+            ],
+            [
+              -0.04206257171807937,
+              0.9388608191291181,
+              -0.04642252981341116
+            ],
+            [
+              -0.04959523114094541,
+              0.9267943626999164,
+              -0.04536393590070814
+            ]
+          ],
+          "atlasEndpoints": [
+            [
+              -0.021195454216503266,
+              0.9590716506937434,
+              -0.05503532729200586
+            ],
+            [
+              -0.04959523114094541,
+              0.9267943626999164,
+              -0.04536393590070814
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "cyclic": false,
+          "controlPointCount": 4,
+          "sourceWorldControlPoints": [
+            [
+              -0.016562361270189285,
+              0.06071044132113457,
+              0.9225463271141052
+            ],
+            [
+              -0.029906002804636955,
+              0.05366645008325577,
+              0.9134965538978577
+            ],
+            [
+              -0.04567347466945648,
+              0.05286960303783417,
+              0.8974764943122864
+            ],
+            [
+              -0.05299694463610649,
+              0.04874458163976669,
+              0.8844053745269775
+            ]
+          ],
+          "pointRadii": [
+            1.0,
+            1.0,
+            2.0,
+            4.0
+          ],
+          "atlasControlPoints": [
+            [
+              -0.016942638348459913,
+              0.9478437088846563,
+              -0.07717213768437908
+            ],
+            [
+              -0.030519913424267187,
+              0.9390032445285873,
+              -0.06953652222666072
+            ],
+            [
+              -0.04656367118374969,
+              0.9227512514262909,
+              -0.06788953448009784
+            ],
+            [
+              -0.05401179706032616,
+              0.9096734896781523,
+              -0.06301496062429938
+            ]
+          ],
+          "atlasEndpoints": [
+            [
+              -0.016942638348459913,
+              0.9478437088846563,
+              -0.07717213768437908
+            ],
+            [
+              -0.05401179706032616,
+              0.9096734896781523,
+              -0.06301496062429938
+            ]
+          ]
+        }
+      ],
+      "atlasVerticalBoundsMeters": [
+        0.5598350167274475,
+        1.0058462619781494
+      ],
+      "omittedSeparateObjects": [
+        {
+          "sourceObject": "Tibial nerve.r",
+          "objectType": "CURVE",
+          "exported": false,
+          "sourceEndpointDistancesFromMainSciaticDistalMm": [
+            0.00011996360263306363,
+            482.9563195637645
+          ],
+          "nearestSourceEndpointDistanceMm": 0.00011996360263306363
+        },
+        {
+          "sourceObject": "Common fibular nerve.r",
+          "objectType": "CURVE",
+          "exported": false,
+          "sourceEndpointDistancesFromMainSciaticDistalMm": [
+            0.00011967404487884797,
+            161.6931805009074
+          ],
+          "nearestSourceEndpointDistanceMm": 0.00011967404487884797
+        }
+      ],
+      "limitations": "All three splines of this source object are preserved; individual proximal spline root/branch identities are not inferred. Separate tibial/common-fibular nerve objects and their distal branches are not exported. No claim of the complete lumbosacral plexus or nerve arborization."
+    }
+  ],
+  "existingAtlasContext": {
+    "namedSciaticParts": [],
+    "nervousPartsBelow105cm": [],
+    "scope": "Name/system and bounds audit of main atlas only; does not assert anatomical absence inside other surfaces."
+  }
+}

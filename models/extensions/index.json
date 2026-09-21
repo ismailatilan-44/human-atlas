@@ -1,0 +1,11 @@
+{
+  "manifests": [
+    "/models/extensions/upper-arm-nerves.json",
+    "/models/extensions/median-nerves.json",
+    "/models/extensions/knee-structures.json",
+    "/models/extensions/sciatic-nerves.json"
+  ],
+  "landmarks": [
+    "/models/extensions/upper-arm-landmarks.json"
+  ]
+}

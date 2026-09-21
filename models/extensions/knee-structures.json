@@ -1,0 +1,988 @@
+{
+  "version": "Z-Anatomy knee extension 1",
+  "sex": "male",
+  "scope": "Bilateral medial/lateral menisci and anterior/posterior cruciate ligaments; regional registration measured, anatomical expert review pending",
+  "parts": [
+    {
+      "id": "ZA-KNEE-MM-L",
+      "conceptId": "atlas:left-medial-meniscus",
+      "name": "Left medial meniscus",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 1728,
+      "indices": 2592,
+      "vertexCount": 144,
+      "indexCount": 852,
+      "bounds": [
+        [
+          0.04012042284011841,
+          0.43668127059936523,
+          -0.05024942755699158
+        ],
+        [
+          0.06502590328454971,
+          0.45221221446990967,
+          -0.007485711481422186
+        ]
+      ],
+      "sourceObject": "Medial meniscus.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Medial meniscus.l",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 36,
+        "basePolygons": 37,
+        "evaluatedVertices": 144,
+        "evaluatedTriangles": 284,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.05306379497051239
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.03859706223011017
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.42686066031455994
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.0,
+        "mirroredWindingCorrected": true,
+        "collections": [
+          "3: Joints",
+          "Lateral meniscus",
+          "Left lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-MM-R",
+      "conceptId": "atlas:right-medial-meniscus",
+      "name": "Right medial meniscus",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 6000,
+      "normals": 7728,
+      "indices": 8592,
+      "vertexCount": 144,
+      "indexCount": 852,
+      "bounds": [
+        [
+          -0.06499956548213959,
+          0.4366884231567383,
+          -0.05020701885223389
+        ],
+        [
+          -0.04008183628320694,
+          0.4522208273410797,
+          -0.007445869036018848
+        ]
+      ],
+      "sourceObject": "Medial meniscus.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Medial meniscus.r",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 36,
+        "basePolygons": 37,
+        "evaluatedVertices": 144,
+        "evaluatedTriangles": 284,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.05306379497051239
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.03859706223011017
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.42686066031455994
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 1.0,
+        "mirroredWindingCorrected": false,
+        "collections": [
+          "3: Joints",
+          "Lateral meniscus",
+          "Right lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-LM-L",
+      "conceptId": "atlas:left-lateral-meniscus",
+      "name": "Left lateral meniscus",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 12000,
+      "normals": 14832,
+      "indices": 16248,
+      "vertexCount": 236,
+      "indexCount": 1404,
+      "bounds": [
+        [
+          0.07361416518688202,
+          0.4418691098690033,
+          -0.03823701664805412
+        ],
+        [
+          0.10625961422920227,
+          0.4573461711406708,
+          -0.0011906453873962164
+        ]
+      ],
+      "sourceObject": "Lateral meniscus.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Lateral meniscus.l",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 60,
+        "basePolygons": 59,
+        "evaluatedVertices": 236,
+        "evaluatedTriangles": 468,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.09423816204071045
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.026797886937856674
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.43134805560112
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.0,
+        "mirroredWindingCorrected": true,
+        "collections": [
+          "3: Joints",
+          "Knee joint",
+          "Left lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-LM-R",
+      "conceptId": "atlas:right-lateral-meniscus",
+      "name": "Right lateral meniscus",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 21864,
+      "normals": 24696,
+      "indices": 26112,
+      "vertexCount": 236,
+      "indexCount": 1404,
+      "bounds": [
+        [
+          -0.10621504485607147,
+          0.4418828785419464,
+          -0.03817125782370567
+        ],
+        [
+          -0.073564313352108,
+          0.45736104249954224,
+          -0.0011307531967759132
+        ]
+      ],
+      "sourceObject": "Lateral meniscus.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Lateral meniscus.r",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 60,
+        "basePolygons": 59,
+        "evaluatedVertices": 236,
+        "evaluatedTriangles": 468,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.09423816204071045
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.026797886937856674
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.43134805560112
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 1.0,
+        "mirroredWindingCorrected": false,
+        "collections": [
+          "3: Joints",
+          "Knee joint",
+          "Right lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-ACL-L",
+      "conceptId": "atlas:left-anterior-cruciate-ligament",
+      "name": "Left anterior cruciate ligament",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 31728,
+      "normals": 41808,
+      "indices": 46848,
+      "vertexCount": 840,
+      "indexCount": 4728,
+      "bounds": [
+        [
+          0.06460830569267273,
+          0.44485849142074585,
+          -0.036381784826517105
+        ],
+        [
+          0.085041843354702,
+          0.47320279479026794,
+          -0.012268174439668655
+        ]
+      ],
+      "sourceObject": "Anterior cruciate ligament.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Anterior cruciate ligament.l",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 840,
+        "basePolygons": 808,
+        "evaluatedVertices": 840,
+        "evaluatedTriangles": 1576,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [],
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.07625265419483185
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.037013594061136246
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.4392360746860504
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.0,
+        "mirroredWindingCorrected": true,
+        "collections": [
+          "3: Joints",
+          "Knee joint",
+          "Left lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-ACL-R",
+      "conceptId": "atlas:right-anterior-cruciate-ligament",
+      "name": "Right anterior cruciate ligament",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 65760,
+      "normals": 75840,
+      "indices": 80880,
+      "vertexCount": 840,
+      "indexCount": 4728,
+      "bounds": [
+        [
+          -0.08500475436449051,
+          0.4448683261871338,
+          -0.03633036091923714
+        ],
+        [
+          -0.0645609200000763,
+          0.4732145071029663,
+          -0.012220485135912895
+        ]
+      ],
+      "sourceObject": "Anterior cruciate ligament.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Anterior cruciate ligament.r",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 840,
+        "basePolygons": 808,
+        "evaluatedVertices": 840,
+        "evaluatedTriangles": 1576,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [],
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.07625265419483185
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.037013594061136246
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.4392360746860504
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 1.0,
+        "mirroredWindingCorrected": false,
+        "collections": [
+          "3: Joints",
+          "Knee joint",
+          "Right lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-PCL-L",
+      "conceptId": "atlas:left-posterior-cruciate-ligament",
+      "name": "Left posterior cruciate ligament",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 99792,
+      "normals": 104544,
+      "indices": 106920,
+      "vertexCount": 396,
+      "indexCount": 2364,
+      "bounds": [
+        [
+          0.05909280106425285,
+          0.43204760551452637,
+          -0.04402806609869003
+        ],
+        [
+          0.08160154521465302,
+          0.4689890742301941,
+          -0.026840640231966972
+        ]
+      ],
+      "sourceObject": "Posterior cruciate ligament.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Posterior cruciate ligament.l",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 396,
+        "basePolygons": 404,
+        "evaluatedVertices": 396,
+        "evaluatedTriangles": 788,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [],
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.07337118685245514
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.04467077925801277
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.4348120391368866
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.0,
+        "mirroredWindingCorrected": true,
+        "collections": [
+          "3: Joints",
+          "Knee joint",
+          "Left lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-KNEE-PCL-R",
+      "conceptId": "atlas:right-posterior-cruciate-ligament",
+      "name": "Right posterior cruciate ligament",
+      "system": "connective",
+      "chunk": 0,
+      "positions": 116376,
+      "normals": 121128,
+      "indices": 123504,
+      "vertexCount": 396,
+      "indexCount": 2364,
+      "bounds": [
+        [
+          -0.08157271146774292,
+          0.4320586621761322,
+          -0.043973878026008606
+        ],
+        [
+          -0.05905803292989731,
+          0.4689977169036865,
+          -0.026798101142048836
+        ]
+      ],
+      "sourceObject": "Posterior cruciate ligament.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Posterior cruciate ligament.r",
+        "objectType": "MESH",
+        "parent": "Knee joint.g",
+        "baseVertices": 396,
+        "basePolygons": 404,
+        "evaluatedVertices": 396,
+        "evaluatedTriangles": 788,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [],
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.07337118685245514
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            0.04467077925801277
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.4348120391368866
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 1.0,
+        "mirroredWindingCorrected": false,
+        "collections": [
+          "3: Joints",
+          "Knee joint",
+          "Right lower limb"
+        ]
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "expertReview": "pending"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "atlas:left-medial-meniscus",
+      "name": "Left medial meniscus",
+      "elements": [
+        "ZA-KNEE-MM-L"
+      ]
+    },
+    {
+      "id": "atlas:right-medial-meniscus",
+      "name": "Right medial meniscus",
+      "elements": [
+        "ZA-KNEE-MM-R"
+      ]
+    },
+    {
+      "id": "atlas:left-lateral-meniscus",
+      "name": "Left lateral meniscus",
+      "elements": [
+        "ZA-KNEE-LM-L"
+      ]
+    },
+    {
+      "id": "atlas:right-lateral-meniscus",
+      "name": "Right lateral meniscus",
+      "elements": [
+        "ZA-KNEE-LM-R"
+      ]
+    },
+    {
+      "id": "atlas:left-anterior-cruciate-ligament",
+      "name": "Left anterior cruciate ligament",
+      "elements": [
+        "ZA-KNEE-ACL-L"
+      ]
+    },
+    {
+      "id": "atlas:right-anterior-cruciate-ligament",
+      "name": "Right anterior cruciate ligament",
+      "elements": [
+        "ZA-KNEE-ACL-R"
+      ]
+    },
+    {
+      "id": "atlas:left-posterior-cruciate-ligament",
+      "name": "Left posterior cruciate ligament",
+      "elements": [
+        "ZA-KNEE-PCL-L"
+      ]
+    },
+    {
+      "id": "atlas:right-posterior-cruciate-ligament",
+      "name": "Right posterior cruciate ligament",
+      "elements": [
+        "ZA-KNEE-PCL-R"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/knee-structures.bin",
+      "bytes": 132960,
+      "gzip": "/models/extensions/knee-structures.bin.gz",
+      "gzipBytes": 63653,
+      "sha256": "506d10c89b029e4555cbb5565fb6ee909f2e74814729e7cac72e2767e17c595b"
+    }
+  ],
+  "triangles": 6232,
+  "source": {
+    "id": "zanatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "blenderVersion": "5.2.0 LTS",
+    "license": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)",
+    "attribution": "/models/extensions/KNEE-ATTRIBUTION.md",
+    "limitations": "Object-specific author/source provenance is not supplied by upstream. No blanket commercial clearance of the archive is asserted."
+  },
+  "targetAtlasSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+  "registration": {
+    "method": "Labeled bidirectional nearest-surface similarity ICP; whole-bone initialization followed by knee-local bilateral femur/tibia/fibula fit, bilateral patella held out",
+    "initialization": "Fresh matched bone centroids after axis conversion; no upper-arm transform reused",
+    "matrixColumnVector": [
+      [
+        0.9650433872681523,
+        -0.0003414010572782547,
+        5.928917583336159e-05,
+        7.1908064691816415e-06
+      ],
+      [
+        -6.911023359026136e-05,
+        -0.027831025931344087,
+        0.9646420520583069,
+        0.0339093855727034
+      ],
+      [
+        -0.0003395492068829031,
+        -0.9646419941205155,
+        -0.027831048586231484,
+        0.020601257672714937
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 0.9650434494777307,
+    "iterations": 36,
+    "lastTransformDelta": 8.60309282077476e-08,
+    "converged": true,
+    "wholeBoneInitialization": {
+      "matrixRowVector": [
+        [
+          1.019628933555007,
+          -0.00012721255987364484,
+          -0.00042392679961216926
+        ],
+        [
+          -0.0004280826882108162,
+          -0.03535311869490239,
+          -1.0190158643432603
+        ],
+        [
+          0.0001124374442665412,
+          1.0190159463202706,
+          -0.035353168773285315
+        ]
+      ],
+      "translation": [
+        -4.615460702395266e-05,
+        0.00964166182388565,
+        0.021546057332847375
+      ],
+      "iterations": 59,
+      "lastTransformDelta": 9.824212560127776e-08
+    },
+    "fittingRegion": "Source and target vertex samples within +/-75 mm vertically of each knee structure center; fixed masks after whole-bone initialization. Nearest points restricted to corresponding labeled bone surfaces.",
+    "sourceUnits": "meters",
+    "sourceAxes": "X left, Y posterior, Z superior",
+    "targetUnits": "meters",
+    "targetAxes": "X left, Y superior, Z anterior",
+    "sourceSceneUnits": {
+      "system": "METRIC",
+      "scaleLength": 1.0
+    },
+    "measurements": [
+      {
+        "sourceObject": "Femur.l",
+        "targetPartId": "FJ3259",
+        "targetConceptId": "FMA24475",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 1899,
+          "rmsMm": 10.177086726812966,
+          "meanMm": 7.80295784262862,
+          "p95Mm": 19.118945754638734,
+          "maxMm": 33.875089765573506
+        },
+        "registeredBidirectional": {
+          "samples": 2358,
+          "rmsMm": 8.185770375092371,
+          "meanMm": 5.184492990493923,
+          "p95Mm": 20.202313371021322,
+          "maxMm": 29.5760796868937
+        },
+        "kneeLocalBidirectional": {
+          "samples": 980,
+          "rmsMm": 1.1374832236412062,
+          "meanMm": 0.942016537181126,
+          "p95Mm": 2.0867551571224414,
+          "maxMm": 3.7849268737557713
+        }
+      },
+      {
+        "sourceObject": "Femur.r",
+        "targetPartId": "FJ3365",
+        "targetConceptId": "FMA24474",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 1899,
+          "rmsMm": 10.183045916842367,
+          "meanMm": 7.823036434706356,
+          "p95Mm": 19.253318862827232,
+          "maxMm": 34.046327610145426
+        },
+        "registeredBidirectional": {
+          "samples": 2379,
+          "rmsMm": 8.219451361186213,
+          "meanMm": 5.227436536471944,
+          "p95Mm": 20.09332686966971,
+          "maxMm": 29.960607246899247
+        },
+        "kneeLocalBidirectional": {
+          "samples": 988,
+          "rmsMm": 1.1503231437018135,
+          "meanMm": 0.9334017849826958,
+          "p95Mm": 2.110547617520855,
+          "maxMm": 4.122121265933273
+        }
+      },
+      {
+        "sourceObject": "Tibia.l",
+        "targetPartId": "FJ3282",
+        "targetConceptId": "FMA24478",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 837,
+          "rmsMm": 12.157974039860926,
+          "meanMm": 10.383910313378538,
+          "p95Mm": 22.239349628218825,
+          "maxMm": 26.89886133215031
+        },
+        "registeredBidirectional": {
+          "samples": 1168,
+          "rmsMm": 8.197354007807926,
+          "meanMm": 4.601379122505954,
+          "p95Mm": 23.999128800840705,
+          "maxMm": 34.64503741805443
+        },
+        "kneeLocalBidirectional": {
+          "samples": 701,
+          "rmsMm": 2.754247440203771,
+          "meanMm": 2.122208535026256,
+          "p95Mm": 5.847642002872103,
+          "maxMm": 8.046478414684703
+        }
+      },
+      {
+        "sourceObject": "Tibia.r",
+        "targetPartId": "FJ3387",
+        "targetConceptId": "FMA24477",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 837,
+          "rmsMm": 12.176554539225142,
+          "meanMm": 10.403885162427395,
+          "p95Mm": 22.195244386701557,
+          "maxMm": 27.009437392668417
+        },
+        "registeredBidirectional": {
+          "samples": 1171,
+          "rmsMm": 8.280055987558177,
+          "meanMm": 4.680850040415075,
+          "p95Mm": 24.641300089068775,
+          "maxMm": 34.90753085932333
+        },
+        "kneeLocalBidirectional": {
+          "samples": 695,
+          "rmsMm": 2.759666752384291,
+          "meanMm": 2.1354416280569377,
+          "p95Mm": 5.969436529470534,
+          "maxMm": 8.006790839719278
+        }
+      },
+      {
+        "sourceObject": "Fibula.l",
+        "targetPartId": "FJ3260",
+        "targetConceptId": "FMA24481",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 653,
+          "rmsMm": 6.27075646404354,
+          "meanMm": 5.275484432294994,
+          "p95Mm": 10.434566125819883,
+          "maxMm": 12.559521393932862
+        },
+        "registeredBidirectional": {
+          "samples": 802,
+          "rmsMm": 7.7812117034207295,
+          "meanMm": 5.268867473683743,
+          "p95Mm": 17.094528186052585,
+          "maxMm": 35.00576025861267
+        },
+        "kneeLocalBidirectional": {
+          "samples": 362,
+          "rmsMm": 3.50474676229206,
+          "meanMm": 3.0155245403586357,
+          "p95Mm": 5.544178419104558,
+          "maxMm": 6.409114795915924
+        }
+      },
+      {
+        "sourceObject": "Fibula.r",
+        "targetPartId": "FJ3366",
+        "targetConceptId": "FMA24480",
+        "role": "fit",
+        "axisOnlySourceToTarget": {
+          "samples": 653,
+          "rmsMm": 6.292725611944449,
+          "meanMm": 5.2935450059992935,
+          "p95Mm": 10.458572250637282,
+          "maxMm": 13.364081400510253
+        },
+        "registeredBidirectional": {
+          "samples": 815,
+          "rmsMm": 7.59794802021121,
+          "meanMm": 5.18631370019432,
+          "p95Mm": 16.91390312561016,
+          "maxMm": 35.36899732100591
+        },
+        "kneeLocalBidirectional": {
+          "samples": 369,
+          "rmsMm": 3.4748709627101317,
+          "meanMm": 2.9759316155963873,
+          "p95Mm": 5.526306726756681,
+          "maxMm": 6.677424314890073
+        }
+      },
+      {
+        "sourceObject": "Patella.l",
+        "targetPartId": "FJ3275",
+        "targetConceptId": "FMA24487",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 140,
+          "rmsMm": 9.39783294359751,
+          "meanMm": 7.499406892045252,
+          "p95Mm": 16.552392705995892,
+          "maxMm": 16.94681380114215
+        },
+        "registeredBidirectional": {
+          "samples": 317,
+          "rmsMm": 2.7823444099851242,
+          "meanMm": 2.4036281162683863,
+          "p95Mm": 4.776477637628062,
+          "maxMm": 5.420613271359787
+        },
+        "kneeLocalBidirectional": {
+          "samples": 317,
+          "rmsMm": 2.7823444099851242,
+          "meanMm": 2.4036281162683863,
+          "p95Mm": 4.776477637628062,
+          "maxMm": 5.420613271359787
+        }
+      },
+      {
+        "sourceObject": "Patella.r",
+        "targetPartId": "FJ3381",
+        "targetConceptId": "FMA24486",
+        "role": "holdout",
+        "axisOnlySourceToTarget": {
+          "samples": 140,
+          "rmsMm": 9.296370391592786,
+          "meanMm": 7.432508295342921,
+          "p95Mm": 16.218267108333507,
+          "maxMm": 16.723038776917214
+        },
+        "registeredBidirectional": {
+          "samples": 316,
+          "rmsMm": 2.8991648556657377,
+          "meanMm": 2.5183409268506822,
+          "p95Mm": 4.851137515772484,
+          "maxMm": 5.412666821773722
+        },
+        "kneeLocalBidirectional": {
+          "samples": 316,
+          "rmsMm": 2.8991648556657377,
+          "meanMm": 2.5183409268506822,
+          "p95Mm": 4.851137515772484,
+          "maxMm": 5.412666821773722
+        }
+      }
+    ],
+    "metric": "All vertices measured against opposite triangles in both directions, vertex-weighted not area-weighted. Knee-local subset is within +/-100 mm vertically of the mean exported knee structure position. Axis baseline is one-way and is not the same symmetric statistic.",
+    "limitations": "Source edits and atlas simplification cause residual shape differences. Bone agreement does not establish ligament insertion or meniscus anatomical accuracy. No deformable fit or structure-specific displacement applied."
+  }
+}

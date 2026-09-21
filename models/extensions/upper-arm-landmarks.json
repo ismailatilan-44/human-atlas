@@ -1,0 +1,520 @@
+{
+  "version": 1,
+  "units": "meters",
+  "coordinateSystem": "Human Atlas: X left, Y superior, Z anterior",
+  "source": {
+    "id": "zanatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "blenderVersion": "5.2.0 LTS",
+    "license": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)",
+    "attribution": "/models/extensions/ATTRIBUTION.md",
+    "limitations": "Object-specific author/source provenance is not supplied by upstream. No relicensing or blanket commercial clearance of the full archive is asserted."
+  },
+  "registrationManifest": "/models/extensions/upper-arm-nerves.json",
+  "registrationMatrixColumnVector": [
+    [
+      0.9671866243240652,
+      0.00023528145636534935,
+      0.00012901103675774293,
+      -0.00016226786293687626
+    ],
+    [
+      -0.00012912181418719748,
+      0.00045542301809920784,
+      0.9671865457035801,
+      0.055526909678332625
+    ],
+    [
+      0.00023522068024667758,
+      -0.9671865257048943,
+      0.0004554544112290538,
+      0.0018153935748660074
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "anchors": [
+    {
+      "conceptId": "atlas:left-coracoid-process",
+      "status": "anchored_reference",
+      "position": [
+        0.13459472536072575,
+        1.3986121507546874,
+        -0.0018257371550266638
+      ],
+      "contextPartIds": [
+        "FJ3279"
+      ],
+      "sourceObject": "Coracobrachialis muscle.ol",
+      "representation": "attachment_surface_reference_point",
+      "source": {
+        "id": "zanatomy",
+        "objectName": "Coracobrachialis muscle.ol",
+        "objectType": "MESH",
+        "parentObject": "Scapula.l",
+        "collection": "2: Muscular insertions",
+        "sourceWorldPosition": [
+          0.13914252817630768,
+          0.0044524348340928555,
+          1.388668179512024
+        ],
+        "vertexCount": 130,
+        "triangleCount": 209,
+        "geometryMode": "authored_base_attachment_surface",
+        "unappliedDisplayModifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY"
+          },
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ]
+      },
+      "method": "Area-weighted triangle centroid projected to the same source attachment surface, then existing atlas registration transform",
+      "targetBone": {
+        "conceptId": "FMA13396",
+        "partId": "FJ3279",
+        "nearestSurfacePosition": [
+          0.13472886383533478,
+          1.3981587886810303,
+          -0.0018968154909089208
+        ],
+        "distanceMm": 0.4780947638209909
+      },
+      "quality": {
+        "sourceBoneDistanceMm": 0.0002470024753620237,
+        "centroidProjectionMm": 0.6613845471292734,
+        "registration": "shared six-bone similarity fit from upper-arm-nerves.json",
+        "expertReview": "pending"
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Coracobrachialis muscle.ol"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:left-coracoid-process"
+        }
+      ],
+      "limitations": [
+        "Coracobrachialis origin surface; representative point for the shared coracoid origin region, not the whole process",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ]
+    },
+    {
+      "conceptId": "atlas:left-supraglenoid-tubercle",
+      "status": "anchored_reference",
+      "position": [
+        0.13937074256478796,
+        1.4055664907314005,
+        -0.03314911234550305
+      ],
+      "contextPartIds": [
+        "FJ3279"
+      ],
+      "sourceObject": "Long head of biceps brachii.ol",
+      "representation": "attachment_surface_reference_point",
+      "source": {
+        "id": "zanatomy",
+        "objectName": "Long head of biceps brachii.ol",
+        "objectType": "MESH",
+        "parentObject": "Scapula.l",
+        "collection": "2: Muscular insertions",
+        "sourceWorldPosition": [
+          0.14407174289226532,
+          0.036843087524175644,
+          1.3958438634872437
+        ],
+        "vertexCount": 57,
+        "triangleCount": 80,
+        "geometryMode": "authored_base_attachment_surface",
+        "unappliedDisplayModifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY"
+          },
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ]
+      },
+      "method": "Area-weighted triangle centroid projected to the same source attachment surface, then existing atlas registration transform",
+      "targetBone": {
+        "conceptId": "FMA13396",
+        "partId": "FJ3279",
+        "nearestSurfacePosition": [
+          0.1395583301782608,
+          1.405839443206787,
+          -0.03320050239562988
+        ],
+        "distanceMm": 0.33519306452944875
+      },
+      "quality": {
+        "sourceBoneDistanceMm": 0.00013580714153249573,
+        "centroidProjectionMm": 0.28096442110836506,
+        "registration": "shared six-bone similarity fit from upper-arm-nerves.json",
+        "expertReview": "pending"
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Long head of biceps brachii.ol"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:left-supraglenoid-tubercle"
+        }
+      ],
+      "limitations": [
+        "Long-head biceps origin surface; representative attachment-region point, not a segmented tubercle",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ]
+    },
+    {
+      "conceptId": "atlas:left-radial-tuberosity",
+      "status": "anchored_reference",
+      "position": [
+        0.22623619366727565,
+        1.0832921528930979,
+        -0.0161311590142868
+      ],
+      "contextPartIds": [
+        "FJ3277"
+      ],
+      "sourceObject": "Biceps brachii muscle.el",
+      "representation": "attachment_surface_reference_point",
+      "source": {
+        "id": "zanatomy",
+        "objectName": "Biceps brachii muscle.el",
+        "objectType": "MESH",
+        "parentObject": "Radius.l",
+        "collection": "2: Muscular insertions",
+        "sourceWorldPosition": [
+          0.2339330017566681,
+          0.0191127248108387,
+          1.0626561641693115
+        ],
+        "vertexCount": 21,
+        "triangleCount": 25,
+        "geometryMode": "authored_base_attachment_surface",
+        "unappliedDisplayModifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY"
+          },
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ]
+      },
+      "method": "Area-weighted triangle centroid projected to the same source attachment surface, then existing atlas registration transform",
+      "targetBone": {
+        "conceptId": "FMA23465",
+        "partId": "FJ3277",
+        "nearestSurfacePosition": [
+          0.22723977267742157,
+          1.0831050872802734,
+          -0.016834795475006104
+        ],
+        "distanceMm": 1.2398619437590241
+      },
+      "quality": {
+        "sourceBoneDistanceMm": 0.15750734019093215,
+        "centroidProjectionMm": 0.44164471910335124,
+        "registration": "shared six-bone similarity fit from upper-arm-nerves.json",
+        "expertReview": "pending"
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Biceps brachii muscle.el"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:left-radial-tuberosity"
+        }
+      ],
+      "limitations": [
+        "Biceps distal insertion surface; representative attachment-region point, not the full radial tuberosity",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ]
+    },
+    {
+      "conceptId": "atlas:right-coracoid-process",
+      "status": "anchored_reference",
+      "position": [
+        -0.13455884448058877,
+        1.3986480834241009,
+        -0.00189119555177935
+      ],
+      "contextPartIds": [
+        "FJ3384"
+      ],
+      "sourceObject": "Coracobrachialis muscle.or",
+      "representation": "attachment_surface_reference_point",
+      "source": {
+        "id": "zanatomy",
+        "objectName": "Coracobrachialis muscle.or",
+        "objectType": "MESH",
+        "parentObject": "Scapula.r",
+        "collection": "2: Muscular insertions",
+        "sourceWorldPosition": [
+          -0.13914251327514648,
+          0.0044524348340928555,
+          1.388668179512024
+        ],
+        "vertexCount": 130,
+        "triangleCount": 209,
+        "geometryMode": "authored_base_attachment_surface",
+        "unappliedDisplayModifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY"
+          },
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ]
+      },
+      "method": "Area-weighted triangle centroid projected to the same source attachment surface, then existing atlas registration transform",
+      "targetBone": {
+        "conceptId": "FMA13395",
+        "partId": "FJ3384",
+        "nearestSurfacePosition": [
+          -0.13462479412555695,
+          1.398195743560791,
+          -0.0019050086848437786
+        ],
+        "distanceMm": 0.45739003689959645
+      },
+      "quality": {
+        "sourceBoneDistanceMm": 0.0002470024753620237,
+        "centroidProjectionMm": 0.6613845471292734,
+        "registration": "shared six-bone similarity fit from upper-arm-nerves.json",
+        "expertReview": "pending"
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Coracobrachialis muscle.or"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:right-coracoid-process"
+        }
+      ],
+      "limitations": [
+        "Coracobrachialis origin surface; representative point for the shared coracoid origin region, not the whole process",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ]
+    },
+    {
+      "conceptId": "atlas:right-supraglenoid-tubercle",
+      "status": "anchored_reference",
+      "position": [
+        -0.13931776835991772,
+        1.4056036963391072,
+        -0.03321688964873288
+      ],
+      "contextPartIds": [
+        "FJ3384"
+      ],
+      "sourceObject": "Long head of biceps brachii.or",
+      "representation": "attachment_surface_reference_point",
+      "source": {
+        "id": "zanatomy",
+        "objectName": "Long head of biceps brachii.or",
+        "objectType": "MESH",
+        "parentObject": "Scapula.r",
+        "collection": "2: Muscular insertions",
+        "sourceWorldPosition": [
+          -0.14407172799110413,
+          0.036843087524175644,
+          1.3958438634872437
+        ],
+        "vertexCount": 57,
+        "triangleCount": 80,
+        "geometryMode": "authored_base_attachment_surface",
+        "unappliedDisplayModifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY"
+          },
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ]
+      },
+      "method": "Area-weighted triangle centroid projected to the same source attachment surface, then existing atlas registration transform",
+      "targetBone": {
+        "conceptId": "FMA13395",
+        "partId": "FJ3384",
+        "nearestSurfacePosition": [
+          -0.13948489725589752,
+          1.4058504104614258,
+          -0.033281512558460236
+        ],
+        "distanceMm": 0.3049607912544161
+      },
+      "quality": {
+        "sourceBoneDistanceMm": 0.00013580714153249573,
+        "centroidProjectionMm": 0.28096442110836506,
+        "registration": "shared six-bone similarity fit from upper-arm-nerves.json",
+        "expertReview": "pending"
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Long head of biceps brachii.or"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:right-supraglenoid-tubercle"
+        }
+      ],
+      "limitations": [
+        "Long-head biceps origin surface; representative attachment-region point, not a segmented tubercle",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ]
+    },
+    {
+      "conceptId": "atlas:right-radial-tuberosity",
+      "status": "anchored_reference",
+      "position": [
+        -0.2262775469067792,
+        1.0833525646002682,
+        -0.0162412107738975
+      ],
+      "contextPartIds": [
+        "FJ3349"
+      ],
+      "sourceObject": "Biceps brachii muscle.er",
+      "representation": "attachment_surface_reference_point",
+      "source": {
+        "id": "zanatomy",
+        "objectName": "Biceps brachii muscle.er",
+        "objectType": "MESH",
+        "parentObject": "Radius.r",
+        "collection": "2: Muscular insertions",
+        "sourceWorldPosition": [
+          -0.2339330017566681,
+          0.0191127248108387,
+          1.0626561641693115
+        ],
+        "vertexCount": 21,
+        "triangleCount": 25,
+        "geometryMode": "authored_base_attachment_surface",
+        "unappliedDisplayModifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY"
+          },
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ]
+      },
+      "method": "Area-weighted triangle centroid projected to the same source attachment surface, then existing atlas registration transform",
+      "targetBone": {
+        "conceptId": "FMA23464",
+        "partId": "FJ3349",
+        "nearestSurfacePosition": [
+          -0.22827546298503876,
+          1.0835041999816895,
+          -0.017135126516222954
+        ],
+        "distanceMm": 2.194026717916131
+      },
+      "quality": {
+        "sourceBoneDistanceMm": 0.15750734019093215,
+        "centroidProjectionMm": 0.44164471910335124,
+        "registration": "shared six-bone similarity fit from upper-arm-nerves.json",
+        "expertReview": "pending"
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Biceps brachii muscle.er"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:right-radial-tuberosity"
+        }
+      ],
+      "limitations": [
+        "Biceps distal insertion surface; representative attachment-region point, not the full radial tuberosity",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "conceptId": "atlas:left-humerus-medial-midshaft",
+      "status": "unresolved",
+      "position": null,
+      "representation": "unanchored_landmark",
+      "source": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Humerus.l children, material slots, vertex groups and coracobrachialis object inventory"
+        }
+      ],
+      "limitations": [
+        "No dedicated coracobrachialis insertion patch or matching named midshaft marker was found. Humerus has only Bone/Cartilage material slots and no vertex groups.",
+        "The source coracobrachialis .o surface is parented to scapula and represents the origin; it cannot stand in for humeral insertion.",
+        "Neither the whole humerus center nor a guessed muscle endpoint was exported as a landmark."
+      ]
+    },
+    {
+      "conceptId": "atlas:right-humerus-medial-midshaft",
+      "status": "unresolved",
+      "position": null,
+      "representation": "unanchored_landmark",
+      "source": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Humerus.r children, material slots, vertex groups and coracobrachialis object inventory"
+        }
+      ],
+      "limitations": [
+        "No dedicated coracobrachialis insertion patch or matching named midshaft marker was found. Humerus has only Bone/Cartilage material slots and no vertex groups.",
+        "The source coracobrachialis .o surface is parented to scapula and represents the origin; it cannot stand in for humeral insertion.",
+        "Neither the whole humerus center nor a guessed muscle endpoint was exported as a landmark."
+      ]
+    }
+  ],
+  "limits": [
+    "Six anchors represent real source attachment surfaces; two humeral attachment anchors remain unresolved.",
+    "Named two-vertex label connectors were rejected as primary anchors: cached left world transforms are identity; explicit parent composition still leaves coracoid/supraglenoid label offsets inconsistent with the actual left attachment patches.",
+    "The Short head of biceps brachii.ol surface is parented to Scapula.r; its suffix was not trusted for laterality."
+  ]
+}
