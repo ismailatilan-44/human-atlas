@@ -1,0 +1,74 @@
+{
+  "retrieved": "2026-09-22",
+  "officialLatestEndpoints": [
+    {
+      "requestUrl": "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/latest/metadata.json",
+      "resolvedDataset": "https://lod.humanatlas.io/ref-organ/uterus-female/v1.2",
+      "version": "v1.2",
+      "capture": "uterus-female-metadata.json"
+    },
+    {
+      "requestUrl": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-left/latest/metadata.json",
+      "resolvedDataset": "https://lod.humanatlas.io/ref-organ/ovary-female-left/v1.3",
+      "version": "v1.3",
+      "capture": "ovary-female-left-metadata.json"
+    },
+    {
+      "requestUrl": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-right/latest/metadata.json",
+      "resolvedDataset": "https://lod.humanatlas.io/ref-organ/ovary-female-right/v1.3",
+      "version": "v1.3",
+      "capture": "ovary-female-right-metadata.json"
+    },
+    {
+      "requestUrl": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/latest/metadata.json",
+      "resolvedDataset": "https://lod.humanatlas.io/ref-organ/pelvis-female/v1.3",
+      "version": "v1.3",
+      "capture": "pelvis-female-metadata.json"
+    }
+  ],
+  "legacyGithubTree": {
+    "url": "https://api.github.com/repos/hubmapconsortium/ccf-3d-reference-object-library/git/trees/main?recursive=1",
+    "sha": "f1a3a63f110e27ff0736047d52d04dba5d3087f9",
+    "truncated": false,
+    "relevantPaths": [
+      "VH_Female/v1.0/VH_F_Pelvis_v1.0.fbx",
+      "VH_Female/v1.0/VH_F_Pelvis_v1.0.glb",
+      "VH_Female/v1.1/VH_F_Blood_Vasculature_of_Uterus.fbx",
+      "VH_Female/v1.1/VH_F_Blood_Vasculature_of_Uterus.glb",
+      "VH_Female/v1.1/VH_F_Ligaments_Uterus_Ovaries.fbx",
+      "VH_Female/v1.1/VH_F_Ligaments_Uterus_Ovaries.glb",
+      "VH_Female/v1.1/VH_F_Ovary_L.fbx",
+      "VH_Female/v1.1/VH_F_Ovary_L.glb",
+      "VH_Female/v1.1/VH_F_Ovary_R.fbx",
+      "VH_Female/v1.1/VH_F_Ovary_R.glb",
+      "VH_Female/v1.1/VH_F_Pelvis.fbx",
+      "VH_Female/v1.1/VH_F_Pelvis.glb",
+      "VH_Female/v1.1/VH_F_Uterus.fbx",
+      "VH_Female/v1.1/VH_F_Uterus.glb",
+      "VH_Female/v1.2/Extraction Sites/VH_F_Ovary_L_Landmarks.fbx",
+      "VH_Female/v1.2/Extraction Sites/VH_F_Ovary_L_Landmarks.glb",
+      "VH_Female/v1.2/Extraction Sites/VH_F_Ovary_R_Landmarks.fbx",
+      "VH_Female/v1.2/Extraction Sites/VH_F_Ovary_R_Landmarks.glb",
+      "VH_Female/v1.2/Extraction Sites/VH_F_Uterus_Landmarks.fbx",
+      "VH_Female/v1.2/Extraction Sites/VH_F_Uterus_Landmarks.glb",
+      "VH_Female/v1.2/VH_F_Blood_Vasculature_Uterus.fbx",
+      "VH_Female/v1.2/VH_F_Blood_Vasculature_Uterus.glb",
+      "VH_Female/v1.2/VH_F_Ligaments_Uterus_Ovaries.fbx",
+      "VH_Female/v1.2/VH_F_Ligaments_Uterus_Ovaries.glb",
+      "VH_Female/v1.2/VH_F_Ovary_L.fbx",
+      "VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "VH_Female/v1.2/VH_F_Ovary_R.fbx",
+      "VH_Female/v1.2/VH_F_Ovary_R.glb",
+      "VH_Female/v1.2/VH_F_Pelvis.fbx",
+      "VH_Female/v1.2/VH_F_Pelvis.glb",
+      "VH_Female/v1.2/VH_F_Uterus.fbx",
+      "VH_Female/v1.2/VH_F_Uterus.glb",
+      "VH_Female/v1.4/VHF_extraction_landmarks/3d-vh-f-ovary-l-landmark.fbx",
+      "VH_Female/v1.4/VHF_extraction_landmarks/3d-vh-f-ovary-l-landmark.glb",
+      "VH_Female/v1.4/VHF_extraction_landmarks/3d-vh-f-ovary-r-landmark.fbx",
+      "VH_Female/v1.4/VHF_extraction_landmarks/3d-vh-f-ovary-r-landmark.glb",
+      "VH_Female/v1.4/VHF_extraction_landmarks/3d-vh-f-uterus-landmark.fbx",
+      "VH_Female/v1.4/VHF_extraction_landmarks/3d-vh-f-uterus-landmark.glb"
+    ]
+  }
+}

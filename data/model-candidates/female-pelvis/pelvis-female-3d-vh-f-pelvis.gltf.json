@@ -1,0 +1,979 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for Autodesk MAYA 2023.2 v20220923.2"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        10,
+        17
+      ],
+      "name": "VH_F_pelvis"
+    },
+    {
+      "mesh": 0,
+      "name": "VH_F_sacrum",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "fused sacrum",
+        "ontologyid": "UBERON:0003690",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0003690",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "VH_F_coccyx",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "coccyx",
+        "ontologyid": "UBERON:0001350",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001350",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        4,
+        7
+      ],
+      "name": "VH_F_pubis"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "VH_F_pubis_spongy_bone"
+    },
+    {
+      "mesh": 2,
+      "name": "VH_F_pubis_spongy_bone_L",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "trabecular bone tissue",
+        "ontologyid": "UBERON:0002483",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002483",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "mesh": 3,
+      "name": "VH_F_pubis_spongy_bone_R",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "trabecular bone tissue",
+        "ontologyid": "UBERON:0002483",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002483",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        8,
+        9
+      ],
+      "name": "VH_F_pubis_compact_bone"
+    },
+    {
+      "mesh": 4,
+      "name": "VH_F_pubis_compact_bone_R",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "compact bone tissue",
+        "ontologyid": "UBERON:0001439",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001439",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "mesh": 5,
+      "name": "VH_F_pubis_compact_bone_L",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "compact bone tissue",
+        "ontologyid": "UBERON:0001439",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001439",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        11,
+        14
+      ],
+      "name": "VH_F_ilium"
+    },
+    {
+      "children": [
+        12,
+        13
+      ],
+      "name": "VH_F_ilium_compact_bone"
+    },
+    {
+      "mesh": 6,
+      "name": "VH_F_ilium_compact_bone_R",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "compact bone tissue",
+        "ontologyid": "UBERON:0001439",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001439",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "mesh": 7,
+      "name": "VH_F_ilium_compact_bone_L",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "compact bone tissue",
+        "ontologyid": "UBERON:0001439",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001439",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        15,
+        16
+      ],
+      "name": "VH_F_ilium_spongy_bone"
+    },
+    {
+      "mesh": 8,
+      "name": "VH_F_ilium_spongy_bone_L",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "trabecular bone tissue",
+        "ontologyid": "UBERON:0002483",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002483",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 9,
+      "name": "VH_F_ilium_spongy_bone_R",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "trabecular bone tissue",
+        "ontologyid": "UBERON:0002483",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002483",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "children": [
+        18,
+        21
+      ],
+      "name": "VH_F_ischium"
+    },
+    {
+      "children": [
+        19,
+        20
+      ],
+      "name": "VH_F_ischium_compact_bone"
+    },
+    {
+      "mesh": 10,
+      "name": "VH_F_ischium_compact_bone_R",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "compact bone tissue",
+        "ontologyid": "UBERON:0001439",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001439",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "mesh": 11,
+      "name": "VH_F_ischium_compact_bone_L",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "compact bone tissue",
+        "ontologyid": "UBERON:0001439",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0001439",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        22,
+        23
+      ],
+      "name": "VH_F_ischium_spongy_bone"
+    },
+    {
+      "mesh": 12,
+      "name": "VH_F_ischium_spongy_bone_R",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "trabecular bone tissue",
+        "ontologyid": "UBERON:0002483",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002483",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 13,
+      "name": "VH_F_ischium_spongy_bone_L",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFPelvis",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "trabecular bone tissue",
+        "ontologyid": "UBERON:0002483",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0002483",
+        "glb_file_of_single_organs": "VH_F_Pelvis&lf;",
+        "node_type": "surface"
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_sacrum"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_coccyx"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8
+          },
+          "indices": 6,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_pubis_spongy_bone_L"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11
+          },
+          "indices": 9,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_pubis_spongy_bone_R"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14
+          },
+          "indices": 12,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_pubis_compact_bone_R"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_pubis_compact_bone_L"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20
+          },
+          "indices": 18,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ilium_compact_bone_R"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 22,
+            "NORMAL": 23
+          },
+          "indices": 21,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ilium_compact_bone_L"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26
+          },
+          "indices": 24,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ilium_spongy_bone_L"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 28,
+            "NORMAL": 29
+          },
+          "indices": 27,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ilium_spongy_bone_R"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 31,
+            "NORMAL": 32
+          },
+          "indices": 30,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ischium_compact_bone_R"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 34,
+            "NORMAL": 35
+          },
+          "indices": 33,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ischium_compact_bone_L"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 37,
+            "NORMAL": 38
+          },
+          "indices": 36,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ischium_spongy_bone_R"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 40,
+            "NORMAL": 41
+          },
+          "indices": 39,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_ischium_spongy_bone_L"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 58908,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9786,
+      "max": [
+        0.05559626,
+        0.142881781,
+        -0.077560246
+      ],
+      "min": [
+        -0.0718221739,
+        0.0438412279,
+        -0.182454556
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 117432,
+      "componentType": 5126,
+      "count": 9786,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 117816,
+      "componentType": 5123,
+      "count": 4170,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 234864,
+      "componentType": 5126,
+      "count": 697,
+      "max": [
+        0.008286065,
+        0.0451690555,
+        -0.140327886
+      ],
+      "min": [
+        -0.023621263,
+        0.0182205718,
+        -0.178314477
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 243228,
+      "componentType": 5126,
+      "count": 697,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 126156,
+      "componentType": 5123,
+      "count": 6936,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 251592,
+      "componentType": 5126,
+      "count": 1203,
+      "max": [
+        0.08298981,
+        0.0520601943,
+        -0.0098499395
+      ],
+      "min": [
+        -0.00899343751,
+        -0.0370649621,
+        -0.0767849162
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 266028,
+      "componentType": 5126,
+      "count": 1203,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 140028,
+      "componentType": 5123,
+      "count": 6516,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 280464,
+      "componentType": 5126,
+      "count": 1132,
+      "max": [
+        -0.009307546,
+        0.0521613955,
+        -0.009593372
+      ],
+      "min": [
+        -0.100811459,
+        -0.0388361,
+        -0.07869211
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 294048,
+      "componentType": 5126,
+      "count": 1132,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 153060,
+      "componentType": 5123,
+      "count": 15240,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 307632,
+      "componentType": 5126,
+      "count": 2540,
+      "max": [
+        -0.008095011,
+        0.0528743975,
+        -0.008380246
+      ],
+      "min": [
+        -0.1016399,
+        -0.0400948562,
+        -0.07894393
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 338112,
+      "componentType": 5126,
+      "count": 2540,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 183540,
+      "componentType": 5123,
+      "count": 16128,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 368592,
+      "componentType": 5126,
+      "count": 2688,
+      "max": [
+        0.08353852,
+        0.0528367944,
+        -0.00863266
+      ],
+      "min": [
+        -0.0101935146,
+        -0.03830082,
+        -0.07702131
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 400848,
+      "componentType": 5126,
+      "count": 2688,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 215796,
+      "componentType": 5123,
+      "count": 35430,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 433104,
+      "componentType": 5126,
+      "count": 5907,
+      "max": [
+        -0.0520111136,
+        0.164658442,
+        -0.00394060137
+      ],
+      "min": [
+        -0.166996166,
+        0.0247490648,
+        -0.165550262
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 503988,
+      "componentType": 5126,
+      "count": 5907,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 286656,
+      "componentType": 5123,
+      "count": 38052,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 574872,
+      "componentType": 5126,
+      "count": 6344,
+      "max": [
+        0.149841726,
+        0.164003819,
+        0.000289921765
+      ],
+      "min": [
+        0.0310990941,
+        0.0256427284,
+        -0.165461272
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 651000,
+      "componentType": 5126,
+      "count": 6344,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 362760,
+      "componentType": 5123,
+      "count": 18066,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 727128,
+      "componentType": 5126,
+      "count": 3052,
+      "max": [
+        0.148623258,
+        0.162666261,
+        -0.0009347915
+      ],
+      "min": [
+        0.0323054,
+        0.0269521568,
+        -0.164234191
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 763752,
+      "componentType": 5126,
+      "count": 3052,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 398892,
+      "componentType": 5123,
+      "count": 16791,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 800376,
+      "componentType": 5126,
+      "count": 2838,
+      "max": [
+        -0.05321742,
+        0.1633057,
+        -0.00515670748
+      ],
+      "min": [
+        -0.165809736,
+        0.0254762974,
+        -0.164335623
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 834432,
+      "componentType": 5126,
+      "count": 2838,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 432476,
+      "componentType": 5123,
+      "count": 16170,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 868488,
+      "componentType": 5126,
+      "count": 2695,
+      "max": [
+        -0.04617209,
+        0.0481639467,
+        -0.05853817
+      ],
+      "min": [
+        -0.126990825,
+        -0.0468344279,
+        -0.126262426
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 900828,
+      "componentType": 5126,
+      "count": 2695,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 464816,
+      "componentType": 5123,
+      "count": 16176,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 933168,
+      "componentType": 5126,
+      "count": 2696,
+      "max": [
+        0.109789543,
+        0.04937872,
+        -0.0592191778
+      ],
+      "min": [
+        0.0269800946,
+        -0.04536852,
+        -0.123958968
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 965520,
+      "componentType": 5126,
+      "count": 2696,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 497168,
+      "componentType": 5123,
+      "count": 6873,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 997872,
+      "componentType": 5126,
+      "count": 1196,
+      "max": [
+        -0.0470986925,
+        0.0476474762,
+        -0.0594033748
+      ],
+      "min": [
+        -0.125854686,
+        -0.0454946049,
+        -0.125060856
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1012224,
+      "componentType": 5126,
+      "count": 1196,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 510916,
+      "componentType": 5123,
+      "count": 6888,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1026576,
+      "componentType": 5126,
+      "count": 1198,
+      "max": [
+        0.108600147,
+        0.0489828959,
+        -0.0600879528
+      ],
+      "min": [
+        0.027776489,
+        -0.04402396,
+        -0.122732788
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1040952,
+      "componentType": 5126,
+      "count": 1198,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 524692,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 524692,
+      "byteLength": 1055328,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1580020
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8352,
+          0.7372,
+          0.6705,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.249303535
+      },
+      "name": "Bone_Mat4"
+    }
+  ]
+}

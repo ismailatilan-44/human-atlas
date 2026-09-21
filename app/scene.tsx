@@ -155,6 +155,11 @@ export default function AnatomyScene({
             new T.Vector3().fromArray(p.bounds[1]),
           ),
       );
+    const referenceBounds = bounds.reduce((box, part) => box.union(part), new T.Box3());
+    const referenceCenter = referenceBounds.getCenter(new T.Vector3());
+    const referenceSize = referenceBounds.getSize(new T.Vector3());
+    const regionalReference = atlas.datasetId === "female-pelvis";
+    ground.visible = platform.visible = ring.visible = innerRing.visible = !regionalReference;
     let packingWidth = 1,
       packingHeight = 1;
     const markerPositions = new Float32Array(atlas.parts.length * 3),
@@ -351,7 +356,16 @@ export default function AnatomyScene({
           (2 * Math.tan(T.MathUtils.degToRad(camera.fov / 2)))) *
         (el.clientHeight / Math.max(160, el.clientHeight - reservedHeight)) *
         1.08;
-      const distance = T.MathUtils.lerp(normalDistance, Math.max(0.2, atlasDistance), extent);
+      const regionalDistance =
+        (Math.max(referenceSize.y, referenceSize.x / availableAspect, referenceSize.z) /
+          (2 * Math.tan(T.MathUtils.degToRad(camera.fov / 2)))) *
+        (el.clientHeight / Math.max(160, el.clientHeight - reservedHeight)) *
+        1.18;
+      const distance = T.MathUtils.lerp(
+        regionalReference ? regionalDistance : normalDistance,
+        Math.max(0.2, atlasDistance),
+        extent,
+      );
       if (extent > 0.8) view = "front";
       const direction =
         view === "front"
@@ -366,6 +380,7 @@ export default function AnatomyScene({
         extent > 0.1 || mobile ? 0.85 : 0.68,
         0,
       );
+      if (regionalReference && extent <= 0.1) controls.target.copy(referenceCenter);
       camera.position.copy(controls.target).addScaledVector(direction, distance);
       controls.update();
       dirty = true;

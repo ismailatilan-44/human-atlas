@@ -1,4 +1,5 @@
 import graph from "../data/anatomy/explorer.json";
+import { femalePelvisConcepts } from "./female-pelvis-labels";
 import type { Atlas, Concept } from "./anatomy";
 
 export const knowledgeEntities = new Map(graph.entities.map((entity) => [entity.id, entity]));
@@ -14,6 +15,8 @@ export const relationshipNames: Record<string, [string, string]> = {
 };
 
 export function explorerConcepts(atlas: Atlas): Concept[] {
+  if (atlas.datasetId === "female-pelvis" || atlas.sex === "female")
+    return femalePelvisConcepts(atlas.concepts);
   const concepts = new Map(atlas.concepts.map((c) => [c.id, c]));
   for (const entity of graph.entities) {
     if (!concepts.has(entity.id))

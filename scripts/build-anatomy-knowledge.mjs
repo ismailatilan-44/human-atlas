@@ -69,7 +69,7 @@ export function validateKnowledge(graph) {
 export function buildKnowledge() {
   const sources = JSON.parse(read('data/anatomy/sources.json'));
   for (const source of sources.filter(s => s.path)) {
-    assert.equal(hash(read(source.path)), source.sha256, `Changed source ${source.id}; re-review and update fingerprint`);
+    assert.equal(hash(fs.readFileSync(path.join(root, source.path))), source.sha256, `Changed source ${source.id}; re-review and update fingerprint`);
   }
   const atlas = JSON.parse(read('public/models/atlas.json'));
   const pilot = JSON.parse(read('data/anatomy/upper-arm.json'));

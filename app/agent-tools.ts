@@ -1,3 +1,4 @@
+import { femalePelvisConcepts, femalePelvisSearchTerms } from "./female-pelvis-labels";
 import { anatomySearchTerms } from "./atlas-metadata";
 import type { Atlas, Concept } from "./anatomy";
 type Tool = {
@@ -13,6 +14,9 @@ function record(input: unknown): Record<string, unknown> {
   return input as Record<string, unknown>;
 }
 export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): Tool[] {
+  const female = atlas.datasetId === "female-pelvis" || atlas.sex === "female";
+  const concepts = female ? femalePelvisConcepts(atlas.concepts) : atlas.concepts;
+  const searchTerms = female ? femalePelvisSearchTerms : anatomySearchTerms;
   return [
     {
       name: "find_anatomy",
@@ -29,10 +33,8 @@ export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): T
         if (typeof data.query !== "string" || !data.query.trim())
           throw new Error("A nonempty query is required.");
         const q = data.query.toLowerCase().trim();
-        return atlas.concepts
-          .filter((c) =>
-            anatomySearchTerms(c.id, c.name).some((term) => term.toLowerCase().includes(q)),
-          )
+        return concepts
+          .filter((c) => searchTerms(c.id, c.name).some((term) => term.toLowerCase().includes(q)))
           .slice(0, 30)
           .map((c) => ({ id: c.id, name: c.name, pieces: c.elements.length }));
       },
@@ -50,7 +52,7 @@ export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): T
       execute(input) {
         const data = record(input);
         if (typeof data.id !== "string") throw new Error("An atlas identifier is required.");
-        const concept = atlas.concepts.find((c) => c.id === data.id);
+        const concept = concepts.find((c) => c.id === data.id);
         if (!concept) throw new Error("That structure is not present in this atlas.");
         inspect(concept);
         return { id: concept.id, name: concept.name, selectedPieces: concept.elements.length };

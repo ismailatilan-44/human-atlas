@@ -1,0 +1,778 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for Autodesk MAYA 2023.2 v20220923.2"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "VH_F_cervicovaginal_junction",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "-",
+        "ontologyid": "-",
+        "representation_of": "-",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "VH_F_uterus"
+    },
+    {
+      "mesh": 1,
+      "name": "VH_F_abdominal_ostium_of_uterine_tube",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "Abdominal ostium of uterine tube",
+        "ontologyid": "FMA:77049",
+        "representation_of": "http://purl.org/sig/ont/fma/fma77049",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 2,
+      "name": "VH_F_body_of_uterus",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "body of uterus",
+        "ontologyid": "UBERON:0009853",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0009853",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 3,
+      "name": "VH_F_fundus_of_uterus",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "Fundus of uterus",
+        "ontologyid": "FMA:17561",
+        "representation_of": "http://purl.org/sig/ont/fma/fma17561",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 4,
+      "name": "VH_F_cornua",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "-",
+        "ontologyid": "-",
+        "representation_of": "-",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 5,
+      "name": "VH_F_lower_uterine_segment",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "Lower uterine segment",
+        "ontologyid": "FMA:17752",
+        "representation_of": "http://purl.org/sig/ont/fma/fma17752",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 6,
+      "name": "VH_F_posterior_wall_of_uterus",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "Posterior wall of uterus",
+        "ontologyid": "FMA:224878",
+        "representation_of": "http://purl.org/sig/ont/fma/fma224878",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "mesh": 7,
+      "name": "VH_F_anterior_wall_of_uterus",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "Anterior wall of uterus",
+        "ontologyid": "FMA:224876",
+        "representation_of": "http://purl.org/sig/ont/fma/fma224876",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "mesh"
+      }
+    },
+    {
+      "children": [
+        10,
+        11
+      ],
+      "mesh": 8,
+      "name": "VH_F_cervix",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "uterine cervix",
+        "ontologyid": "UBERON:0000002",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0000002",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 9,
+      "name": "VH_F_internal_cervical_os",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "internal cervical os",
+        "ontologyid": "UBERON:0013759",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0013759",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    },
+    {
+      "mesh": 10,
+      "name": "VH_F_external_cervical_os",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFUterus",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "external cervical os",
+        "ontologyid": "UBERON:0013760",
+        "representation_of": "http://purl.obolibrary.org/obo/UBERON_0013760",
+        "glb_file_of_single_organs": "VH_F_Uterus&lf;",
+        "node_type": "surface"
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_cervicovaginal_junction"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "indices": 3,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_abdominal_ostium_of_uterine_tube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8
+          },
+          "indices": 6,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_body_of_uterus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_fundus_of_uterus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14
+          },
+          "indices": 12,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_cornua"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17
+          },
+          "indices": 15,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_lower_uterine_segment"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20,
+            "COLOR_0": 21
+          },
+          "indices": 18,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_posterior_wall_of_uterus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 23,
+            "NORMAL": 24,
+            "COLOR_0": 25
+          },
+          "indices": 22,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_anterior_wall_of_uterus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27,
+            "NORMAL": 28
+          },
+          "indices": 26,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_cervix"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31
+          },
+          "indices": 29,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_internal_cervical_os"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 33,
+            "NORMAL": 34
+          },
+          "indices": 32,
+          "material": 1
+        }
+      ],
+      "name": "VH_F_external_cervical_os"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 11298,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1952,
+      "max": [
+        0.00682092644,
+        0.0256830789,
+        -0.06505817
+      ],
+      "min": [
+        -0.0314398557,
+        0.00240236754,
+        -0.09038803
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23424,
+      "componentType": 5126,
+      "count": 1952,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 22596,
+      "componentType": 5123,
+      "count": 1638,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 46848,
+      "componentType": 5126,
+      "count": 313,
+      "max": [
+        0.0127425669,
+        0.04311983,
+        -0.0398769
+      ],
+      "min": [
+        -0.039745044,
+        0.03946676,
+        -0.0421060175
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 50604,
+      "componentType": 5126,
+      "count": 313,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 25872,
+      "componentType": 5123,
+      "count": 16032,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 54360,
+      "componentType": 5126,
+      "count": 2823,
+      "max": [
+        0.008935681,
+        0.05152752,
+        -0.0380464345
+      ],
+      "min": [
+        -0.03418308,
+        0.021462068,
+        -0.0656968653
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 88236,
+      "componentType": 5126,
+      "count": 2823,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 57936,
+      "componentType": 5123,
+      "count": 9186,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 122112,
+      "componentType": 5126,
+      "count": 1640,
+      "max": [
+        0.008037347,
+        0.0532119721,
+        -0.0274966229
+      ],
+      "min": [
+        -0.0333702266,
+        0.0320986733,
+        -0.0495552048
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 141792,
+      "componentType": 5126,
+      "count": 1640,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 76308,
+      "componentType": 5123,
+      "count": 1980,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 161472,
+      "componentType": 5126,
+      "count": 369,
+      "max": [
+        0.0127253626,
+        0.0463655069,
+        -0.03626274
+      ],
+      "min": [
+        -0.0397431925,
+        0.0370500349,
+        -0.0459194928
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 165900,
+      "componentType": 5126,
+      "count": 369,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 80268,
+      "componentType": 5123,
+      "count": 4224,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 170328,
+      "componentType": 5126,
+      "count": 792,
+      "max": [
+        -0.00285782339,
+        0.0380339026,
+        -0.05686081
+      ],
+      "min": [
+        -0.02088935,
+        0.0176849179,
+        -0.0714337155
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 179832,
+      "componentType": 5126,
+      "count": 792,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 88716,
+      "componentType": 5123,
+      "count": 36066,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 189336,
+      "componentType": 5126,
+      "count": 6508,
+      "max": [
+        0.008844166,
+        0.04732662,
+        -0.0276852418
+      ],
+      "min": [
+        -0.03401535,
+        0.02139821,
+        -0.06136665
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 267432,
+      "componentType": 5126,
+      "count": 6508,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6508,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 160848,
+      "componentType": 5123,
+      "count": 30444,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 345528,
+      "componentType": 5126,
+      "count": 5584,
+      "max": [
+        0.008844166,
+        0.0529669933,
+        -0.0297267344
+      ],
+      "min": [
+        -0.03401535,
+        0.028414268,
+        -0.06570125
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 412536,
+      "componentType": 5126,
+      "count": 5584,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 104128,
+      "componentType": 5126,
+      "count": 5584,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 221736,
+      "componentType": 5123,
+      "count": 10524,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 479544,
+      "componentType": 5126,
+      "count": 1825,
+      "max": [
+        0.002692623,
+        0.0351530276,
+        -0.0619092919
+      ],
+      "min": [
+        -0.0246030521,
+        0.00621884549,
+        -0.08619217
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 501444,
+      "componentType": 5126,
+      "count": 1825,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 242784,
+      "componentType": 5123,
+      "count": 648,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 523344,
+      "componentType": 5126,
+      "count": 135,
+      "max": [
+        -0.009072574,
+        0.0269314181,
+        -0.0653721243
+      ],
+      "min": [
+        -0.0125250388,
+        0.0231526457,
+        -0.06961788
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524964,
+      "componentType": 5126,
+      "count": 135,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 244080,
+      "componentType": 5123,
+      "count": 810,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 526584,
+      "componentType": 5126,
+      "count": 162,
+      "max": [
+        -0.00685706735,
+        0.0201073736,
+        -0.0783288553
+      ],
+      "min": [
+        -0.0142222876,
+        0.0130490679,
+        -0.08413429
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 528528,
+      "componentType": 5126,
+      "count": 162,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 245700,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 245700,
+      "byteLength": 530472,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 776172,
+      "byteLength": 193472,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 969644
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.734,
+          0.399296045,
+          0.399296045,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2581639
+      },
+      "name": "BroadLigament_mat1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.62,
+          0.194060013,
+          0.194060013,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2581639
+      },
+      "name": "Uterus_Mat2"
+    }
+  ]
+}

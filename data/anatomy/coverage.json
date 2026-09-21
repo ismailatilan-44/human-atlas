@@ -5,7 +5,7 @@
   "complete": false,
   "unitOfCounting": "A target row may group both sides or several substructures; row counts are not anatomy counts.",
   "states": {
-    "existing": "Named current concept(s) with packaged geometry or a registered surface anchor; representation distinguishes anchors from geometry. No claim of complete or anatomically validated representation.",
+    "existing": "Named target has packaged geometry or a registered surface anchor in its declared dataset/reference. currentBindings address the male atlas; separateReference addresses another dataset. No claim of completeness or expert anatomical approval.",
     "partial": "Reviewed evidence shows that current geometry covers only part of the named target.",
     "missing": "No independent target record/geometry found in inspected main atlas and current extensions by the stated ID/name scope. Does not prove absence within another surface or all possible synonyms.",
     "unverified": "Semantic target or related surface exists, but independently inspectable representation/anchor has not been verified."
@@ -19,7 +19,7 @@
     {
       "id": "knowledge-snapshot",
       "path": "data/anatomy/knowledge.json",
-      "sha256": "62b1eb01662d37fb05b60acc6bc48d96f2f10d36cca91589187b330ef2b9435e"
+      "sha256": "5d7893712cdc3b2106a80530cd33504b79dcd54a3e5edf207558706e52efbba9"
     },
     {
       "id": "upper-arm-nerves",
@@ -89,6 +89,63 @@
       "id": "spinal-cord-bp3d43",
       "path": "public/models/extensions/spinal-cord-bp3d43.json",
       "sha256": "5aa8298fd162c654b570046c653b49e8107cccce01a8d2ab288dc95672c47184"
+    },
+    {
+      "id": "hra-uterus-female-v1.2",
+      "path": "data/model-candidates/female-pelvis/uterus-female-3d-vh-f-uterus.glb",
+      "sha256": "41014d2b222c2dbbe8d1cc38206b0099ce76d79659a9fdea9f28b8c7d669b864",
+      "datasetId": "female-pelvis",
+      "downloadVerified": true,
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/v1.2/assets/3d-vh-f-uterus.glb",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "hra-ovary-female-left-v1.3",
+      "path": "data/model-candidates/female-pelvis/ovary-female-left-3d-vh-f-ovary-l.glb",
+      "sha256": "defd5cdc4b053b4e92193c5864bab2abae1807864ffde8bde7a7cb57f4736609",
+      "datasetId": "female-pelvis",
+      "downloadVerified": true,
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-left/v1.3/assets/3d-vh-f-ovary-l.glb",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "hra-ovary-female-right-v1.3",
+      "path": "data/model-candidates/female-pelvis/ovary-female-right-3d-vh-f-ovary-r.glb",
+      "sha256": "381df741bf3d2511716e68db3ff70d94c0eda770d28a503af2d9fcb7b65113f8",
+      "datasetId": "female-pelvis",
+      "downloadVerified": true,
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-right/v1.3/assets/3d-vh-f-ovary-r.glb",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "hra-pelvis-female-v1.3",
+      "path": "data/model-candidates/female-pelvis/pelvis-female-3d-vh-f-pelvis.glb",
+      "sha256": "6ef3436e42b7203afcdfa075e57098e97c4e1aaaec08cfdacf6300ba3d5a551d",
+      "datasetId": "female-pelvis",
+      "downloadVerified": true,
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "reference-female-pelvis",
+      "path": "public/models/female-pelvis/atlas.json",
+      "sha256": "5d0fda078bb42a1826f3df44b4e4701a2640a59f368c7e3c40025d9e94e5a09f",
+      "datasetId": "female-pelvis",
+      "downloadVerified": true,
+      "url": "https://humanatlas.io/3d-reference-library",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "reference-female-pelvis-identity",
+      "path": "public/models/female-pelvis/female-pelvis.bin",
+      "sha256": "04ab163b300eb3152955f44542cbdc9fc7612d9538b170cb30345b309f9d67f1",
+      "datasetId": "female-pelvis"
+    },
+    {
+      "id": "reference-female-pelvis-gzip",
+      "path": "public/models/female-pelvis/female-pelvis.bin.gz",
+      "sha256": "de48dd42be30f775db56b02ca475289783b83c05b50151d8dd30437df38aef06",
+      "datasetId": "female-pelvis"
     }
   ],
   "regions": [
@@ -1354,11 +1411,11 @@
         },
         {
           "id": "coverage:uterus",
-          "nameTr": "Uterus — ayrı kadın referansı",
-          "state": "missing",
+          "nameTr": "Uterus — ayrı kadın pelvis referansı",
+          "state": "existing",
           "currentBindings": [],
           "expertReview": "pending",
-          "note": "Erkek temel atlasında yok; indirilen HRA organı ayrı kadın referansı ve koordinat bağlamı gerektirir.",
+          "note": "Ayrı kadın pelvis referansında kaynak geometrisi mevcut; erkek temel atlasına eklenmedi. HRA ortak kadın koordinatları korundu; bireysel donör kimliği kaynak metadatada yok, uzman anatomik incelemesi bekliyor. Uterus ana seçimi 10 yüzeydir; ayrı cervicovaginal junction yüzeyi bu aggregate dışında tutulur.",
           "candidateIds": [
             "hra-uterus"
           ],
@@ -1367,16 +1424,37 @@
               "uterus"
             ],
             "matches": [],
-            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+            "scope": "Historical case-insensitive name audit of male main atlas only; absence there is retained and does not describe the separate female reference."
+          },
+          "datasetId": "female-pelvis",
+          "representation": "separate_reference_geometry",
+          "separateReference": {
+            "datasetId": "female-pelvis",
+            "conceptId": "hra-female:uterus-female",
+            "nameTr": "Uterus",
+            "sourceId": "reference-female-pelvis",
+            "manifest": "/models/female-pelvis/atlas.json",
+            "geometryPartIds": [
+              "HRA-FP-VH_F_abdominal_ostium_of_uterine_tube",
+              "HRA-FP-VH_F_body_of_uterus",
+              "HRA-FP-VH_F_fundus_of_uterus",
+              "HRA-FP-VH_F_cornua",
+              "HRA-FP-VH_F_lower_uterine_segment",
+              "HRA-FP-VH_F_posterior_wall_of_uterus",
+              "HRA-FP-VH_F_anterior_wall_of_uterus",
+              "HRA-FP-VH_F_cervix",
+              "HRA-FP-VH_F_internal_cervical_os",
+              "HRA-FP-VH_F_external_cervical_os"
+            ]
           }
         },
         {
           "id": "coverage:left-ovary",
-          "nameTr": "Sol ovaryum — ayrı kadın referansı",
-          "state": "missing",
+          "nameTr": "Sol ovaryum — ayrı kadın pelvis referansı",
+          "state": "existing",
           "currentBindings": [],
           "expertReview": "pending",
-          "note": "Erkek temel atlasında yok; indirilen HRA sol ovaryum ayrı kadın referansında ele alınmalı.",
+          "note": "Ayrı kadın pelvis referansında kaynak geometrisi mevcut; erkek temel atlasına eklenmedi. HRA ortak kadın koordinatları korundu; bireysel donör kimliği kaynak metadatada yok, uzman anatomik incelemesi bekliyor. Her taraf kendi resmi GLB kaynağından gelir; sağ model solun aynalanmasıyla üretilmedi.",
           "candidateIds": [
             "hra-left-ovary"
           ],
@@ -1385,23 +1463,49 @@
               "ovary"
             ],
             "matches": [],
-            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+            "scope": "Historical case-insensitive name audit of male main atlas only; absence there is retained and does not describe the separate female reference."
+          },
+          "datasetId": "female-pelvis",
+          "representation": "separate_reference_geometry",
+          "separateReference": {
+            "datasetId": "female-pelvis",
+            "conceptId": "hra-female:ovary-female-left",
+            "nameTr": "Sol ovaryum",
+            "sourceId": "reference-female-pelvis",
+            "manifest": "/models/female-pelvis/atlas.json",
+            "geometryPartIds": [
+              "HRA-FP-VH_F_left_ovary"
+            ]
           }
         },
         {
           "id": "coverage:right-ovary",
-          "nameTr": "Sağ ovaryum — ayrı kadın referansı",
-          "state": "missing",
+          "nameTr": "Sağ ovaryum — ayrı kadın pelvis referansı",
+          "state": "existing",
           "currentBindings": [],
           "expertReview": "pending",
-          "note": "İncelenen temel atlas ve indirilmiş HRA örneklerinde eşleşme yok. Sol ovaryumu aynalamak onaylı bir sağ model üretmez.",
-          "candidateIds": [],
+          "note": "Ayrı kadın pelvis referansında kaynak geometrisi mevcut; erkek temel atlasına eklenmedi. HRA ortak kadın koordinatları korundu; bireysel donör kimliği kaynak metadatada yok, uzman anatomik incelemesi bekliyor. Her taraf kendi resmi GLB kaynağından gelir; sağ model solun aynalanmasıyla üretilmedi.",
+          "candidateIds": [
+            "hra-right-ovary"
+          ],
           "sourceNameAudit": {
             "queries": [
               "ovary"
             ],
             "matches": [],
-            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+            "scope": "Historical case-insensitive name audit of male main atlas only; absence there is retained and does not describe the separate female reference."
+          },
+          "datasetId": "female-pelvis",
+          "representation": "separate_reference_geometry",
+          "separateReference": {
+            "datasetId": "female-pelvis",
+            "conceptId": "hra-female:ovary-female-right",
+            "nameTr": "Sağ ovaryum",
+            "sourceId": "reference-female-pelvis",
+            "manifest": "/models/female-pelvis/atlas.json",
+            "geometryPartIds": [
+              "HRA-FP-VH_F_right_ovary"
+            ]
           }
         }
       ]
@@ -2136,10 +2240,27 @@
         {
           "id": "coverage:sciatic",
           "nameTr": "Siyatik sinirler",
-          "state": "missing",
-          "currentBindings": [],
+          "state": "partial",
+          "currentBindings": [
+            {
+              "sourceId": "extension-sciatic-nerves",
+              "conceptId": "atlas:left-sciatic-nerve",
+              "sourceName": "Left sciatic nerve",
+              "geometryPartIds": [
+                "ZA-SCI-L"
+              ]
+            },
+            {
+              "sourceId": "extension-sciatic-nerves",
+              "conceptId": "atlas:right-sciatic-nerve",
+              "sourceName": "Right sciatic nerve",
+              "geometryPartIds": [
+                "ZA-SCI-R"
+              ]
+            }
+          ],
           "expertReview": "pending",
-          "note": "Bağımsız hedef kavramı/parçası bulunamadı; indirilen Z-Anatomy nesneleri var. Alt ekstremite koordinat kaydı ve yakın plan inceleme yapılmalı.",
+          "note": "Kayıtlı sağ/sol siyatik ana gövdeleri pelvis ve arka uyluk boyunca mevcut. Ayrı tibial/common-fibular distal devamlar, tüm kök/pleksus ayrıntıları dahil değil; anatomik uzman incelemesi bekliyor.",
           "candidateIds": [
             "za-sciatic"
           ],
@@ -2149,7 +2270,8 @@
             ],
             "matches": [],
             "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
-          }
+          },
+          "datasetId": "male-body"
         },
         {
           "id": "coverage:medial-menisci",
@@ -2579,9 +2701,10 @@
         }
       ],
       "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
-      "readiness": "technical_trial",
-      "note": "3 spline/20 kontrol noktası/yan. Alt ekstremite kemik/kas referanslarıyla yeni kayıt gerekir; üst kol dönüşümü doğrulanmadan yeniden kullanılmaz.",
-      "expertReview": "pending"
+      "readiness": "registered_partial_geometry",
+      "note": "Pelvis/uyluk ana gövdeleri kayıtlı; ayrı tibial/common-fibular devamlar yok. Kaynak eğriler ve kayıt ölçümleri korunuyor.",
+      "expertReview": "pending",
+      "manifest": "/models/extensions/sciatic-nerves.json"
     },
     {
       "id": "za-medial-menisci",
@@ -2746,9 +2869,9 @@
     },
     {
       "id": "hra-uterus",
-      "sourceId": "hra-uterus.glb",
+      "sourceId": "hra-uterus-female-v1.2",
+      "datasetId": "female-pelvis",
       "nodeNames": [
-        "VH_F_uterus",
         "VH_F_abdominal_ostium_of_uterine_tube",
         "VH_F_body_of_uterus",
         "VH_F_fundus_of_uterus",
@@ -2760,24 +2883,42 @@
         "VH_F_internal_cervical_os",
         "VH_F_external_cervical_os"
       ],
-      "nodes": 11,
       "meshes": 10,
-      "matchMethod": "Downloaded GLB node names/header inventory; no cross-specimen registration.",
-      "readiness": "separate_female_reference",
-      "note": "Dosya ve SHA-256 doğrulandı. Erkek atlasına bağlamsız yerleştirilmez; ayrı kadın referans modu, birim/eksen/ölçek ve organ bağlamı gerekir.",
+      "matchMethod": "Official current GLB source nodes and HRA graph primary hierarchy; geometry arrays exactly preserved in separate female dataset.",
+      "readiness": "available_in_separate_female_reference",
+      "referenceSourceId": "reference-female-pelvis",
+      "conceptId": "hra-female:uterus-female",
+      "note": "Paketlenmiş ayrı kadın referansı; ana erkek atlasa aktarım değildir. Teknik ve yerel görsel kontroller geçti, uzman anatomik kabulü bekliyor.",
       "expertReview": "pending"
     },
     {
       "id": "hra-left-ovary",
-      "sourceId": "hra-ovary-l.glb",
+      "sourceId": "hra-ovary-female-left-v1.3",
+      "datasetId": "female-pelvis",
       "nodeNames": [
         "VH_F_left_ovary"
       ],
-      "nodes": 1,
       "meshes": 1,
-      "matchMethod": "Downloaded GLB node names/header inventory; no cross-specimen registration.",
-      "readiness": "separate_female_reference",
-      "note": "Dosya ve SHA-256 doğrulandı. Erkek atlasına bağlamsız yerleştirilmez; ayrı kadın referans modu, birim/eksen/ölçek ve organ bağlamı gerekir.",
+      "matchMethod": "Official current GLB source nodes and HRA graph primary hierarchy; geometry arrays exactly preserved in separate female dataset.",
+      "readiness": "available_in_separate_female_reference",
+      "referenceSourceId": "reference-female-pelvis",
+      "conceptId": "hra-female:ovary-female-left",
+      "note": "Paketlenmiş ayrı kadın referansı; ana erkek atlasa aktarım değildir. Teknik ve yerel görsel kontroller geçti, uzman anatomik kabulü bekliyor.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "hra-right-ovary",
+      "sourceId": "hra-ovary-female-right-v1.3",
+      "datasetId": "female-pelvis",
+      "nodeNames": [
+        "VH_F_right_ovary"
+      ],
+      "meshes": 1,
+      "matchMethod": "Official current GLB source nodes and HRA graph primary hierarchy; geometry arrays exactly preserved in separate female dataset.",
+      "readiness": "available_in_separate_female_reference",
+      "referenceSourceId": "reference-female-pelvis",
+      "conceptId": "hra-female:ovary-female-right",
+      "note": "Paketlenmiş ayrı kadın referansı; ana erkek atlasa aktarım değildir. Teknik ve yerel görsel kontroller geçti, uzman anatomik kabulü bekliyor.",
       "expertReview": "pending"
     }
   ],
@@ -2808,8 +2949,8 @@
       "candidateIds": [
         "za-sciatic"
       ],
-      "action": "Register curves against lower-limb references and inspect full path.",
-      "readyFor": "technical transfer trial",
+      "action": "Inspect or source the separate tibial/common-fibular continuations beyond the registered sciatic trunks.",
+      "readyFor": "distal continuation source review",
       "releaseReady": false
     },
     {
@@ -2836,9 +2977,9 @@
       "unverified": 0
     },
     "abdomen-pelvis": {
-      "existing": 13,
+      "existing": 16,
       "partial": 0,
-      "missing": 3,
+      "missing": 0,
       "unverified": 0
     },
     "upper-limb": {
@@ -2849,8 +2990,8 @@
     },
     "lower-limb": {
       "existing": 12,
-      "partial": 0,
-      "missing": 1,
+      "partial": 1,
+      "missing": 0,
       "unverified": 0
     }
   },
@@ -2861,7 +3002,8 @@
   ],
   "representations": {
     "surface_anchor": "A registered point derived from a source attachment surface, with context bone IDs; not an independently segmented whole anatomical structure.",
-    "unanchored_landmark": "Semantic attachment-region target without a resolved source point or position."
+    "unanchored_landmark": "Semantic attachment-region target without a resolved source point or position.",
+    "separate_reference_geometry": "Source geometry is available only in the separately named reference dataset; it is not present in or registered to the male atlas."
   },
   "surfaceAnchorSummary": {
     "targetRows": 3,
@@ -2869,5 +3011,42 @@
     "unresolvedLandmarkTargetRows": 1,
     "unresolvedLandmarkCount": 2,
     "geometryCompleteness": "not_asserted"
-  }
+  },
+  "defaultDatasetId": "male-body",
+  "datasets": [
+    {
+      "id": "male-body",
+      "nameTr": "Erkek temel atlası ve kayıtlı ek geometriler",
+      "bindingField": "currentBindings"
+    },
+    {
+      "id": "female-pelvis",
+      "nameTr": "Ayrı kadın pelvis referansı",
+      "bindingField": "separateReference",
+      "manifest": "/models/female-pelvis/atlas.json",
+      "coordinateFrameId": "HRA-native-VHFemaleOrgans-glTF",
+      "maleAtlasCompatible": false
+    }
+  ],
+  "summaryByDataset": {
+    "male-body": {
+      "existing": 57,
+      "partial": 2,
+      "missing": 2,
+      "unverified": 1
+    },
+    "female-pelvis": {
+      "existing": 3,
+      "partial": 0,
+      "missing": 0,
+      "unverified": 0
+    }
+  },
+  "summaryOverall": {
+    "existing": 60,
+    "partial": 2,
+    "missing": 2,
+    "unverified": 1
+  },
+  "summaryCountingScope": "Cross-dataset target-row counts only, not male geometry counts, anatomical structure counts or completeness percentages. The 3 female reference targets are excluded from male-body counts."
 }

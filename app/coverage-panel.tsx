@@ -15,11 +15,13 @@ export default function CoveragePanel({
   onOpenChange,
   concepts,
   onChoose,
+  onOpenFemaleReference,
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   concepts: Map<string, Concept>;
   onChoose: (concept: Concept) => void;
+  onOpenFemaleReference: () => void;
 }) {
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
@@ -56,6 +58,11 @@ export default function CoveragePanel({
                     <p>Kemik üzerinde tutunma yüzeyini gösteren referans noktası.</p>
                   )}
                   <div className="coverage-bindings">
+                    {"separateReference" in target && Boolean(target.separateReference) && (
+                      <Button variant="ghost" onClick={onOpenFemaleReference}>
+                        Kadın pelvis referansını aç →
+                      </Button>
+                    )}
                     {target.currentBindings.map((binding) => {
                       const concept = concepts.get(binding.conceptId);
                       return concept ? (

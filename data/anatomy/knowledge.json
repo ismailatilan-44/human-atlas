@@ -186,6 +186,262 @@
       "sourceId": "bodyparts3d-4.3-live",
       "attribution": "/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md",
       "use": "Official source tissue surface and FMA7647 component mapping; five independent reference comparisons"
+    },
+    {
+      "id": "hra-uterus-female-v1.2",
+      "title": "HRA uterus-female v1.2",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/v1.2/assets/3d-vh-f-uterus.glb",
+      "doi": "https://doi.org/10.48539/HBM627.VTKD.892",
+      "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. *3D Reference Organ for Uterus v1.1*. https://doi.org/10.48539/HBM627.VTKD.892. Accessed on June 15, 2024.",
+      "retrievedOn": "2026-09-22",
+      "path": "data/model-candidates/female-pelvis/uterus-female-3d-vh-f-uterus.glb",
+      "sha256": "41014d2b222c2dbbe8d1cc38206b0099ce76d79659a9fdea9f28b8c7d669b864",
+      "metadata": {
+        "path": "data/model-candidates/female-pelvis/uterus-female-metadata.json",
+        "sha256": "6b21c74108eb06a2d3e4b94addcaaf1d44e24c9926fec42acdbaa10cc73e75e9",
+        "dataset": "https://lod.humanatlas.io/ref-organ/uterus-female/v1.2"
+      },
+      "graph": {
+        "path": "data/model-candidates/female-pelvis/uterus-female-graph.json",
+        "sha256": "290d4f0722273ce48fbdc71dabcf71cf9be35751fe76f63b57912eb4a4054f4c"
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "/models/female-pelvis/ATTRIBUTION.md",
+      "datasetId": "female-pelvis",
+      "sex": "female",
+      "donorId": null,
+      "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+      "coordinateFrameId": "HRA-native-VHFemaleOrgans-glTF",
+      "use": "Original source geometry and placement provenance for the separate female pelvis reference; no male atlas geometry or anatomical relationships asserted"
+    },
+    {
+      "id": "hra-ovary-female-left-v1.3",
+      "title": "HRA ovary-female-left v1.3",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-left/v1.3/assets/3d-vh-f-ovary-l.glb",
+      "doi": "https://doi.org/10.48539/HBM695.KCXS.294",
+      "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Ovary, Female, Left v1.3.\" https://doi.org/10.48539/HBM695.KCXS.294. Accessed on December 15, 2024.",
+      "retrievedOn": "2026-09-22",
+      "path": "data/model-candidates/female-pelvis/ovary-female-left-3d-vh-f-ovary-l.glb",
+      "sha256": "defd5cdc4b053b4e92193c5864bab2abae1807864ffde8bde7a7cb57f4736609",
+      "metadata": {
+        "path": "data/model-candidates/female-pelvis/ovary-female-left-metadata.json",
+        "sha256": "a475b525c19da168f73ab82b6f45267900e84be474614749968285635490819f",
+        "dataset": "https://lod.humanatlas.io/ref-organ/ovary-female-left/v1.3"
+      },
+      "graph": {
+        "path": "data/model-candidates/female-pelvis/ovary-female-left-graph.json",
+        "sha256": "9f7c4ddc184d45781256a2d6e5de0e7b8efcecd05c4615beb52add6bfb41270d"
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "/models/female-pelvis/ATTRIBUTION.md",
+      "datasetId": "female-pelvis",
+      "sex": "female",
+      "donorId": null,
+      "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+      "coordinateFrameId": "HRA-native-VHFemaleOrgans-glTF",
+      "use": "Original source geometry and placement provenance for the separate female pelvis reference; no male atlas geometry or anatomical relationships asserted"
+    },
+    {
+      "id": "hra-ovary-female-right-v1.3",
+      "title": "HRA ovary-female-right v1.3",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-right/v1.3/assets/3d-vh-f-ovary-r.glb",
+      "doi": "https://doi.org/10.48539/HBM277.TVMB.676",
+      "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Ovary, Female, Right v1.3.\" https://doi.org/10.48539/HBM277.TVMB.676. Accessed on December 15, 2024.",
+      "retrievedOn": "2026-09-22",
+      "path": "data/model-candidates/female-pelvis/ovary-female-right-3d-vh-f-ovary-r.glb",
+      "sha256": "381df741bf3d2511716e68db3ff70d94c0eda770d28a503af2d9fcb7b65113f8",
+      "metadata": {
+        "path": "data/model-candidates/female-pelvis/ovary-female-right-metadata.json",
+        "sha256": "e68dd5f9048cdb73f8a0a5ac9791d787facf7541b4be08fe9ecc30cc338eed44",
+        "dataset": "https://lod.humanatlas.io/ref-organ/ovary-female-right/v1.3"
+      },
+      "graph": {
+        "path": "data/model-candidates/female-pelvis/ovary-female-right-graph.json",
+        "sha256": "d6091d6cb8fb3b4fefb835b3fab818ca963c558d72ee545727253c7ec437c25a"
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "/models/female-pelvis/ATTRIBUTION.md",
+      "datasetId": "female-pelvis",
+      "sex": "female",
+      "donorId": null,
+      "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+      "coordinateFrameId": "HRA-native-VHFemaleOrgans-glTF",
+      "use": "Original source geometry and placement provenance for the separate female pelvis reference; no male atlas geometry or anatomical relationships asserted"
+    },
+    {
+      "id": "hra-pelvis-female-v1.3",
+      "title": "HRA pelvis-female v1.3",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+      "doi": "https://doi.org/10.48539/HBM853.VCFM.778",
+      "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Pelvis, Female v1.3.\" https://doi.org/10.48539/HBM853.VCFM.778. Accessed on June 15, 2024.",
+      "retrievedOn": "2026-09-22",
+      "path": "data/model-candidates/female-pelvis/pelvis-female-3d-vh-f-pelvis.glb",
+      "sha256": "6ef3436e42b7203afcdfa075e57098e97c4e1aaaec08cfdacf6300ba3d5a551d",
+      "metadata": {
+        "path": "data/model-candidates/female-pelvis/pelvis-female-metadata.json",
+        "sha256": "ad5336d336b06e9996273db39e563edd895d5686032a07b6136c86ad6951b034",
+        "dataset": "https://lod.humanatlas.io/ref-organ/pelvis-female/v1.3"
+      },
+      "graph": {
+        "path": "data/model-candidates/female-pelvis/pelvis-female-graph.json",
+        "sha256": "454784fc3ba79afcf8afffd0b8ba0945ba9058bbed73b9f599275f289cc8df74"
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "/models/female-pelvis/ATTRIBUTION.md",
+      "datasetId": "female-pelvis",
+      "sex": "female",
+      "donorId": null,
+      "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+      "coordinateFrameId": "HRA-native-VHFemaleOrgans-glTF",
+      "use": "Original source geometry and placement provenance for the separate female pelvis reference; no male atlas geometry or anatomical relationships asserted"
+    },
+    {
+      "id": "reference-female-pelvis",
+      "title": "HRA standalone female pelvis reference — uterus, ovaries and pelvic bones",
+      "url": "https://humanatlas.io/3d-reference-library",
+      "retrievedOn": "2026-09-22",
+      "path": "public/models/female-pelvis/atlas.json",
+      "sha256": "5d0fda078bb42a1826f3df44b4e4701a2640a59f368c7e3c40025d9e94e5a09f",
+      "sourceIds": [
+        "hra-uterus-female-v1.2",
+        "hra-ovary-female-left-v1.3",
+        "hra-ovary-female-right-v1.3",
+        "hra-pelvis-female-v1.3"
+      ],
+      "geometryAssets": [
+        {
+          "path": "public/models/female-pelvis/female-pelvis.bin",
+          "url": "/models/female-pelvis/female-pelvis.bin",
+          "bytes": 2747732,
+          "sha256": "04ab163b300eb3152955f44542cbdc9fc7612d9538b170cb30345b309f9d67f1",
+          "encoding": "identity"
+        },
+        {
+          "path": "public/models/female-pelvis/female-pelvis.bin.gz",
+          "url": "/models/female-pelvis/female-pelvis.bin.gz",
+          "bytes": 1593059,
+          "sha256": "de48dd42be30f775db56b02ca475289783b83c05b50151d8dd30437df38aef06",
+          "encoding": "gzip"
+        }
+      ],
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "attribution": "/models/female-pelvis/ATTRIBUTION.md",
+      "datasetId": "female-pelvis",
+      "sex": "female",
+      "coordinateFrame": {
+        "id": "HRA-native-VHFemaleOrgans-glTF",
+        "units": "meter",
+        "up": "Y",
+        "method": "Native GLB positions and identity node transforms retained; no per-organ recentering or graph local-placement reapplied.",
+        "sourceSpatialEntity": "#VHFemaleOrgans",
+        "graphGlobalTarget": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+        "maleAtlasCompatible": false,
+        "dimensionChecks": [
+          {
+            "source": "uterus-female",
+            "primarySubpath": "VH_F_uterus",
+            "fullFileDimensionsMm": [
+              52.48760986328125,
+              50.80960464477539,
+              62.89140701293945
+            ],
+            "geometryDimensionsMm": [
+              52.48760986328125,
+              46.993125915527344,
+              58.69554901123047
+            ],
+            "graphDimensionsMm": [
+              52.4876109,
+              46.99312661,
+              58.695547100000006
+            ],
+            "maximumDifferenceMm": 0.0000019112304627810772
+          },
+          {
+            "source": "ovary-female-left",
+            "primarySubpath": "VH_F_left_ovary",
+            "fullFileDimensionsMm": [
+              12.27739429473877,
+              23.946989059448242,
+              10.534171104431152
+            ],
+            "geometryDimensionsMm": [
+              12.27739429473877,
+              23.946989059448242,
+              10.534171104431152
+            ],
+            "graphDimensionsMm": [
+              12.277396000000003,
+              23.946987300000004,
+              10.5341728
+            ],
+            "maximumDifferenceMm": 0.0000017594482386584787
+          },
+          {
+            "source": "ovary-female-right",
+            "primarySubpath": "VH_F_right_ovary",
+            "fullFileDimensionsMm": [
+              12.309685707092285,
+              23.98689079284668,
+              10.627519607543945
+            ],
+            "geometryDimensionsMm": [
+              12.309685707092285,
+              23.98689079284668,
+              10.627519607543945
+            ],
+            "graphDimensionsMm": [
+              12.309684099999984,
+              23.98689000000001,
+              10.627519300000003
+            ],
+            "maximumDifferenceMm": 0.0000016070923010147453
+          },
+          {
+            "source": "pelvis-female",
+            "primarySubpath": "VH_F_pelvis",
+            "fullFileDimensionsMm": [
+              316.8379211425781,
+              211.49285888671875,
+              182.74447631835938
+            ],
+            "geometryDimensionsMm": [
+              316.8379211425781,
+              211.49285888671875,
+              182.74447631835938
+            ],
+            "graphDimensionsMm": [
+              316.837892,
+              211.4928699,
+              182.744477765
+            ],
+            "maximumDifferenceMm": 0.000029142578114260687
+          }
+        ]
+      },
+      "geometryImportStatus": "separate_reference_packaged",
+      "review": {
+        "technical": "verified",
+        "localVisual": "reviewed",
+        "expertAnatomical": "pending",
+        "deployment": "not_asserted_by_this_record"
+      },
+      "use": "27 source surfaces in a separate female reference; uterus primary selection covers 10 surfaces and excludes the separate cervicovaginal junction root. No male atlas merge or complete female-body claim."
     }
   ],
   "geometryPartIds": [

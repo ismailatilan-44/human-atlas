@@ -1,3 +1,4 @@
+import { femalePelvisLabel, femalePelvisSearchTerms } from "./female-pelvis-labels";
 import { assetUrl } from "./asset-url";
 import CoveragePanel from "./coverage-panel";
 import { loadAtlas } from "./load-atlas";
@@ -39,6 +40,7 @@ import {
   EXPLANATIONS,
   explanation,
   type Atlas,
+  type DatasetId,
   type Concept,
   type SceneState,
   type SystemId,
@@ -65,6 +67,8 @@ export default function Home() {
   >([]);
   const [historySize, setHistorySize] = useState(0),
     [language, setLanguage] = useState<"tr" | "en" | "la">("tr");
+  const [dataset, setDataset] = useState<DatasetId>("male-body");
+  const femaleReference = dataset === "female-pelvis";
   const [atlas, setAtlas] = useState<Atlas | null>(null),
     [state, setState] = useState(initial),
     [progress, setProgress] = useState(0),
@@ -82,14 +86,31 @@ export default function Home() {
     setAtlas(null);
     setChosen(null);
     setDetails(false);
+    setPanel(null);
+    setAbout(false);
+    setCoverageOpen(false);
+    setQuery("");
+    history.current = [];
+    camera.current = null;
+    setHistorySize(0);
     setState({ ...initial, visible: DEFAULT_VISIBLE });
-    loadAtlas(abort.signal)
-      .then(setAtlas)
+    loadAtlas(abort.signal, dataset)
+      .then((loaded) => {
+        if (!abort.signal.aborted) {
+          setState({
+            ...initial,
+            visible: [...new Set(loaded.parts.map((p) => p.system))].filter((id) =>
+              DEFAULT_VISIBLE.includes(id),
+            ),
+          });
+          setAtlas(loaded);
+        }
+      })
       .catch((e) => {
         if (e.name !== "AbortError") setError(e.message);
       });
     return () => abort.abort();
-  }, []);
+  }, [dataset]);
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
       if (
@@ -109,12 +130,15 @@ export default function Home() {
   const concepts = useMemo(() => (atlas ? explorerConcepts(atlas) : []), [atlas]);
   const conceptMap = useMemo(() => new Map(concepts.map((c) => [c.id, c])), [concepts]);
   const relations = useMemo(
-    () => (chosen ? relationshipsFor(chosen.id, conceptMap) : []),
-    [chosen, conceptMap],
+    () => (chosen && !femaleReference ? relationshipsFor(chosen.id, conceptMap) : []),
+    [chosen, conceptMap, femaleReference],
   );
   const anchorMap = useMemo(() => new Map(atlas?.anchors?.map((a) => [a.conceptId, a])), [atlas]);
   const chosenAnchor = chosen ? anchorMap.get(chosen.id) : undefined;
-  const label = (c: { id: string; name: string }) => anatomyLabel(c.id, c.name, language);
+  const label = (c: { id: string; name: string }) =>
+    femaleReference
+      ? femalePelvisLabel(c.id, c.name, language)
+      : anatomyLabel(c.id, c.name, language);
   const remember = () => {
     history.current = [
       ...history.current.slice(-29),
@@ -153,6 +177,7 @@ export default function Home() {
   const results = useMemo(() => {
     if (!atlas) return [];
     const term = query.toLowerCase().trim();
+    if (!term && femaleReference) return concepts;
     if (!term)
       return [
         "heart",
@@ -169,7 +194,10 @@ export default function Home() {
     return concepts
       .filter(
         (c) =>
-          anatomySearchTerms(c.id, c.name).some(
+          (femaleReference
+            ? femalePelvisSearchTerms(c.id, c.name)
+            : anatomySearchTerms(c.id, c.name)
+          ).some(
             (name) =>
               name.toLocaleLowerCase("tr").includes(term.toLocaleLowerCase("tr")) ||
               name.toLowerCase().includes(term),
@@ -177,7 +205,7 @@ export default function Home() {
       )
       .sort((a, b) => a.name.length - b.name.length)
       .slice(0, 80);
-  }, [atlas, concepts, query]);
+  }, [atlas, concepts, query, femaleReference]);
   const choose = (c: Concept) => {
     const anchor = anchorMap.get(c.id);
     remember();
@@ -231,7 +259,13 @@ export default function Home() {
     );
   const reset = () => {
     remember();
-    setState((s) => ({ ...initial, visible: DEFAULT_VISIBLE, reset: s.reset + 1 }));
+    setState((s) => ({
+      ...initial,
+      visible: activeSystems
+        .map((system) => system.id)
+        .filter((id) => DEFAULT_VISIBLE.includes(id)),
+      reset: s.reset + 1,
+    }));
     setChosen(null);
     setDetails(false);
     setPanel(null);
@@ -241,9 +275,10 @@ export default function Home() {
     setPanel((p) => (p === next ? null : next));
   };
   return (
-    <main className="studio">
+    <main className={`studio ${femaleReference ? "female-reference" : ""}`}>
       {atlas && (
         <AnatomyScene
+          key={dataset}
           atlas={atlas}
           state={{
             ...state,
@@ -267,15 +302,27 @@ export default function Home() {
           <span className="status-dot" /> INTERACTIVE ANATOMY
         </div>
         <h1>
-          Human Atlas
+          {femaleReference ? "Pelvis Atlas" : "Human Atlas"}
           <Badge variant="outline" className="edition">
             3D
           </Badge>
         </h1>
         <div className="identity-meta">
-          {atlas ? atlas.parts.length.toLocaleString() : "2,234"} modeled pieces <span>·</span>{" "}
-          BodyParts3D + Z-Anatomy
+          {atlas ? atlas.parts.length.toLocaleString() : "—"} modeled pieces <span>·</span>{" "}
+          {femaleReference ? "Kadın · HRA" : "Erkek · BodyParts3D + Z-Anatomy"}
         </div>
+        <select
+          className="dataset-select"
+          aria-label="Anatomi referansı"
+          value={dataset}
+          onChange={(e) => {
+            setAtlas(null);
+            setDataset(e.target.value as DatasetId);
+          }}
+        >
+          <option value="male-body">Erkek vücut</option>
+          <option value="female-pelvis">Kadın pelvis referansı</option>
+        </select>
       </header>
       <nav className="top-actions" aria-label="Explorer panels">
         <select
@@ -374,44 +421,53 @@ export default function Home() {
             Organs
           </Button>
         </div>
-        <div className="region-shortcuts">
-          <span>Bölgeye git</span>
-          <select
-            aria-label="Anatomik bölge"
-            value=""
-            onChange={(e) => {
-              const c = conceptMap.get(e.target.value);
-              if (c) choose(c);
-            }}
-          >
-            <option value="">Bir bölge seç…</option>
-            {[
-              ["FMA7154", "Baş"],
-              ["FMA7155", "Boyun"],
-              ["FMA9576", "Toraks"],
-              ["FMA9577", "Abdomen"],
-              ["FMA9578", "Pelvis"],
-              ["FMA7186", "Sol üst ekstremite"],
-              ["FMA7185", "Sağ üst ekstremite"],
-              ["FMA7188", "Sol alt ekstremite"],
-              ["FMA7187", "Sağ alt ekstremite"],
-            ].map(([id, name]) => (
-              <option key={id} value={id}>
-                {name}
-              </option>
-            ))}
-          </select>
-        </div>
-        <Button
-          className="coverage-open"
-          variant="ghost"
-          onClick={() => {
-            setCoverageOpen(true);
-            setPanel(null);
-          }}
-        >
-          Bölgesel yapı listesi ve kapsam
-        </Button>
+        {!femaleReference && (
+          <>
+            <div className="region-shortcuts">
+              <span>Bölgeye git</span>
+              <select
+                aria-label="Anatomik bölge"
+                value=""
+                onChange={(e) => {
+                  const c = conceptMap.get(e.target.value);
+                  if (c) choose(c);
+                }}
+              >
+                <option value="">Bir bölge seç…</option>
+                {[
+                  ["FMA7154", "Baş"],
+                  ["FMA7155", "Boyun"],
+                  ["FMA9576", "Toraks"],
+                  ["FMA9577", "Abdomen"],
+                  ["FMA9578", "Pelvis"],
+                  ["FMA7186", "Sol üst ekstremite"],
+                  ["FMA7185", "Sağ üst ekstremite"],
+                  ["FMA7188", "Sol alt ekstremite"],
+                  ["FMA7187", "Sağ alt ekstremite"],
+                ].map(([id, name]) => (
+                  <option key={id} value={id}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <Button
+              className="coverage-open"
+              variant="ghost"
+              onClick={() => {
+                setCoverageOpen(true);
+                setPanel(null);
+              }}
+            >
+              Bölgesel yapı listesi ve kapsam
+            </Button>
+          </>
+        )}
+        {femaleReference && (
+          <p className="reference-scope">
+            Uterus, iki ovaryum ve pelvis kemikleri. Tam kadın vücudu değildir.
+          </p>
+        )}
         <div className="system-list">
           {activeSystems.map((s) => (
             <div
@@ -473,7 +529,9 @@ export default function Home() {
           >
             <ComboboxInput
               autoFocus
-              placeholder="Biceps, skapula, musculocutaneous…"
+              placeholder={
+                femaleReference ? "Uterus, ovary, pelvis…" : "Biceps, skapula, musculocutaneous…"
+              }
               aria-label="Search named anatomical structures"
               showTrigger={false}
             />
@@ -547,7 +605,9 @@ export default function Home() {
               ? "ANATOMICAL INVENTORY"
               : state.explode > 0.05
                 ? "SEPARATED STRUCTURES"
-                : "ADULT HUMAN · MALE"}
+                : femaleReference
+                  ? "KADIN · PELVİS REFERANSI"
+                  : "ADULT HUMAN · MALE"}
         </span>
         <span className="caption-line" />
       </div>
@@ -633,7 +693,7 @@ export default function Home() {
           <div>
             <strong>Preparing the anatomy</strong>
             <span>
-              {progress}% · Loading {atlas?.parts.length.toLocaleString() ?? "2,234"} pieces
+              {progress}% · Loading {atlas?.parts.length.toLocaleString() ?? "—"} pieces
             </span>
             <div className="loading-track">
               <i style={{ width: `${progress}%` }} />
@@ -677,7 +737,7 @@ export default function Home() {
                 Tutunma yüzeyinden alınmış referans noktasıdır; yapının sınırlarını göstermez.
               </p>
             )}
-            {chosen && (
+            {chosen && !femaleReference && (
               <section className="relationship-list" aria-label="Anatomik bağlantılar">
                 <h3>
                   Anatomik bağlantılar <span>{relations.length}</span>
@@ -729,19 +789,22 @@ export default function Home() {
               </section>
             )}
             <SheetDescription className="structure-description">
-              {chosen && getRepresentationNote(chosen.id)
-                ? getRepresentationNote(chosen.id)
-                : chosenAnchor
-                  ? "Kemik üzerindeki kaynaklı yüzey işareti."
-                  : !selected
-                    ? "Bu yapının bağımsız geometrisi veya etiket konumu henüz eklenmedi. Kaynaklı bağlantılarını aşağıdan inceleyebilirsiniz."
-                    : new Set(selectedParts.map((p) => p.system)).size > 1
-                      ? "Bu bileşik yapı, modelde birden fazla sisteme ait parçaları bir araya getirir. Alt parçaları ve kaynaklı bağlantıları inceleyebilirsiniz."
-                      : chosen
-                        ? explanation(chosen.name, selected.system)
-                        : ""}
+              {femaleReference
+                ? "HRA kadın pelvis referansında yer alan yapı. Bu sahne yalnız mevcut pelvis parçalarını içerir; anatomik ilişki bilgisi eklenmedi."
+                : chosen && getRepresentationNote(chosen.id)
+                  ? getRepresentationNote(chosen.id)
+                  : chosenAnchor
+                    ? "Kemik üzerindeki kaynaklı yüzey işareti."
+                    : !selected
+                      ? "Bu yapının bağımsız geometrisi veya etiket konumu henüz eklenmedi. Kaynaklı bağlantılarını aşağıdan inceleyebilirsiniz."
+                      : new Set(selectedParts.map((p) => p.system)).size > 1
+                        ? "Bu bileşik yapı, modelde birden fazla sisteme ait parçaları bir araya getirir. Alt parçaları ve kaynaklı bağlantıları inceleyebilirsiniz."
+                        : chosen
+                          ? explanation(chosen.name, selected.system)
+                          : ""}
             </SheetDescription>
-            {chosen &&
+            {!femaleReference &&
+              chosen &&
               selected &&
               !getRepresentationNote(chosen.id) &&
               !EXPLANATIONS[chosen.name.toLowerCase()] && (
@@ -762,7 +825,7 @@ export default function Home() {
                 <h3>Included structures</h3>
                 {selectedParts.slice(0, 50).map((p) => (
                   <Button variant="ghost" key={p.id} onClick={() => choosePart(p.id)}>
-                    <span>{anatomyLabel(p.conceptId, p.name, language)}</span>
+                    <span>{label({ id: p.conceptId, name: p.name })}</span>
                     <ChevronRight size={14} />
                   </Button>
                 ))}
@@ -777,6 +840,7 @@ export default function Home() {
                 chosenAnchor
                   ? "https://github.com/Z-Anatomy/Models-of-human-anatomy"
                   : (selectedParts.find((p) => p.sourceUrl)?.sourceUrl ??
+                    (typeof atlas?.source === "object" ? atlas.source.url : undefined) ??
                     "https://lifesciencedb.jp/bp3d/")
               }
               target="_blank"
@@ -873,105 +937,148 @@ export default function Home() {
           </div>
         </SheetContent>
       </Sheet>
-      <CoveragePanel
-        open={coverageOpen}
-        onOpenChange={setCoverageOpen}
-        concepts={conceptMap}
-        onChoose={(c) => {
-          setCoverageOpen(false);
-          choose(c);
-        }}
-      />
+      {!femaleReference && (
+        <CoveragePanel
+          open={coverageOpen}
+          onOpenChange={setCoverageOpen}
+          onOpenFemaleReference={() => {
+            setCoverageOpen(false);
+            setAtlas(null);
+            setDataset("female-pelvis");
+          }}
+          concepts={conceptMap}
+          onChoose={(c) => {
+            setCoverageOpen(false);
+            choose(c);
+          }}
+        />
+      )}
       <Sheet open={about} onOpenChange={setAbout}>
         <SheetContent className="about-sheet glass">
           <div className="eyebrow">SOURCE & SCOPE</div>
-          <SheetTitle className="structure-title">A body, revealed.</SheetTitle>
+          <SheetTitle className="structure-title">
+            {femaleReference ? "Kadın pelvis referansı" : "A body, revealed."}
+          </SheetTitle>
           <SheetDescription>
-            Explore the adult male reference anatomy from BodyParts3D.
+            {femaleReference
+              ? "HRA kaynaklarından ayrı pelvis referansı. Tam kadın vücudu değildir."
+              : "Explore the adult male reference anatomy from BodyParts3D."}
           </SheetDescription>
           <div className="about-copy">
-            <p>
-              <strong>Male · BodyParts3D</strong>
-              <br />
-              2,234 individual meshes and 3,432 named concepts from an adult male reference anatomy.
-            </p>
-            <p>
-              This reference does not contain every human structure or variation. Named concepts can
-              contain multiple pieces; each source mesh is rendered once.
-            </p>
-            <p>
-              Colors and system groupings are designed for exploration. The geometry is simplified
-              for the web, and short explanations provide general educational context. This is an
-              anatomical reference, not a diagnostic or surgical tool.
-            </p>
-            <h3>Ek modeller ve yüzey işaretleri</h3>
-            <p>
-              {atlas?.parts.filter((p) => p.sourceUrl).length ?? 0} ek parça ve{" "}
-              {atlas?.anchors?.length ?? 0} yüzey işareti Z-Anatomy ve BodyParts3D 4.3 kaynak
-              geometrilerinden aktarılmıştır. Anatomik ilişkiler ve geometri uyumu uzman incelemesi
-              bekler.
-            </p>
-            <a
-              href={assetUrl("/models/extensions/ATTRIBUTION.md")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Z-Anatomy kaynak ve atıfları
-            </a>
-            <a
-              href={assetUrl("/models/extensions/KNEE-ATTRIBUTION.md")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Diz modelleri: kaynak ve atıflar
-            </a>
-            <a
-              href={assetUrl("/models/extensions/SCIATIC-ATTRIBUTION.md")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Siyatik sinirler: kaynak ve atıflar
-            </a>
-            <a
-              href={assetUrl("/models/extensions/THYROID-BP3D43-ATTRIBUTION.md")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Tiroid lobları: BodyParts3D 4.3 kaynak ve atıfları
-            </a>
-            <a
-              href={assetUrl("/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Omurilik dokusu: BodyParts3D 4.3 kaynak ve atıfları
-            </a>
-            <h3>Source</h3>
-            <p>
-              BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0
-              International.
-            </p>
-            <a
-              href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Dataset license <ArrowUpRight size={14} />
-            </a>
-            <a
-              href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Original geometry & metadata <ArrowUpRight size={14} />
-            </a>
-            <a
-              href="https://academic.oup.com/nar/article/37/suppl_1/D782/1000752"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Read the source publication <ArrowUpRight size={14} />
-            </a>
+            {femaleReference ? (
+              <>
+                <p>
+                  <strong>Kadın · Human Reference Atlas</strong>
+                  <br />
+                  {atlas?.parts.length ?? "—"} kaynak parçası · uterus, iki ayrı ovaryum ve pelvis
+                  kemikleri.
+                </p>
+                <p>{atlas?.scope}</p>
+                <p>
+                  Bu bağımsız sahnenin model konumları kaynak referansa aittir. Ana erkek vücut
+                  modeliyle birleştirilmez. Görünmeyen yapılara ilişkin tamlık iddiası taşımaz.
+                </p>
+                {typeof atlas?.source === "object" && (
+                  <>
+                    <a href={atlas.source.url} target="_blank" rel="noreferrer">
+                      HRA model kaynağı <ArrowUpRight size={14} />
+                    </a>
+                    {atlas.source.attribution && (
+                      <a href={assetUrl(atlas.source.attribution)} target="_blank" rel="noreferrer">
+                        Kaynaklar, lisans ve atıflar <ArrowUpRight size={14} />
+                      </a>
+                    )}
+                    {atlas.source.license && <p>{atlas.source.license}</p>}
+                  </>
+                )}
+              </>
+            ) : (
+              <>
+                <p>
+                  <strong>Male · BodyParts3D</strong>
+                  <br />
+                  2,234 individual meshes and 3,432 named concepts from an adult male reference
+                  anatomy.
+                </p>
+                <p>
+                  This reference does not contain every human structure or variation. Named concepts
+                  can contain multiple pieces; each source mesh is rendered once.
+                </p>
+                <p>
+                  Colors and system groupings are designed for exploration. The geometry is
+                  simplified for the web, and short explanations provide general educational
+                  context. This is an anatomical reference, not a diagnostic or surgical tool.
+                </p>
+                <h3>Ek modeller ve yüzey işaretleri</h3>
+                <p>
+                  {atlas?.parts.filter((p) => p.sourceUrl).length ?? 0} ek parça ve{" "}
+                  {atlas?.anchors?.length ?? 0} yüzey işareti Z-Anatomy ve BodyParts3D 4.3 kaynak
+                  geometrilerinden aktarılmıştır. Anatomik ilişkiler ve geometri uyumu uzman
+                  incelemesi bekler.
+                </p>
+                <a
+                  href={assetUrl("/models/extensions/ATTRIBUTION.md")}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Z-Anatomy kaynak ve atıfları
+                </a>
+                <a
+                  href={assetUrl("/models/extensions/KNEE-ATTRIBUTION.md")}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Diz modelleri: kaynak ve atıflar
+                </a>
+                <a
+                  href={assetUrl("/models/extensions/SCIATIC-ATTRIBUTION.md")}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Siyatik sinirler: kaynak ve atıflar
+                </a>
+                <a
+                  href={assetUrl("/models/extensions/THYROID-BP3D43-ATTRIBUTION.md")}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Tiroid lobları: BodyParts3D 4.3 kaynak ve atıfları
+                </a>
+                <a
+                  href={assetUrl("/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md")}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Omurilik dokusu: BodyParts3D 4.3 kaynak ve atıfları
+                </a>
+                <h3>Source</h3>
+                <p>
+                  BodyParts3D, © The Database Center for Life Science licensed under CC Attribution
+                  4.0 International.
+                </p>
+                <a
+                  href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Dataset license <ArrowUpRight size={14} />
+                </a>
+                <a
+                  href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Original geometry & metadata <ArrowUpRight size={14} />
+                </a>
+                <a
+                  href="https://academic.oup.com/nar/article/37/suppl_1/D782/1000752"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Read the source publication <ArrowUpRight size={14} />
+                </a>
+              </>
+            )}
           </div>
         </SheetContent>
       </Sheet>

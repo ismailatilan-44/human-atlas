@@ -1,0 +1,1589 @@
+{
+  "version": "HRA female pelvis standalone candidate 1",
+  "datasetId": "female-pelvis",
+  "title": "Kad\u0131n pelvis referans\u0131",
+  "scope": "Uterus, iki ovaryum ve kemik pelvis; ayr\u0131 HRA kad\u0131n referans\u0131",
+  "sex": "female",
+  "status": "standalone_candidate_not_integrated",
+  "source": {
+    "id": "hra-female-pelvis",
+    "name": "Human Reference Atlas \u2014 female pelvis",
+    "url": "https://humanatlas.io/3d-reference-library",
+    "license": "CC-BY-4.0",
+    "attribution": "ATTRIBUTION.md",
+    "records": [
+      {
+        "id": "uterus-female",
+        "dataset": "https://lod.humanatlas.io/ref-organ/uterus-female/v1.2",
+        "version": "v1.2",
+        "doi": "https://doi.org/10.48539/HBM627.VTKD.892",
+        "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. *3D Reference Organ for Uterus v1.1*. https://doi.org/10.48539/HBM627.VTKD.892. Accessed on June 15, 2024.",
+        "file": "uterus-female-3d-vh-f-uterus.glb",
+        "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/v1.2/assets/3d-vh-f-uterus.glb",
+        "sha256": "41014d2b222c2dbbe8d1cc38206b0099ce76d79659a9fdea9f28b8c7d669b864",
+        "license": "CC-BY-4.0",
+        "sex": "Female",
+        "donorId": null,
+        "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+        "globalPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -39.745044,
+          "y_translation": 6.2188454900000005,
+          "z_translation": -86.19217,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female uterus",
+          "source": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "objectPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 39.745044,
+          "y_translation": -6.2188454900000005,
+          "z_translation": 86.19217,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female uterus",
+          "source": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      },
+      {
+        "id": "ovary-female-left",
+        "dataset": "https://lod.humanatlas.io/ref-organ/ovary-female-left/v1.3",
+        "version": "v1.3",
+        "doi": "https://doi.org/10.48539/HBM695.KCXS.294",
+        "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Ovary, Female, Left v1.3.\" https://doi.org/10.48539/HBM695.KCXS.294. Accessed on December 15, 2024.",
+        "file": "ovary-female-left-3d-vh-f-ovary-l.glb",
+        "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-left/v1.3/assets/3d-vh-f-ovary-l.glb",
+        "sha256": "defd5cdc4b053b4e92193c5864bab2abae1807864ffde8bde7a7cb57f4736609",
+        "license": "CC-BY-4.0",
+        "sex": "Female",
+        "donorId": null,
+        "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+        "globalPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 38.216304,
+          "y_translation": 48.9767827,
+          "z_translation": -50.7369228,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female left ovary",
+          "source": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "objectPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -38.216304,
+          "y_translation": -48.9767827,
+          "z_translation": 50.7369228,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female left ovary",
+          "source": "https://purl.humanatlas.io/ref-organ/ovary-female-left/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      },
+      {
+        "id": "ovary-female-right",
+        "dataset": "https://lod.humanatlas.io/ref-organ/ovary-female-right/v1.3",
+        "version": "v1.3",
+        "doi": "https://doi.org/10.48539/HBM277.TVMB.676",
+        "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Ovary, Female, Right v1.3.\" https://doi.org/10.48539/HBM277.TVMB.676. Accessed on December 15, 2024.",
+        "file": "ovary-female-right-3d-vh-f-ovary-r.glb",
+        "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/ovary-female-right/v1.3/assets/3d-vh-f-ovary-r.glb",
+        "sha256": "381df741bf3d2511716e68db3ff70d94c0eda770d28a503af2d9fcb7b65113f8",
+        "license": "CC-BY-4.0",
+        "sex": "Female",
+        "donorId": null,
+        "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+        "globalPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -76.71706999999999,
+          "y_translation": 48.90892,
+          "z_translation": -50.8165732,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female right ovary",
+          "source": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "objectPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary",
+          "placement_date": "2024-12-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 76.71706999999999,
+          "y_translation": -48.90892,
+          "z_translation": 50.8165732,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female right ovary",
+          "source": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      },
+      {
+        "id": "pelvis-female",
+        "dataset": "https://lod.humanatlas.io/ref-organ/pelvis-female/v1.3",
+        "version": "v1.3",
+        "doi": "https://doi.org/10.48539/HBM853.VCFM.778",
+        "citation": "Browne, Kristen, and Heidi Schlehlein. 2024. \"3D Reference Organ for Pelvis, Female v1.3.\" https://doi.org/10.48539/HBM853.VCFM.778. Accessed on June 15, 2024.",
+        "file": "pelvis-female-3d-vh-f-pelvis.glb",
+        "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/pelvis-female/v1.3/assets/3d-vh-f-pelvis.glb",
+        "sha256": "6ef3436e42b7203afcdfa075e57098e97c4e1aaaec08cfdacf6300ba3d5a551d",
+        "license": "CC-BY-4.0",
+        "sex": "Female",
+        "donorId": null,
+        "donorEvidence": "Metadata identifies Visible Human Dataset; no individual donor identifier supplied.",
+        "globalPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_global_placement",
+          "target": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": 0,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": -166.996166,
+          "y_translation": -46.8344279,
+          "z_translation": -182.454556,
+          "translation_unit": "millimeter",
+          "label": "Global placement of female pelvis",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        },
+        "objectPlacement": {
+          "id": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_obj_placement",
+          "target": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary",
+          "placement_date": "2024-06-15",
+          "x_scaling": 1,
+          "y_scaling": 1,
+          "z_scaling": 1,
+          "scaling_unit": "ratio",
+          "x_rotation": -90,
+          "y_rotation": 0,
+          "z_rotation": 0,
+          "rotation_unit": "degree",
+          "x_translation": 166.996166,
+          "y_translation": 46.8344279,
+          "z_translation": 182.454556,
+          "translation_unit": "millimeter",
+          "label": "Local placement of female pelvis",
+          "source": "https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary_obj",
+          "type_of": [
+            "ccf:SpatialPlacement"
+          ]
+        }
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "HRA-FP-VH_F_cervicovaginal_junction",
+      "conceptId": "hra-female:VH_F_cervicovaginal_junction",
+      "name": "cervicovaginal junction",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 23424,
+      "indices": 35136,
+      "vertexCount": 1952,
+      "indexCount": 11298,
+      "bounds": [
+        [
+          -0.03143985569477081,
+          0.0024023675359785557,
+          -0.09038802981376648
+        ],
+        [
+          0.006820926442742348,
+          0.025683078914880753,
+          -0.06505817174911499
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_cervicovaginal_junction",
+      "sourceNodeIndex": 0,
+      "sourceMeshIndex": 0,
+      "sourceOntologyId": "-",
+      "sourceLabel": "-",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_abdominal_ostium_of_uterine_tube",
+      "conceptId": "hra-female:VH_F_abdominal_ostium_of_uterine_tube",
+      "name": "abdominal ostium of uterine tube",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 80328,
+      "normals": 84084,
+      "indices": 85964,
+      "vertexCount": 313,
+      "indexCount": 1638,
+      "bounds": [
+        [
+          -0.03974504396319389,
+          0.03946676105260849,
+          -0.0421060174703598
+        ],
+        [
+          0.012742566876113415,
+          0.04311982914805412,
+          -0.03987690061330795
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_abdominal_ostium_of_uterine_tube",
+      "sourceNodeIndex": 2,
+      "sourceMeshIndex": 1,
+      "sourceOntologyId": "FMA:77049",
+      "sourceLabel": "Abdominal ostium of uterine tube",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_body_of_uterus",
+      "conceptId": "hra-female:VH_F_body_of_uterus",
+      "name": "body of uterus",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 92516,
+      "normals": 126392,
+      "indices": 143332,
+      "vertexCount": 2823,
+      "indexCount": 16032,
+      "bounds": [
+        [
+          -0.0341830812394619,
+          0.02146206796169281,
+          -0.06569686532020569
+        ],
+        [
+          0.008935680612921715,
+          0.05152751877903938,
+          -0.03804643452167511
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_body_of_uterus",
+      "sourceNodeIndex": 3,
+      "sourceMeshIndex": 2,
+      "sourceOntologyId": "UBERON:0009853",
+      "sourceLabel": "body of uterus",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_fundus_of_uterus",
+      "conceptId": "hra-female:VH_F_fundus_of_uterus",
+      "name": "fundus of uterus",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 207460,
+      "normals": 227140,
+      "indices": 236980,
+      "vertexCount": 1640,
+      "indexCount": 9186,
+      "bounds": [
+        [
+          -0.03337022662162781,
+          0.0320986732840538,
+          -0.049555204808712006
+        ],
+        [
+          0.008037347346544266,
+          0.05321197211742401,
+          -0.027496622875332832
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_fundus_of_uterus",
+      "sourceNodeIndex": 4,
+      "sourceMeshIndex": 3,
+      "sourceOntologyId": "FMA:17561",
+      "sourceLabel": "Fundus of uterus",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_cornua",
+      "conceptId": "hra-female:VH_F_cornua",
+      "name": "cornua",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 273724,
+      "normals": 278152,
+      "indices": 280368,
+      "vertexCount": 369,
+      "indexCount": 1980,
+      "bounds": [
+        [
+          -0.03974319249391556,
+          0.0370500348508358,
+          -0.04591949284076691
+        ],
+        [
+          0.012725362554192543,
+          0.04636550694704056,
+          -0.036262739449739456
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_cornua",
+      "sourceNodeIndex": 5,
+      "sourceMeshIndex": 4,
+      "sourceOntologyId": "-",
+      "sourceLabel": "-",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_lower_uterine_segment",
+      "conceptId": "hra-female:VH_F_lower_uterine_segment",
+      "name": "lower uterine segment",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 288288,
+      "normals": 297792,
+      "indices": 302544,
+      "vertexCount": 792,
+      "indexCount": 4224,
+      "bounds": [
+        [
+          -0.020889349281787872,
+          0.017684917896986008,
+          -0.07143371552228928
+        ],
+        [
+          -0.0028578233905136585,
+          0.038033902645111084,
+          -0.05686080828309059
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_lower_uterine_segment",
+      "sourceNodeIndex": 6,
+      "sourceMeshIndex": 5,
+      "sourceOntologyId": "FMA:17752",
+      "sourceLabel": "Lower uterine segment",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_posterior_wall_of_uterus",
+      "conceptId": "hra-female:VH_F_posterior_wall_of_uterus",
+      "name": "posterior wall of uterus",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 319440,
+      "normals": 397536,
+      "indices": 436584,
+      "vertexCount": 6508,
+      "indexCount": 36066,
+      "bounds": [
+        [
+          -0.03401535004377365,
+          0.021398210898041725,
+          -0.06136665120720863
+        ],
+        [
+          0.008844166062772274,
+          0.047326620668172836,
+          -0.027685241773724556
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_posterior_wall_of_uterus",
+      "sourceNodeIndex": 7,
+      "sourceMeshIndex": 6,
+      "sourceOntologyId": "FMA:224878",
+      "sourceLabel": "Posterior wall of uterus",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_anterior_wall_of_uterus",
+      "conceptId": "hra-female:VH_F_anterior_wall_of_uterus",
+      "name": "anterior wall of uterus",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 580848,
+      "normals": 647856,
+      "indices": 681360,
+      "vertexCount": 5584,
+      "indexCount": 30444,
+      "bounds": [
+        [
+          -0.03401535004377365,
+          0.028414268046617508,
+          -0.06570125371217728
+        ],
+        [
+          0.008844166062772274,
+          0.05296699330210686,
+          -0.02972673438489437
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_anterior_wall_of_uterus",
+      "sourceNodeIndex": 8,
+      "sourceMeshIndex": 7,
+      "sourceOntologyId": "FMA:224876",
+      "sourceLabel": "Anterior wall of uterus",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 2,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_cervix",
+      "conceptId": "hra-female:VH_F_cervix",
+      "name": "cervix",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 803136,
+      "normals": 825036,
+      "indices": 835988,
+      "vertexCount": 1825,
+      "indexCount": 10524,
+      "bounds": [
+        [
+          -0.02460305206477642,
+          0.0062188454903662205,
+          -0.08619216829538345
+        ],
+        [
+          0.0026926230639219284,
+          0.03515302762389183,
+          -0.06190929189324379
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_cervix",
+      "sourceNodeIndex": 9,
+      "sourceMeshIndex": 8,
+      "sourceOntologyId": "UBERON:0000002",
+      "sourceLabel": "uterine cervix",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_internal_cervical_os",
+      "conceptId": "hra-female:VH_F_internal_cervical_os",
+      "name": "internal cervical os",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 878084,
+      "normals": 879704,
+      "indices": 880516,
+      "vertexCount": 135,
+      "indexCount": 648,
+      "bounds": [
+        [
+          -0.012525038793683052,
+          0.02315264567732811,
+          -0.06961788237094879
+        ],
+        [
+          -0.009072573855519295,
+          0.026931418105959892,
+          -0.06537212431430817
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_internal_cervical_os",
+      "sourceNodeIndex": 10,
+      "sourceMeshIndex": 9,
+      "sourceOntologyId": "UBERON:0013759",
+      "sourceLabel": "internal cervical os",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_external_cervical_os",
+      "conceptId": "hra-female:VH_F_external_cervical_os",
+      "name": "external cervical os",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 883108,
+      "normals": 885052,
+      "indices": 886024,
+      "vertexCount": 162,
+      "indexCount": 810,
+      "bounds": [
+        [
+          -0.014222287572920322,
+          0.013049067929387093,
+          -0.0841342881321907
+        ],
+        [
+          -0.006857067346572876,
+          0.020107373595237732,
+          -0.07832885533571243
+        ]
+      ],
+      "sourceDataset": "uterus-female",
+      "sourceNode": "VH_F_external_cervical_os",
+      "sourceNodeIndex": 11,
+      "sourceMeshIndex": 10,
+      "sourceOntologyId": "UBERON:0013760",
+      "sourceLabel": "external cervical os",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_left_ovary",
+      "conceptId": "hra-female:VH_F_left_ovary",
+      "name": "left ovary",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 889264,
+      "normals": 891832,
+      "indices": 893116,
+      "vertexCount": 214,
+      "indexCount": 1272,
+      "bounds": [
+        [
+          0.038216304033994675,
+          0.04897678270936012,
+          -0.0507369227707386
+        ],
+        [
+          0.05049369856715202,
+          0.07292377203702927,
+          -0.040202751755714417
+        ]
+      ],
+      "sourceDataset": "ovary-female-left",
+      "sourceNode": "VH_F_left_ovary",
+      "sourceNodeIndex": 0,
+      "sourceMeshIndex": 0,
+      "sourceOntologyId": "FMA:7214",
+      "sourceLabel": "Left ovary",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_right_ovary",
+      "conceptId": "hra-female:VH_F_right_ovary",
+      "name": "right ovary",
+      "system": "reproductive",
+      "chunk": 0,
+      "positions": 898204,
+      "normals": 900688,
+      "indices": 901932,
+      "vertexCount": 207,
+      "indexCount": 1230,
+      "bounds": [
+        [
+          -0.0767170712351799,
+          0.04890891909599304,
+          -0.050816573202610016
+        ],
+        [
+          -0.06440738588571548,
+          0.07289581000804901,
+          -0.04018905386328697
+        ]
+      ],
+      "sourceDataset": "ovary-female-right",
+      "sourceNode": "VH_F_right_ovary",
+      "sourceNodeIndex": 0,
+      "sourceMeshIndex": 0,
+      "sourceOntologyId": "FMA:7213",
+      "sourceLabel": "Right ovary",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_sacrum",
+      "conceptId": "hra-female:VH_F_sacrum",
+      "name": "sacrum",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 906852,
+      "normals": 1024284,
+      "indices": 1083000,
+      "vertexCount": 9786,
+      "indexCount": 58908,
+      "bounds": [
+        [
+          -0.07182217389345169,
+          0.043841227889060974,
+          -0.18245455622673035
+        ],
+        [
+          0.055596258491277695,
+          0.14288178086280823,
+          -0.07756024599075317
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_sacrum",
+      "sourceNodeIndex": 1,
+      "sourceMeshIndex": 0,
+      "sourceOntologyId": "UBERON:0003690",
+      "sourceLabel": "fused sacrum",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_coccyx",
+      "conceptId": "hra-female:VH_F_coccyx",
+      "name": "coccyx",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1318632,
+      "normals": 1326996,
+      "indices": 1331180,
+      "vertexCount": 697,
+      "indexCount": 4170,
+      "bounds": [
+        [
+          -0.02362126298248768,
+          0.0182205718010664,
+          -0.1783144772052765
+        ],
+        [
+          0.0082860654219985,
+          0.045169055461883545,
+          -0.14032788574695587
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_coccyx",
+      "sourceNodeIndex": 2,
+      "sourceMeshIndex": 1,
+      "sourceOntologyId": "UBERON:0001350",
+      "sourceLabel": "coccyx",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_pubis_spongy_bone_L",
+      "conceptId": "hra-female:VH_F_pubis_spongy_bone_L",
+      "name": "pubis spongy bone L",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1347860,
+      "normals": 1362296,
+      "indices": 1369516,
+      "vertexCount": 1203,
+      "indexCount": 6936,
+      "bounds": [
+        [
+          -0.008993437513709068,
+          -0.03706496208906174,
+          -0.07678491622209549
+        ],
+        [
+          0.08298981189727783,
+          0.052060194313526154,
+          -0.009849939495325089
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_pubis_spongy_bone_L",
+      "sourceNodeIndex": 5,
+      "sourceMeshIndex": 2,
+      "sourceOntologyId": "UBERON:0002483",
+      "sourceLabel": "trabecular bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_pubis_spongy_bone_R",
+      "conceptId": "hra-female:VH_F_pubis_spongy_bone_R",
+      "name": "pubis spongy bone R",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1397260,
+      "normals": 1410844,
+      "indices": 1417636,
+      "vertexCount": 1132,
+      "indexCount": 6516,
+      "bounds": [
+        [
+          -0.10081145912408829,
+          -0.038836099207401276,
+          -0.07869210839271545
+        ],
+        [
+          -0.009307545609772205,
+          0.05216139554977417,
+          -0.009593372233211994
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_pubis_spongy_bone_R",
+      "sourceNodeIndex": 6,
+      "sourceMeshIndex": 3,
+      "sourceOntologyId": "UBERON:0002483",
+      "sourceLabel": "trabecular bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_pubis_compact_bone_R",
+      "conceptId": "hra-female:VH_F_pubis_compact_bone_R",
+      "name": "pubis compact bone R",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1443700,
+      "normals": 1474180,
+      "indices": 1489420,
+      "vertexCount": 2540,
+      "indexCount": 15240,
+      "bounds": [
+        [
+          -0.10163989663124084,
+          -0.040094856172800064,
+          -0.07894393056631088
+        ],
+        [
+          -0.008095011115074158,
+          0.05287439748644829,
+          -0.008380246348679066
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_pubis_compact_bone_R",
+      "sourceNodeIndex": 8,
+      "sourceMeshIndex": 4,
+      "sourceOntologyId": "UBERON:0001439",
+      "sourceLabel": "compact bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_pubis_compact_bone_L",
+      "conceptId": "hra-female:VH_F_pubis_compact_bone_L",
+      "name": "pubis compact bone L",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1550380,
+      "normals": 1582636,
+      "indices": 1598764,
+      "vertexCount": 2688,
+      "indexCount": 16128,
+      "bounds": [
+        [
+          -0.01019351463764906,
+          -0.03830081969499588,
+          -0.07702130824327469
+        ],
+        [
+          0.08353851735591888,
+          0.05283679440617561,
+          -0.008632659912109375
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_pubis_compact_bone_L",
+      "sourceNodeIndex": 9,
+      "sourceMeshIndex": 5,
+      "sourceOntologyId": "UBERON:0001439",
+      "sourceLabel": "compact bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ilium_compact_bone_R",
+      "conceptId": "hra-female:VH_F_ilium_compact_bone_R",
+      "name": "ilium compact bone R",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1663276,
+      "normals": 1734160,
+      "indices": 1769604,
+      "vertexCount": 5907,
+      "indexCount": 35430,
+      "bounds": [
+        [
+          -0.16699616611003876,
+          0.024749064818024635,
+          -0.16555026173591614
+        ],
+        [
+          -0.05201111361384392,
+          0.16465844213962555,
+          -0.003940601367503405
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ilium_compact_bone_R",
+      "sourceNodeIndex": 12,
+      "sourceMeshIndex": 6,
+      "sourceOntologyId": "UBERON:0001439",
+      "sourceLabel": "compact bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ilium_compact_bone_L",
+      "conceptId": "hra-female:VH_F_ilium_compact_bone_L",
+      "name": "ilium compact bone L",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 1911324,
+      "normals": 1987452,
+      "indices": 2025516,
+      "vertexCount": 6344,
+      "indexCount": 38052,
+      "bounds": [
+        [
+          0.031099094077944756,
+          0.025642728433012962,
+          -0.16546127200126648
+        ],
+        [
+          0.14984172582626343,
+          0.16400381922721863,
+          0.0002899217652156949
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ilium_compact_bone_L",
+      "sourceNodeIndex": 13,
+      "sourceMeshIndex": 7,
+      "sourceOntologyId": "UBERON:0001439",
+      "sourceLabel": "compact bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ilium_spongy_bone_L",
+      "conceptId": "hra-female:VH_F_ilium_spongy_bone_L",
+      "name": "ilium spongy bone L",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 2177724,
+      "normals": 2214348,
+      "indices": 2232660,
+      "vertexCount": 3052,
+      "indexCount": 18066,
+      "bounds": [
+        [
+          0.03230540081858635,
+          0.02695215679705143,
+          -0.1642341911792755
+        ],
+        [
+          0.1486232578754425,
+          0.16266626119613647,
+          -0.0009347915183752775
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ilium_spongy_bone_L",
+      "sourceNodeIndex": 15,
+      "sourceMeshIndex": 8,
+      "sourceOntologyId": "UBERON:0002483",
+      "sourceLabel": "trabecular bone tissue",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ilium_spongy_bone_R",
+      "conceptId": "hra-female:VH_F_ilium_spongy_bone_R",
+      "name": "ilium spongy bone R",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 2304924,
+      "normals": 2338980,
+      "indices": 2356008,
+      "vertexCount": 2838,
+      "indexCount": 16791,
+      "bounds": [
+        [
+          -0.1658097356557846,
+          0.025476297363638878,
+          -0.16433562338352203
+        ],
+        [
+          -0.05321741849184036,
+          0.16330569982528687,
+          -0.005156707484275103
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ilium_spongy_bone_R",
+      "sourceNodeIndex": 16,
+      "sourceMeshIndex": 9,
+      "sourceOntologyId": "UBERON:0002483",
+      "sourceLabel": "trabecular bone tissue",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ischium_compact_bone_R",
+      "conceptId": "hra-female:VH_F_ischium_compact_bone_R",
+      "name": "ischium compact bone R",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 2423172,
+      "normals": 2455512,
+      "indices": 2471684,
+      "vertexCount": 2695,
+      "indexCount": 16170,
+      "bounds": [
+        [
+          -0.12699082493782043,
+          -0.04683442786335945,
+          -0.12626242637634277
+        ],
+        [
+          -0.046172089874744415,
+          0.048163946717977524,
+          -0.05853816866874695
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ischium_compact_bone_R",
+      "sourceNodeIndex": 19,
+      "sourceMeshIndex": 10,
+      "sourceOntologyId": "UBERON:0001439",
+      "sourceLabel": "compact bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ischium_compact_bone_L",
+      "conceptId": "hra-female:VH_F_ischium_compact_bone_L",
+      "name": "ischium compact bone L",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 2536364,
+      "normals": 2568716,
+      "indices": 2584892,
+      "vertexCount": 2696,
+      "indexCount": 16176,
+      "bounds": [
+        [
+          0.026980094611644745,
+          -0.04536851868033409,
+          -0.12395896762609482
+        ],
+        [
+          0.10978954285383224,
+          0.04937871918082237,
+          -0.059219177812337875
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ischium_compact_bone_L",
+      "sourceNodeIndex": 20,
+      "sourceMeshIndex": 11,
+      "sourceOntologyId": "UBERON:0001439",
+      "sourceLabel": "compact bone tissue",
+      "sourceNodeType": "mesh",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ischium_spongy_bone_R",
+      "conceptId": "hra-female:VH_F_ischium_spongy_bone_R",
+      "name": "ischium spongy bone R",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 2649596,
+      "normals": 2663948,
+      "indices": 2671124,
+      "vertexCount": 1196,
+      "indexCount": 6873,
+      "bounds": [
+        [
+          -0.12585468590259552,
+          -0.04549460485577583,
+          -0.12506085634231567
+        ],
+        [
+          -0.04709869250655174,
+          0.04764747619628906,
+          -0.059403374791145325
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ischium_spongy_bone_R",
+      "sourceNodeIndex": 22,
+      "sourceMeshIndex": 12,
+      "sourceOntologyId": "UBERON:0002483",
+      "sourceLabel": "trabecular bone tissue",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    },
+    {
+      "id": "HRA-FP-VH_F_ischium_spongy_bone_L",
+      "conceptId": "hra-female:VH_F_ischium_spongy_bone_L",
+      "name": "ischium spongy bone L",
+      "system": "skeletal",
+      "chunk": 0,
+      "positions": 2698616,
+      "normals": 2712992,
+      "indices": 2720180,
+      "vertexCount": 1198,
+      "indexCount": 6888,
+      "bounds": [
+        [
+          0.027776489034295082,
+          -0.04402396082878113,
+          -0.12273278832435608
+        ],
+        [
+          0.10860014706850052,
+          0.0489828959107399,
+          -0.06008795276284218
+        ]
+      ],
+      "sourceDataset": "pelvis-female",
+      "sourceNode": "VH_F_ischium_spongy_bone_L",
+      "sourceNodeIndex": 23,
+      "sourceMeshIndex": 13,
+      "sourceOntologyId": "UBERON:0002483",
+      "sourceLabel": "trabecular bone tissue",
+      "sourceNodeType": "surface",
+      "sourceSpatialEntity": "#VHFemaleOrgans",
+      "representation": "source_surface",
+      "zeroSourceNormalsRecomputed": 0,
+      "expertReview": "pending"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "hra-female:VH_F_cervicovaginal_junction",
+      "name": "cervicovaginal junction",
+      "elements": [
+        "HRA-FP-VH_F_cervicovaginal_junction"
+      ],
+      "sourceOntologyId": "-"
+    },
+    {
+      "id": "hra-female:VH_F_abdominal_ostium_of_uterine_tube",
+      "name": "abdominal ostium of uterine tube",
+      "elements": [
+        "HRA-FP-VH_F_abdominal_ostium_of_uterine_tube"
+      ],
+      "sourceOntologyId": "FMA:77049"
+    },
+    {
+      "id": "hra-female:VH_F_body_of_uterus",
+      "name": "body of uterus",
+      "elements": [
+        "HRA-FP-VH_F_body_of_uterus"
+      ],
+      "sourceOntologyId": "UBERON:0009853"
+    },
+    {
+      "id": "hra-female:VH_F_fundus_of_uterus",
+      "name": "fundus of uterus",
+      "elements": [
+        "HRA-FP-VH_F_fundus_of_uterus"
+      ],
+      "sourceOntologyId": "FMA:17561"
+    },
+    {
+      "id": "hra-female:VH_F_cornua",
+      "name": "cornua",
+      "elements": [
+        "HRA-FP-VH_F_cornua"
+      ],
+      "sourceOntologyId": "-"
+    },
+    {
+      "id": "hra-female:VH_F_lower_uterine_segment",
+      "name": "lower uterine segment",
+      "elements": [
+        "HRA-FP-VH_F_lower_uterine_segment"
+      ],
+      "sourceOntologyId": "FMA:17752"
+    },
+    {
+      "id": "hra-female:VH_F_posterior_wall_of_uterus",
+      "name": "posterior wall of uterus",
+      "elements": [
+        "HRA-FP-VH_F_posterior_wall_of_uterus"
+      ],
+      "sourceOntologyId": "FMA:224878"
+    },
+    {
+      "id": "hra-female:VH_F_anterior_wall_of_uterus",
+      "name": "anterior wall of uterus",
+      "elements": [
+        "HRA-FP-VH_F_anterior_wall_of_uterus"
+      ],
+      "sourceOntologyId": "FMA:224876"
+    },
+    {
+      "id": "hra-female:VH_F_cervix",
+      "name": "cervix",
+      "elements": [
+        "HRA-FP-VH_F_cervix"
+      ],
+      "sourceOntologyId": "UBERON:0000002"
+    },
+    {
+      "id": "hra-female:VH_F_internal_cervical_os",
+      "name": "internal cervical os",
+      "elements": [
+        "HRA-FP-VH_F_internal_cervical_os"
+      ],
+      "sourceOntologyId": "UBERON:0013759"
+    },
+    {
+      "id": "hra-female:VH_F_external_cervical_os",
+      "name": "external cervical os",
+      "elements": [
+        "HRA-FP-VH_F_external_cervical_os"
+      ],
+      "sourceOntologyId": "UBERON:0013760"
+    },
+    {
+      "id": "hra-female:uterus-female",
+      "name": "uterus",
+      "elements": [
+        "HRA-FP-VH_F_abdominal_ostium_of_uterine_tube",
+        "HRA-FP-VH_F_body_of_uterus",
+        "HRA-FP-VH_F_fundus_of_uterus",
+        "HRA-FP-VH_F_cornua",
+        "HRA-FP-VH_F_lower_uterine_segment",
+        "HRA-FP-VH_F_posterior_wall_of_uterus",
+        "HRA-FP-VH_F_anterior_wall_of_uterus",
+        "HRA-FP-VH_F_cervix",
+        "HRA-FP-VH_F_internal_cervical_os",
+        "HRA-FP-VH_F_external_cervical_os"
+      ],
+      "sourceOntologyId": "UBERON:0000995"
+    },
+    {
+      "id": "hra-female:VH_F_left_ovary",
+      "name": "left ovary",
+      "elements": [
+        "HRA-FP-VH_F_left_ovary"
+      ],
+      "sourceOntologyId": "FMA:7214"
+    },
+    {
+      "id": "hra-female:ovary-female-left",
+      "name": "Left ovary",
+      "elements": [
+        "HRA-FP-VH_F_left_ovary"
+      ],
+      "sourceOntologyId": "UBERON:0002119"
+    },
+    {
+      "id": "hra-female:VH_F_right_ovary",
+      "name": "right ovary",
+      "elements": [
+        "HRA-FP-VH_F_right_ovary"
+      ],
+      "sourceOntologyId": "FMA:7213"
+    },
+    {
+      "id": "hra-female:ovary-female-right",
+      "name": "Right ovary",
+      "elements": [
+        "HRA-FP-VH_F_right_ovary"
+      ],
+      "sourceOntologyId": "UBERON:0002118"
+    },
+    {
+      "id": "hra-female:VH_F_sacrum",
+      "name": "sacrum",
+      "elements": [
+        "HRA-FP-VH_F_sacrum"
+      ],
+      "sourceOntologyId": "UBERON:0003690"
+    },
+    {
+      "id": "hra-female:VH_F_coccyx",
+      "name": "coccyx",
+      "elements": [
+        "HRA-FP-VH_F_coccyx"
+      ],
+      "sourceOntologyId": "UBERON:0001350"
+    },
+    {
+      "id": "hra-female:VH_F_pubis_spongy_bone_L",
+      "name": "pubis spongy bone L",
+      "elements": [
+        "HRA-FP-VH_F_pubis_spongy_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0002483"
+    },
+    {
+      "id": "hra-female:VH_F_pubis_spongy_bone_R",
+      "name": "pubis spongy bone R",
+      "elements": [
+        "HRA-FP-VH_F_pubis_spongy_bone_R"
+      ],
+      "sourceOntologyId": "UBERON:0002483"
+    },
+    {
+      "id": "hra-female:VH_F_pubis_compact_bone_R",
+      "name": "pubis compact bone R",
+      "elements": [
+        "HRA-FP-VH_F_pubis_compact_bone_R"
+      ],
+      "sourceOntologyId": "UBERON:0001439"
+    },
+    {
+      "id": "hra-female:VH_F_pubis_compact_bone_L",
+      "name": "pubis compact bone L",
+      "elements": [
+        "HRA-FP-VH_F_pubis_compact_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0001439"
+    },
+    {
+      "id": "hra-female:VH_F_ilium_compact_bone_R",
+      "name": "ilium compact bone R",
+      "elements": [
+        "HRA-FP-VH_F_ilium_compact_bone_R"
+      ],
+      "sourceOntologyId": "UBERON:0001439"
+    },
+    {
+      "id": "hra-female:VH_F_ilium_compact_bone_L",
+      "name": "ilium compact bone L",
+      "elements": [
+        "HRA-FP-VH_F_ilium_compact_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0001439"
+    },
+    {
+      "id": "hra-female:VH_F_ilium_spongy_bone_L",
+      "name": "ilium spongy bone L",
+      "elements": [
+        "HRA-FP-VH_F_ilium_spongy_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0002483"
+    },
+    {
+      "id": "hra-female:VH_F_ilium_spongy_bone_R",
+      "name": "ilium spongy bone R",
+      "elements": [
+        "HRA-FP-VH_F_ilium_spongy_bone_R"
+      ],
+      "sourceOntologyId": "UBERON:0002483"
+    },
+    {
+      "id": "hra-female:VH_F_ischium_compact_bone_R",
+      "name": "ischium compact bone R",
+      "elements": [
+        "HRA-FP-VH_F_ischium_compact_bone_R"
+      ],
+      "sourceOntologyId": "UBERON:0001439"
+    },
+    {
+      "id": "hra-female:VH_F_ischium_compact_bone_L",
+      "name": "ischium compact bone L",
+      "elements": [
+        "HRA-FP-VH_F_ischium_compact_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0001439"
+    },
+    {
+      "id": "hra-female:VH_F_ischium_spongy_bone_R",
+      "name": "ischium spongy bone R",
+      "elements": [
+        "HRA-FP-VH_F_ischium_spongy_bone_R"
+      ],
+      "sourceOntologyId": "UBERON:0002483"
+    },
+    {
+      "id": "hra-female:VH_F_ischium_spongy_bone_L",
+      "name": "ischium spongy bone L",
+      "elements": [
+        "HRA-FP-VH_F_ischium_spongy_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0002483"
+    },
+    {
+      "id": "hra-female:pelvis-female",
+      "name": "pelvis",
+      "elements": [
+        "HRA-FP-VH_F_sacrum",
+        "HRA-FP-VH_F_coccyx",
+        "HRA-FP-VH_F_pubis_spongy_bone_L",
+        "HRA-FP-VH_F_pubis_spongy_bone_R",
+        "HRA-FP-VH_F_pubis_compact_bone_R",
+        "HRA-FP-VH_F_pubis_compact_bone_L",
+        "HRA-FP-VH_F_ilium_compact_bone_R",
+        "HRA-FP-VH_F_ilium_compact_bone_L",
+        "HRA-FP-VH_F_ilium_spongy_bone_L",
+        "HRA-FP-VH_F_ilium_spongy_bone_R",
+        "HRA-FP-VH_F_ischium_compact_bone_R",
+        "HRA-FP-VH_F_ischium_compact_bone_L",
+        "HRA-FP-VH_F_ischium_spongy_bone_R",
+        "HRA-FP-VH_F_ischium_spongy_bone_L"
+      ],
+      "sourceOntologyId": "UBERON:0001270"
+    }
+  ],
+  "chunks": [
+    {
+      "url": "female-pelvis.bin",
+      "bytes": 2747732,
+      "gzipUrl": "female-pelvis.bin.gz",
+      "gzipBytes": 1593059,
+      "sha256": "04ab163b300eb3152955f44542cbdc9fc7612d9538b170cb30345b309f9d67f1"
+    }
+  ],
+  "triangles": 129232,
+  "bounds": [
+    [
+      -0.16699616611003876,
+      -0.04683442786335945,
+      -0.18245455622673035
+    ],
+    [
+      0.14984172582626343,
+      0.16465844213962555,
+      0.0002899217652156949
+    ]
+  ],
+  "coordinateFrame": {
+    "id": "HRA-native-VHFemaleOrgans-glTF",
+    "units": "meter",
+    "up": "Y",
+    "method": "Native GLB positions and identity node transforms retained; no per-organ recentering or graph local-placement reapplied.",
+    "sourceSpatialEntity": "#VHFemaleOrgans",
+    "graphGlobalTarget": "https://purl.humanatlas.io/graph/hra-ccf-body#VHFemale",
+    "maleAtlasCompatible": false,
+    "dimensionChecks": [
+      {
+        "source": "uterus-female",
+        "primarySubpath": "VH_F_uterus",
+        "fullFileDimensionsMm": [
+          52.48760986328125,
+          50.80960464477539,
+          62.89140701293945
+        ],
+        "geometryDimensionsMm": [
+          52.48760986328125,
+          46.993125915527344,
+          58.69554901123047
+        ],
+        "graphDimensionsMm": [
+          52.4876109,
+          46.99312661,
+          58.695547100000006
+        ],
+        "maximumDifferenceMm": 1.9112304627810772e-06
+      },
+      {
+        "source": "ovary-female-left",
+        "primarySubpath": "VH_F_left_ovary",
+        "fullFileDimensionsMm": [
+          12.27739429473877,
+          23.946989059448242,
+          10.534171104431152
+        ],
+        "geometryDimensionsMm": [
+          12.27739429473877,
+          23.946989059448242,
+          10.534171104431152
+        ],
+        "graphDimensionsMm": [
+          12.277396000000003,
+          23.946987300000004,
+          10.5341728
+        ],
+        "maximumDifferenceMm": 1.7594482386584787e-06
+      },
+      {
+        "source": "ovary-female-right",
+        "primarySubpath": "VH_F_right_ovary",
+        "fullFileDimensionsMm": [
+          12.309685707092285,
+          23.98689079284668,
+          10.627519607543945
+        ],
+        "geometryDimensionsMm": [
+          12.309685707092285,
+          23.98689079284668,
+          10.627519607543945
+        ],
+        "graphDimensionsMm": [
+          12.309684099999984,
+          23.98689000000001,
+          10.627519300000003
+        ],
+        "maximumDifferenceMm": 1.6070923010147453e-06
+      },
+      {
+        "source": "pelvis-female",
+        "primarySubpath": "VH_F_pelvis",
+        "fullFileDimensionsMm": [
+          316.8379211425781,
+          211.49285888671875,
+          182.74447631835938
+        ],
+        "geometryDimensionsMm": [
+          316.8379211425781,
+          211.49285888671875,
+          182.74447631835938
+        ],
+        "graphDimensionsMm": [
+          316.837892,
+          211.4928699,
+          182.744477765
+        ],
+        "maximumDifferenceMm": 2.9142578114260687e-05
+      }
+    ]
+  },
+  "limitations": [
+    "Separate female reference assembly, not a male-atlas extension or a whole female body.",
+    "Visible Human Dataset provenance; individual donor identity and all four organs being from one subject are not established by the supplied metadata.",
+    "Pelvis is 14 bone/tissue surfaces; uterus file contains 11 anatomical surface regions. Whole organ closure or clinical volume not asserted.",
+    "No vagina, uterine tubes, ligaments, vessels, urinary bladder or pelvic floor added to the selected scope.",
+    "Latest versions are independently numbered by organ: uterus v1.2; ovaries and pelvis v1.3.",
+    "Ontology labels are preserved as supplied, including missing values and broad tissue labels; node-scoped concept IDs prevent false equivalence."
+  ]
+}

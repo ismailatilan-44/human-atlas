@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for Autodesk MAYA 2023.2 v20220923.2"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "VH_F_left_ovary",
+      "extras": {
+        "currentUVSet": "map1",
+        "anatomical_structure_of": "#VHFLeftOvary",
+        "source_spatial_entity": "#VHFemaleOrgans",
+        "label": "Left ovary",
+        "ontologyid": "FMA:7214",
+        "representation_of": "http://purl.org/sig/ont/fma/fma7214",
+        "glb_file_of_single_organs": "VH_F_Ovary_L&lf;",
+        "node_type": "mesh"
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "VH_F_left_ovary"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 1272,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 214,
+      "max": [
+        0.0504937,
+        0.07292377,
+        -0.04020275
+      ],
+      "min": [
+        0.038216304,
+        0.0489767827,
+        -0.0507369228
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2568,
+      "componentType": 5126,
+      "count": 214,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2544,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2544,
+      "byteLength": 5136,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 7680
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.207408592
+      },
+      "name": "Ovary_mat"
+    }
+  ]
+}

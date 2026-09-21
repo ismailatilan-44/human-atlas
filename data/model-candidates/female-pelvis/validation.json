@@ -1,0 +1,20 @@
+{
+  "parts": 27,
+  "triangles": 129232,
+  "vertices": 66496,
+  "bytes": 2747732,
+  "gzip": 1593059,
+  "sha256": "04ab163b300eb3152955f44542cbdc9fc7612d9538b170cb30345b309f9d67f1",
+  "nearZeroNormalsCorrected": 2,
+  "checks": [
+    "Finite positions and unit normals",
+    "Triangle index bounds",
+    "Exact Float32 bounds",
+    "4-byte alignment and disjoint buffer ranges",
+    "Unique part IDs",
+    "Gzip roundtrip",
+    "Separate opposite-side source ovaries, unequal source vertex/triangle counts",
+    "Four source primary dimensions vs official graph <0.001 mm",
+    "All 27 exported position arrays and triangle index arrays independently match official GLB accessors exactly"
+  ]
+}

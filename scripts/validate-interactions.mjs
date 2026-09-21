@@ -5,10 +5,11 @@ import {PointerTap} from '../app/pointer-tap.ts';
 import {createServer} from 'vite';
 // Use the app's bundler for its TypeScript and JSON dependency imports.
 const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
-let atlasTools, mergeAtlas;
+let atlasTools, mergeAtlas, loadAtlas, explorerConcepts;
 try {
   ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts'));
-  ({mergeAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
+  ({mergeAtlas, loadAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
+  ({explorerConcepts} = await loader.ssrLoadModule('/app/knowledge.ts'));
 }
 finally { await loader.close(); }
 
@@ -51,6 +52,29 @@ for (const file of ['atlas.json']) {
   assert.throws(()=>find.execute({query:' '}));
   console.log(`${file} with ${atlas.parts.length} registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.`);
 }
+// A reference switch must never fetch male extensions or inherit their concepts.
+const originalFetch = globalThis.fetch, referenceRequests = [];
+let female;
+try {
+  globalThis.fetch = async (url) => {
+    referenceRequests.push(String(url));
+    return new Response(await readFile(new URL('../public' + url, import.meta.url)));
+  };
+  female = await loadAtlas(new AbortController().signal, 'female-pelvis');
+} finally { globalThis.fetch = originalFetch; }
+assert.deepEqual(referenceRequests, ['/models/female-pelvis/atlas.json']);
+assert.equal(female.parts.length, 27);
+assert.equal(female.anchors.length, 0);
+const femaleConcepts = explorerConcepts(female);
+assert(!femaleConcepts.some(c => c.id === 'atlas:left-median-nerve'));
+let femaleSelected;
+const [findFemale, inspectFemale] = atlasTools({...female, concepts:femaleConcepts}, c => {femaleSelected=c;});
+const ovaries = findFemale.execute({query:'ovary'});
+assert.equal(ovaries.length, 2, 'Each ovary should appear once in search');
+inspectFemale.execute({id:ovaries[0].id});
+assert.equal(femaleSelected.elements.length, 1);
+assert.throws(() => inspectFemale.execute({id:'atlas:left-median-nerve'}));
+console.log('Female reference loads independently and exposes only its own structures.');
 const tap=new PointerTap();
 tap.down(1,10,10,5);assert.equal(tap.up(1,12,11),true);
 tap.down(1,10,10,5);tap.move(1,40,10);assert.equal(tap.up(1,10,10),false);

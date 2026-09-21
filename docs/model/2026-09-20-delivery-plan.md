@@ -28,7 +28,7 @@ GitHub OAuth oturumu workflow dosyası yazma yetkisi vermediği için ilk Action
 - Tiroid FMA9603: sağ/sol lob ve isthmus, resmî BodyParts3D 4.3 kaynağından. Stilize Z-Anatomy tiroidi görsel incelemede yetersiz bulundu ve aktif kayda alınmadı.
 - Grafik: 3.463 kavram, 1.435 ilişki; çoğunluğu kaynak PART-OF hiyerarşisidir. Bütün atlasın işlevsel bağlantıları tamamlandı anlamına gelmez. Siyatik bağlantılarında tibial/common-fibular bölüm ayrımı arayüzde korunur.
 - Seçme, odak, çevre saydamlığı, gizleme, önceki görünüm/kamera, sistem filtresi, bölge seçimi ve kapsam paneli çalışır. Çok dilli etiketler seçilmiş bölgelere uygulanır; bütün atlas çevirisi tamamlanmış değildir.
-- Katalog: 57 mevcut, 2 kısmi, 5 eksik, 1 doğrulanmamış hedef grubu. Üç mevcut satır toplam altı yüzey referans noktasıdır. Güncel makine kaydı `data/anatomy/coverage.json`.
+- Katalog: 60 mevcut, 2 kısmi, 2 eksik, 1 doğrulanmamış hedef grubu; mevcutların 3’ü ayrı kadın pelvis referansındadır. Üç mevcut satır toplam altı yüzey referans noktasıdır. Güncel makine kaydı `data/anatomy/coverage.json`.
 
 ## Doğrulama ve sınırlar
 
@@ -44,9 +44,9 @@ BodyParts3D 4.0 temel geometri BY 4.0; yeni canlı 4.3 tiroid/omurilik BY-SA 2.1
 | --- | --- | --- |
 | Çalışan ilk yayını vermek | Gerçek adreste model ve temel inceleme akışları çalışır | 2.252 parçalı sürüm canlı; son omurilik/tiroid akışları gerçek adreste doğrulandı |
 | Brakiyal pleksus | Kaynak parçalar doğru ad/kapsamla, ölçülmüş yerleşim ve tıklanabilir seçimle görünür | 20 trunk/division/posterior-cord parçası hazır, henüz registryye eklenmedi; belirsiz üst kök demeti dışarıda, kaynak kısmi |
-| Kadın pelvis referansı | Erkek modele karışmayan ayrı sahne; uterus ve sağ/sol ovaryum kendi kaynaklarıyla, uygun pelvis bağlamında | Resmî HRA dosyaları indirildi; ortak kadın referansı ve geometri inceleniyor |
-| Koklea | İki gerçek yüzey, kaynak/atıf ve temporal bölge uyumu doğrulanır | BP3D 4.3'te bağımsız aday yok; Z-Anatomy kaynak kökeni ve ayrı kullanım koşulları inceleniyor |
-| İki humeral tutunma konumu | Kanıtlı konum veya açık unresolved durumu; kemik bütünü landmark diye sunulmaz | Konum çözülmedi |
+| Kadın pelvis referansı | Erkek modele karışmayan ayrı sahne; uterus ve sağ/sol ovaryum kendi kaynaklarıyla, uygun pelvis bağlamında | Resmî HRA kaynaklarından 27 parça / 31 kavram içeren ayrı paket ve sahne seçici yerelde hazır; veri ayrımı ve TypeScript kontrolü geçti. Masaüstü ve 390×844 arayüzde kadraj, seçim/saydamlık, iki referans arasında temiz geçiş ve TR/LA etiketler doğrulandı; commit ve yayın sırada |
+| Koklea | İki gerçek yüzey, kaynak/atıf ve temporal bölge uyumu doğrulanır | Z-Anatomy’den iki gerçek yüzey aday olarak çıkarıldı; aktif değil. Yerel temporal uyum yaklaşık 3 mm, hassas yerleşim doğrulanmadı; ayrı NC-SA kaynak koşulları ve nesne kökeni çıkarımının sınırı kaydedildi |
+| İki humeral tutunma konumu | Kanıtlı konum veya açık unresolved durumu; kemik bütünü landmark diye sunulmaz | 158 ilgili Z-Anatomy nesnesi incelendi; kemikle eşleştirilmiş gerçek footprint/işaret yok. Tendon yüzeyleri ayrı aday olarak saklandı; iki konum null, uydurma koordinat yok |
 | Etiket/ilişki kapsamı | Bölge bölge kaynaklı isimler ve ilişkiler; kullanıcı parça üzerinden bağlantılarına gider | Pilot, önkol, diz, siyatik, tiroid ve omurilikte seçilmiş bağlantılar var; daha geniş kapsam açık |
 | Kullanım kalitesi | Gerçek kullanıcı akışları, son masaüstü/mobil kabul; somut performans sorunları çözülür | Örnek akışlar geçti; yeni referanslar eklendikçe ilgili akışlar kontrol edilecek |
 | Ders katmanı | Ders sırası modelin yapı kimlikleri/kayıtlı görünümüne bağlanır | Modelden sonraki aşama; henüz uygulanmadı |
@@ -62,3 +62,7 @@ Araştırma yalnız açık uygulama boşluğunu çözmek için yapılır. İndir
 ## Planlama düzeltmesi
 
 İlk araştırma/veri hazırlığı aşaması çalışan arayüze geçişi geciktirdi. Bu, kullanıcı girdisi beklenmesinden kaynaklanmadı. İlerleme ölçütü artık araştırma/asset sayısı yerine kaynaklı, görüntülenmiş ve kullanılabilir akışlardır. Kalan işlerin varlığı ilk çalışan sürümün teslimini bekletmez; ilk yayın da kalan hedeflerin tamamlandığı iddiası değildir.
+
+## Kadın pelvis sürümü için kabul — 22 Eylül 2026
+
+27 yüzeyli ayrı HRA referansı, erkek sahnesine karışmadan yükleniyor. 31 kaynak kavramı aramada 29 ayrı geometri seçeneği olarak gösteriliyor; iki ovaryum aliası tekilleştirildi. TR/EN/LA görüntü etiketleri kaynak kimliklerini değiştirmiyor. Gerçek arayüzde kadın↔erkek geçişi, kamera/geçmiş temizliği, uterus seçimi/saydamlığı, mobil ovaryum seçimi, Türkçe arama ve Latince ad değişimi görüldü. Kapsam listesinden kadın sahnesine geçiş çalıştı. Üretim alt yolunda geometri yüklendi, tarayıcı hata kaydı boş. TypeScript, güncellenmiş veri ayrımı/etkileşim kontrolü, beş graph testi ve build geçti. Yayın sonucu sonraki kayıtta doğrulanacaktır.

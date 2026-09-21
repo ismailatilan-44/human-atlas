@@ -1,5 +1,5 @@
 import { assetUrl } from "./asset-url";
-import type { Atlas, AtlasAnchor } from "./anatomy";
+import type { Atlas, AtlasAnchor, DatasetId } from "./anatomy";
 import { prepareAtlas } from "./atlas-metadata";
 
 export function mergeAtlas(base: Atlas, extension: Atlas): Atlas {
@@ -37,11 +37,19 @@ export function mergeAtlas(base: Atlas, extension: Atlas): Atlas {
   });
 }
 
-export async function loadAtlas(signal: AbortSignal): Promise<Atlas> {
+export async function loadAtlas(
+  signal: AbortSignal,
+  dataset: DatasetId = "male-body",
+): Promise<Atlas> {
   async function read<T>(url: string): Promise<T> {
     const response = await fetch(assetUrl(url), { signal });
     if (!response.ok) throw new Error("Anatomi verisi yüklenemedi. Lütfen yeniden deneyin.");
     return response.json() as Promise<T>;
+  }
+  if (dataset === "female-pelvis") {
+    const reference = await read<Atlas>("/models/female-pelvis/atlas.json");
+    if (reference.sex !== "female") throw new Error("Kadın pelvis referansı doğrulanamadı.");
+    return { ...reference, datasetId: dataset, anchors: [] };
   }
   const [base, registry] = await Promise.all([
     read<Atlas>("/models/atlas.json"),
@@ -53,6 +61,7 @@ export async function loadAtlas(signal: AbortSignal): Promise<Atlas> {
   ]);
   return {
     ...extensions.reduce(mergeAtlas, prepareAtlas(base)),
+    datasetId: dataset,
     anchors: landmarks.flatMap((p) => p.anchors),
   };
 }

@@ -2,22 +2,22 @@
 
 22 Eylül 2026. Bu liste ilk sürümde gezinme ve yakın inceleme için seçilmiş somut hedefleri izler. Tıp müfredatı veya bütün insan anatomisi listesi değildir. Bir satır iki tarafı ya da alt yapı grubunu içerebilir; satır sayısı anatomik yapı sayısı değildir.
 
-Makine kaydı: [coverage.json](../../data/anatomy/coverage.json). Mevcut ana atlas, bilgi grafiği, iki sinir extension’ı, altı konum içeren landmark extension’ı ve daha önce indirilmiş kaynak envanteri okundu. Startup.blend, HRA uterus ve sol ovaryum dosyalarının SHA-256 değerleri önceki denetim kaydıyla bu tur yeniden karşılaştırıldı. İlk katalogdan sonra median ve diz geometrileri aktarıldı; güncel kaynak hash’leri makine kaydında tutulur.
+Makine kaydı: [coverage.json](../../data/anatomy/coverage.json). Mevcut ana atlas, bilgi grafiği, iki sinir extension’ı, altı konum içeren landmark extension’ı ve daha önce indirilmiş kaynak envanteri okundu. Startup.blend, HRA uterus ve sol ovaryum dosyalarının SHA-256 değerleri önceki denetim kaydıyla bu tur yeniden karşılaştırıldı. İlk katalogdan sonra median, diz, siyatik, BodyParts3D tiroid/omurilik ve ayrı HRA kadın pelvis paketleri incelendi; güncel kaynak hash’leri makine kaydında tutulur. Kadın pelvisin public manifesti ve binary/gzip dosyaları ayrı kaynak kaydıdır; erkek atlasa ait geometri sayılmaz.
 
 ## Durumların anlamı
 
-- **Mevcut:** Adlandırılmış kimlik ve paketlenmiş geometri veya kayıtlı yüzey referans noktası var. `representation: surface_anchor` olan kayıtlar yalnız noktadır; bağımsız/tam landmark geometrisi veya uzman onayı iddiası yok.
+- **Mevcut:** Belirtilen dataset veya ayrı referansta adlandırılmış kimlik ve paketlenmiş geometri ya da kayıtlı yüzey referans noktası var. `representation: surface_anchor` olan kayıtlar yalnız noktadır; bağımsız/tam landmark geometrisi veya uzman onayı iddiası yok.
 - **Kısmi:** İncelenmiş kanıt, adlandırılan hedefin yalnız bir bölümünün temsil edildiğini gösteriyor.
 - **Eksik:** İncelenen atlas/extension içinde bağımsız hedef kaydı bulunamadı. Ad taraması başka yüzeyin içindeki ayrıntının veya olası tüm eş adların yokluğunu kanıtlamaz.
 - **Doğrulanmamış:** Semantik hedef veya ilgili kemik yüzeyi var; bağımsız temsil ya da konum henüz doğrulanmadı.
 
-Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `full` sonucu çıkarılmadı. Toplam 65 hedef satırının 57’si mevcut, 2’si kısmi, 5’i eksik, 1’i doğrulanmamış. Mevcut 57 satırın 3’ü toplam altı yüzey referans noktasıdır; yeni bağımsız yüzey geometrisi sayılmaz.
+Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `full` sonucu çıkarılmadı. Toplam 65 hedef satırının 60’ı mevcut, 2’si kısmi, 2’si eksik, 1’i doğrulanmamış. Bu toplam iki datasetin hedef satırlarını birleştirir; erkek atlasın geometri sayısı değildir. **Erkek atlas: 57 mevcut, 2 kısmi, 2 eksik, 1 doğrulanmamış; ayrı kadın pelvis: 3 mevcut hedef.** Erkek atlasta mevcut 57 satırın 3’ü toplam altı yüzey referans noktasıdır; yeni bağımsız yüzey geometrisi sayılmaz.
 
 | Bölge | Mevcut | Kısmi | Eksik | Doğrulanmamış |
 | --- | ---: | ---: | ---: | ---: |
 | Baş ve boyun | 9 | 0 | 1 | 0 |
 | Toraks | 8 | 0 | 0 | 0 |
-| Abdomen ve pelvis | 13 | 0 | 3 | 0 |
+| Abdomen ve pelvis — 13 erkek + 3 ayrı kadın hedefi | 16 | 0 | 0 | 0 |
 | Üst ekstremite | 15 | 1 | 1 | 1 |
 | Alt ekstremite | 12 | 1 | 0 | 0 |
 
@@ -66,9 +66,9 @@ Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `
 | Prostat | Mevcut | `FMA9600` |
 | Kalça kemikleri | Mevcut | `FMA16585` |
 | Sakrum | Mevcut | `FMA16202` |
-| Uterus — ayrı kadın referansı | Eksik | Bağımsız kayıt bulunamadı; aday: `hra-uterus` |
-| Sol ovaryum — ayrı kadın referansı | Eksik | Bağımsız kayıt bulunamadı; aday: `hra-left-ovary` |
-| Sağ ovaryum — ayrı kadın referansı | Eksik | Bağımsız kayıt bulunamadı |
+| Uterus — ayrı kadın pelvis referansı | Mevcut — ayrı dataset | `female-pelvis`, `hra-female:uterus-female`; 10 primary yüzey, erkek atlasta değil |
+| Sol ovaryum — ayrı kadın pelvis referansı | Mevcut — ayrı dataset | `female-pelvis`, `hra-female:ovary-female-left`; resmi sol GLB |
+| Sağ ovaryum — ayrı kadın pelvis referansı | Mevcut — ayrı dataset | `female-pelvis`, `hra-female:ovary-female-right`; resmi sağ GLB, bu çalışmada aynalama yok |
 
 ## Üst ekstremite
 
@@ -113,7 +113,7 @@ Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `
 
 ## Aktarım ilerlemesi — 22 Eylül güncellemesi
 
-Median ve diz paketleri sahne kayıt listesine eklendi. Siyatik paketi kayıtlı; ayrı distal devamlar yok. Tiroid dosyaları hazır ancak yakın plan biçim incelemesi sonucunda aktif model için kabul edilmedi; alternatif kaynak aranıyor. Aşağıdaki aday notları ilk kaynak incelemesinin teknik girdileridir; güncel ürün durumu yukarıdaki tablolardadır.
+Median ve diz paketleri sahne kayıt listesine eklendi. Siyatik paketi kayıtlı; ayrı distal devamlar yok. İlk Z-Anatomy tiroid yüzeyi kabul edilmedi; onun yerine BodyParts3D 4.3 iki lob/isthmus paketi kayıtlı. Ayrı HRA kadın pelvis paketi teknik ve yerel görsel kontrolden geçti; bu kayıt yayın durumu veya uzman anatomik kabulü iddiası taşımaz. Aşağıdaki aday notları ilk kaynak incelemesinin teknik girdileridir; güncel ürün durumu yukarıdaki tablolardadır.
 
 ## İlk aktarım adaylarının teknik notları
 
@@ -131,10 +131,10 @@ Median ve diz paketleri sahne kayıt listesine eklendi. Siyatik paketi kayıtlı
 
 ## Açık kalan belirli boşluklar
 
-- **Omurilik:** `FMA7647` yalnız `FJ1737` merkez kanalına bağlı. Z-Anatomy’nin anterior horn (22 polygon), posterior horn (32), white matter (39) yüzeyleri tam omurilik yerine onaylanmış değil; `Spinal cord.j` yalnız işarettir.
+- **Omurilik ayrıntıları:** `FMA7647` artık mevcut merkez kanalına ek olarak BodyParts3D 4.3 `FJ4426` sinir dokusu gövdesini içerir. Tüm kök, zar ve segment ayrıntıları tamamlanmış sayılmaz; ilk Z-Anatomy küçük horn/white-matter yüzeyleri bu kapsamı tamamlamak için onaylanmış değildir.
 - **Brakiyal pleksus:** 22 geometrili eğri adları kaynakta mevcut; kök/trunk/division/posterior cord örnekleri tamlık kanıtı değil. Aktarımdan önce parça listesi ve birleşimleri incelenmeli.
 - **Koklea:** `Cochlea.l/.r` 772 polygon/yan. Yüzey var; upstream iç kulak için ayrıca NC-SA referans/uyarlama bildirimi bulunduğundan nesne kökeni ve kullanım koşulları ayrılmalı. Bu katalog lisans belirsizliğini çözmez.
-- **Kadın pelvis:** HRA v1.2 uterus (11 node/10 mesh) ve sol ovaryum (1/1) dosyaları indirili ve hashleri eşleşiyor. Ayrı kadın referansı/koordinat bağlamı gerekir. Sağ ovaryum bu indirilen örneklerde yok; sol modeli aynalamak doğrulanmış sağ organ değildir.
+- **Kadın pelvis kapsam sınırı:** Ayrı `female-pelvis` datasetinde uterus, iki bağımsız kaynak ovaryum ve kemik bağlamı mevcut. Uterus v1.2, ovaryumlar ve pelvis v1.3 resmi dijital nesnelerinden 27 yüzey paketlendi. Tam kadın vücudu, tüpler, bağlar, damarlar, mesane veya pelvis tabanı bu seçimle tamamlanmış değildir. Donör ID’si kaynakta verilmediği için tek birey kesinliği iddia edilmez.
 - **Humerus orta iç tutunma alanı:** İki taraf `upper-arm-landmarks.json` dosyasındaki `unresolved` kayıtlarında; özel tutunma yüzeyi veya uygun işaret bulunamadı. Skapuladaki coracobrachialis başlangıç yüzeyi humeral tutunma yerine kullanılmadı. Kayıtlı konum yok; `unanchored_landmark` ve doğrulanmamış durumu korunuyor.
 
 ## Veri durumları ve kanıt sınırı
@@ -151,3 +151,12 @@ Kaynak envanterindeki MESH taban polygon sayısı, Blender modifier sonrası ü�
 Bu katalog diğer bölgeleri çevrilmiş, etiketlenmiş, geometrisi tamamlanmış veya anatomik olarak kabul edilmiş saymaz. Sonraki ilerleme ölçütü, bu hedeflerde çalışan ve incelenen model davranışıdır.
 
 22 Eylül güncellemesi: Stilize Z-Anatomy tiroidi kabul edilmedi; yerine resmi BP3D 4.3 lob/isthmus yüzeyleri eklendi. Aynı kaynakta FJ4426 omurilik gövdesi bulundu ve mevcut merkezi kanal korunarak FMA7647 genişletildi. Yukarıdaki ilk Z-Anatomy aday değerlendirmeleri tarihî kaynak girdileridir.
+
+
+## Dataset ayrımı ve kadın referansının kayıt sözleşmesi
+
+Kadın üç hedefin `currentBindings` alanı boş kalır; bu alan yalnız erkek atlas kavram haritasında çözülür. Her hedefte `datasetId: female-pelvis`, `representation: separate_reference_geometry` ve `separateReference: { datasetId, conceptId, nameTr, sourceId, manifest, geometryPartIds }` vardır. Panel bu ayrı referansı açabilir; `hra-female:*` kimlikleri erkek bilgi grafiğine eklenmez. Uterus aggregate 10 primary yüzey içerir; ayrı cervicovaginal junction bağlam yüzeyi bu aggregate dışında kalır.
+
+`summaryByDataset` erkek ve kadın hedeflerini ayrı sayar. `summaryByRegion` ve `summaryOverall` iki datasetin hedef satırlarıdır; erkek atlas geometri sayısı veya anatomi tamamlanma yüzdesi olarak kullanılamaz. Siyatik kayıtları da canlı `extensions/index.json` ve `sciatic-nerves.json` ile yeniden uzlaştırıldı: iki ana gövde mevcut olduğundan önceki `missing` kaydı `partial` yapıldı; ayrı distal tibial/common-fibular devamlar dahil değil.
+
+Kaynak envanterinde `reference-female-pelvis` public manifest/binary/gzip hashlerini, dört `hra-...` kaydı ise resmi GLB hashleri, DOI, metadata/graph dosyaları ve CC BY 4.0 lisansını taşır. [Kadın pelvis kaynak incelemesi](female-pelvis-source-review.md) ve paket içindeki atıf belgesi sınırlamaları ayrıntılandırır. Yerel görsel kabul veya paket varlığı, yayına alınmış olma ya da anatomik uzman onayıyla eşit tutulmaz.
