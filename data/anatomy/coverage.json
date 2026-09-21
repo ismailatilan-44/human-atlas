@@ -1,0 +1,2744 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-22",
+  "scope": "Pragmatic regional first-release inspection targets; not a comprehensive anatomy syllabus, completeness percentage, or expert validation.",
+  "complete": false,
+  "unitOfCounting": "A target row may group both sides or several substructures; row counts are not anatomy counts.",
+  "states": {
+    "existing": "Named current concept(s) with packaged geometry or a registered surface anchor; representation distinguishes anchors from geometry. No claim of complete or anatomically validated representation.",
+    "partial": "Reviewed evidence shows that current geometry covers only part of the named target.",
+    "missing": "No independent target record/geometry found in inspected main atlas and current extensions by the stated ID/name scope. Does not prove absence within another surface or all possible synonyms.",
+    "unverified": "Semantic target or related surface exists, but independently inspectable representation/anchor has not been verified."
+  },
+  "sources": [
+    {
+      "id": "human-atlas",
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "id": "knowledge-snapshot",
+      "path": "data/anatomy/knowledge.json",
+      "sha256": "aad6cda8823913b29274e28abfd11704b8e8daaefefe16a070f2c643df26fb1d"
+    },
+    {
+      "id": "upper-arm-nerves",
+      "path": "public/models/extensions/upper-arm-nerves.json",
+      "sha256": "30429144b67b169ea459f0e44617a9d0a0c5e2c55148b12d9eb02ff994eb5f07"
+    },
+    {
+      "id": "zanatomy-inventory",
+      "path": "work/open-assets-review/zanatomy-inventory.json",
+      "sha256": "ed2113e601128704a3763f6a9b7a4c8030364a3396d1fcd89676e773fbf3940b"
+    },
+    {
+      "id": "reviewed-assets",
+      "path": "docs/model/2026-09-08-open-assets-evidence.json",
+      "sha256": "ae331af06dec0d8f997dba55c89a82fbe8060efbe4b6551b1ef134b3abf7c523"
+    },
+    {
+      "id": "zanatomy",
+      "path": "work/open-assets-review/Startup.blend",
+      "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "url": "Contained in Z-Anatomy.zip: Z-Anatomy/Startup.blend",
+      "downloadVerified": true,
+      "licenseReview": "See docs/model/2026-09-08-open-assets-review.md; no new licensing determination in this catalog."
+    },
+    {
+      "id": "hra-uterus.glb",
+      "path": "work/open-assets-review/hra-uterus.glb",
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95",
+      "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/main/VH_Female/v1.2/VH_F_Uterus.glb",
+      "downloadVerified": true,
+      "licenseReview": "See docs/model/2026-09-08-open-assets-review.md; no new licensing determination in this catalog."
+    },
+    {
+      "id": "hra-ovary-l.glb",
+      "path": "work/open-assets-review/hra-ovary-l.glb",
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062",
+      "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/main/VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "downloadVerified": true,
+      "licenseReview": "See docs/model/2026-09-08-open-assets-review.md; no new licensing determination in this catalog."
+    },
+    {
+      "id": "upper-arm-landmarks",
+      "path": "public/models/extensions/upper-arm-landmarks.json",
+      "sha256": "b169242c002181d992423ff734db50bc255224479ffac8ef47e360617c72a57c"
+    }
+  ],
+  "regions": [
+    {
+      "id": "head-neck",
+      "nameTr": "Baş ve boyun",
+      "targets": [
+        {
+          "id": "coverage:skull",
+          "nameTr": "Kafatası",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA46565",
+              "sourceName": "skull",
+              "geometryPartIds": [
+                "FJ1282",
+                "FJ1285",
+                "FJ1286",
+                "FJ1289",
+                "FJ1297",
+                "FJ1299",
+                "FJ1305",
+                "FJ1317",
+                "FJ1320",
+                "FJ1331",
+                "FJ1336",
+                "FJ1337",
+                "FJ1340",
+                "FJ1348",
+                "FJ1350",
+                "FJ1356",
+                "FJ1368",
+                "FJ1371",
+                "FJ1382",
+                "FJ2772",
+                "FJ3199",
+                "FJ3200",
+                "FJ3201",
+                "FJ3263",
+                "FJ3265",
+                "FJ3269",
+                "FJ3272",
+                "FJ3273",
+                "FJ3274",
+                "FJ3281",
+                "FJ3287",
+                "FJ3289",
+                "FJ3309",
+                "FJ3369",
+                "FJ3371",
+                "FJ3375",
+                "FJ3378",
+                "FJ3379",
+                "FJ3380",
+                "FJ3386",
+                "FJ3392",
+                "FJ3394",
+                "FJ3395"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:mandible",
+          "nameTr": "Mandibula",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA52748",
+              "sourceName": "mandible",
+              "geometryPartIds": [
+                "FJ3289"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:brain",
+          "nameTr": "Beyin",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA50801",
+              "sourceName": "brain",
+              "geometryPartIds": [
+                "FJ1730",
+                "FJ1731",
+                "FJ1732",
+                "FJ1733",
+                "FJ1738",
+                "FJ1739",
+                "FJ1740",
+                "FJ1743",
+                "FJ1744",
+                "FJ1745",
+                "FJ1746",
+                "FJ1747",
+                "FJ1748",
+                "FJ1749",
+                "FJ1750",
+                "FJ1751",
+                "FJ1758",
+                "FJ1759",
+                "FJ1760",
+                "FJ1762",
+                "FJ1767",
+                "FJ1769",
+                "FJ1770",
+                "FJ1775",
+                "FJ1779",
+                "FJ1780",
+                "FJ1781",
+                "FJ1783",
+                "FJ1784",
+                "FJ1785",
+                "FJ1786",
+                "FJ1787",
+                "FJ1788",
+                "FJ1789",
+                "FJ1790",
+                "FJ1791",
+                "FJ1792",
+                "FJ1795",
+                "FJ1797",
+                "FJ1798",
+                "FJ1800",
+                "FJ1801",
+                "FJ1806",
+                "FJ1807",
+                "FJ1808",
+                "FJ1810",
+                "FJ1814",
+                "FJ1817",
+                "FJ1822",
+                "FJ1826",
+                "FJ1828",
+                "FJ1830",
+                "FJ1831",
+                "FJ1833",
+                "FJ1834",
+                "FJ1835",
+                "FJ1836",
+                "FJ1841",
+                "FJ1842"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:hippocampus",
+          "nameTr": "Hipokampus, iki taraf",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA62493",
+              "sourceName": "hippocampus",
+              "geometryPartIds": [
+                "FJ1759",
+                "FJ1807"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:cervical-vertebrae",
+          "nameTr": "Servikal omurlar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA9915",
+              "sourceName": "cervical vertebra",
+              "geometryPartIds": [
+                "FJ3161",
+                "FJ3164",
+                "FJ3167",
+                "FJ3170",
+                "FJ3172",
+                "FJ3176",
+                "FJ3177"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:laryngeal-cartilages",
+          "nameTr": "Larinks kıkırdakları",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA55108",
+              "sourceName": "laryngeal cartilage",
+              "geometryPartIds": [
+                "FJ2440",
+                "FJ2769",
+                "FJ2773",
+                "FJ2775",
+                "FJ2776",
+                "FJ2792",
+                "FJ2793",
+                "FJ2795",
+                "FJ2808"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:ventricles",
+          "nameTr": "Beyin ventrikülleri ve interventriküler foramen",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA78454",
+              "sourceName": "third ventricle",
+              "geometryPartIds": [
+                "FJ1730"
+              ]
+            },
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA78469",
+              "sourceName": "fourth ventricle",
+              "geometryPartIds": [
+                "FJ1731"
+              ]
+            },
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA75351",
+              "sourceName": "interventricular foramen",
+              "geometryPartIds": [
+                "FJ1752"
+              ]
+            },
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA78450",
+              "sourceName": "left lateral ventricle",
+              "geometryPartIds": [
+                "FJ1767"
+              ]
+            },
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA78449",
+              "sourceName": "right lateral ventricle",
+              "geometryPartIds": [
+                "FJ1814"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Geometri mevcut; beş cardiac → nervous düzeltmesi app/atlas-metadata.ts yükleme katmanında uygulanır. Kaynak manifest bu hataları hâlâ içerir.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:spinal-cord",
+          "nameTr": "Omurilik",
+          "state": "partial",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7647",
+              "sourceName": "spinal cord",
+              "geometryPartIds": [
+                "FJ1737"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Yalnız FJ1737 / Central canal of spinal cord bağlı. Kaynakta bulunan üç küçük alt yüzey tam omuriliğin yerine doğrulanmış değil.",
+          "candidateIds": [
+            "za-spinal-substructures"
+          ]
+        },
+        {
+          "id": "coverage:thyroid",
+          "nameTr": "Tiroid bezi",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız bez kavramı/parçası bulunamadı; thyroid sözcüğüyle çıkan kas/kıkırdak/damarlar bez sayılmadı.",
+          "candidateIds": [
+            "za-thyroid"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "thyroid gland"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:cochlea",
+          "nameTr": "Koklea, iki taraf",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız kayıt bulunamadı. Kaynak koklea yüzeyleri var; iç kulak için upstream lisans ayrımı çözülmeden hazır aktarım sayılmaz.",
+          "candidateIds": [
+            "za-cochlea"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "cochlea"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "thorax",
+      "nameTr": "Toraks",
+      "targets": [
+        {
+          "id": "coverage:heart",
+          "nameTr": "Kalp",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7088",
+              "sourceName": "heart",
+              "geometryPartIds": [
+                "FJ2417",
+                "FJ2418",
+                "FJ2419",
+                "FJ2420",
+                "FJ2421",
+                "FJ2422",
+                "FJ2423",
+                "FJ2424",
+                "FJ2425",
+                "FJ2426",
+                "FJ2427",
+                "FJ2429",
+                "FJ2430",
+                "FJ2431",
+                "FJ2432",
+                "FJ2433",
+                "FJ2434",
+                "FJ2435",
+                "FJ2436",
+                "FJ2437",
+                "FJ2438",
+                "FJ2439",
+                "FJ2631",
+                "FJ2632",
+                "FJ2633",
+                "FJ2634",
+                "FJ2635",
+                "FJ2636",
+                "FJ2637",
+                "FJ2638",
+                "FJ2639",
+                "FJ2640",
+                "FJ2641",
+                "FJ2642",
+                "FJ2643",
+                "FJ2644",
+                "FJ2645",
+                "FJ2646",
+                "FJ2647",
+                "FJ2648",
+                "FJ2649",
+                "FJ2650",
+                "FJ2651",
+                "FJ2652",
+                "FJ2653",
+                "FJ2654",
+                "FJ2655",
+                "FJ2656",
+                "FJ2667",
+                "FJ2668",
+                "FJ2670",
+                "FJ2671",
+                "FJ2672",
+                "FJ2673",
+                "FJ2674",
+                "FJ2675",
+                "FJ2676",
+                "FJ2677",
+                "FJ2692",
+                "FJ2693",
+                "FJ2694",
+                "FJ2695",
+                "FJ2696",
+                "FJ2697",
+                "FJ2698",
+                "FJ2699",
+                "FJ2700",
+                "FJ2714",
+                "FJ2715",
+                "FJ2716",
+                "FJ2717",
+                "FJ2718",
+                "FJ2719",
+                "FJ2720",
+                "FJ2721",
+                "FJ2722",
+                "FJ2723",
+                "FJ2724",
+                "FJ2727",
+                "FJ2728",
+                "FJ2729",
+                "FJ2731",
+                "FJ2737"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:lungs",
+          "nameTr": "Akciğerler, iki taraf",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7310",
+              "sourceName": "left lung",
+              "geometryPartIds": [
+                "FJ2441",
+                "FJ2442",
+                "FJ2443",
+                "FJ2444",
+                "FJ2445",
+                "FJ2446",
+                "FJ2447",
+                "FJ2448",
+                "FJ2460",
+                "FJ2461",
+                "FJ2462",
+                "FJ2463",
+                "FJ2464",
+                "FJ2465",
+                "FJ2466",
+                "FJ2467",
+                "FJ2468",
+                "FJ2469",
+                "FJ2471",
+                "FJ2472",
+                "FJ2473",
+                "FJ2474",
+                "FJ2475",
+                "FJ2476",
+                "FJ2477",
+                "FJ2478",
+                "FJ2479",
+                "FJ2480",
+                "FJ2482",
+                "FJ2483",
+                "FJ2484",
+                "FJ2485",
+                "FJ2527",
+                "FJ2528",
+                "FJ2529",
+                "FJ2530",
+                "FJ2531",
+                "FJ2532",
+                "FJ2533",
+                "FJ2534",
+                "FJ2535",
+                "FJ2536",
+                "FJ2537",
+                "FJ2538",
+                "FJ2540",
+                "FJ2881",
+                "FJ2882",
+                "FJ2883",
+                "FJ2884",
+                "FJ2885",
+                "FJ2886",
+                "FJ2887",
+                "FJ2888",
+                "FJ2889",
+                "FJ2890",
+                "FJ2891",
+                "FJ2892",
+                "FJ2893",
+                "FJ2894",
+                "FJ2895",
+                "FJ2896",
+                "FJ2897",
+                "FJ2898",
+                "FJ2899",
+                "FJ2900",
+                "FJ2901",
+                "FJ2902",
+                "FJ2903",
+                "FJ2904",
+                "FJ2905",
+                "FJ2906",
+                "FJ2907",
+                "FJ2908",
+                "FJ2909",
+                "FJ2910",
+                "FJ2911",
+                "FJ2912",
+                "FJ2913",
+                "FJ2914",
+                "FJ2915",
+                "FJ2916",
+                "FJ2917",
+                "FJ2918",
+                "FJ2919",
+                "FJ2920",
+                "FJ2921",
+                "FJ2922",
+                "FJ2923",
+                "FJ2926",
+                "FJ2927",
+                "FJ2928",
+                "FJ2929",
+                "FJ2930",
+                "FJ2931",
+                "FJ2932",
+                "FJ2934",
+                "FJ2935",
+                "FJ2936",
+                "FJ2937",
+                "FJ2938",
+                "FJ2939",
+                "FJ2940",
+                "FJ2941",
+                "FJ2942",
+                "FJ2943",
+                "FJ2945",
+                "FJ2946",
+                "FJ2947",
+                "FJ2948",
+                "FJ2949",
+                "FJ2951",
+                "FJ2952",
+                "FJ2953",
+                "FJ2954",
+                "FJ2956",
+                "FJ2957",
+                "FJ2958",
+                "FJ2959",
+                "FJ2960",
+                "FJ2961",
+                "FJ2962",
+                "FJ2963",
+                "FJ2964",
+                "FJ2965"
+              ]
+            },
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7309",
+              "sourceName": "right lung",
+              "geometryPartIds": [
+                "FJ2041",
+                "FJ2044",
+                "FJ2449",
+                "FJ2451",
+                "FJ2452",
+                "FJ2453",
+                "FJ2454",
+                "FJ2455",
+                "FJ2456",
+                "FJ2457",
+                "FJ2458",
+                "FJ2459",
+                "FJ2470",
+                "FJ2481",
+                "FJ2486",
+                "FJ2487",
+                "FJ2488",
+                "FJ2489",
+                "FJ2490",
+                "FJ2491",
+                "FJ2492",
+                "FJ2493",
+                "FJ2494",
+                "FJ2495",
+                "FJ2496",
+                "FJ2497",
+                "FJ2498",
+                "FJ2499",
+                "FJ2500",
+                "FJ2501",
+                "FJ2502",
+                "FJ2503",
+                "FJ2504",
+                "FJ2505",
+                "FJ2506",
+                "FJ2507",
+                "FJ2508",
+                "FJ2509",
+                "FJ2510",
+                "FJ2511",
+                "FJ2512",
+                "FJ2513",
+                "FJ2514",
+                "FJ2515",
+                "FJ2516",
+                "FJ2517",
+                "FJ2518",
+                "FJ2519",
+                "FJ2520",
+                "FJ2521",
+                "FJ2522",
+                "FJ2523",
+                "FJ2524",
+                "FJ2525",
+                "FJ2526",
+                "FJ2967",
+                "FJ2968",
+                "FJ2969",
+                "FJ2970",
+                "FJ2971",
+                "FJ2972",
+                "FJ2973",
+                "FJ2974",
+                "FJ2975",
+                "FJ2976",
+                "FJ2977",
+                "FJ2978",
+                "FJ2979",
+                "FJ2980",
+                "FJ2981",
+                "FJ2982",
+                "FJ2983",
+                "FJ2984",
+                "FJ2985",
+                "FJ2986",
+                "FJ2987",
+                "FJ2988",
+                "FJ2989",
+                "FJ2990",
+                "FJ2991",
+                "FJ2992",
+                "FJ2993",
+                "FJ2994",
+                "FJ2995",
+                "FJ2996",
+                "FJ2997",
+                "FJ2998",
+                "FJ2999",
+                "FJ3000",
+                "FJ3001",
+                "FJ3002",
+                "FJ3003",
+                "FJ3004",
+                "FJ3005",
+                "FJ3006",
+                "FJ3007",
+                "FJ3008",
+                "FJ3009",
+                "FJ3010",
+                "FJ3011",
+                "FJ3012",
+                "FJ3013",
+                "FJ3014",
+                "FJ3015",
+                "FJ3016",
+                "FJ3017",
+                "FJ3018",
+                "FJ3021",
+                "FJ3022",
+                "FJ3023",
+                "FJ3024",
+                "FJ3025",
+                "FJ3026",
+                "FJ3027",
+                "FJ3028",
+                "FJ3029",
+                "FJ3030",
+                "FJ3031",
+                "FJ3032",
+                "FJ3033",
+                "FJ3034",
+                "FJ3035",
+                "FJ3036",
+                "FJ3037",
+                "FJ3038",
+                "FJ3039",
+                "FJ3041",
+                "FJ3042",
+                "FJ3043",
+                "FJ3044",
+                "FJ3045",
+                "FJ3046",
+                "FJ3047",
+                "FJ3048",
+                "FJ3049",
+                "FJ3050",
+                "FJ3051",
+                "FJ3052",
+                "FJ3053",
+                "FJ3054",
+                "FJ3055",
+                "FJ3056",
+                "FJ3057",
+                "FJ3058",
+                "FJ3059",
+                "FJ3060",
+                "FJ3061",
+                "FJ3062",
+                "FJ3063",
+                "FJ3064",
+                "FJ3065",
+                "FJ3066",
+                "FJ3067",
+                "FJ3068",
+                "FJ3069",
+                "FJ3070"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:trachea",
+          "nameTr": "Trakea",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7394",
+              "sourceName": "trachea",
+              "geometryPartIds": [
+                "FJ2541"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:diaphragm",
+          "nameTr": "Diyafram",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA13295",
+              "sourceName": "diaphragm",
+              "geometryPartIds": [
+                "FJ3131"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:ribs",
+          "nameTr": "Kaburgalar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7574",
+              "sourceName": "rib",
+              "geometryPartIds": [
+                "FJ3225",
+                "FJ3226",
+                "FJ3227",
+                "FJ3228",
+                "FJ3229",
+                "FJ3230",
+                "FJ3231",
+                "FJ3232",
+                "FJ3233",
+                "FJ3234",
+                "FJ3235",
+                "FJ3236",
+                "FJ3330",
+                "FJ3331",
+                "FJ3332",
+                "FJ3334",
+                "FJ3336",
+                "FJ3338",
+                "FJ3340",
+                "FJ3342",
+                "FJ3344",
+                "FJ3346",
+                "FJ3347",
+                "FJ3348"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:sternum",
+          "nameTr": "Sternum",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7485",
+              "sourceName": "sternum",
+              "geometryPartIds": [
+                "FJ3153",
+                "FJ3178",
+                "FJ3290"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:aorta",
+          "nameTr": "Aort",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA3734",
+              "sourceName": "aorta",
+              "geometryPartIds": [
+                "FJ1931",
+                "FJ1932",
+                "FJ3411",
+                "FJ3413",
+                "FJ3427"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:esophagus",
+          "nameTr": "Özofagus",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7131",
+              "sourceName": "esophagus",
+              "geometryPartIds": [
+                "FJ2563"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        }
+      ]
+    },
+    {
+      "id": "abdomen-pelvis",
+      "nameTr": "Abdomen ve pelvis",
+      "targets": [
+        {
+          "id": "coverage:liver",
+          "nameTr": "Karaciğer",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7197",
+              "sourceName": "liver",
+              "geometryPartIds": [
+                "FJ1883",
+                "FJ1893",
+                "FJ1913",
+                "FJ1914",
+                "FJ1916",
+                "FJ2386",
+                "FJ2404",
+                "FJ2405",
+                "FJ2409",
+                "FJ2415",
+                "FJ2416",
+                "FJ2816",
+                "FJ2818",
+                "FJ2819",
+                "FJ2820",
+                "FJ2821",
+                "FJ2822",
+                "FJ2823",
+                "FJ2824",
+                "FJ3071",
+                "FJ3072",
+                "FJ3073",
+                "FJ3074",
+                "FJ3075",
+                "FJ3076",
+                "FJ3077",
+                "FJ3081",
+                "FJ3083",
+                "FJ3086",
+                "FJ3088",
+                "FJ3089",
+                "FJ3090",
+                "FJ3091",
+                "FJ3092",
+                "FJ3093",
+                "FJ3095",
+                "FJ3096",
+                "FJ3102",
+                "FJ3103",
+                "FJ3104",
+                "FJ3105",
+                "FJ3106",
+                "FJ3107",
+                "FJ3108",
+                "FJ3109",
+                "FJ3110",
+                "FJ3111",
+                "FJ3112",
+                "FJ3113",
+                "FJ3114",
+                "FJ3115",
+                "FJ3116",
+                "FJ3117",
+                "FJ3122",
+                "FJ3123",
+                "FJ3124",
+                "FJ3125",
+                "FJ3126",
+                "FJ3127",
+                "FJ3128"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:stomach",
+          "nameTr": "Mide",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7148",
+              "sourceName": "stomach",
+              "geometryPartIds": [
+                "FJ2564"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:pancreas",
+          "nameTr": "Pankreas",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7198",
+              "sourceName": "pancreas",
+              "geometryPartIds": [
+                "FJ1895",
+                "FJ1896",
+                "FJ2629",
+                "FJ2630"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:spleen",
+          "nameTr": "Dalak",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7196",
+              "sourceName": "spleen",
+              "geometryPartIds": [
+                "FJ2561"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:kidneys",
+          "nameTr": "Böbrekler",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7203",
+              "sourceName": "kidney",
+              "geometryPartIds": [
+                "FJ3145",
+                "FJ3147"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:gallbladder",
+          "nameTr": "Safra kesesi",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7202",
+              "sourceName": "gallbladder",
+              "geometryPartIds": [
+                "FJ2817"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:small-intestine",
+          "nameTr": "İnce bağırsak",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7200",
+              "sourceName": "small intestine",
+              "geometryPartIds": [
+                "FJ2573",
+                "FJ2574",
+                "FJ2575",
+                "FJ2576",
+                "FJ2577",
+                "FJ2578",
+                "FJ2579",
+                "FJ2580",
+                "FJ2581",
+                "FJ2582",
+                "FJ2583",
+                "FJ2584",
+                "FJ2585",
+                "FJ2586",
+                "FJ2587",
+                "FJ2588",
+                "FJ2589",
+                "FJ2590",
+                "FJ2591",
+                "FJ2592",
+                "FJ2593",
+                "FJ2594",
+                "FJ2595",
+                "FJ2596",
+                "FJ2597",
+                "FJ2598",
+                "FJ2599",
+                "FJ2600",
+                "FJ2601",
+                "FJ2602",
+                "FJ2603",
+                "FJ2604",
+                "FJ2605",
+                "FJ2606",
+                "FJ2607",
+                "FJ2608",
+                "FJ2609",
+                "FJ2610",
+                "FJ2611",
+                "FJ2612",
+                "FJ2613",
+                "FJ2614",
+                "FJ2615",
+                "FJ2616",
+                "FJ2617",
+                "FJ2618",
+                "FJ2619",
+                "FJ2620",
+                "FJ2621",
+                "FJ2622",
+                "FJ2623",
+                "FJ2624",
+                "FJ2625",
+                "FJ2626",
+                "FJ2627",
+                "FJ2628"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:large-intestine",
+          "nameTr": "Kalın bağırsak",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA7201",
+              "sourceName": "large intestine",
+              "geometryPartIds": [
+                "FJ2566",
+                "FJ2567",
+                "FJ2568",
+                "FJ2569",
+                "FJ2570",
+                "FJ2571",
+                "FJ2572",
+                "FJ2599"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:rectum",
+          "nameTr": "Rektum",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA14544",
+              "sourceName": "rectum",
+              "geometryPartIds": [
+                "FJ2571"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:urinary-bladder",
+          "nameTr": "Mesane",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA15900",
+              "sourceName": "urinary bladder",
+              "geometryPartIds": [
+                "FJ3149"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:prostate",
+          "nameTr": "Prostat",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA9600",
+              "sourceName": "prostate",
+              "geometryPartIds": [
+                "FJ3139"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:hip-bones",
+          "nameTr": "Kalça kemikleri",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA16585",
+              "sourceName": "hip bone",
+              "geometryPartIds": [
+                "FJ3152",
+                "FJ3288"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:sacrum",
+          "nameTr": "Sakrum",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA16202",
+              "sourceName": "sacrum",
+              "geometryPartIds": [
+                "FJ3393"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:uterus",
+          "nameTr": "Uterus — ayrı kadın referansı",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Erkek temel atlasında yok; indirilen HRA organı ayrı kadın referansı ve koordinat bağlamı gerektirir.",
+          "candidateIds": [
+            "hra-uterus"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "uterus"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:left-ovary",
+          "nameTr": "Sol ovaryum — ayrı kadın referansı",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Erkek temel atlasında yok; indirilen HRA sol ovaryum ayrı kadın referansında ele alınmalı.",
+          "candidateIds": [
+            "hra-left-ovary"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "ovary"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:right-ovary",
+          "nameTr": "Sağ ovaryum — ayrı kadın referansı",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "İncelenen temel atlas ve indirilmiş HRA örneklerinde eşleşme yok. Sol ovaryumu aynalamak onaylı bir sağ model üretmez.",
+          "candidateIds": [],
+          "sourceNameAudit": {
+            "queries": [
+              "ovary"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "upper-limb",
+      "nameTr": "Üst ekstremite",
+      "targets": [
+        {
+          "id": "coverage:clavicles",
+          "nameTr": "Klavikulalar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA13321",
+              "sourceName": "clavicle",
+              "geometryPartIds": [
+                "FJ3237",
+                "FJ3362"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:scapulae",
+          "nameTr": "Skapulalar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA13394",
+              "sourceName": "scapula",
+              "geometryPartIds": [
+                "FJ3279",
+                "FJ3384"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:humeri",
+          "nameTr": "Humeruslar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA13303",
+              "sourceName": "humerus",
+              "geometryPartIds": [
+                "FJ3262",
+                "FJ3368"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:radii",
+          "nameTr": "Radiuslar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA23463",
+              "sourceName": "radius",
+              "geometryPartIds": [
+                "FJ3277",
+                "FJ3349"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:ulnae",
+          "nameTr": "Ulnalar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA23466",
+              "sourceName": "ulna",
+              "geometryPartIds": [
+                "FJ3286",
+                "FJ3391"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:carpals",
+          "nameTr": "El bileği kemikleri",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA23889",
+              "sourceName": "carpal bone",
+              "geometryPartIds": [
+                "FJ3257",
+                "FJ3261",
+                "FJ3268",
+                "FJ3276",
+                "FJ3278",
+                "FJ3283",
+                "FJ3284",
+                "FJ3285",
+                "FJ3361",
+                "FJ3367",
+                "FJ3374",
+                "FJ3382",
+                "FJ3383",
+                "FJ3388",
+                "FJ3389",
+                "FJ3390"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:deltoid-parts",
+          "nameTr": "Deltoid kasının mevcut bölümleri",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA34676",
+              "sourceName": "zone of deltoid",
+              "geometryPartIds": [
+                "FJ1467",
+                "FJ1467M",
+                "FJ1468",
+                "FJ1468M",
+                "FJ1513",
+                "FJ1513M"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:biceps-long",
+          "nameTr": "Biceps brachii uzun başları",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA37683",
+              "sourceName": "long head of biceps brachii",
+              "geometryPartIds": [
+                "FJ1478",
+                "FJ1478M"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:biceps-short",
+          "nameTr": "Biceps brachii kısa başları",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA37682",
+              "sourceName": "short head of biceps brachii",
+              "geometryPartIds": [
+                "FJ1512",
+                "FJ1512M"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:coracobrachialis",
+          "nameTr": "Coracobrachialis kasları",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA37664",
+              "sourceName": "coracobrachialis",
+              "geometryPartIds": [
+                "FJ1488",
+                "FJ1488M"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:brachial-arteries",
+          "nameTr": "Brakiyal arterler",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA22689",
+              "sourceName": "brachial artery",
+              "geometryPartIds": [
+                "FJ2219",
+                "FJ2271"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:musculocutaneous",
+          "nameTr": "Muskülokutan sinirler",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "upper-arm-nerves",
+              "conceptId": "atlas:left-musculocutaneous-nerve",
+              "sourceName": "Left musculocutaneous nerve",
+              "geometryPartIds": [
+                "ZA-MCN-L"
+              ]
+            },
+            {
+              "sourceId": "upper-arm-nerves",
+              "conceptId": "atlas:right-musculocutaneous-nerve",
+              "sourceName": "Right musculocutaneous nerve",
+              "geometryPartIds": [
+                "ZA-MCN-R"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "İki kayıtlı extension parçası var: ZA-MCN-L/R, toplam 2.880 üçgen. Ölçülmüş koordinat kaydı ve teknik görsel kontrol mevcut; sinir yolu anatomik uzman onayı bekliyor. knowledge.json içindeki eski external_candidate durumu extension varlığını tek başına yansıtmaz.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:median-nerves",
+          "nameTr": "Median sinirler",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Ana atlas/extension içinde bağımsız kayıt yok; indirilen iki kaynak eğrisi teknik aktarım denemesine aday.",
+          "candidateIds": [
+            "za-median"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "median nerve"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:brachial-plexus",
+          "nameTr": "Brakiyal pleksus",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Ana atlas/extension içinde bağımsız kayıt yok; 22 adlandırılmış kaynak eğri bulundu. Bu sayı tam pleksus kapsamı anlamına gelmez.",
+          "candidateIds": [
+            "za-brachial-plexus"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "brachial plexus"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:coracoid-process",
+          "nameTr": "Korakoid çıkıntılar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "upper-arm-landmarks",
+              "conceptId": "atlas:left-coracoid-process",
+              "sourceName": "Left coracoid process",
+              "geometryPartIds": [],
+              "representation": "surface_anchor",
+              "sourceRepresentation": "attachment_surface_reference_point",
+              "position": [
+                0.13459472536072575,
+                1.3986121507546874,
+                -0.0018257371550266638
+              ],
+              "contextPartIds": [
+                "FJ3279"
+              ],
+              "sourceObject": "Coracobrachialis muscle.ol",
+              "sourceObjectType": "MESH",
+              "targetBone": {
+                "conceptId": "FMA13396",
+                "partId": "FJ3279",
+                "nearestSurfacePosition": [
+                  0.13472886383533478,
+                  1.3981587886810303,
+                  -0.0018968154909089208
+                ],
+                "distanceMm": 0.4780947638209909
+              },
+              "expertReview": "pending"
+            },
+            {
+              "sourceId": "upper-arm-landmarks",
+              "conceptId": "atlas:right-coracoid-process",
+              "sourceName": "Right coracoid process",
+              "geometryPartIds": [],
+              "representation": "surface_anchor",
+              "sourceRepresentation": "attachment_surface_reference_point",
+              "position": [
+                -0.13455884448058877,
+                1.3986480834241009,
+                -0.00189119555177935
+              ],
+              "contextPartIds": [
+                "FJ3384"
+              ],
+              "sourceObject": "Coracobrachialis muscle.or",
+              "sourceObjectType": "MESH",
+              "targetBone": {
+                "conceptId": "FMA13395",
+                "partId": "FJ3384",
+                "nearestSurfacePosition": [
+                  -0.13462479412555695,
+                  1.398195743560791,
+                  -0.0019050086848437786
+                ],
+                "distanceMm": 0.45739003689959645
+              },
+              "expertReview": "pending"
+            }
+          ],
+          "expertReview": "pending",
+          "note": "İki taraf için kaynak tutunma yüzeyinden türetilmiş kayıtlı referans noktası var. Bağımsız landmark yüzeyi veya tüm çıkıntı/tüberkül geometrisi değildir. Kemik bağlamı korunur; anatomik uzman incelemesi bekliyor. Eski iki-vertex .i/.j etiket işaretleri gerçek anchor kaynağı olarak kullanılmadı.",
+          "candidateIds": [],
+          "representation": "surface_anchor"
+        },
+        {
+          "id": "coverage:supraglenoid-tubercle",
+          "nameTr": "Supraglenoid tüberküller",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "upper-arm-landmarks",
+              "conceptId": "atlas:left-supraglenoid-tubercle",
+              "sourceName": "Left supraglenoid tubercle",
+              "geometryPartIds": [],
+              "representation": "surface_anchor",
+              "sourceRepresentation": "attachment_surface_reference_point",
+              "position": [
+                0.13937074256478796,
+                1.4055664907314005,
+                -0.03314911234550305
+              ],
+              "contextPartIds": [
+                "FJ3279"
+              ],
+              "sourceObject": "Long head of biceps brachii.ol",
+              "sourceObjectType": "MESH",
+              "targetBone": {
+                "conceptId": "FMA13396",
+                "partId": "FJ3279",
+                "nearestSurfacePosition": [
+                  0.1395583301782608,
+                  1.405839443206787,
+                  -0.03320050239562988
+                ],
+                "distanceMm": 0.33519306452944875
+              },
+              "expertReview": "pending"
+            },
+            {
+              "sourceId": "upper-arm-landmarks",
+              "conceptId": "atlas:right-supraglenoid-tubercle",
+              "sourceName": "Right supraglenoid tubercle",
+              "geometryPartIds": [],
+              "representation": "surface_anchor",
+              "sourceRepresentation": "attachment_surface_reference_point",
+              "position": [
+                -0.13931776835991772,
+                1.4056036963391072,
+                -0.03321688964873288
+              ],
+              "contextPartIds": [
+                "FJ3384"
+              ],
+              "sourceObject": "Long head of biceps brachii.or",
+              "sourceObjectType": "MESH",
+              "targetBone": {
+                "conceptId": "FMA13395",
+                "partId": "FJ3384",
+                "nearestSurfacePosition": [
+                  -0.13948489725589752,
+                  1.4058504104614258,
+                  -0.033281512558460236
+                ],
+                "distanceMm": 0.3049607912544161
+              },
+              "expertReview": "pending"
+            }
+          ],
+          "expertReview": "pending",
+          "note": "İki taraf için kaynak tutunma yüzeyinden türetilmiş kayıtlı referans noktası var. Bağımsız landmark yüzeyi veya tüm çıkıntı/tüberkül geometrisi değildir. Kemik bağlamı korunur; anatomik uzman incelemesi bekliyor. Eski iki-vertex .i/.j etiket işaretleri gerçek anchor kaynağı olarak kullanılmadı.",
+          "candidateIds": [],
+          "representation": "surface_anchor"
+        },
+        {
+          "id": "coverage:radial-tuberosity",
+          "nameTr": "Radius tüberoziteleri",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "upper-arm-landmarks",
+              "conceptId": "atlas:left-radial-tuberosity",
+              "sourceName": "Left radial tuberosity",
+              "geometryPartIds": [],
+              "representation": "surface_anchor",
+              "sourceRepresentation": "attachment_surface_reference_point",
+              "position": [
+                0.22623619366727565,
+                1.0832921528930979,
+                -0.0161311590142868
+              ],
+              "contextPartIds": [
+                "FJ3277"
+              ],
+              "sourceObject": "Biceps brachii muscle.el",
+              "sourceObjectType": "MESH",
+              "targetBone": {
+                "conceptId": "FMA23465",
+                "partId": "FJ3277",
+                "nearestSurfacePosition": [
+                  0.22723977267742157,
+                  1.0831050872802734,
+                  -0.016834795475006104
+                ],
+                "distanceMm": 1.2398619437590241
+              },
+              "expertReview": "pending"
+            },
+            {
+              "sourceId": "upper-arm-landmarks",
+              "conceptId": "atlas:right-radial-tuberosity",
+              "sourceName": "Right radial tuberosity",
+              "geometryPartIds": [],
+              "representation": "surface_anchor",
+              "sourceRepresentation": "attachment_surface_reference_point",
+              "position": [
+                -0.2262775469067792,
+                1.0833525646002682,
+                -0.0162412107738975
+              ],
+              "contextPartIds": [
+                "FJ3349"
+              ],
+              "sourceObject": "Biceps brachii muscle.er",
+              "sourceObjectType": "MESH",
+              "targetBone": {
+                "conceptId": "FMA23464",
+                "partId": "FJ3349",
+                "nearestSurfacePosition": [
+                  -0.22827546298503876,
+                  1.0835041999816895,
+                  -0.017135126516222954
+                ],
+                "distanceMm": 2.194026717916131
+              },
+              "expertReview": "pending"
+            }
+          ],
+          "expertReview": "pending",
+          "note": "İki taraf için kaynak tutunma yüzeyinden türetilmiş kayıtlı referans noktası var. Bağımsız landmark yüzeyi veya tüm çıkıntı/tüberkül geometrisi değildir. Kemik bağlamı korunur; anatomik uzman incelemesi bekliyor. Eski iki-vertex .i/.j etiket işaretleri gerçek anchor kaynağı olarak kullanılmadı.",
+          "candidateIds": [],
+          "representation": "surface_anchor"
+        },
+        {
+          "id": "coverage:humerus-medial-midshaft",
+          "nameTr": "Humerus orta iç tutunma bölgeleri",
+          "state": "unverified",
+          "currentBindings": [
+            {
+              "sourceId": "knowledge-snapshot",
+              "conceptId": "atlas:left-humerus-medial-midshaft",
+              "sourceName": "Left medial midshaft attachment region of humerus",
+              "geometryPartIds": [],
+              "representationStatus": "landmark_unanchored"
+            },
+            {
+              "sourceId": "knowledge-snapshot",
+              "conceptId": "atlas:right-humerus-medial-midshaft",
+              "sourceName": "Right medial midshaft attachment region of humerus",
+              "geometryPartIds": [],
+              "representationStatus": "landmark_unanchored"
+            }
+          ],
+          "expertReview": "pending",
+          "note": "İki taraf da upper-arm-landmarks.json unresolved listesinde; özel coracobrachialis humerus tutunma yüzeyi/uygun işaret bulunamadı. Skapuladaki başlangıç yüzeyi bu tutunma yerine kullanılmadı; konum yok ve tahmin edilmedi.",
+          "candidateIds": [],
+          "representation": "unanchored_landmark",
+          "unresolvedEvidence": {
+            "sourceId": "upper-arm-landmarks",
+            "locator": "unresolved",
+            "conceptIds": [
+              "atlas:left-humerus-medial-midshaft",
+              "atlas:right-humerus-medial-midshaft"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lower-limb",
+      "nameTr": "Alt ekstremite",
+      "targets": [
+        {
+          "id": "coverage:femora",
+          "nameTr": "Femurlar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA9611",
+              "sourceName": "femur",
+              "geometryPartIds": [
+                "FJ3259",
+                "FJ3365"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:tibiae",
+          "nameTr": "Tibialar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA24476",
+              "sourceName": "tibia",
+              "geometryPartIds": [
+                "FJ3282",
+                "FJ3387"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:fibulae",
+          "nameTr": "Fibulalar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA24479",
+              "sourceName": "fibula",
+              "geometryPartIds": [
+                "FJ3260",
+                "FJ3366"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:patellae",
+          "nameTr": "Patellalar",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA24485",
+              "sourceName": "patella",
+              "geometryPartIds": [
+                "FJ3275",
+                "FJ3381"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:gluteus-maximus",
+          "nameTr": "Gluteus maximus kasları",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA22314",
+              "sourceName": "gluteus maximus",
+              "geometryPartIds": [
+                "FJ1418",
+                "FJ1418M"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:quadriceps-parts",
+          "nameTr": "Quadriceps femoris mevcut bölümleri",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA22429",
+              "sourceName": "zone of quadriceps femoris",
+              "geometryPartIds": [
+                "FJ1433",
+                "FJ1433M",
+                "FJ1441",
+                "FJ1441M",
+                "FJ1442",
+                "FJ1442M",
+                "FJ1443",
+                "FJ1443M"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:femoral-arteries",
+          "nameTr": "Femoral arterler",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA70248",
+              "sourceName": "femoral artery",
+              "geometryPartIds": [
+                "FJ2074",
+                "FJ2143"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:tarsals",
+          "nameTr": "Ayak bileği kemikleri",
+          "state": "existing",
+          "currentBindings": [
+            {
+              "sourceId": "human-atlas",
+              "conceptId": "FMA24491",
+              "sourceName": "tarsal bone",
+              "geometryPartIds": [
+                "FJ3256",
+                "FJ3258",
+                "FJ3264",
+                "FJ3267",
+                "FJ3271",
+                "FJ3280",
+                "FJ3307",
+                "FJ3308",
+                "FJ3360",
+                "FJ3364",
+                "FJ3370",
+                "FJ3373",
+                "FJ3377",
+                "FJ3385"
+              ]
+            }
+          ],
+          "expertReview": "pending",
+          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "candidateIds": []
+        },
+        {
+          "id": "coverage:sciatic",
+          "nameTr": "Siyatik sinirler",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız hedef kavramı/parçası bulunamadı; indirilen Z-Anatomy nesneleri var. Alt ekstremite koordinat kaydı ve yakın plan inceleme yapılmalı.",
+          "candidateIds": [
+            "za-sciatic"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "sciatic nerve"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:medial-menisci",
+          "nameTr": "Medial menisküsler",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız hedef kavramı/parçası bulunamadı; indirilen Z-Anatomy nesneleri var. Alt ekstremite koordinat kaydı ve yakın plan inceleme yapılmalı.",
+          "candidateIds": [
+            "za-medial-menisci"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "medial menisc"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:lateral-menisci",
+          "nameTr": "Lateral menisküsler",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız hedef kavramı/parçası bulunamadı; indirilen Z-Anatomy nesneleri var. Alt ekstremite koordinat kaydı ve yakın plan inceleme yapılmalı.",
+          "candidateIds": [
+            "za-lateral-menisci"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "lateral menisc"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:acl",
+          "nameTr": "Ön çapraz bağlar",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız hedef kavramı/parçası bulunamadı; indirilen Z-Anatomy nesneleri var. Alt ekstremite koordinat kaydı ve yakın plan inceleme yapılmalı.",
+          "candidateIds": [
+            "za-acl"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "anterior cruciate"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        },
+        {
+          "id": "coverage:pcl",
+          "nameTr": "Arka çapraz bağlar",
+          "state": "missing",
+          "currentBindings": [],
+          "expertReview": "pending",
+          "note": "Bağımsız hedef kavramı/parçası bulunamadı; indirilen Z-Anatomy nesneleri var. Alt ekstremite koordinat kaydı ve yakın plan inceleme yapılmalı.",
+          "candidateIds": [
+            "za-pcl"
+          ],
+          "sourceNameAudit": {
+            "queries": [
+              "posterior cruciate"
+            ],
+            "matches": [],
+            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+          }
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "za-thyroid",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Thyroid gland",
+          "type": "MESH",
+          "vertices": 84,
+          "polygons": 68
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "84 vertex/68 polygon taban yüzey. Ayrı bez olarak eşleşir; boyun referanslarıyla kayıt ve ayrıntı yeterliliği incelemesi gerekir.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-spinal-substructures",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Anterior horn of spinal cord",
+          "type": "MESH",
+          "vertices": 44,
+          "polygons": 22
+        },
+        {
+          "name": "Posterior horn of spinal cord",
+          "type": "MESH",
+          "vertices": 64,
+          "polygons": 32
+        },
+        {
+          "name": "White matter of spinal cord",
+          "type": "MESH",
+          "vertices": 80,
+          "polygons": 39
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "inspect_before_transfer",
+      "note": "22/32/39 polygon taban yüzeyler. Adında Spinal cord olan .j nesnesi 2 vertex/0 polygon işarettir. Tam omurilik modeli olarak birleştirilmez.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-cochlea",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Cochlea.l",
+          "type": "MESH",
+          "vertices": 783,
+          "polygons": 772
+        },
+        {
+          "name": "Cochlea.r",
+          "type": "MESH",
+          "vertices": 783,
+          "polygons": 772
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "source_terms_review",
+      "note": "772 polygon/yan. İndirilen kaynakta yüzeyler var; upstream iç kulak NC-SA referansı/uyarlama kaydı nedeniyle nesne kökeni ve kullanım koşulları çözülmeli.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-median",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Median nerve.l",
+          "type": "CURVE",
+          "splines": 2,
+          "curve_points": 20,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Median nerve.r",
+          "type": "CURVE",
+          "splines": 2,
+          "curve_points": 20,
+          "bevel_depth": 0.0005000000237487257
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "2 spline/20 kontrol noktası/yan. Mevcut üst kol kayıt yaklaşımı başlangıç adayıdır; önkol/bilek boyunca uyum yeniden ölçülmeli. Kaynak eğri kalınlığı korunmalı.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-brachial-plexus",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Anterior division of inferior trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 3,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Anterior division of inferior trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 3,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Anterior division of middle trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Anterior division of middle trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Anterior division of superior trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Anterior division of superior trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Inferior trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 3,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Inferior trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 3,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Middle trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Middle trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior cord of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 3,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior cord of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 3,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior division of inferior trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior division of inferior trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior division of middle trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior division of middle trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior division of superior trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Posterior division of superior trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Roots of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 10,
+          "curve_points": 26,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Roots of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 10,
+          "curve_points": 26,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Superior trunk of brachial plexus.l",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Superior trunk of brachial plexus.r",
+          "type": "CURVE",
+          "splines": 1,
+          "curve_points": 2,
+          "bevel_depth": 0.0005000000237487257
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "inspect_before_transfer",
+      "note": "22 eğri kök/trunk/division/posterior cord örnekleri içerir; eksik parça listesi ve birleşim noktaları denetlenmeden tam pleksus paketi sayılmaz.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-sciatic",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Sciatic nerve.l",
+          "type": "CURVE",
+          "splines": 3,
+          "curve_points": 20,
+          "bevel_depth": 0.0005000000237487257
+        },
+        {
+          "name": "Sciatic nerve.r",
+          "type": "CURVE",
+          "splines": 3,
+          "curve_points": 20,
+          "bevel_depth": 0.0005000000237487257
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "3 spline/20 kontrol noktası/yan. Alt ekstremite kemik/kas referanslarıyla yeni kayıt gerekir; üst kol dönüşümü doğrulanmadan yeniden kullanılmaz.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-medial-menisci",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Medial meniscus.l",
+          "type": "MESH",
+          "vertices": 36,
+          "polygons": 37
+        },
+        {
+          "name": "Medial meniscus.r",
+          "type": "MESH",
+          "vertices": 36,
+          "polygons": 37
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "Ayrı dolu mesh nesneleri; femur/tibia/patella referanslarıyla tek diz paketi olarak kaydet, yüzey ayrıntısını yakın planda karşılaştır. Taban polygon sayısı son değerlendirilen mesh kalitesi değildir.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-lateral-menisci",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Lateral meniscus.l",
+          "type": "MESH",
+          "vertices": 60,
+          "polygons": 59
+        },
+        {
+          "name": "Lateral meniscus.r",
+          "type": "MESH",
+          "vertices": 60,
+          "polygons": 59
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "Ayrı dolu mesh nesneleri; femur/tibia/patella referanslarıyla tek diz paketi olarak kaydet, yüzey ayrıntısını yakın planda karşılaştır. Taban polygon sayısı son değerlendirilen mesh kalitesi değildir.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-acl",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Anterior cruciate ligament.l",
+          "type": "MESH",
+          "vertices": 840,
+          "polygons": 808
+        },
+        {
+          "name": "Anterior cruciate ligament.r",
+          "type": "MESH",
+          "vertices": 840,
+          "polygons": 808
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "Ayrı dolu mesh nesneleri; femur/tibia/patella referanslarıyla tek diz paketi olarak kaydet, yüzey ayrıntısını yakın planda karşılaştır. Taban polygon sayısı son değerlendirilen mesh kalitesi değildir.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-pcl",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Posterior cruciate ligament.l",
+          "type": "MESH",
+          "vertices": 396,
+          "polygons": 404
+        },
+        {
+          "name": "Posterior cruciate ligament.r",
+          "type": "MESH",
+          "vertices": 396,
+          "polygons": 404
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "technical_trial",
+      "note": "Ayrı dolu mesh nesneleri; femur/tibia/patella referanslarıyla tek diz paketi olarak kaydet, yüzey ayrıntısını yakın planda karşılaştır. Taban polygon sayısı son değerlendirilen mesh kalitesi değildir.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-coracoid-markers",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Coracoid process.i",
+          "type": "MESH",
+          "vertices": 2,
+          "polygons": 0
+        },
+        {
+          "name": "Coracoid process.j",
+          "type": "MESH",
+          "vertices": 2,
+          "polygons": 0
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "rejected_for_anchoring",
+      "note": "Tarihî iki-vertex/0-polygon işaret adayı; üst kol anchor incelemesinde birincil kaynak olarak reddedildi. .i/.j etiket ofsetleri/transformları gerçek sol tutunma yüzeyleriyle tutarsız. Kayıtlı anchorlar upper-arm-landmarks.json içindeki gerçek kas tutunma yüzeylerinden türetildi; bu adaylardan değil.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-supraglenoid-markers",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Supraglenoid tubercle.i",
+          "type": "MESH",
+          "vertices": 2,
+          "polygons": 0
+        },
+        {
+          "name": "Supraglenoid tubercle.j",
+          "type": "MESH",
+          "vertices": 2,
+          "polygons": 0
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "rejected_for_anchoring",
+      "note": "Tarihî iki-vertex/0-polygon işaret adayı; üst kol anchor incelemesinde birincil kaynak olarak reddedildi. .i/.j etiket ofsetleri/transformları gerçek sol tutunma yüzeyleriyle tutarsız. Kayıtlı anchorlar upper-arm-landmarks.json içindeki gerçek kas tutunma yüzeylerinden türetildi; bu adaylardan değil.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "za-radial-markers",
+      "sourceId": "zanatomy",
+      "inventorySourceId": "zanatomy-inventory",
+      "sourceObjects": [
+        {
+          "name": "Radial tuberosity.i",
+          "type": "MESH",
+          "vertices": 2,
+          "polygons": 0
+        },
+        {
+          "name": "Radial tuberosity.j",
+          "type": "MESH",
+          "vertices": 2,
+          "polygons": 0
+        }
+      ],
+      "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
+      "readiness": "rejected_for_anchoring",
+      "note": "Tarihî iki-vertex/0-polygon işaret adayı; üst kol anchor incelemesinde birincil kaynak olarak reddedildi. .i/.j etiket ofsetleri/transformları gerçek sol tutunma yüzeyleriyle tutarsız. Kayıtlı anchorlar upper-arm-landmarks.json içindeki gerçek kas tutunma yüzeylerinden türetildi; bu adaylardan değil.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "hra-uterus",
+      "sourceId": "hra-uterus.glb",
+      "nodeNames": [
+        "VH_F_uterus",
+        "VH_F_abdominal_ostium_of_uterine_tube",
+        "VH_F_body_of_uterus",
+        "VH_F_fundus_of_uterus",
+        "VH_F_cornua",
+        "VH_F_lower_uterine_segment",
+        "VH_F_posterior_wall_of_uterus",
+        "VH_F_anterior_wall_of_uterus",
+        "VH_F_cervix",
+        "VH_F_internal_cervical_os",
+        "VH_F_external_cervical_os"
+      ],
+      "nodes": 11,
+      "meshes": 10,
+      "matchMethod": "Downloaded GLB node names/header inventory; no cross-specimen registration.",
+      "readiness": "separate_female_reference",
+      "note": "Dosya ve SHA-256 doğrulandı. Erkek atlasına bağlamsız yerleştirilmez; ayrı kadın referans modu, birim/eksen/ölçek ve organ bağlamı gerekir.",
+      "expertReview": "pending"
+    },
+    {
+      "id": "hra-left-ovary",
+      "sourceId": "hra-ovary-l.glb",
+      "nodeNames": [
+        "VH_F_left_ovary"
+      ],
+      "nodes": 1,
+      "meshes": 1,
+      "matchMethod": "Downloaded GLB node names/header inventory; no cross-specimen registration.",
+      "readiness": "separate_female_reference",
+      "note": "Dosya ve SHA-256 doğrulandı. Erkek atlasına bağlamsız yerleştirilmez; ayrı kadın referans modu, birim/eksen/ölçek ve organ bağlamı gerekir.",
+      "expertReview": "pending"
+    }
+  ],
+  "nextTransfers": [
+    {
+      "priority": 1,
+      "candidateIds": [
+        "za-median"
+      ],
+      "action": "Extend proven curve exporter to left/right median nerve with forearm reference verification.",
+      "readyFor": "technical transfer trial",
+      "releaseReady": false
+    },
+    {
+      "priority": 2,
+      "candidateIds": [
+        "za-medial-menisci",
+        "za-lateral-menisci",
+        "za-acl",
+        "za-pcl"
+      ],
+      "action": "Register a bilateral knee package against femur/tibia/patella and inspect gaps/overlaps and detail.",
+      "readyFor": "technical transfer trial",
+      "releaseReady": false
+    },
+    {
+      "priority": 3,
+      "candidateIds": [
+        "za-sciatic"
+      ],
+      "action": "Register curves against lower-limb references and inspect full path.",
+      "readyFor": "technical transfer trial",
+      "releaseReady": false
+    },
+    {
+      "priority": 4,
+      "candidateIds": [
+        "za-thyroid"
+      ],
+      "action": "Register the gland against neck references; judge 68-polygon source detail before packaging.",
+      "readyFor": "technical transfer trial",
+      "releaseReady": false
+    }
+  ],
+  "summaryByRegion": {
+    "head-neck": {
+      "existing": 7,
+      "partial": 1,
+      "missing": 2,
+      "unverified": 0
+    },
+    "thorax": {
+      "existing": 8,
+      "partial": 0,
+      "missing": 0,
+      "unverified": 0
+    },
+    "abdomen-pelvis": {
+      "existing": 13,
+      "partial": 0,
+      "missing": 3,
+      "unverified": 0
+    },
+    "upper-limb": {
+      "existing": 15,
+      "partial": 0,
+      "missing": 2,
+      "unverified": 1
+    },
+    "lower-limb": {
+      "existing": 8,
+      "partial": 0,
+      "missing": 5,
+      "unverified": 0
+    }
+  },
+  "exclusions": [
+    "No new anatomy relationships, source IDs in knowledge.json, main atlas geometry, or expert approval are created by this catalog.",
+    "Brain microanatomy, alveolar/nephron scale, all female anatomy, variants and a complete curriculum remain outside this target list.",
+    "No uniform coordinate transform is assumed valid across unrelated regions or specimens."
+  ],
+  "representations": {
+    "surface_anchor": "A registered point derived from a source attachment surface, with context bone IDs; not an independently segmented whole anatomical structure.",
+    "unanchored_landmark": "Semantic attachment-region target without a resolved source point or position."
+  },
+  "surfaceAnchorSummary": {
+    "targetRows": 3,
+    "bilateralAnchorCount": 6,
+    "unresolvedLandmarkTargetRows": 1,
+    "unresolvedLandmarkCount": 2,
+    "geometryCompleteness": "not_asserted"
+  }
+}

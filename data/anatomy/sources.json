@@ -1,0 +1,56 @@
+[
+  {
+    "id": "human-atlas",
+    "title": "Human Atlas / BodyParts3D 4.0 local manifest",
+    "url": "https://github.com/ashemag/human-atlas",
+    "retrievedOn": "2026-09-08",
+    "path": "public/models/atlas.json",
+    "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+    },
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International"
+  },
+  {
+    "id": "bp3d-partof",
+    "title": "BodyParts3D PART-OF inclusion relationships",
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_inclusion_relation_list.txt",
+    "retrievedOn": "2026-09-09",
+    "path": "data/anatomy/vendor/bodyparts3d/partof_inclusion_relation_list.txt",
+    "sha256": "1b40738270931e3c1d955ce34e0fce0d8d10d8c5ad543463e40b4b4c0243007c",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html"
+    },
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International"
+  },
+  {
+    "id": "zanatomy",
+    "title": "Z-Anatomy source Blender object inventory",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/Z-Anatomy.zip",
+    "retrievedOn": "2026-09-08",
+    "sourceArtifactSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "license": {
+      "id": "mixed-upstream-review-required",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/License.txt"
+    },
+    "attribution": "Z-Anatomy contributors, Gauthier Kervyn, Marcin Zielinski; BodyParts3D and additional upstream sources",
+    "geometryImportStatus": "not_imported",
+    "perObjectLicenseStatus": "pending"
+  },
+  {
+    "id": "uams-upper-limb",
+    "title": "UAMS Department of Neuroscience — Muscles of the Upper Limb",
+    "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/muscle-tables/muscles-of-the-upper-limb/",
+    "retrievedOn": "2026-09-09",
+    "use": "Selected anatomical facts with row/column references; no article text or images redistributed"
+  },
+  {
+    "id": "ttuhsc-arm",
+    "title": "Texas Tech University Health Sciences Center El Paso — Axilla, Posterior Shoulder, and Arm",
+    "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/axilla_ans.html",
+    "retrievedOn": "2026-09-09",
+    "use": "Selected anatomical facts; anterior compartment table; corroborating educational source, not an independent specimen study"
+  }
+]

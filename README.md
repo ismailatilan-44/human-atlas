@@ -2,7 +2,15 @@
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+**[Original upstream demo](https://human-atlas-seven.vercel.app)** — the local model-explorer changes below are not yet published there.
+
+## Model explorer work
+
+This branch adds two registered Z-Anatomy musculocutaneous nerves (2,236 total meshes), six source-derived attachment markers, pilot Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus.
+
+Run locally to inspect the work. Read [delivery status](docs/model/2026-09-20-delivery-plan.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; anatomical expert review and broader regional integration are pending.
+
+The extension has separate [source attribution and license limitations](public/models/extensions/ATTRIBUTION.md). Its CC BY-SA source declaration must not be replaced by the base atlas license.
 
 ## Explore
 
@@ -59,6 +67,6 @@ Import this repository into Vercel as a Vite project. The included `vercel.json`
 
 ## License
 
-Original application code is released under the [MIT License](LICENSE). **The anatomy data has its own CC BY 4.0 license**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
+Original application code is released under the [MIT License](LICENSE). **The base anatomy data is CC BY 4.0; the Z-Anatomy extension has separate attribution and licensing**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
 
 Issues and pull requests are welcome. Please include reproduction steps and browser/device details for interaction problems.

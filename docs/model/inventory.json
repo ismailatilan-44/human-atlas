@@ -1,0 +1,1287 @@
+{
+  "scope": "Packaged geometry and catalogue inventory; name probes are not proof of anatomical absence or correctness.",
+  "manifest": {
+    "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "bytes": 1335285,
+    "version": "BodyParts3D 4.0",
+    "sex": "male"
+  },
+  "totals": {
+    "meshes": 2234,
+    "concepts": 3432,
+    "vertices": 1782519,
+    "triangles": 2288268,
+    "sourceTrianglesReportedByManifest": 6681030,
+    "chunks": 15,
+    "geometryBytes": 59546744,
+    "compressedGeometryBytes": 32956129
+  },
+  "geometry": {
+    "boundsInMeters": [
+      [
+        -0.3340040147304535,
+        1.3877787807814457e-17,
+        -0.1452392041683197
+      ],
+      [
+        0.332753986120224,
+        1.7296911478042603,
+        0.1467829942703247
+      ]
+    ],
+    "zeroNormals": 0,
+    "verticesOutsideBounds": 0,
+    "integrityChecksPassed": true,
+    "checks": [
+      "unique IDs",
+      "concept references",
+      "chunk lengths",
+      "gzip equals binary",
+      "finite positions",
+      "triangle indices",
+      "triangle count"
+    ]
+  },
+  "catalogueFields": {
+    "part": [
+      "id",
+      "name",
+      "conceptId",
+      "system",
+      "chunk",
+      "positions",
+      "normals",
+      "indices",
+      "vertexCount",
+      "indexCount",
+      "bounds"
+    ],
+    "concept": [
+      "id",
+      "name",
+      "elements"
+    ]
+  },
+  "systems": {
+    "skeletal": {
+      "meshes": 296,
+      "triangles": 338056,
+      "chunks": [
+        0,
+        1,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "compressedBytesOfRequiredChunks": 20277048
+    },
+    "sensory": {
+      "meshes": 45,
+      "triangles": 109348,
+      "chunks": [
+        0,
+        3,
+        6,
+        10,
+        12,
+        13
+      ],
+      "compressedBytesOfRequiredChunks": 13399358
+    },
+    "nervous": {
+      "meshes": 139,
+      "triangles": 201226,
+      "chunks": [
+        0,
+        5,
+        6,
+        7
+      ],
+      "compressedBytesOfRequiredChunks": 9198718
+    },
+    "connective": {
+      "meshes": 40,
+      "triangles": 45524,
+      "chunks": [
+        0,
+        1,
+        3,
+        5,
+        9,
+        10
+      ],
+      "compressedBytesOfRequiredChunks": 13322114
+    },
+    "muscular": {
+      "meshes": 402,
+      "triangles": 656120,
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "compressedBytesOfRequiredChunks": 22412356
+    },
+    "arterial": {
+      "meshes": 639,
+      "triangles": 333798,
+      "chunks": [
+        5,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14
+      ],
+      "compressedBytesOfRequiredChunks": 15033913
+    },
+    "cardiac": {
+      "meshes": 23,
+      "triangles": 50988,
+      "chunks": [
+        5,
+        6,
+        8
+      ],
+      "compressedBytesOfRequiredChunks": 6938133
+    },
+    "endocrine": {
+      "meshes": 4,
+      "triangles": 4756,
+      "chunks": [
+        6,
+        11
+      ],
+      "compressedBytesOfRequiredChunks": 4698571
+    },
+    "venous": {
+      "meshes": 404,
+      "triangles": 303350,
+      "chunks": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14
+      ],
+      "compressedBytesOfRequiredChunks": 12857265
+    },
+    "digestive": {
+      "meshes": 97,
+      "triangles": 88382,
+      "chunks": [
+        7,
+        9,
+        10,
+        11,
+        13
+      ],
+      "compressedBytesOfRequiredChunks": 11379105
+    },
+    "respiratory": {
+      "meshes": 119,
+      "triangles": 82078,
+      "chunks": [
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "compressedBytesOfRequiredChunks": 11325139
+    },
+    "lymphatic": {
+      "meshes": 3,
+      "triangles": 2794,
+      "chunks": [
+        9,
+        11
+      ],
+      "compressedBytesOfRequiredChunks": 4578886
+    },
+    "integumentary": {
+      "meshes": 5,
+      "triangles": 60362,
+      "chunks": [
+        10,
+        11
+      ],
+      "compressedBytesOfRequiredChunks": 4568902
+    },
+    "reproductive": {
+      "meshes": 12,
+      "triangles": 6386,
+      "chunks": [
+        11
+      ],
+      "compressedBytesOfRequiredChunks": 2319620
+    },
+    "urinary": {
+      "meshes": 6,
+      "triangles": 5100,
+      "chunks": [
+        11
+      ],
+      "compressedBytesOfRequiredChunks": 2319620
+    }
+  },
+  "sharedGeometry": {
+    "uniqueSets": 2976,
+    "sharedSets": 316,
+    "conceptsInSharedSets": 772,
+    "caveat": "Different labels can select identical geometry; this may reflect aliases, aggregate concepts, or partial representation. Requires semantic review.",
+    "largestExamples": [
+      [
+        {
+          "id": "FMA7264",
+          "name": "lateral papillary muscle of left ventricle"
+        },
+        {
+          "id": "FMA9352",
+          "name": "papillary muscle of left ventricle"
+        },
+        {
+          "id": "FMA9560",
+          "name": "anterior wall of left ventricle"
+        },
+        {
+          "id": "FMA9563",
+          "name": "lateral wall of left ventricle"
+        },
+        {
+          "id": "FMA49214",
+          "name": "wall of inflow part of left ventricle"
+        },
+        {
+          "id": "FMA84857",
+          "name": "subendocardial layer of myocardium of left ventricle"
+        },
+        {
+          "id": "FMA86063",
+          "name": "myocardial zone 11"
+        },
+        {
+          "id": "FMA87178",
+          "name": "myocardium of lateral wall of left ventricle"
+        }
+      ],
+      [
+        {
+          "id": "FMA7259",
+          "name": "papillary muscle of right ventricle"
+        },
+        {
+          "id": "FMA9533",
+          "name": "wall of right ventricle"
+        },
+        {
+          "id": "FMA9535",
+          "name": "myocardium of right ventricle"
+        },
+        {
+          "id": "FMA49207",
+          "name": "wall of inflow part of right ventricle"
+        },
+        {
+          "id": "FMA83447",
+          "name": "myocardium of right ventricle proper"
+        },
+        {
+          "id": "FMA84842",
+          "name": "free wall of right ventricle"
+        },
+        {
+          "id": "FMA84856",
+          "name": "subendocardial layer of myocardium of right ventricle"
+        },
+        {
+          "id": "FMA84931",
+          "name": "myocardium of free wall of right ventricle"
+        }
+      ],
+      [
+        {
+          "id": "FMA19754",
+          "name": "region of peritoneum"
+        },
+        {
+          "id": "FMA20570",
+          "name": "peritoneal mesentery"
+        },
+        {
+          "id": "FMA20593",
+          "name": "region of visceral peritoneum"
+        },
+        {
+          "id": "FMA64796",
+          "name": "region of serous membrane"
+        },
+        {
+          "id": "FMA9584",
+          "name": "peritoneum"
+        },
+        {
+          "id": "FMA9908",
+          "name": "peritoneal sac"
+        },
+        {
+          "id": "FMA14703",
+          "name": "visceral peritoneum"
+        }
+      ]
+    ]
+  },
+  "classificationReview": [
+    {
+      "id": "FJ1730",
+      "name": "Third ventricle",
+      "conceptId": "FMA78454",
+      "assignedSystem": "cardiac"
+    },
+    {
+      "id": "FJ1731",
+      "name": "Fourth ventricle",
+      "conceptId": "FMA78469",
+      "assignedSystem": "cardiac"
+    },
+    {
+      "id": "FJ1752",
+      "name": "Interventricular foramen",
+      "conceptId": "FMA75351",
+      "assignedSystem": "cardiac"
+    },
+    {
+      "id": "FJ1767",
+      "name": "Left lateral ventricle",
+      "conceptId": "FMA78450",
+      "assignedSystem": "cardiac"
+    },
+    {
+      "id": "FJ1814",
+      "name": "Right lateral ventricle",
+      "conceptId": "FMA78449",
+      "assignedSystem": "cardiac"
+    },
+    {
+      "id": "FJ1438",
+      "name": "Right tensor fasciae latae",
+      "conceptId": "FMA22425",
+      "assignedSystem": "connective"
+    },
+    {
+      "id": "FJ1438M",
+      "name": "Left tensor fasciae latae",
+      "conceptId": "FMA22426",
+      "assignedSystem": "connective"
+    }
+  ],
+  "probes": [
+    {
+      "term": "biceps brachii",
+      "concepts": [
+        {
+          "id": "FMA37682",
+          "name": "short head of biceps brachii",
+          "meshes": 2
+        },
+        {
+          "id": "FMA37683",
+          "name": "long head of biceps brachii",
+          "meshes": 2
+        },
+        {
+          "id": "FMA37684",
+          "name": "short head of right biceps brachii",
+          "meshes": 1
+        },
+        {
+          "id": "FMA37685",
+          "name": "short head of left biceps brachii",
+          "meshes": 1
+        },
+        {
+          "id": "FMA37686",
+          "name": "long head of right biceps brachii",
+          "meshes": 1
+        },
+        {
+          "id": "FMA37687",
+          "name": "long head of left biceps brachii",
+          "meshes": 1
+        }
+      ],
+      "meshes": [
+        {
+          "id": "FJ1478",
+          "name": "Long head of right biceps brachii",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ1478M",
+          "name": "Long head of left biceps brachii",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ1512",
+          "name": "Short head of right biceps brachii",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ1512M",
+          "name": "Short head of left biceps brachii",
+          "system": "muscular"
+        }
+      ]
+    },
+    {
+      "term": "musculocutaneous",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "median nerve",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "brachial plexus",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "sciatic nerve",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "supraglenoid",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "coracoid",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "radial tuberosity",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "cochlea",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "hippocampus",
+      "concepts": [
+        {
+          "id": "FMA62493",
+          "name": "hippocampus",
+          "meshes": 2
+        },
+        {
+          "id": "FMA72713",
+          "name": "right hippocampus",
+          "meshes": 1
+        },
+        {
+          "id": "FMA72714",
+          "name": "left hippocampus",
+          "meshes": 1
+        }
+      ],
+      "meshes": [
+        {
+          "id": "FJ1759",
+          "name": "Left hippocampus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1807",
+          "name": "Right hippocampus",
+          "system": "nervous"
+        }
+      ]
+    },
+    {
+      "term": "anterior cruciate",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "meniscus",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "alveol",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "nephron",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "ovary",
+      "concepts": [],
+      "meshes": []
+    },
+    {
+      "term": "uterus",
+      "concepts": [],
+      "meshes": []
+    }
+  ],
+  "conceptGeometryExamples": [
+    {
+      "name": "spinal cord",
+      "id": "FMA7647",
+      "meshes": [
+        {
+          "id": "FJ1737",
+          "name": "Central canal of spinal cord",
+          "system": "nervous"
+        }
+      ]
+    },
+    {
+      "name": "heart",
+      "id": "FMA7088",
+      "meshes": [
+        {
+          "id": "FJ2417",
+          "name": "Left anterior cusp of pulmonary valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2418",
+          "name": "Anterolateral head of lateral papillary muscle of left ventricle",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ2419",
+          "name": "Anterior papillary muscle of right ventricle",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ2420",
+          "name": "Anterior leaflet of mitral valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2421",
+          "name": "Anterior leaflet of tricuspid valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2422",
+          "name": "Cavity of left ventricle",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2423",
+          "name": "Cavity of right ventricle",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2424",
+          "name": "Cavity of right atrium",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2425",
+          "name": "Cavity of left atrium",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2426",
+          "name": "Left posterior cusp of aortic valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2427",
+          "name": "Posterior cusp of pulmonary valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2429",
+          "name": "Lateral papillary muscle of left ventricle",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ2430",
+          "name": "Posterior papillary muscle of right ventricle",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ2431",
+          "name": "Right posterior cusp of aortic valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2432",
+          "name": "Posterior leaflet of mitral valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2433",
+          "name": "Posterior leaflet of tricuspid valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2434",
+          "name": "Right anterior cusp of pulmonary valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2435",
+          "name": "Anterior cusp of aortic valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2436",
+          "name": "Septal leaflet of tricuspid valve",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2437",
+          "name": "Septal papillary muscle of right ventricle",
+          "system": "muscular"
+        },
+        {
+          "id": "FJ2438",
+          "name": "Wall of left atrium",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2439",
+          "name": "Wall of right atrium",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ2631",
+          "name": "Trunk of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2632",
+          "name": "First right anterior branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2633",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2634",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2635",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2636",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2637",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2638",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2639",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2640",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2641",
+          "name": "Third right anterior branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2642",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2643",
+          "name": "Conus branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2644",
+          "name": "Conus branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2645",
+          "name": "First right anterior branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2646",
+          "name": "Second right anterior branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2647",
+          "name": "Third right anterior branch of anterior interventricular branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2648",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2649",
+          "name": "Circumflex branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2650",
+          "name": "Circumflex branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2651",
+          "name": "Circumflex branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2652",
+          "name": "Circumflex branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2653",
+          "name": "Circumflex branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2654",
+          "name": "Circumflex branch of left coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2655",
+          "name": "Coronary sinus",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2656",
+          "name": "Great cardiac vein",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2667",
+          "name": "Marginal branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2668",
+          "name": "Marginal branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2670",
+          "name": "Right conus artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2671",
+          "name": "First anterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2672",
+          "name": "Marginal branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2673",
+          "name": "First anterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2674",
+          "name": "Marginal branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2675",
+          "name": "Marginal branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2676",
+          "name": "Right conus artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2677",
+          "name": "First anterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2692",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2693",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2694",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2695",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2696",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2697",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2698",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2699",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2700",
+          "name": "Posterior interventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2714",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2715",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2716",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2717",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2718",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2719",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2720",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2721",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2722",
+          "name": "First posterior ventricular branch of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2723",
+          "name": "Trunk of right coronary artery",
+          "system": "arterial"
+        },
+        {
+          "id": "FJ2724",
+          "name": "Small cardiac vein",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2727",
+          "name": "Right marginal vein",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2728",
+          "name": "Right marginal vein",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2729",
+          "name": "Right marginal vein",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2731",
+          "name": "Small cardiac vein",
+          "system": "venous"
+        },
+        {
+          "id": "FJ2737",
+          "name": "Trunk of left coronary artery",
+          "system": "arterial"
+        }
+      ]
+    },
+    {
+      "name": "brain",
+      "id": "FMA50801",
+      "meshes": [
+        {
+          "id": "FJ1730",
+          "name": "Third ventricle",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ1731",
+          "name": "Fourth ventricle",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ1732",
+          "name": "Left angular gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1733",
+          "name": "Right angular gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1738",
+          "name": "Cerebral aqueduct",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1739",
+          "name": "Left cingulate gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1740",
+          "name": "Right cingulate gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1743",
+          "name": "Habenula",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1744",
+          "name": "Left inferior frontal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1745",
+          "name": "Right inferior frontal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1746",
+          "name": "Left inferior temporal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1747",
+          "name": "Right inferior temporal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1748",
+          "name": "Left insula",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1749",
+          "name": "Right insula",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1750",
+          "name": "Left internal capsule",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1751",
+          "name": "Right internal capsule",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1758",
+          "name": "White matter of left cerebral hemisphere",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1759",
+          "name": "Left hippocampus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1760",
+          "name": "Hypothalamus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1762",
+          "name": "Left inferior colliculus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1767",
+          "name": "Left lateral ventricle",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ1769",
+          "name": "Medulla oblongata",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1770",
+          "name": "Midbrain",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1775",
+          "name": "Pons",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1779",
+          "name": "Left superior colliculus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1780",
+          "name": "Tuber cinereum",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1781",
+          "name": "Cerebellum",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1783",
+          "name": "Left fusiform gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1784",
+          "name": "Right fusiform gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1785",
+          "name": "Left parahippocampal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1786",
+          "name": "Right parahippocampal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1787",
+          "name": "Left middle frontal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1788",
+          "name": "Right middle frontal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1789",
+          "name": "Left middle temporal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1790",
+          "name": "Right middle temporal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1791",
+          "name": "Left occipital lobe",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1792",
+          "name": "Right occipital lobe",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1795",
+          "name": "Pineal body",
+          "system": "endocrine"
+        },
+        {
+          "id": "FJ1797",
+          "name": "Left postcentral gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1798",
+          "name": "Right postcentral gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1800",
+          "name": "Left precentral gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1801",
+          "name": "Right precentral gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1806",
+          "name": "White matter of right cerebral hemisphere",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1807",
+          "name": "Right hippocampus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1808",
+          "name": "Hypothalamus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1810",
+          "name": "Right inferior colliculus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1814",
+          "name": "Right lateral ventricle",
+          "system": "cardiac"
+        },
+        {
+          "id": "FJ1817",
+          "name": "Midbrain",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1822",
+          "name": "Pons",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1826",
+          "name": "Right superior colliculus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1828",
+          "name": "Tuber cinereum",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1830",
+          "name": "Cerebellum",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1831",
+          "name": "Medulla oblongata",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1833",
+          "name": "Left superior frontal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1834",
+          "name": "Right superior frontal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1835",
+          "name": "Left superior parietal lobule",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1836",
+          "name": "Right superior parietal lobule",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1841",
+          "name": "Left supramarginal gyrus",
+          "system": "nervous"
+        },
+        {
+          "id": "FJ1842",
+          "name": "Right supramarginal gyrus",
+          "system": "nervous"
+        }
+      ]
+    }
+  ]
+}

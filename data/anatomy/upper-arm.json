@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bilateral biceps and coracobrachialis pilot; not complete upper arm",
+  "entities": [
+    {
+      "id": "atlas:left-biceps-brachii",
+      "name": "Left biceps brachii",
+      "side": "left",
+      "kind": "muscle",
+      "geometryPartIds": [
+        "FJ1478M",
+        "FJ1512M"
+      ],
+      "representationStatus": "composite_unreviewed",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:left-musculocutaneous-nerve",
+      "name": "Left musculocutaneous nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "external_candidate",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:left-coracoid-process",
+      "name": "Left coracoid process",
+      "side": "left",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:left-supraglenoid-tubercle",
+      "name": "Left supraglenoid tubercle",
+      "side": "left",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:left-radial-tuberosity",
+      "name": "Left radial tuberosity",
+      "side": "left",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:left-humerus-medial-midshaft",
+      "name": "Left medial midshaft attachment region of humerus",
+      "side": "left",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:right-biceps-brachii",
+      "name": "Right biceps brachii",
+      "side": "right",
+      "kind": "muscle",
+      "geometryPartIds": [
+        "FJ1478",
+        "FJ1512"
+      ],
+      "representationStatus": "composite_unreviewed",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:right-musculocutaneous-nerve",
+      "name": "Right musculocutaneous nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "external_candidate",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:right-coracoid-process",
+      "name": "Right coracoid process",
+      "side": "right",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:right-supraglenoid-tubercle",
+      "name": "Right supraglenoid tubercle",
+      "side": "right",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:right-radial-tuberosity",
+      "name": "Right radial tuberosity",
+      "side": "right",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    },
+    {
+      "id": "atlas:right-humerus-medial-midshaft",
+      "name": "Right medial midshaft attachment region of humerus",
+      "side": "right",
+      "kind": "landmark",
+      "geometryPartIds": [],
+      "representationStatus": "landmark_unanchored",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "FMA37687|part_of|atlas:left-biceps-brachii",
+      "subject": "FMA37687",
+      "predicate": "part_of",
+      "object": "atlas:left-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37685|part_of|atlas:left-biceps-brachii",
+      "subject": "FMA37685",
+      "predicate": "part_of",
+      "object": "atlas:left-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37687|originates_at|atlas:left-supraglenoid-tubercle",
+      "subject": "FMA37687",
+      "predicate": "originates_at",
+      "object": "atlas:left-supraglenoid-tubercle",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37685|originates_at|atlas:left-coracoid-process",
+      "subject": "FMA37685",
+      "predicate": "originates_at",
+      "object": "atlas:left-coracoid-process",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "site": "tip"
+      }
+    },
+    {
+      "id": "atlas:left-biceps-brachii|inserts_at|atlas:left-radial-tuberosity",
+      "subject": "atlas:left-biceps-brachii",
+      "predicate": "inserts_at",
+      "object": "atlas:left-radial-tuberosity",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Bony insertion only; bicipital aponeurosis not included in this pilot"
+      }
+    },
+    {
+      "id": "atlas:left-musculocutaneous-nerve|innervates|atlas:left-biceps-brachii",
+      "subject": "atlas:left-musculocutaneous-nerve",
+      "predicate": "innervates",
+      "object": "atlas:left-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA22692|supplies|atlas:left-biceps-brachii",
+      "subject": "FMA22692",
+      "predicate": "supplies",
+      "object": "atlas:left-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Artery"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-coracoid-process|part_of|FMA13396",
+      "subject": "atlas:left-coracoid-process",
+      "predicate": "part_of",
+      "object": "FMA13396",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-supraglenoid-tubercle|part_of|FMA13396",
+      "subject": "atlas:left-supraglenoid-tubercle",
+      "predicate": "part_of",
+      "object": "FMA13396",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-radial-tuberosity|part_of|FMA23465",
+      "subject": "atlas:left-radial-tuberosity",
+      "predicate": "part_of",
+      "object": "FMA23465",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37666|originates_at|atlas:left-coracoid-process",
+      "subject": "FMA37666",
+      "predicate": "originates_at",
+      "object": "atlas:left-coracoid-process",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37666|inserts_at|atlas:left-humerus-medial-midshaft",
+      "subject": "FMA37666",
+      "predicate": "inserts_at",
+      "object": "atlas:left-humerus-medial-midshaft",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-humerus-medial-midshaft|part_of|FMA23131",
+      "subject": "atlas:left-humerus-medial-midshaft",
+      "predicate": "part_of",
+      "object": "FMA23131",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-musculocutaneous-nerve|innervates|FMA37666",
+      "subject": "atlas:left-musculocutaneous-nerve",
+      "predicate": "innervates",
+      "object": "FMA37666",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA22692|supplies|FMA37666",
+      "subject": "FMA22692",
+      "predicate": "supplies",
+      "object": "FMA37666",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Artery"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-musculocutaneous-nerve|passes_through|FMA37666",
+      "subject": "atlas:left-musculocutaneous-nerve",
+      "predicate": "passes_through",
+      "object": "FMA37666",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Notes"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37686|part_of|atlas:right-biceps-brachii",
+      "subject": "FMA37686",
+      "predicate": "part_of",
+      "object": "atlas:right-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37684|part_of|atlas:right-biceps-brachii",
+      "subject": "FMA37684",
+      "predicate": "part_of",
+      "object": "atlas:right-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37686|originates_at|atlas:right-supraglenoid-tubercle",
+      "subject": "FMA37686",
+      "predicate": "originates_at",
+      "object": "atlas:right-supraglenoid-tubercle",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37684|originates_at|atlas:right-coracoid-process",
+      "subject": "FMA37684",
+      "predicate": "originates_at",
+      "object": "atlas:right-coracoid-process",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "site": "tip"
+      }
+    },
+    {
+      "id": "atlas:right-biceps-brachii|inserts_at|atlas:right-radial-tuberosity",
+      "subject": "atlas:right-biceps-brachii",
+      "predicate": "inserts_at",
+      "object": "atlas:right-radial-tuberosity",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Bony insertion only; bicipital aponeurosis not included in this pilot"
+      }
+    },
+    {
+      "id": "atlas:right-musculocutaneous-nerve|innervates|atlas:right-biceps-brachii",
+      "subject": "atlas:right-musculocutaneous-nerve",
+      "predicate": "innervates",
+      "object": "atlas:right-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA22691|supplies|atlas:right-biceps-brachii",
+      "subject": "FMA22691",
+      "predicate": "supplies",
+      "object": "atlas:right-biceps-brachii",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Artery"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-coracoid-process|part_of|FMA13395",
+      "subject": "atlas:right-coracoid-process",
+      "predicate": "part_of",
+      "object": "FMA13395",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-supraglenoid-tubercle|part_of|FMA13395",
+      "subject": "atlas:right-supraglenoid-tubercle",
+      "predicate": "part_of",
+      "object": "FMA13395",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-radial-tuberosity|part_of|FMA23464",
+      "subject": "atlas:right-radial-tuberosity",
+      "predicate": "part_of",
+      "object": "FMA23464",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "biceps brachii row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / biceps brachii / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37665|originates_at|atlas:right-coracoid-process",
+      "subject": "FMA37665",
+      "predicate": "originates_at",
+      "object": "atlas:right-coracoid-process",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA37665|inserts_at|atlas:right-humerus-medial-midshaft",
+      "subject": "FMA37665",
+      "predicate": "inserts_at",
+      "object": "atlas:right-humerus-medial-midshaft",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-humerus-medial-midshaft|part_of|FMA23130",
+      "subject": "atlas:right-humerus-medial-midshaft",
+      "predicate": "part_of",
+      "object": "FMA23130",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-musculocutaneous-nerve|innervates|FMA37665",
+      "subject": "atlas:right-musculocutaneous-nerve",
+      "predicate": "innervates",
+      "object": "FMA37665",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-arm",
+          "locator": "Anterior compartment table / coracobrachialis / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA22691|supplies|FMA37665",
+      "subject": "FMA22691",
+      "predicate": "supplies",
+      "object": "FMA37665",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Artery"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-musculocutaneous-nerve|passes_through|FMA37665",
+      "subject": "atlas:right-musculocutaneous-nerve",
+      "predicate": "passes_through",
+      "object": "FMA37665",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "coracobrachialis row / Notes"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    }
+  ],
+  "assetBindings": [
+    {
+      "entityId": "FMA37687",
+      "sourceId": "zanatomy",
+      "objectName": "Long head of biceps brachii.l",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 1611,
+        "polygons": 3218
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Long head of biceps brachii.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA37685",
+      "sourceId": "zanatomy",
+      "objectName": "Short head of biceps brachii.l",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 1344,
+        "polygons": 2696
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Short head of biceps brachii.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA37666",
+      "sourceId": "zanatomy",
+      "objectName": "Coracobrachialis muscle.l",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 582,
+        "polygons": 1160
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Coracobrachialis muscle.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA22692",
+      "sourceId": "zanatomy",
+      "objectName": "Brachial artery.l",
+      "objectType": "CURVE",
+      "sourceGeometrySummary": {
+        "splines": 1,
+        "curvePoints": 11
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Brachial artery.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA13396",
+      "sourceId": "zanatomy",
+      "objectName": "Scapula.l",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 12690,
+        "polygons": 25255
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Scapula.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA23465",
+      "sourceId": "zanatomy",
+      "objectName": "Radius.l",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 394,
+        "polygons": 719
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Radius.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA23131",
+      "sourceId": "zanatomy",
+      "objectName": "Humerus.l",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 2143,
+        "polygons": 4280
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Humerus.l"
+        }
+      ]
+    },
+    {
+      "entityId": "atlas:left-musculocutaneous-nerve",
+      "sourceId": "zanatomy",
+      "objectName": "Musculocutaneous nerve.l",
+      "objectType": "CURVE",
+      "sourceGeometrySummary": {
+        "splines": 1,
+        "curvePoints": 6
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Musculocutaneous nerve.l"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA37686",
+      "sourceId": "zanatomy",
+      "objectName": "Long head of biceps brachii.r",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 1611,
+        "polygons": 3218
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Long head of biceps brachii.r"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA37684",
+      "sourceId": "zanatomy",
+      "objectName": "Short head of biceps brachii.r",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 1344,
+        "polygons": 2696
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Short head of biceps brachii.r"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA37665",
+      "sourceId": "zanatomy",
+      "objectName": "Coracobrachialis muscle.r",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 582,
+        "polygons": 1160
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Coracobrachialis muscle.r"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA22691",
+      "sourceId": "zanatomy",
+      "objectName": "Brachial artery.r",
+      "objectType": "CURVE",
+      "sourceGeometrySummary": {
+        "splines": 1,
+        "curvePoints": 11
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Brachial artery.r"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA13395",
+      "sourceId": "zanatomy",
+      "objectName": "Scapula.r",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 12690,
+        "polygons": 25255
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Scapula.r"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA23464",
+      "sourceId": "zanatomy",
+      "objectName": "Radius.r",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 394,
+        "polygons": 719
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Radius.r"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA23130",
+      "sourceId": "zanatomy",
+      "objectName": "Humerus.r",
+      "objectType": "MESH",
+      "sourceGeometrySummary": {
+        "vertices": 2143,
+        "polygons": 4280
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Humerus.r"
+        }
+      ]
+    },
+    {
+      "entityId": "atlas:right-musculocutaneous-nerve",
+      "sourceId": "zanatomy",
+      "objectName": "Musculocutaneous nerve.r",
+      "objectType": "CURVE",
+      "sourceGeometrySummary": {
+        "splines": 1,
+        "curvePoints": 6
+      },
+      "mappingMethod": "curated anatomical name and laterality match",
+      "status": "candidate_not_registered",
+      "transformStatus": "pending",
+      "geometryEquality": "not_asserted",
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / object Musculocutaneous nerve.r"
+        }
+      ]
+    }
+  ]
+}

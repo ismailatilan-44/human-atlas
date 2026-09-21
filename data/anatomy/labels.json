@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bilateral shoulder–arm pilot only; Turkish labels are editorial translations, not an official TA2 Turkish edition. Latin labels retain the source base term; L/R indicates laterality.",
+  "source": {
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "retrievedAt": "2026-09-22",
+    "expertReview": "pending"
+  },
+  "entries": [
+    {
+      "ids": [
+        "atlas:left-biceps-brachii"
+      ],
+      "tr": "İki başlı kol kası",
+      "en": "Biceps brachii muscle",
+      "la": "Musculus biceps brachii",
+      "ta2Id": 2464,
+      "aliases": [
+        "biceps",
+        "biseps",
+        "pazı",
+        "pazu"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "atlas:right-biceps-brachii"
+      ],
+      "tr": "İki başlı kol kası",
+      "en": "Biceps brachii muscle",
+      "la": "Musculus biceps brachii",
+      "ta2Id": 2464,
+      "aliases": [
+        "biceps",
+        "biseps",
+        "pazı",
+        "pazu"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA37683"
+      ],
+      "tr": "İki başlı kol kasının uzun başı",
+      "en": "Long head of biceps brachii",
+      "la": "Caput longum musculi bicipitis brachii",
+      "ta2Id": 2465,
+      "aliases": [
+        "biceps uzun baş",
+        "biseps uzun baş",
+        "pazı uzun baş"
+      ]
+    },
+    {
+      "ids": [
+        "FMA37687",
+        "FJ1478M"
+      ],
+      "tr": "İki başlı kol kasının uzun başı",
+      "en": "Long head of biceps brachii",
+      "la": "Caput longum musculi bicipitis brachii",
+      "ta2Id": 2465,
+      "aliases": [
+        "biceps uzun baş",
+        "biseps uzun baş",
+        "pazı uzun baş"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA37686",
+        "FJ1478"
+      ],
+      "tr": "İki başlı kol kasının uzun başı",
+      "en": "Long head of biceps brachii",
+      "la": "Caput longum musculi bicipitis brachii",
+      "ta2Id": 2465,
+      "aliases": [
+        "biceps uzun baş",
+        "biseps uzun baş",
+        "pazı uzun baş"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA37682"
+      ],
+      "tr": "İki başlı kol kasının kısa başı",
+      "en": "Short head of biceps brachii",
+      "la": "Caput breve musculi bicipitis brachii",
+      "ta2Id": 2466,
+      "aliases": [
+        "biceps kısa baş",
+        "biseps kısa baş",
+        "pazı kısa baş"
+      ]
+    },
+    {
+      "ids": [
+        "FMA37685",
+        "FJ1512M"
+      ],
+      "tr": "İki başlı kol kasının kısa başı",
+      "en": "Short head of biceps brachii",
+      "la": "Caput breve musculi bicipitis brachii",
+      "ta2Id": 2466,
+      "aliases": [
+        "biceps kısa baş",
+        "biseps kısa baş",
+        "pazı kısa baş"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA37684",
+        "FJ1512"
+      ],
+      "tr": "İki başlı kol kasının kısa başı",
+      "en": "Short head of biceps brachii",
+      "la": "Caput breve musculi bicipitis brachii",
+      "ta2Id": 2466,
+      "aliases": [
+        "biceps kısa baş",
+        "biseps kısa baş",
+        "pazı kısa baş"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA37664"
+      ],
+      "tr": "Korakobrakiyal kas",
+      "en": "Coracobrachialis muscle",
+      "la": "Musculus coracobrachialis",
+      "ta2Id": 2468,
+      "aliases": [
+        "korakobrakialis",
+        "coracobrachialis"
+      ]
+    },
+    {
+      "ids": [
+        "FMA37666",
+        "FJ1488M"
+      ],
+      "tr": "Korakobrakiyal kas",
+      "en": "Coracobrachialis muscle",
+      "la": "Musculus coracobrachialis",
+      "ta2Id": 2468,
+      "aliases": [
+        "korakobrakialis",
+        "coracobrachialis"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA37665",
+        "FJ1488"
+      ],
+      "tr": "Korakobrakiyal kas",
+      "en": "Coracobrachialis muscle",
+      "la": "Musculus coracobrachialis",
+      "ta2Id": 2468,
+      "aliases": [
+        "korakobrakialis",
+        "coracobrachialis"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "atlas:left-musculocutaneous-nerve"
+      ],
+      "tr": "Muskülokutan sinir",
+      "en": "Musculocutaneous nerve",
+      "la": "Nervus musculocutaneus",
+      "ta2Id": 6421,
+      "aliases": [
+        "muskulokutaneus",
+        "musculocutaneus"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "atlas:right-musculocutaneous-nerve"
+      ],
+      "tr": "Muskülokutan sinir",
+      "en": "Musculocutaneous nerve",
+      "la": "Nervus musculocutaneus",
+      "ta2Id": 6421,
+      "aliases": [
+        "muskulokutaneus",
+        "musculocutaneus"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA13394"
+      ],
+      "tr": "Kürek kemiği",
+      "en": "Scapula",
+      "la": "Scapula",
+      "ta2Id": 1143,
+      "aliases": [
+        "skapula"
+      ]
+    },
+    {
+      "ids": [
+        "FMA13396",
+        "FJ3279"
+      ],
+      "tr": "Kürek kemiği",
+      "en": "Scapula",
+      "la": "Scapula",
+      "ta2Id": 1143,
+      "aliases": [
+        "skapula"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA13395",
+        "FJ3384"
+      ],
+      "tr": "Kürek kemiği",
+      "en": "Scapula",
+      "la": "Scapula",
+      "ta2Id": 1143,
+      "aliases": [
+        "skapula"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA13303"
+      ],
+      "tr": "Kol kemiği",
+      "en": "Humerus",
+      "la": "Humerus",
+      "ta2Id": 1180,
+      "aliases": []
+    },
+    {
+      "ids": [
+        "FMA23131",
+        "FJ3262"
+      ],
+      "tr": "Kol kemiği",
+      "en": "Humerus",
+      "la": "Humerus",
+      "ta2Id": 1180,
+      "aliases": [],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA23130",
+        "FJ3368"
+      ],
+      "tr": "Kol kemiği",
+      "en": "Humerus",
+      "la": "Humerus",
+      "ta2Id": 1180,
+      "aliases": [],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA23463"
+      ],
+      "tr": "Radius kemiği",
+      "en": "Radius",
+      "la": "Radius",
+      "ta2Id": 1210,
+      "aliases": [
+        "döner kemik"
+      ]
+    },
+    {
+      "ids": [
+        "FMA23465",
+        "FJ3277"
+      ],
+      "tr": "Radius kemiği",
+      "en": "Radius",
+      "la": "Radius",
+      "ta2Id": 1210,
+      "aliases": [
+        "döner kemik"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA23464",
+        "FJ3349"
+      ],
+      "tr": "Radius kemiği",
+      "en": "Radius",
+      "la": "Radius",
+      "ta2Id": 1210,
+      "aliases": [
+        "döner kemik"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "atlas:left-coracoid-process"
+      ],
+      "tr": "Korakoid çıkıntı",
+      "en": "Coracoid process",
+      "la": "Processus coracoideus",
+      "ta2Id": 1159,
+      "aliases": [],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "atlas:right-coracoid-process"
+      ],
+      "tr": "Korakoid çıkıntı",
+      "en": "Coracoid process",
+      "la": "Processus coracoideus",
+      "ta2Id": 1159,
+      "aliases": [],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "atlas:left-supraglenoid-tubercle"
+      ],
+      "tr": "Supraglenoid tüberkül",
+      "en": "Supraglenoid tubercle",
+      "la": "Tuberculum supraglenoideum",
+      "ta2Id": 1163,
+      "aliases": [],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "atlas:right-supraglenoid-tubercle"
+      ],
+      "tr": "Supraglenoid tüberkül",
+      "en": "Supraglenoid tubercle",
+      "la": "Tuberculum supraglenoideum",
+      "ta2Id": 1163,
+      "aliases": [],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "atlas:left-radial-tuberosity"
+      ],
+      "tr": "Radius tüberozitesi",
+      "en": "Radial tuberosity",
+      "la": "Tuberositas radii",
+      "ta2Id": 1216,
+      "aliases": [],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "atlas:right-radial-tuberosity"
+      ],
+      "tr": "Radius tüberozitesi",
+      "en": "Radial tuberosity",
+      "la": "Tuberositas radii",
+      "ta2Id": 1216,
+      "aliases": [],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "FMA22689"
+      ],
+      "tr": "Kol atardamarı",
+      "en": "Brachial artery",
+      "la": "Arteria brachialis",
+      "ta2Id": 4632,
+      "aliases": [
+        "brakiyal arter"
+      ]
+    },
+    {
+      "ids": [
+        "FMA22692",
+        "FJ2219"
+      ],
+      "tr": "Kol atardamarı",
+      "en": "Brachial artery",
+      "la": "Arteria brachialis",
+      "ta2Id": 4632,
+      "aliases": [
+        "brakiyal arter"
+      ],
+      "side": "left"
+    },
+    {
+      "ids": [
+        "FMA22691",
+        "FJ2271"
+      ],
+      "tr": "Kol atardamarı",
+      "en": "Brachial artery",
+      "la": "Arteria brachialis",
+      "ta2Id": 4632,
+      "aliases": [
+        "brakiyal arter"
+      ],
+      "side": "right"
+    },
+    {
+      "ids": [
+        "atlas:left-humerus-medial-midshaft"
+      ],
+      "tr": "Humerus gövdesinin orta iç tutunma bölgesi",
+      "en": "Medial midshaft attachment region of humerus",
+      "side": "left",
+      "aliases": []
+    },
+    {
+      "ids": [
+        "atlas:right-humerus-medial-midshaft"
+      ],
+      "tr": "Humerus gövdesinin orta iç tutunma bölgesi",
+      "en": "Medial midshaft attachment region of humerus",
+      "side": "right",
+      "aliases": []
+    }
+  ]
+}
