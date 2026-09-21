@@ -2,7 +2,15 @@
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
 
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+**[Original upstream demo](https://human-atlas-seven.vercel.app)** — the local model-explorer changes below are not yet published there.
+
+## Model explorer work
+
+This branch adds registered Z-Anatomy musculocutaneous, median and sciatic nerves plus bilateral menisci and cruciate ligaments (2,248 total meshes), six source-derived attachment markers, pilot Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus.
+
+Run locally to inspect the work. Read [delivery status](docs/model/2026-09-20-delivery-plan.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; nerve branches, brachial plexus, thyroid quality, full spinal cord and female pelvis remain open. Anatomical expert review is pending. The exported low-detail thyroid candidate is deliberately excluded from the active model registry after visual review.
+
+The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md). Its CC BY-SA source declaration must not be replaced by the base atlas license.
 
 ## Explore
 
@@ -28,6 +36,7 @@ Open http://localhost:3016. To build the static site, run `npm run build`; the o
 
 ```sh
 npm run check
+node --test scripts/anatomy-knowledge.test.mjs
 node scripts/validate-atlas.mjs
 node scripts/validate-interactions.mjs
 npm run build
@@ -55,10 +64,12 @@ The repository includes browser-ready geometry. Rebuilding it is optional: obtai
 
 ## Deploy
 
+GitHub Pages serves the `gh-pages` branch. After committing and pushing source changes to the `fork` remote, run `npm run deploy:pages`. This builds for the repository subpath, commits only static output to a temporary checkout, and pushes without force. The GitHub Pages repository setting must select `gh-pages` at `/`. This avoids requiring OAuth workflow-file permission. To inspect the build locally: `npm run build -- --base=/human-atlas/` then `npx vite preview --base=/human-atlas/`.
+
 Import this repository into Vercel as a Vite project. The included `vercel.json` configures `npm ci`, `npm run build`, and the `dist` output directory. It can also be served by a static host.
 
 ## License
 
-Original application code is released under the [MIT License](LICENSE). **The anatomy data has its own CC BY 4.0 license**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
+Original application code is released under the [MIT License](LICENSE). **The base anatomy data is CC BY 4.0; the Z-Anatomy extension has separate attribution and licensing**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
 
 Issues and pull requests are welcome. Please include reproduction steps and browser/device details for interaction problems.

@@ -1,0 +1,255 @@
+{
+  "version": "Z-Anatomy thyroid reference extension 1",
+  "sex": "male",
+  "source": {
+    "id": "zanatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "blenderVersion": "5.2.0 LTS",
+    "license": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)",
+    "attribution": "/models/extensions/THYROID-ATTRIBUTION.md",
+    "limitations": "Object-specific author/source provenance is not supplied by upstream. No relicensing or blanket commercial clearance of the full archive is asserted.",
+    "selectedObjects": [
+      "Thyroid gland"
+    ]
+  },
+  "parts": [
+    {
+      "id": "ZA-THYROID",
+      "conceptId": "atlas:thyroid-gland",
+      "name": "Thyroid gland",
+      "system": "endocrine",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 15624,
+      "indices": 23436,
+      "vertexCount": 1302,
+      "indexCount": 7800,
+      "bounds": [
+        [
+          -0.02408517338335514,
+          1.4643973112106323,
+          -0.012818066403269768
+        ],
+        [
+          0.022734833881258965,
+          1.497438907623291,
+          0.0269989725202322
+        ]
+      ],
+      "sourceObject": "Thyroid gland",
+      "sourceObjectType": "MESH",
+      "representation": "source_authored_low_detail_reference",
+      "expertReview": "pending",
+      "sourceBaseGeometry": {
+        "vertices": 84,
+        "polygons": 68
+      },
+      "appliedSourceModifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR",
+          "viewportLevels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY",
+          "viewportLevels": null,
+          "renderLevels": null
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF",
+          "viewportLevels": 1,
+          "renderLevels": 2
+        }
+      ],
+      "evaluation": "Source viewport evaluation: Mirror, Solidify, then Subdivision level 1. No added smoothing or decimation.",
+      "quality": {
+        "closedTwoManifold": true,
+        "absoluteEnclosedVolumeCubicCm": 4.322362546431569
+      },
+      "limitations": "Low-detail authored shape, not a scan or segmented lobes/isthmus. Subdivision adds display triangles, not anatomical detail. Expert review of location and morphology pending."
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/thyroid.bin",
+      "bytes": 54636,
+      "gzip": "/models/extensions/thyroid.bin.gz",
+      "gzipBytes": 33072,
+      "sha256": "efa9cef3553976cba5036a77e4aaee1d35319a06d63d2dcbb86d8c70229255e3"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "atlas:thyroid-gland",
+      "name": "Thyroid gland",
+      "elements": [
+        "ZA-THYROID"
+      ]
+    }
+  ],
+  "triangles": 2600,
+  "scope": "One source-authored low-detail thyroid gland reference mesh; parathyroids, subdivisions and expert anatomical validation are not included",
+  "registration": {
+    "method": "Neck-specific bidirectional nearest-surface similarity ICP on hyoid, thyroid cartilage and cricoid cartilage; C3-C7 and trachea held out",
+    "initialization": "/models/extensions/upper-arm-nerves.json (rejected as final neck registration)",
+    "matrixColumnVector": [
+      [
+        0.9628010855747594,
+        -0.0006466627936618736,
+        -0.0006592549219656878,
+        0.00030052249710295245
+      ],
+      [
+        0.0006521423765890278,
+        -0.010531209575366716,
+        0.9627437101892471,
+        0.06374676545648467
+      ],
+      [
+        -0.0006538349497384438,
+        -0.9627437138854086,
+        -0.010530766721730806,
+        0.0070184804080664995
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 0.9628015284438206,
+    "iterations": 35,
+    "lastTransformDelta": 9.353052230886422e-08,
+    "sourceUnits": "meters",
+    "sourceAxes": "X left, Y posterior, Z superior",
+    "targetUnits": "meters",
+    "targetAxes": "X left, Y superior, Z anterior",
+    "measurements": [
+      {
+        "sourceObject": "Hyoid bone",
+        "targetPartId": "FJ3201",
+        "targetConceptId": "FMA52749",
+        "role": "local_fit_reference",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 1.1352499278851111,
+        "meanMm": 0.8682928190641743,
+        "p95Mm": 2.57550152018666,
+        "maxMm": 3.1854871194809675,
+        "upperArmTransformRmsMm": 7.4288791936700855
+      },
+      {
+        "sourceObject": "Thyroid cartilage",
+        "targetPartId": "FJ2808",
+        "targetConceptId": "FMA55099",
+        "role": "local_fit_reference",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.6950258248790931,
+        "meanMm": 0.5454028891765341,
+        "p95Mm": 1.3573778909631073,
+        "maxMm": 2.493335399776697,
+        "upperArmTransformRmsMm": 6.669928102694771
+      },
+      {
+        "sourceObject": "Cricoid cartilage",
+        "targetPartId": "FJ2440",
+        "targetConceptId": "FMA9615",
+        "role": "local_fit_reference",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.5257267651722887,
+        "meanMm": 0.4282324005638265,
+        "p95Mm": 1.0553883155807853,
+        "maxMm": 1.2510784436017275,
+        "upperArmTransformRmsMm": 6.745650188094796
+      },
+      {
+        "sourceObject": "Vertebra C3",
+        "targetPartId": "FJ3161",
+        "targetConceptId": "FMA12521",
+        "role": "independent_neck_holdout",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 2.7656217210545657,
+        "meanMm": 2.283374740725416,
+        "p95Mm": 5.2194313146173945,
+        "maxMm": 6.728534586727619,
+        "upperArmTransformRmsMm": 7.892795239956205
+      },
+      {
+        "sourceObject": "Vertebra C4",
+        "targetPartId": "FJ3164",
+        "targetConceptId": "FMA12522",
+        "role": "independent_neck_holdout",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 2.267273234026397,
+        "meanMm": 1.8335621955884562,
+        "p95Mm": 4.585558315739032,
+        "maxMm": 5.945228505879641,
+        "upperArmTransformRmsMm": 6.5996392260497645
+      },
+      {
+        "sourceObject": "Vertebra C5",
+        "targetPartId": "FJ3167",
+        "targetConceptId": "FMA12523",
+        "role": "independent_neck_holdout",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 2.3847645446110435,
+        "meanMm": 1.9212694468866864,
+        "p95Mm": 4.537730943411589,
+        "maxMm": 6.246438715606928,
+        "upperArmTransformRmsMm": 4.800218293522794
+      },
+      {
+        "sourceObject": "Vertebra C6",
+        "targetPartId": "FJ3170",
+        "targetConceptId": "FMA12524",
+        "role": "independent_neck_holdout",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 2.772560979362272,
+        "meanMm": 2.407647773751991,
+        "p95Mm": 4.666016902774572,
+        "maxMm": 5.89069165289402,
+        "upperArmTransformRmsMm": 4.499047173938789
+      },
+      {
+        "sourceObject": "Vertebra C7",
+        "targetPartId": "FJ3172",
+        "targetConceptId": "FMA12525",
+        "role": "independent_neck_holdout",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 3.8727492471907046,
+        "meanMm": 3.1673382918953052,
+        "p95Mm": 7.389122364111243,
+        "maxMm": 9.328296408057213,
+        "upperArmTransformRmsMm": 4.358563979965068
+      },
+      {
+        "sourceObject": "Trachea",
+        "targetPartId": "FJ2541",
+        "targetConceptId": "FMA7394",
+        "role": "independent_neck_holdout",
+        "sourceGeometry": "authored base surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 2.2625483387710634,
+        "meanMm": 1.649210817868569,
+        "p95Mm": 4.928180132992566,
+        "maxMm": 6.203056778758764,
+        "upperArmTransformRmsMm": 5.636197264974369
+      }
+    ],
+    "limitations": "Local laryngeal fit is substantially better than the arm transform but residual cervical/tracheal shape differences remain. Surface agreement is not thyroid morphology or anatomical validation."
+  }
+}

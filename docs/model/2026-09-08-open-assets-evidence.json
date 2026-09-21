@@ -1,0 +1,736 @@
+{
+  "checkedOn": "2026-09-08",
+  "scope": "Source Blender object inventory, full Vanatome manifest and three downloaded GLB JSON chunks. No anatomical or visual validation.",
+  "files": [
+    {
+      "file": "vanatome-manifest.json",
+      "url": "https://raw.githubusercontent.com/vixotic/Vanatome/main/public/models/z-anatomy-1.4.0-manifest.json",
+      "status": 200,
+      "bytes": 670352,
+      "sha256": "41d504081fe6c1b2c8835835e2bb8d7c352ea3df5bb1309312e632fd9301c4dc"
+    },
+    {
+      "file": "vanatome-catalog.json",
+      "url": "https://raw.githubusercontent.com/vixotic/Vanatome/main/public/atlas/demo-1.4.0/catalog.json",
+      "status": 200,
+      "bytes": 8712,
+      "sha256": "d33c4722029c0c238a13a4a9418f7b7bc3a479366e8593c3e58d2f107b722397"
+    },
+    {
+      "file": "vanatome-nervous.glb",
+      "url": "https://raw.githubusercontent.com/vixotic/Vanatome/main/public/models/z-anatomy-1.4.0-nervous.glb",
+      "status": 200,
+      "bytes": 11301584,
+      "sha256": "8ef35e1dae0901660ea3a8557fb7769f893fde89ca482af11b1dfc989239e57f"
+    },
+    {
+      "file": "hra-uterus.glb",
+      "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/main/VH_Female/v1.2/VH_F_Uterus.glb",
+      "status": 200,
+      "bytes": 909772,
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95"
+    },
+    {
+      "file": "hra-ovary-l.glb",
+      "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/main/VH_Female/v1.2/VH_F_Ovary_L.glb",
+      "status": 200,
+      "bytes": 8984,
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062"
+    },
+    {
+      "file": "zanatomy-readme.md",
+      "url": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/main/Readme.md",
+      "status": 404
+    },
+    {
+      "file": "vanatome-license.md",
+      "url": "https://raw.githubusercontent.com/vixotic/Vanatome/main/ASSET-LICENSE.md",
+      "status": 200,
+      "bytes": 1427,
+      "sha256": "56b891d61c70601464471a900cadd883d33740791734b36051d21347426727fd"
+    },
+    {
+      "file": "hra-license.txt",
+      "url": "https://raw.githubusercontent.com/hubmapconsortium/ccf-3d-reference-object-library/main/LICENSE",
+      "status": 200,
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "file": "zanatomy.zip",
+      "url": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+      "bytes": 86734957,
+      "sha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+    },
+    {
+      "file": "Startup.blend",
+      "url": "Contained in Z-Anatomy.zip: Z-Anatomy/Startup.blend",
+      "bytes": 306838281,
+      "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd"
+    }
+  ],
+  "zanatomy": {
+    "blenderVersion": "5.2.0 LTS",
+    "objects": 7184,
+    "types": {
+      "MESH": 4569,
+      "CURVE": 951,
+      "FONT": 1660,
+      "LIGHT": 3,
+      "CAMERA": 1
+    },
+    "surfaceMeshes": 2964,
+    "edgeOnlyMeshes": 1605,
+    "probes": {
+      "median nerve": {
+        "namedObjects": 12,
+        "geometryCandidates": [
+          {
+            "name": "(Communicating branch of median nerve with ulnar nerve).l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "(Communicating branch of median nerve with ulnar nerve).r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Common palmar digital branches of median nerve.l",
+            "type": "CURVE",
+            "splines": 3,
+            "curve_points": 11,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Common palmar digital branches of median nerve.r",
+            "type": "CURVE",
+            "splines": 3,
+            "curve_points": 11,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Median nerve.l",
+            "type": "CURVE",
+            "splines": 2,
+            "curve_points": 20,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Median nerve.r",
+            "type": "CURVE",
+            "splines": 2,
+            "curve_points": 20,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Muscular branches of median nerve.l",
+            "type": "CURVE",
+            "splines": 4,
+            "curve_points": 8,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Muscular branches of median nerve.r",
+            "type": "CURVE",
+            "splines": 4,
+            "curve_points": 8,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Palmar branch of median nerve.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 5,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Palmar branch of median nerve.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 5,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Proper palmar digital branches of median nerve.l",
+            "type": "CURVE",
+            "splines": 7,
+            "curve_points": 45,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Proper palmar digital branches of median nerve.r",
+            "type": "CURVE",
+            "splines": 7,
+            "curve_points": 45,
+            "bevel_depth": 0.0005000000237487257
+          }
+        ]
+      },
+      "musculocutaneous": {
+        "namedObjects": 2,
+        "geometryCandidates": [
+          {
+            "name": "Musculocutaneous nerve.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 6,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Musculocutaneous nerve.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 6,
+            "bevel_depth": 0.0005000000237487257
+          }
+        ]
+      },
+      "brachial plexus": {
+        "namedObjects": 35,
+        "geometryCandidates": [
+          {
+            "name": "Anterior division of inferior trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Anterior division of inferior trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Anterior division of middle trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Anterior division of middle trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Anterior division of superior trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Anterior division of superior trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Inferior trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Inferior trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Middle trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Middle trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior cord of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior cord of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 3,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior division of inferior trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior division of inferior trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior division of middle trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior division of middle trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior division of superior trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior division of superior trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Roots of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 10,
+            "curve_points": 26,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Roots of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 10,
+            "curve_points": 26,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Superior trunk of brachial plexus.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Superior trunk of brachial plexus.r",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 2,
+            "bevel_depth": 0.0005000000237487257
+          }
+        ]
+      },
+      "sciatic nerve": {
+        "namedObjects": 2,
+        "geometryCandidates": [
+          {
+            "name": "Sciatic nerve.l",
+            "type": "CURVE",
+            "splines": 3,
+            "curve_points": 20,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Sciatic nerve.r",
+            "type": "CURVE",
+            "splines": 3,
+            "curve_points": 20,
+            "bevel_depth": 0.0005000000237487257
+          }
+        ]
+      },
+      "spinal cord": {
+        "namedObjects": 19,
+        "geometryCandidates": [
+          {
+            "name": "Anterior horn of spinal cord",
+            "type": "MESH",
+            "vertices": 44,
+            "polygons": 22
+          },
+          {
+            "name": "Posterior horn of spinal cord",
+            "type": "MESH",
+            "vertices": 64,
+            "polygons": 32
+          },
+          {
+            "name": "White matter of spinal cord",
+            "type": "MESH",
+            "vertices": 80,
+            "polygons": 39
+          }
+        ]
+      },
+      "menisc": {
+        "namedObjects": 14,
+        "geometryCandidates": [
+          {
+            "name": "Anterior meniscotibial ligament (Lateral meniscus).l",
+            "type": "MESH",
+            "vertices": 20,
+            "polygons": 12
+          },
+          {
+            "name": "Anterior meniscotibial ligament (Lateral meniscus).r",
+            "type": "MESH",
+            "vertices": 20,
+            "polygons": 12
+          },
+          {
+            "name": "Anterior meniscotibial ligament (Medial meniscus).l",
+            "type": "MESH",
+            "vertices": 10,
+            "polygons": 7
+          },
+          {
+            "name": "Anterior meniscotibial ligament (Medial meniscus).r",
+            "type": "MESH",
+            "vertices": 10,
+            "polygons": 7
+          },
+          {
+            "name": "Lateral meniscus.l",
+            "type": "MESH",
+            "vertices": 60,
+            "polygons": 59
+          },
+          {
+            "name": "Lateral meniscus.r",
+            "type": "MESH",
+            "vertices": 60,
+            "polygons": 59
+          },
+          {
+            "name": "Medial meniscus.l",
+            "type": "MESH",
+            "vertices": 36,
+            "polygons": 37
+          },
+          {
+            "name": "Medial meniscus.r",
+            "type": "MESH",
+            "vertices": 36,
+            "polygons": 37
+          },
+          {
+            "name": "Meniscopatellar ligament.l",
+            "type": "MESH",
+            "vertices": 15,
+            "polygons": 6
+          },
+          {
+            "name": "Meniscopatellar ligament.r",
+            "type": "MESH",
+            "vertices": 15,
+            "polygons": 6
+          },
+          {
+            "name": "Posterior meniscotibial ligament (Lateral meniscus).l",
+            "type": "MESH",
+            "vertices": 16,
+            "polygons": 9
+          },
+          {
+            "name": "Posterior meniscotibial ligament (Lateral meniscus).r",
+            "type": "MESH",
+            "vertices": 16,
+            "polygons": 9
+          },
+          {
+            "name": "Posterior meniscotibial ligament (Medial meniscus).l",
+            "type": "MESH",
+            "vertices": 24,
+            "polygons": 15
+          },
+          {
+            "name": "Posterior meniscotibial ligament (Medial meniscus).r",
+            "type": "MESH",
+            "vertices": 24,
+            "polygons": 15
+          }
+        ]
+      },
+      "cruciate": {
+        "namedObjects": 4,
+        "geometryCandidates": [
+          {
+            "name": "Anterior cruciate ligament.l",
+            "type": "MESH",
+            "vertices": 840,
+            "polygons": 808
+          },
+          {
+            "name": "Anterior cruciate ligament.r",
+            "type": "MESH",
+            "vertices": 840,
+            "polygons": 808
+          },
+          {
+            "name": "Posterior cruciate ligament.l",
+            "type": "MESH",
+            "vertices": 396,
+            "polygons": 404
+          },
+          {
+            "name": "Posterior cruciate ligament.r",
+            "type": "MESH",
+            "vertices": 396,
+            "polygons": 404
+          }
+        ]
+      },
+      "cochlea": {
+        "namedObjects": 16,
+        "geometryCandidates": [
+          {
+            "name": "Anterior cochlear nucleus.l",
+            "type": "MESH",
+            "vertices": 26,
+            "polygons": 24
+          },
+          {
+            "name": "Anterior cochlear nucleus.r",
+            "type": "MESH",
+            "vertices": 26,
+            "polygons": 24
+          },
+          {
+            "name": "Cochlea.l",
+            "type": "MESH",
+            "vertices": 783,
+            "polygons": 772
+          },
+          {
+            "name": "Cochlea.r",
+            "type": "MESH",
+            "vertices": 783,
+            "polygons": 772
+          },
+          {
+            "name": "Cochlear nerve",
+            "type": "MESH",
+            "vertices": 881,
+            "polygons": 879
+          },
+          {
+            "name": "Cochlear nerve.l",
+            "type": "CURVE",
+            "splines": 1,
+            "curve_points": 4,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Posterior cochlear nucleus.l",
+            "type": "MESH",
+            "vertices": 114,
+            "polygons": 128
+          },
+          {
+            "name": "Posterior cochlear nucleus.r",
+            "type": "MESH",
+            "vertices": 114,
+            "polygons": 128
+          },
+          {
+            "name": "Vestibulocochlear nerve (VIII).l",
+            "type": "CURVE",
+            "splines": 2,
+            "curve_points": 8,
+            "bevel_depth": 0.0005000000237487257
+          },
+          {
+            "name": "Vestibulocochlear nerve (VIII).r",
+            "type": "CURVE",
+            "splines": 2,
+            "curve_points": 8,
+            "bevel_depth": 0.0005000000237487257
+          }
+        ]
+      },
+      "ovary": {
+        "namedObjects": 0,
+        "geometryCandidates": []
+      },
+      "uterus": {
+        "namedObjects": 0,
+        "geometryCandidates": []
+      },
+      "coracoid": {
+        "namedObjects": 4,
+        "geometryCandidates": []
+      },
+      "radial tuberosity": {
+        "namedObjects": 4,
+        "geometryCandidates": []
+      },
+      "supraglenoid": {
+        "namedObjects": 4,
+        "geometryCandidates": []
+      },
+      "biceps brachii": {
+        "namedObjects": 11,
+        "geometryCandidates": [
+          {
+            "name": "Biceps brachii muscle.el",
+            "type": "MESH",
+            "vertices": 21,
+            "polygons": 25
+          },
+          {
+            "name": "Biceps brachii muscle.er",
+            "type": "MESH",
+            "vertices": 21,
+            "polygons": 25
+          },
+          {
+            "name": "Long head of biceps brachii.l",
+            "type": "MESH",
+            "vertices": 1611,
+            "polygons": 3218
+          },
+          {
+            "name": "Long head of biceps brachii.ol",
+            "type": "MESH",
+            "vertices": 57,
+            "polygons": 80
+          },
+          {
+            "name": "Long head of biceps brachii.or",
+            "type": "MESH",
+            "vertices": 57,
+            "polygons": 80
+          },
+          {
+            "name": "Long head of biceps brachii.r",
+            "type": "MESH",
+            "vertices": 1611,
+            "polygons": 3218
+          },
+          {
+            "name": "Short head of biceps brachii.l",
+            "type": "MESH",
+            "vertices": 1344,
+            "polygons": 2696
+          },
+          {
+            "name": "Short head of biceps brachii.r",
+            "type": "MESH",
+            "vertices": 1344,
+            "polygons": 2696
+          },
+          {
+            "name": "Short head of biceps brachii.ol",
+            "type": "MESH",
+            "vertices": 125,
+            "polygons": 195
+          }
+        ]
+      }
+    }
+  },
+  "vanatome": {
+    "version": "1.4.0",
+    "manifestUniqueStructureIds": 797,
+    "manifestIdsWithNodes": 749,
+    "systems": 11,
+    "nervousBundle": {
+      "id": "nervous",
+      "name": "Nervous system",
+      "systems": [
+        "nervous"
+      ],
+      "layers": [
+        "nervous"
+      ],
+      "modelUrl": "../../models/z-anatomy-1.4.0-nervous.glb",
+      "metadataUrl": "./nervous.metadata.json",
+      "bytes": 11301584,
+      "sha256": "8ef35e1dae0901660ea3a8557fb7769f893fde89ca482af11b1dfc989239e57f",
+      "structureCount": 249,
+      "nodeCount": 234
+    },
+    "probes": {
+      "median nerve": [],
+      "musculocutaneous": [],
+      "brachial plexus": [],
+      "sciatic nerve": [],
+      "spinal cord": [],
+      "menisc": [],
+      "cruciate": [],
+      "cochlea": [],
+      "ovary": [],
+      "uterus": [],
+      "coracoid": [],
+      "radial tuberosity": [],
+      "supraglenoid": [],
+      "biceps brachii": []
+    }
+  },
+  "hra": {
+    "sampleVersion": "v1.2",
+    "samples": [
+      {
+        "file": "hra-uterus.glb",
+        "nodes": 11,
+        "meshes": 10,
+        "names": [
+          "VH_F_uterus",
+          "VH_F_abdominal_ostium_of_uterine_tube",
+          "VH_F_body_of_uterus",
+          "VH_F_fundus_of_uterus",
+          "VH_F_cornua",
+          "VH_F_lower_uterine_segment",
+          "VH_F_posterior_wall_of_uterus",
+          "VH_F_anterior_wall_of_uterus",
+          "VH_F_cervix",
+          "VH_F_internal_cervical_os",
+          "VH_F_external_cervical_os"
+        ]
+      },
+      {
+        "file": "hra-ovary-l.glb",
+        "nodes": 1,
+        "meshes": 1,
+        "names": [
+          "VH_F_left_ovary"
+        ]
+      }
+    ]
+  },
+  "unavailable": [
+    {
+      "url": "https://github.com/RamRam633/Vayu-AI-Anatomy",
+      "result": "GitHub web and connector API returned 404. Author article alone is insufficient to verify assets."
+    }
+  ]
+}

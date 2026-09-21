@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships",
+  "entities": [
+    {
+      "id": "atlas:left-pronator-teres",
+      "name": "Left pronator teres",
+      "side": "left",
+      "kind": "muscle",
+      "geometryPartIds": [
+        "FJ1474M",
+        "FJ1516M"
+      ],
+      "representationStatus": "composite_unreviewed",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Origin and Notes (two heads); mapped to named BodyParts3D humeral and ulnar head concepts"
+        }
+      ]
+    },
+    {
+      "id": "atlas:right-pronator-teres",
+      "name": "Right pronator teres",
+      "side": "right",
+      "kind": "muscle",
+      "geometryPartIds": [
+        "FJ1474",
+        "FJ1516"
+      ],
+      "representationStatus": "composite_unreviewed",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Origin and Notes (two heads); mapped to named BodyParts3D humeral and ulnar head concepts"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "FMA38561|part_of|atlas:left-pronator-teres",
+      "subject": "FMA38561",
+      "predicate": "part_of",
+      "object": "atlas:left-pronator-teres",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Origin and Notes (two heads)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA38563|part_of|atlas:left-pronator-teres",
+      "subject": "FMA38563",
+      "predicate": "part_of",
+      "object": "atlas:left-pronator-teres",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Origin and Notes (two heads)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:left-median-nerve|innervates|atlas:left-pronator-teres",
+      "subject": "atlas:left-median-nerve",
+      "predicate": "innervates",
+      "object": "atlas:left-pronator-teres",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry"
+      }
+    },
+    {
+      "id": "atlas:left-median-nerve|innervates|FMA38461",
+      "subject": "atlas:left-median-nerve",
+      "predicate": "innervates",
+      "object": "FMA38461",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "flexor carpi radialis row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry"
+      }
+    },
+    {
+      "id": "atlas:left-median-nerve|innervates|FMA38464",
+      "subject": "atlas:left-median-nerve",
+      "predicate": "innervates",
+      "object": "FMA38464",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "palmaris longus row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry",
+        "variation": "Palmaris longus can be absent; bilateral instances describe the atlas model, not universal anatomy"
+      }
+    },
+    {
+      "id": "atlas:left-median-nerve|innervates|FMA38471",
+      "subject": "atlas:left-median-nerve",
+      "predicate": "innervates",
+      "object": "FMA38471",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "flexor digitorum superficialis row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry"
+      }
+    },
+    {
+      "id": "FMA38560|part_of|atlas:right-pronator-teres",
+      "subject": "FMA38560",
+      "predicate": "part_of",
+      "object": "atlas:right-pronator-teres",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Origin and Notes (two heads)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "FMA38562|part_of|atlas:right-pronator-teres",
+      "subject": "FMA38562",
+      "predicate": "part_of",
+      "object": "atlas:right-pronator-teres",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Origin and Notes (two heads)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated"
+      }
+    },
+    {
+      "id": "atlas:right-median-nerve|innervates|atlas:right-pronator-teres",
+      "subject": "atlas:right-median-nerve",
+      "predicate": "innervates",
+      "object": "atlas:right-pronator-teres",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "pronator teres row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry"
+      }
+    },
+    {
+      "id": "atlas:right-median-nerve|innervates|FMA38460",
+      "subject": "atlas:right-median-nerve",
+      "predicate": "innervates",
+      "object": "FMA38460",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "flexor carpi radialis row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry"
+      }
+    },
+    {
+      "id": "atlas:right-median-nerve|innervates|FMA38463",
+      "subject": "atlas:right-median-nerve",
+      "predicate": "innervates",
+      "object": "FMA38463",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "palmaris longus row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry",
+        "variation": "Palmaris longus can be absent; bilateral instances describe the atlas model, not universal anatomy"
+      }
+    },
+    {
+      "id": "atlas:right-median-nerve|innervates|FMA38470",
+      "subject": "atlas:right-median-nerve",
+      "predicate": "innervates",
+      "object": "FMA38470",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "flexor digitorum superficialis row / Innervation"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected muscle-level motor relationship; separate muscular branches are not represented in the nerve geometry"
+      }
+    }
+  ]
+}

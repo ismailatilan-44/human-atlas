@@ -1,0 +1,456 @@
+{
+  "version": "Z-Anatomy median nerve extension 1",
+  "sex": "male",
+  "scope": "Bilateral source median nerve main curves; separate muscular, palmar and digital branches are not included; expert anatomical review pending",
+  "source": {
+    "id": "zanatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "blenderVersion": "5.2.0 LTS",
+    "license": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)",
+    "attribution": "/models/extensions/ATTRIBUTION.md",
+    "limitations": "Object-specific author/source provenance is not supplied by upstream. No relicensing or blanket commercial clearance of the full archive is asserted.",
+    "selectedObjects": [
+      "Median nerve.l",
+      "Median nerve.r"
+    ]
+  },
+  "parts": [
+    {
+      "id": "ZA-MED-L",
+      "conceptId": "atlas:left-median-nerve",
+      "name": "Left median nerve",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 31248,
+      "indices": 46872,
+      "vertexCount": 2604,
+      "indexCount": 15552,
+      "bounds": [
+        [
+          0.10687806457281113,
+          0.8639361262321472,
+          -0.0236055925488472
+        ],
+        [
+          0.25525832176208496,
+          1.399965524673462,
+          0.03590528294444084
+        ]
+      ],
+      "sourceObject": "Median nerve.l",
+      "sourceObjectType": "CURVE",
+      "curveSettings": {
+        "bevel_depth": 0.0005000000237487257,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "use_fill_caps": false
+      },
+      "sourceSplineCount": 2,
+      "sourceControlPointCount": 20,
+      "mirroredWindingCorrected": true
+    },
+    {
+      "id": "ZA-MED-R",
+      "conceptId": "atlas:right-median-nerve",
+      "name": "Right median nerve",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 109080,
+      "normals": 140328,
+      "indices": 155952,
+      "vertexCount": 2604,
+      "indexCount": 15552,
+      "bounds": [
+        [
+          -0.2553832530975342,
+          0.8640040159225464,
+          -0.0236579068005085
+        ],
+        [
+          -0.10683220624923706,
+          1.3999943733215332,
+          0.03578117489814758
+        ]
+      ],
+      "sourceObject": "Median nerve.r",
+      "sourceObjectType": "CURVE",
+      "curveSettings": {
+        "bevel_depth": 0.0005000000237487257,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "use_fill_caps": false
+      },
+      "sourceSplineCount": 2,
+      "sourceControlPointCount": 20,
+      "mirroredWindingCorrected": false
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/median-nerves.bin",
+      "bytes": 218160,
+      "gzip": "/models/extensions/median-nerves.bin.gz",
+      "gzipBytes": 119382,
+      "sha256": "889c094ea53cb1f6ae639c8164007a4bdd213c92511fab8ce013f9853e656a7f"
+    }
+  ],
+  "triangles": 10368,
+  "concepts": [
+    {
+      "id": "atlas:left-median-nerve",
+      "name": "Left median nerve",
+      "elements": [
+        "ZA-MED-L"
+      ]
+    },
+    {
+      "id": "atlas:right-median-nerve",
+      "name": "Right median nerve",
+      "elements": [
+        "ZA-MED-R"
+      ]
+    }
+  ],
+  "registration": {
+    "method": "Reused upper-arm six-bone similarity fit, measured against bilateral radius/ulna and all eight carpal bones before export",
+    "referenceManifest": "/models/extensions/upper-arm-nerves.json",
+    "matrixColumnVector": [
+      [
+        0.9671866243240652,
+        0.00023528145636534935,
+        0.00012901103675774293,
+        -0.00016226786293687626
+      ],
+      [
+        -0.00012912181418719748,
+        0.00045542301809920784,
+        0.9671865457035801,
+        0.055526909678332625
+      ],
+      [
+        0.00023522068024667758,
+        -0.9671865257048943,
+        0.0004554544112290538,
+        0.0018153935748660074
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 0.9671866615460494,
+    "sourceUnits": "meters",
+    "sourceAxes": "X left, Y posterior, Z superior",
+    "targetUnits": "meters",
+    "targetAxes": "X left, Y superior, Z anterior",
+    "measurements": [
+      {
+        "sourceObject": "Radius.l",
+        "targetPartId": "FJ3277",
+        "targetConceptId": "FMA23465",
+        "role": "original_fit_reference",
+        "sourceVertices": 394,
+        "targetVertices": 250,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.6441079734069693,
+        "meanMm": 0.541472356835245,
+        "p95Mm": 1.2070524273440244,
+        "maxMm": 1.8929149955511093
+      },
+      {
+        "sourceObject": "Ulna.l",
+        "targetPartId": "FJ3286",
+        "targetConceptId": "FMA23468",
+        "role": "independent_holdout",
+        "sourceVertices": 454,
+        "targetVertices": 283,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.499693337388745,
+        "meanMm": 0.39690131629426945,
+        "p95Mm": 1.02832147385925,
+        "maxMm": 1.6734662931412458
+      },
+      {
+        "sourceObject": "Scaphoid bone.l",
+        "targetPartId": "FJ3278",
+        "targetConceptId": "FMA24436",
+        "role": "independent_holdout",
+        "sourceVertices": 197,
+        "targetVertices": 172,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.5402593916118595,
+        "meanMm": 0.4605783664926135,
+        "p95Mm": 0.9864634601399301,
+        "maxMm": 1.2619595509022474
+      },
+      {
+        "sourceObject": "Lunate bone.l",
+        "targetPartId": "FJ3268",
+        "targetConceptId": "FMA24438",
+        "role": "independent_holdout",
+        "sourceVertices": 176,
+        "targetVertices": 184,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ],
+        "rmsMm": 0.5166959839208016,
+        "meanMm": 0.4419638383217893,
+        "p95Mm": 0.8643081440823153,
+        "maxMm": 1.2779840035364032
+      },
+      {
+        "sourceObject": "Capitate bone.l",
+        "targetPartId": "FJ3257",
+        "targetConceptId": "FMA24447",
+        "role": "independent_holdout",
+        "sourceVertices": 238,
+        "targetVertices": 230,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.6773426989629977,
+        "meanMm": 0.5703891528361428,
+        "p95Mm": 1.2071010016370562,
+        "maxMm": 2.247064607217908
+      },
+      {
+        "sourceObject": "Hamate bone.l",
+        "targetPartId": "FJ3261",
+        "targetConceptId": "FMA24449",
+        "role": "independent_holdout",
+        "sourceVertices": 270,
+        "targetVertices": 274,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.4404567318716321,
+        "meanMm": 0.38114307787212914,
+        "p95Mm": 0.7468420662917197,
+        "maxMm": 0.9784166468307376
+      },
+      {
+        "sourceObject": "Pisiform bone.l",
+        "targetPartId": "FJ3276",
+        "targetConceptId": "FMA24442",
+        "role": "independent_holdout",
+        "sourceVertices": 141,
+        "targetVertices": 116,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ],
+        "rmsMm": 0.5104515180738174,
+        "meanMm": 0.45123715237444545,
+        "p95Mm": 0.8147232467308639,
+        "maxMm": 0.9771939367055893
+      },
+      {
+        "sourceObject": "Trapezium bone.l",
+        "targetPartId": "FJ3283",
+        "targetConceptId": "FMA24444",
+        "role": "independent_holdout",
+        "sourceVertices": 252,
+        "targetVertices": 222,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.45616488494762636,
+        "meanMm": 0.38003698963086613,
+        "p95Mm": 0.8301726047648114,
+        "maxMm": 1.0705265449360013
+      },
+      {
+        "sourceObject": "Trapezoid bone.l",
+        "targetPartId": "FJ3284",
+        "targetConceptId": "FMA24445",
+        "role": "independent_holdout",
+        "sourceVertices": 184,
+        "targetVertices": 278,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.4139748514456163,
+        "meanMm": 0.33316192272708933,
+        "p95Mm": 0.7902747456682846,
+        "maxMm": 1.145796268247068
+      },
+      {
+        "sourceObject": "Triquetrum bone.l",
+        "targetPartId": "FJ3285",
+        "targetConceptId": "FMA24440",
+        "role": "independent_holdout",
+        "sourceVertices": 90,
+        "targetVertices": 178,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.40995422526188385,
+        "meanMm": 0.3368474528398278,
+        "p95Mm": 0.7842029677703976,
+        "maxMm": 1.1485960567370057
+      },
+      {
+        "sourceObject": "Radius.r",
+        "targetPartId": "FJ3349",
+        "targetConceptId": "FMA23464",
+        "role": "original_fit_reference",
+        "sourceVertices": 394,
+        "targetVertices": 249,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.6084766457188691,
+        "meanMm": 0.46976950269090934,
+        "p95Mm": 1.0256506619043646,
+        "maxMm": 4.036545753479004
+      },
+      {
+        "sourceObject": "Ulna.r",
+        "targetPartId": "FJ3391",
+        "targetConceptId": "FMA23467",
+        "role": "independent_holdout",
+        "sourceVertices": 454,
+        "targetVertices": 305,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.42555234013245674,
+        "meanMm": 0.34952575701681243,
+        "p95Mm": 0.763607630506158,
+        "maxMm": 1.596567570231855
+      },
+      {
+        "sourceObject": "Scaphoid bone.r",
+        "targetPartId": "FJ3383",
+        "targetConceptId": "FMA24435",
+        "role": "independent_holdout",
+        "sourceVertices": 197,
+        "targetVertices": 185,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.3890019516602185,
+        "meanMm": 0.3361001211399059,
+        "p95Mm": 0.6546724151121452,
+        "maxMm": 0.8894297061488032
+      },
+      {
+        "sourceObject": "Lunate bone.r",
+        "targetPartId": "FJ3374",
+        "targetConceptId": "FMA24437",
+        "role": "independent_holdout",
+        "sourceVertices": 176,
+        "targetVertices": 191,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ],
+        "rmsMm": 0.3847470127478736,
+        "meanMm": 0.3391728422861224,
+        "p95Mm": 0.6121050333604217,
+        "maxMm": 0.7730434881523252
+      },
+      {
+        "sourceObject": "Capitate bone.r",
+        "targetPartId": "FJ3361",
+        "targetConceptId": "FMA24446",
+        "role": "independent_holdout",
+        "sourceVertices": 238,
+        "targetVertices": 245,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.422124025667421,
+        "meanMm": 0.377066084175279,
+        "p95Mm": 0.6542122573591769,
+        "maxMm": 0.8498899987898767
+      },
+      {
+        "sourceObject": "Hamate bone.r",
+        "targetPartId": "FJ3367",
+        "targetConceptId": "FMA24448",
+        "role": "independent_holdout",
+        "sourceVertices": 270,
+        "targetVertices": 316,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.3260546235318353,
+        "meanMm": 0.27959082391948137,
+        "p95Mm": 0.5601238808594644,
+        "maxMm": 0.73588005034253
+      },
+      {
+        "sourceObject": "Pisiform bone.r",
+        "targetPartId": "FJ3382",
+        "targetConceptId": "FMA24441",
+        "role": "independent_holdout",
+        "sourceVertices": 141,
+        "targetVertices": 110,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF"
+          }
+        ],
+        "rmsMm": 0.37355195869670427,
+        "meanMm": 0.32583112058152197,
+        "p95Mm": 0.5923073331359774,
+        "maxMm": 0.6484986515715718
+      },
+      {
+        "sourceObject": "Trapezium bone.r",
+        "targetPartId": "FJ3388",
+        "targetConceptId": "FMA24443",
+        "role": "independent_holdout",
+        "sourceVertices": 252,
+        "targetVertices": 272,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.34482439942841414,
+        "meanMm": 0.292944687371884,
+        "p95Mm": 0.5894195870496332,
+        "maxMm": 0.7105274708010256
+      },
+      {
+        "sourceObject": "Trapezoid bone.r",
+        "targetPartId": "FJ3389",
+        "targetConceptId": "FMA23725",
+        "role": "independent_holdout",
+        "sourceVertices": 184,
+        "targetVertices": 267,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.30122759557803697,
+        "meanMm": 0.24459779391582076,
+        "p95Mm": 0.5503075663000345,
+        "maxMm": 0.73537218850106
+      },
+      {
+        "sourceObject": "Triquetrum bone.r",
+        "targetPartId": "FJ3390",
+        "targetConceptId": "FMA24439",
+        "role": "independent_holdout",
+        "sourceVertices": 90,
+        "targetVertices": 139,
+        "sourceGeometry": "authored base bone surface",
+        "unappliedSourceModifiers": [],
+        "rmsMm": 0.3042037232619161,
+        "meanMm": 0.2544415108852062,
+        "p95Mm": 0.543174974154681,
+        "maxMm": 0.8853979525156319
+      }
+    ],
+    "limitations": "Bidirectional vertex-to-triangle surface discrepancies include source edits and target simplification. Matching bone surfaces do not validate the median nerve path or complete branch coverage. No local nerve warp or refit was performed."
+  }
+}

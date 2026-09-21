@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive",
+  "entities": [],
+  "relations": [
+    {
+      "id": "atlas:left-sciatic-nerve|innervates|FMA22359",
+      "subject": "atlas:left-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA22359",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "semitendinosus row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; tibial / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "tibial",
+        "innervationPath": "Tibial division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:left-sciatic-nerve|innervates|FMA22449",
+      "subject": "atlas:left-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA22449",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "semimembranosus row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; tibial / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "tibial",
+        "innervationPath": "Tibial division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:left-sciatic-nerve|innervates|FMA45889",
+      "subject": "atlas:left-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA45889",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "biceps femoris / long head row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; tibial / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "tibial",
+        "innervationPath": "Tibial division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:left-sciatic-nerve|innervates|FMA45892",
+      "subject": "atlas:left-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA45892",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "biceps femoris / short head row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; fibular, common / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "common_fibular",
+        "innervationPath": "Common fibular (peroneal) division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:right-sciatic-nerve|innervates|FMA22358",
+      "subject": "atlas:right-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA22358",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "semitendinosus row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; tibial / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "tibial",
+        "innervationPath": "Tibial division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:right-sciatic-nerve|innervates|FMA22448",
+      "subject": "atlas:right-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA22448",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "semimembranosus row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; tibial / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "tibial",
+        "innervationPath": "Tibial division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:right-sciatic-nerve|innervates|FMA45888",
+      "subject": "atlas:right-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA45888",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "biceps femoris / long head row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; tibial / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "tibial",
+        "innervationPath": "Tibial division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    },
+    {
+      "id": "atlas:right-sciatic-nerve|innervates|FMA45891",
+      "subject": "atlas:right-sciatic-nerve",
+      "predicate": "innervates",
+      "object": "FMA45891",
+      "evidence": [
+        {
+          "sourceId": "uams-lower-limb",
+          "locator": "biceps femoris / short head row / Innervation"
+        },
+        {
+          "sourceId": "ohio-lower-limb-organization",
+          "locator": "PDF page 29 / Posterior compartment of the thigh / Innervation; short-head exception"
+        },
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves / sciatic / Motor; fibular, common / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "viaDivision": "common_fibular",
+        "innervationPath": "Common fibular (peroneal) division of the sciatic nerve",
+        "directMuscularBranch": false,
+        "semantics": "Parent nerve motor supply through the named division; not an assertion of an undifferentiated direct muscular branch",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "coverage": "Selected posterior thigh motor relationship; separate divisions, muscular branches and distal continuation geometry are not represented"
+      }
+    }
+  ]
+}

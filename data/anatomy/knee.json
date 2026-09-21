@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships",
+  "entities": [],
+  "relations": [
+    {
+      "id": "atlas:left-anterior-cruciate-ligament|attaches_to|FMA24475",
+      "subject": "atlas:left-anterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24475",
+      "evidence": [
+        {
+          "sourceId": "aaos-acl-summary",
+          "locator": "PDF page 1 / Background / paragraph describing the ACL connection between femur and tibia"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:left-posterior-cruciate-ligament|attaches_to|FMA24475",
+      "subject": "atlas:left-posterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24475",
+      "evidence": [
+        {
+          "sourceId": "aaos-pcl",
+          "locator": "Introduction / first paragraph; Anatomy / normal knee anatomy caption (PCL connects femur and tibia)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:left-anterior-cruciate-ligament|attaches_to|FMA24478",
+      "subject": "atlas:left-anterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24478",
+      "evidence": [
+        {
+          "sourceId": "aaos-acl-summary",
+          "locator": "PDF page 1 / Background / paragraph describing the ACL connection between femur and tibia"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:left-posterior-cruciate-ligament|attaches_to|FMA24478",
+      "subject": "atlas:left-posterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24478",
+      "evidence": [
+        {
+          "sourceId": "aaos-pcl",
+          "locator": "Introduction / first paragraph; Anatomy / normal knee anatomy caption (PCL connects femur and tibia)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:left-medial-meniscus|attaches_to|FMA24478",
+      "subject": "atlas:left-medial-meniscus",
+      "predicate": "attaches_to",
+      "object": "FMA24478",
+      "evidence": [
+        {
+          "sourceId": "aaos-meniscus-repair",
+          "locator": "Anatomy / medial and lateral menisci; structure of each meniscus / meniscal roots bullet"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted",
+        "attachment": "Tibial root attachments; individual anterior and posterior roots are not separate graph entities"
+      }
+    },
+    {
+      "id": "atlas:left-lateral-meniscus|attaches_to|FMA24478",
+      "subject": "atlas:left-lateral-meniscus",
+      "predicate": "attaches_to",
+      "object": "FMA24478",
+      "evidence": [
+        {
+          "sourceId": "aaos-meniscus-repair",
+          "locator": "Anatomy / medial and lateral menisci; structure of each meniscus / meniscal roots bullet"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted",
+        "attachment": "Tibial root attachments; individual anterior and posterior roots are not separate graph entities"
+      }
+    },
+    {
+      "id": "atlas:right-anterior-cruciate-ligament|attaches_to|FMA24474",
+      "subject": "atlas:right-anterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24474",
+      "evidence": [
+        {
+          "sourceId": "aaos-acl-summary",
+          "locator": "PDF page 1 / Background / paragraph describing the ACL connection between femur and tibia"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:right-posterior-cruciate-ligament|attaches_to|FMA24474",
+      "subject": "atlas:right-posterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24474",
+      "evidence": [
+        {
+          "sourceId": "aaos-pcl",
+          "locator": "Introduction / first paragraph; Anatomy / normal knee anatomy caption (PCL connects femur and tibia)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:right-anterior-cruciate-ligament|attaches_to|FMA24477",
+      "subject": "atlas:right-anterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24477",
+      "evidence": [
+        {
+          "sourceId": "aaos-acl-summary",
+          "locator": "PDF page 1 / Background / paragraph describing the ACL connection between femur and tibia"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:right-posterior-cruciate-ligament|attaches_to|FMA24477",
+      "subject": "atlas:right-posterior-cruciate-ligament",
+      "predicate": "attaches_to",
+      "object": "FMA24477",
+      "evidence": [
+        {
+          "sourceId": "aaos-pcl",
+          "locator": "Introduction / first paragraph; Anatomy / normal knee anatomy caption (PCL connects femur and tibia)"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted"
+      }
+    },
+    {
+      "id": "atlas:right-medial-meniscus|attaches_to|FMA24477",
+      "subject": "atlas:right-medial-meniscus",
+      "predicate": "attaches_to",
+      "object": "FMA24477",
+      "evidence": [
+        {
+          "sourceId": "aaos-meniscus-repair",
+          "locator": "Anatomy / medial and lateral menisci; structure of each meniscus / meniscal roots bullet"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted",
+        "attachment": "Tibial root attachments; individual anterior and posterior roots are not separate graph entities"
+      }
+    },
+    {
+      "id": "atlas:right-lateral-meniscus|attaches_to|FMA24477",
+      "subject": "atlas:right-lateral-meniscus",
+      "predicate": "attaches_to",
+      "object": "FMA24477",
+      "evidence": [
+        {
+          "sourceId": "aaos-meniscus-repair",
+          "locator": "Anatomy / medial and lateral menisci; structure of each meniscus / meniscal roots bullet"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "semantics": "Bone attachment, not a localized landmark",
+        "laterality": "instantiated from a general anatomical description; not specimen-validated",
+        "geometry": "No attachment coordinates or mesh contact validation are asserted",
+        "attachment": "Tibial root attachments; individual anterior and posterior roots are not separate graph entities"
+      }
+    }
+  ]
+}
