@@ -1,62 +1,64 @@
-# Model odaklı ürün: durum ve teslim planı
+# Model odaklı ürün — teslim planı ve güncel durum
 
-İlk plan: 20 Eylül 2026. Güncel durum: 22 Eylül 2026, yerel kod, TypeScript/build ve tarayıcı kontrolü. Kodlanmış özellikler ile kullanıma hazır teslim ayrı tutulur.
+İlk plan: 20 Eylül 2026. Güncelleme: 22 Eylül 2026. Kod, kaynak paketi, görsel kabul ve yayın birbirinden ayrı izlenir.
 
-## Hedef ve sınır
+## Hedef
 
-Human Atlas temelinde, anatomik yapıları seçilebilir, adlandırılmış, bağlantıları izlenebilir ve bölge düzeyinde incelenebilir bir model deneyimi. Önce model ve etkileşim; ders, quiz ve AI daha sonra. İlk çalışan entegrasyon örneği omuz–kol; nihai kapsam bu bölgeyle sınırlı değil.
+Tıp öğrencileri için anatomik yapıları seçilebilir, adlandırılmış, ilişkileri izlenebilir ve bölge düzeyinde incelenebilir bir model deneyimi. Human Atlas başlangıç tabanıdır; kullanılabilir parçalar yeniden modellenmez. Eksikler doğrulanmış açık kaynaklardan tamamlanır. Önce model, sonra ders akışının yapı kimliklerine ve kayıtlı sahnelere bağlanması. Ders/quiz/AI model tesliminin ön koşulu değildir.
 
-“İlk sürüm hazır”: mevcut tüm vücut görüntüleyici çalışır; pilot bölgede eksik sinirler aynı sahneye eklenir, etiketler ve kaynaklı ilişkiler görünür ve tıklanabilir; odaklanma/gizleme/saydamlık çalışır; bilinen sınıflandırma ve kamera hataları düzeltilir; masaüstü ve dar ekranda uçtan uca denenir. Bu ölçüt bütün insan anatomisinin ve varyasyonlarının eksiksizliği iddiası değildir.
+Omuz–kol ilk entegrasyon örneğiydi; proje bu bölgeyle sınırlı değildir. 65 hedef grubu ilk bölgesel kontrol listesidir, bütün insan anatomisinin eksiksizlik ölçüsü değildir. İlk çalışan yayını vermek, kalan model kapsamını tamamlamakla aynı şey sayılmaz.
 
-## Doğrulanan mevcut durum — 22 Eylül, son durum kontrolü
+## Çalışan yayın ve kaynak kod
 
-- Yerel dal `codex/model-explorer`. İlk pilot `fc87870` commit'iyle `ismailatilan-44/human-atlas` fork'una gönderildi. Median/diz ve son arayüz değişiklikleri henüz commit edilmedi. Yeni yayın yapılmadı; Pages workflow dosyası hazır, uzak Actions run sayısı kontrol anında sıfır. Orijinal Vercel adresi bizim geliştirmemizi göstermiyor.
-- Devralınan temel 2.234 parça. Kayıtlı paketlerle toplam 2.246 parça: sağ/sol muskülokutan ve median sinirler; sağ/sol medial/lateral menisküs ve ön/arka çapraz bağlar. Median paketi ana sinir gövdelerini içerir, tüm dalları içermez.
-- Kaynak grafiğinde 3.456 kavram, 1.423 ilişki var: 1.367 hiyerarşik PART-OF ve 56 ek ilişki. Sayı bütün atlasın işlevsel bağlantılarının tamamlandığı anlamına gelmez. Son 12 diz bağlantısı kemik düzeyinde tutunmadır; hassas tutunma koordinatı değildir. Arayüz kataloğu bu grafikten yeniden üretildi.
-- 52 çok dilli etiket kaydı mevcut; bütün atlasın Türkçe/Latince çevirisi tamamlanmış değil. Beş yanlış sistem ataması uygulama yüklemesinde düzeltiliyor; omuriliğin kısmi temsili açıklanıyor.
-- Altı kaynak tutunma yüzeyinden türetilen referans noktası sahnede gösteriliyor. İki humerus orta-iç tutunma noktası hâlâ unresolved.
-- Odaklanma, saydam çevre, gizleme, önceki seçim/kamera durumuna dönüş, mobil panel ve kaynak bağlantıları uygulandı. Önceki görsel kontrolde 1440×900, 390×844 ve 320×568 boyutları; biceps → sinir, yüzey işareti, gizleme → geri dönüş ve yeni median/diz seçimi incelendi. Son değişikliklerin tamamı yeniden görsel kabulden geçmiş sayılmaz. Fiziksel cihaz/uzman incelemesi yapılmadı.
-- Bölgesel katalog: 5 bölge, 65 hedef grubu. 55 mevcut (3 bilateral yüzey işareti grubu dahil), 2 kısmi, 7 eksik, 1 konumu doğrulanmamış. Bunlar bütün anatominin yüzdesi değildir. Katalog özet sayaçları güncel satırlardan yeniden hesaplandı.
-- Tiroid paketi dosya olarak hazır ama sahneye kayıtlı değil. Kaynak düşük detaylı/stilize olduğu için ayrıntılı tiroid diye sunulmayacak. Siyatik aktarımı sürüyor; oluşturulan dosya varlığı tamamlanmış entegrasyon sayılmıyor.
-- Bu durum kontrolünde TypeScript, beş bilgi grafiği testi ve `/human-atlas/` taban yoluyla üretim build geçti. Büyük JavaScript paketi uyarısı sürüyor. Yayın adresinde gerçek model yükleme ve son kullanıcı akışı kabulü bekliyor.
-- Brakiyal pleksus, tam omurilik, kadın pelvis referansı, koklea ve iki humeral tutunma noktası açık kapsam. Kadın referansı ana erkek modele rastgele eklenmeyecek; kaynak bağlamı ayrı korunacak.
+- Çalışan adres: https://ismailatilan-44.github.io/human-atlas/
+- Kullanıcının fork'u: https://github.com/ismailatilan-44/human-atlas
+- Kaynak dalı: `main`; yerel geliştirme dalı: `codex/publish-model-explorer`.
+- Statik site `gh-pages` dalından yayımlanır. `npm run deploy:pages` kaynak commit'inden build alır, commit edilmemiş model adaylarını dışarıda bırakır, statik dalı force kullanmadan günceller. `release.json` yayımdaki kaynak commit'ini belirtir.
+- İlk canlı sürüm `e8df81f`: 2.248 parça. Gerçek adres üzerinde model yükleme, siyatik seçimi, dört kas bağlantısı ve saydam arka görünüm görüldü.
+- Yeni kaynak sürümü `9814150`: 2.252 parça; tiroid ve omurilik dokusu dahil. Kaynak main'e ve statik dal `0b4f4f7`'ye gönderildi. GitHub Pages build/deploy #35668377107 başarılı. Gerçek adreste 2.252 parça, Türkçe omurilik araması/iki parçalı seçim, tiroid üçlü seçim ve saydam ön görünüm doğrulandı; tarayıcı konsolunda hata görülmedi.
+- Orijinal ashemag reposu ve orijinal Vercel yayını değiştirilmedi.
 
-## Teslim sırası
+GitHub OAuth oturumu workflow dosyası yazma yetkisi vermediği için ilk Actions dosyasıyla push reddedildi. Mevcut repo yetkisiyle desteklenen statik Pages dalına geçildi. Ek yetki istenmedi; reddedilen workflow değişikliği yayın dalının kaynak geçmişine alınmadı. Eski `codex/model-explorer` yerel dalı tarihî çalışma kaydıdır; güncel dal değildir.
 
-| Sıra | İş | Tamamlanma ölçütü | Sorumlu / durum |
-| --- | --- | --- | --- |
-| 1 | Mevcut görüntüleyiciyi düzeltmek | Yanlış sistem atamaları düzeltilmiş; kısmi temsil tam yapı diye sunulmuyor; izolasyonda ön/yan/arka kamera çalışıyor. Veri düzeltmeleri tekrar üretimde korunuyor. | Asistan / uygulandı; pilot görsel akış doğrulandı |
-| 2 | Pilot asset aktarımı | Sağ/sol musculocutaneous sinir kaynak geometrileri ihraç edilmiş, mevcut kas/kemiklerle eksen, ölçek ve konum karşılaştırması yapılmış, sahnede ayrı seçilebiliyor. Kaynak ve atıf kaydı korunuyor. | Asistan / iki sinir aktarıldı; seçimi ve saydam bağlamı sahnede doğrulandı |
-| 3 | Etiket ve ilişki arayüzü | Yapı seçildiğinde başlangıç, tutunma, sinir ve damar bağlantıları gösteriliyor; mevcut geometriye tıklayarak geçiliyor; geometri/konum bekleyen kayıtlar doğru durumla sunuluyor. Pilot çok dilli isimler ve landmark etiketleri kaynak/inceleme kaydı taşıyor. | Asistan / arayüz ve altı landmark uygulandı; iki konum unresolved |
-| 4 | Kullanılabilir pilot teslimi | Çevreyi koruyarak odaklanma, parça gizleme/saydamlık ve önceki görünüme dönüş çalışıyor. Masaüstü ve dar ekran akışları denenmiş, kullanıcıya çalışan önizleme verilmiş. | Asistan / yerel önizleme ve üç ekran boyutunda pilot doğrulama var; yayın bekliyor |
-| 5 | Bölgesel kapsamı genişletmek | Her bölge için hedef yapı listesi ve var/eksik/kısmi durumu belli; hazır kaynaklardan gerekenler aktarılmış; aynı etkileşimler korunmuş. Anatomik inceleme bulguları kayıtlı. | Asistan / 65 hedeflik katalog; median ve diz eklendi, siyatik/tiroid ve diğer boşluklar açık |
+## Uygulanan model ve etkileşim
 
-Pilot tüm vücudu yeniden modelleme işi değildir. Mevcut kullanılabilir geometriler korunur. Aktarım denemesi başarısız çıkarsa nedenine göre alternatif kaynak veya sınırlı model düzenlemesi seçilir; tüm veri tabanı gereksiz yere değiştirilmez.
+- 2.234 temel parça + 18 yeni parça: bilateral muskülokutan/median/siyatik sinirler, sekiz diz yüzeyi, üç tiroid yüzeyi, bir omurilik sinir dokusu yüzeyi. Altı tutunma referans noktası ayrı gösterilir; bağımsız yüzey gibi sayılmaz.
+- Beş yanlış beyin parçası sistem ataması yüklemede düzeltilir.
+- FMA7647 artık mevcut FJ1737 merkez kanalını ve yeni BP43-FJ4426 uzunlamasına sinir dokusunu birlikte içerir. Kök, zar, ayrı segment ve gri/beyaz madde modelleri tamamlandı diye sunulmaz. Kavram genişletmesi manifestte açıkça izinlidir; izinsiz kimlik çakışmaları reddedilir.
+- Tiroid FMA9603: sağ/sol lob ve isthmus, resmî BodyParts3D 4.3 kaynağından. Stilize Z-Anatomy tiroidi görsel incelemede yetersiz bulundu ve aktif kayda alınmadı.
+- Grafik: 3.463 kavram, 1.435 ilişki; çoğunluğu kaynak PART-OF hiyerarşisidir. Bütün atlasın işlevsel bağlantıları tamamlandı anlamına gelmez. Siyatik bağlantılarında tibial/common-fibular bölüm ayrımı arayüzde korunur.
+- Seçme, odak, çevre saydamlığı, gizleme, önceki görünüm/kamera, sistem filtresi, bölge seçimi ve kapsam paneli çalışır. Çok dilli etiketler seçilmiş bölgelere uygulanır; bütün atlas çevirisi tamamlanmış değildir.
+- Katalog: 57 mevcut, 2 kısmi, 5 eksik, 1 doğrulanmamış hedef grubu. Üç mevcut satır toplam altı yüzey referans noktasıdır. Güncel makine kaydı `data/anatomy/coverage.json`.
+
+## Doğrulama ve sınırlar
+
+TypeScript, beş kaynak grafiği testi, temel atlas buffer kontrolü ve etkileşim/yerleşim doğrulayıcısı geçti. Etkileşim doğrulayıcısı artık tüm kayıtlı extension'ları yükler; mevcut geometriyi koruyan kavram genişletmesini ve izinsiz tekrarın reddini kontrol eder. Yeni exporter'lar kaynak hash'lerini ve binary/geometri koşullarını kontrol eder.
+
+Masaüstü, 390×844 ve 320×568 örnek akışları incelendi. Son `/human-atlas/` üretim önizlemesinde siyatik arama/seçimi, kas bağlantısına geçiş, katman preset'inin eski paneli temizlemesi, mobil ön çapraz bağ, tiroid üçlü seçimi ve omurilik iki parçalı seçimi/yan görünümü görüldü. Bunlar fiziksel telefon performansı veya klinik anatomik onay değildir. Büyük JS paket uyarısı ve gerçek cihaz performansı açık kalite konularıdır.
+
+BodyParts3D 4.0 temel geometri BY 4.0; yeni canlı 4.3 tiroid/omurilik BY-SA 2.1 Japan; Z-Anatomy parçaları kendi atıf/köken kayıtlarıyla ayrıdır. Tek lisans altında hepsi temizlendi varsayımı yapılmaz. Kaynak yüzey kusurları ve kapsam sınırları ilgili kayıt raporlarında korunur.
+
+## Kalan teslim sırası
+
+| İş | Bitiş ölçütü | Güncel durum |
+| --- | --- | --- |
+| Çalışan ilk yayını vermek | Gerçek adreste model ve temel inceleme akışları çalışır | 2.252 parçalı sürüm canlı; son omurilik/tiroid akışları gerçek adreste doğrulandı |
+| Brakiyal pleksus | Kaynak parçalar doğru ad/kapsamla, ölçülmüş yerleşim ve tıklanabilir seçimle görünür | 20 trunk/division/posterior-cord parçası hazır, henüz registryye eklenmedi; belirsiz üst kök demeti dışarıda, kaynak kısmi |
+| Kadın pelvis referansı | Erkek modele karışmayan ayrı sahne; uterus ve sağ/sol ovaryum kendi kaynaklarıyla, uygun pelvis bağlamında | Resmî HRA dosyaları indirildi; ortak kadın referansı ve geometri inceleniyor |
+| Koklea | İki gerçek yüzey, kaynak/atıf ve temporal bölge uyumu doğrulanır | BP3D 4.3'te bağımsız aday yok; Z-Anatomy kaynak kökeni ve ayrı kullanım koşulları inceleniyor |
+| İki humeral tutunma konumu | Kanıtlı konum veya açık unresolved durumu; kemik bütünü landmark diye sunulmaz | Konum çözülmedi |
+| Etiket/ilişki kapsamı | Bölge bölge kaynaklı isimler ve ilişkiler; kullanıcı parça üzerinden bağlantılarına gider | Pilot, önkol, diz, siyatik, tiroid ve omurilikte seçilmiş bağlantılar var; daha geniş kapsam açık |
+| Kullanım kalitesi | Gerçek kullanıcı akışları, son masaüstü/mobil kabul; somut performans sorunları çözülür | Örnek akışlar geçti; yeni referanslar eklendikçe ilgili akışlar kontrol edilecek |
+| Ders katmanı | Ders sırası modelin yapı kimlikleri/kayıtlı görünümüne bağlanır | Modelden sonraki aşama; henüz uygulanmadı |
+
+Araştırma yalnız açık uygulama boşluğunu çözmek için yapılır. İndirilen veya teknik olarak geçerli bir dosya, kabul edilmiş kullanıcı deneyimi sayılmaz. Başarısız kaynakta alternatif aranır; modelin yetersizliğini örtmek için geometri/etiket uydurulmaz.
 
 ## Kullanıcıdan gerekenler
 
-Şu an teknik ilerlemeyi engelleyen kullanıcı girdisi yok. Repo bulma, asset indirme, kaynak araştırma, gerektiğinde kazıma, kimlik eşleştirme, kod ve doğrulama asistanın mevcut yetkili kapsamıdır. Blender kurulu; MCP bağlantısı bu işlerin ön koşulu değildir ve kurulmuş sayılmaz.
+Şu an zorunlu teknik kullanıcı işi yok. Repo, indirme, kaynak araştırma, eşleştirme, model aktarımı, kod, Git ve yayın asistanın yetkili kapsamındadır. Blender kurulu; Blender MCP aktarımın ön koşulu değildir.
 
-Çalışan pilot sonrasında kullanıcıdan model üzerinde çalışma deneyimine dair geri bildirim yararlı olacaktır. Uygun bir anatomi hocası/alan uzmanının incelemesi, eğitim doğruluğunu değerlendirmeye katkı sağlar; teknik prototipin başlaması bu kişinin bulunmasını beklemez. Ders akışı ve müfredat girdileri sonraki faza aittir.
+Çalışan yayın üzerindeki kullanım geri bildirimi yararlıdır. İleride ders sırası ve anatomi alan uzmanı değerlendirmesi eğitim değerini artırır; bunları beklemek mevcut teknik teslimi durdurmaz. Uzman incelemesi yapılmadan yapılmış gibi gösterilmez.
 
-## Önceki planlamanın eksiği
+## Planlama düzeltmesi
 
-Önceki sıra denetim → kaynak incelemesi → ilişki verisi → pilot entegrasyon → genişletme idi. 20 Eylül itibarıyla ilk üç aşamada hazırlık yapılmış, pilot entegrasyona geçilmemişti. 22 Eylül itibarıyla ilk entegrasyon kodlandı; kullanılabilirlik kabulü henüz tamamlanmadı. Araştırma/veri sayıları kullanıcıya teslim edilmiş ürün özelliği gibi değerlendirilmemeli. Bundan sonraki ilerleme ölçütü çalışan, denenmiş kullanıcı akışlarıdır; yeni araştırma yalnız açık uygulama sorusunu çözmek için yapılır.
-
-## Sıradaki somut teslim ve bitiş ölçütleri
-
-1. Hazır median/diz paketleri ve ilişkileriyle çalışan sürümü son görsel kontrolden geçirip yayımla; açılan gerçek adresi kullanıcıya ver. Kaynak/atıflar ve kapsam sınırları görünür olmalı.
-2. Siyatik ve tiroid paketlerini kaynak kalitesine göre kabul et veya açık sınırlı temsil olarak işaretle; geometri, doğru taraf, konum, seçim, etiket ve kaynak kontrolü tamamlanmadan bitti sayma.
-3. Kalan yedi eksik hedef grubunu sırayla kapat: yalnız somut boşluk için araştırma/aktarım. Tam kaynak bulunamazsa kalan temsil sınırını açık kaydet; eksik geometriyi varmış gibi sayma.
-4. Kapsamlı etiket/ilişki zenginleştirmesini bölge bölge sürdür. İlk kullanılabilir atlas ile bütün anatominin tamamlanmasını ayrı değerlendir.
-5. Model kullanımı oturduktan sonra ders akışlarını mevcut yapı kimliklerine ve kayıtlı sahnelere bağla. Bu aşama mevcut model teslimini geciktirmez.
-
-Kullanıcıdan şimdi zorunlu teknik görev yok. Kullanım geri bildirimi ve ileride öğretim sırası/alan uzmanı değerlendirmesi yararlı girdilerdir; repo, indirme, Blender/MCP kurulumu veya entegrasyon kullanıcıya devredilmiş bir engel değildir.
-
-## Yayın adayı — 22 Eylül sonraki entegrasyon
-
-- Aktif model 2.248 parça: bilateral siyatik paket de kayıtlı. Sinirin ayrı tibial/fibular devamları yok; kısmi temsil notu görünür.
-- Grafik 3.458 kavram / 1.431 ilişki. Siyatik–kas sekiz bağlantısında tibial/common-fibular bölüm ayrımı arayüzde korunur; doğrudan ayrışmamış kas dalı iddiası yok. Etiketler dizde femur/tibia ve posterior uyluk kaslarına genişletildi.
-- Tiroid kaynak dosyası hazır olmasına rağmen yakın plan görsel kalite değerlendirmesi sonucu aktif registry'ye alınmadı. Alternatif kaynak çalışması sürüyor. Brakiyal pleksus ihracı sürüyor.
-- `/human-atlas/` üretim derlemesi tarayıcıda yüklendi; 2.248 parça, siyatik arama/seçme, çevre saydamlığı ve arka görünüm çalıştı. Siyatikten biceps kısa başına gidiş ve ters bağlantıda bölüm metni görüldü. 390×844 mobilde ön çapraz bağ ve kemik bağlantıları, modelin panel üstünde kaldığı yakın plan incelendi. Katman preset'i eski seçimi ve paneli temizledi.
-- Uzak yayın bu bölüm yazılırken henüz doğrulanmadı; Pages yalnız main dalından dağıtım kabul ediyor. Sonraki adım commit, fork main birleşimi, CI ve gerçek yayın adresi kontrolüdür.
+İlk araştırma/veri hazırlığı aşaması çalışan arayüze geçişi geciktirdi. Bu, kullanıcı girdisi beklenmesinden kaynaklanmadı. İlerleme ölçütü artık araştırma/asset sayısı yerine kaynaklı, görüntülenmiş ve kullanılabilir akışlardır. Kalan işlerin varlığı ilk çalışan sürümün teslimini bekletmez; ilk yayın da kalan hedeflerin tamamlandığı iddiası değildir.
