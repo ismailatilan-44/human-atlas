@@ -1,0 +1,163 @@
+{
+  "versionMetadataUrl": "https://lifesciencedb.jp/bp3d/get-version.cgi?lng=en",
+  "versionMetadataPath": "versions.json",
+  "versionMetadataSha256": "c9a54f87eb5386d30d4eee529f0b42fa83ea90e5190a0543a4dd0d52e4a613ad",
+  "requestedParameters": {
+    "version": "4.3",
+    "lng": "en",
+    "t_type": "4",
+    "bul_id": "4",
+    "cb_id": "5",
+    "ci_id": "1",
+    "md_id": "1",
+    "mv_id": "6",
+    "mr_id": "1"
+  },
+  "conceptBuildConfirmed": "FMA3.0",
+  "records": [
+    {
+      "conceptId": "FMA27368",
+      "url": "https://lifesciencedb.jp/bp3d/get-partof.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27368",
+      "path": "source/FMA27368-partof.json",
+      "sha256": "cbe1ad380dacf51c7bdd7b2a2c3badc4dedc8dd8e7ad2abc03bd61552218e62c",
+      "bytes": 276971,
+      "endpoint": "get-partof.cgi"
+    },
+    {
+      "conceptId": "FMA27368",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27368",
+      "path": "source/FMA27368.json",
+      "sha256": "0baf5848fa34686c9e4cd4c8ba3b79dffe90315b0dce21420349114fc3d6c582",
+      "bytes": 41967,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27394",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27394",
+      "path": "source/FMA27394.json",
+      "sha256": "64c7ba205aac6430c794bb4deddd54a8033c6c7df847ea4020f5d022d35261b1",
+      "bytes": 38320,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27374",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27374",
+      "path": "source/FMA27374.json",
+      "sha256": "34ce9d49e3a870806e0074a1c296b8cbd9b1b3b720eb5f71c1db7f2a19621272",
+      "bytes": 22192,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27375",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27375",
+      "path": "source/FMA27375.json",
+      "sha256": "2d689cc004dede8904523a7338d9ca30876bcc524d73bd9bdece80f4f050958a",
+      "bytes": 40704,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27376",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27376",
+      "path": "source/FMA27376.json",
+      "sha256": "234e1a10fa5ba27a386d829fc93a6990865edfa3c6c3bc1f3f174eaaba7c0b85",
+      "bytes": 40649,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27386",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27386",
+      "path": "source/FMA27386.json",
+      "sha256": "21ba33eefd070e739af9ad267d394b91faf9180f9ce52a534c506f0411fe5bf8",
+      "bytes": 38057,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27392",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27392",
+      "path": "source/FMA27392.json",
+      "sha256": "e40ab6c63a6f8dfdc24eef4f0a3527362083289d55567da35328e152cc8926a3",
+      "bytes": 38124,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27390",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27390",
+      "path": "source/FMA27390.json",
+      "sha256": "698512a6992eb3e26c291e59ddb86d4ce5d5271fba1e440f0c0686ee86f35f5e",
+      "bytes": 37244,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27369",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27369",
+      "path": "source/FMA27369.json",
+      "sha256": "d200dd781500e04b70cdd6d607f6260320f39a7fcd686207aab293c8a6ec884e",
+      "bytes": 36392,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27393",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27393",
+      "path": "source/FMA27393.json",
+      "sha256": "f15e2176547778a5cb14622f76189ebed2450df962236b8c2b0d29a52587a7a2",
+      "bytes": 38404,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27371",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27371",
+      "path": "source/FMA27371.json",
+      "sha256": "5a8e4db94557555c9564ec0392f3942ca9b518e59eebcdc50779bd26db3c9ba3",
+      "bytes": 36937,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27373",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27373",
+      "path": "source/FMA27373.json",
+      "sha256": "92eeec4b6e9e18d783ba64b10c912fdb55a03e98aad8b10e7ca63b06ce7bb8e6",
+      "bytes": 36857,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27452",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27452",
+      "path": "source/FMA27452.json",
+      "sha256": "01b73d5e05367a71d06725f1bc10175cdc50938dc59f8a5e4d86e5de53d1e7b6",
+      "bytes": 25680,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27448",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27448",
+      "path": "source/FMA27448.json",
+      "sha256": "d3c0f64f23db25d771217f326833a5e3d10fc17a5fe2b8b72abb76f4ac6b6b4a",
+      "bytes": 25792,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27385",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27385",
+      "path": "source/FMA27385.json",
+      "sha256": "e72252509eae70ac27bd79056cfa30d94010698331c5a861b4b7054f3a7ccbf0",
+      "bytes": 38087,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27391",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27391",
+      "path": "source/FMA27391.json",
+      "sha256": "34d0349e7e2bfa7c2c33496c56a63d313792c5b4ec376bd3721e3360e9b70f6f",
+      "bytes": 38118,
+      "endpoint": "get-fmastratum.cgi"
+    },
+    {
+      "conceptId": "FMA27389",
+      "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27389",
+      "path": "source/FMA27389.json",
+      "sha256": "97d5d6f0c3b7d17e0f96730581bb8885d430df957bf4cf969f2711487702439a",
+      "bytes": 37297,
+      "endpoint": "get-fmastratum.cgi"
+    }
+  ]
+}

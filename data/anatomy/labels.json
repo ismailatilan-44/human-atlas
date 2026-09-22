@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scope": "Reviewed regional and direct coverage-target labels, including skull bones and rotator cuff. Source identities and geometric scope preserved; not a complete atlas translation.",
+  "scope": "Reviewed regional labels including organ neighbors, skull bones, rotator cuff, hepatic segments and lung tissue/segments. Source identities and geometric scope preserved; not a complete atlas translation.",
   "source": {
     "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
     "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
@@ -1104,7 +1104,9 @@
       "aliases": [
         "left lung"
       ],
-      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7310"
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7310",
+      "representationNoteTr": "Bu seçim akciğerin bronş ve damarlarıyla birlikte 9 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7310"
     },
     {
       "ids": [
@@ -1118,7 +1120,9 @@
       "aliases": [
         "right lung"
       ],
-      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7309"
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7309",
+      "representationNoteTr": "Bu seçim akciğerin bronş ve damarlarıyla birlikte 9 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez. Kaynak grubundaki iki küçük damar yüzeyi akciğerin altında kalıyor; anatomik eşleşmeleri henüz doğrulanmadı.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7309"
     },
     {
       "ids": [
@@ -2205,6 +2209,1744 @@
       ],
       "ta2Id": 751,
       "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA9710"
+    },
+    {
+      "ids": [
+        "FMA7371"
+      ],
+      "tr": "Sol akciğer alt lobu",
+      "en": "Lower lobe of left lung",
+      "la": "Lobus inferior pulmonis sinistri",
+      "side": null,
+      "aliases": [
+        "sol alt lob"
+      ],
+      "ta2Id": 3308,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7371",
+      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 4 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7371"
+    },
+    {
+      "ids": [
+        "FMA7370"
+      ],
+      "tr": "Sol akciğer üst lobu",
+      "en": "Upper lobe of left lung",
+      "la": "Lobus superior pulmonis sinistri",
+      "side": null,
+      "aliases": [
+        "sol üst lob"
+      ],
+      "ta2Id": 3300,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7370",
+      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 5 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7370"
+    },
+    {
+      "ids": [
+        "FMA7337"
+      ],
+      "tr": "Sağ akciğer alt lobu",
+      "en": "Lower lobe of right lung",
+      "la": "Lobus inferior pulmonis dextri",
+      "side": null,
+      "aliases": [
+        "sağ alt lob"
+      ],
+      "ta2Id": 3293,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7337",
+      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 4 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7337"
+    },
+    {
+      "ids": [
+        "FMA7383"
+      ],
+      "tr": "Sağ akciğer orta lobu",
+      "en": "Middle lobe of lung",
+      "la": "Lobus medius pulmonis dextri",
+      "side": null,
+      "aliases": [
+        "orta lob"
+      ],
+      "ta2Id": 3289,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7383",
+      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 2 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7383"
+    },
+    {
+      "ids": [
+        "FMA7333"
+      ],
+      "tr": "Sağ akciğer üst lobu",
+      "en": "Upper lobe of right lung",
+      "la": "Lobus superior pulmonis dextri",
+      "side": null,
+      "aliases": [
+        "sağ üst lob"
+      ],
+      "ta2Id": 3284,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7333",
+      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 3 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez. Kaynak grubundaki iki küçük damar yüzeyi akciğerin altında kalıyor; anatomik eşleşmeleri henüz doğrulanmadı.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7333"
+    },
+    {
+      "ids": [
+        "FMA7393"
+      ],
+      "tr": "Trakeobronşiyal ağaç",
+      "en": "Tracheobronchial tree",
+      "la": "Arbor tracheobronchialis",
+      "side": null,
+      "aliases": [
+        "soluk borusu ve bronş ağacı"
+      ],
+      "ta2Id": 3212,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7393"
+    },
+    {
+      "ids": [
+        "FMA9576"
+      ],
+      "tr": "Toraks",
+      "en": "Thorax",
+      "la": "Thorax",
+      "side": null,
+      "aliases": [
+        "göğüs bölgesi"
+      ],
+      "ta2Id": 125,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA9576"
+    },
+    {
+      "ids": [
+        "FMA7487"
+      ],
+      "tr": "Sternum gövdesi",
+      "en": "Body of sternum",
+      "la": "Corpus sterni",
+      "side": null,
+      "aliases": [
+        "göğüs kemiği gövdesi"
+      ],
+      "ta2Id": 1134,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7487"
+    },
+    {
+      "ids": [
+        "FMA7486"
+      ],
+      "tr": "Sternum manubriumu",
+      "en": "Manubrium",
+      "la": "Manubrium sterni",
+      "side": null,
+      "aliases": [
+        "manubrium",
+        "göğüs kemiği sapı"
+      ],
+      "ta2Id": 1130,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7486"
+    },
+    {
+      "ids": [
+        "FMA7488"
+      ],
+      "tr": "Ksifoid çıkıntı",
+      "en": "Xiphoid process",
+      "la": "Processus xiphoideus",
+      "side": null,
+      "aliases": [
+        "ksifoid"
+      ],
+      "ta2Id": 1135,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7488"
+    },
+    {
+      "ids": [
+        "FMA3768"
+      ],
+      "tr": "Aort kemeri",
+      "en": "Arch of aorta",
+      "la": "Arcus aortae",
+      "side": null,
+      "aliases": [
+        "arkus aorta"
+      ],
+      "ta2Id": 4177,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA3768"
+    },
+    {
+      "ids": [
+        "FMA3736"
+      ],
+      "tr": "Çıkan aort",
+      "en": "Ascending aorta",
+      "la": "Aorta ascendens",
+      "side": null,
+      "aliases": [],
+      "ta2Id": 4176,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA3736"
+    },
+    {
+      "ids": [
+        "FMA3784"
+      ],
+      "tr": "İnen aort",
+      "en": "Descending aorta",
+      "la": "Aorta descendens",
+      "side": null,
+      "aliases": [],
+      "ta2Id": 4185,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA3784"
+    },
+    {
+      "ids": [
+        "FMA14772"
+      ],
+      "tr": "Arteria hepatica propria",
+      "en": "Hepatic artery proper",
+      "la": "Arteria hepatica propria",
+      "side": null,
+      "aliases": [
+        "hepatik arter propria"
+      ],
+      "ta2Id": 4227,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA14772"
+    },
+    {
+      "ids": [
+        "FMA15810"
+      ],
+      "tr": "Karaciğerin sol fonksiyonel bölümü",
+      "en": "Left hemiliver",
+      "la": "Pars sinistra hepatis",
+      "side": null,
+      "aliases": [
+        "sol hemikaraciğer",
+        "sol hemiliver"
+      ],
+      "ta2Id": 3066,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA15810",
+      "representationNoteTr": "Sol hemiliver kaynak grubu hepatovenöz II–IV segment yüzeylerini içerir; morfolojik sol lob kavramından ayrıdır."
+    },
+    {
+      "ids": [
+        "FMA13363"
+      ],
+      "tr": "Karaciğerin sol lobu",
+      "en": "Left lobe of liver",
+      "la": "Lobus sinister hepatis",
+      "side": null,
+      "aliases": [
+        "sol karaciğer lobu"
+      ],
+      "ta2Id": 3050,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA13363",
+      "representationNoteTr": "Kaynak sol lob kavramı 25 damar/safra ağacı ve kaudat lob yüzeyini seçiyor; bağımsız tam sol lob parankim yüzeyi değildir."
+    },
+    {
+      "ids": [
+        "FMA15809"
+      ],
+      "tr": "Karaciğerin sağ fonksiyonel bölümü",
+      "en": "Right hemiliver",
+      "la": "Pars dextra hepatis",
+      "side": null,
+      "aliases": [
+        "sağ hemikaraciğer",
+        "sağ hemiliver"
+      ],
+      "ta2Id": 3074,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA15809",
+      "representationNoteTr": "Sağ hemiliver kaynak grubu hepatovenöz V–VIII segment yüzeylerini içerir; morfolojik sağ lob kavramından ayrıdır."
+    },
+    {
+      "ids": [
+        "FMA13362"
+      ],
+      "tr": "Karaciğerin sağ lobu",
+      "en": "Right lobe of liver",
+      "la": "Lobus dexter hepatis",
+      "side": null,
+      "aliases": [
+        "sağ karaciğer lobu"
+      ],
+      "ta2Id": 3049,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA13362",
+      "representationNoteTr": "Kaynak sağ lob kavramı 17 damar ve safra ağacı yüzeyini seçiyor; bağımsız tam sağ lob parankim yüzeyi değildir."
+    },
+    {
+      "ids": [
+        "FMA15414"
+      ],
+      "tr": "Portal venin sağ dalı",
+      "en": "Right portal vein",
+      "la": "Ramus dexter venae portae hepatis",
+      "side": null,
+      "aliases": [
+        "sağ portal ven"
+      ],
+      "ta2Id": 5094,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA15414"
+    },
+    {
+      "ids": [
+        "FMA7206"
+      ],
+      "tr": "Duodenum",
+      "en": "Duodenum",
+      "la": "Duodenum",
+      "side": null,
+      "aliases": [
+        "onikiparmak bağırsağı"
+      ],
+      "ta2Id": 2944,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7206"
+    },
+    {
+      "ids": [
+        "FMA7208"
+      ],
+      "tr": "İleum",
+      "en": "Ileum",
+      "la": "Ileum",
+      "side": null,
+      "aliases": [],
+      "ta2Id": 2959,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7208"
+    },
+    {
+      "ids": [
+        "FMA7207"
+      ],
+      "tr": "Jejunum",
+      "en": "Jejunum",
+      "la": "Jejunum",
+      "side": null,
+      "aliases": [
+        "boş bağırsak"
+      ],
+      "ta2Id": 2958,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7207"
+    },
+    {
+      "ids": [
+        "FMA13478"
+      ],
+      "tr": "Omurga",
+      "en": "Vertebral column",
+      "la": "Columna vertebralis",
+      "side": null,
+      "aliases": [
+        "vertebral kolon"
+      ],
+      "ta2Id": 1001,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA13478"
+    },
+    {
+      "ids": [
+        "FMA22554",
+        "FJ1409"
+      ],
+      "tr": "Kısa fibular kas",
+      "en": "Fibularis brevis muscle",
+      "la": "Musculus fibularis brevis",
+      "side": "right",
+      "aliases": [
+        "fibularis brevis"
+      ],
+      "ta2Id": 2653,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22554"
+    },
+    {
+      "ids": [
+        "FMA22555",
+        "FJ1409M"
+      ],
+      "tr": "Kısa fibular kas",
+      "en": "Fibularis brevis muscle",
+      "la": "Musculus fibularis brevis",
+      "side": "left",
+      "aliases": [
+        "fibularis brevis"
+      ],
+      "ta2Id": 2653,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22555"
+    },
+    {
+      "ids": [
+        "FMA22552",
+        "FJ1410"
+      ],
+      "tr": "Uzun fibular kas",
+      "en": "Fibularis longus muscle",
+      "la": "Musculus fibularis longus",
+      "side": "right",
+      "aliases": [
+        "fibularis longus"
+      ],
+      "ta2Id": 2652,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22552"
+    },
+    {
+      "ids": [
+        "FMA22553",
+        "FJ1410M"
+      ],
+      "tr": "Uzun fibular kas",
+      "en": "Fibularis longus muscle",
+      "la": "Musculus fibularis longus",
+      "side": "left",
+      "aliases": [
+        "fibularis longus"
+      ],
+      "ta2Id": 2652,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22553"
+    },
+    {
+      "ids": [
+        "FMA22550",
+        "FJ1411"
+      ],
+      "tr": "Üçüncü fibular kas",
+      "en": "Fibularis tertius muscle",
+      "la": "Musculus fibularis tertius",
+      "side": "right",
+      "aliases": [
+        "fibularis tertius"
+      ],
+      "ta2Id": 2649,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22550"
+    },
+    {
+      "ids": [
+        "FMA22551",
+        "FJ1411M"
+      ],
+      "tr": "Üçüncü fibular kas",
+      "en": "Fibularis tertius muscle",
+      "la": "Musculus fibularis tertius",
+      "side": "left",
+      "aliases": [
+        "fibularis tertius"
+      ],
+      "ta2Id": 2649,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22551"
+    },
+    {
+      "ids": [
+        "FMA22425",
+        "FJ1438"
+      ],
+      "tr": "Fasya lata gerici kası",
+      "en": "Tensor fasciae latae",
+      "la": "Tensor fasciae latae",
+      "side": "right",
+      "aliases": [
+        "tensor fasciae latae"
+      ],
+      "ta2Id": 2602,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22425"
+    },
+    {
+      "ids": [
+        "FMA22426",
+        "FJ1438M"
+      ],
+      "tr": "Fasya lata gerici kası",
+      "en": "Tensor fasciae latae",
+      "la": "Tensor fasciae latae",
+      "side": "left",
+      "aliases": [
+        "tensor fasciae latae"
+      ],
+      "ta2Id": 2602,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22426"
+    },
+    {
+      "ids": [
+        "FMA22544",
+        "FJ1439"
+      ],
+      "tr": "Ön tibial kas",
+      "en": "Tibialis anterior muscle",
+      "la": "Musculus tibialis anterior",
+      "side": "right",
+      "aliases": [
+        "tibialis anterior"
+      ],
+      "ta2Id": 2644,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22544"
+    },
+    {
+      "ids": [
+        "FMA22545",
+        "FJ1439M"
+      ],
+      "tr": "Ön tibial kas",
+      "en": "Tibialis anterior muscle",
+      "la": "Musculus tibialis anterior",
+      "side": "left",
+      "aliases": [
+        "tibialis anterior"
+      ],
+      "ta2Id": 2644,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA22545"
+    },
+    {
+      "ids": [
+        "FMA65018",
+        "FJ1440"
+      ],
+      "tr": "Arka tibial kas",
+      "en": "Tibialis posterior muscle",
+      "la": "Musculus tibialis posterior",
+      "side": "right",
+      "aliases": [
+        "tibialis posterior"
+      ],
+      "ta2Id": 2666,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA65018"
+    },
+    {
+      "ids": [
+        "FMA65019",
+        "FJ1440M"
+      ],
+      "tr": "Arka tibial kas",
+      "en": "Tibialis posterior muscle",
+      "la": "Musculus tibialis posterior",
+      "side": "left",
+      "aliases": [
+        "tibialis posterior"
+      ],
+      "ta2Id": 2666,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA65019"
+    },
+    {
+      "ids": [
+        "FMA32540",
+        "FJ1532"
+      ],
+      "tr": "Kürek kemiğini kaldıran kas",
+      "en": "Levator scapulae",
+      "la": "Levator scapulae",
+      "side": "right",
+      "aliases": [
+        "levator scapulae"
+      ],
+      "ta2Id": 2234,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA32540"
+    },
+    {
+      "ids": [
+        "FMA32541",
+        "FJ1532M"
+      ],
+      "tr": "Kürek kemiğini kaldıran kas",
+      "en": "Levator scapulae",
+      "la": "Levator scapulae",
+      "side": "left",
+      "aliases": [
+        "levator scapulae"
+      ],
+      "ta2Id": 2234,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA32541"
+    },
+    {
+      "ids": [
+        "FMA46636",
+        "FJ2740"
+      ],
+      "tr": "Alt yutak daraltıcı kası",
+      "en": "Inferior pharyngeal constrictor",
+      "la": "Constrictor inferior pharyngis",
+      "side": "left",
+      "aliases": [
+        "inferior pharyngeal constrictor"
+      ],
+      "ta2Id": 2187,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46636"
+    },
+    {
+      "ids": [
+        "FMA46633",
+        "FJ2742"
+      ],
+      "tr": "Orta yutak daraltıcı kası",
+      "en": "Middle pharyngeal constrictor",
+      "la": "Constrictor medius pharyngis",
+      "side": "right",
+      "aliases": [
+        "middle pharyngeal constrictor"
+      ],
+      "ta2Id": 2184,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46633"
+    },
+    {
+      "ids": [
+        "FMA46672",
+        "FJ2743"
+      ],
+      "tr": "Palatofaringeus kası",
+      "en": "Palatopharyngeus muscle",
+      "la": "Musculus palatopharyngeus",
+      "side": "left",
+      "aliases": [
+        "palatopharyngeus",
+        "damak-yutak kası"
+      ],
+      "ta2Id": 2132,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46672"
+    },
+    {
+      "ids": [
+        "FMA46670",
+        "FJ2745"
+      ],
+      "tr": "Salpingofaringeus kası",
+      "en": "Salpingopharyngeus muscle",
+      "la": "Musculus salpingopharyngeus",
+      "side": "left",
+      "aliases": [
+        "salpingopharyngeus",
+        "işitme tüpü-yutak kası"
+      ],
+      "ta2Id": 2191,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46670"
+    },
+    {
+      "ids": [
+        "FMA46668",
+        "FJ2746"
+      ],
+      "tr": "Stilofaringeus kası",
+      "en": "Stylopharyngeus muscle",
+      "la": "Musculus stylopharyngeus",
+      "side": "left",
+      "aliases": [
+        "stylopharyngeus",
+        "stiloid-yutak kası"
+      ],
+      "ta2Id": 2190,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46668"
+    },
+    {
+      "ids": [
+        "FMA46632",
+        "FJ2747"
+      ],
+      "tr": "Üst yutak daraltıcı kası",
+      "en": "Superior pharyngeal constrictor",
+      "la": "Constrictor superior pharyngis",
+      "side": "left",
+      "aliases": [
+        "superior pharyngeal constrictor"
+      ],
+      "ta2Id": 2179,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46632"
+    },
+    {
+      "ids": [
+        "FMA46635",
+        "FJ2752"
+      ],
+      "tr": "Alt yutak daraltıcı kası",
+      "en": "Inferior pharyngeal constrictor",
+      "la": "Constrictor inferior pharyngis",
+      "side": "right",
+      "aliases": [
+        "inferior pharyngeal constrictor"
+      ],
+      "ta2Id": 2187,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46635"
+    },
+    {
+      "ids": [
+        "FMA46634",
+        "FJ2754"
+      ],
+      "tr": "Orta yutak daraltıcı kası",
+      "en": "Middle pharyngeal constrictor",
+      "la": "Constrictor medius pharyngis",
+      "side": "left",
+      "aliases": [
+        "middle pharyngeal constrictor"
+      ],
+      "ta2Id": 2184,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46634"
+    },
+    {
+      "ids": [
+        "FMA46671",
+        "FJ2755"
+      ],
+      "tr": "Palatofaringeus kası",
+      "en": "Palatopharyngeus muscle",
+      "la": "Musculus palatopharyngeus",
+      "side": "right",
+      "aliases": [
+        "palatopharyngeus",
+        "damak-yutak kası"
+      ],
+      "ta2Id": 2132,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46671"
+    },
+    {
+      "ids": [
+        "FMA46669",
+        "FJ2757"
+      ],
+      "tr": "Salpingofaringeus kası",
+      "en": "Salpingopharyngeus muscle",
+      "la": "Musculus salpingopharyngeus",
+      "side": "right",
+      "aliases": [
+        "salpingopharyngeus",
+        "işitme tüpü-yutak kası"
+      ],
+      "ta2Id": 2191,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46669"
+    },
+    {
+      "ids": [
+        "FMA46667",
+        "FJ2758"
+      ],
+      "tr": "Stilofaringeus kası",
+      "en": "Stylopharyngeus muscle",
+      "la": "Musculus stylopharyngeus",
+      "side": "right",
+      "aliases": [
+        "stylopharyngeus",
+        "stiloid-yutak kası"
+      ],
+      "ta2Id": 2190,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46667"
+    },
+    {
+      "ids": [
+        "FMA46631",
+        "FJ2759"
+      ],
+      "tr": "Üst yutak daraltıcı kası",
+      "en": "Superior pharyngeal constrictor",
+      "la": "Constrictor superior pharyngis",
+      "side": "right",
+      "aliases": [
+        "superior pharyngeal constrictor"
+      ],
+      "ta2Id": 2179,
+      "evidenceRef": "data/model-candidates/reclassified-muscle-labels/evidence.json#FMA46631"
+    },
+    {
+      "ids": [
+        "FMA9465"
+      ],
+      "tr": "Sol atriyum boşluğu",
+      "en": "Cavity of left atrium",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sol kulakçık boşluğu"
+      ],
+      "representationNoteTr": "Tek yüzey sol atriyumun boşluğunu temsil eder; atriyum duvarı veya tüm atriyum değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA9465"
+    },
+    {
+      "ids": [
+        "FMA9466"
+      ],
+      "tr": "Sol ventrikül boşluğu",
+      "en": "Cavity of left ventricle",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sol karıncık boşluğu"
+      ],
+      "representationNoteTr": "Tek yüzey sol ventrikülün boşluğunu temsil eder; ventrikül duvarı veya tüm ventrikül değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA9466"
+    },
+    {
+      "ids": [
+        "FMA79278"
+      ],
+      "tr": "Orta mediastinum içeriği (kaynak grubu)",
+      "en": "Content of middle mediastinum (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "85 kaynak yüzeyini bir araya getirir; orta mediastinumun ayrı sınır yüzeyi veya eksiksiz içeriği olarak doğrulanmadı.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA79278"
+    },
+    {
+      "ids": [
+        "FMA9496"
+      ],
+      "tr": "Kalbin fibröz iskeleti (kaynak grubu)",
+      "en": "Fibrous skeleton of heart (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "fibröz kalp iskeleti"
+      ],
+      "representationNoteTr": "Bu kaynak grubu yalnız üç kapakçık yüzeyini seçer: mitral kapağın ön yaprakçığı ve aort kapağının sol/sağ posterior küspisleri. Tam fibröz iskelet geometrisi değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA9496"
+    },
+    {
+      "ids": [
+        "FMA7166"
+      ],
+      "tr": "Kalbin sol tarafı (kaynak grubu)",
+      "en": "Left side of heart (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sol kalp"
+      ],
+      "representationNoteTr": "36 yüzeylik kaynak seçimi boşluk, duvar, kapakçık, papiller kas ve damar parçalarını birleştirir; tek bir bütün organ yüzeyi değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA7166"
+    },
+    {
+      "ids": [
+        "FMA68005"
+      ],
+      "tr": "Sol alt pulmoner venin akciğer içi bölümü",
+      "en": "Intrapulmonary part of left inferior pulmonary vein",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "12 kaynak damar yüzeyi; venin akciğer dışı bölümü bu seçimde değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA68005"
+    },
+    {
+      "ids": [
+        "FMA67995"
+      ],
+      "tr": "Sol pulmoner arterin akciğer içi bölümü",
+      "en": "Intrapulmonary part of left pulmonary artery",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "37 kaynak damar yüzeyi; pulmoner arterin bütünü olarak adlandırılmamalıdır.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA67995"
+    },
+    {
+      "ids": [
+        "FMA68004"
+      ],
+      "tr": "Sol üst pulmoner venin akciğer içi bölümü",
+      "en": "Intrapulmonary part of left superior pulmonary vein",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "24 kaynak damar yüzeyi; venin akciğer dışı bölümü bu seçimde değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA68004"
+    },
+    {
+      "ids": [
+        "FMA85056"
+      ],
+      "tr": "Sol akciğer-plevra kompartımanı (kaynak grubu)",
+      "en": "Left pulmopleural compartment (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sol pulmoplevral kompartıman"
+      ],
+      "representationNoteTr": "124 kaynak yüzeyi birlikte seçilir; bağımsız plevral boşluk veya tam plevra zarı geometrisi olarak doğrulanmadı.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA85056"
+    },
+    {
+      "ids": [
+        "FMA68003"
+      ],
+      "tr": "Sağ alt pulmoner venin akciğer içi bölümü",
+      "en": "Intrapulmonary part of right inferior pulmonary vein",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "23 kaynak damar yüzeyi; venin akciğer dışı bölümü bu seçimde değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA68003"
+    },
+    {
+      "ids": [
+        "FMA67994"
+      ],
+      "tr": "Sağ pulmoner arterin akciğer içi bölümü",
+      "en": "Intrapulmonary part of right pulmonary artery",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "54 kaynak damar yüzeyi; pulmoner arterin bütünü olarak adlandırılmamalıdır.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA67994"
+    },
+    {
+      "ids": [
+        "FMA68002"
+      ],
+      "tr": "Sağ üst pulmoner venin akciğer içi bölümü",
+      "en": "Intrapulmonary part of right superior pulmonary vein",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "26 kaynak damar yüzeyi; venin akciğer dışı bölümü bu seçimde değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA68002"
+    },
+    {
+      "ids": [
+        "FMA45662"
+      ],
+      "tr": "Alt solunum yolları (kaynak grubu)",
+      "en": "Lower respiratory tract (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "283 kaynak yüzeyi bronş ve damar alt yapılarını da birlikte seçer; yalnız hava yolu lümeni veya eksiksiz solunum sistemi değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA45662"
+    },
+    {
+      "ids": [
+        "FMA24866"
+      ],
+      "tr": "Göğsün sternal bölümü (kaynak grubu)",
+      "en": "Sternal part of chest (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "Bu kaynak seçimi yalnız manubrium, sternum gövdesi ve ksifoid çıkıntıdan oluşur; bölgenin tüm yumuşak dokuları değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA24866"
+    },
+    {
+      "ids": [
+        "FMA49894"
+      ],
+      "tr": "Sistemik arter ağacı (kaynak grubu)",
+      "en": "Systemic arterial tree (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sistemik atardamar ağacı"
+      ],
+      "representationNoteTr": "324 kaynak arter yüzeyidir; bütün sistemik dalların eksiksiz temsil edildiği iddia edilmez.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA49894"
+    },
+    {
+      "ids": [
+        "FMA71132"
+      ],
+      "tr": "Gastrointestinal kanal (kaynak grubu)",
+      "en": "Gastrointestinal tract (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "mide bağırsak kanalı"
+      ],
+      "representationNoteTr": "136 yüzeylik kaynak grubu özofagus ve bağırsakların yanında karaciğer, pankreas ve ilişkili damar/safra yapılarını da kapsar; yalnız sindirim kanalı lümeni veya duvarı değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA71132"
+    },
+    {
+      "ids": [
+        "FMA68016"
+      ],
+      "tr": "Karaciğer içi safra ağacı",
+      "en": "Intrahepatic biliary tree",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "intrahepatik safra ağacı"
+      ],
+      "representationNoteTr": "14 kaynak safra yolu yüzeyini kapsar; karaciğerin tamamı veya tüm mikroskobik safra yolları değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA68016"
+    },
+    {
+      "ids": [
+        "FMA63103"
+      ],
+      "tr": "Pankreas kanal ağacı",
+      "en": "Pancreatic duct tree",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "İki kaynak yüzeyden oluşur: pancreatic duct ve pancreatic duct tree. Pankreas dokusunun tamamı değildir.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA63103"
+    },
+    {
+      "ids": [
+        "FMA63120"
+      ],
+      "tr": "Pankreas parankimi",
+      "en": "Parenchyma of pancreas",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "Kaynakta parenchyma of pancreas olarak adlandırılmış tek yüzey; kanal ağacı ayrı kavramdır.",
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA63120"
+    },
+    {
+      "ids": [
+        "FMA14615"
+      ],
+      "tr": "İnce bağırsak duvarı (kaynak grubu)",
+      "en": "Wall of small intestine (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "Bu kaynak grubu yalnız ileoçekal birleşim yüzeyini seçer. İnce bağırsak duvarının bütünü değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA14615"
+    },
+    {
+      "ids": [
+        "FMA14619"
+      ],
+      "tr": "Kalın bağırsak duvarı (kaynak grubu)",
+      "en": "Wall of large intestine (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "Bu kaynak grubu yalnız taenia libera, taenia mesocolica ve taenia omentalis yüzeylerini seçer. Kalın bağırsak duvarının bütünü değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA14619"
+    },
+    {
+      "ids": [
+        "FMA45659"
+      ],
+      "tr": "Alt idrar yolları (kaynak grubu)",
+      "en": "Lower urinary tract (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "representationNoteTr": "Bu seçim yalnız mesane ve üretra yüzeylerini içerir. Diğer komşu yapılar dahil edilmez.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA45659"
+    },
+    {
+      "ids": [
+        "FMA7160"
+      ],
+      "tr": "Genital sistem (kaynak grubu)",
+      "en": "Genital system (source group)",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "üreme sistemi kaynak grubu"
+      ],
+      "representationNoteTr": "Bu kaynak grubu yalnız prostat yüzeyini seçer. Erkek veya kadın genital sisteminin bütünü değildir.",
+      "sourceGroupLabel": true,
+      "evidenceRef": "data/model-candidates/organ-neighbor-labels-withheld/source-evidence.json#FMA7160"
+    },
+    {
+      "ids": [
+        "FMA15739",
+        "FJ2818"
+      ],
+      "tr": "Karaciğerin hepatovenöz II. segmenti",
+      "en": "Hepatovenous segment II",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment II",
+        "hepatovenous segment II"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta II olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15739"
+    },
+    {
+      "ids": [
+        "FMA15741",
+        "FJ2819"
+      ],
+      "tr": "Karaciğerin hepatovenöz III. segmenti",
+      "en": "Hepatovenous segment III",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment III",
+        "hepatovenous segment III"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta III olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15741"
+    },
+    {
+      "ids": [
+        "FMA15742",
+        "FJ2820"
+      ],
+      "tr": "Karaciğerin hepatovenöz IV. segmenti",
+      "en": "Hepatovenous segment IV",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment IV",
+        "hepatovenous segment IV"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta IV olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15742"
+    },
+    {
+      "ids": [
+        "FMA15743",
+        "FJ2821"
+      ],
+      "tr": "Karaciğerin hepatovenöz V. segmenti",
+      "en": "Hepatovenous segment V",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment V",
+        "hepatovenous segment V"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta V olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15743"
+    },
+    {
+      "ids": [
+        "FMA15744",
+        "FJ2822"
+      ],
+      "tr": "Karaciğerin hepatovenöz VI. segmenti",
+      "en": "Hepatovenous segment VI",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment VI",
+        "hepatovenous segment VI"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta VI olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15744"
+    },
+    {
+      "ids": [
+        "FMA15745",
+        "FJ2409"
+      ],
+      "tr": "Karaciğerin hepatovenöz VII. segmenti",
+      "en": "Hepatovenous segment VII",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment VII",
+        "hepatovenous segment VII"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta VII olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15745"
+    },
+    {
+      "ids": [
+        "FMA15746",
+        "FJ2823",
+        "FJ2824"
+      ],
+      "tr": "Karaciğerin hepatovenöz VIII. segmenti",
+      "en": "Hepatovenous segment VIII",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment VIII",
+        "hepatovenous segment VIII"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta VIII olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15746"
+    },
+    {
+      "ids": [
+        "FMA15747",
+        "FJ1858"
+      ],
+      "tr": "Karaciğerin hepatovenöz IX. segmenti",
+      "en": "Hepatovenous segment IX",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "karaciğer segment IX",
+        "hepatovenous segment IX"
+      ],
+      "representationNoteTr": "Karaciğer dokusunun kaynakta IX olarak numaralandırılan hepatovenöz segment yüzeyi. Bu seçim bir toplardamar yüzeyi değildir.",
+      "evidenceRef": "data/model-candidates/system-classification-review/hepatic-segment-review.json#FMA15747"
+    },
+    {
+      "ids": [
+        "FMA27368"
+      ],
+      "tr": "Sol akciğer üst lob — apikoposterior segment parankimi",
+      "en": "Parenchyma of apicoposterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "apikoposterior bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27368",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır. Bu segmentin dokusu modelde iki yüzeyden oluşur."
+    },
+    {
+      "ids": [
+        "FMA27394"
+      ],
+      "tr": "Sol akciğer alt lob — posterior bazal segment parankimi",
+      "en": "Parenchyma of left posterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "posterior bazal bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27394",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27374"
+      ],
+      "tr": "Sol akciğer üst lob — anterior segment parankimi",
+      "en": "Parenchyma of left anterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27374",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27375"
+      ],
+      "tr": "Sol akciğer üst lob — üst lingular segment parankimi",
+      "en": "Parenchyma of superior lingular bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "üst lingular bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27375",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27376"
+      ],
+      "tr": "Sol akciğer üst lob — alt lingular segment parankimi",
+      "en": "Parenchyma of inferior lingular bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "alt lingular bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27376",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27386"
+      ],
+      "tr": "Sol akciğer alt lob — superior segment parankimi",
+      "en": "Parenchyma of left superior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "superior bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27386",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27392"
+      ],
+      "tr": "Sol akciğer alt lob — anterior bazal segment parankimi",
+      "en": "Parenchyma of left anterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bazal bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27392",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27390"
+      ],
+      "tr": "Sol akciğer alt lob — lateral bazal segment parankimi",
+      "en": "Parenchyma of left lateral basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "lateral bazal bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27390",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27369"
+      ],
+      "tr": "Sağ akciğer üst lob — apikal segment parankimi",
+      "en": "Parenchyma of right apical bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "apikal bronkopulmoner segment parankimi",
+        "right upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27369",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27393"
+      ],
+      "tr": "Sağ akciğer alt lob — posterior bazal segment parankimi",
+      "en": "Parenchyma of right posterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "posterior bazal bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27393",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27371"
+      ],
+      "tr": "Sağ akciğer üst lob — posterior segment parankimi",
+      "en": "Parenchyma of right posterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "posterior bronkopulmoner segment parankimi",
+        "right upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27371",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27373"
+      ],
+      "tr": "Sağ akciğer üst lob — anterior segment parankimi",
+      "en": "Parenchyma of right anterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bronkopulmoner segment parankimi",
+        "right upper lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27373",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27452"
+      ],
+      "tr": "Sağ akciğer orta lob — lateral segment parankimi",
+      "en": "Parenchyma of lateral bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "lateral bronkopulmoner segment parankimi",
+        "right middle lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27452",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27448"
+      ],
+      "tr": "Sağ akciğer orta lob — medial segment parankimi",
+      "en": "Parenchyma of medial bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "medial bronkopulmoner segment parankimi",
+        "right middle lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27448",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27385"
+      ],
+      "tr": "Sağ akciğer alt lob — superior segment parankimi",
+      "en": "Parenchyma of right superior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "superior bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27385",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27391"
+      ],
+      "tr": "Sağ akciğer alt lob — anterior bazal segment parankimi",
+      "en": "Parenchyma of right anterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bazal bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27391",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "FMA27389"
+      ],
+      "tr": "Sağ akciğer alt lob — lateral bazal segment parankimi",
+      "en": "Parenchyma of right lateral basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "lateral bazal bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "evidenceRef": "data/model-candidates/lung-parenchyma-labels/source-evidence.json#FMA27389",
+      "representationNoteTr": "Seçili segmentin akciğer dokusu yüzeyi gösteriliyor. Bronş ve damarlar ayrı yapılardır."
+    },
+    {
+      "ids": [
+        "atlas:left-lung-parenchyma-surfaces"
+      ],
+      "tr": "Sol akciğer dokusu",
+      "en": "Left lung tissue surfaces",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sol akciğer parankimi",
+        "left lung parenchyma surfaces"
+      ],
+      "representationNoteTr": "Yalnız akciğer segmentlerinin dokusunu gösteren dokuz yüzey. Bu grubu gizleyerek bronş ve damarları inceleyebilirsiniz.",
+      "evidenceRef": "data/model-candidates/lung-parenchyma-relations/evidence.json#atlas:left-lung-parenchyma-surfaces"
+    },
+    {
+      "ids": [
+        "atlas:right-lung-parenchyma-surfaces"
+      ],
+      "tr": "Sağ akciğer dokusu",
+      "en": "Right lung tissue surfaces",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sağ akciğer parankimi",
+        "right lung parenchyma surfaces"
+      ],
+      "representationNoteTr": "Yalnız akciğer segmentlerinin dokusunu gösteren dokuz yüzey. Bu grubu gizleyerek bronş ve damarları inceleyebilirsiniz.",
+      "evidenceRef": "data/model-candidates/lung-parenchyma-relations/evidence.json#atlas:right-lung-parenchyma-surfaces"
+    },
+    {
+      "ids": [
+        "FMA7372"
+      ],
+      "tr": "Sol akciğer üst lob — apikoposterior segment",
+      "en": "Apicoposterior bronchopulmonary segment",
+      "la": "Segmentum apicoposterius pulmonis sinistri (SI+SII)",
+      "side": null,
+      "aliases": [
+        "apicoposterior bronchopulmonary segment",
+        "Sol akciğer üst lob apikoposterior segment"
+      ],
+      "ta2Id": 3301,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7372",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7372"
+    },
+    {
+      "ids": [
+        "FMA7380"
+      ],
+      "tr": "Sol akciğer alt lob — posterior bazal segment",
+      "en": "Left posterior basal bronchopulmonary segment",
+      "la": "Segmentum basale posterius pulmonis sinistri (SX)",
+      "side": null,
+      "aliases": [
+        "left posterior basal bronchopulmonary segment",
+        "Sol akciğer alt lob posterior bazal segment"
+      ],
+      "ta2Id": 3314,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7380",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7380"
+    },
+    {
+      "ids": [
+        "FMA7373"
+      ],
+      "tr": "Sol akciğer üst lob — anterior segment",
+      "en": "Left anterior bronchopulmonary segment",
+      "la": "Segmentum anterius pulmonis sinistri (SIII)",
+      "side": null,
+      "aliases": [
+        "left anterior bronchopulmonary segment",
+        "Sol akciğer üst lob anterior segment"
+      ],
+      "ta2Id": 3302,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7373",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7373"
+    },
+    {
+      "ids": [
+        "FMA7374"
+      ],
+      "tr": "Sol akciğer üst lob — üst lingular segment",
+      "en": "Superior lingular bronchopulmonary segment",
+      "la": "Segmentum lingulare superius pulmonis sinistri (SIV)",
+      "side": null,
+      "aliases": [
+        "superior lingular bronchopulmonary segment",
+        "Sol akciğer üst lob üst lingular segment"
+      ],
+      "ta2Id": 3305,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7374",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7374"
+    },
+    {
+      "ids": [
+        "FMA7375"
+      ],
+      "tr": "Sol akciğer üst lob — alt lingular segment",
+      "en": "Inferior lingular bronchopulmonary segment",
+      "la": "Segmentum lingulare inferius pulmonis sinistri (SV)",
+      "side": null,
+      "aliases": [
+        "inferior lingular bronchopulmonary segment",
+        "Sol akciğer üst lob alt lingular segment"
+      ],
+      "ta2Id": 3306,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7375",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7375"
+    },
+    {
+      "ids": [
+        "FMA7376"
+      ],
+      "tr": "Sol akciğer alt lob — superior segment",
+      "en": "Left superior bronchopulmonary segment",
+      "la": "Segmentum superius pulmonis sinistri (SVI)",
+      "side": null,
+      "aliases": [
+        "left superior bronchopulmonary segment",
+        "Sol akciğer alt lob superior segment"
+      ],
+      "ta2Id": 3309,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7376",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7376"
+    },
+    {
+      "ids": [
+        "FMA7378"
+      ],
+      "tr": "Sol akciğer alt lob — anterior bazal segment",
+      "en": "Left anterior basal bronchopulmonary segment",
+      "la": "Segmentum basale anterius pulmonis sinistri (SVIII)",
+      "side": null,
+      "aliases": [
+        "left anterior basal bronchopulmonary segment",
+        "Sol akciğer alt lob anterior bazal segment"
+      ],
+      "ta2Id": 3312,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7378",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7378"
+    },
+    {
+      "ids": [
+        "FMA7379"
+      ],
+      "tr": "Sol akciğer alt lob — lateral bazal segment",
+      "en": "Left lateral basal bronchopulmonary segment",
+      "la": "Segmentum basale laterale pulmonis sinistri (SIX)",
+      "side": null,
+      "aliases": [
+        "left lateral basal bronchopulmonary segment",
+        "Sol akciğer alt lob lateral bazal segment"
+      ],
+      "ta2Id": 3313,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7379",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7379"
+    },
+    {
+      "ids": [
+        "FMA7338"
+      ],
+      "tr": "Sağ akciğer üst lob — apikal segment",
+      "en": "Right apical bronchopulmonary segment",
+      "la": "Segmentum apicale pulmonis dextri (SI)",
+      "side": null,
+      "aliases": [
+        "right apical bronchopulmonary segment",
+        "Sağ akciğer üst lob apikal segment"
+      ],
+      "ta2Id": 3285,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7338",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7338"
+    },
+    {
+      "ids": [
+        "FMA7362"
+      ],
+      "tr": "Sağ akciğer alt lob — posterior bazal segment",
+      "en": "Right posterior basal bronchopulmonary segment",
+      "la": "Segmentum basale posterius pulmonis dextri (SX)",
+      "side": null,
+      "aliases": [
+        "right posterior basal bronchopulmonary segment",
+        "Sağ akciğer alt lob posterior bazal segment"
+      ],
+      "ta2Id": 3298,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7362",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7362"
+    },
+    {
+      "ids": [
+        "FMA7339"
+      ],
+      "tr": "Sağ akciğer üst lob — posterior segment",
+      "en": "Right posterior bronchopulmonary segment",
+      "la": "Segmentum posterius pulmonis dextri (SII)",
+      "side": null,
+      "aliases": [
+        "right posterior bronchopulmonary segment",
+        "Sağ akciğer üst lob posterior segment"
+      ],
+      "ta2Id": 3286,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7339",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7339"
+    },
+    {
+      "ids": [
+        "FMA7359"
+      ],
+      "tr": "Sağ akciğer üst lob — anterior segment",
+      "en": "Right anterior bronchopulmonary segment",
+      "la": "Segmentum anterius pulmonis dextri (SIII)",
+      "side": null,
+      "aliases": [
+        "right anterior bronchopulmonary segment",
+        "Sağ akciğer üst lob anterior segment"
+      ],
+      "ta2Id": 3287,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7359",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin. Kaynak grubundaki iki küçük damar yüzeyi akciğerin altında kalıyor; anatomik eşleşmeleri henüz doğrulanmadı.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7359"
+    },
+    {
+      "ids": [
+        "FMA7361"
+      ],
+      "tr": "Sağ akciğer orta lob — lateral segment",
+      "en": "Lateral bronchopulmonary segment",
+      "la": "Segmentum laterale pulmonis dextri (SIV)",
+      "side": null,
+      "aliases": [
+        "lateral bronchopulmonary segment",
+        "Sağ akciğer orta lob lateral segment"
+      ],
+      "ta2Id": 3290,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7361",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7361"
+    },
+    {
+      "ids": [
+        "FMA7360"
+      ],
+      "tr": "Sağ akciğer orta lob — medial segment",
+      "en": "Medial bronchopulmonary segment",
+      "la": "Segmentum mediale pulmonis dextri (SV)",
+      "side": null,
+      "aliases": [
+        "medial bronchopulmonary segment",
+        "Sağ akciğer orta lob medial segment"
+      ],
+      "ta2Id": 3291,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7360",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7360"
+    },
+    {
+      "ids": [
+        "FMA7366"
+      ],
+      "tr": "Sağ akciğer alt lob — superior segment",
+      "en": "Right superior bronchopulmonary segment",
+      "la": "Segmentum superius pulmonis dextri (SVI)",
+      "side": null,
+      "aliases": [
+        "right superior bronchopulmonary segment",
+        "Sağ akciğer alt lob superior segment"
+      ],
+      "ta2Id": 3294,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7366",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7366"
+    },
+    {
+      "ids": [
+        "FMA7364"
+      ],
+      "tr": "Sağ akciğer alt lob — anterior bazal segment",
+      "en": "Right anterior basal bronchopulmonary segment",
+      "la": "Segmentum basale anterius pulmonis dextri (SVIII)",
+      "side": null,
+      "aliases": [
+        "right anterior basal bronchopulmonary segment",
+        "Sağ akciğer alt lob anterior bazal segment"
+      ],
+      "ta2Id": 3296,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7364",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7364"
+    },
+    {
+      "ids": [
+        "FMA7363"
+      ],
+      "tr": "Sağ akciğer alt lob — lateral bazal segment",
+      "en": "Right lateral basal bronchopulmonary segment",
+      "la": "Segmentum basale laterale pulmonis dextri (SIX)",
+      "side": null,
+      "aliases": [
+        "right lateral basal bronchopulmonary segment",
+        "Sağ akciğer alt lob lateral bazal segment"
+      ],
+      "ta2Id": 3297,
+      "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7363",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
+      "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7363"
     }
   ]
 }

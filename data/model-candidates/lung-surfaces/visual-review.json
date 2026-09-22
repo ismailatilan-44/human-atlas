@@ -1,0 +1,31 @@
+{
+  "method": "Human-readable model inspection of actual Blender renders using retained source and base binary geometry; no generated anatomy",
+  "expertReview": "pending",
+  "images": [
+    {
+      "path": "base-lung-groups-front.png",
+      "sha256": "db9da73c2e66b2727e47cd4c3efd39b5739ad45ec9ef101cae71e1540f35bfdc",
+      "observation": "Actual base lung groups contain branching tube geometry, no outer envelope visible. Low branch clipped by framing; not a full anatomical inventory image."
+    },
+    {
+      "path": "candidate-lobes-front.png",
+      "sha256": "6947011df8e83388484406882727728f7f04e3afc8a4319471221b1656e0facc",
+      "observation": "Actual source surfaces form bilateral outlines; five source lobe colors, visible segment seams."
+    },
+    {
+      "path": "candidate-lobes-oblique.png",
+      "sha256": "820c61302467ff4bb2ab02f9036b98aa501553feee11c1acbd0fb96c75bea5df",
+      "observation": "Actual base ribs/sternum/trachea context supports gross alignment without fitted/deformed geometry."
+    },
+    {
+      "path": "candidate-lobes-posterior.png",
+      "sha256": "b1bc88e0b731463183137dac5b4982dac4c13c1fc4e9ad4b8eda3e026170d68b",
+      "observation": "Posterior source view preserves segment seams; not a claim of fissure completeness."
+    },
+    {
+      "path": "candidate-source-with-base-trees.png",
+      "sha256": "3b31e9eb59adbbec5258e3e50e20cbb283e2d8dee7b48c01ac4444c190c08f6a",
+      "observation": "Original tree geometry through transparent source surfaces; do not infer complete vessel containment."
+    }
+  ]
+}

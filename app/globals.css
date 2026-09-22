@@ -92,7 +92,7 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 .inspection-tools{display:flex;flex-wrap:wrap;gap:4px}.inspection-tools button{font-size:11px;min-height:36px;padding:6px 8px;border:1px solid #263b4820;border-radius:7px;flex:1}.inspection-tools button[aria-pressed=true]{background:#d9eae6;color:#225d50}
 .restore-hidden{position:absolute;left:30px;bottom:130px;border-radius:8px;font-size:12px;padding:10px}
 .detail-sheet{animation:none!important;transition:none!important}
-@media(max-width:767px){.language-select{width:48px;padding:6px}.top-actions>button[aria-label="Önceki görünüme dön"]{font-size:10px;width:47px}.inspection-tools button{min-height:36px;font-size:10px;padding:5px}.restore-hidden{left:12px;bottom:142px;z-index:10}.detail-sheet,.detail-sheet.is-isolated{max-height:48dvh}.detail-actions{gap:3px}.detail-scroll{min-height:65px}.detail-sheet .secondary-action{min-height:30px}}
+@media(max-width:767px){.language-select{width:56px;padding:6px}.top-actions>button[aria-label="Önceki görünüme dön"]{font-size:10px;width:47px}.inspection-tools button{min-height:36px;font-size:10px;padding:5px}.restore-hidden{left:12px;bottom:142px;z-index:10}.detail-sheet,.detail-sheet.is-isolated{max-height:48dvh}.detail-actions{gap:3px}.detail-scroll{min-height:65px}.detail-sheet .secondary-action{min-height:30px}}
 
 @media(max-height:600px) and (orientation:landscape){body:has(.detail-sheet) .bottom-dock{left:12px;right:324px;width:auto;transform:none;max-width:none;margin:0}}
 
@@ -108,7 +108,7 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 }
 @media(max-width:420px){
  .identity h1{font-size:23px}.identity .eyebrow{display:none}.identity{top:15px}.identity-meta{max-width:155px;font-size:9px}.identity-meta span{display:none}
- .top-actions{top:17px;gap:2px}.top-actions .language-select{width:42px}.top-actions button,.top-actions .icon-button{min-width:34px;width:34px}.top-actions>button[aria-label="Önceki görünüme dön"]{width:39px}
+ .top-actions{top:17px;gap:2px}.top-actions .language-select{width:56px}.top-actions button,.top-actions .icon-button{min-width:34px;width:34px}.top-actions>button[aria-label="Önceki görünüme dön"]{width:39px}
 }
 
 .structure-title,.anatomy-search-results [data-slot=combobox-item]{text-transform:none!important}

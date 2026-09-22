@@ -1,0 +1,1339 @@
+{
+  "schemaVersion": 1,
+  "inputSnapshots": [
+    {
+      "path": "data/model-candidates/lung-surfaces/lung-parenchyma.json",
+      "sha256": "7b2b2e0d5f903b16d7f47e3e4f0123c282e806333724eba51ad453d2349c8d53"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/FMA2Obj.txt",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/bp3d-v43-object-catalog.csv",
+      "sha256": "376cf368d8679a02bd60455b4cc8853f8367cd4043745372e6df1f231d08e27f"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/source-mapping-review.json",
+      "sha256": "0fa7802f80a4500732953b6e4af173080fec9f2845988756a83b1d00457d95a9"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/source-fetch.json",
+      "sha256": "8c025a9ce5d8b424f510e7d37ed342c87f01ee918a127d769cd080e24a936aae"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/lung-parenchyma-source.zip",
+      "sha256": "ac848958f321318aa87cb0f8d2ca7cc590637ce52b3ba063f90a4b7e2c46baa4"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "368eaeeea15eda89165478cb5c67c1115262201a8458f0bcf78aedeb12abdd75"
+    }
+  ],
+  "officialSource": {
+    "id": "bodyparts3d-4.3-live",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "license": "CC-BY-SA-2.1-JP",
+    "attribution": "ATTRIBUTION.md",
+    "archiveSha256": "ac848958f321318aa87cb0f8d2ca7cc590637ce52b3ba063f90a4b7e2c46baa4",
+    "mappingSha256": "fa6e9d5c92ed1e5bb86dcabfc5f5e039fdd9130ce28f05f1c33c71699e8f768a"
+  },
+  "mappingUrl": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+  "entries": [
+    {
+      "id": "FMA27368",
+      "sourceEnglish": "Parenchyma of apicoposterior bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6595",
+          "sourceObjectId": "FJ6595",
+          "sourceName": "Parenchyma of apicoposterior bronchopulmonary segment",
+          "sourceFmaId": "FMA27368",
+          "sourceBpId": "BP29727",
+          "objPath": "lung_parenchyma_source/FJ6595_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6595",
+            "Representation ID": "BP29727",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27368",
+            "English name": "Parenchyma of apicoposterior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        },
+        {
+          "partId": "BP43-FJ6597",
+          "sourceObjectId": "FJ6597",
+          "sourceName": "Parenchyma of apicoposterior bronchopulmonary segment",
+          "sourceFmaId": "FMA27368",
+          "sourceBpId": "BP29727",
+          "objPath": "lung_parenchyma_source/FJ6597_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6597",
+            "Representation ID": "BP29727",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27368",
+            "English name": "Parenchyma of apicoposterior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 955,
+          "id": "FMA27368",
+          "relation": "is_a",
+          "objects": [
+            "FJ6595",
+            "FJ6597"
+          ]
+        },
+        {
+          "line": 4408,
+          "id": "FMA27368",
+          "relation": "part_of",
+          "objects": [
+            "FJ6595",
+            "FJ6597"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5356,
+          "id": "FMA7370",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6595",
+            "FJ6597"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7370",
+        "name": "upper lobe of left lung",
+        "elements": [
+          "BP43-FJ6595",
+          "BP43-FJ6597",
+          "BP43-FJ6598",
+          "BP43-FJ6599",
+          "BP43-FJ6600"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27394",
+      "sourceEnglish": "Parenchyma of left posterior basal bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6596",
+          "sourceObjectId": "FJ6596",
+          "sourceName": "Parenchyma of left posterior basal bronchopulmonary segment",
+          "sourceFmaId": "FMA27394",
+          "sourceBpId": "BP29748",
+          "objPath": "lung_parenchyma_source/FJ6596_BP29748_FMA27394_Parenchyma of left posterior basal bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6596",
+            "Representation ID": "BP29748",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27394",
+            "English name": "Parenchyma of left posterior basal bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 973,
+          "id": "FMA27394",
+          "relation": "is_a",
+          "objects": [
+            "FJ6596"
+          ]
+        },
+        {
+          "line": 4422,
+          "id": "FMA27394",
+          "relation": "part_of",
+          "objects": [
+            "FJ6596"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5359,
+          "id": "FMA7371",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6596"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7371",
+        "name": "lower lobe of left lung",
+        "elements": [
+          "BP43-FJ6596",
+          "BP43-FJ6601",
+          "BP43-FJ6602",
+          "BP43-FJ6603"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27374",
+      "sourceEnglish": "Parenchyma of left anterior bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6598",
+          "sourceObjectId": "FJ6598",
+          "sourceName": "Parenchyma of left anterior bronchopulmonary segment",
+          "sourceFmaId": "FMA27374",
+          "sourceBpId": "BP29733",
+          "objPath": "lung_parenchyma_source/FJ6598_BP29733_FMA27374_Parenchyma of left anterior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6598",
+            "Representation ID": "BP29733",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27374",
+            "English name": "Parenchyma of left anterior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 959,
+          "id": "FMA27374",
+          "relation": "is_a",
+          "objects": [
+            "FJ6598"
+          ]
+        },
+        {
+          "line": 4412,
+          "id": "FMA27374",
+          "relation": "part_of",
+          "objects": [
+            "FJ6598"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5356,
+          "id": "FMA7370",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6598"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7370",
+        "name": "upper lobe of left lung",
+        "elements": [
+          "BP43-FJ6595",
+          "BP43-FJ6597",
+          "BP43-FJ6598",
+          "BP43-FJ6599",
+          "BP43-FJ6600"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27375",
+      "sourceEnglish": "Parenchyma of superior lingular bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6599",
+          "sourceObjectId": "FJ6599",
+          "sourceName": "Parenchyma of superior lingular bronchopulmonary segment",
+          "sourceFmaId": "FMA27375",
+          "sourceBpId": "BP29752",
+          "objPath": "lung_parenchyma_source/FJ6599_BP29752_FMA27375_Parenchyma of superior lingular bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6599",
+            "Representation ID": "BP29752",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27375",
+            "English name": "Parenchyma of superior lingular bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 960,
+          "id": "FMA27375",
+          "relation": "is_a",
+          "objects": [
+            "FJ6599"
+          ]
+        },
+        {
+          "line": 4413,
+          "id": "FMA27375",
+          "relation": "part_of",
+          "objects": [
+            "FJ6599"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5356,
+          "id": "FMA7370",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6599"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7370",
+        "name": "upper lobe of left lung",
+        "elements": [
+          "BP43-FJ6595",
+          "BP43-FJ6597",
+          "BP43-FJ6598",
+          "BP43-FJ6599",
+          "BP43-FJ6600"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27376",
+      "sourceEnglish": "Parenchyma of inferior lingular bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6600",
+          "sourceObjectId": "FJ6600",
+          "sourceName": "Parenchyma of inferior lingular bronchopulmonary segment",
+          "sourceFmaId": "FMA27376",
+          "sourceBpId": "BP29730",
+          "objPath": "lung_parenchyma_source/FJ6600_BP29730_FMA27376_Parenchyma of inferior lingular bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6600",
+            "Representation ID": "BP29730",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27376",
+            "English name": "Parenchyma of inferior lingular bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 961,
+          "id": "FMA27376",
+          "relation": "is_a",
+          "objects": [
+            "FJ6600"
+          ]
+        },
+        {
+          "line": 4414,
+          "id": "FMA27376",
+          "relation": "part_of",
+          "objects": [
+            "FJ6600"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5356,
+          "id": "FMA7370",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6600"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7370",
+        "name": "upper lobe of left lung",
+        "elements": [
+          "BP43-FJ6595",
+          "BP43-FJ6597",
+          "BP43-FJ6598",
+          "BP43-FJ6599",
+          "BP43-FJ6600"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27386",
+      "sourceEnglish": "Parenchyma of left superior bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6601",
+          "sourceObjectId": "FJ6601",
+          "sourceName": "Parenchyma of left superior bronchopulmonary segment",
+          "sourceFmaId": "FMA27386",
+          "sourceBpId": "BP29750",
+          "objPath": "lung_parenchyma_source/FJ6601_BP29750_FMA27386_Parenchyma of left superior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6601",
+            "Representation ID": "BP29750",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27386",
+            "English name": "Parenchyma of left superior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 967,
+          "id": "FMA27386",
+          "relation": "is_a",
+          "objects": [
+            "FJ6601"
+          ]
+        },
+        {
+          "line": 4416,
+          "id": "FMA27386",
+          "relation": "part_of",
+          "objects": [
+            "FJ6601"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5359,
+          "id": "FMA7371",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6601"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7371",
+        "name": "lower lobe of left lung",
+        "elements": [
+          "BP43-FJ6596",
+          "BP43-FJ6601",
+          "BP43-FJ6602",
+          "BP43-FJ6603"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27392",
+      "sourceEnglish": "Parenchyma of left anterior basal bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6602",
+          "sourceObjectId": "FJ6602",
+          "sourceName": "Parenchyma of left anterior basal bronchopulmonary segment",
+          "sourceFmaId": "FMA27392",
+          "sourceBpId": "BP29736",
+          "objPath": "lung_parenchyma_source/FJ6602_BP29736_FMA27392_Parenchyma of left anterior basal bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6602",
+            "Representation ID": "BP29736",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27392",
+            "English name": "Parenchyma of left anterior basal bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 971,
+          "id": "FMA27392",
+          "relation": "is_a",
+          "objects": [
+            "FJ6602"
+          ]
+        },
+        {
+          "line": 4420,
+          "id": "FMA27392",
+          "relation": "part_of",
+          "objects": [
+            "FJ6602"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5359,
+          "id": "FMA7371",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6602"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7371",
+        "name": "lower lobe of left lung",
+        "elements": [
+          "BP43-FJ6596",
+          "BP43-FJ6601",
+          "BP43-FJ6602",
+          "BP43-FJ6603"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27390",
+      "sourceEnglish": "Parenchyma of left lateral basal bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6603",
+          "sourceObjectId": "FJ6603",
+          "sourceName": "Parenchyma of left lateral basal bronchopulmonary segment",
+          "sourceFmaId": "FMA27390",
+          "sourceBpId": "BP29740",
+          "objPath": "lung_parenchyma_source/FJ6603_BP29740_FMA27390_Parenchyma of left lateral basal bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6603",
+            "Representation ID": "BP29740",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27390",
+            "English name": "Parenchyma of left lateral basal bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 969,
+          "id": "FMA27390",
+          "relation": "is_a",
+          "objects": [
+            "FJ6603"
+          ]
+        },
+        {
+          "line": 4418,
+          "id": "FMA27390",
+          "relation": "part_of",
+          "objects": [
+            "FJ6603"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5359,
+          "id": "FMA7371",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6603"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7371",
+        "name": "lower lobe of left lung",
+        "elements": [
+          "BP43-FJ6596",
+          "BP43-FJ6601",
+          "BP43-FJ6602",
+          "BP43-FJ6603"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27369",
+      "sourceEnglish": "Parenchyma of right apical bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6604",
+          "sourceObjectId": "FJ6604",
+          "sourceName": "Parenchyma of right apical bronchopulmonary segment",
+          "sourceFmaId": "FMA27369",
+          "sourceBpId": "BP29747",
+          "objPath": "lung_parenchyma_source/FJ6604_BP29747_FMA27369_Parenchyma of right apical bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6604",
+            "Representation ID": "BP29747",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27369",
+            "English name": "Parenchyma of right apical bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 956,
+          "id": "FMA27369",
+          "relation": "is_a",
+          "objects": [
+            "FJ6604"
+          ]
+        },
+        {
+          "line": 4409,
+          "id": "FMA27369",
+          "relation": "part_of",
+          "objects": [
+            "FJ6604"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5338,
+          "id": "FMA7333",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6604"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7333",
+        "name": "upper lobe of right lung",
+        "elements": [
+          "BP43-FJ6604",
+          "BP43-FJ6606",
+          "BP43-FJ6607"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27393",
+      "sourceEnglish": "Parenchyma of right posterior basal bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6605",
+          "sourceObjectId": "FJ6605",
+          "sourceName": "Parenchyma of right posterior basal bronchopulmonary segment",
+          "sourceFmaId": "FMA27393",
+          "sourceBpId": "BP29757",
+          "objPath": "lung_parenchyma_source/FJ6605_BP29757_FMA27393_Parenchyma of right posterior basal bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6605",
+            "Representation ID": "BP29757",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27393",
+            "English name": "Parenchyma of right posterior basal bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 972,
+          "id": "FMA27393",
+          "relation": "is_a",
+          "objects": [
+            "FJ6605"
+          ]
+        },
+        {
+          "line": 4421,
+          "id": "FMA27393",
+          "relation": "part_of",
+          "objects": [
+            "FJ6605"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5339,
+          "id": "FMA7337",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6605"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7337",
+        "name": "lower lobe of right lung",
+        "elements": [
+          "BP43-FJ6605",
+          "BP43-FJ6610",
+          "BP43-FJ6611",
+          "BP43-FJ6612"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27371",
+      "sourceEnglish": "Parenchyma of right posterior bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6606",
+          "sourceObjectId": "FJ6606",
+          "sourceName": "Parenchyma of right posterior bronchopulmonary segment",
+          "sourceFmaId": "FMA27371",
+          "sourceBpId": "BP29759",
+          "objPath": "lung_parenchyma_source/FJ6606_BP29759_FMA27371_Parenchyma of right posterior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6606",
+            "Representation ID": "BP29759",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27371",
+            "English name": "Parenchyma of right posterior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 957,
+          "id": "FMA27371",
+          "relation": "is_a",
+          "objects": [
+            "FJ6606"
+          ]
+        },
+        {
+          "line": 4410,
+          "id": "FMA27371",
+          "relation": "part_of",
+          "objects": [
+            "FJ6606"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5338,
+          "id": "FMA7333",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6606"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7333",
+        "name": "upper lobe of right lung",
+        "elements": [
+          "BP43-FJ6604",
+          "BP43-FJ6606",
+          "BP43-FJ6607"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27373",
+      "sourceEnglish": "Parenchyma of right anterior bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6607",
+          "sourceObjectId": "FJ6607",
+          "sourceName": "Parenchyma of right anterior bronchopulmonary segment",
+          "sourceFmaId": "FMA27373",
+          "sourceBpId": "BP29754",
+          "objPath": "lung_parenchyma_source/FJ6607_BP29754_FMA27373_Parenchyma of right anterior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6607",
+            "Representation ID": "BP29754",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27373",
+            "English name": "Parenchyma of right anterior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 958,
+          "id": "FMA27373",
+          "relation": "is_a",
+          "objects": [
+            "FJ6607"
+          ]
+        },
+        {
+          "line": 4411,
+          "id": "FMA27373",
+          "relation": "part_of",
+          "objects": [
+            "FJ6607"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5338,
+          "id": "FMA7333",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6607"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7333",
+        "name": "upper lobe of right lung",
+        "elements": [
+          "BP43-FJ6604",
+          "BP43-FJ6606",
+          "BP43-FJ6607"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27452",
+      "sourceEnglish": "Parenchyma of lateral bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6608",
+          "sourceObjectId": "FJ6608",
+          "sourceName": "Parenchyma of lateral bronchopulmonary segment",
+          "sourceFmaId": "FMA27452",
+          "sourceBpId": "BP29731",
+          "objPath": "lung_parenchyma_source/FJ6608_BP29731_FMA27452_Parenchyma of lateral bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6608",
+            "Representation ID": "BP29731",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27452",
+            "English name": "Parenchyma of lateral bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 975,
+          "id": "FMA27452",
+          "relation": "is_a",
+          "objects": [
+            "FJ6608"
+          ]
+        },
+        {
+          "line": 4424,
+          "id": "FMA27452",
+          "relation": "part_of",
+          "objects": [
+            "FJ6608"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5369,
+          "id": "FMA7383",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6608"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7383",
+        "name": "middle lobe of lung",
+        "elements": [
+          "BP43-FJ6608",
+          "BP43-FJ6609"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27448",
+      "sourceEnglish": "Parenchyma of medial bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6609",
+          "sourceObjectId": "FJ6609",
+          "sourceName": "Parenchyma of medial bronchopulmonary segment",
+          "sourceFmaId": "FMA27448",
+          "sourceBpId": "BP29735",
+          "objPath": "lung_parenchyma_source/FJ6609_BP29735_FMA27448_Parenchyma of medial bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6609",
+            "Representation ID": "BP29735",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27448",
+            "English name": "Parenchyma of medial bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 974,
+          "id": "FMA27448",
+          "relation": "is_a",
+          "objects": [
+            "FJ6609"
+          ]
+        },
+        {
+          "line": 4423,
+          "id": "FMA27448",
+          "relation": "part_of",
+          "objects": [
+            "FJ6609"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5369,
+          "id": "FMA7383",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6609"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7383",
+        "name": "middle lobe of lung",
+        "elements": [
+          "BP43-FJ6608",
+          "BP43-FJ6609"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27385",
+      "sourceEnglish": "Parenchyma of right superior bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6610",
+          "sourceObjectId": "FJ6610",
+          "sourceName": "Parenchyma of right superior bronchopulmonary segment",
+          "sourceFmaId": "FMA27385",
+          "sourceBpId": "BP29745",
+          "objPath": "lung_parenchyma_source/FJ6610_BP29745_FMA27385_Parenchyma of right superior bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6610",
+            "Representation ID": "BP29745",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27385",
+            "English name": "Parenchyma of right superior bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 966,
+          "id": "FMA27385",
+          "relation": "is_a",
+          "objects": [
+            "FJ6610"
+          ]
+        },
+        {
+          "line": 4415,
+          "id": "FMA27385",
+          "relation": "part_of",
+          "objects": [
+            "FJ6610"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5339,
+          "id": "FMA7337",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6610"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7337",
+        "name": "lower lobe of right lung",
+        "elements": [
+          "BP43-FJ6605",
+          "BP43-FJ6610",
+          "BP43-FJ6611",
+          "BP43-FJ6612"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27391",
+      "sourceEnglish": "Parenchyma of right anterior basal bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6611",
+          "sourceObjectId": "FJ6611",
+          "sourceName": "Parenchyma of right anterior basal bronchopulmonary segment",
+          "sourceFmaId": "FMA27391",
+          "sourceBpId": "BP29753",
+          "objPath": "lung_parenchyma_source/FJ6611_BP29753_FMA27391_Parenchyma of right anterior basal bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6611",
+            "Representation ID": "BP29753",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27391",
+            "English name": "Parenchyma of right anterior basal bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 970,
+          "id": "FMA27391",
+          "relation": "is_a",
+          "objects": [
+            "FJ6611"
+          ]
+        },
+        {
+          "line": 4419,
+          "id": "FMA27391",
+          "relation": "part_of",
+          "objects": [
+            "FJ6611"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5339,
+          "id": "FMA7337",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6611"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7337",
+        "name": "lower lobe of right lung",
+        "elements": [
+          "BP43-FJ6605",
+          "BP43-FJ6610",
+          "BP43-FJ6611",
+          "BP43-FJ6612"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    },
+    {
+      "id": "FMA27389",
+      "sourceEnglish": "Parenchyma of right lateral basal bronchopulmonary segment",
+      "sourceParts": [
+        {
+          "partId": "BP43-FJ6612",
+          "sourceObjectId": "FJ6612",
+          "sourceName": "Parenchyma of right lateral basal bronchopulmonary segment",
+          "sourceFmaId": "FMA27389",
+          "sourceBpId": "BP29741",
+          "objPath": "lung_parenchyma_source/FJ6612_BP29741_FMA27389_Parenchyma of right lateral basal bronchopulmonary segment.obj",
+          "objHeader": {
+            "Compatibility version": "4.3",
+            "File ID": "FJ6612",
+            "Representation ID": "BP29741",
+            "Build-up logic": "FMA 3.0 part_of",
+            "Concept ID": "FMA27389",
+            "English name": "Parenchyma of right lateral basal bronchopulmonary segment"
+          },
+          "legacyCatalogAncestorFmaId": "FMA14065"
+        }
+      ],
+      "conceptMappingRows": [
+        {
+          "line": 968,
+          "id": "FMA27389",
+          "relation": "is_a",
+          "objects": [
+            "FJ6612"
+          ]
+        },
+        {
+          "line": 4417,
+          "id": "FMA27389",
+          "relation": "part_of",
+          "objects": [
+            "FJ6612"
+          ]
+        }
+      ],
+      "lobeMappingRows": [
+        {
+          "line": 5339,
+          "id": "FMA7337",
+          "relation": "part_of",
+          "matchedObjects": [
+            "FJ6612"
+          ]
+        }
+      ],
+      "candidateLobeConcept": {
+        "id": "FMA7337",
+        "name": "lower lobe of right lung",
+        "elements": [
+          "BP43-FJ6605",
+          "BP43-FJ6610",
+          "BP43-FJ6611",
+          "BP43-FJ6612"
+        ],
+        "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+      }
+    }
+  ],
+  "latinReview": {
+    "path": "work/open-assets-review/TA2.csv",
+    "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "result": "Nearby official-nomenclature segment terms were reviewed but none supplies the full parenchyma label. None copied into la.",
+    "relatedRowsNotUsedAsParenchymaTranslation": [
+      {
+        "line": 3372,
+        "upstreamTableId": 3280,
+        "english": "Bronchopulmonary segment",
+        "latin": "Segmentum bronchopulmonale"
+      },
+      {
+        "line": 3373,
+        "upstreamTableId": 3281,
+        "english": "Lobule of lung",
+        "latin": "Lobulus pulmonis"
+      },
+      {
+        "line": 3374,
+        "upstreamTableId": 3282,
+        "english": "Bronchiole",
+        "latin": "Bronchiolus"
+      },
+      {
+        "line": 3375,
+        "upstreamTableId": 3283,
+        "english": "Right lung",
+        "latin": "Pulmo dexter"
+      },
+      {
+        "line": 3376,
+        "upstreamTableId": 3284,
+        "english": "Superior lobe of right lung",
+        "latin": "Lobus superior pulmonis dextri"
+      },
+      {
+        "line": 3377,
+        "upstreamTableId": 3285,
+        "english": "Apical segment of right lung (SI)",
+        "latin": "Segmentum apicale pulmonis dextri (SI)"
+      },
+      {
+        "line": 3378,
+        "upstreamTableId": 3286,
+        "english": "Posterior segment of right lung (SII)",
+        "latin": "Segmentum posterius pulmonis dextri (SII)"
+      },
+      {
+        "line": 3379,
+        "upstreamTableId": 3287,
+        "english": "Anterior segment of right lung (SIII)",
+        "latin": "Segmentum anterius pulmonis dextri (SIII)"
+      },
+      {
+        "line": 3380,
+        "upstreamTableId": 3288,
+        "english": "Horizontal fissure of right lung",
+        "latin": "Fissura horizontalis pulmonis dextri"
+      },
+      {
+        "line": 3381,
+        "upstreamTableId": 3289,
+        "english": "Middle lobe of right lung",
+        "latin": "Lobus medius pulmonis dextri"
+      },
+      {
+        "line": 3382,
+        "upstreamTableId": 3290,
+        "english": "Lateral segment of right lung (SIV)",
+        "latin": "Segmentum laterale pulmonis dextri (SIV)"
+      },
+      {
+        "line": 3383,
+        "upstreamTableId": 3291,
+        "english": "Medial segment of right lung (SV)",
+        "latin": "Segmentum mediale pulmonis dextri (SV)"
+      },
+      {
+        "line": 3384,
+        "upstreamTableId": 3292,
+        "english": "Oblique fissure of right lung",
+        "latin": "Fissura obliqua pulmonis dextri"
+      },
+      {
+        "line": 3385,
+        "upstreamTableId": 3293,
+        "english": "Inferior lobe of right lung",
+        "latin": "Lobus inferior pulmonis dextri"
+      },
+      {
+        "line": 3386,
+        "upstreamTableId": 3294,
+        "english": "Superior segment of right lung (SVI)",
+        "latin": "Segmentum superius pulmonis dextri (SVI)"
+      },
+      {
+        "line": 3387,
+        "upstreamTableId": 3295,
+        "english": "Medial basal segment of right lung (SVII)",
+        "latin": "Segmentum basale mediale pulmonis dextri (SVII)"
+      },
+      {
+        "line": 3388,
+        "upstreamTableId": 3296,
+        "english": "Anterior basal segment of right lung (SVIII)",
+        "latin": "Segmentum basale anterius pulmonis dextri (SVIII)"
+      },
+      {
+        "line": 3389,
+        "upstreamTableId": 3297,
+        "english": "Lateral basal segment of right lung (SIX)",
+        "latin": "Segmentum basale laterale pulmonis dextri (SIX)"
+      },
+      {
+        "line": 3390,
+        "upstreamTableId": 3298,
+        "english": "Posterior basal segment of right lung (SX)",
+        "latin": "Segmentum basale posterius pulmonis dextri (SX)"
+      },
+      {
+        "line": 3391,
+        "upstreamTableId": 3299,
+        "english": "Left lung",
+        "latin": "Pulmo sinister"
+      },
+      {
+        "line": 3392,
+        "upstreamTableId": 3300,
+        "english": "Superior lobe of left lung",
+        "latin": "Lobus superior pulmonis sinistri"
+      },
+      {
+        "line": 3393,
+        "upstreamTableId": 3301,
+        "english": "Apicoposterior segment of left lung (SI+SII)",
+        "latin": "Segmentum apicoposterius pulmonis sinistri (SI+SII)"
+      },
+      {
+        "line": 3394,
+        "upstreamTableId": 3302,
+        "english": "Anterior segment of left lung (SIII)",
+        "latin": "Segmentum anterius pulmonis sinistri (SIII)"
+      },
+      {
+        "line": 3395,
+        "upstreamTableId": 3303,
+        "english": "Cardiac notch of left lung",
+        "latin": "Incisura cardiaca pulmonis sinistri"
+      },
+      {
+        "line": 3396,
+        "upstreamTableId": 3304,
+        "english": "Lingula of left lung",
+        "latin": "Lingula pulmonis sinistri"
+      },
+      {
+        "line": 3397,
+        "upstreamTableId": 3305,
+        "english": "Superior lingular segment of left lung (SIV)",
+        "latin": "Segmentum lingulare superius pulmonis sinistri (SIV)"
+      },
+      {
+        "line": 3398,
+        "upstreamTableId": 3306,
+        "english": "Inferior lingular segment of left lung (SV)",
+        "latin": "Segmentum lingulare inferius pulmonis sinistri (SV)"
+      },
+      {
+        "line": 3399,
+        "upstreamTableId": 3307,
+        "english": "Oblique fissure of left lung",
+        "latin": "Fissura obliqua pulmonis sinistri"
+      },
+      {
+        "line": 3400,
+        "upstreamTableId": 3308,
+        "english": "Inferior lobe of left lung",
+        "latin": "Lobus inferior pulmonis sinistri"
+      },
+      {
+        "line": 3401,
+        "upstreamTableId": 3309,
+        "english": "Superior segment of left lung (SVI)",
+        "latin": "Segmentum superius pulmonis sinistri (SVI)"
+      },
+      {
+        "line": 3402,
+        "upstreamTableId": 3310,
+        "english": "Medial basal segment of left lung (SVII)",
+        "latin": "Segmentum basale mediale pulmonis sinistri (SVII)"
+      },
+      {
+        "line": 3403,
+        "upstreamTableId": 3311,
+        "english": "(Anteromedial basal segment of left lung)",
+        "latin": "(Segmentum basale anteromediale pulmonis sinistri)"
+      },
+      {
+        "line": 3404,
+        "upstreamTableId": 3312,
+        "english": "Anterior basal segment of left lung (SVIII)",
+        "latin": "Segmentum basale anterius pulmonis sinistri (SVIII)"
+      },
+      {
+        "line": 3405,
+        "upstreamTableId": 3313,
+        "english": "Lateral basal segment of left lung (SIX)",
+        "latin": "Segmentum basale laterale pulmonis sinistri (SIX)"
+      },
+      {
+        "line": 3406,
+        "upstreamTableId": 3314,
+        "english": "Posterior basal segment of left lung (SX)",
+        "latin": "Segmentum basale posterius pulmonis sinistri (SX)"
+      }
+    ]
+  },
+  "cautions": [
+    "Canonical FMA IDs are from OBJ Concept ID headers corroborated by FMA2Obj; legacy catalog fma_id FMA14065 is an ancestor, not the leaf identity.",
+    "Lobe membership uses the reviewed official4.3 part_of groups, not conflicting narrower parenchyma aggregates.",
+    "No missing segment, surface, S-number or Latin phrase inferred.",
+    "Editorial Turkish labels require expert review; label evidence does not establish geometric completeness."
+  ]
+}

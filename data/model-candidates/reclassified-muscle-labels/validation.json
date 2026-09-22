@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "uniqueFmaConcepts": 26,
+  "uniqueParts": 26,
+  "pairedMuscleNames": 13,
+  "left": 13,
+  "right": 13,
+  "exactSourceMappingRows": 26,
+  "exactEnglishTaMatches": 26,
+  "latinPresent": 26,
+  "latinNull": 0,
+  "existingLabelMatches": 0,
+  "sharedFilesWritten": false
+}

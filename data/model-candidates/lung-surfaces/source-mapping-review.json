@@ -1,0 +1,861 @@
+{
+  "groups": [
+    {
+      "id": "FMA7333",
+      "name": "upper lobe of right lung",
+      "elements": [
+        "BP43-FJ6604",
+        "BP43-FJ6606",
+        "BP43-FJ6607"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7383",
+      "name": "middle lobe of lung",
+      "elements": [
+        "BP43-FJ6608",
+        "BP43-FJ6609"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7337",
+      "name": "lower lobe of right lung",
+      "elements": [
+        "BP43-FJ6605",
+        "BP43-FJ6610",
+        "BP43-FJ6611",
+        "BP43-FJ6612"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7370",
+      "name": "upper lobe of left lung",
+      "elements": [
+        "BP43-FJ6595",
+        "BP43-FJ6597",
+        "BP43-FJ6598",
+        "BP43-FJ6599",
+        "BP43-FJ6600"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7371",
+      "name": "lower lobe of left lung",
+      "elements": [
+        "BP43-FJ6596",
+        "BP43-FJ6601",
+        "BP43-FJ6602",
+        "BP43-FJ6603"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7309",
+      "name": "right lung",
+      "elements": [
+        "BP43-FJ6604",
+        "BP43-FJ6605",
+        "BP43-FJ6606",
+        "BP43-FJ6607",
+        "BP43-FJ6608",
+        "BP43-FJ6609",
+        "BP43-FJ6610",
+        "BP43-FJ6611",
+        "BP43-FJ6612"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7310",
+      "name": "left lung",
+      "elements": [
+        "BP43-FJ6595",
+        "BP43-FJ6596",
+        "BP43-FJ6597",
+        "BP43-FJ6598",
+        "BP43-FJ6599",
+        "BP43-FJ6600",
+        "BP43-FJ6601",
+        "BP43-FJ6602",
+        "BP43-FJ6603"
+      ],
+      "sourceMembership": "Official 4.3 part_of mapping restricted to these 18 parenchyma surface records"
+    },
+    {
+      "id": "FMA7372",
+      "name": "apicoposterior bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6595",
+        "BP43-FJ6597"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7380",
+      "name": "left posterior basal bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6596"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7373",
+      "name": "left anterior bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6598"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7374",
+      "name": "superior lingular bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6599"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7375",
+      "name": "inferior lingular bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6600"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7376",
+      "name": "left superior bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6601"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7378",
+      "name": "left anterior basal bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6602"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7379",
+      "name": "left lateral basal bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6603"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7338",
+      "name": "right apical bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6604"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7362",
+      "name": "right posterior basal bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6605"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7339",
+      "name": "right posterior bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6606"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7359",
+      "name": "right anterior bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6607"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7361",
+      "name": "lateral bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6608"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7360",
+      "name": "medial bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6609"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7366",
+      "name": "right superior bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6610"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7364",
+      "name": "right anterior basal bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6611"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    },
+    {
+      "id": "FMA7363",
+      "name": "right lateral basal bronchopulmonary segment",
+      "elements": [
+        "BP43-FJ6612"
+      ],
+      "sourceMembership": "Official 4.3/FMA3.0 part_of row restricted to these 18 parenchyma surfaces; corroborated direct source segment parent"
+    }
+  ],
+  "sourceAggregateDiscrepancies": [
+    {
+      "comparison": "left lung parenchyma vs left lung",
+      "narrowParenchymaConceptId": "FMA27364",
+      "lungOrLobeConceptId": "FMA7310",
+      "narrowSourceIds": [
+        "FJ6595",
+        "FJ6596",
+        "FJ6597",
+        "FJ6599",
+        "FJ6600",
+        "FJ6601",
+        "FJ6602",
+        "FJ6603"
+      ],
+      "lungOrLobeSourceIds": [
+        "FJ6595",
+        "FJ6596",
+        "FJ6597",
+        "FJ6598",
+        "FJ6599",
+        "FJ6600",
+        "FJ6601",
+        "FJ6602",
+        "FJ6603"
+      ],
+      "onlyInLungOrLobe": [
+        "FJ6598"
+      ],
+      "onlyInNarrow": [],
+      "resolution": "Neither mapping is rewritten. Candidate uses named lung/lobe part_of groups, not the narrower conflicting parenchyma aggregate."
+    },
+    {
+      "comparison": "left upper-lobe parenchyma vs left upper lobe",
+      "narrowParenchymaConceptId": "FMA31242",
+      "lungOrLobeConceptId": "FMA7370",
+      "narrowSourceIds": [
+        "FJ6595",
+        "FJ6597",
+        "FJ6599",
+        "FJ6600"
+      ],
+      "lungOrLobeSourceIds": [
+        "FJ6595",
+        "FJ6597",
+        "FJ6598",
+        "FJ6599",
+        "FJ6600"
+      ],
+      "onlyInLungOrLobe": [
+        "FJ6598"
+      ],
+      "onlyInNarrow": [],
+      "resolution": "Neither mapping is rewritten. Candidate uses named lung/lobe part_of groups, not the narrower conflicting parenchyma aggregate."
+    },
+    {
+      "comparison": "right lung parenchyma vs right lung",
+      "narrowParenchymaConceptId": "FMA27363",
+      "lungOrLobeConceptId": "FMA7309",
+      "narrowSourceIds": [
+        "FJ6604",
+        "FJ6605",
+        "FJ6606",
+        "FJ6607",
+        "FJ6610",
+        "FJ6611",
+        "FJ6612"
+      ],
+      "lungOrLobeSourceIds": [
+        "FJ6604",
+        "FJ6605",
+        "FJ6606",
+        "FJ6607",
+        "FJ6608",
+        "FJ6609",
+        "FJ6610",
+        "FJ6611",
+        "FJ6612"
+      ],
+      "onlyInLungOrLobe": [
+        "FJ6608",
+        "FJ6609"
+      ],
+      "onlyInNarrow": [],
+      "resolution": "Neither mapping is rewritten. Candidate uses named lung/lobe part_of groups, not the narrower conflicting parenchyma aggregate."
+    }
+  ],
+  "directParentMemberships": [
+    {
+      "parentConceptId": "FMA7372",
+      "parenchymaConceptId": "FMA27368",
+      "sourceIds": [
+        "FJ6595",
+        "FJ6597"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27368.json#/images/0/partof_path2root/0/fma/0..1; FMA27368 constitutional_part_of FMA7372; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27368",
+          "snapshotSha256": "0baf5848fa34686c9e4cd4c8ba3b79dffe90315b0dce21420349114fc3d6c582"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27368",
+          "FMA7372",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7380",
+      "parenchymaConceptId": "FMA27394",
+      "sourceIds": [
+        "FJ6596"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27394.json#/images/0/partof_path2root/0/fma/0..1; FMA27394 constitutional_part_of FMA7380; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27394",
+          "snapshotSha256": "64c7ba205aac6430c794bb4deddd54a8033c6c7df847ea4020f5d022d35261b1"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27394",
+          "FMA7380",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7373",
+      "parenchymaConceptId": "FMA27374",
+      "sourceIds": [
+        "FJ6598"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27374.json#/images/0/partof_path2root/0/fma/0..1; FMA27374 constitutional_part_of FMA7373; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27374",
+          "snapshotSha256": "34ce9d49e3a870806e0074a1c296b8cbd9b1b3b720eb5f71c1db7f2a19621272"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27374",
+          "FMA7373",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7374",
+      "parenchymaConceptId": "FMA27375",
+      "sourceIds": [
+        "FJ6599"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27375.json#/images/0/partof_path2root/0/fma/0..1; FMA27375 constitutional_part_of FMA7374; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27375",
+          "snapshotSha256": "2d689cc004dede8904523a7338d9ca30876bcc524d73bd9bdece80f4f050958a"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27375",
+          "FMA7374",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7375",
+      "parenchymaConceptId": "FMA27376",
+      "sourceIds": [
+        "FJ6600"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27376.json#/images/0/partof_path2root/0/fma/0..1; FMA27376 constitutional_part_of FMA7375; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27376",
+          "snapshotSha256": "234e1a10fa5ba27a386d829fc93a6990865edfa3c6c3bc1f3f174eaaba7c0b85"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27376",
+          "FMA7375",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7376",
+      "parenchymaConceptId": "FMA27386",
+      "sourceIds": [
+        "FJ6601"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27386.json#/images/0/partof_path2root/0/fma/0..1; FMA27386 constitutional_part_of FMA7376; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27386",
+          "snapshotSha256": "21ba33eefd070e739af9ad267d394b91faf9180f9ce52a534c506f0411fe5bf8"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27386",
+          "FMA7376",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7378",
+      "parenchymaConceptId": "FMA27392",
+      "sourceIds": [
+        "FJ6602"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27392.json#/images/0/partof_path2root/0/fma/0..1; FMA27392 constitutional_part_of FMA7378; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27392",
+          "snapshotSha256": "e40ab6c63a6f8dfdc24eef4f0a3527362083289d55567da35328e152cc8926a3"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27392",
+          "FMA7378",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7379",
+      "parenchymaConceptId": "FMA27390",
+      "sourceIds": [
+        "FJ6603"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27390.json#/images/0/partof_path2root/0/fma/0..1; FMA27390 constitutional_part_of FMA7379; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27390",
+          "snapshotSha256": "698512a6992eb3e26c291e59ddb86d4ce5d5271fba1e440f0c0686ee86f35f5e"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27390",
+          "FMA7379",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7338",
+      "parenchymaConceptId": "FMA27369",
+      "sourceIds": [
+        "FJ6604"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27369.json#/images/0/partof_path2root/0/fma/0..1; FMA27369 constitutional_part_of FMA7338; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27369",
+          "snapshotSha256": "d200dd781500e04b70cdd6d607f6260320f39a7fcd686207aab293c8a6ec884e"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27369",
+          "FMA7338",
+          "FMA7333",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7333",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7362",
+      "parenchymaConceptId": "FMA27393",
+      "sourceIds": [
+        "FJ6605"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27393.json#/images/0/partof_path2root/0/fma/0..1; FMA27393 constitutional_part_of FMA7362; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27393",
+          "snapshotSha256": "f15e2176547778a5cb14622f76189ebed2450df962236b8c2b0d29a52587a7a2"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27393",
+          "FMA7362",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7339",
+      "parenchymaConceptId": "FMA27371",
+      "sourceIds": [
+        "FJ6606"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27371.json#/images/0/partof_path2root/0/fma/0..1; FMA27371 constitutional_part_of FMA7339; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27371",
+          "snapshotSha256": "5a8e4db94557555c9564ec0392f3942ca9b518e59eebcdc50779bd26db3c9ba3"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27371",
+          "FMA7339",
+          "FMA7333",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7333",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7359",
+      "parenchymaConceptId": "FMA27373",
+      "sourceIds": [
+        "FJ6607"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27373.json#/images/0/partof_path2root/0/fma/0..1; FMA27373 constitutional_part_of FMA7359; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27373",
+          "snapshotSha256": "92eeec4b6e9e18d783ba64b10c912fdb55a03e98aad8b10e7ca63b06ce7bb8e6"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27373",
+          "FMA7359",
+          "FMA7333",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7333",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7361",
+      "parenchymaConceptId": "FMA27452",
+      "sourceIds": [
+        "FJ6608"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27452.json#/images/0/partof_path2root/0/fma/0..1; FMA27452 constitutional_part_of FMA7361; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27452",
+          "snapshotSha256": "01b73d5e05367a71d06725f1bc10175cdc50938dc59f8a5e4d86e5de53d1e7b6"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27452",
+          "FMA7361",
+          "FMA7383",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7383",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7360",
+      "parenchymaConceptId": "FMA27448",
+      "sourceIds": [
+        "FJ6609"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27448.json#/images/0/partof_path2root/0/fma/0..1; FMA27448 constitutional_part_of FMA7360; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27448",
+          "snapshotSha256": "d3c0f64f23db25d771217f326833a5e3d10fc17a5fe2b8b72abb76f4ac6b6b4a"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27448",
+          "FMA7360",
+          "FMA7383",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7383",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7366",
+      "parenchymaConceptId": "FMA27385",
+      "sourceIds": [
+        "FJ6610"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27385.json#/images/0/partof_path2root/0/fma/0..1; FMA27385 constitutional_part_of FMA7366; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27385",
+          "snapshotSha256": "e72252509eae70ac27bd79056cfa30d94010698331c5a861b4b7054f3a7ccbf0"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27385",
+          "FMA7366",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7364",
+      "parenchymaConceptId": "FMA27391",
+      "sourceIds": [
+        "FJ6611"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27391.json#/images/0/partof_path2root/0/fma/0..1; FMA27391 constitutional_part_of FMA7364; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27391",
+          "snapshotSha256": "34d0349e7e2bfa7c2c33496c56a63d313792c5b4ec376bd3721e3360e9b70f6f"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27391",
+          "FMA7364",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "parentConceptId": "FMA7363",
+      "parenchymaConceptId": "FMA27389",
+      "sourceIds": [
+        "FJ6612"
+      ],
+      "relationEvidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27389.json#/images/0/partof_path2root/0/fma/0..1; FMA27389 constitutional_part_of FMA7363; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27389",
+          "snapshotSha256": "97d5d6f0c3b7d17e0f96730581bb8885d430df957bf4cf969f2711487702439a"
+        }
+      ],
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27389",
+          "FMA7363",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    }
+  ],
+  "leafIdentityBasis": "OBJ header specific Concept ID corroborated by official FMA2Obj membership; legacy catalog fma_id is first encountered ancestor, not canonical leaf identity."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "source_path_checks_passed",
+  "parenchymaConcepts": 17,
+  "candidateRelations": 19,
+  "sourceDirectRelations": 17,
+  "projectSelectionRelations": 2,
+  "existingEdgesSkipped": 0,
+  "newProjectEntities": 2,
+  "displayGroupPartCounts": [
+    9,
+    9
+  ],
+  "existingSegmentParents": 17,
+  "lobesReached": 5,
+  "lungsReached": 2,
+  "leftConcepts": 8,
+  "rightConcepts": 9,
+  "existingHierarchyEdgesReused": 22,
+  "sourceTreePinned": true,
+  "objectSetInclusionUsedAsAnatomicalParentEvidence": false,
+  "canonicalValidator": "passed on in-memory extension registration + candidate merge",
+  "noCanonicalFilesWritten": true
+}

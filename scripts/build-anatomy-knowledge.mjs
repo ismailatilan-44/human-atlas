@@ -72,7 +72,7 @@ export function buildKnowledge() {
     assert.equal(hash(fs.readFileSync(path.join(root, source.path))), source.sha256, `Changed source ${source.id}; re-review and update fingerprint`);
   }
   const atlas = JSON.parse(read('public/models/atlas.json'));
-  const modules = ['upper-arm', 'forearm', 'knee', 'sciatic', 'thyroid', 'spinal-cord', 'brachial-plexus', 'rotator-cuff', 'skull-bones']
+  const modules = ['upper-arm', 'forearm', 'knee', 'sciatic', 'thyroid', 'spinal-cord', 'brachial-plexus', 'rotator-cuff', 'skull-bones', 'lung-parenchyma']
     .map(name => JSON.parse(read(`data/anatomy/${name}.json`)));
   const pilot = modules[0];
   const entities = atlas.concepts.map(c => ({

@@ -1,0 +1,12 @@
+{
+  "seedConcepts": 22,
+  "separateReferenceTargets": 3,
+  "oneStepEndpoints": 46,
+  "runtimeMissingTrOrLa": 46,
+  "newConceptProposals": 23,
+  "withheld": 23,
+  "sourceIdNameMatches": 46,
+  "exactLatinMatches": 23,
+  "requiresRepresentationNote": 9,
+  "sharedFilesWritten": false
+}

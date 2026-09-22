@@ -1,0 +1,293 @@
+{
+  "scope": "Nine existing hepatic organ segment surfaces; primary display layer only. Source numbering II-IX retained; not reinterpreted as a complete clinical segment taxonomy.",
+  "sourceFiles": {
+    "isa_element_parts.txt": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+    "isa_inclusion_relation_list.txt": "26e7d818e03a8c909fe09c561f38d0d513423c87681f9450a803bc38f5b07564"
+  },
+  "entries": [
+    {
+      "partId": "FJ1858",
+      "conceptId": "FMA15747",
+      "sourceName": "Hepatovenous segment IX",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3086
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 585,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15747",
+          "childName": "hepatovenous segment ix"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2409",
+      "conceptId": "FMA15745",
+      "sourceName": "Hepatovenous segment VII",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3083
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 592,
+          "parent": "FMA15756",
+          "parentName": "region of posterior sector of right liver (in-vivo)",
+          "child": "FMA15745",
+          "childName": "hepatovenous segment vii"
+        },
+        {
+          "line": 587,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15756",
+          "childName": "region of posterior sector of right liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2818",
+      "conceptId": "FMA15739",
+      "sourceName": "Hepatovenous segment II",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3078
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 584,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15739",
+          "childName": "hepatovenous segment ii"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2819",
+      "conceptId": "FMA15741",
+      "sourceName": "Hepatovenous segment III",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3079
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 593,
+          "parent": "FMA15757",
+          "parentName": "region of anterior sector of left liver (in-vivo)",
+          "child": "FMA15741",
+          "childName": "hepatovenous segment iii"
+        },
+        {
+          "line": 588,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15757",
+          "childName": "region of anterior sector of left liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2820",
+      "conceptId": "FMA15742",
+      "sourceName": "Hepatovenous segment IV",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3080
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 594,
+          "parent": "FMA15757",
+          "parentName": "region of anterior sector of left liver (in-vivo)",
+          "child": "FMA15742",
+          "childName": "hepatovenous segment iv"
+        },
+        {
+          "line": 588,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15757",
+          "childName": "region of anterior sector of left liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2821",
+      "conceptId": "FMA15743",
+      "sourceName": "Hepatovenous segment V",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3081
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 589,
+          "parent": "FMA15755",
+          "parentName": "region of anterior sector of right liver (in-vivo)",
+          "child": "FMA15743",
+          "childName": "hepatovenous segment v"
+        },
+        {
+          "line": 586,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15755",
+          "childName": "region of anterior sector of right liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2822",
+      "conceptId": "FMA15744",
+      "sourceName": "Hepatovenous segment VI",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3082
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 591,
+          "parent": "FMA15756",
+          "parentName": "region of posterior sector of right liver (in-vivo)",
+          "child": "FMA15744",
+          "childName": "hepatovenous segment vi"
+        },
+        {
+          "line": 587,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15756",
+          "childName": "region of posterior sector of right liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2823",
+      "conceptId": "FMA15746",
+      "sourceName": "Hepatovenous segment VIII",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3084
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 590,
+          "parent": "FMA15755",
+          "parentName": "region of anterior sector of right liver (in-vivo)",
+          "child": "FMA15746",
+          "childName": "hepatovenous segment viii"
+        },
+        {
+          "line": 586,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15755",
+          "childName": "region of anterior sector of right liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2824",
+      "conceptId": "FMA15746",
+      "sourceName": "Hepatovenous segment VIII",
+      "rawSystem": "venous",
+      "displaySystem": "digestive",
+      "leafMappingLines": [
+        3085
+      ],
+      "isAPathToOrganSegment": [
+        {
+          "line": 590,
+          "parent": "FMA15755",
+          "parentName": "region of anterior sector of right liver (in-vivo)",
+          "child": "FMA15746",
+          "childName": "hepatovenous segment viii"
+        },
+        {
+          "line": 586,
+          "parent": "FMA15737",
+          "parentName": "hepatovenous subsector",
+          "child": "FMA15755",
+          "childName": "region of anterior sector of right liver (in-vivo)"
+        },
+        {
+          "line": 2846,
+          "parent": "FMA86140",
+          "parentName": "organ segment",
+          "child": "FMA15737",
+          "childName": "hepatovenous subsector"
+        }
+      ]
+    }
+  ],
+  "expertReview": "pending"
+}

@@ -1,0 +1,1868 @@
+{
+  "status": "candidate_not_integrated",
+  "provenance": {
+    "commit": "87e9280e5274b416eec58d82193c383e0a8f2fa1",
+    "baseManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "prepareAtlasSha256": "b67ba5600ba6d3d33909f3dc6f50b9d6670d92c6584cc5f90aba6d36dcebb30d",
+    "sourceRelationSha256": "26e7d818e03a8c909fe09c561f38d0d513423c87681f9450a803bc38f5b07564",
+    "sourceMappingSha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+    "sourceRelationUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_inclusion_relation_list.txt",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt"
+  },
+  "summary": {
+    "basePartsScanned": 2234,
+    "classRootMatchCounts": {
+      "FMA5018": 203,
+      "FMA5022": 323,
+      "FMA10474": 38,
+      "FMA85453": 42
+    },
+    "uniquePartsWithinCheckedTypeRoots": 606,
+    "alreadyAligned": 574,
+    "alreadyCorrected": 6,
+    "proposedClearCorrections": 14,
+    "manualReview": 12,
+    "outsideCheckedTypeRoots": 1628,
+    "activeAdapterCorrectionsOutsideTypeScope": [
+      {
+        "id": "FJ1730",
+        "conceptId": "FMA78454",
+        "name": "Third ventricle",
+        "rawSystem": "cardiac",
+        "activeSystem": "nervous"
+      },
+      {
+        "id": "FJ1731",
+        "conceptId": "FMA78469",
+        "name": "Fourth ventricle",
+        "rawSystem": "cardiac",
+        "activeSystem": "nervous"
+      },
+      {
+        "id": "FJ1752",
+        "conceptId": "FMA75351",
+        "name": "Interventricular foramen",
+        "rawSystem": "cardiac",
+        "activeSystem": "nervous"
+      },
+      {
+        "id": "FJ1767",
+        "conceptId": "FMA78450",
+        "name": "Left lateral ventricle",
+        "rawSystem": "cardiac",
+        "activeSystem": "nervous"
+      },
+      {
+        "id": "FJ1814",
+        "conceptId": "FMA78449",
+        "name": "Right lateral ventricle",
+        "rawSystem": "cardiac",
+        "activeSystem": "nervous"
+      }
+    ]
+  },
+  "safeDisplayOverrideProposal": {
+    "FJ1409": "muscular",
+    "FJ1409M": "muscular",
+    "FJ1410": "muscular",
+    "FJ1410M": "muscular",
+    "FJ1411": "muscular",
+    "FJ1411M": "muscular",
+    "FJ1438": "muscular",
+    "FJ1438M": "muscular",
+    "FJ1439": "muscular",
+    "FJ1439M": "muscular",
+    "FJ1440": "muscular",
+    "FJ1440M": "muscular",
+    "FJ1532": "muscular",
+    "FJ1532M": "muscular"
+  },
+  "candidates": [
+    {
+      "id": "FJ1409",
+      "conceptId": "FMA22554",
+      "name": "Right fibularis brevis",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22473",
+                "name": "muscle of lateral compartment of leg"
+              },
+              {
+                "id": "FMA22540",
+                "name": "fibularis brevis"
+              },
+              {
+                "id": "FMA22554",
+                "name": "right fibularis brevis"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              773,
+              780,
+              801
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3642,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1409M",
+      "conceptId": "FMA22555",
+      "name": "Left fibularis brevis",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22473",
+                "name": "muscle of lateral compartment of leg"
+              },
+              {
+                "id": "FMA22540",
+                "name": "fibularis brevis"
+              },
+              {
+                "id": "FMA22555",
+                "name": "left fibularis brevis"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              773,
+              780,
+              802
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3643,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1410",
+      "conceptId": "FMA22552",
+      "name": "Right fibularis longus",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22473",
+                "name": "muscle of lateral compartment of leg"
+              },
+              {
+                "id": "FMA22539",
+                "name": "fibularis longus"
+              },
+              {
+                "id": "FMA22552",
+                "name": "right fibularis longus"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              773,
+              779,
+              799
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3640,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1410M",
+      "conceptId": "FMA22553",
+      "name": "Left fibularis longus",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22473",
+                "name": "muscle of lateral compartment of leg"
+              },
+              {
+                "id": "FMA22539",
+                "name": "fibularis longus"
+              },
+              {
+                "id": "FMA22553",
+                "name": "left fibularis longus"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              773,
+              779,
+              800
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3641,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1411",
+      "conceptId": "FMA22550",
+      "name": "Right fibularis tertius",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22472",
+                "name": "muscle of anterior compartment of leg"
+              },
+              {
+                "id": "FMA22538",
+                "name": "fibularis tertius"
+              },
+              {
+                "id": "FMA22550",
+                "name": "right fibularis tertius"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              772,
+              778,
+              797
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3638,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1411M",
+      "conceptId": "FMA22551",
+      "name": "Left fibularis tertius",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22472",
+                "name": "muscle of anterior compartment of leg"
+              },
+              {
+                "id": "FMA22538",
+                "name": "fibularis tertius"
+              },
+              {
+                "id": "FMA22551",
+                "name": "left fibularis tertius"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              772,
+              778,
+              798
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3639,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1438",
+      "conceptId": "FMA22425",
+      "name": "Right tensor fasciae latae",
+      "rawSystem": "connective",
+      "activeSystem": "connective",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37367",
+                "name": "muscle of pelvic girdle"
+              },
+              {
+                "id": "FMA64922",
+                "name": "gluteal muscle"
+              },
+              {
+                "id": "FMA22423",
+                "name": "tensor fasciae latae"
+              },
+              {
+                "id": "FMA22425",
+                "name": "right tensor fasciae latae"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              290,
+              1274,
+              2208,
+              736
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3482,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1438M",
+      "conceptId": "FMA22426",
+      "name": "Left tensor fasciae latae",
+      "rawSystem": "connective",
+      "activeSystem": "connective",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37367",
+                "name": "muscle of pelvic girdle"
+              },
+              {
+                "id": "FMA64922",
+                "name": "gluteal muscle"
+              },
+              {
+                "id": "FMA22423",
+                "name": "tensor fasciae latae"
+              },
+              {
+                "id": "FMA22426",
+                "name": "left tensor fasciae latae"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              290,
+              1274,
+              2208,
+              737
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3483,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1439",
+      "conceptId": "FMA22544",
+      "name": "Right tibialis anterior",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22472",
+                "name": "muscle of anterior compartment of leg"
+              },
+              {
+                "id": "FMA22532",
+                "name": "tibialis anterior"
+              },
+              {
+                "id": "FMA22544",
+                "name": "right tibialis anterior"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              772,
+              775,
+              785
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3632,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1439M",
+      "conceptId": "FMA22545",
+      "name": "Left tibialis anterior",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22472",
+                "name": "muscle of anterior compartment of leg"
+              },
+              {
+                "id": "FMA22532",
+                "name": "tibialis anterior"
+              },
+              {
+                "id": "FMA22545",
+                "name": "left tibialis anterior"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              772,
+              775,
+              786
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 3633,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1440",
+      "conceptId": "FMA65018",
+      "name": "Right tibialis posterior",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22474",
+                "name": "muscle of posterior compartment of leg"
+              },
+              {
+                "id": "FMA65008",
+                "name": "deep muscle of posterior compartment of leg"
+              },
+              {
+                "id": "FMA51099",
+                "name": "tibialis posterior"
+              },
+              {
+                "id": "FMA65018",
+                "name": "right tibialis posterior"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              774,
+              782,
+              2217,
+              1829
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 15734,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1440M",
+      "conceptId": "FMA65019",
+      "name": "Left tibialis posterior",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9622",
+                "name": "muscle of lower limb"
+              },
+              {
+                "id": "FMA37368",
+                "name": "muscle of free lower limb"
+              },
+              {
+                "id": "FMA22471",
+                "name": "muscle of leg"
+              },
+              {
+                "id": "FMA22474",
+                "name": "muscle of posterior compartment of leg"
+              },
+              {
+                "id": "FMA65008",
+                "name": "deep muscle of posterior compartment of leg"
+              },
+              {
+                "id": "FMA51099",
+                "name": "tibialis posterior"
+              },
+              {
+                "id": "FMA65019",
+                "name": "left tibialis posterior"
+              }
+            ],
+            "sourceEdgeLines": [
+              57,
+              291,
+              1276,
+              774,
+              782,
+              2217,
+              1830
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 15735,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1532",
+      "conceptId": "FMA32540",
+      "name": "Right levator scapulae",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9621",
+                "name": "muscle of upper limb"
+              },
+              {
+                "id": "FMA37347",
+                "name": "muscle of pectoral girdle"
+              },
+              {
+                "id": "FMA33531",
+                "name": "muscle of shoulder"
+              },
+              {
+                "id": "FMA32516",
+                "name": "extrinsic muscle of shoulder"
+              },
+              {
+                "id": "FMA32518",
+                "name": "deep extrinsic muscle of shoulder"
+              },
+              {
+                "id": "FMA32519",
+                "name": "levator scapulae"
+              },
+              {
+                "id": "FMA32540",
+                "name": "right levator scapulae"
+              }
+            ],
+            "sourceEdgeLines": [
+              56,
+              288,
+              1266,
+              1231,
+              1133,
+              1137,
+              1138
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 4771,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    },
+    {
+      "id": "FJ1532M",
+      "conceptId": "FMA32541",
+      "name": "Left levator scapulae",
+      "rawSystem": "skeletal",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9621",
+                "name": "muscle of upper limb"
+              },
+              {
+                "id": "FMA37347",
+                "name": "muscle of pectoral girdle"
+              },
+              {
+                "id": "FMA33531",
+                "name": "muscle of shoulder"
+              },
+              {
+                "id": "FMA32516",
+                "name": "extrinsic muscle of shoulder"
+              },
+              {
+                "id": "FMA32518",
+                "name": "deep extrinsic muscle of shoulder"
+              },
+              {
+                "id": "FMA32519",
+                "name": "levator scapulae"
+              },
+              {
+                "id": "FMA32541",
+                "name": "left levator scapulae"
+              }
+            ],
+            "sourceEdgeLines": [
+              56,
+              288,
+              1266,
+              1231,
+              1133,
+              1137,
+              1139
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 4772,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "proposed_clear_display_system_correction",
+      "proposedSystem": "muscular",
+      "confidence": "source_type_and_exact_mesh_mapping_confirmed",
+      "reason": "Source identifies a named regional muscle organ, while the active display class is bone/connective; follow the existing subscapularis correction policy."
+    }
+  ],
+  "manualReview": [
+    {
+      "id": "FJ2740",
+      "conceptId": "FMA46636",
+      "name": "Left inferior pharyngeal constrictor",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46620",
+                "name": "constrictor muscle of pharynx"
+              },
+              {
+                "id": "FMA46623",
+                "name": "inferior pharyngeal constrictor"
+              },
+              {
+                "id": "FMA46636",
+                "name": "left inferior pharyngeal constrictor"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1573,
+              1579,
+              1585
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6149,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2742",
+      "conceptId": "FMA46633",
+      "name": "Right middle pharyngeal constrictor",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46620",
+                "name": "constrictor muscle of pharynx"
+              },
+              {
+                "id": "FMA46622",
+                "name": "middle pharyngeal constrictor"
+              },
+              {
+                "id": "FMA46633",
+                "name": "right middle pharyngeal constrictor"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1573,
+              1578,
+              1582
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6146,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2743",
+      "conceptId": "FMA46672",
+      "name": "Left palatopharyngeus",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46666",
+                "name": "palatopharyngeus"
+              },
+              {
+                "id": "FMA46672",
+                "name": "left palatopharyngeus"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1576,
+              1591
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6161,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2745",
+      "conceptId": "FMA46670",
+      "name": "Left salpingopharyngeus",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46665",
+                "name": "salpingopharyngeus"
+              },
+              {
+                "id": "FMA46670",
+                "name": "left salpingopharyngeus"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1575,
+              1589
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6159,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2746",
+      "conceptId": "FMA46668",
+      "name": "Left stylopharyngeus",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46664",
+                "name": "stylopharyngeus"
+              },
+              {
+                "id": "FMA46668",
+                "name": "left stylopharyngeus"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1574,
+              1587
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6157,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2747",
+      "conceptId": "FMA46632",
+      "name": "Left superior pharyngeal constrictor",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46620",
+                "name": "constrictor muscle of pharynx"
+              },
+              {
+                "id": "FMA46621",
+                "name": "superior pharyngeal constrictor"
+              },
+              {
+                "id": "FMA46632",
+                "name": "left superior pharyngeal constrictor"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1573,
+              1577,
+              1581
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6145,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2752",
+      "conceptId": "FMA46635",
+      "name": "Right inferior pharyngeal constrictor",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46620",
+                "name": "constrictor muscle of pharynx"
+              },
+              {
+                "id": "FMA46623",
+                "name": "inferior pharyngeal constrictor"
+              },
+              {
+                "id": "FMA46635",
+                "name": "right inferior pharyngeal constrictor"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1573,
+              1579,
+              1584
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6148,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2754",
+      "conceptId": "FMA46634",
+      "name": "Left middle pharyngeal constrictor",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46620",
+                "name": "constrictor muscle of pharynx"
+              },
+              {
+                "id": "FMA46622",
+                "name": "middle pharyngeal constrictor"
+              },
+              {
+                "id": "FMA46634",
+                "name": "left middle pharyngeal constrictor"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1573,
+              1578,
+              1583
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6147,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2755",
+      "conceptId": "FMA46671",
+      "name": "Right palatopharyngeus",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46666",
+                "name": "palatopharyngeus"
+              },
+              {
+                "id": "FMA46671",
+                "name": "right palatopharyngeus"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1576,
+              1590
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6160,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2757",
+      "conceptId": "FMA46669",
+      "name": "Right salpingopharyngeus",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46665",
+                "name": "salpingopharyngeus"
+              },
+              {
+                "id": "FMA46669",
+                "name": "right salpingopharyngeus"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1575,
+              1588
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6158,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2758",
+      "conceptId": "FMA46667",
+      "name": "Right stylopharyngeus",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46664",
+                "name": "stylopharyngeus"
+              },
+              {
+                "id": "FMA46667",
+                "name": "right stylopharyngeus"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1574,
+              1586
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6156,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    },
+    {
+      "id": "FJ2759",
+      "conceptId": "FMA46631",
+      "name": "Right superior pharyngeal constrictor",
+      "rawSystem": "respiratory",
+      "activeSystem": "respiratory",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9617",
+                "name": "muscle of neck"
+              },
+              {
+                "id": "FMA46619",
+                "name": "muscle of pharynx"
+              },
+              {
+                "id": "FMA46620",
+                "name": "constrictor muscle of pharynx"
+              },
+              {
+                "id": "FMA46621",
+                "name": "superior pharyngeal constrictor"
+              },
+              {
+                "id": "FMA46631",
+                "name": "right superior pharyngeal constrictor"
+              }
+            ],
+            "sourceEdgeLines": [
+              55,
+              281,
+              1573,
+              1577,
+              1580
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 6144,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "manual_contextual_system_policy_review",
+      "proposedSystem": null,
+      "reason": "Source muscle type is clear, but respiratory/pharyngeal context may be an intentional organ-system membership. Do not equate a type membership with exclusive UI system membership; decide the primary-layer policy or support secondary tags."
+    }
+  ],
+  "alreadyCorrected": [
+    {
+      "id": "FJ1504",
+      "conceptId": "FMA13414",
+      "name": "Right subscapularis",
+      "rawSystem": "skeletal",
+      "activeSystem": "muscular",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9621",
+                "name": "muscle of upper limb"
+              },
+              {
+                "id": "FMA37347",
+                "name": "muscle of pectoral girdle"
+              },
+              {
+                "id": "FMA33531",
+                "name": "muscle of shoulder"
+              },
+              {
+                "id": "FMA32520",
+                "name": "intrinsic muscle of shoulder"
+              },
+              {
+                "id": "FMA13413",
+                "name": "subscapularis"
+              },
+              {
+                "id": "FMA13414",
+                "name": "right subscapularis"
+              }
+            ],
+            "sourceEdgeLines": [
+              56,
+              288,
+              1266,
+              1232,
+              1141,
+              467
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 2503,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "already_corrected_by_prepareAtlas"
+    },
+    {
+      "id": "FJ1504M",
+      "conceptId": "FMA13415",
+      "name": "Left subscapularis",
+      "rawSystem": "skeletal",
+      "activeSystem": "muscular",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5022",
+          "rootName": "muscle organ",
+          "displaySystemForType": "muscular",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5022",
+                "name": "muscle organ"
+              },
+              {
+                "id": "FMA9621",
+                "name": "muscle of upper limb"
+              },
+              {
+                "id": "FMA37347",
+                "name": "muscle of pectoral girdle"
+              },
+              {
+                "id": "FMA33531",
+                "name": "muscle of shoulder"
+              },
+              {
+                "id": "FMA32520",
+                "name": "intrinsic muscle of shoulder"
+              },
+              {
+                "id": "FMA13413",
+                "name": "subscapularis"
+              },
+              {
+                "id": "FMA13415",
+                "name": "left subscapularis"
+              }
+            ],
+            "sourceEdgeLines": [
+              56,
+              288,
+              1266,
+              1232,
+              1141,
+              468
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 2504,
+      "typeBasedDisplaySystem": "muscular",
+      "status": "already_corrected_by_prepareAtlas"
+    },
+    {
+      "id": "FJ3263",
+      "conceptId": "FMA54738",
+      "name": "Left inferior nasal concha",
+      "rawSystem": "respiratory",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5018",
+          "rootName": "bone organ",
+          "displaySystemForType": "skeletal",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5018",
+                "name": "bone organ"
+              },
+              {
+                "id": "FMA7477",
+                "name": "irregular bone"
+              },
+              {
+                "id": "FMA54736",
+                "name": "inferior nasal concha"
+              },
+              {
+                "id": "FMA54738",
+                "name": "left inferior nasal concha"
+              }
+            ],
+            "sourceEdgeLines": [
+              53,
+              130,
+              1894
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 9002,
+      "typeBasedDisplaySystem": "skeletal",
+      "status": "already_corrected_by_prepareAtlas"
+    },
+    {
+      "id": "FJ3265",
+      "conceptId": "FMA53646",
+      "name": "Left lacrimal bone",
+      "rawSystem": "sensory",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5018",
+          "rootName": "bone organ",
+          "displaySystemForType": "skeletal",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5018",
+                "name": "bone organ"
+              },
+              {
+                "id": "FMA7477",
+                "name": "irregular bone"
+              },
+              {
+                "id": "FMA52741",
+                "name": "lacrimal bone"
+              },
+              {
+                "id": "FMA53646",
+                "name": "left lacrimal bone"
+              }
+            ],
+            "sourceEdgeLines": [
+              53,
+              125,
+              1881
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 8982,
+      "typeBasedDisplaySystem": "skeletal",
+      "status": "already_corrected_by_prepareAtlas"
+    },
+    {
+      "id": "FJ3369",
+      "conceptId": "FMA54737",
+      "name": "Right inferior nasal concha",
+      "rawSystem": "respiratory",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5018",
+          "rootName": "bone organ",
+          "displaySystemForType": "skeletal",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5018",
+                "name": "bone organ"
+              },
+              {
+                "id": "FMA7477",
+                "name": "irregular bone"
+              },
+              {
+                "id": "FMA54736",
+                "name": "inferior nasal concha"
+              },
+              {
+                "id": "FMA54737",
+                "name": "right inferior nasal concha"
+              }
+            ],
+            "sourceEdgeLines": [
+              53,
+              130,
+              1893
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 9001,
+      "typeBasedDisplaySystem": "skeletal",
+      "status": "already_corrected_by_prepareAtlas"
+    },
+    {
+      "id": "FJ3371",
+      "conceptId": "FMA53645",
+      "name": "Right lacrimal bone",
+      "rawSystem": "sensory",
+      "activeSystem": "skeletal",
+      "sourceClassMatches": [
+        {
+          "rootConceptId": "FMA5018",
+          "rootName": "bone organ",
+          "displaySystemForType": "skeletal",
+          "path": {
+            "concepts": [
+              {
+                "id": "FMA5018",
+                "name": "bone organ"
+              },
+              {
+                "id": "FMA7477",
+                "name": "irregular bone"
+              },
+              {
+                "id": "FMA52741",
+                "name": "lacrimal bone"
+              },
+              {
+                "id": "FMA53645",
+                "name": "right lacrimal bone"
+              }
+            ],
+            "sourceEdgeLines": [
+              53,
+              125,
+              1880
+            ]
+          }
+        }
+      ],
+      "officialLeafMeshMappingConfirmed": true,
+      "sourceElementMappingLine": 8981,
+      "typeBasedDisplaySystem": "skeletal",
+      "status": "already_corrected_by_prepareAtlas"
+    }
+  ]
+}

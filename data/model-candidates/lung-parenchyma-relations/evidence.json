@@ -1,0 +1,1843 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "extension-lung-bp3d43",
+  "sourceVersion": "4.3",
+  "sourceTreeVersion": "FMA3.0",
+  "sourceRequestParameters": {
+    "version": "4.3",
+    "lng": "en",
+    "t_type": "4",
+    "bul_id": "4",
+    "cb_id": "5",
+    "ci_id": "1",
+    "md_id": "1",
+    "mv_id": "6",
+    "mr_id": "1"
+  },
+  "inputs": [
+    {
+      "path": "data/model-candidates/lung-surfaces/lung-parenchyma.json",
+      "sha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/bp3d-v43-mapping.zip",
+      "sha256": "fa6e9d5c92ed1e5bb86dcabfc5f5e039fdd9130ce28f05f1c33c71699e8f768a"
+    },
+    {
+      "path": "data/model-candidates/lung-surfaces/FMA2Obj.txt",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    {
+      "path": "data/anatomy/knowledge.json",
+      "sha256": "b6dddf2b4f9f74c6be84e8d07e40e569f38b42136aa1e91c5af4bac0826d3d2c"
+    },
+    {
+      "path": "data/model-candidates/lung-parenchyma-relations/versions.json",
+      "sha256": "c9a54f87eb5386d30d4eee529f0b42fa83ea90e5190a0543a4dd0d52e4a613ad"
+    },
+    {
+      "path": "data/model-candidates/lung-parenchyma-relations/source-fetch.json",
+      "sha256": "d9aa8083bfe1d4ee7bded9f7e4a9b13602398d0a3141bf290eec9fc1ba0a2957"
+    }
+  ],
+  "versionResolutionEvidence": {
+    "metadataUrl": "https://lifesciencedb.jp/bp3d/get-version.cgi?lng=en",
+    "locator": "versions.json records[tgi_version=4.3]: cb_id=5, ci_id=1, md_id=1, mv_id=6, mr_id=1, tgi_tree_version=FMA3.0",
+    "responseProof": "source/FMA27368-partof.json: data entries explicitly report model_version=4.3, concept_info=FMA, concept_build=3.0, cb_id=5, bul_id=4"
+  },
+  "paths": [
+    {
+      "parenchymaId": "FMA27368",
+      "name": "Parenchyma of apicoposterior bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6595",
+        "FJ6597"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27368",
+          "name": "Parenchyma of apicoposterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7372",
+          "name": "Apicoposterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370",
+          "name": "Upper lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27368|part_of|FMA7372",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7372|part_of|FMA7370",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 194: parent=FMA7370, child=FMA7372"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 162: parent=FMA7310, child=FMA7370"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27368",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27368",
+        "path": "source/FMA27368.json",
+        "sha256": "0baf5848fa34686c9e4cd4c8ba3b79dffe90315b0dce21420349114fc3d6c582",
+        "bytes": 41967,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27368",
+          "line": 4408,
+          "containedSourceObjects": [
+            "FJ6595",
+            "FJ6597"
+          ]
+        },
+        {
+          "conceptId": "FMA7370",
+          "line": 5356,
+          "containedSourceObjects": [
+            "FJ6595",
+            "FJ6597"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6595",
+            "FJ6597"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27394",
+      "name": "Parenchyma of left posterior basal bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6596"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27394",
+          "name": "Parenchyma of left posterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7380",
+          "name": "Left posterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371",
+          "name": "Lower lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27394|part_of|FMA7380",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7380|part_of|FMA7371",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 206: parent=FMA7371, child=FMA7380"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 163: parent=FMA7310, child=FMA7371"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27394",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27394",
+        "path": "source/FMA27394.json",
+        "sha256": "64c7ba205aac6430c794bb4deddd54a8033c6c7df847ea4020f5d022d35261b1",
+        "bytes": 38320,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27394",
+          "line": 4422,
+          "containedSourceObjects": [
+            "FJ6596"
+          ]
+        },
+        {
+          "conceptId": "FMA7371",
+          "line": 5359,
+          "containedSourceObjects": [
+            "FJ6596"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6596"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27374",
+      "name": "Parenchyma of left anterior bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6598"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27374",
+          "name": "Parenchyma of left anterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7373",
+          "name": "Left anterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370",
+          "name": "Upper lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27374|part_of|FMA7373",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7373|part_of|FMA7370",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 195: parent=FMA7370, child=FMA7373"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 162: parent=FMA7310, child=FMA7370"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27374",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27374",
+        "path": "source/FMA27374.json",
+        "sha256": "34ce9d49e3a870806e0074a1c296b8cbd9b1b3b720eb5f71c1db7f2a19621272",
+        "bytes": 22192,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27374",
+          "line": 4412,
+          "containedSourceObjects": [
+            "FJ6598"
+          ]
+        },
+        {
+          "conceptId": "FMA7370",
+          "line": 5356,
+          "containedSourceObjects": [
+            "FJ6598"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6598"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27375",
+      "name": "Parenchyma of superior lingular bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6599"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27375",
+          "name": "Parenchyma of superior lingular bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7374",
+          "name": "Superior lingular bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370",
+          "name": "Upper lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27375|part_of|FMA7374",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7374|part_of|FMA7370",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 196: parent=FMA7370, child=FMA7374"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 162: parent=FMA7310, child=FMA7370"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27375",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27375",
+        "path": "source/FMA27375.json",
+        "sha256": "2d689cc004dede8904523a7338d9ca30876bcc524d73bd9bdece80f4f050958a",
+        "bytes": 40704,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27375",
+          "line": 4413,
+          "containedSourceObjects": [
+            "FJ6599"
+          ]
+        },
+        {
+          "conceptId": "FMA7370",
+          "line": 5356,
+          "containedSourceObjects": [
+            "FJ6599"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6599"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27376",
+      "name": "Parenchyma of inferior lingular bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6600"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27376",
+          "name": "Parenchyma of inferior lingular bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7375",
+          "name": "Inferior lingular bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370",
+          "name": "Upper lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27376|part_of|FMA7375",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7375|part_of|FMA7370",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 197: parent=FMA7370, child=FMA7375"
+            }
+          ]
+        },
+        {
+          "id": "FMA7370|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 162: parent=FMA7310, child=FMA7370"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27376",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27376",
+        "path": "source/FMA27376.json",
+        "sha256": "234e1a10fa5ba27a386d829fc93a6990865edfa3c6c3bc1f3f174eaaba7c0b85",
+        "bytes": 40649,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27376",
+          "line": 4414,
+          "containedSourceObjects": [
+            "FJ6600"
+          ]
+        },
+        {
+          "conceptId": "FMA7370",
+          "line": 5356,
+          "containedSourceObjects": [
+            "FJ6600"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6600"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27386",
+      "name": "Parenchyma of left superior bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6601"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27386",
+          "name": "Parenchyma of left superior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7376",
+          "name": "Left superior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371",
+          "name": "Lower lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27386|part_of|FMA7376",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7376|part_of|FMA7371",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 202: parent=FMA7371, child=FMA7376"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 163: parent=FMA7310, child=FMA7371"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27386",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27386",
+        "path": "source/FMA27386.json",
+        "sha256": "21ba33eefd070e739af9ad267d394b91faf9180f9ce52a534c506f0411fe5bf8",
+        "bytes": 38057,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27386",
+          "line": 4416,
+          "containedSourceObjects": [
+            "FJ6601"
+          ]
+        },
+        {
+          "conceptId": "FMA7371",
+          "line": 5359,
+          "containedSourceObjects": [
+            "FJ6601"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6601"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27392",
+      "name": "Parenchyma of left anterior basal bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6602"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27392",
+          "name": "Parenchyma of left anterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7378",
+          "name": "Left anterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371",
+          "name": "Lower lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27392|part_of|FMA7378",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7378|part_of|FMA7371",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 204: parent=FMA7371, child=FMA7378"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 163: parent=FMA7310, child=FMA7371"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27392",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27392",
+        "path": "source/FMA27392.json",
+        "sha256": "e40ab6c63a6f8dfdc24eef4f0a3527362083289d55567da35328e152cc8926a3",
+        "bytes": 38124,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27392",
+          "line": 4420,
+          "containedSourceObjects": [
+            "FJ6602"
+          ]
+        },
+        {
+          "conceptId": "FMA7371",
+          "line": 5359,
+          "containedSourceObjects": [
+            "FJ6602"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6602"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27390",
+      "name": "Parenchyma of left lateral basal bronchopulmonary segment",
+      "side": "left",
+      "sourceObjectIds": [
+        "FJ6603"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27390",
+          "name": "Parenchyma of left lateral basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7379",
+          "name": "Left lateral basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371",
+          "name": "Lower lobe of left lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7310",
+          "name": "Left lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27390|part_of|FMA7379",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7379|part_of|FMA7371",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 205: parent=FMA7371, child=FMA7379"
+            }
+          ]
+        },
+        {
+          "id": "FMA7371|part_of|FMA7310",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 163: parent=FMA7310, child=FMA7371"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27390",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27390",
+        "path": "source/FMA27390.json",
+        "sha256": "698512a6992eb3e26c291e59ddb86d4ce5d5271fba1e440f0c0686ee86f35f5e",
+        "bytes": 37244,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27390",
+          "line": 4418,
+          "containedSourceObjects": [
+            "FJ6603"
+          ]
+        },
+        {
+          "conceptId": "FMA7371",
+          "line": 5359,
+          "containedSourceObjects": [
+            "FJ6603"
+          ]
+        },
+        {
+          "conceptId": "FMA7310",
+          "line": 5336,
+          "containedSourceObjects": [
+            "FJ6603"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27369",
+      "name": "Parenchyma of right apical bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6604"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27369",
+          "name": "Parenchyma of right apical bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7338",
+          "name": "Right apical bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7333",
+          "name": "Upper lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27369|part_of|FMA7338",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7338|part_of|FMA7333",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 167: parent=FMA7333, child=FMA7338"
+            }
+          ]
+        },
+        {
+          "id": "FMA7333|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 156: parent=FMA7309, child=FMA7333"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27369",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27369",
+        "path": "source/FMA27369.json",
+        "sha256": "d200dd781500e04b70cdd6d607f6260320f39a7fcd686207aab293c8a6ec884e",
+        "bytes": 36392,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27369",
+          "line": 4409,
+          "containedSourceObjects": [
+            "FJ6604"
+          ]
+        },
+        {
+          "conceptId": "FMA7333",
+          "line": 5338,
+          "containedSourceObjects": [
+            "FJ6604"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6604"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27393",
+      "name": "Parenchyma of right posterior basal bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6605"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27393",
+          "name": "Parenchyma of right posterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7362",
+          "name": "Right posterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337",
+          "name": "Lower lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27393|part_of|FMA7362",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7362|part_of|FMA7337",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 172: parent=FMA7337, child=FMA7362"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 157: parent=FMA7309, child=FMA7337"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27393",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27393",
+        "path": "source/FMA27393.json",
+        "sha256": "f15e2176547778a5cb14622f76189ebed2450df962236b8c2b0d29a52587a7a2",
+        "bytes": 38404,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27393",
+          "line": 4421,
+          "containedSourceObjects": [
+            "FJ6605"
+          ]
+        },
+        {
+          "conceptId": "FMA7337",
+          "line": 5339,
+          "containedSourceObjects": [
+            "FJ6605"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6605"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27371",
+      "name": "Parenchyma of right posterior bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6606"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27371",
+          "name": "Parenchyma of right posterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7339",
+          "name": "Right posterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7333",
+          "name": "Upper lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27371|part_of|FMA7339",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7339|part_of|FMA7333",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 168: parent=FMA7333, child=FMA7339"
+            }
+          ]
+        },
+        {
+          "id": "FMA7333|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 156: parent=FMA7309, child=FMA7333"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27371",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27371",
+        "path": "source/FMA27371.json",
+        "sha256": "5a8e4db94557555c9564ec0392f3942ca9b518e59eebcdc50779bd26db3c9ba3",
+        "bytes": 36937,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27371",
+          "line": 4410,
+          "containedSourceObjects": [
+            "FJ6606"
+          ]
+        },
+        {
+          "conceptId": "FMA7333",
+          "line": 5338,
+          "containedSourceObjects": [
+            "FJ6606"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6606"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27373",
+      "name": "Parenchyma of right anterior bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6607"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27373",
+          "name": "Parenchyma of right anterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7359",
+          "name": "Right anterior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7333",
+          "name": "Upper lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27373|part_of|FMA7359",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7359|part_of|FMA7333",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 169: parent=FMA7333, child=FMA7359"
+            }
+          ]
+        },
+        {
+          "id": "FMA7333|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 156: parent=FMA7309, child=FMA7333"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27373",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27373",
+        "path": "source/FMA27373.json",
+        "sha256": "92eeec4b6e9e18d783ba64b10c912fdb55a03e98aad8b10e7ca63b06ce7bb8e6",
+        "bytes": 36857,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27373",
+          "line": 4411,
+          "containedSourceObjects": [
+            "FJ6607"
+          ]
+        },
+        {
+          "conceptId": "FMA7333",
+          "line": 5338,
+          "containedSourceObjects": [
+            "FJ6607"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6607"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27452",
+      "name": "Parenchyma of lateral bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6608"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27452",
+          "name": "Parenchyma of lateral bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7361",
+          "name": "Lateral bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7383",
+          "name": "Middle lobe of lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27452|part_of|FMA7361",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7361|part_of|FMA7383",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 219: parent=FMA7383, child=FMA7361"
+            }
+          ]
+        },
+        {
+          "id": "FMA7383|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 158: parent=FMA7309, child=FMA7383"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27452",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27452",
+        "path": "source/FMA27452.json",
+        "sha256": "01b73d5e05367a71d06725f1bc10175cdc50938dc59f8a5e4d86e5de53d1e7b6",
+        "bytes": 25680,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27452",
+          "line": 4424,
+          "containedSourceObjects": [
+            "FJ6608"
+          ]
+        },
+        {
+          "conceptId": "FMA7383",
+          "line": 5369,
+          "containedSourceObjects": [
+            "FJ6608"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6608"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27448",
+      "name": "Parenchyma of medial bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6609"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27448",
+          "name": "Parenchyma of medial bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7360",
+          "name": "Medial bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7383",
+          "name": "Middle lobe of lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27448|part_of|FMA7360",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7360|part_of|FMA7383",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 218: parent=FMA7383, child=FMA7360"
+            }
+          ]
+        },
+        {
+          "id": "FMA7383|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 158: parent=FMA7309, child=FMA7383"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27448",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27448",
+        "path": "source/FMA27448.json",
+        "sha256": "d3c0f64f23db25d771217f326833a5e3d10fc17a5fe2b8b72abb76f4ac6b6b4a",
+        "bytes": 25792,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27448",
+          "line": 4423,
+          "containedSourceObjects": [
+            "FJ6609"
+          ]
+        },
+        {
+          "conceptId": "FMA7383",
+          "line": 5369,
+          "containedSourceObjects": [
+            "FJ6609"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6609"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27385",
+      "name": "Parenchyma of right superior bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6610"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27385",
+          "name": "Parenchyma of right superior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7366",
+          "name": "Right superior bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337",
+          "name": "Lower lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27385|part_of|FMA7366",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7366|part_of|FMA7337",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 176: parent=FMA7337, child=FMA7366"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 157: parent=FMA7309, child=FMA7337"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27385",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27385",
+        "path": "source/FMA27385.json",
+        "sha256": "e72252509eae70ac27bd79056cfa30d94010698331c5a861b4b7054f3a7ccbf0",
+        "bytes": 38087,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27385",
+          "line": 4415,
+          "containedSourceObjects": [
+            "FJ6610"
+          ]
+        },
+        {
+          "conceptId": "FMA7337",
+          "line": 5339,
+          "containedSourceObjects": [
+            "FJ6610"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6610"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27391",
+      "name": "Parenchyma of right anterior basal bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6611"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27391",
+          "name": "Parenchyma of right anterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7364",
+          "name": "Right anterior basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337",
+          "name": "Lower lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27391|part_of|FMA7364",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7364|part_of|FMA7337",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 174: parent=FMA7337, child=FMA7364"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 157: parent=FMA7309, child=FMA7337"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27391",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27391",
+        "path": "source/FMA27391.json",
+        "sha256": "34d0349e7e2bfa7c2c33496c56a63d313792c5b4ec376bd3721e3360e9b70f6f",
+        "bytes": 38118,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27391",
+          "line": 4419,
+          "containedSourceObjects": [
+            "FJ6611"
+          ]
+        },
+        {
+          "conceptId": "FMA7337",
+          "line": 5339,
+          "containedSourceObjects": [
+            "FJ6611"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6611"
+          ]
+        }
+      ]
+    },
+    {
+      "parenchymaId": "FMA27389",
+      "name": "Parenchyma of right lateral basal bronchopulmonary segment",
+      "side": "right",
+      "sourceObjectIds": [
+        "FJ6612"
+      ],
+      "sourcePathIndex": 0,
+      "sourcePath": [
+        {
+          "id": "FMA27389",
+          "name": "Parenchyma of right lateral basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "CPO",
+              "potid": 2,
+              "potname": "constitutional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7363",
+          "name": "Right lateral basal bronchopulmonary segment",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337",
+          "name": "Lower lobe of right lung",
+          "sourceRelationToNext": [
+            {
+              "potabbr": "RPO",
+              "potid": 3,
+              "potname": "regional_part_of"
+            }
+          ]
+        },
+        {
+          "id": "FMA7309",
+          "name": "Right lung",
+          "sourceRelationToNext": null
+        }
+      ],
+      "newDirectRelationId": "FMA27389|part_of|FMA7363",
+      "existingGraphPathEdges": [
+        {
+          "id": "FMA7363|part_of|FMA7337",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 173: parent=FMA7337, child=FMA7363"
+            }
+          ]
+        },
+        {
+          "id": "FMA7337|part_of|FMA7309",
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 157: parent=FMA7309, child=FMA7337"
+            }
+          ]
+        }
+      ],
+      "sourceSnapshot": {
+        "conceptId": "FMA27389",
+        "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27389",
+        "path": "source/FMA27389.json",
+        "sha256": "97d5d6f0c3b7d17e0f96730581bb8885d430df957bf4cf969f2711487702439a",
+        "bytes": 37297,
+        "endpoint": "get-fmastratum.cgi"
+      },
+      "objectMappingCorroboration": [
+        {
+          "conceptId": "FMA27389",
+          "line": 4417,
+          "containedSourceObjects": [
+            "FJ6612"
+          ]
+        },
+        {
+          "conceptId": "FMA7337",
+          "line": 5339,
+          "containedSourceObjects": [
+            "FJ6612"
+          ]
+        },
+        {
+          "conceptId": "FMA7309",
+          "line": 5335,
+          "containedSourceObjects": [
+            "FJ6612"
+          ]
+        }
+      ]
+    }
+  ],
+  "projectDisplayGroups": [
+    {
+      "id": "atlas:right-lung-parenchyma-surfaces",
+      "lungId": "FMA7309",
+      "side": "right",
+      "geometryPartIds": [
+        "BP43-FJ6604",
+        "BP43-FJ6605",
+        "BP43-FJ6606",
+        "BP43-FJ6607",
+        "BP43-FJ6608",
+        "BP43-FJ6609",
+        "BP43-FJ6610",
+        "BP43-FJ6611",
+        "BP43-FJ6612"
+      ],
+      "source": {
+        "sourceId": "extension-lung-bp3d43",
+        "locator": "lung-parenchyma.json concepts[id=FMA7309].elements; sourceMembership; surfaceGroups; selected 9 BP43 parenchyma surface parts",
+        "snapshotSha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+      },
+      "assertionType": "project selection, not a new source anatomical concept"
+    },
+    {
+      "id": "atlas:left-lung-parenchyma-surfaces",
+      "lungId": "FMA7310",
+      "side": "left",
+      "geometryPartIds": [
+        "BP43-FJ6595",
+        "BP43-FJ6596",
+        "BP43-FJ6597",
+        "BP43-FJ6598",
+        "BP43-FJ6599",
+        "BP43-FJ6600",
+        "BP43-FJ6601",
+        "BP43-FJ6602",
+        "BP43-FJ6603"
+      ],
+      "source": {
+        "sourceId": "extension-lung-bp3d43",
+        "locator": "lung-parenchyma.json concepts[id=FMA7310].elements; sourceMembership; surfaceGroups; selected 9 BP43 parenchyma surface parts",
+        "snapshotSha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+      },
+      "assertionType": "project selection, not a new source anatomical concept"
+    }
+  ],
+  "existingEdgesSkipped": [],
+  "requiredExtensionConceptIds": [
+    "FMA27368",
+    "FMA27394",
+    "FMA27374",
+    "FMA27375",
+    "FMA27376",
+    "FMA27386",
+    "FMA27392",
+    "FMA27390",
+    "FMA27369",
+    "FMA27393",
+    "FMA27371",
+    "FMA27373",
+    "FMA27452",
+    "FMA27448",
+    "FMA27385",
+    "FMA27391",
+    "FMA27389"
+  ],
+  "integrationDependency": "Register the lung extension first or in the same build so its 17 parenchyma concepts and 18 geometry parts exist. Only two collision-free project selection entities are declared; source concepts are not duplicated.",
+  "warnings": [
+    "Version=4.3 alone currently resolves a newer concept build (4.12.0-inference); exact model/concept IDs were explicitly pinned to the official 4.3 FMA3.0 metadata.",
+    "FMA2Obj PARTOF object sets corroborate membership only; all graph relations come from explicit partof_path2root routes.",
+    "Some anatomical names omit left/right; side is resolved from the explicit right/left lung ancestor, not name guessing or coordinates."
+  ]
+}

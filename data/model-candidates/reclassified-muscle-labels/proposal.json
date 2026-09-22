@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate_not_integrated",
+  "scope": "26 side-specific muscle concepts from 14 clear and 12 pharyngeal source-classification candidates; labels only",
+  "source": {
+    "id": "zanatomy-ta2-terminology",
+    "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "expertReview": "pending"
+  },
+  "entries": [
+    {
+      "ids": [
+        "FMA22554",
+        "FJ1409"
+      ],
+      "tr": "Kısa fibular kas",
+      "en": "Fibularis brevis muscle",
+      "la": "Musculus fibularis brevis",
+      "ta2Id": 2653,
+      "aliases": [
+        "fibularis brevis"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3642: FMA22554 / right fibularis brevis / FJ1409"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2653, CSV line 2751, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22555",
+        "FJ1409M"
+      ],
+      "tr": "Kısa fibular kas",
+      "en": "Fibularis brevis muscle",
+      "la": "Musculus fibularis brevis",
+      "ta2Id": 2653,
+      "aliases": [
+        "fibularis brevis"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3643: FMA22555 / left fibularis brevis / FJ1409M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2653, CSV line 2751, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22552",
+        "FJ1410"
+      ],
+      "tr": "Uzun fibular kas",
+      "en": "Fibularis longus muscle",
+      "la": "Musculus fibularis longus",
+      "ta2Id": 2652,
+      "aliases": [
+        "fibularis longus"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3640: FMA22552 / right fibularis longus / FJ1410"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2652, CSV line 2750, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22553",
+        "FJ1410M"
+      ],
+      "tr": "Uzun fibular kas",
+      "en": "Fibularis longus muscle",
+      "la": "Musculus fibularis longus",
+      "ta2Id": 2652,
+      "aliases": [
+        "fibularis longus"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3641: FMA22553 / left fibularis longus / FJ1410M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2652, CSV line 2750, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22550",
+        "FJ1411"
+      ],
+      "tr": "Üçüncü fibular kas",
+      "en": "Fibularis tertius muscle",
+      "la": "Musculus fibularis tertius",
+      "ta2Id": 2649,
+      "aliases": [
+        "fibularis tertius"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3638: FMA22550 / right fibularis tertius / FJ1411"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2649, CSV line 2747, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22551",
+        "FJ1411M"
+      ],
+      "tr": "Üçüncü fibular kas",
+      "en": "Fibularis tertius muscle",
+      "la": "Musculus fibularis tertius",
+      "ta2Id": 2649,
+      "aliases": [
+        "fibularis tertius"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3639: FMA22551 / left fibularis tertius / FJ1411M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2649, CSV line 2747, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22425",
+        "FJ1438"
+      ],
+      "tr": "Fasya lata gerici kası",
+      "en": "Tensor fasciae latae",
+      "la": "Tensor fasciae latae",
+      "ta2Id": 2602,
+      "aliases": [
+        "tensor fasciae latae"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3482: FMA22425 / right tensor fasciae latae / FJ1438"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2602, CSV line 2700, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22426",
+        "FJ1438M"
+      ],
+      "tr": "Fasya lata gerici kası",
+      "en": "Tensor fasciae latae",
+      "la": "Tensor fasciae latae",
+      "ta2Id": 2602,
+      "aliases": [
+        "tensor fasciae latae"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3483: FMA22426 / left tensor fasciae latae / FJ1438M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2602, CSV line 2700, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22544",
+        "FJ1439"
+      ],
+      "tr": "Ön tibial kas",
+      "en": "Tibialis anterior muscle",
+      "la": "Musculus tibialis anterior",
+      "ta2Id": 2644,
+      "aliases": [
+        "tibialis anterior"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3632: FMA22544 / right tibialis anterior / FJ1439"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2644, CSV line 2742, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA22545",
+        "FJ1439M"
+      ],
+      "tr": "Ön tibial kas",
+      "en": "Tibialis anterior muscle",
+      "la": "Musculus tibialis anterior",
+      "ta2Id": 2644,
+      "aliases": [
+        "tibialis anterior"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 3633: FMA22545 / left tibialis anterior / FJ1439M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2644, CSV line 2742, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA65018",
+        "FJ1440"
+      ],
+      "tr": "Arka tibial kas",
+      "en": "Tibialis posterior muscle",
+      "la": "Musculus tibialis posterior",
+      "ta2Id": 2666,
+      "aliases": [
+        "tibialis posterior"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 15734: FMA65018 / right tibialis posterior / FJ1440"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2666, CSV line 2764, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA65019",
+        "FJ1440M"
+      ],
+      "tr": "Arka tibial kas",
+      "en": "Tibialis posterior muscle",
+      "la": "Musculus tibialis posterior",
+      "ta2Id": 2666,
+      "aliases": [
+        "tibialis posterior"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 15735: FMA65019 / left tibialis posterior / FJ1440M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2666, CSV line 2764, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32540",
+        "FJ1532"
+      ],
+      "tr": "Kürek kemiğini kaldıran kas",
+      "en": "Levator scapulae",
+      "la": "Levator scapulae",
+      "ta2Id": 2234,
+      "aliases": [
+        "levator scapulae"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 4771: FMA32540 / right levator scapulae / FJ1532"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2234, CSV line 2333, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32541",
+        "FJ1532M"
+      ],
+      "tr": "Kürek kemiğini kaldıran kas",
+      "en": "Levator scapulae",
+      "la": "Levator scapulae",
+      "ta2Id": 2234,
+      "aliases": [
+        "levator scapulae"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 4772: FMA32541 / left levator scapulae / FJ1532M"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2234, CSV line 2333, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46636",
+        "FJ2740"
+      ],
+      "tr": "Alt yutak daraltıcı kası",
+      "en": "Inferior pharyngeal constrictor",
+      "la": "Constrictor inferior pharyngis",
+      "ta2Id": 2187,
+      "aliases": [
+        "inferior pharyngeal constrictor"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6149: FMA46636 / left inferior pharyngeal constrictor / FJ2740"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2187, CSV line 2286, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46633",
+        "FJ2742"
+      ],
+      "tr": "Orta yutak daraltıcı kası",
+      "en": "Middle pharyngeal constrictor",
+      "la": "Constrictor medius pharyngis",
+      "ta2Id": 2184,
+      "aliases": [
+        "middle pharyngeal constrictor"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6146: FMA46633 / right middle pharyngeal constrictor / FJ2742"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2184, CSV line 2283, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46672",
+        "FJ2743"
+      ],
+      "tr": "Palatofaringeus kası",
+      "en": "Palatopharyngeus muscle",
+      "la": "Musculus palatopharyngeus",
+      "ta2Id": 2132,
+      "aliases": [
+        "palatopharyngeus",
+        "damak-yutak kası"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6161: FMA46672 / left palatopharyngeus / FJ2743"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2132, CSV line 2231, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46670",
+        "FJ2745"
+      ],
+      "tr": "Salpingofaringeus kası",
+      "en": "Salpingopharyngeus muscle",
+      "la": "Musculus salpingopharyngeus",
+      "ta2Id": 2191,
+      "aliases": [
+        "salpingopharyngeus",
+        "işitme tüpü-yutak kası"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6159: FMA46670 / left salpingopharyngeus / FJ2745"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2191, CSV line 2290, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46668",
+        "FJ2746"
+      ],
+      "tr": "Stilofaringeus kası",
+      "en": "Stylopharyngeus muscle",
+      "la": "Musculus stylopharyngeus",
+      "ta2Id": 2190,
+      "aliases": [
+        "stylopharyngeus",
+        "stiloid-yutak kası"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6157: FMA46668 / left stylopharyngeus / FJ2746"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2190, CSV line 2289, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46632",
+        "FJ2747"
+      ],
+      "tr": "Üst yutak daraltıcı kası",
+      "en": "Superior pharyngeal constrictor",
+      "la": "Constrictor superior pharyngis",
+      "ta2Id": 2179,
+      "aliases": [
+        "superior pharyngeal constrictor"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6145: FMA46632 / left superior pharyngeal constrictor / FJ2747"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2179, CSV line 2278, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46635",
+        "FJ2752"
+      ],
+      "tr": "Alt yutak daraltıcı kası",
+      "en": "Inferior pharyngeal constrictor",
+      "la": "Constrictor inferior pharyngis",
+      "ta2Id": 2187,
+      "aliases": [
+        "inferior pharyngeal constrictor"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6148: FMA46635 / right inferior pharyngeal constrictor / FJ2752"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2187, CSV line 2286, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46634",
+        "FJ2754"
+      ],
+      "tr": "Orta yutak daraltıcı kası",
+      "en": "Middle pharyngeal constrictor",
+      "la": "Constrictor medius pharyngis",
+      "ta2Id": 2184,
+      "aliases": [
+        "middle pharyngeal constrictor"
+      ],
+      "side": "left",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6147: FMA46634 / left middle pharyngeal constrictor / FJ2754"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2184, CSV line 2283, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46671",
+        "FJ2755"
+      ],
+      "tr": "Palatofaringeus kası",
+      "en": "Palatopharyngeus muscle",
+      "la": "Musculus palatopharyngeus",
+      "ta2Id": 2132,
+      "aliases": [
+        "palatopharyngeus",
+        "damak-yutak kası"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6160: FMA46671 / right palatopharyngeus / FJ2755"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2132, CSV line 2231, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46669",
+        "FJ2757"
+      ],
+      "tr": "Salpingofaringeus kası",
+      "en": "Salpingopharyngeus muscle",
+      "la": "Musculus salpingopharyngeus",
+      "ta2Id": 2191,
+      "aliases": [
+        "salpingopharyngeus",
+        "işitme tüpü-yutak kası"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6158: FMA46669 / right salpingopharyngeus / FJ2757"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2191, CSV line 2290, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46667",
+        "FJ2758"
+      ],
+      "tr": "Stilofaringeus kası",
+      "en": "Stylopharyngeus muscle",
+      "la": "Musculus stylopharyngeus",
+      "ta2Id": 2190,
+      "aliases": [
+        "stylopharyngeus",
+        "stiloid-yutak kası"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6156: FMA46667 / right stylopharyngeus / FJ2758"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2190, CSV line 2289, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA46631",
+        "FJ2759"
+      ],
+      "tr": "Üst yutak daraltıcı kası",
+      "en": "Superior pharyngeal constrictor",
+      "la": "Constrictor superior pharyngis",
+      "ta2Id": 2179,
+      "aliases": [
+        "superior pharyngeal constrictor"
+      ],
+      "side": "right",
+      "evidence": [
+        {
+          "sourceId": "bp3d-isa-element-parts",
+          "locator": "line 6144: FMA46631 / right superior pharyngeal constrictor / FJ2759"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2179, CSV line 2278, English/Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    }
+  ]
+}

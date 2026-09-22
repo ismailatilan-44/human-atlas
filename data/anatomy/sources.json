@@ -710,5 +710,16 @@
     "sha256": "5a15ed3984eb26342693cf81a62272c573d9ae10949c8f5c27f1088514a4e702",
     "retrievedOn": "2026-09-22",
     "use": "Project selection of 22 existing bones; official IS-A/PART-OF membership and exclusion proof stored with review. Source FMA46565 remains unchanged."
+  },
+  {
+    "id": "extension-lung-bp3d43",
+    "title": "BodyParts3D 4.3 lung segment parenchyma surfaces",
+    "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+    "path": "public/models/extensions/lung-bp3d43.json",
+    "sha256": "2c2bb3a6bc1c82133015f9ddd21f600cb2eeaaf82dd7a345d62f35193191009c",
+    "retrievedOn": "2026-09-22",
+    "sourceId": "bodyparts3d-4.3-live",
+    "attribution": "/models/extensions/LUNG-BP3D43-ATTRIBUTION.md",
+    "use": "18 official segment-parenchyma surfaces,17 source concepts,7 lung/lobe membership extensions. Independent no-fit thoracic coordinate checks; original280 bronchovascular surfaces retained. Source aggregate conflicts and geometry flaws recorded."
   }
 ]

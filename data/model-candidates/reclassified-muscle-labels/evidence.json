@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "bp3d-isa-element-parts",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+      "path": "data/model-candidates/system-classification-review/isa_element_parts.txt",
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+      "role": "FMA identity, exact English source name, side and geometry ID"
+    },
+    {
+      "id": "zanatomy-ta2-terminology",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "role": "English and Latin terms; no Turkish column used"
+    },
+    {
+      "id": "human-atlas-local",
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+      "role": "Current FMA to mesh mapping corroboration"
+    },
+    {
+      "id": "current-labels-snapshot",
+      "path": "data/anatomy/labels.json",
+      "sha256": "495b80ecedcfdb6a3f7a68438c40452172437b44e3a245aae0f199dcdf2bdeb7",
+      "role": "Duplicate/conflict check only"
+    }
+  ],
+  "mappings": [
+    {
+      "conceptId": "FMA22554",
+      "partId": "FJ1409",
+      "side": "right",
+      "bodyParts3dName": "right fibularis brevis",
+      "sourceMappingLine": 3642,
+      "ta2Id": 2653,
+      "ta2CsvLine": 2751,
+      "ta2English": "Fibularis brevis muscle",
+      "ta2Latin": "Musculus fibularis brevis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22555",
+      "partId": "FJ1409M",
+      "side": "left",
+      "bodyParts3dName": "left fibularis brevis",
+      "sourceMappingLine": 3643,
+      "ta2Id": 2653,
+      "ta2CsvLine": 2751,
+      "ta2English": "Fibularis brevis muscle",
+      "ta2Latin": "Musculus fibularis brevis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22552",
+      "partId": "FJ1410",
+      "side": "right",
+      "bodyParts3dName": "right fibularis longus",
+      "sourceMappingLine": 3640,
+      "ta2Id": 2652,
+      "ta2CsvLine": 2750,
+      "ta2English": "Fibularis longus muscle",
+      "ta2Latin": "Musculus fibularis longus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22553",
+      "partId": "FJ1410M",
+      "side": "left",
+      "bodyParts3dName": "left fibularis longus",
+      "sourceMappingLine": 3641,
+      "ta2Id": 2652,
+      "ta2CsvLine": 2750,
+      "ta2English": "Fibularis longus muscle",
+      "ta2Latin": "Musculus fibularis longus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22550",
+      "partId": "FJ1411",
+      "side": "right",
+      "bodyParts3dName": "right fibularis tertius",
+      "sourceMappingLine": 3638,
+      "ta2Id": 2649,
+      "ta2CsvLine": 2747,
+      "ta2English": "Fibularis tertius muscle",
+      "ta2Latin": "Musculus fibularis tertius",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22551",
+      "partId": "FJ1411M",
+      "side": "left",
+      "bodyParts3dName": "left fibularis tertius",
+      "sourceMappingLine": 3639,
+      "ta2Id": 2649,
+      "ta2CsvLine": 2747,
+      "ta2English": "Fibularis tertius muscle",
+      "ta2Latin": "Musculus fibularis tertius",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22425",
+      "partId": "FJ1438",
+      "side": "right",
+      "bodyParts3dName": "right tensor fasciae latae",
+      "sourceMappingLine": 3482,
+      "ta2Id": 2602,
+      "ta2CsvLine": 2700,
+      "ta2English": "Tensor fasciae latae",
+      "ta2Latin": "Tensor fasciae latae",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22426",
+      "partId": "FJ1438M",
+      "side": "left",
+      "bodyParts3dName": "left tensor fasciae latae",
+      "sourceMappingLine": 3483,
+      "ta2Id": 2602,
+      "ta2CsvLine": 2700,
+      "ta2English": "Tensor fasciae latae",
+      "ta2Latin": "Tensor fasciae latae",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22544",
+      "partId": "FJ1439",
+      "side": "right",
+      "bodyParts3dName": "right tibialis anterior",
+      "sourceMappingLine": 3632,
+      "ta2Id": 2644,
+      "ta2CsvLine": 2742,
+      "ta2English": "Tibialis anterior muscle",
+      "ta2Latin": "Musculus tibialis anterior",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA22545",
+      "partId": "FJ1439M",
+      "side": "left",
+      "bodyParts3dName": "left tibialis anterior",
+      "sourceMappingLine": 3633,
+      "ta2Id": 2644,
+      "ta2CsvLine": 2742,
+      "ta2English": "Tibialis anterior muscle",
+      "ta2Latin": "Musculus tibialis anterior",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA65018",
+      "partId": "FJ1440",
+      "side": "right",
+      "bodyParts3dName": "right tibialis posterior",
+      "sourceMappingLine": 15734,
+      "ta2Id": 2666,
+      "ta2CsvLine": 2764,
+      "ta2English": "Tibialis posterior muscle",
+      "ta2Latin": "Musculus tibialis posterior",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA65019",
+      "partId": "FJ1440M",
+      "side": "left",
+      "bodyParts3dName": "left tibialis posterior",
+      "sourceMappingLine": 15735,
+      "ta2Id": 2666,
+      "ta2CsvLine": 2764,
+      "ta2English": "Tibialis posterior muscle",
+      "ta2Latin": "Musculus tibialis posterior",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA32540",
+      "partId": "FJ1532",
+      "side": "right",
+      "bodyParts3dName": "right levator scapulae",
+      "sourceMappingLine": 4771,
+      "ta2Id": 2234,
+      "ta2CsvLine": 2333,
+      "ta2English": "Levator scapulae",
+      "ta2Latin": "Levator scapulae",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA32541",
+      "partId": "FJ1532M",
+      "side": "left",
+      "bodyParts3dName": "left levator scapulae",
+      "sourceMappingLine": 4772,
+      "ta2Id": 2234,
+      "ta2CsvLine": 2333,
+      "ta2English": "Levator scapulae",
+      "ta2Latin": "Levator scapulae",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "proposed_clear_display_system_correction"
+    },
+    {
+      "conceptId": "FMA46636",
+      "partId": "FJ2740",
+      "side": "left",
+      "bodyParts3dName": "left inferior pharyngeal constrictor",
+      "sourceMappingLine": 6149,
+      "ta2Id": 2187,
+      "ta2CsvLine": 2286,
+      "ta2English": "Inferior pharyngeal constrictor",
+      "ta2Latin": "Constrictor inferior pharyngis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46633",
+      "partId": "FJ2742",
+      "side": "right",
+      "bodyParts3dName": "right middle pharyngeal constrictor",
+      "sourceMappingLine": 6146,
+      "ta2Id": 2184,
+      "ta2CsvLine": 2283,
+      "ta2English": "Middle pharyngeal constrictor",
+      "ta2Latin": "Constrictor medius pharyngis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46672",
+      "partId": "FJ2743",
+      "side": "left",
+      "bodyParts3dName": "left palatopharyngeus",
+      "sourceMappingLine": 6161,
+      "ta2Id": 2132,
+      "ta2CsvLine": 2231,
+      "ta2English": "Palatopharyngeus muscle",
+      "ta2Latin": "Musculus palatopharyngeus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46670",
+      "partId": "FJ2745",
+      "side": "left",
+      "bodyParts3dName": "left salpingopharyngeus",
+      "sourceMappingLine": 6159,
+      "ta2Id": 2191,
+      "ta2CsvLine": 2290,
+      "ta2English": "Salpingopharyngeus muscle",
+      "ta2Latin": "Musculus salpingopharyngeus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46668",
+      "partId": "FJ2746",
+      "side": "left",
+      "bodyParts3dName": "left stylopharyngeus",
+      "sourceMappingLine": 6157,
+      "ta2Id": 2190,
+      "ta2CsvLine": 2289,
+      "ta2English": "Stylopharyngeus muscle",
+      "ta2Latin": "Musculus stylopharyngeus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46632",
+      "partId": "FJ2747",
+      "side": "left",
+      "bodyParts3dName": "left superior pharyngeal constrictor",
+      "sourceMappingLine": 6145,
+      "ta2Id": 2179,
+      "ta2CsvLine": 2278,
+      "ta2English": "Superior pharyngeal constrictor",
+      "ta2Latin": "Constrictor superior pharyngis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46635",
+      "partId": "FJ2752",
+      "side": "right",
+      "bodyParts3dName": "right inferior pharyngeal constrictor",
+      "sourceMappingLine": 6148,
+      "ta2Id": 2187,
+      "ta2CsvLine": 2286,
+      "ta2English": "Inferior pharyngeal constrictor",
+      "ta2Latin": "Constrictor inferior pharyngis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46634",
+      "partId": "FJ2754",
+      "side": "left",
+      "bodyParts3dName": "left middle pharyngeal constrictor",
+      "sourceMappingLine": 6147,
+      "ta2Id": 2184,
+      "ta2CsvLine": 2283,
+      "ta2English": "Middle pharyngeal constrictor",
+      "ta2Latin": "Constrictor medius pharyngis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46671",
+      "partId": "FJ2755",
+      "side": "right",
+      "bodyParts3dName": "right palatopharyngeus",
+      "sourceMappingLine": 6160,
+      "ta2Id": 2132,
+      "ta2CsvLine": 2231,
+      "ta2English": "Palatopharyngeus muscle",
+      "ta2Latin": "Musculus palatopharyngeus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46669",
+      "partId": "FJ2757",
+      "side": "right",
+      "bodyParts3dName": "right salpingopharyngeus",
+      "sourceMappingLine": 6158,
+      "ta2Id": 2191,
+      "ta2CsvLine": 2290,
+      "ta2English": "Salpingopharyngeus muscle",
+      "ta2Latin": "Musculus salpingopharyngeus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46667",
+      "partId": "FJ2758",
+      "side": "right",
+      "bodyParts3dName": "right stylopharyngeus",
+      "sourceMappingLine": 6156,
+      "ta2Id": 2190,
+      "ta2CsvLine": 2289,
+      "ta2English": "Stylopharyngeus muscle",
+      "ta2Latin": "Musculus stylopharyngeus",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    },
+    {
+      "conceptId": "FMA46631",
+      "partId": "FJ2759",
+      "side": "right",
+      "bodyParts3dName": "right superior pharyngeal constrictor",
+      "sourceMappingLine": 6144,
+      "ta2Id": 2179,
+      "ta2CsvLine": 2278,
+      "ta2English": "Superior pharyngeal constrictor",
+      "ta2Latin": "Constrictor superior pharyngis",
+      "matchMethod": "Exact BP3D concept/name/mesh and laterality; side-stripped English matches the TA row with only optional muscle suffix",
+      "originalProposalStatus": "manual_contextual_system_policy_review"
+    }
+  ],
+  "existingLabelReview": [
+    {
+      "conceptId": "FMA22554",
+      "partId": "FJ1409",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22555",
+      "partId": "FJ1409M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22552",
+      "partId": "FJ1410",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22553",
+      "partId": "FJ1410M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22550",
+      "partId": "FJ1411",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22551",
+      "partId": "FJ1411M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22425",
+      "partId": "FJ1438",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22426",
+      "partId": "FJ1438M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22544",
+      "partId": "FJ1439",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA22545",
+      "partId": "FJ1439M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA65018",
+      "partId": "FJ1440",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA65019",
+      "partId": "FJ1440M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA32540",
+      "partId": "FJ1532",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA32541",
+      "partId": "FJ1532M",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46636",
+      "partId": "FJ2740",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46633",
+      "partId": "FJ2742",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46672",
+      "partId": "FJ2743",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46670",
+      "partId": "FJ2745",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46668",
+      "partId": "FJ2746",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46632",
+      "partId": "FJ2747",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46635",
+      "partId": "FJ2752",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46634",
+      "partId": "FJ2754",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46671",
+      "partId": "FJ2755",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46669",
+      "partId": "FJ2757",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46667",
+      "partId": "FJ2758",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    },
+    {
+      "conceptId": "FMA46631",
+      "partId": "FJ2759",
+      "existingEntries": [],
+      "status": "no_existing_label"
+    }
+  ],
+  "limitations": [
+    "Turkish display names are editorial translations, not Turkish content of the pinned TA table.",
+    "Latin/English names do not carry synthetic laterality suffixes; the verified side field is separate.",
+    "The source TA table sometimes omits Musculus; exact source Latin is retained without grammatical expansion.",
+    "No classification override, anatomical relationship, innervation, position or geometry is added."
+  ]
+}

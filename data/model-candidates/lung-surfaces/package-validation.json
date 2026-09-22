@@ -1,0 +1,161 @@
+{
+  "status": "passed",
+  "checks": [
+    "binary length/hash/gzip equality",
+    "finite positions and unit normals",
+    "bounds and index range",
+    "every transformed position exactly equals source float32 conversion",
+    "per-OBJ source hash",
+    "18 distinct part IDs, 17 leaf concepts, 24 explicit existing concept extensions",
+    "all 280 original lung members preserved by union",
+    "five lobe groups exactly partition source surfaces"
+  ],
+  "mergePreview": [
+    {
+      "conceptId": "FMA7333",
+      "before": 62,
+      "added": 3,
+      "after": 65
+    },
+    {
+      "conceptId": "FMA7383",
+      "before": 25,
+      "added": 2,
+      "after": 27
+    },
+    {
+      "conceptId": "FMA7337",
+      "before": 69,
+      "added": 4,
+      "after": 73
+    },
+    {
+      "conceptId": "FMA7370",
+      "before": 68,
+      "added": 5,
+      "after": 73
+    },
+    {
+      "conceptId": "FMA7371",
+      "before": 56,
+      "added": 4,
+      "after": 60
+    },
+    {
+      "conceptId": "FMA7309",
+      "before": 156,
+      "added": 9,
+      "after": 165
+    },
+    {
+      "conceptId": "FMA7310",
+      "before": 124,
+      "added": 9,
+      "after": 133
+    },
+    {
+      "conceptId": "FMA7372",
+      "before": 17,
+      "added": 2,
+      "after": 19
+    },
+    {
+      "conceptId": "FMA7380",
+      "before": 16,
+      "added": 1,
+      "after": 17
+    },
+    {
+      "conceptId": "FMA7373",
+      "before": 19,
+      "added": 1,
+      "after": 20
+    },
+    {
+      "conceptId": "FMA7374",
+      "before": 10,
+      "added": 1,
+      "after": 11
+    },
+    {
+      "conceptId": "FMA7375",
+      "before": 6,
+      "added": 1,
+      "after": 7
+    },
+    {
+      "conceptId": "FMA7376",
+      "before": 14,
+      "added": 1,
+      "after": 15
+    },
+    {
+      "conceptId": "FMA7378",
+      "before": 10,
+      "added": 1,
+      "after": 11
+    },
+    {
+      "conceptId": "FMA7379",
+      "before": 12,
+      "added": 1,
+      "after": 13
+    },
+    {
+      "conceptId": "FMA7338",
+      "before": 22,
+      "added": 1,
+      "after": 23
+    },
+    {
+      "conceptId": "FMA7362",
+      "before": 21,
+      "added": 1,
+      "after": 22
+    },
+    {
+      "conceptId": "FMA7339",
+      "before": 19,
+      "added": 1,
+      "after": 20
+    },
+    {
+      "conceptId": "FMA7359",
+      "before": 20,
+      "added": 1,
+      "after": 21
+    },
+    {
+      "conceptId": "FMA7361",
+      "before": 14,
+      "added": 1,
+      "after": 15
+    },
+    {
+      "conceptId": "FMA7360",
+      "before": 11,
+      "added": 1,
+      "after": 12
+    },
+    {
+      "conceptId": "FMA7366",
+      "before": 24,
+      "added": 1,
+      "after": 25
+    },
+    {
+      "conceptId": "FMA7364",
+      "before": 8,
+      "added": 1,
+      "after": 9
+    },
+    {
+      "conceptId": "FMA7363",
+      "before": 12,
+      "added": 1,
+      "after": 13
+    }
+  ],
+  "packageSha256": "e7de62e075b0676f8dd4f001e03cd01c4a83880b075b1136c27152c801fe9f0c",
+  "unusedRawPositions": []
+}

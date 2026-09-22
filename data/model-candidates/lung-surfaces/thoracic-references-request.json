@@ -1,0 +1,29 @@
+{
+  "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "method": "POST",
+  "ids": [
+    "FJ2541",
+    "FJ2882",
+    "FJ2902",
+    "FJ2924",
+    "FJ2966",
+    "FJ3019",
+    "FJ3228",
+    "FJ3334",
+    "FJ3204"
+  ],
+  "rep_id": [
+    "BP21463",
+    "BP19729",
+    "BP22249",
+    "BP22846",
+    "BP23682",
+    "BP22843",
+    "BP21704",
+    "BP20408",
+    "BP23548"
+  ],
+  "type": "art_file",
+  "all_downloads": 1,
+  "versionBasis": "FMA2Obj.txt version 4.3"
+}

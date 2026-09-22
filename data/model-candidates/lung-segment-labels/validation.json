@@ -1,0 +1,15 @@
+{
+  "scopedSegmentIds": 17,
+  "matchingRelationObjects": 17,
+  "newTrEnLaRecords": 17,
+  "retainedExisting": 0,
+  "exactBp3dIdNameMatches": 17,
+  "exactLatinStringMatches": 17,
+  "lateralityMatches": 17,
+  "unchangedBaseGeometrySets": 17,
+  "ignoredAlreadyLabeledLungObjects": [
+    "FMA7309",
+    "FMA7310"
+  ],
+  "sharedFilesWritten": false
+}

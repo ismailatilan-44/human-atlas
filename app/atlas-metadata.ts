@@ -10,8 +10,50 @@ const BRACHIAL_PLEXUS_IDS = new Set(brachialPlexus.labels.flatMap((entry) => ent
 const NERVOUS_PARTS = new Set(["FJ1730", "FJ1731", "FJ1752", "FJ1767", "FJ1814"]);
 // The source IS-A hierarchy identifies both lacrimal bones and inferior nasal conchae as bones.
 const SKULL_BONE_PARTS = new Set(["FJ3263", "FJ3265", "FJ3369", "FJ3371"]);
-// BodyParts3D IS-A places both subscapularis concepts under intrinsic muscle of shoulder.
-const MUSCLE_PARTS = new Set(["FJ1504", "FJ1504M"]);
+// Reviewed IS-A muscle organs use the muscle display layer, including pharyngeal muscles.
+// Anatomical region and source PART-OF context remain independent of the primary layer.
+const MUSCLE_PARTS = new Set([
+  "FJ1504",
+  "FJ1504M",
+  "FJ1409",
+  "FJ1409M",
+  "FJ1410",
+  "FJ1410M",
+  "FJ1411",
+  "FJ1411M",
+  "FJ1438",
+  "FJ1438M",
+  "FJ1439",
+  "FJ1439M",
+  "FJ1440",
+  "FJ1440M",
+  "FJ1532",
+  "FJ1532M",
+  "FJ2740",
+  "FJ2742",
+  "FJ2743",
+  "FJ2745",
+  "FJ2746",
+  "FJ2747",
+  "FJ2752",
+  "FJ2754",
+  "FJ2755",
+  "FJ2757",
+  "FJ2758",
+  "FJ2759",
+]);
+// These are hepatic organ-segment surfaces, not venous vessels (source IS-A FMA86140).
+const HEPATIC_SEGMENT_PARTS = new Set([
+  "FJ1858",
+  "FJ2409",
+  "FJ2818",
+  "FJ2819",
+  "FJ2820",
+  "FJ2821",
+  "FJ2822",
+  "FJ2823",
+  "FJ2824",
+]);
 
 /** Apply reviewed display metadata without mutating source data or geometry identities. */
 export function prepareAtlas(atlas: Atlas): Atlas {
@@ -24,7 +66,9 @@ export function prepareAtlas(atlas: Atlas): Atlas {
           ? "skeletal"
           : MUSCLE_PARTS.has(part.id)
             ? "muscular"
-            : part.system;
+            : HEPATIC_SEGMENT_PARTS.has(part.id)
+              ? "digestive"
+              : part.system;
       return system === part.system ? part : { ...part, system };
     }),
   };
@@ -51,7 +95,8 @@ export function getRepresentationNote(conceptId: string): string | undefined {
   if (conceptId === "FMA7647") {
     return "Omuriliğin uzunlamasına sinir dokusu ve mevcut merkez kanal parçası birlikte gösteriliyor. Kökler, zarlar ve ayrı segment modelleri bu pakete dahil değildir.";
   }
-  return undefined;
+  const label = LABELS_BY_ID.get(conceptId);
+  return label && "representationNoteTr" in label ? label.representationNoteTr : undefined;
 }
 
 const LABELS_BY_ID = new Map(
@@ -63,7 +108,10 @@ const LABELS_BY_ID = new Map(
 /** Outside reviewed label sets, retain the supplied source label. */
 export function anatomyLabel(id: string, fallback: string, language: AnatomyLanguage): string {
   const entry = LABELS_BY_ID.get(id);
-  const label = entry?.[language];
+  // A missing Latin term must not remove a reviewed source-group qualifier.
+  const label =
+    entry?.[language] ||
+    (entry && "sourceGroupLabel" in entry && entry.sourceGroupLabel ? entry.en : undefined);
   if (!entry || !label) return fallback;
   if (!entry.side) return label;
   // Retain the exact TA2 Latin term; L/R are side markers, not invented Latin declensions.

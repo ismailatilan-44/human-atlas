@@ -19,7 +19,7 @@
     {
       "id": "knowledge-snapshot",
       "path": "data/anatomy/knowledge.json",
-      "sha256": "b6dddf2b4f9f74c6be84e8d07e40e569f38b42136aa1e91c5af4bac0826d3d2c"
+      "sha256": "684117e12b668dff5772bf1b48578a8e65b1a8be2f18d53b6e13706a16c9197f"
     },
     {
       "id": "upper-arm-nerves",
@@ -166,6 +166,11 @@
       "sha256": "5a15ed3984eb26342693cf81a62272c573d9ae10949c8f5c27f1088514a4e702",
       "retrievedOn": "2026-09-22",
       "use": "Project selection of 22 existing bones; official IS-A/PART-OF membership and exclusion proof stored with review. Source FMA46565 remains unchanged."
+    },
+    {
+      "id": "lung-bp3d43",
+      "path": "public/models/extensions/lung-bp3d43.json",
+      "sha256": "2c2bb3a6bc1c82133015f9ddd21f600cb2eeaaf82dd7a345d62f35193191009c"
     }
   ],
   "regions": [
@@ -623,10 +628,19 @@
           "state": "existing",
           "currentBindings": [
             {
-              "sourceId": "human-atlas",
+              "sourceId": "lung-bp3d43",
               "conceptId": "FMA7310",
               "sourceName": "left lung",
               "geometryPartIds": [
+                "BP43-FJ6595",
+                "BP43-FJ6596",
+                "BP43-FJ6597",
+                "BP43-FJ6598",
+                "BP43-FJ6599",
+                "BP43-FJ6600",
+                "BP43-FJ6601",
+                "BP43-FJ6602",
+                "BP43-FJ6603",
                 "FJ2441",
                 "FJ2442",
                 "FJ2443",
@@ -754,10 +768,19 @@
               ]
             },
             {
-              "sourceId": "human-atlas",
+              "sourceId": "lung-bp3d43",
               "conceptId": "FMA7309",
               "sourceName": "right lung",
               "geometryPartIds": [
+                "BP43-FJ6604",
+                "BP43-FJ6605",
+                "BP43-FJ6606",
+                "BP43-FJ6607",
+                "BP43-FJ6608",
+                "BP43-FJ6609",
+                "BP43-FJ6610",
+                "BP43-FJ6611",
+                "BP43-FJ6612",
                 "FJ2041",
                 "FJ2044",
                 "FJ2449",
@@ -918,8 +941,9 @@
             }
           ],
           "expertReview": "pending",
-          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
-          "candidateIds": []
+          "note": "Mevcut280 bronş/damar yüzeyi korunarak18 segment dokusu yüzeyi eklendi: sağ165,sol133 parça. Beş lobun kaynak üyeliği korunur; tek birleşik/manifold akciğer veya klinik segmentasyon tamlığı iddiası yok. Sağ kaynak grupta akciğer altına düşen mevcutFJ2041/FJ2044 eşleşmesi incelemede.",
+          "candidateIds": [],
+          "representation": "registered_geometry"
         },
         {
           "id": "coverage:trachea",

@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal_only_not_applied",
+  "scope": "17 existing bronchopulmonary segment intermediate nodes only; no lung/lobe/parenchyma labels",
+  "entries": [
+    {
+      "ids": [
+        "FMA7372"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "apicoposterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2926",
+        "FJ2927",
+        "FJ2928",
+        "FJ2929",
+        "FJ2936",
+        "FJ2939",
+        "FJ2940",
+        "FJ2941",
+        "FJ2942",
+        "FJ2943",
+        "FJ2947",
+        "FJ2958",
+        "FJ2961",
+        "FJ2962",
+        "FJ2963",
+        "FJ2964",
+        "FJ2965"
+      ],
+      "tr": "Sol akciğer üst lob — apikoposterior segment",
+      "en": "Apicoposterior bronchopulmonary segment",
+      "la": "Segmentum apicoposterius pulmonis sinistri (SI+SII)",
+      "side": null,
+      "aliases": [
+        "apicoposterior bronchopulmonary segment",
+        "Sol akciğer üst lob apikoposterior segment"
+      ],
+      "ta2TableId": 3301,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7372"
+    },
+    {
+      "ids": [
+        "FMA7380"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left posterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2446",
+        "FJ2527",
+        "FJ2528",
+        "FJ2529",
+        "FJ2530",
+        "FJ2531",
+        "FJ2881",
+        "FJ2892",
+        "FJ2903",
+        "FJ2914",
+        "FJ2919",
+        "FJ2920",
+        "FJ2945",
+        "FJ2946",
+        "FJ2948",
+        "FJ2949"
+      ],
+      "tr": "Sol akciğer alt lob — posterior bazal segment",
+      "en": "Left posterior basal bronchopulmonary segment",
+      "la": "Segmentum basale posterius pulmonis sinistri (SX)",
+      "side": null,
+      "aliases": [
+        "left posterior basal bronchopulmonary segment",
+        "Sol akciğer alt lob posterior bazal segment"
+      ],
+      "ta2TableId": 3314,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7380"
+    },
+    {
+      "ids": [
+        "FMA7373"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left anterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2443",
+        "FJ2467",
+        "FJ2468",
+        "FJ2469",
+        "FJ2471",
+        "FJ2472",
+        "FJ2473",
+        "FJ2474",
+        "FJ2902",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910",
+        "FJ2930",
+        "FJ2931",
+        "FJ2932"
+      ],
+      "tr": "Sol akciğer üst lob — anterior segment",
+      "en": "Left anterior bronchopulmonary segment",
+      "la": "Segmentum anterius pulmonis sinistri (SIII)",
+      "side": null,
+      "aliases": [
+        "left anterior bronchopulmonary segment",
+        "Sol akciğer üst lob anterior segment"
+      ],
+      "ta2TableId": 3302,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7373"
+    },
+    {
+      "ids": [
+        "FMA7374"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "superior lingular bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2476",
+        "FJ2477",
+        "FJ2478",
+        "FJ2540",
+        "FJ2898",
+        "FJ2899",
+        "FJ2900",
+        "FJ2901",
+        "FJ2937",
+        "FJ2938"
+      ],
+      "tr": "Sol akciğer üst lob — üst lingular segment",
+      "en": "Superior lingular bronchopulmonary segment",
+      "la": "Segmentum lingulare superius pulmonis sinistri (SIV)",
+      "side": null,
+      "aliases": [
+        "superior lingular bronchopulmonary segment",
+        "Sol akciğer üst lob üst lingular segment"
+      ],
+      "ta2TableId": 3305,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7374"
+    },
+    {
+      "ids": [
+        "FMA7375"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "inferior lingular bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2441",
+        "FJ2475",
+        "FJ2896",
+        "FJ2897",
+        "FJ2934",
+        "FJ2935"
+      ],
+      "tr": "Sol akciğer üst lob — alt lingular segment",
+      "en": "Inferior lingular bronchopulmonary segment",
+      "la": "Segmentum lingulare inferius pulmonis sinistri (SV)",
+      "side": null,
+      "aliases": [
+        "inferior lingular bronchopulmonary segment",
+        "Sol akciğer üst lob alt lingular segment"
+      ],
+      "ta2TableId": 3306,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7375"
+    },
+    {
+      "ids": [
+        "FMA7376"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left superior bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2448",
+        "FJ2479",
+        "FJ2480",
+        "FJ2482",
+        "FJ2483",
+        "FJ2484",
+        "FJ2485",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895"
+      ],
+      "tr": "Sol akciğer alt lob — superior segment",
+      "en": "Left superior bronchopulmonary segment",
+      "la": "Segmentum superius pulmonis sinistri (SVI)",
+      "side": null,
+      "aliases": [
+        "left superior bronchopulmonary segment",
+        "Sol akciğer alt lob superior segment"
+      ],
+      "ta2TableId": 3309,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7376"
+    },
+    {
+      "ids": [
+        "FMA7378"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left anterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2535",
+        "FJ2536",
+        "FJ2538",
+        "FJ2883",
+        "FJ2886",
+        "FJ2887",
+        "FJ2956",
+        "FJ2957",
+        "FJ2959",
+        "FJ2960"
+      ],
+      "tr": "Sol akciğer alt lob — anterior bazal segment",
+      "en": "Left anterior basal bronchopulmonary segment",
+      "la": "Segmentum basale anterius pulmonis sinistri (SVIII)",
+      "side": null,
+      "aliases": [
+        "left anterior basal bronchopulmonary segment",
+        "Sol akciğer alt lob anterior bazal segment"
+      ],
+      "ta2TableId": 3312,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7378"
+    },
+    {
+      "ids": [
+        "FMA7379"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left lateral basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2445",
+        "FJ2532",
+        "FJ2533",
+        "FJ2534",
+        "FJ2882",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923",
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954"
+      ],
+      "tr": "Sol akciğer alt lob — lateral bazal segment",
+      "en": "Left lateral basal bronchopulmonary segment",
+      "la": "Segmentum basale laterale pulmonis sinistri (SIX)",
+      "side": null,
+      "aliases": [
+        "left lateral basal bronchopulmonary segment",
+        "Sol akciğer alt lob lateral bazal segment"
+      ],
+      "ta2TableId": 3313,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7379"
+    },
+    {
+      "ids": [
+        "FMA7338"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right apical bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2454",
+        "FJ2520",
+        "FJ2521",
+        "FJ2522",
+        "FJ2523",
+        "FJ2524",
+        "FJ2525",
+        "FJ2526",
+        "FJ2967",
+        "FJ2978",
+        "FJ2989",
+        "FJ3000",
+        "FJ3011",
+        "FJ3015",
+        "FJ3016",
+        "FJ3017",
+        "FJ3031",
+        "FJ3042",
+        "FJ3053",
+        "FJ3064",
+        "FJ3067",
+        "FJ3068"
+      ],
+      "tr": "Sağ akciğer üst lob — apikal segment",
+      "en": "Right apical bronchopulmonary segment",
+      "la": "Segmentum apicale pulmonis dextri (SI)",
+      "side": null,
+      "aliases": [
+        "right apical bronchopulmonary segment",
+        "Sağ akciğer üst lob apikal segment"
+      ],
+      "ta2TableId": 3285,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7333",
+        "lobeSourceName": "upper lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7338"
+    },
+    {
+      "ids": [
+        "FMA7362"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right posterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2457",
+        "FJ2470",
+        "FJ2481",
+        "FJ2486",
+        "FJ2487",
+        "FJ2489",
+        "FJ3008",
+        "FJ3009",
+        "FJ3010",
+        "FJ3012",
+        "FJ3013",
+        "FJ3014",
+        "FJ3041",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3057",
+        "FJ3058"
+      ],
+      "tr": "Sağ akciğer alt lob — posterior bazal segment",
+      "en": "Right posterior basal bronchopulmonary segment",
+      "la": "Segmentum basale posterius pulmonis dextri (SX)",
+      "side": null,
+      "aliases": [
+        "right posterior basal bronchopulmonary segment",
+        "Sağ akciğer alt lob posterior bazal segment"
+      ],
+      "ta2TableId": 3298,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7362"
+    },
+    {
+      "ids": [
+        "FMA7339"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right posterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2458",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519",
+        "FJ2968",
+        "FJ2969",
+        "FJ2970",
+        "FJ2971",
+        "FJ2972",
+        "FJ3018",
+        "FJ3022",
+        "FJ3023",
+        "FJ3024",
+        "FJ3025",
+        "FJ3026",
+        "FJ3069",
+        "FJ3070"
+      ],
+      "tr": "Sağ akciğer üst lob — posterior segment",
+      "en": "Right posterior bronchopulmonary segment",
+      "la": "Segmentum posterius pulmonis dextri (SII)",
+      "side": null,
+      "aliases": [
+        "right posterior bronchopulmonary segment",
+        "Sağ akciğer üst lob posterior segment"
+      ],
+      "ta2TableId": 3286,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7333",
+        "lobeSourceName": "upper lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7339"
+    },
+    {
+      "ids": [
+        "FMA7359"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right anterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2041",
+        "FJ2044",
+        "FJ2453",
+        "FJ2509",
+        "FJ2510",
+        "FJ2511",
+        "FJ2512",
+        "FJ2513",
+        "FJ2514",
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981",
+        "FJ3021",
+        "FJ3027",
+        "FJ3028",
+        "FJ3029"
+      ],
+      "tr": "Sağ akciğer üst lob — anterior segment",
+      "en": "Right anterior bronchopulmonary segment",
+      "la": "Segmentum anterius pulmonis dextri (SIII)",
+      "side": null,
+      "aliases": [
+        "right anterior bronchopulmonary segment",
+        "Sağ akciğer üst lob anterior segment"
+      ],
+      "ta2TableId": 3287,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7333",
+        "lobeSourceName": "upper lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7359"
+    },
+    {
+      "ids": [
+        "FMA7361"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "lateral bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2449",
+        "FJ2503",
+        "FJ2504",
+        "FJ2505",
+        "FJ2982",
+        "FJ2983",
+        "FJ2984",
+        "FJ2985",
+        "FJ3034",
+        "FJ3035",
+        "FJ3036",
+        "FJ3037",
+        "FJ3038",
+        "FJ3039"
+      ],
+      "tr": "Sağ akciğer orta lob — lateral segment",
+      "en": "Lateral bronchopulmonary segment",
+      "la": "Segmentum laterale pulmonis dextri (SIV)",
+      "side": null,
+      "aliases": [
+        "lateral bronchopulmonary segment",
+        "Sağ akciğer orta lob lateral segment"
+      ],
+      "ta2TableId": 3290,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7383",
+        "lobeSourceName": "middle lobe of lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7361"
+    },
+    {
+      "ids": [
+        "FMA7360"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "medial bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2451",
+        "FJ2506",
+        "FJ2507",
+        "FJ2508",
+        "FJ2986",
+        "FJ2987",
+        "FJ2988",
+        "FJ2990",
+        "FJ3030",
+        "FJ3032",
+        "FJ3033"
+      ],
+      "tr": "Sağ akciğer orta lob — medial segment",
+      "en": "Medial bronchopulmonary segment",
+      "la": "Segmentum mediale pulmonis dextri (SV)",
+      "side": null,
+      "aliases": [
+        "medial bronchopulmonary segment",
+        "Sağ akciğer orta lob medial segment"
+      ],
+      "ta2TableId": 3291,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7383",
+        "lobeSourceName": "middle lobe of lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7360"
+    },
+    {
+      "ids": [
+        "FMA7366"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right superior bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2459",
+        "FJ2495",
+        "FJ2496",
+        "FJ2497",
+        "FJ2498",
+        "FJ2499",
+        "FJ2500",
+        "FJ2501",
+        "FJ2502",
+        "FJ2991",
+        "FJ2992",
+        "FJ2993",
+        "FJ2994",
+        "FJ2995",
+        "FJ2996",
+        "FJ2997",
+        "FJ2998",
+        "FJ2999",
+        "FJ3050",
+        "FJ3051",
+        "FJ3052",
+        "FJ3063",
+        "FJ3065",
+        "FJ3066"
+      ],
+      "tr": "Sağ akciğer alt lob — superior segment",
+      "en": "Right superior bronchopulmonary segment",
+      "la": "Segmentum superius pulmonis dextri (SVI)",
+      "side": null,
+      "aliases": [
+        "right superior bronchopulmonary segment",
+        "Sağ akciğer alt lob superior segment"
+      ],
+      "ta2TableId": 3294,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7366"
+    },
+    {
+      "ids": [
+        "FMA7364"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right anterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2452",
+        "FJ2493",
+        "FJ2494",
+        "FJ3001",
+        "FJ3002",
+        "FJ3003",
+        "FJ3049",
+        "FJ3056"
+      ],
+      "tr": "Sağ akciğer alt lob — anterior bazal segment",
+      "en": "Right anterior basal bronchopulmonary segment",
+      "la": "Segmentum basale anterius pulmonis dextri (SVIII)",
+      "side": null,
+      "aliases": [
+        "right anterior basal bronchopulmonary segment",
+        "Sağ akciğer alt lob anterior bazal segment"
+      ],
+      "ta2TableId": 3296,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7364"
+    },
+    {
+      "ids": [
+        "FMA7363"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right lateral basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "FJ2455",
+        "FJ2490",
+        "FJ2491",
+        "FJ2492",
+        "FJ3004",
+        "FJ3005",
+        "FJ3006",
+        "FJ3007",
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062"
+      ],
+      "tr": "Sağ akciğer alt lob — lateral bazal segment",
+      "en": "Right lateral basal bronchopulmonary segment",
+      "la": "Segmentum basale laterale pulmonis dextri (SIX)",
+      "side": null,
+      "aliases": [
+        "right lateral basal bronchopulmonary segment",
+        "Sağ akciğer alt lob lateral bazal segment"
+      ],
+      "ta2TableId": 3297,
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Bu segment kavramı mevcut bronş ve damar yüzeylerini birlikte seçer. Segment parankimi ayrı bir alt kavramdır; ilişki etiketi mevcut geometri üyeliğini değiştirmez.",
+      "evidenceRef": "source-evidence.json#FMA7363"
+    }
+  ],
+  "retainExisting": [],
+  "sidePolicy": "TR and Latin already contain source-supported side. side:null avoids duplicate prefixes; original source English is retained.",
+  "geometryPolicy": "geometryPartIds is the unchanged current base-concept membership snapshot; labels must not rebind or replace geometry."
+}

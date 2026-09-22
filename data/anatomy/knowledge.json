@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "coverage": {
     "structural": "BodyParts3D source PART-OF snapshot",
-    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred; Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions; Bilateral rotator cuff origin/insertion regions and muscle-level innervation; bone-level context with named regions, no spatial attachment anchors; 22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.",
+    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred; Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions; Bilateral rotator cuff origin/insertion regions and muscle-level innervation; bone-level context with named regions, no spatial attachment anchors; 22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.; 17 direct source parenchyma-to-segment relations, existing segment/lobe/lung paths, and two separate project display-selection groups",
     "complete": false
   },
   "sources": [
@@ -717,6 +717,17 @@
       "sha256": "5a15ed3984eb26342693cf81a62272c573d9ae10949c8f5c27f1088514a4e702",
       "retrievedOn": "2026-09-22",
       "use": "Project selection of 22 existing bones; official IS-A/PART-OF membership and exclusion proof stored with review. Source FMA46565 remains unchanged."
+    },
+    {
+      "id": "extension-lung-bp3d43",
+      "title": "BodyParts3D 4.3 lung segment parenchyma surfaces",
+      "url": "https://lifesciencedb.jp/bp3d/?lng=en",
+      "path": "public/models/extensions/lung-bp3d43.json",
+      "sha256": "2c2bb3a6bc1c82133015f9ddd21f600cb2eeaaf82dd7a345d62f35193191009c",
+      "retrievedOn": "2026-09-22",
+      "sourceId": "bodyparts3d-4.3-live",
+      "attribution": "/models/extensions/LUNG-BP3D43-ATTRIBUTION.md",
+      "use": "18 official segment-parenchyma surfaces,17 source concepts,7 lung/lobe membership extensions. Independent no-fit thoracic coordinate checks; original280 bronchovascular surfaces retained. Source aggregate conflicts and geometry flaws recorded."
     }
   ],
   "geometryPartIds": [
@@ -2991,7 +3002,25 @@
     "ZA-BP-SUP-POST-DIV-R",
     "ZA-BP-MID-POST-DIV-R",
     "ZA-BP-INF-POST-DIV-R",
-    "ZA-BP-POST-CORD-R"
+    "ZA-BP-POST-CORD-R",
+    "BP43-FJ6595",
+    "BP43-FJ6596",
+    "BP43-FJ6597",
+    "BP43-FJ6598",
+    "BP43-FJ6599",
+    "BP43-FJ6600",
+    "BP43-FJ6601",
+    "BP43-FJ6602",
+    "BP43-FJ6603",
+    "BP43-FJ6604",
+    "BP43-FJ6605",
+    "BP43-FJ6606",
+    "BP43-FJ6607",
+    "BP43-FJ6608",
+    "BP43-FJ6609",
+    "BP43-FJ6610",
+    "BP43-FJ6611",
+    "BP43-FJ6612"
   ],
   "entities": [
     {
@@ -79973,6 +80002,8 @@
       "name": "right lung",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2041",
         "FJ2044",
@@ -80129,13 +80160,26 @@
         "FJ3067",
         "FJ3068",
         "FJ3069",
-        "FJ3070"
+        "FJ3070",
+        "BP43-FJ6604",
+        "BP43-FJ6605",
+        "BP43-FJ6606",
+        "BP43-FJ6607",
+        "BP43-FJ6608",
+        "BP43-FJ6609",
+        "BP43-FJ6610",
+        "BP43-FJ6611",
+        "BP43-FJ6612"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7309"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
         }
       ]
     },
@@ -80144,6 +80188,8 @@
       "name": "left lung",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2441",
         "FJ2442",
@@ -80268,13 +80314,26 @@
         "FJ2962",
         "FJ2963",
         "FJ2964",
-        "FJ2965"
+        "FJ2965",
+        "BP43-FJ6595",
+        "BP43-FJ6596",
+        "BP43-FJ6597",
+        "BP43-FJ6598",
+        "BP43-FJ6599",
+        "BP43-FJ6600",
+        "BP43-FJ6601",
+        "BP43-FJ6602",
+        "BP43-FJ6603"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7310"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
         }
       ]
     },
@@ -80283,6 +80342,8 @@
       "name": "upper lobe of right lung",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2041",
         "FJ2044",
@@ -80345,13 +80406,20 @@
         "FJ3067",
         "FJ3068",
         "FJ3069",
-        "FJ3070"
+        "FJ3070",
+        "BP43-FJ6604",
+        "BP43-FJ6606",
+        "BP43-FJ6607"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7333"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7333; registration"
         }
       ]
     },
@@ -80360,6 +80428,8 @@
       "name": "lower lobe of right lung",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2452",
         "FJ2455",
@@ -80429,13 +80499,21 @@
         "FJ3062",
         "FJ3063",
         "FJ3065",
-        "FJ3066"
+        "FJ3066",
+        "BP43-FJ6605",
+        "BP43-FJ6610",
+        "BP43-FJ6611",
+        "BP43-FJ6612"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7337"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7337; registration"
         }
       ]
     },
@@ -80444,6 +80522,8 @@
       "name": "right apical bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2454",
         "FJ2520",
@@ -80466,13 +80546,18 @@
         "FJ3053",
         "FJ3064",
         "FJ3067",
-        "FJ3068"
+        "FJ3068",
+        "BP43-FJ6604"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7338"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7338; registration"
         }
       ]
     },
@@ -80481,6 +80566,8 @@
       "name": "right posterior bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2458",
         "FJ2515",
@@ -80500,13 +80587,18 @@
         "FJ3025",
         "FJ3026",
         "FJ3069",
-        "FJ3070"
+        "FJ3070",
+        "BP43-FJ6606"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7339"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7339; registration"
         }
       ]
     },
@@ -80515,6 +80607,8 @@
       "name": "right anterior bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2041",
         "FJ2044",
@@ -80535,13 +80629,18 @@
         "FJ3021",
         "FJ3027",
         "FJ3028",
-        "FJ3029"
+        "FJ3029",
+        "BP43-FJ6607"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7359"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7359; registration"
         }
       ]
     },
@@ -80550,6 +80649,8 @@
       "name": "medial bronchopulmonary segment",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2451",
         "FJ2506",
@@ -80561,13 +80662,18 @@
         "FJ2990",
         "FJ3030",
         "FJ3032",
-        "FJ3033"
+        "FJ3033",
+        "BP43-FJ6609"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7360"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7360; registration"
         }
       ]
     },
@@ -80576,6 +80682,8 @@
       "name": "lateral bronchopulmonary segment",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2449",
         "FJ2503",
@@ -80590,13 +80698,18 @@
         "FJ3036",
         "FJ3037",
         "FJ3038",
-        "FJ3039"
+        "FJ3039",
+        "BP43-FJ6608"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7361"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7361; registration"
         }
       ]
     },
@@ -80605,6 +80718,8 @@
       "name": "right posterior basal bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2457",
         "FJ2470",
@@ -80626,13 +80741,18 @@
         "FJ3047",
         "FJ3048",
         "FJ3057",
-        "FJ3058"
+        "FJ3058",
+        "BP43-FJ6605"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7362"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7362; registration"
         }
       ]
     },
@@ -80641,6 +80761,8 @@
       "name": "right lateral basal bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2455",
         "FJ2490",
@@ -80653,13 +80775,18 @@
         "FJ3059",
         "FJ3060",
         "FJ3061",
-        "FJ3062"
+        "FJ3062",
+        "BP43-FJ6612"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7363"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7363; registration"
         }
       ]
     },
@@ -80668,6 +80795,8 @@
       "name": "right anterior basal bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2452",
         "FJ2493",
@@ -80676,13 +80805,18 @@
         "FJ3002",
         "FJ3003",
         "FJ3049",
-        "FJ3056"
+        "FJ3056",
+        "BP43-FJ6611"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7364"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7364; registration"
         }
       ]
     },
@@ -80710,6 +80844,8 @@
       "name": "right superior bronchopulmonary segment",
       "kind": "source_concept",
       "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2459",
         "FJ2495",
@@ -80734,13 +80870,18 @@
         "FJ3052",
         "FJ3063",
         "FJ3065",
-        "FJ3066"
+        "FJ3066",
+        "BP43-FJ6610"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7366"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7366; registration"
         }
       ]
     },
@@ -80749,6 +80890,8 @@
       "name": "upper lobe of left lung",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2441",
         "FJ2443",
@@ -80817,13 +80960,22 @@
         "FJ2962",
         "FJ2963",
         "FJ2964",
-        "FJ2965"
+        "FJ2965",
+        "BP43-FJ6595",
+        "BP43-FJ6597",
+        "BP43-FJ6598",
+        "BP43-FJ6599",
+        "BP43-FJ6600"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7370"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7370; registration"
         }
       ]
     },
@@ -80832,6 +80984,8 @@
       "name": "lower lobe of left lung",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2442",
         "FJ2445",
@@ -80888,13 +81042,21 @@
         "FJ2956",
         "FJ2957",
         "FJ2959",
-        "FJ2960"
+        "FJ2960",
+        "BP43-FJ6596",
+        "BP43-FJ6601",
+        "BP43-FJ6602",
+        "BP43-FJ6603"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7371"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7371; registration"
         }
       ]
     },
@@ -80903,6 +81065,8 @@
       "name": "apicoposterior bronchopulmonary segment",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2926",
         "FJ2927",
@@ -80920,13 +81084,19 @@
         "FJ2962",
         "FJ2963",
         "FJ2964",
-        "FJ2965"
+        "FJ2965",
+        "BP43-FJ6595",
+        "BP43-FJ6597"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7372"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7372; registration"
         }
       ]
     },
@@ -80935,6 +81105,8 @@
       "name": "left anterior bronchopulmonary segment",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2443",
         "FJ2467",
@@ -80954,13 +81126,18 @@
         "FJ2910",
         "FJ2930",
         "FJ2931",
-        "FJ2932"
+        "FJ2932",
+        "BP43-FJ6598"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7373"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7373; registration"
         }
       ]
     },
@@ -80969,6 +81146,8 @@
       "name": "superior lingular bronchopulmonary segment",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2476",
         "FJ2477",
@@ -80979,13 +81158,18 @@
         "FJ2900",
         "FJ2901",
         "FJ2937",
-        "FJ2938"
+        "FJ2938",
+        "BP43-FJ6599"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7374"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7374; registration"
         }
       ]
     },
@@ -80994,19 +81178,26 @@
       "name": "inferior lingular bronchopulmonary segment",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2441",
         "FJ2475",
         "FJ2896",
         "FJ2897",
         "FJ2934",
-        "FJ2935"
+        "FJ2935",
+        "BP43-FJ6600"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7375"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7375; registration"
         }
       ]
     },
@@ -81015,6 +81206,8 @@
       "name": "left superior bronchopulmonary segment",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2448",
         "FJ2479",
@@ -81029,13 +81222,18 @@
         "FJ2891",
         "FJ2893",
         "FJ2894",
-        "FJ2895"
+        "FJ2895",
+        "BP43-FJ6601"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7376"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7376; registration"
         }
       ]
     },
@@ -81063,6 +81261,8 @@
       "name": "left anterior basal bronchopulmonary segment",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2535",
         "FJ2536",
@@ -81073,13 +81273,18 @@
         "FJ2956",
         "FJ2957",
         "FJ2959",
-        "FJ2960"
+        "FJ2960",
+        "BP43-FJ6602"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7378"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7378; registration"
         }
       ]
     },
@@ -81088,6 +81293,8 @@
       "name": "left lateral basal bronchopulmonary segment",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2445",
         "FJ2532",
@@ -81100,13 +81307,18 @@
         "FJ2951",
         "FJ2952",
         "FJ2953",
-        "FJ2954"
+        "FJ2954",
+        "BP43-FJ6603"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7379"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7379; registration"
         }
       ]
     },
@@ -81115,6 +81327,8 @@
       "name": "left posterior basal bronchopulmonary segment",
       "kind": "source_concept",
       "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2446",
         "FJ2527",
@@ -81131,13 +81345,18 @@
         "FJ2945",
         "FJ2946",
         "FJ2948",
-        "FJ2949"
+        "FJ2949",
+        "BP43-FJ6596"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7380"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7380; registration"
         }
       ]
     },
@@ -81146,6 +81365,8 @@
       "name": "middle lobe of lung",
       "kind": "source_concept",
       "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
       "geometryPartIds": [
         "FJ2449",
         "FJ2451",
@@ -81171,13 +81392,19 @@
         "FJ3036",
         "FJ3037",
         "FJ3038",
-        "FJ3039"
+        "FJ3039",
+        "BP43-FJ6608",
+        "BP43-FJ6609"
       ],
-      "representationStatus": "unknown",
+      "representationStatus": "registered_geometry",
       "evidence": [
         {
           "sourceId": "human-atlas",
           "locator": "atlas.json / concepts / FMA7383"
+        },
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7383; registration"
         }
       ]
     },
@@ -101102,6 +101329,62 @@
       ]
     },
     {
+      "id": "atlas:right-lung-parenchyma-surfaces",
+      "name": "Right lung parenchyma surfaces",
+      "side": "right",
+      "kind": "display_group",
+      "geometryPartIds": [
+        "BP43-FJ6604",
+        "BP43-FJ6605",
+        "BP43-FJ6606",
+        "BP43-FJ6607",
+        "BP43-FJ6608",
+        "BP43-FJ6609",
+        "BP43-FJ6610",
+        "BP43-FJ6611",
+        "BP43-FJ6612"
+      ],
+      "representationStatus": "project_display_group",
+      "expertReview": "pending",
+      "anatomicalCoverage": "selected_source_parenchyma_surfaces_not_complete_organ_tissue",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "lung-parenchyma.json concepts[id=FMA7309].elements; sourceMembership; surfaceGroups; selected 9 BP43 parenchyma surface parts",
+          "snapshotSha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+        }
+      ],
+      "provenanceKind": "project_derived_selection_group"
+    },
+    {
+      "id": "atlas:left-lung-parenchyma-surfaces",
+      "name": "Left lung parenchyma surfaces",
+      "side": "left",
+      "kind": "display_group",
+      "geometryPartIds": [
+        "BP43-FJ6595",
+        "BP43-FJ6596",
+        "BP43-FJ6597",
+        "BP43-FJ6598",
+        "BP43-FJ6599",
+        "BP43-FJ6600",
+        "BP43-FJ6601",
+        "BP43-FJ6602",
+        "BP43-FJ6603"
+      ],
+      "representationStatus": "project_display_group",
+      "expertReview": "pending",
+      "anatomicalCoverage": "selected_source_parenchyma_surfaces_not_complete_organ_tissue",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "lung-parenchyma.json concepts[id=FMA7310].elements; sourceMembership; surfaceGroups; selected 9 BP43 parenchyma surface parts",
+          "snapshotSha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+        }
+      ],
+      "provenanceKind": "project_derived_selection_group"
+    },
+    {
       "id": "atlas:left-median-nerve",
       "name": "Left median nerve",
       "kind": "source_concept",
@@ -101857,6 +102140,313 @@
         {
           "sourceId": "extension-brachial-plexus",
           "locator": "/models/extensions/brachial-plexus.json / concepts / atlas:brachial-plexus; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27368",
+      "name": "Parenchyma of apicoposterior bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6595",
+        "BP43-FJ6597"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27368; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27394",
+      "name": "Parenchyma of left posterior basal bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6596"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27394; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27374",
+      "name": "Parenchyma of left anterior bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6598"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27374; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27375",
+      "name": "Parenchyma of superior lingular bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6599"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27375; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27376",
+      "name": "Parenchyma of inferior lingular bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6600"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27376; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27386",
+      "name": "Parenchyma of left superior bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6601"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27386; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27392",
+      "name": "Parenchyma of left anterior basal bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6602"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27392; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27390",
+      "name": "Parenchyma of left lateral basal bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6603"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27390; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27369",
+      "name": "Parenchyma of right apical bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6604"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27369; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27393",
+      "name": "Parenchyma of right posterior basal bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6605"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27393; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27371",
+      "name": "Parenchyma of right posterior bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6606"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27371; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27373",
+      "name": "Parenchyma of right anterior bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6607"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27373; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27452",
+      "name": "Parenchyma of lateral bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6608"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27452; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27448",
+      "name": "Parenchyma of medial bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": null,
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6609"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27448; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27385",
+      "name": "Parenchyma of right superior bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6610"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27385; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27391",
+      "name": "Parenchyma of right anterior basal bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6611"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27391; registration"
+        }
+      ]
+    },
+    {
+      "id": "FMA27389",
+      "name": "Parenchyma of right lateral basal bronchopulmonary segment",
+      "kind": "source_concept",
+      "side": "right",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ6612"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27389; registration"
         }
       ]
     }
@@ -128113,6 +128703,632 @@
       "qualifiers": {
         "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
       }
+    },
+    {
+      "id": "FMA27368|part_of|FMA7372",
+      "subject": "FMA27368",
+      "predicate": "part_of",
+      "object": "FMA7372",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27368.json#/images/0/partof_path2root/0/fma/0..1; FMA27368 constitutional_part_of FMA7372; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27368",
+          "snapshotSha256": "0baf5848fa34686c9e4cd4c8ba3b79dffe90315b0dce21420349114fc3d6c582"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27368",
+          "FMA7372",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27394|part_of|FMA7380",
+      "subject": "FMA27394",
+      "predicate": "part_of",
+      "object": "FMA7380",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27394.json#/images/0/partof_path2root/0/fma/0..1; FMA27394 constitutional_part_of FMA7380; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27394",
+          "snapshotSha256": "64c7ba205aac6430c794bb4deddd54a8033c6c7df847ea4020f5d022d35261b1"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27394",
+          "FMA7380",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27374|part_of|FMA7373",
+      "subject": "FMA27374",
+      "predicate": "part_of",
+      "object": "FMA7373",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27374.json#/images/0/partof_path2root/0/fma/0..1; FMA27374 constitutional_part_of FMA7373; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27374",
+          "snapshotSha256": "34ce9d49e3a870806e0074a1c296b8cbd9b1b3b720eb5f71c1db7f2a19621272"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27374",
+          "FMA7373",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27375|part_of|FMA7374",
+      "subject": "FMA27375",
+      "predicate": "part_of",
+      "object": "FMA7374",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27375.json#/images/0/partof_path2root/0/fma/0..1; FMA27375 constitutional_part_of FMA7374; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27375",
+          "snapshotSha256": "2d689cc004dede8904523a7338d9ca30876bcc524d73bd9bdece80f4f050958a"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27375",
+          "FMA7374",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27376|part_of|FMA7375",
+      "subject": "FMA27376",
+      "predicate": "part_of",
+      "object": "FMA7375",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27376.json#/images/0/partof_path2root/0/fma/0..1; FMA27376 constitutional_part_of FMA7375; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27376",
+          "snapshotSha256": "234e1a10fa5ba27a386d829fc93a6990865edfa3c6c3bc1f3f174eaaba7c0b85"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27376",
+          "FMA7375",
+          "FMA7370",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7370",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27386|part_of|FMA7376",
+      "subject": "FMA27386",
+      "predicate": "part_of",
+      "object": "FMA7376",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27386.json#/images/0/partof_path2root/0/fma/0..1; FMA27386 constitutional_part_of FMA7376; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27386",
+          "snapshotSha256": "21ba33eefd070e739af9ad267d394b91faf9180f9ce52a534c506f0411fe5bf8"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27386",
+          "FMA7376",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27392|part_of|FMA7378",
+      "subject": "FMA27392",
+      "predicate": "part_of",
+      "object": "FMA7378",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27392.json#/images/0/partof_path2root/0/fma/0..1; FMA27392 constitutional_part_of FMA7378; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27392",
+          "snapshotSha256": "e40ab6c63a6f8dfdc24eef4f0a3527362083289d55567da35328e152cc8926a3"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27392",
+          "FMA7378",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27390|part_of|FMA7379",
+      "subject": "FMA27390",
+      "predicate": "part_of",
+      "object": "FMA7379",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27390.json#/images/0/partof_path2root/0/fma/0..1; FMA27390 constitutional_part_of FMA7379; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27390",
+          "snapshotSha256": "698512a6992eb3e26c291e59ddb86d4ce5d5271fba1e440f0c0686ee86f35f5e"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27390",
+          "FMA7379",
+          "FMA7371",
+          "FMA7310"
+        ],
+        "navigationLobeId": "FMA7371",
+        "navigationLungId": "FMA7310",
+        "laterality": "left",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27369|part_of|FMA7338",
+      "subject": "FMA27369",
+      "predicate": "part_of",
+      "object": "FMA7338",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27369.json#/images/0/partof_path2root/0/fma/0..1; FMA27369 constitutional_part_of FMA7338; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27369",
+          "snapshotSha256": "d200dd781500e04b70cdd6d607f6260320f39a7fcd686207aab293c8a6ec884e"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27369",
+          "FMA7338",
+          "FMA7333",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7333",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27393|part_of|FMA7362",
+      "subject": "FMA27393",
+      "predicate": "part_of",
+      "object": "FMA7362",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27393.json#/images/0/partof_path2root/0/fma/0..1; FMA27393 constitutional_part_of FMA7362; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27393",
+          "snapshotSha256": "f15e2176547778a5cb14622f76189ebed2450df962236b8c2b0d29a52587a7a2"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27393",
+          "FMA7362",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27371|part_of|FMA7339",
+      "subject": "FMA27371",
+      "predicate": "part_of",
+      "object": "FMA7339",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27371.json#/images/0/partof_path2root/0/fma/0..1; FMA27371 constitutional_part_of FMA7339; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27371",
+          "snapshotSha256": "5a8e4db94557555c9564ec0392f3942ca9b518e59eebcdc50779bd26db3c9ba3"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27371",
+          "FMA7339",
+          "FMA7333",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7333",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27373|part_of|FMA7359",
+      "subject": "FMA27373",
+      "predicate": "part_of",
+      "object": "FMA7359",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27373.json#/images/0/partof_path2root/0/fma/0..1; FMA27373 constitutional_part_of FMA7359; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27373",
+          "snapshotSha256": "92eeec4b6e9e18d783ba64b10c912fdb55a03e98aad8b10e7ca63b06ce7bb8e6"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27373",
+          "FMA7359",
+          "FMA7333",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7333",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27452|part_of|FMA7361",
+      "subject": "FMA27452",
+      "predicate": "part_of",
+      "object": "FMA7361",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27452.json#/images/0/partof_path2root/0/fma/0..1; FMA27452 constitutional_part_of FMA7361; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27452",
+          "snapshotSha256": "01b73d5e05367a71d06725f1bc10175cdc50938dc59f8a5e4d86e5de53d1e7b6"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27452",
+          "FMA7361",
+          "FMA7383",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7383",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27448|part_of|FMA7360",
+      "subject": "FMA27448",
+      "predicate": "part_of",
+      "object": "FMA7360",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27448.json#/images/0/partof_path2root/0/fma/0..1; FMA27448 constitutional_part_of FMA7360; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27448",
+          "snapshotSha256": "d3c0f64f23db25d771217f326833a5e3d10fc17a5fe2b8b72abb76f4ac6b6b4a"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27448",
+          "FMA7360",
+          "FMA7383",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7383",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27385|part_of|FMA7366",
+      "subject": "FMA27385",
+      "predicate": "part_of",
+      "object": "FMA7366",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27385.json#/images/0/partof_path2root/0/fma/0..1; FMA27385 constitutional_part_of FMA7366; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27385",
+          "snapshotSha256": "e72252509eae70ac27bd79056cfa30d94010698331c5a861b4b7054f3a7ccbf0"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27385",
+          "FMA7366",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27391|part_of|FMA7364",
+      "subject": "FMA27391",
+      "predicate": "part_of",
+      "object": "FMA7364",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27391.json#/images/0/partof_path2root/0/fma/0..1; FMA27391 constitutional_part_of FMA7364; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27391",
+          "snapshotSha256": "34d0349e7e2bfa7c2c33496c56a63d313792c5b4ec376bd3721e3360e9b70f6f"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27391",
+          "FMA7364",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "FMA27389|part_of|FMA7363",
+      "subject": "FMA27389",
+      "predicate": "part_of",
+      "object": "FMA7363",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "source/FMA27389.json#/images/0/partof_path2root/0/fma/0..1; FMA27389 constitutional_part_of FMA7363; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+          "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27389",
+          "snapshotSha256": "97d5d6f0c3b7d17e0f96730581bb8885d430df957bf4cf969f2711487702439a"
+        }
+      ],
+      "status": "source_imported",
+      "expertReview": "pending",
+      "scope": "selected_parenchyma_navigation_non_exhaustive",
+      "qualifiers": {
+        "sourceRelation": "constitutional_part_of",
+        "directSourceParent": true,
+        "sourceDataVersion": "4.3",
+        "sourceTreeVersion": "FMA3.0",
+        "sourcePathToLung": [
+          "FMA27389",
+          "FMA7363",
+          "FMA7337",
+          "FMA7309"
+        ],
+        "navigationLobeId": "FMA7337",
+        "navigationLungId": "FMA7309",
+        "laterality": "right",
+        "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+        "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+      }
+    },
+    {
+      "id": "atlas:right-lung-parenchyma-surfaces|part_of|FMA7309",
+      "subject": "atlas:right-lung-parenchyma-surfaces",
+      "predicate": "part_of",
+      "object": "FMA7309",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "lung-parenchyma.json concepts[id=FMA7309].elements; sourceMembership; surfaceGroups; selected 9 BP43 parenchyma surface parts",
+          "snapshotSha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "project_display_selection",
+      "qualifiers": {
+        "semantics": "project display group of source parenchyma surfaces, not complete organ tissue assertion",
+        "provenanceKind": "project_derived_selection_group",
+        "directSourceParent": false,
+        "laterality": "right",
+        "sourceMembershipConceptId": "FMA7309",
+        "geometry": "Selection group only; no new anatomical FMA identity, surface geometry, segmentation completeness or spatial claim"
+      }
+    },
+    {
+      "id": "atlas:left-lung-parenchyma-surfaces|part_of|FMA7310",
+      "subject": "atlas:left-lung-parenchyma-surfaces",
+      "predicate": "part_of",
+      "object": "FMA7310",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "lung-parenchyma.json concepts[id=FMA7310].elements; sourceMembership; surfaceGroups; selected 9 BP43 parenchyma surface parts",
+          "snapshotSha256": "e8a3aa49020e9f6953e6f5d35cf39f2ef113c889d514c6da8cd4ede6bee5b614"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "project_display_selection",
+      "qualifiers": {
+        "semantics": "project display group of source parenchyma surfaces, not complete organ tissue assertion",
+        "provenanceKind": "project_derived_selection_group",
+        "directSourceParent": false,
+        "laterality": "left",
+        "sourceMembershipConceptId": "FMA7310",
+        "geometry": "Selection group only; no new anatomical FMA identity, surface geometry, segmentation completeness or spatial claim"
+      }
     }
   ],
   "assetBindings": [
@@ -130049,6 +131265,1446 @@
         {
           "sourceId": "extension-brachial-plexus",
           "locator": "/models/extensions/brachial-plexus.json / concepts / atlas:brachial-plexus; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27368",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6595_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6595"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27368; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27368",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6597_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6597"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27368; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27394",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6596_BP29748_FMA27394_Parenchyma of left posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6596"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27394; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27374",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6598_BP29733_FMA27374_Parenchyma of left anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6598"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27374; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27375",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6599_BP29752_FMA27375_Parenchyma of superior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6599"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27375; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27376",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6600_BP29730_FMA27376_Parenchyma of inferior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6600"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27376; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27386",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6601_BP29750_FMA27386_Parenchyma of left superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6601"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27386; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27392",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6602_BP29736_FMA27392_Parenchyma of left anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6602"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27392; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27390",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6603_BP29740_FMA27390_Parenchyma of left lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6603"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27390; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27369",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6604_BP29747_FMA27369_Parenchyma of right apical bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6604"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27369; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27393",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6605_BP29757_FMA27393_Parenchyma of right posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6605"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27393; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27371",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6606_BP29759_FMA27371_Parenchyma of right posterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6606"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27371; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27373",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6607_BP29754_FMA27373_Parenchyma of right anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6607"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27373; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27452",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6608_BP29731_FMA27452_Parenchyma of lateral bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6608"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27452; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27448",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6609_BP29735_FMA27448_Parenchyma of medial bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6609"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27448; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27385",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6610_BP29745_FMA27385_Parenchyma of right superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6610"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27385; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27391",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6611_BP29753_FMA27391_Parenchyma of right anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6611"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27391; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA27389",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6612_BP29741_FMA27389_Parenchyma of right lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6612"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA27389; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7333",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6604_BP29747_FMA27369_Parenchyma of right apical bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6604"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7333; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7333",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6606_BP29759_FMA27371_Parenchyma of right posterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6606"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7333; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7333",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6607_BP29754_FMA27373_Parenchyma of right anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6607"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7333; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7383",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6608_BP29731_FMA27452_Parenchyma of lateral bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6608"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7383; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7383",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6609_BP29735_FMA27448_Parenchyma of medial bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6609"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7383; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7337",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6605_BP29757_FMA27393_Parenchyma of right posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6605"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7337; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7337",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6610_BP29745_FMA27385_Parenchyma of right superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6610"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7337; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7337",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6611_BP29753_FMA27391_Parenchyma of right anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6611"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7337; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7337",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6612_BP29741_FMA27389_Parenchyma of right lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6612"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7337; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7370",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6595_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6595"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7370; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7370",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6597_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6597"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7370; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7370",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6598_BP29733_FMA27374_Parenchyma of left anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6598"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7370; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7370",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6599_BP29752_FMA27375_Parenchyma of superior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6599"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7370; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7370",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6600_BP29730_FMA27376_Parenchyma of inferior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6600"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7370; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7371",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6596_BP29748_FMA27394_Parenchyma of left posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6596"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7371; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7371",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6601_BP29750_FMA27386_Parenchyma of left superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6601"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7371; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7371",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6602_BP29736_FMA27392_Parenchyma of left anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6602"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7371; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7371",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6603_BP29740_FMA27390_Parenchyma of left lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6603"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7371; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6604_BP29747_FMA27369_Parenchyma of right apical bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6604"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6605_BP29757_FMA27393_Parenchyma of right posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6605"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6606_BP29759_FMA27371_Parenchyma of right posterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6606"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6607_BP29754_FMA27373_Parenchyma of right anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6607"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6608_BP29731_FMA27452_Parenchyma of lateral bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6608"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6609_BP29735_FMA27448_Parenchyma of medial bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6609"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6610_BP29745_FMA27385_Parenchyma of right superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6610"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6611_BP29753_FMA27391_Parenchyma of right anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6611"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7309",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6612_BP29741_FMA27389_Parenchyma of right lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6612"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7309; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6595_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6595"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6596_BP29748_FMA27394_Parenchyma of left posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6596"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6597_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6597"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6598_BP29733_FMA27374_Parenchyma of left anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6598"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6599_BP29752_FMA27375_Parenchyma of superior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6599"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6600_BP29730_FMA27376_Parenchyma of inferior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6600"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6601_BP29750_FMA27386_Parenchyma of left superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6601"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6602_BP29736_FMA27392_Parenchyma of left anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6602"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7310",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6603_BP29740_FMA27390_Parenchyma of left lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6603"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7310; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7372",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6595_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6595"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7372; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7372",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6597_BP29727_FMA27368_Parenchyma of apicoposterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6597"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7372; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7380",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6596_BP29748_FMA27394_Parenchyma of left posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6596"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7380; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7373",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6598_BP29733_FMA27374_Parenchyma of left anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6598"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7373; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7374",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6599_BP29752_FMA27375_Parenchyma of superior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6599"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7374; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7375",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6600_BP29730_FMA27376_Parenchyma of inferior lingular bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6600"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7375; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7376",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6601_BP29750_FMA27386_Parenchyma of left superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6601"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7376; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7378",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6602_BP29736_FMA27392_Parenchyma of left anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6602"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7378; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7379",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6603_BP29740_FMA27390_Parenchyma of left lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6603"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7379; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7338",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6604_BP29747_FMA27369_Parenchyma of right apical bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6604"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7338; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7362",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6605_BP29757_FMA27393_Parenchyma of right posterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6605"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7362; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7339",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6606_BP29759_FMA27371_Parenchyma of right posterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6606"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7339; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7359",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6607_BP29754_FMA27373_Parenchyma of right anterior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6607"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7359; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7361",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6608_BP29731_FMA27452_Parenchyma of lateral bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6608"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7361; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7360",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6609_BP29735_FMA27448_Parenchyma of medial bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6609"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7360; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7366",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6610_BP29745_FMA27385_Parenchyma of right superior bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6610"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7366; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7364",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6611_BP29753_FMA27391_Parenchyma of right anterior basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6611"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7364; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA7363",
+      "sourceId": "bodyparts3d-4.3-live",
+      "objectName": "lung_parenchyma_source/FJ6612_BP29741_FMA27389_Parenchyma of right lateral basal bronchopulmonary segment.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ6612"
+      ],
+      "registrationSourceId": "extension-lung-bp3d43",
+      "evidence": [
+        {
+          "sourceId": "extension-lung-bp3d43",
+          "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7363; registration"
         }
       ]
     }

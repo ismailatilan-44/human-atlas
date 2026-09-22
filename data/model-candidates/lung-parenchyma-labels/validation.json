@@ -1,0 +1,16 @@
+{
+  "scopedConcepts": 17,
+  "newTrEnRecords": 17,
+  "retainedExisting": 0,
+  "sourceSurfaceCount": 18,
+  "exactObjHeaderIdentityAndNameMatches": 18,
+  "exactConceptObjectMappingMatches": 17,
+  "verifiedSingleLobeMemberships": 17,
+  "nullLatin": 17,
+  "apicoposteriorConcept": "FMA27368",
+  "apicoposteriorSurfaceIds": [
+    "BP43-FJ6595",
+    "BP43-FJ6597"
+  ],
+  "sharedFilesWritten": false
+}

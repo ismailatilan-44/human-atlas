@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://lifesciencedb.jp/bp3d/info/license/index.html",
+    "filename": "bp3d-live-license.html",
+    "sha256": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e",
+    "identicalToPreviouslyReviewedSnapshot": true
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+    "filename": "bp3d-v43-mapping.zip",
+    "sha256": "fa6e9d5c92ed1e5bb86dcabfc5f5e039fdd9130ce28f05f1c33c71699e8f768a",
+    "identicalToPreviouslyReviewedSnapshot": false,
+    "returnedPayloadHeaders": {
+      "Data Version": "4.3",
+      "Objects set": "4.3",
+      "Tree version": "FMA3.0"
+    },
+    "extractedPayloadSha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f",
+    "extractedPayloadIdenticalToPreviouslyReviewedSnapshot": true,
+    "conceptBuildId": "not supplied by mapping endpoint; companion direct-parent evidence separately pins cb_id=5 for FMA3.0"
+  },
+  {
+    "provenanceKind": "companion_reviewed_source_snapshot",
+    "filename": "direct-parent-source-evidence.json",
+    "sha256": "f9084021a159bbc135130e365d424e89cba2b3b2c5692648656a3ea904331ec9",
+    "sourceTreeVersion": "FMA3.0",
+    "pinnedParameters": {
+      "version": "4.3",
+      "ci_id": 1,
+      "cb_id": 5,
+      "md_id": 1,
+      "mv_id": 6,
+      "mr_id": 1
+    },
+    "note": "Source URLs and individual snapshot hashes retained per relation; each parent geometry membership independently checked against official retained FMA2Obj part_of row."
+  }
+]

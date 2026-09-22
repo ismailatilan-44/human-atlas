@@ -88,3 +88,29 @@ Kabul: ASCII karaciger→Karaciğer→Hepar aramasında 60 parça; 22 kemikli iz
 Yayın kabulü: kaynak `87e9280e5274b416eec58d82193c383e0a8f2fa1`, statik dal `a04aa6c02863b644e5026559ecdfb9573be18625`. Pages #35672193897 başarılı; canlı release.json kaynak sürümüyle eşleşti. Gerçek adreste `kafatasi` araması 43 parçalık kaynak grubunu ve 22 kemiklik seçimi ayrı gösterdi; 22 kemiklik izole geometri ve Türkçe üyeler görüldü. Sol subskapularis kas olarak sınıflanıyor; dört kaynaklı bağlantı, tutunma bölgesi notu ve saydam çevre görünümü doğrulandı. Konsol hata kaydı boş.
 
 Sonraki somut paket: temel modelin resmi IS-A sınıflarıyla kemik/kas katman denetimi ve toraks/abdomen hedeflerinden tek ilişki adımıyla erişilen organ alt yapılarının etiketleri. Bunlar hazırlanan aday çalışmalardır; mevcut yayında tamamlandı sayılmaz.
+
+## Güncel durum ayrımı — 22 Eylül, kullanıcıya durum açıklaması
+
+Canlı `release.json` yeniden kontrol edildi: `87e9280e5274b416eec58d82193c383e0a8f2fa1`. Aşağıdaki yeni işler bu yayına henüz dahil değildir:
+
+- Yerelde 23 organ-komşusu etiketi eklendi; aktif etiket dosyası 178 kayda çıktı. Temsil sınırı gereken kayıtlarda açıklama gösterimi eklendi.
+- Resmî kas sınıfı kanıtıyla 26 parçanın birincil görüntüleme katmanı kas olarak düzeltildi. Bunların 12'si farenks kasıdır; solunum bölgesiyle kaynak ilişkileri korunur. Bu, ham kaynak hiyerarşisini değiştiren bir karar değildir.
+- 26 kas etiketi ve 23 ek organ-komşusu etiketi aday paketlerde hazır; aktif dosyaya entegrasyon ve son görsel kabul bekler. İkinci paketin Latince karşılıkları henüz doğrulanmış görüntü etiketleri değildir.
+- BodyParts3D 4.3 eşlemesinde 18 pulmoner segment parankimi adayı bulundu. Geometri ve koordinat incelemesi sürüyor; tam akciğer/lob yüzeyi kabulü yapılmadı.
+
+Sıradaki teslim önce etiket/sınıflandırma paketinin kontrol edilip yayımlanması, ardından doğrulanabilen organ yüzeyi eksiklerinin tamamlanmasıdır. Sonra bölgesel sinir/ilişki ayrıntıları ve kullanım kalitesi genişletilir. Ders katmanı daha sonra mevcut yapı kimlikleri ve kayıtlı görünümler üzerine kurulur.
+
+Her bölgesel paket için kabul ölçütü: gerçekten bulunan yüzeyler ve eksikler açık; yapı adı/tarafı doğru; kaynak ve dönüşüm izlenebilir; seçme/odak/saydamlık ve mevcut ilişkiler çalışır; ilgili masaüstü/mobil akış görülür; yayımlanan sürüm doğrulanır. 65 hedeflik liste tüm tıp müfredatının bitiş ölçütü değildir. Tam müfredat kapsamı ayrıca yapılandırılmalıdır; uzman incelemesi ve gerçek cihaz performansı henüz kapanmış değildir.
+
+
+## Akciğer dokusu, etiket ve katman paketi — yerel kabul, 22 Eylül
+
+Yeni paket ana modele 18 BodyParts3D 4.3 segment dokusu yüzeyi ekler: toplam 2.290 parça (2.234 temel  + 56 ek). Ayrı kadın 27 / iç kulak 6 sahneleri değişmez. Geometri kaydı 41 kavram içerir; 24 mevcut akciğer/lob/segment kavramı eski üyeleri korunarak genişler. Sağ akciğer 165, sol 133 parça. Binary 3.463.404 byte / gzip 1.878.677 byte; dokuz bağımsız aynı-kimlikli toraks referansında uyarlama yapılmadan RMS 0,0043–0,0813 mm. Bu ölçüm anatomist onayı değildir. Üç dar kaynak aggregate çelişkisi kullanılmadı; FJ6598 kaynak topoloji/normal kusuru kayıtta korunur. [Kaynak raporu](../../data/model-candidates/lung-surfaces/REVIEW.md).
+
+17 gerçek parankim→segment bağlantısı ve iki proje doku-seçim grubu/ilişkisi eklendi. Resmî 4.3 / FMA3.0 kaynak sorguları sürüm kimlikleriyle sabitlendi; mevcut 22 segment/lob/akciğer kenarı tekrar kullanılmaktadır. Grafik 3.514 kavram / 1.524 ilişki / 168 asset bağı. Doku grupları 9'ar yüzeyi birlikte seçip gizlemeye yarar. Tam parankim segmentasyonu veya tüm atlas ilişkilerinin bittiği iddia edilmez.
+
+Etiket 155 → 271 kayıt:46 organ komşusu, 26 kas, 8 hepatovenöz segment, 17 parankim, 17 bronkopulmoner segment ve 2 doku grubu. 26 kas ile 9karaciğer dokusu parçasının katmanı düzeltildi. 12 geniş kaynak grubunun nitelemesi Latin modunda da korunur. Toraks/abdomen ilişkilerinden ulaşılan 48 komşuda TR/EN eksiği 0, Latin eksiği 25; bu bütün atlas çevirisi değildir.
+
+Yerel görsel kabul: sağ 165 parçalı akciğer yüzeyi, sol 9 parçalı doku grubu, dokuyu gizledikten sonra 37 parçalı sol pulmoner arteri saydam çevrede inceleme; parankim 2 → segment 19 → lob 73 → akciğer 133 gerçek düğme akışı. Mobil 390×844 Türkçe arama iki ayrı segment/parankim sonucunu verdi, Latince segment başlığı ve geometri görüldü. Kas ve karaciğer katmanları ile kaynak-grubu dil değişimi de kontrol edildi. TypeScript, mevcut 5 grafik testi ve etkileşim doğrulayıcısı geçti; tarayıcı hata kaydı boş. Üretim derlemesi/yayın kabulü ayrıca kaydedilecek.
+
+Açık yeni bulgu: eski sağ akciğer grubu içinde FJ2041/FJ2044 yüzeyleri akciğerin altında kalıyor. Mevcut kaynak üyeliği sessizce değiştirilmedi; sağ akciğer/üst lob/anterior segment seçiminde açıklama var. Eşleşmeleri ayrı aday çalışmada inceleniyor. Sonraki somut iş bu kaynak uyuşmazlığını çözmek ve ilgili damar/bronş alt adlarını genişletmek; daha geniş model kapsamı, gerçek cihaz ve uzman inceleme işleri açık kalır.

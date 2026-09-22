@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal_only_not_applied",
+  "scope": "17 segment-parenchyma concepts represented by 18 source surfaces; no aggregate lung/lobe labels added",
+  "entries": [
+    {
+      "ids": [
+        "FMA27368"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of apicoposterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6595",
+        "BP43-FJ6597"
+      ],
+      "tr": "Sol akciğer üst lob — apikoposterior segment parankimi",
+      "en": "Parenchyma of apicoposterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "apikoposterior bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz. Bu tek kavram iki kaynak yüzeyi birlikte içerir (FJ6595 ve FJ6597); iki ayrı segment kimliği oluşturulmaz.",
+      "evidenceRef": "source-evidence.json#FMA27368"
+    },
+    {
+      "ids": [
+        "FMA27394"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of left posterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6596"
+      ],
+      "tr": "Sol akciğer alt lob — posterior bazal segment parankimi",
+      "en": "Parenchyma of left posterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "posterior bazal bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27394"
+    },
+    {
+      "ids": [
+        "FMA27374"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of left anterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6598"
+      ],
+      "tr": "Sol akciğer üst lob — anterior segment parankimi",
+      "en": "Parenchyma of left anterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27374"
+    },
+    {
+      "ids": [
+        "FMA27375"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of superior lingular bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6599"
+      ],
+      "tr": "Sol akciğer üst lob — üst lingular segment parankimi",
+      "en": "Parenchyma of superior lingular bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "üst lingular bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27375"
+    },
+    {
+      "ids": [
+        "FMA27376"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of inferior lingular bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6600"
+      ],
+      "tr": "Sol akciğer üst lob — alt lingular segment parankimi",
+      "en": "Parenchyma of inferior lingular bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "alt lingular bronkopulmoner segment parankimi",
+        "left upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7370",
+        "lobeSourceName": "upper lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27376"
+    },
+    {
+      "ids": [
+        "FMA27386"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of left superior bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6601"
+      ],
+      "tr": "Sol akciğer alt lob — superior segment parankimi",
+      "en": "Parenchyma of left superior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "superior bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27386"
+    },
+    {
+      "ids": [
+        "FMA27392"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of left anterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6602"
+      ],
+      "tr": "Sol akciğer alt lob — anterior bazal segment parankimi",
+      "en": "Parenchyma of left anterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bazal bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27392"
+    },
+    {
+      "ids": [
+        "FMA27390"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of left lateral basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6603"
+      ],
+      "tr": "Sol akciğer alt lob — lateral bazal segment parankimi",
+      "en": "Parenchyma of left lateral basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "lateral bazal bronkopulmoner segment parankimi",
+        "left lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "left",
+        "lobeConceptId": "FMA7371",
+        "lobeSourceName": "lower lobe of left lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27390"
+    },
+    {
+      "ids": [
+        "FMA27369"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right apical bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6604"
+      ],
+      "tr": "Sağ akciğer üst lob — apikal segment parankimi",
+      "en": "Parenchyma of right apical bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "apikal bronkopulmoner segment parankimi",
+        "right upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7333",
+        "lobeSourceName": "upper lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27369"
+    },
+    {
+      "ids": [
+        "FMA27393"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right posterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6605"
+      ],
+      "tr": "Sağ akciğer alt lob — posterior bazal segment parankimi",
+      "en": "Parenchyma of right posterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "posterior bazal bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27393"
+    },
+    {
+      "ids": [
+        "FMA27371"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right posterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6606"
+      ],
+      "tr": "Sağ akciğer üst lob — posterior segment parankimi",
+      "en": "Parenchyma of right posterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "posterior bronkopulmoner segment parankimi",
+        "right upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7333",
+        "lobeSourceName": "upper lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27371"
+    },
+    {
+      "ids": [
+        "FMA27373"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right anterior bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6607"
+      ],
+      "tr": "Sağ akciğer üst lob — anterior segment parankimi",
+      "en": "Parenchyma of right anterior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bronkopulmoner segment parankimi",
+        "right upper lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7333",
+        "lobeSourceName": "upper lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27373"
+    },
+    {
+      "ids": [
+        "FMA27452"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of lateral bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6608"
+      ],
+      "tr": "Sağ akciğer orta lob — lateral segment parankimi",
+      "en": "Parenchyma of lateral bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "lateral bronkopulmoner segment parankimi",
+        "right middle lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7383",
+        "lobeSourceName": "middle lobe of lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27452"
+    },
+    {
+      "ids": [
+        "FMA27448"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of medial bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6609"
+      ],
+      "tr": "Sağ akciğer orta lob — medial segment parankimi",
+      "en": "Parenchyma of medial bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "medial bronkopulmoner segment parankimi",
+        "right middle lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7383",
+        "lobeSourceName": "middle lobe of lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27448"
+    },
+    {
+      "ids": [
+        "FMA27385"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right superior bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6610"
+      ],
+      "tr": "Sağ akciğer alt lob — superior segment parankimi",
+      "en": "Parenchyma of right superior bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "superior bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27385"
+    },
+    {
+      "ids": [
+        "FMA27391"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right anterior basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6611"
+      ],
+      "tr": "Sağ akciğer alt lob — anterior bazal segment parankimi",
+      "en": "Parenchyma of right anterior basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "anterior bazal bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27391"
+    },
+    {
+      "ids": [
+        "FMA27389"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Parenchyma of right lateral basal bronchopulmonary segment",
+      "geometryPartIds": [
+        "BP43-FJ6612"
+      ],
+      "tr": "Sağ akciğer alt lob — lateral bazal segment parankimi",
+      "en": "Parenchyma of right lateral basal bronchopulmonary segment",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "lateral bazal bronkopulmoner segment parankimi",
+        "right lower lobe parenchyma"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "latinStatus": "withheld_no_exact_parenchyma_scope_term",
+      "context": {
+        "side": "right",
+        "lobeConceptId": "FMA7337",
+        "lobeSourceName": "lower lobe of right lung"
+      },
+      "scopeNoteTr": "Kaynak segment parankiminin yüzey modelidir; bronş, damar veya segmentin tüm bileşenleri olarak adlandırılmaz.",
+      "evidenceRef": "source-evidence.json#FMA27389"
+    }
+  ],
+  "retainExisting": [],
+  "sidePolicy": "Display TR already contains verified side and lobe, so entry.side is null to avoid duplicated prefixes. Original English source names are preserved exactly. Context/aliases add source-supported lobe information.",
+  "latinPolicy": "Segment-only Latin terms do not translate parenchyma identities. All la fields null; no synthetic Latin parenchyma terms."
+}

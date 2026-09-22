@@ -1,0 +1,2278 @@
+{
+  "schemaVersion": 1,
+  "inputSnapshots": [
+    {
+      "path": "data/model-candidates/lung-parenchyma-relations/module-proposal.json",
+      "sha256": "4386292dfbd910a24e00502b68e0f24023b8d6c3a13e9f9ab7e2ce3090b3740f"
+    },
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "data/model-candidates/lung-parenchyma-labels/proposals.json",
+      "sha256": "885d8f4f9026c6c717c58d29f5587202b1d73b10106b78d2b5e244a33129639e"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "2f996aad83a8c753fce0e08c74f8bd6e941a332b20a1d5220f35ed9bd66df304"
+    },
+    {
+      "path": "app/atlas-metadata.ts",
+      "sha256": "ee702289073cecd789dedd45d89834a9a28b2151a580e17f58ae327cb1e03005"
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt"
+    },
+    {
+      "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_parts_list_e.txt"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv"
+    }
+  ],
+  "entries": [
+    {
+      "id": "FMA7372",
+      "sourceEnglish": "apicoposterior bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 135,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "apicoposterior bronchopulmonary segment",
+          "representationId": "BP9577"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3301,
+        "english": "Apicoposterior segment of left lung (SI+SII)",
+        "latin": "Segmentum apicoposterius pulmonis sinistri (SI+SII)",
+        "line": 3393
+      },
+      "sourceParentRelation": {
+        "id": "FMA27368|part_of|FMA7372",
+        "subject": "FMA27368",
+        "predicate": "part_of",
+        "object": "FMA7372",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27368.json#/images/0/partof_path2root/0/fma/0..1; FMA27368 constitutional_part_of FMA7372; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27368",
+            "snapshotSha256": "0baf5848fa34686c9e4cd4c8ba3b79dffe90315b0dce21420349114fc3d6c582"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27368",
+            "FMA7372",
+            "FMA7370",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7370",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2926",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2927",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2928",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2929",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2936",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2939",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2940",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2941",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2942",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2943",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        },
+        {
+          "id": "FJ2947",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2958",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2961",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2962",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2963",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2964",
+          "name": "Left apical segmental vein",
+          "conceptId": "FMA9437"
+        },
+        {
+          "id": "FJ2965",
+          "name": "Left posterior segmental vein",
+          "conceptId": "FMA9438"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27368"
+    },
+    {
+      "id": "FMA7380",
+      "sourceEnglish": "left posterior basal bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 143,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "left posterior basal bronchopulmonary segment",
+          "representationId": "BP9513"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3314,
+        "english": "Posterior basal segment of left lung (SX)",
+        "latin": "Segmentum basale posterius pulmonis sinistri (SX)",
+        "line": 3406
+      },
+      "sourceParentRelation": {
+        "id": "FMA27394|part_of|FMA7380",
+        "subject": "FMA27394",
+        "predicate": "part_of",
+        "object": "FMA7380",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27394.json#/images/0/partof_path2root/0/fma/0..1; FMA27394 constitutional_part_of FMA7380; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27394",
+            "snapshotSha256": "64c7ba205aac6430c794bb4deddd54a8033c6c7df847ea4020f5d022d35261b1"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27394",
+            "FMA7380",
+            "FMA7371",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7371",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2446",
+          "name": "Left posterior basal segmental bronchial tree",
+          "conceptId": "FMA68233"
+        },
+        {
+          "id": "FJ2527",
+          "name": "Left posterior basal segmental bronchial tree",
+          "conceptId": "FMA68233"
+        },
+        {
+          "id": "FJ2528",
+          "name": "Left posterior basal segmental bronchial tree",
+          "conceptId": "FMA68233"
+        },
+        {
+          "id": "FJ2529",
+          "name": "Left posterior basal segmental bronchial tree",
+          "conceptId": "FMA68233"
+        },
+        {
+          "id": "FJ2530",
+          "name": "Left posterior basal segmental bronchial tree",
+          "conceptId": "FMA68233"
+        },
+        {
+          "id": "FJ2531",
+          "name": "Left posterior basal segmental bronchial tree",
+          "conceptId": "FMA68233"
+        },
+        {
+          "id": "FJ2881",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2892",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2903",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2914",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2919",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2920",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2945",
+          "name": "Left posterior basal segmental vein",
+          "conceptId": "FMA9451"
+        },
+        {
+          "id": "FJ2946",
+          "name": "Left posterior basal segmental vein",
+          "conceptId": "FMA9451"
+        },
+        {
+          "id": "FJ2948",
+          "name": "Left posterior basal segmental vein",
+          "conceptId": "FMA9451"
+        },
+        {
+          "id": "FJ2949",
+          "name": "Left posterior basal segmental vein",
+          "conceptId": "FMA9451"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27394"
+    },
+    {
+      "id": "FMA7373",
+      "sourceEnglish": "left anterior bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 136,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "left anterior bronchopulmonary segment",
+          "representationId": "BP9475"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3302,
+        "english": "Anterior segment of left lung (SIII)",
+        "latin": "Segmentum anterius pulmonis sinistri (SIII)",
+        "line": 3394
+      },
+      "sourceParentRelation": {
+        "id": "FMA27374|part_of|FMA7373",
+        "subject": "FMA27374",
+        "predicate": "part_of",
+        "object": "FMA7373",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27374.json#/images/0/partof_path2root/0/fma/0..1; FMA27374 constitutional_part_of FMA7373; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27374",
+            "snapshotSha256": "34ce9d49e3a870806e0074a1c296b8cbd9b1b3b720eb5f71c1db7f2a19621272"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27374",
+            "FMA7373",
+            "FMA7370",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7370",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2443",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2467",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2468",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2469",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2471",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2472",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2473",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2474",
+          "name": "Left anterior segmental bronchial tree",
+          "conceptId": "FMA68222"
+        },
+        {
+          "id": "FJ2902",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2904",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2905",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2906",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2907",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2908",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2909",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2910",
+          "name": "Left anterior segmental artery",
+          "conceptId": "FMA13279"
+        },
+        {
+          "id": "FJ2930",
+          "name": "Left anterior segmental vein",
+          "conceptId": "FMA8667"
+        },
+        {
+          "id": "FJ2931",
+          "name": "Left anterior segmental vein",
+          "conceptId": "FMA8667"
+        },
+        {
+          "id": "FJ2932",
+          "name": "Left anterior segmental vein",
+          "conceptId": "FMA8667"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27374"
+    },
+    {
+      "id": "FMA7374",
+      "sourceEnglish": "superior lingular bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 137,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "superior lingular bronchopulmonary segment",
+          "representationId": "BP9566"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3305,
+        "english": "Superior lingular segment of left lung (SIV)",
+        "latin": "Segmentum lingulare superius pulmonis sinistri (SIV)",
+        "line": 3397
+      },
+      "sourceParentRelation": {
+        "id": "FMA27375|part_of|FMA7374",
+        "subject": "FMA27375",
+        "predicate": "part_of",
+        "object": "FMA7374",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27375.json#/images/0/partof_path2root/0/fma/0..1; FMA27375 constitutional_part_of FMA7374; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27375",
+            "snapshotSha256": "2d689cc004dede8904523a7338d9ca30876bcc524d73bd9bdece80f4f050958a"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27375",
+            "FMA7374",
+            "FMA7370",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7370",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2476",
+          "name": "Superior lingular bronchial tree",
+          "conceptId": "FMA68226"
+        },
+        {
+          "id": "FJ2477",
+          "name": "Superior lingular bronchial tree",
+          "conceptId": "FMA68226"
+        },
+        {
+          "id": "FJ2478",
+          "name": "Superior lingular bronchial tree",
+          "conceptId": "FMA68226"
+        },
+        {
+          "id": "FJ2540",
+          "name": "Superior lingular bronchial tree",
+          "conceptId": "FMA68226"
+        },
+        {
+          "id": "FJ2898",
+          "name": "Superior lingular artery",
+          "conceptId": "FMA8639"
+        },
+        {
+          "id": "FJ2899",
+          "name": "Superior lingular artery",
+          "conceptId": "FMA8639"
+        },
+        {
+          "id": "FJ2900",
+          "name": "Superior lingular artery",
+          "conceptId": "FMA8639"
+        },
+        {
+          "id": "FJ2901",
+          "name": "Superior lingular artery",
+          "conceptId": "FMA8639"
+        },
+        {
+          "id": "FJ2937",
+          "name": "Superior lingular vein",
+          "conceptId": "FMA8668"
+        },
+        {
+          "id": "FJ2938",
+          "name": "Superior lingular vein",
+          "conceptId": "FMA8668"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27375"
+    },
+    {
+      "id": "FMA7375",
+      "sourceEnglish": "inferior lingular bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 138,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "inferior lingular bronchopulmonary segment",
+          "representationId": "BP9500"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3306,
+        "english": "Inferior lingular segment of left lung (SV)",
+        "latin": "Segmentum lingulare inferius pulmonis sinistri (SV)",
+        "line": 3398
+      },
+      "sourceParentRelation": {
+        "id": "FMA27376|part_of|FMA7375",
+        "subject": "FMA27376",
+        "predicate": "part_of",
+        "object": "FMA7375",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27376.json#/images/0/partof_path2root/0/fma/0..1; FMA27376 constitutional_part_of FMA7375; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27376",
+            "snapshotSha256": "234e1a10fa5ba27a386d829fc93a6990865edfa3c6c3bc1f3f174eaaba7c0b85"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27376",
+            "FMA7375",
+            "FMA7370",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7370",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2441",
+          "name": "Inferior lingular bronchial tree",
+          "conceptId": "FMA68227"
+        },
+        {
+          "id": "FJ2475",
+          "name": "Inferior lingular bronchial tree",
+          "conceptId": "FMA68227"
+        },
+        {
+          "id": "FJ2896",
+          "name": "Inferior lingular artery",
+          "conceptId": "FMA8640"
+        },
+        {
+          "id": "FJ2897",
+          "name": "Inferior lingular artery",
+          "conceptId": "FMA8640"
+        },
+        {
+          "id": "FJ2934",
+          "name": "Inferior lingular vein",
+          "conceptId": "FMA8669"
+        },
+        {
+          "id": "FJ2935",
+          "name": "Inferior lingular vein",
+          "conceptId": "FMA8669"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27376"
+    },
+    {
+      "id": "FMA7376",
+      "sourceEnglish": "left superior bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 139,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "left superior bronchopulmonary segment",
+          "representationId": "BP9420"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3309,
+        "english": "Superior segment of left lung (SVI)",
+        "latin": "Segmentum superius pulmonis sinistri (SVI)",
+        "line": 3401
+      },
+      "sourceParentRelation": {
+        "id": "FMA27386|part_of|FMA7376",
+        "subject": "FMA27386",
+        "predicate": "part_of",
+        "object": "FMA7376",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27386.json#/images/0/partof_path2root/0/fma/0..1; FMA27386 constitutional_part_of FMA7376; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27386",
+            "snapshotSha256": "21ba33eefd070e739af9ad267d394b91faf9180f9ce52a534c506f0411fe5bf8"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27386",
+            "FMA7376",
+            "FMA7371",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7371",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2448",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2479",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2480",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2482",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2483",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2484",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2485",
+          "name": "Left superior segmental bronchial tree",
+          "conceptId": "FMA68228"
+        },
+        {
+          "id": "FJ2888",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2889",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2890",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2891",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2893",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2894",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2895",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27386"
+    },
+    {
+      "id": "FMA7378",
+      "sourceEnglish": "left anterior basal bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 141,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "left anterior basal bronchopulmonary segment",
+          "representationId": "BP9553"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3312,
+        "english": "Anterior basal segment of left lung (SVIII)",
+        "latin": "Segmentum basale anterius pulmonis sinistri (SVIII)",
+        "line": 3404
+      },
+      "sourceParentRelation": {
+        "id": "FMA27392|part_of|FMA7378",
+        "subject": "FMA27392",
+        "predicate": "part_of",
+        "object": "FMA7378",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27392.json#/images/0/partof_path2root/0/fma/0..1; FMA27392 constitutional_part_of FMA7378; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27392",
+            "snapshotSha256": "e40ab6c63a6f8dfdc24eef4f0a3527362083289d55567da35328e152cc8926a3"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27392",
+            "FMA7378",
+            "FMA7371",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7371",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2535",
+          "name": "Left anterior basal segmental bronchial tree",
+          "conceptId": "FMA68231"
+        },
+        {
+          "id": "FJ2536",
+          "name": "Left anterior basal segmental bronchial tree",
+          "conceptId": "FMA68231"
+        },
+        {
+          "id": "FJ2538",
+          "name": "Left anterior basal segmental bronchial tree",
+          "conceptId": "FMA68231"
+        },
+        {
+          "id": "FJ2883",
+          "name": "Left anterior basal segmental artery",
+          "conceptId": "FMA8645"
+        },
+        {
+          "id": "FJ2886",
+          "name": "Left anterior basal segmental artery",
+          "conceptId": "FMA8645"
+        },
+        {
+          "id": "FJ2887",
+          "name": "Left anterior basal segmental artery",
+          "conceptId": "FMA8645"
+        },
+        {
+          "id": "FJ2956",
+          "name": "Left anterior basal segmental vein",
+          "conceptId": "FMA8678"
+        },
+        {
+          "id": "FJ2957",
+          "name": "Left anterior basal segmental vein",
+          "conceptId": "FMA8678"
+        },
+        {
+          "id": "FJ2959",
+          "name": "Left anterior basal segmental vein",
+          "conceptId": "FMA8678"
+        },
+        {
+          "id": "FJ2960",
+          "name": "Left anterior basal segmental vein",
+          "conceptId": "FMA8678"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27392"
+    },
+    {
+      "id": "FMA7379",
+      "sourceEnglish": "left lateral basal bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 142,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "left lateral basal bronchopulmonary segment",
+          "representationId": "BP9616"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3313,
+        "english": "Lateral basal segment of left lung (SIX)",
+        "latin": "Segmentum basale laterale pulmonis sinistri (SIX)",
+        "line": 3405
+      },
+      "sourceParentRelation": {
+        "id": "FMA27390|part_of|FMA7379",
+        "subject": "FMA27390",
+        "predicate": "part_of",
+        "object": "FMA7379",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27390.json#/images/0/partof_path2root/0/fma/0..1; FMA27390 constitutional_part_of FMA7379; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27390",
+            "snapshotSha256": "698512a6992eb3e26c291e59ddb86d4ce5d5271fba1e440f0c0686ee86f35f5e"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27390",
+            "FMA7379",
+            "FMA7371",
+            "FMA7310"
+          ],
+          "navigationLobeId": "FMA7371",
+          "navigationLungId": "FMA7310",
+          "laterality": "left",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2445",
+          "name": "Left lateral basal segmental bronchial tree",
+          "conceptId": "FMA68232"
+        },
+        {
+          "id": "FJ2532",
+          "name": "Left lateral basal segmental bronchial tree",
+          "conceptId": "FMA68232"
+        },
+        {
+          "id": "FJ2533",
+          "name": "Left lateral basal segmental bronchial tree",
+          "conceptId": "FMA68232"
+        },
+        {
+          "id": "FJ2534",
+          "name": "Left lateral basal segmental bronchial tree",
+          "conceptId": "FMA68232"
+        },
+        {
+          "id": "FJ2882",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2921",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2922",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2923",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2951",
+          "name": "Left lateral basal segmental vein",
+          "conceptId": "FMA9450"
+        },
+        {
+          "id": "FJ2952",
+          "name": "Left lateral basal segmental vein",
+          "conceptId": "FMA9450"
+        },
+        {
+          "id": "FJ2953",
+          "name": "Left lateral basal segmental vein",
+          "conceptId": "FMA9450"
+        },
+        {
+          "id": "FJ2954",
+          "name": "Left lateral basal segmental vein",
+          "conceptId": "FMA9450"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27390"
+    },
+    {
+      "id": "FMA7338",
+      "sourceEnglish": "right apical bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 123,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right apical bronchopulmonary segment",
+          "representationId": "BP9593"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3285,
+        "english": "Apical segment of right lung (SI)",
+        "latin": "Segmentum apicale pulmonis dextri (SI)",
+        "line": 3377
+      },
+      "sourceParentRelation": {
+        "id": "FMA27369|part_of|FMA7338",
+        "subject": "FMA27369",
+        "predicate": "part_of",
+        "object": "FMA7338",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27369.json#/images/0/partof_path2root/0/fma/0..1; FMA27369 constitutional_part_of FMA7338; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27369",
+            "snapshotSha256": "d200dd781500e04b70cdd6d607f6260320f39a7fcd686207aab293c8a6ec884e"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27369",
+            "FMA7338",
+            "FMA7333",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7333",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2454",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2520",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2521",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2522",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2523",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2524",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2525",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2526",
+          "name": "Right apical segmental bronchial tree",
+          "conceptId": "FMA68211"
+        },
+        {
+          "id": "FJ2967",
+          "name": "Apical part of right apical segmental artery",
+          "conceptId": "FMA68662"
+        },
+        {
+          "id": "FJ2978",
+          "name": "Anterior part of right apical segmental artery",
+          "conceptId": "FMA68665"
+        },
+        {
+          "id": "FJ2989",
+          "name": "Anterior part of right apical segmental artery",
+          "conceptId": "FMA68665"
+        },
+        {
+          "id": "FJ3000",
+          "name": "Anterior part of right apical segmental artery",
+          "conceptId": "FMA68665"
+        },
+        {
+          "id": "FJ3011",
+          "name": "Anterior part of right apical segmental artery",
+          "conceptId": "FMA68665"
+        },
+        {
+          "id": "FJ3015",
+          "name": "Apical part of right apical segmental artery",
+          "conceptId": "FMA68662"
+        },
+        {
+          "id": "FJ3016",
+          "name": "Apical part of right apical segmental artery",
+          "conceptId": "FMA68662"
+        },
+        {
+          "id": "FJ3017",
+          "name": "Apical part of right apical segmental artery",
+          "conceptId": "FMA68662"
+        },
+        {
+          "id": "FJ3031",
+          "name": "Trunk of right apical segmental vein",
+          "conceptId": "FMA68880"
+        },
+        {
+          "id": "FJ3042",
+          "name": "Anterior part of right apical segmental vein",
+          "conceptId": "FMA68921"
+        },
+        {
+          "id": "FJ3053",
+          "name": "Anterior part of right apical segmental vein",
+          "conceptId": "FMA68921"
+        },
+        {
+          "id": "FJ3064",
+          "name": "Apical part of right apical segmental vein",
+          "conceptId": "FMA8681"
+        },
+        {
+          "id": "FJ3067",
+          "name": "Apical part of right apical segmental vein",
+          "conceptId": "FMA8681"
+        },
+        {
+          "id": "FJ3068",
+          "name": "Apical part of right apical segmental vein",
+          "conceptId": "FMA8681"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27369"
+    },
+    {
+      "id": "FMA7362",
+      "sourceEnglish": "right posterior basal bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 128,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right posterior basal bronchopulmonary segment",
+          "representationId": "BP9469"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3298,
+        "english": "Posterior basal segment of right lung (SX)",
+        "latin": "Segmentum basale posterius pulmonis dextri (SX)",
+        "line": 3390
+      },
+      "sourceParentRelation": {
+        "id": "FMA27393|part_of|FMA7362",
+        "subject": "FMA27393",
+        "predicate": "part_of",
+        "object": "FMA7362",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27393.json#/images/0/partof_path2root/0/fma/0..1; FMA27393 constitutional_part_of FMA7362; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27393",
+            "snapshotSha256": "f15e2176547778a5cb14622f76189ebed2450df962236b8c2b0d29a52587a7a2"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27393",
+            "FMA7362",
+            "FMA7337",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7337",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2457",
+          "name": "Right posterior basal segmental bronchial tree",
+          "conceptId": "FMA68221"
+        },
+        {
+          "id": "FJ2470",
+          "name": "Right posterior basal segmental bronchial tree",
+          "conceptId": "FMA68221"
+        },
+        {
+          "id": "FJ2481",
+          "name": "Right posterior basal segmental bronchial tree",
+          "conceptId": "FMA68221"
+        },
+        {
+          "id": "FJ2486",
+          "name": "Right posterior basal segmental bronchial tree",
+          "conceptId": "FMA68221"
+        },
+        {
+          "id": "FJ2487",
+          "name": "Right posterior basal segmental bronchial tree",
+          "conceptId": "FMA68221"
+        },
+        {
+          "id": "FJ2489",
+          "name": "Right posterior basal segmental bronchial tree",
+          "conceptId": "FMA68221"
+        },
+        {
+          "id": "FJ3008",
+          "name": "Mediobasal branch of right posterior basal segmental artery",
+          "conceptId": "FMA68741"
+        },
+        {
+          "id": "FJ3009",
+          "name": "Accessory subsuperior branch of right posterior basal segmental artery",
+          "conceptId": "FMA68735"
+        },
+        {
+          "id": "FJ3010",
+          "name": "Accessory subsuperior branch of right posterior basal segmental artery",
+          "conceptId": "FMA68735"
+        },
+        {
+          "id": "FJ3012",
+          "name": "Mediobasal branch of right posterior basal segmental artery",
+          "conceptId": "FMA68741"
+        },
+        {
+          "id": "FJ3013",
+          "name": "Laterobasal branch of right posterior basal segmental artery",
+          "conceptId": "FMA68738"
+        },
+        {
+          "id": "FJ3014",
+          "name": "Laterobasal branch of right posterior basal segmental artery",
+          "conceptId": "FMA68738"
+        },
+        {
+          "id": "FJ3041",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3043",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3044",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3045",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3046",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3047",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3048",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3057",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        },
+        {
+          "id": "FJ3058",
+          "name": "Right posterior basal segmental vein",
+          "conceptId": "FMA9428"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27393"
+    },
+    {
+      "id": "FMA7339",
+      "sourceEnglish": "right posterior bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 124,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right posterior bronchopulmonary segment",
+          "representationId": "BP9423"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3286,
+        "english": "Posterior segment of right lung (SII)",
+        "latin": "Segmentum posterius pulmonis dextri (SII)",
+        "line": 3378
+      },
+      "sourceParentRelation": {
+        "id": "FMA27371|part_of|FMA7339",
+        "subject": "FMA27371",
+        "predicate": "part_of",
+        "object": "FMA7339",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27371.json#/images/0/partof_path2root/0/fma/0..1; FMA27371 constitutional_part_of FMA7339; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27371",
+            "snapshotSha256": "5a8e4db94557555c9564ec0392f3942ca9b518e59eebcdc50779bd26db3c9ba3"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27371",
+            "FMA7339",
+            "FMA7333",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7333",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2458",
+          "name": "Right posterior segmental bronchial tree",
+          "conceptId": "FMA68213"
+        },
+        {
+          "id": "FJ2515",
+          "name": "Right posterior segmental bronchial tree",
+          "conceptId": "FMA68213"
+        },
+        {
+          "id": "FJ2516",
+          "name": "Right posterior segmental bronchial tree",
+          "conceptId": "FMA68213"
+        },
+        {
+          "id": "FJ2517",
+          "name": "Right posterior segmental bronchial tree",
+          "conceptId": "FMA68213"
+        },
+        {
+          "id": "FJ2518",
+          "name": "Right posterior segmental bronchial tree",
+          "conceptId": "FMA68213"
+        },
+        {
+          "id": "FJ2519",
+          "name": "Right posterior segmental bronchial tree",
+          "conceptId": "FMA68213"
+        },
+        {
+          "id": "FJ2968",
+          "name": "Apical part of right posterior segmental artery",
+          "conceptId": "FMA68670"
+        },
+        {
+          "id": "FJ2969",
+          "name": "Apical part of right posterior segmental artery",
+          "conceptId": "FMA68670"
+        },
+        {
+          "id": "FJ2970",
+          "name": "Posterior part of right posterior segmental artery",
+          "conceptId": "FMA68673"
+        },
+        {
+          "id": "FJ2971",
+          "name": "Posterior part of right posterior segmental artery",
+          "conceptId": "FMA68673"
+        },
+        {
+          "id": "FJ2972",
+          "name": "Posterior part of right posterior segmental artery",
+          "conceptId": "FMA68673"
+        },
+        {
+          "id": "FJ3018",
+          "name": "Apical part of right posterior segmental artery",
+          "conceptId": "FMA68670"
+        },
+        {
+          "id": "FJ3022",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        },
+        {
+          "id": "FJ3023",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        },
+        {
+          "id": "FJ3024",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        },
+        {
+          "id": "FJ3025",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        },
+        {
+          "id": "FJ3026",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        },
+        {
+          "id": "FJ3069",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        },
+        {
+          "id": "FJ3070",
+          "name": "Right posterior segmental vein",
+          "conceptId": "FMA8663"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27371"
+    },
+    {
+      "id": "FMA7359",
+      "sourceEnglish": "right anterior bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 125,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right anterior bronchopulmonary segment",
+          "representationId": "BP9527"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3287,
+        "english": "Anterior segment of right lung (SIII)",
+        "latin": "Segmentum anterius pulmonis dextri (SIII)",
+        "line": 3379
+      },
+      "sourceParentRelation": {
+        "id": "FMA27373|part_of|FMA7359",
+        "subject": "FMA27373",
+        "predicate": "part_of",
+        "object": "FMA7359",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27373.json#/images/0/partof_path2root/0/fma/0..1; FMA27373 constitutional_part_of FMA7359; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27373",
+            "snapshotSha256": "92eeec4b6e9e18d783ba64b10c912fdb55a03e98aad8b10e7ca63b06ce7bb8e6"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27373",
+            "FMA7359",
+            "FMA7333",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7333",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2041",
+          "name": "Right anterior segmental artery",
+          "conceptId": "FMA8620"
+        },
+        {
+          "id": "FJ2044",
+          "name": "Right anterior segmental artery",
+          "conceptId": "FMA8620"
+        },
+        {
+          "id": "FJ2453",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2509",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2510",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2511",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2512",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2513",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2514",
+          "name": "Right anterior segmental bronchial tree",
+          "conceptId": "FMA68212"
+        },
+        {
+          "id": "FJ2974",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ2975",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2976",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2977",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2979",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2980",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ2981",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ3021",
+          "name": "Inferior part of right anterior segmental vein",
+          "conceptId": "FMA68928"
+        },
+        {
+          "id": "FJ3027",
+          "name": "Superior part of right anterior segmental vein",
+          "conceptId": "FMA68926"
+        },
+        {
+          "id": "FJ3028",
+          "name": "Right anterior segmental vein",
+          "conceptId": "FMA8662"
+        },
+        {
+          "id": "FJ3029",
+          "name": "Right anterior segmental vein",
+          "conceptId": "FMA8662"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27373"
+    },
+    {
+      "id": "FMA7361",
+      "sourceEnglish": "lateral bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 127,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "lateral bronchopulmonary segment",
+          "representationId": "BP9445"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3290,
+        "english": "Lateral segment of right lung (SIV)",
+        "latin": "Segmentum laterale pulmonis dextri (SIV)",
+        "line": 3382
+      },
+      "sourceParentRelation": {
+        "id": "FMA27452|part_of|FMA7361",
+        "subject": "FMA27452",
+        "predicate": "part_of",
+        "object": "FMA7361",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27452.json#/images/0/partof_path2root/0/fma/0..1; FMA27452 constitutional_part_of FMA7361; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27452",
+            "snapshotSha256": "01b73d5e05367a71d06725f1bc10175cdc50938dc59f8a5e4d86e5de53d1e7b6"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27452",
+            "FMA7361",
+            "FMA7383",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7383",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2449",
+          "name": "Lateral segmental bronchial tree",
+          "conceptId": "FMA68215"
+        },
+        {
+          "id": "FJ2503",
+          "name": "Lateral segmental bronchial tree",
+          "conceptId": "FMA68215"
+        },
+        {
+          "id": "FJ2504",
+          "name": "Lateral segmental bronchial tree",
+          "conceptId": "FMA68215"
+        },
+        {
+          "id": "FJ2505",
+          "name": "Lateral segmental bronchial tree",
+          "conceptId": "FMA68215"
+        },
+        {
+          "id": "FJ2982",
+          "name": "Anterior branch of lateral segmental artery",
+          "conceptId": "FMA68691"
+        },
+        {
+          "id": "FJ2983",
+          "name": "Posterior branch of lateral segmental artery",
+          "conceptId": "FMA68690"
+        },
+        {
+          "id": "FJ2984",
+          "name": "Posterior branch of lateral segmental artery",
+          "conceptId": "FMA68690"
+        },
+        {
+          "id": "FJ2985",
+          "name": "Anterior branch of lateral segmental artery",
+          "conceptId": "FMA68691"
+        },
+        {
+          "id": "FJ3034",
+          "name": "Anterior part of lateral segmental vein",
+          "conceptId": "FMA68945"
+        },
+        {
+          "id": "FJ3035",
+          "name": "Anterior part of lateral segmental vein",
+          "conceptId": "FMA68945"
+        },
+        {
+          "id": "FJ3036",
+          "name": "Anterior part of lateral segmental vein",
+          "conceptId": "FMA68945"
+        },
+        {
+          "id": "FJ3037",
+          "name": "Posterior part of lateral segmental vein",
+          "conceptId": "FMA68944"
+        },
+        {
+          "id": "FJ3038",
+          "name": "Posterior part of lateral segmental vein",
+          "conceptId": "FMA68944"
+        },
+        {
+          "id": "FJ3039",
+          "name": "Posterior part of lateral segmental vein",
+          "conceptId": "FMA68944"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27452"
+    },
+    {
+      "id": "FMA7360",
+      "sourceEnglish": "medial bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 126,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "medial bronchopulmonary segment",
+          "representationId": "BP9367"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3291,
+        "english": "Medial segment of right lung (SV)",
+        "latin": "Segmentum mediale pulmonis dextri (SV)",
+        "line": 3383
+      },
+      "sourceParentRelation": {
+        "id": "FMA27448|part_of|FMA7360",
+        "subject": "FMA27448",
+        "predicate": "part_of",
+        "object": "FMA7360",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27448.json#/images/0/partof_path2root/0/fma/0..1; FMA27448 constitutional_part_of FMA7360; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27448",
+            "snapshotSha256": "d3c0f64f23db25d771217f326833a5e3d10fc17a5fe2b8b72abb76f4ac6b6b4a"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27448",
+            "FMA7360",
+            "FMA7383",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7383",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2451",
+          "name": "Medial segmental bronchial tree",
+          "conceptId": "FMA68214"
+        },
+        {
+          "id": "FJ2506",
+          "name": "Medial segmental bronchial tree",
+          "conceptId": "FMA68214"
+        },
+        {
+          "id": "FJ2507",
+          "name": "Medial segmental bronchial tree",
+          "conceptId": "FMA68214"
+        },
+        {
+          "id": "FJ2508",
+          "name": "Medial segmental bronchial tree",
+          "conceptId": "FMA68214"
+        },
+        {
+          "id": "FJ2986",
+          "name": "Superior branch of medial segmental artery",
+          "conceptId": "FMA68693"
+        },
+        {
+          "id": "FJ2987",
+          "name": "Inferior branch of medial segmental artery",
+          "conceptId": "FMA68694"
+        },
+        {
+          "id": "FJ2988",
+          "name": "Inferior branch of medial segmental artery",
+          "conceptId": "FMA68694"
+        },
+        {
+          "id": "FJ2990",
+          "name": "Superior branch of medial segmental artery",
+          "conceptId": "FMA68693"
+        },
+        {
+          "id": "FJ3030",
+          "name": "Superior part of medial segmental vein",
+          "conceptId": "FMA68982"
+        },
+        {
+          "id": "FJ3032",
+          "name": "Inferior part of medial segmental vein",
+          "conceptId": "FMA68983"
+        },
+        {
+          "id": "FJ3033",
+          "name": "Inferior part of medial segmental vein",
+          "conceptId": "FMA68983"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27448"
+    },
+    {
+      "id": "FMA7366",
+      "sourceEnglish": "right superior bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 132,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right superior bronchopulmonary segment",
+          "representationId": "BP9524"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3294,
+        "english": "Superior segment of right lung (SVI)",
+        "latin": "Segmentum superius pulmonis dextri (SVI)",
+        "line": 3386
+      },
+      "sourceParentRelation": {
+        "id": "FMA27385|part_of|FMA7366",
+        "subject": "FMA27385",
+        "predicate": "part_of",
+        "object": "FMA7366",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27385.json#/images/0/partof_path2root/0/fma/0..1; FMA27385 constitutional_part_of FMA7366; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27385",
+            "snapshotSha256": "e72252509eae70ac27bd79056cfa30d94010698331c5a861b4b7054f3a7ccbf0"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27385",
+            "FMA7366",
+            "FMA7337",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7337",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2459",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2495",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2496",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2497",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2498",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2499",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2500",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2501",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2502",
+          "name": "Right superior segmental bronchial tree",
+          "conceptId": "FMA68216"
+        },
+        {
+          "id": "FJ2991",
+          "name": "Lateral branch of right superior segmental artery",
+          "conceptId": "FMA68712"
+        },
+        {
+          "id": "FJ2992",
+          "name": "Lateral branch of right superior segmental artery",
+          "conceptId": "FMA68712"
+        },
+        {
+          "id": "FJ2993",
+          "name": "Lateral branch of right superior segmental artery",
+          "conceptId": "FMA68712"
+        },
+        {
+          "id": "FJ2994",
+          "name": "Medial branch of right superior segmental artery",
+          "conceptId": "FMA68706"
+        },
+        {
+          "id": "FJ2995",
+          "name": "Medial branch of right superior segmental artery",
+          "conceptId": "FMA68706"
+        },
+        {
+          "id": "FJ2996",
+          "name": "Medial branch of right superior segmental artery",
+          "conceptId": "FMA68706"
+        },
+        {
+          "id": "FJ2997",
+          "name": "Superior branch of right superior segmental artery",
+          "conceptId": "FMA68709"
+        },
+        {
+          "id": "FJ2998",
+          "name": "Superior branch of right superior segmental artery",
+          "conceptId": "FMA68709"
+        },
+        {
+          "id": "FJ2999",
+          "name": "Superior branch of right superior segmental artery",
+          "conceptId": "FMA68709"
+        },
+        {
+          "id": "FJ3050",
+          "name": "Right superior segmental vein",
+          "conceptId": "FMA8670"
+        },
+        {
+          "id": "FJ3051",
+          "name": "Right superior segmental vein",
+          "conceptId": "FMA8670"
+        },
+        {
+          "id": "FJ3052",
+          "name": "Right superior segmental vein",
+          "conceptId": "FMA8670"
+        },
+        {
+          "id": "FJ3063",
+          "name": "Right superior segmental vein",
+          "conceptId": "FMA8670"
+        },
+        {
+          "id": "FJ3065",
+          "name": "Right superior segmental vein",
+          "conceptId": "FMA8670"
+        },
+        {
+          "id": "FJ3066",
+          "name": "Right superior segmental vein",
+          "conceptId": "FMA8670"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27385"
+    },
+    {
+      "id": "FMA7364",
+      "sourceEnglish": "right anterior basal bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 130,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right anterior basal bronchopulmonary segment",
+          "representationId": "BP9502"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3296,
+        "english": "Anterior basal segment of right lung (SVIII)",
+        "latin": "Segmentum basale anterius pulmonis dextri (SVIII)",
+        "line": 3388
+      },
+      "sourceParentRelation": {
+        "id": "FMA27391|part_of|FMA7364",
+        "subject": "FMA27391",
+        "predicate": "part_of",
+        "object": "FMA7364",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27391.json#/images/0/partof_path2root/0/fma/0..1; FMA27391 constitutional_part_of FMA7364; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27391",
+            "snapshotSha256": "34d0349e7e2bfa7c2c33496c56a63d313792c5b4ec376bd3721e3360e9b70f6f"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27391",
+            "FMA7364",
+            "FMA7337",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7337",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2452",
+          "name": "Right anterior basal segmental bronchial tree",
+          "conceptId": "FMA68321"
+        },
+        {
+          "id": "FJ2493",
+          "name": "Right anterior basal segmental bronchial tree",
+          "conceptId": "FMA68321"
+        },
+        {
+          "id": "FJ2494",
+          "name": "Right anterior basal segmental bronchial tree",
+          "conceptId": "FMA68321"
+        },
+        {
+          "id": "FJ3001",
+          "name": "Lateral branch of right anterior basal segmental artery",
+          "conceptId": "FMA68725"
+        },
+        {
+          "id": "FJ3002",
+          "name": "Basal branch of right anterior basal segmental artery",
+          "conceptId": "FMA68723"
+        },
+        {
+          "id": "FJ3003",
+          "name": "Basal branch of right anterior basal segmental artery",
+          "conceptId": "FMA68723"
+        },
+        {
+          "id": "FJ3049",
+          "name": "Right anterior basal segmental vein",
+          "conceptId": "FMA8673"
+        },
+        {
+          "id": "FJ3056",
+          "name": "Right anterior basal segmental vein",
+          "conceptId": "FMA8673"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27391"
+    },
+    {
+      "id": "FMA7363",
+      "sourceEnglish": "right lateral basal bronchopulmonary segment",
+      "bp3d": [
+        {
+          "line": 129,
+          "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "english": "right lateral basal bronchopulmonary segment",
+          "representationId": "BP9402"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 3297,
+        "english": "Lateral basal segment of right lung (SIX)",
+        "latin": "Segmentum basale laterale pulmonis dextri (SIX)",
+        "line": 3389
+      },
+      "sourceParentRelation": {
+        "id": "FMA27389|part_of|FMA7363",
+        "subject": "FMA27389",
+        "predicate": "part_of",
+        "object": "FMA7363",
+        "evidence": [
+          {
+            "sourceId": "extension-lung-bp3d43",
+            "locator": "source/FMA27389.json#/images/0/partof_path2root/0/fma/0..1; FMA27389 constitutional_part_of FMA7363; request pins version=4.3, ci_id=1, cb_id=5, md_id=1, mv_id=6, mr_id=1, bul_id=4",
+            "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA27389",
+            "snapshotSha256": "97d5d6f0c3b7d17e0f96730581bb8885d430df957bf4cf969f2711487702439a"
+          }
+        ],
+        "status": "source_imported",
+        "expertReview": "pending",
+        "scope": "selected_parenchyma_navigation_non_exhaustive",
+        "qualifiers": {
+          "sourceRelation": "constitutional_part_of",
+          "directSourceParent": true,
+          "sourceDataVersion": "4.3",
+          "sourceTreeVersion": "FMA3.0",
+          "sourcePathToLung": [
+            "FMA27389",
+            "FMA7363",
+            "FMA7337",
+            "FMA7309"
+          ],
+          "navigationLobeId": "FMA7337",
+          "navigationLungId": "FMA7309",
+          "laterality": "right",
+          "semantics": "Direct source anatomical parenchyma-to-segment relation. Lobe and lung membership follows the explicit transitive source path; no direct parent claim to lobe or lung.",
+          "geometry": "No contact, segmentation completeness, innervation or coordinate claim; object-set inclusion is corroboration only"
+        }
+      },
+      "baseGeometry": [
+        {
+          "id": "FJ2455",
+          "name": "Right lateral basal segmental bronchial tree",
+          "conceptId": "FMA68220"
+        },
+        {
+          "id": "FJ2490",
+          "name": "Right lateral basal segmental bronchial tree",
+          "conceptId": "FMA68220"
+        },
+        {
+          "id": "FJ2491",
+          "name": "Right lateral basal segmental bronchial tree",
+          "conceptId": "FMA68220"
+        },
+        {
+          "id": "FJ2492",
+          "name": "Right lateral basal segmental bronchial tree",
+          "conceptId": "FMA68220"
+        },
+        {
+          "id": "FJ3004",
+          "name": "Lateral branch of right lateral basal segmental artery",
+          "conceptId": "FMA68728"
+        },
+        {
+          "id": "FJ3005",
+          "name": "Lateral branch of right lateral basal segmental artery",
+          "conceptId": "FMA68728"
+        },
+        {
+          "id": "FJ3006",
+          "name": "Lateral branch of right lateral basal segmental artery",
+          "conceptId": "FMA68728"
+        },
+        {
+          "id": "FJ3007",
+          "name": "Lateral branch of right lateral basal segmental artery",
+          "conceptId": "FMA68728"
+        },
+        {
+          "id": "FJ3059",
+          "name": "Right lateral basal segmental vein",
+          "conceptId": "FMA9425"
+        },
+        {
+          "id": "FJ3060",
+          "name": "Right lateral basal segmental vein",
+          "conceptId": "FMA9425"
+        },
+        {
+          "id": "FJ3061",
+          "name": "Right lateral basal segmental vein",
+          "conceptId": "FMA9425"
+        },
+        {
+          "id": "FJ3062",
+          "name": "Right lateral basal segmental vein",
+          "conceptId": "FMA9425"
+        }
+      ],
+      "semanticMapping": "Bronchopulmonary segment itself, not its parenchyma; exact lateralized TA2 segment term. TA2 numbering retained exactly as written.",
+      "parenchymaConceptId": "FMA27389"
+    }
+  ],
+  "cautions": [
+    "Exact Latin strings are from pinned upstream TA2 distribution, not fresh publisher-PDF verification of all17.",
+    "Table IDs are upstream CSV identifiers.",
+    "Segment numerals occur in exact TA2 Latin; no additional reconstructed segment, geometry or relation inferred.",
+    "Parent parenchyma labels remain Latin-null; these Latin terms must not be copied to the parenchyma IDs.",
+    "Source geometry membership and scientific completeness are not validated by a label match."
+  ]
+}
