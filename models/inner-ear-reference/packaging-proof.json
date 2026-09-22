@@ -1,0 +1,109 @@
+{
+  "datasetId": "inner-ear-reference",
+  "sourceCandidate": {
+    "path": "data/model-candidates/inner-ear-reference/inner-ear-reference.json",
+    "sha256": "61c8bf428568966aaba5395bc1b69372f764c0fcee50ba1f3e0e6d1ad01426d0",
+    "binarySha256": "b172a3825998d4f78f43a308131bc89d74bff20c2c949750410f75dc2d8cdb77",
+    "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd"
+  },
+  "appliedDisplayTransform": {
+    "matrixColumnVector": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "formula": "(x, y, z) -> (x, z, -y)",
+    "uniformScale": 1,
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "determinant": 1,
+    "appliesTo": "Every part position and normal; bounds recomputed from rotated positions",
+    "sourceFrame": "Source Z-Anatomy world meters, X left / Y posterior / Z superior",
+    "purpose": "One uniform display axis rotation. Not anatomical registration to another dataset."
+  },
+  "parts": [
+    {
+      "id": "IE-COCHLEA-L",
+      "vertexCount": 3110,
+      "indexCount": 18504,
+      "exactFloat32AxisPermutation": true,
+      "exactInt16NormalPermutation": true,
+      "inverseRotationRecoversEverySourceVertex": true,
+      "triangleIndicesUnchanged": true
+    },
+    {
+      "id": "IE-COCHLEA-R",
+      "vertexCount": 3110,
+      "indexCount": 18504,
+      "exactFloat32AxisPermutation": true,
+      "exactInt16NormalPermutation": true,
+      "inverseRotationRecoversEverySourceVertex": true,
+      "triangleIndicesUnchanged": true
+    },
+    {
+      "id": "IE-VESTIBULAR-COMPLEX-L",
+      "vertexCount": 4316,
+      "indexCount": 25740,
+      "exactFloat32AxisPermutation": true,
+      "exactInt16NormalPermutation": true,
+      "inverseRotationRecoversEverySourceVertex": true,
+      "triangleIndicesUnchanged": true
+    },
+    {
+      "id": "IE-VESTIBULAR-COMPLEX-R",
+      "vertexCount": 4316,
+      "indexCount": 25740,
+      "exactFloat32AxisPermutation": true,
+      "exactInt16NormalPermutation": true,
+      "inverseRotationRecoversEverySourceVertex": true,
+      "triangleIndicesUnchanged": true
+    },
+    {
+      "id": "IE-TEMPORAL-BONE-L",
+      "vertexCount": 7051,
+      "indexCount": 42282,
+      "exactFloat32AxisPermutation": true,
+      "exactInt16NormalPermutation": true,
+      "inverseRotationRecoversEverySourceVertex": true,
+      "triangleIndicesUnchanged": true
+    },
+    {
+      "id": "IE-TEMPORAL-BONE-R",
+      "vertexCount": 7051,
+      "indexCount": 42282,
+      "exactFloat32AxisPermutation": true,
+      "exactInt16NormalPermutation": true,
+      "inverseRotationRecoversEverySourceVertex": true,
+      "triangleIndicesUnchanged": true
+    }
+  ],
+  "allPartsUseSameMatrix": true,
+  "indexBuffersUnchanged": true,
+  "noMainAtlasInputs": true,
+  "rawCandidateUnchanged": true,
+  "note": "The inverse rotation exactly recovers every original float32 position; norms and inter-object distances are invariant under this determinant +1 permutation."
+}
