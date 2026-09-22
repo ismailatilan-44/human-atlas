@@ -6,7 +6,8 @@
     "/models/extensions/sciatic-nerves.json",
     "/models/extensions/thyroid-bp3d43.json",
     "/models/extensions/spinal-cord-bp3d43.json",
-    "/models/extensions/brachial-plexus.json"
+    "/models/extensions/brachial-plexus.json",
+    "/models/extensions/lung-bp3d43.json"
   ],
   "landmarks": [
     "/models/extensions/upper-arm-landmarks.json"
