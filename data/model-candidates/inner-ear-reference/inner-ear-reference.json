@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "version": "Z-Anatomy source-space inner-ear reference 1",
+  "datasetId": "inner-ear-reference",
+  "status": "independent_noncommercial_reference_candidate",
+  "sex": "unspecified",
+  "scope": "Bilateral cochlea, authored Vestibule complexes, and same-source temporal bones",
+  "coordinateSystem": {
+    "unit": "meter",
+    "x": "left",
+    "y": "posterior",
+    "z": "superior",
+    "origin": "Original Startup.blend world origin; no recentering",
+    "worldTransform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "atlasRegistration": null,
+    "compatibleWithMainAtlas": false
+  },
+  "licensePolicy": {
+    "packageUse": "noncommercial",
+    "innerEar": "CC-BY-NC-SA-4.0",
+    "temporalBones": "CC-BY-SA-4.0",
+    "note": "Separate source-license scopes retained; package restriction does not relicense temporal bones."
+  },
+  "source": {
+    "id": "zanatomy-inner-ear-reference",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "attribution": "ATTRIBUTION.md",
+    "license": "Mixed: inner-ear CC-BY-NC-SA-4.0 (component lineage inferred), temporal bones CC-BY-SA-4.0",
+    "upstreamLicenseUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/License.txt",
+    "componentLicenseUrl": "https://www.dundee.ac.uk/tilt/medical-illustration/anatomy-inner-ear"
+  },
+  "parts": [
+    {
+      "id": "IE-COCHLEA-L",
+      "datasetId": "inner-ear-reference",
+      "conceptId": "inner-ear-reference:left-cochlea",
+      "name": "Left cochlea",
+      "system": "sensory",
+      "side": "left",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 37320,
+      "indices": 55980,
+      "vertexCount": 3110,
+      "indexCount": 18504,
+      "bounds": [
+        [
+          0.03628610819578171,
+          -0.004902462475001812,
+          1.5760729312896729
+        ],
+        [
+          0.04272245988249779,
+          0.004937132820487022,
+          1.58407461643219
+        ]
+      ],
+      "sourceObject": "Cochlea.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "baseVertices": 783,
+        "basePolygons": 772,
+        "evaluatedVertices": 3110,
+        "evaluatedTriangles": 6168,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "visible": true,
+            "viewportLevels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "evaluation": "Authored viewport modifiers evaluated; no additional modifiers",
+        "sourceWorldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.04014948010444641
+          ],
+          [
+            0.0,
+            0.9999997019767761,
+            9.947598300641403e-14,
+            0.004071054980158806
+          ],
+          [
+            0.0,
+            -9.947598300641403e-14,
+            0.9999997019767761,
+            1.5810164213180542
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirroredWindingCorrected": true,
+        "parent": "Internal ear.g",
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Cochlea",
+          "Head",
+          "Sense organs"
+        ]
+      },
+      "quality": {
+        "boundaryEdges": 52,
+        "nonManifoldEdges": 0,
+        "zeroAreaFacesRetained": 0,
+        "zeroNormalVertices": 0,
+        "maxFloat32PositionErrorMm": 0.0,
+        "dimensionsMm": [
+          6.43635168671608,
+          9.839595295488834,
+          8.00168514251709
+        ]
+      },
+      "licenseScope": {
+        "license": "CC-BY-NC-SA-4.0",
+        "lineageStatus": "inferred_from_archive_component_attribution",
+        "sourceComponent": "University of Dundee Anatomy of the Inner Ear",
+        "note": "Individual object author/license lineage is not encoded in the blend. Component association is an inference."
+      }
+    },
+    {
+      "id": "IE-COCHLEA-R",
+      "datasetId": "inner-ear-reference",
+      "conceptId": "inner-ear-reference:right-cochlea",
+      "name": "Right cochlea",
+      "system": "sensory",
+      "side": "right",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 129996,
+      "normals": 167316,
+      "indices": 185976,
+      "vertexCount": 3110,
+      "indexCount": 18504,
+      "bounds": [
+        [
+          -0.04272247478365898,
+          -0.0049024890176951885,
+          1.576073169708252
+        ],
+        [
+          -0.0362861230969429,
+          0.00493710208684206,
+          1.584074854850769
+        ]
+      ],
+      "sourceObject": "Cochlea.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "baseVertices": 783,
+        "basePolygons": 772,
+        "evaluatedVertices": 3110,
+        "evaluatedTriangles": 6168,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "visible": true,
+            "viewportLevels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "evaluation": "Authored viewport modifiers evaluated; no additional modifiers",
+        "sourceWorldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.040149495005607605
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            0.0,
+            0.004071024712175131
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999992251396179,
+            1.5810166597366333
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirroredWindingCorrected": false,
+        "parent": "Internal ear.g",
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Cochlea",
+          "Head",
+          "Sense organs"
+        ]
+      },
+      "quality": {
+        "boundaryEdges": 52,
+        "nonManifoldEdges": 0,
+        "zeroAreaFacesRetained": 0,
+        "zeroNormalVertices": 0,
+        "maxFloat32PositionErrorMm": 0.0,
+        "dimensionsMm": [
+          6.43635168671608,
+          9.839591104537249,
+          8.00168514251709
+        ]
+      },
+      "licenseScope": {
+        "license": "CC-BY-NC-SA-4.0",
+        "lineageStatus": "inferred_from_archive_component_attribution",
+        "sourceComponent": "University of Dundee Anatomy of the Inner Ear",
+        "note": "Individual object author/license lineage is not encoded in the blend. Component association is an inference."
+      }
+    },
+    {
+      "id": "IE-VESTIBULAR-COMPLEX-L",
+      "datasetId": "inner-ear-reference",
+      "conceptId": "inner-ear-reference:left-vestibular-complex",
+      "name": "Left vestibule / semicircular-canal complex (source: Vestibule)",
+      "system": "sensory",
+      "side": "left",
+      "role": "context",
+      "chunk": 0,
+      "positions": 259992,
+      "normals": 311784,
+      "indices": 337680,
+      "vertexCount": 4316,
+      "indexCount": 25740,
+      "bounds": [
+        [
+          0.034636855125427246,
+          0.002121438505128026,
+          1.5771840810775757
+        ],
+        [
+          0.04486195743083954,
+          0.014125303365290165,
+          1.590037226676941
+        ]
+      ],
+      "sourceObject": "Vestibule.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "baseVertices": 1086,
+        "basePolygons": 1069,
+        "evaluatedVertices": 4316,
+        "evaluatedTriangles": 8580,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "visible": true,
+            "viewportLevels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "evaluation": "Authored viewport modifiers evaluated; no additional modifiers",
+        "sourceWorldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.04014948382973671
+          ],
+          [
+            0.0,
+            0.9999997019767761,
+            9.947598300641403e-14,
+            0.004071054048836231
+          ],
+          [
+            0.0,
+            -9.947598300641403e-14,
+            0.9999997019767761,
+            1.5810164213180542
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirroredWindingCorrected": true,
+        "parent": "Internal ear.g",
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Head",
+          "Sense organs",
+          "Vestibule"
+        ]
+      },
+      "quality": {
+        "boundaryEdges": 64,
+        "nonManifoldEdges": 0,
+        "zeroAreaFacesRetained": 0,
+        "zeroNormalVertices": 0,
+        "maxFloat32PositionErrorMm": 0.0,
+        "dimensionsMm": [
+          10.225102305412292,
+          12.003864860162139,
+          12.853145599365234
+        ]
+      },
+      "licenseScope": {
+        "license": "CC-BY-NC-SA-4.0",
+        "lineageStatus": "inferred_from_archive_component_attribution",
+        "sourceComponent": "University of Dundee Anatomy of the Inner Ear",
+        "note": "Individual object author/license lineage is not encoded in the blend. Component association is an inference."
+      },
+      "anatomicalScope": "One authored combined surface. Semicircular loops remain part of Vestibule; no independently segmented canal identity asserted."
+    },
+    {
+      "id": "IE-VESTIBULAR-COMPLEX-R",
+      "datasetId": "inner-ear-reference",
+      "conceptId": "inner-ear-reference:right-vestibular-complex",
+      "name": "Right vestibule / semicircular-canal complex (source: Vestibule)",
+      "system": "sensory",
+      "side": "right",
+      "role": "context",
+      "chunk": 0,
+      "positions": 440640,
+      "normals": 492432,
+      "indices": 518328,
+      "vertexCount": 4316,
+      "indexCount": 25740,
+      "bounds": [
+        [
+          -0.04486197233200073,
+          0.0021214091684669256,
+          1.5771843194961548
+        ],
+        [
+          -0.03463687002658844,
+          0.014125268906354904,
+          1.59003746509552
+        ]
+      ],
+      "sourceObject": "Vestibule.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "baseVertices": 1086,
+        "basePolygons": 1069,
+        "evaluatedVertices": 4316,
+        "evaluatedTriangles": 8580,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "visible": true,
+            "viewportLevels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "evaluation": "Authored viewport modifiers evaluated; no additional modifiers",
+        "sourceWorldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.0401494987308979
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            0.0,
+            0.004071023780852556
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999992251396179,
+            1.5810166597366333
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mirroredWindingCorrected": false,
+        "parent": "Internal ear.g",
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Head",
+          "Sense organs",
+          "Vestibule"
+        ]
+      },
+      "quality": {
+        "boundaryEdges": 64,
+        "nonManifoldEdges": 0,
+        "zeroAreaFacesRetained": 0,
+        "zeroNormalVertices": 0,
+        "maxFloat32PositionErrorMm": 0.0,
+        "dimensionsMm": [
+          10.225102305412292,
+          12.003859737887979,
+          12.853145599365234
+        ]
+      },
+      "licenseScope": {
+        "license": "CC-BY-NC-SA-4.0",
+        "lineageStatus": "inferred_from_archive_component_attribution",
+        "sourceComponent": "University of Dundee Anatomy of the Inner Ear",
+        "note": "Individual object author/license lineage is not encoded in the blend. Component association is an inference."
+      },
+      "anatomicalScope": "One authored combined surface. Semicircular loops remain part of Vestibule; no independently segmented canal identity asserted."
+    },
+    {
+      "id": "IE-TEMPORAL-BONE-L",
+      "datasetId": "inner-ear-reference",
+      "conceptId": "inner-ear-reference:left-temporal-bone",
+      "name": "Left temporal bone",
+      "system": "skeletal",
+      "side": "left",
+      "role": "context",
+      "chunk": 0,
+      "positions": 621288,
+      "normals": 705900,
+      "indices": 748208,
+      "vertexCount": 7051,
+      "indexCount": 42282,
+      "bounds": [
+        [
+          0.009648576378822327,
+          -0.0447830855846405,
+          1.5487265586853027
+        ],
+        [
+          0.07242035865783691,
+          0.05156397819519043,
+          1.623145580291748
+        ]
+      ],
+      "sourceObject": "Temporal bone.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "baseVertices": 7051,
+        "basePolygons": 14094,
+        "evaluatedVertices": 7051,
+        "evaluatedTriangles": 14094,
+        "modifiers": [],
+        "evaluation": "Authored viewport modifiers evaluated; no additional modifiers",
+        "sourceWorldMatrix": [
+          [
+            -1.0000001192092896,
+            0.0,
+            0.0,
+            0.04784354567527771
+          ],
+          [
+            0.0,
+            1.0,
+            7.105426087051581e-15,
+            0.006335520185530186
+          ],
+          [
+            0.0,
+            -7.105427357601002e-15,
+            0.9999998211860657,
+            1.5826013088226318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "mirroredWindingCorrected": true,
+        "parent": "Bones of cranium.g",
+        "collections": [
+          "1: Skeletal system",
+          "Axial skeleton",
+          "Bonus collection",
+          "Cranium",
+          "Head"
+        ]
+      },
+      "quality": {
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFacesRetained": 0,
+        "zeroNormalVertices": 0,
+        "maxFloat32PositionErrorMm": 0.0,
+        "dimensionsMm": [
+          62.77178227901459,
+          96.34706377983093,
+          74.41902160644531
+        ]
+      },
+      "licenseScope": {
+        "license": "CC-BY-SA-4.0",
+        "lineageStatus": "archive_general_declaration",
+        "sourceComponent": "Z-Anatomy / underlying BodyParts3D",
+        "note": "Retains general Z-Anatomy license and underlying BodyParts3D attribution; no object-specific lineage certificate."
+      }
+    },
+    {
+      "id": "IE-TEMPORAL-BONE-R",
+      "datasetId": "inner-ear-reference",
+      "conceptId": "inner-ear-reference:right-temporal-bone",
+      "name": "Right temporal bone",
+      "system": "skeletal",
+      "side": "right",
+      "role": "context",
+      "chunk": 0,
+      "positions": 917336,
+      "normals": 1001948,
+      "indices": 1044256,
+      "vertexCount": 7051,
+      "indexCount": 42282,
+      "bounds": [
+        [
+          -0.07242035865783691,
+          -0.0447830855846405,
+          1.5487265586853027
+        ],
+        [
+          -0.009648576378822327,
+          0.05156397819519043,
+          1.623145580291748
+        ]
+      ],
+      "sourceObject": "Temporal bone.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "baseVertices": 7051,
+        "basePolygons": 14094,
+        "evaluatedVertices": 7051,
+        "evaluatedTriangles": 14094,
+        "modifiers": [],
+        "evaluation": "Authored viewport modifiers evaluated; no additional modifiers",
+        "sourceWorldMatrix": [
+          [
+            1.0000001192092896,
+            0.0,
+            0.0,
+            -0.04784354567527771
+          ],
+          [
+            0.0,
+            1.0,
+            7.105426087051581e-15,
+            0.006335520185530186
+          ],
+          [
+            0.0,
+            -7.105427357601002e-15,
+            0.9999998211860657,
+            1.5826013088226318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "mirroredWindingCorrected": false,
+        "parent": "Bones of cranium.g",
+        "collections": [
+          "1: Skeletal system",
+          "Axial skeleton",
+          "Bonus collection",
+          "Cranium",
+          "Head"
+        ]
+      },
+      "quality": {
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFacesRetained": 0,
+        "zeroNormalVertices": 0,
+        "maxFloat32PositionErrorMm": 0.0,
+        "dimensionsMm": [
+          62.77178227901459,
+          96.34706377983093,
+          74.41902160644531
+        ]
+      },
+      "licenseScope": {
+        "license": "CC-BY-SA-4.0",
+        "lineageStatus": "archive_general_declaration",
+        "sourceComponent": "Z-Anatomy / underlying BodyParts3D",
+        "note": "Retains general Z-Anatomy license and underlying BodyParts3D attribution; no object-specific lineage certificate."
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "url": "inner-ear-reference.bin",
+      "bytes": 1213384,
+      "gzip": "inner-ear-reference.bin.gz",
+      "gzipBytes": 737161,
+      "sha256": "b172a3825998d4f78f43a308131bc89d74bff20c2c949750410f75dc2d8cdb77",
+      "gzipSha256": "85d2a81c7b7481a91332c92b8321541648d318ccc865a4943cb19d183adcfec5"
+    }
+  ],
+  "triangles": 57684,
+  "bounds": [
+    [
+      -0.07242035865783691,
+      -0.0447830855846405,
+      1.5487265586853027
+    ],
+    [
+      0.07242035865783691,
+      0.05156397819519043,
+      1.623145580291748
+    ]
+  ],
+  "concepts": [
+    {
+      "id": "inner-ear-reference:left-cochlea",
+      "datasetId": "inner-ear-reference",
+      "name": "Left cochlea",
+      "elements": [
+        "IE-COCHLEA-L"
+      ]
+    },
+    {
+      "id": "inner-ear-reference:right-cochlea",
+      "datasetId": "inner-ear-reference",
+      "name": "Right cochlea",
+      "elements": [
+        "IE-COCHLEA-R"
+      ]
+    },
+    {
+      "id": "inner-ear-reference:left-vestibular-complex",
+      "datasetId": "inner-ear-reference",
+      "name": "Left vestibule / semicircular-canal complex (source: Vestibule)",
+      "elements": [
+        "IE-VESTIBULAR-COMPLEX-L"
+      ]
+    },
+    {
+      "id": "inner-ear-reference:right-vestibular-complex",
+      "datasetId": "inner-ear-reference",
+      "name": "Right vestibule / semicircular-canal complex (source: Vestibule)",
+      "elements": [
+        "IE-VESTIBULAR-COMPLEX-R"
+      ]
+    },
+    {
+      "id": "inner-ear-reference:left-temporal-bone",
+      "datasetId": "inner-ear-reference",
+      "name": "Left temporal bone",
+      "elements": [
+        "IE-TEMPORAL-BONE-L"
+      ]
+    },
+    {
+      "id": "inner-ear-reference:right-temporal-bone",
+      "datasetId": "inner-ear-reference",
+      "name": "Right temporal bone",
+      "elements": [
+        "IE-TEMPORAL-BONE-R"
+      ]
+    }
+  ],
+  "excludedCanalLabels": [
+    {
+      "name": "Anterior semicircular canal.j",
+      "sourceObjectType": "MESH",
+      "parent": "Anterior semicircular canal.t",
+      "vertices": 2,
+      "polygons": 0,
+      "text": null,
+      "exported": false
+    },
+    {
+      "name": "Anterior semicircular canal.t",
+      "sourceObjectType": "FONT",
+      "parent": "Vestibule.r",
+      "vertices": null,
+      "polygons": null,
+      "text": "ANTERIOR SEMICIRCULAR CANAL",
+      "exported": false
+    },
+    {
+      "name": "Lateral semicircular canal.j",
+      "sourceObjectType": "MESH",
+      "parent": "Lateral semicircular canal.t",
+      "vertices": 2,
+      "polygons": 0,
+      "text": null,
+      "exported": false
+    },
+    {
+      "name": "Lateral semicircular canal.t",
+      "sourceObjectType": "FONT",
+      "parent": "Vestibule.r",
+      "vertices": null,
+      "polygons": null,
+      "text": "LATERAL SEMICIRCULAR CANAL",
+      "exported": false
+    },
+    {
+      "name": "Posterior semicircular canal.j",
+      "sourceObjectType": "MESH",
+      "parent": "Posterior semicircular canal.t",
+      "vertices": 2,
+      "polygons": 0,
+      "text": null,
+      "exported": false
+    },
+    {
+      "name": "Posterior semicircular canal.t",
+      "sourceObjectType": "FONT",
+      "parent": "Vestibule.r",
+      "vertices": null,
+      "polygons": null,
+      "text": "POSTERIOR SEMICIRCULAR CANAL",
+      "exported": false
+    }
+  ],
+  "limitations": [
+    "Source world positions are preserved. There is no main-atlas fit or clinical placement claim.",
+    "Authored viewport subdivision evaluated; original base cages also supplied as OBJ.",
+    "Cochlear and vestibular surfaces are illustrative source objects; membranes, sensory cells and organ of Corti are not modeled.",
+    "Semicircular canals are visible portions of combined Vestibule objects; individually named source objects are text/line labels only.",
+    "Bilateral authored objects do not imply independent specimens or independently verified anatomical segmentations.",
+    "Open and nonmanifold source edges are recorded and retained, not repaired. Expert anatomical review pending."
+  ]
+}

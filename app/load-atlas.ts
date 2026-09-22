@@ -1,3 +1,4 @@
+import { referenceDataset } from "./reference-datasets";
 import { assetUrl } from "./asset-url";
 import type { Atlas, AtlasAnchor, DatasetId } from "./anatomy";
 import { prepareAtlas } from "./atlas-metadata";
@@ -46,9 +47,11 @@ export async function loadAtlas(
     if (!response.ok) throw new Error("Anatomi verisi yüklenemedi. Lütfen yeniden deneyin.");
     return response.json() as Promise<T>;
   }
-  if (dataset === "female-pelvis") {
-    const reference = await read<Atlas>("/models/female-pelvis/atlas.json");
-    if (reference.sex !== "female") throw new Error("Kadın pelvis referansı doğrulanamadı.");
+  const config = referenceDataset(dataset);
+  if (config) {
+    const reference = await read<Atlas>(config.manifest);
+    if (reference.sex !== config.sex || reference.datasetId !== dataset)
+      throw new Error("Seçilen bölgesel referans doğrulanamadı.");
     return { ...reference, datasetId: dataset, anchors: [] };
   }
   const [base, registry] = await Promise.all([

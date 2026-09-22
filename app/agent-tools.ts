@@ -1,5 +1,4 @@
-import { femalePelvisConcepts, femalePelvisSearchTerms } from "./female-pelvis-labels";
-import { anatomySearchTerms } from "./atlas-metadata";
+import { atlasDataset, referenceConcepts, datasetSearchTerms } from "./reference-datasets";
 import type { Atlas, Concept } from "./anatomy";
 type Tool = {
   name: string;
@@ -14,9 +13,8 @@ function record(input: unknown): Record<string, unknown> {
   return input as Record<string, unknown>;
 }
 export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): Tool[] {
-  const female = atlas.datasetId === "female-pelvis" || atlas.sex === "female";
-  const concepts = female ? femalePelvisConcepts(atlas.concepts) : atlas.concepts;
-  const searchTerms = female ? femalePelvisSearchTerms : anatomySearchTerms;
+  const dataset = atlasDataset(atlas);
+  const concepts = referenceConcepts(atlas);
   return [
     {
       name: "find_anatomy",
@@ -34,7 +32,11 @@ export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): T
           throw new Error("A nonempty query is required.");
         const q = data.query.toLowerCase().trim();
         return concepts
-          .filter((c) => searchTerms(c.id, c.name).some((term) => term.toLowerCase().includes(q)))
+          .filter((c) =>
+            datasetSearchTerms(dataset, c.id, c.name).some((term) =>
+              term.toLowerCase().includes(q),
+            ),
+          )
           .slice(0, 30)
           .map((c) => ({ id: c.id, name: c.name, pieces: c.elements.length }));
       },

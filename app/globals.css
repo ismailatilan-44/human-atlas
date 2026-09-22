@@ -126,5 +126,5 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 /* Keep reference selection accessible without mixing dataset scope. */
 .dataset-select{pointer-events:auto;display:block;margin-top:12px;min-height:40px;max-width:250px;border:1px solid #263b4826;border-radius:9px;background:#fffffff0;color:#344955;padding:8px 10px;font-size:12px}
 .reference-scope{font-size:12px;line-height:1.5;color:#65717e;padding:8px 3px;margin:0}
-@media(max-width:767px){.dataset-select{margin-top:8px;min-height:40px;max-width:230px}.identity{top:70px}.identity .eyebrow{display:none}.identity h1{margin:0 0 6px;font-size:24px}.view-controls{top:194px}.search-panel{top:194px}.top-actions{top:16px}.loading{top:49%}.female-reference .scene-caption{display:none}}
+@media(max-width:767px){.dataset-select{margin-top:8px;min-height:40px;max-width:230px}.identity{top:70px}.identity .eyebrow{display:none}.identity h1{margin:0 0 6px;font-size:24px}.view-controls{top:194px}.search-panel{top:194px}.top-actions{top:16px}.loading{top:49%}.regional-reference .scene-caption{display:none}}
 @media(max-height:600px) and (orientation:landscape){.identity{top:18px}.identity h1{font-size:22px}.dataset-select{max-width:230px}.view-controls{top:76px}.search-panel{top:128px}}

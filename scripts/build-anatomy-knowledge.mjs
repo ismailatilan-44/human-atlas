@@ -78,6 +78,7 @@ export function buildKnowledge() {
   const sciatic = JSON.parse(read('data/anatomy/sciatic.json'));
   const thyroid = JSON.parse(read('data/anatomy/thyroid.json'));
   const spinalCord = JSON.parse(read('data/anatomy/spinal-cord.json'));
+  const brachialPlexus = JSON.parse(read('data/anatomy/brachial-plexus.json'));
   const entities = atlas.concepts.map(c => ({
     id: c.id, name: c.name, kind: 'source_concept',
     side: sideOf(c.name),
@@ -86,7 +87,7 @@ export function buildKnowledge() {
     evidence: [{ sourceId: 'human-atlas', locator: `atlas.json / concepts / ${c.id}` }],
   }));
   const entityMap = new Map();
-  for (const entity of [...entities, ...pilot.entities, ...forearm.entities, ...knee.entities, ...sciatic.entities, ...thyroid.entities, ...spinalCord.entities]) {
+  for (const entity of [...entities, ...pilot.entities, ...forearm.entities, ...knee.entities, ...sciatic.entities, ...thyroid.entities, ...spinalCord.entities, ...brachialPlexus.entities]) {
     assert(!entityMap.has(entity.id), `Duplicate authored entity ${entity.id}`);
     entityMap.set(entity.id, entity);
   }
@@ -150,9 +151,9 @@ export function buildKnowledge() {
   });
   const graph = {
     schemaVersion: 1,
-    coverage: { structural: 'BodyParts3D source PART-OF snapshot', functional: `${pilot.scope}; ${forearm.scope}; ${knee.scope}; ${sciatic.scope}; ${thyroid.scope}; ${spinalCord.scope}`, complete: false },
+    coverage: { structural: 'BodyParts3D source PART-OF snapshot', functional: `${pilot.scope}; ${forearm.scope}; ${knee.scope}; ${sciatic.scope}; ${thyroid.scope}; ${spinalCord.scope}; ${brachialPlexus.scope}`, complete: false },
     sources, geometryPartIds,
-    entities: [...entityMap.values()], relations: [...relations, ...pilot.relations, ...forearm.relations, ...knee.relations, ...sciatic.relations, ...thyroid.relations, ...spinalCord.relations],
+    entities: [...entityMap.values()], relations: [...relations, ...pilot.relations, ...forearm.relations, ...knee.relations, ...sciatic.relations, ...thyroid.relations, ...spinalCord.relations, ...brachialPlexus.relations],
     assetBindings,
   };
   validateKnowledge(graph);

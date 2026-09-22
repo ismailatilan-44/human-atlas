@@ -1,0 +1,350 @@
+{
+  "version": "Z-Anatomy bilateral cochlea candidate 1",
+  "status": "inactive_noncommercial_candidate",
+  "sex": "male",
+  "scope": "Two authored cochlear surfaces; separate inner-ear structures excluded",
+  "source": {
+    "id": "zanatomy-cochlea-noncommercial",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "license": "CC-BY-NC-SA-4.0 (Dundee inner-ear attribution; object lineage inferred, not individually documented)",
+    "attribution": "ATTRIBUTION.md",
+    "upstreamAttributionUrl": "https://www.dundee.ac.uk/tilt/medical-illustration/anatomy-inner-ear",
+    "limitations": "Archive-level attribution identifies the Dundee inner-ear work as referenced/included/adapted. Cochlea objects contain no object-specific source/license properties; this package preserves the narrower noncommercial scope and makes no blanket commercial clearance claim."
+  },
+  "parts": [
+    {
+      "id": "ZA-COCH-L",
+      "conceptId": "atlas:left-cochlea",
+      "name": "Left cochlea",
+      "system": "sensory",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 37320,
+      "indices": 55980,
+      "vertexCount": 3110,
+      "indexCount": 18504,
+      "bounds": [
+        [
+          0.036574635022752204,
+          1.5814439448921795,
+          -0.017664557679777104
+        ],
+        [
+          0.04319128999999762,
+          1.5896814594162332,
+          -0.00753690684415562
+        ]
+      ],
+      "sourceObject": "Cochlea.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Cochlea.l",
+        "objectType": "MESH",
+        "parent": "Internal ear.g",
+        "baseVertices": 783,
+        "basePolygons": 772,
+        "evaluatedVertices": 3110,
+        "evaluatedTriangles": 6168,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.04014948010444641
+          ],
+          [
+            0.0,
+            0.9999997019767761,
+            9.947598300641403e-14,
+            0.004071054980158806
+          ],
+          [
+            0.0,
+            -9.947598300641403e-14,
+            0.9999997019767761,
+            1.5810164213180542
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999993443489075,
+        "mirroredWindingCorrected": true,
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Cochlea",
+          "Head",
+          "Sense organs"
+        ]
+      },
+      "quality": {
+        "vertices": 3110,
+        "triangles": 6168,
+        "boundaryEdges": 52,
+        "nonManifoldEdges": 0,
+        "sourceBoundsM": [
+          [
+            0.03628610819578171,
+            -0.004902462475001812,
+            1.5760729312896729
+          ],
+          [
+            0.04272245988249779,
+            0.004937132820487022,
+            1.58407461643219
+          ]
+        ],
+        "dimensionsMm": [
+          6.616654977245416,
+          8.237514524053635,
+          10.127650835621484
+        ]
+      },
+      "licenseScope": "Dundee inner-ear CC-BY-NC-SA-4.0 attribution conservatively scoped to Cochlea.l/r; object-specific lineage not explicitly encoded upstream",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-COCH-R",
+      "conceptId": "atlas:right-cochlea",
+      "name": "Right cochlea",
+      "system": "sensory",
+      "chunk": 0,
+      "positions": 129996,
+      "normals": 167316,
+      "indices": 185976,
+      "vertexCount": 3110,
+      "indexCount": 18504,
+      "bounds": [
+        [
+          -0.04474279699609481,
+          1.5815170383138992,
+          -0.017595309247755164
+        ],
+        [
+          -0.038111745415997794,
+          1.5897528655261317,
+          -0.007475030359730053
+        ]
+      ],
+      "sourceObject": "Cochlea.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Cochlea.r",
+        "objectType": "MESH",
+        "parent": "Internal ear.g",
+        "baseVertices": 783,
+        "basePolygons": 772,
+        "evaluatedVertices": 3110,
+        "evaluatedTriangles": 6168,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2
+          }
+        ],
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.040149495005607605
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            0.0,
+            0.004071024712175131
+          ],
+          [
+            0.0,
+            0.0,
+            0.9999992251396179,
+            1.5810166597366333
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999983906745911,
+        "mirroredWindingCorrected": false,
+        "collections": [
+          "7: Nervous system & Sense organs",
+          "Cochlea",
+          "Head",
+          "Sense organs"
+        ]
+      },
+      "quality": {
+        "vertices": 3110,
+        "triangles": 6168,
+        "boundaryEdges": 52,
+        "nonManifoldEdges": 0,
+        "sourceBoundsM": [
+          [
+            -0.04272247478365898,
+            -0.0049024890176951885,
+            1.576073169708252
+          ],
+          [
+            -0.0362861230969429,
+            0.00493710208684206,
+            1.584074854850769
+          ]
+        ],
+        "dimensionsMm": [
+          6.631051580097018,
+          8.235827212232483,
+          10.120278888025112
+        ]
+      },
+      "licenseScope": "Dundee inner-ear CC-BY-NC-SA-4.0 attribution conservatively scoped to Cochlea.l/r; object-specific lineage not explicitly encoded upstream",
+      "expertReview": "pending"
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/cochlea.bin",
+      "bytes": 259992,
+      "gzip": "/models/extensions/cochlea.bin.gz",
+      "gzipBytes": 150067,
+      "sha256": "e01ab0d9be588ab69145e3a0c6b6fc67c51bfe421923e12e0b47ce16af5285c5"
+    }
+  ],
+  "triangles": 12336,
+  "concepts": [
+    {
+      "id": "atlas:left-cochlea",
+      "name": "Left cochlea",
+      "elements": [
+        "ZA-COCH-L"
+      ]
+    },
+    {
+      "id": "atlas:right-cochlea",
+      "name": "Right cochlea",
+      "elements": [
+        "ZA-COCH-R"
+      ]
+    }
+  ],
+  "registration": {
+    "method": "Independent cranial labeled bidirectional similarity ICP; bilateral temporal bones and sphenoid fit; occipital bone held out; cochleae not fitted or deformed",
+    "matrixColumnVector": [
+      [
+        1.0291316575511313,
+        -0.0008331712213996479,
+        0.0009294626237710173,
+        -0.002240704581896901
+      ],
+      [
+        -0.0009314033915779351,
+        -0.0023999806238870327,
+        1.0291291946251058,
+        -0.040504468106645763
+      ],
+      [
+        -0.0008310010681780181,
+        -1.0291292788409594,
+        -0.0024007329097356974,
+        -0.008757157141654034
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 1.0291324145361431,
+    "iterations": 67,
+    "lastTransformDelta": 9.721068508971795e-08,
+    "measurements": [
+      {
+        "sourceObject": "Temporal bone.l",
+        "targetPartId": "FJ3281",
+        "role": "fit",
+        "samples": 8886,
+        "rmsMm": 2.6981491415888224,
+        "meanMm": 1.9442352554424163,
+        "p95Mm": 5.582661084440872,
+        "maxMm": 7.723261304034955,
+        "nearCochlea25mm": {
+          "samples": 5310,
+          "rmsMm": 3.061413113253897,
+          "meanMm": 2.3402545142237243,
+          "p95Mm": 5.9537936275715095,
+          "maxMm": 7.723261304034955
+        }
+      },
+      {
+        "sourceObject": "Temporal bone.r",
+        "targetPartId": "FJ3386",
+        "role": "fit",
+        "samples": 9027,
+        "rmsMm": 2.6597174796626644,
+        "meanMm": 1.9105198595965305,
+        "p95Mm": 5.5701277971839485,
+        "maxMm": 7.682360572674293,
+        "nearCochlea25mm": {
+          "samples": 5339,
+          "rmsMm": 3.012484073814181,
+          "meanMm": 2.307909787747761,
+          "p95Mm": 5.875892858304319,
+          "maxMm": 7.682360572674293
+        }
+      },
+      {
+        "sourceObject": "Sphenoid bone",
+        "targetPartId": "FJ3394",
+        "role": "fit",
+        "samples": 6441,
+        "rmsMm": 0.9831288100782316,
+        "meanMm": 0.612393276642695,
+        "p95Mm": 1.986138661911038,
+        "maxMm": 7.769620544819993
+      },
+      {
+        "sourceObject": "Occipital bone",
+        "targetPartId": "FJ3309",
+        "role": "holdout",
+        "samples": 6695,
+        "rmsMm": 0.6326706251418798,
+        "meanMm": 0.5149006678779122,
+        "p95Mm": 1.133494452389319,
+        "maxMm": 3.23493726258181
+      }
+    ],
+    "limitations": "Bone agreement validates coordinate placement only, not the authored internal ear morphology or exact submillimeter cochlear position."
+  },
+  "limitations": [
+    "No nerves, vestibule, semicircular canals, ossicles, hair cells or organ of Corti included.",
+    "Authored subdivision is evaluated; no additional subdivision, manual placement, remeshing or local deformation applied.",
+    "This is a source-derived illustrative surface, not a newly validated clinical segmentation.",
+    "Source-specific noncommercial candidate kept separate from public/registered assets."
+  ]
+}

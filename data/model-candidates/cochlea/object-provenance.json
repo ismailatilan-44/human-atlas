@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Cochlea.l",
+    "type": "MESH",
+    "parent": "Internal ear.g",
+    "collections": [
+      "7: Nervous system & Sense organs",
+      "Cochlea",
+      "Head",
+      "Sense organs"
+    ],
+    "customProperties": {
+      "Cross-section-X": "1",
+      "Cross-section-Y": "1",
+      "Cross-section-Z": "1",
+      "Cross-section-X-inverse": "0",
+      "Cross-section-Y-inverse": "0",
+      "Cross-section-Z-inverse": "0",
+      "muscle_color": "0",
+      "comic_shader": "False",
+      "key_color": "False"
+    },
+    "modifiers": [
+      {
+        "name": "Subdivision",
+        "type": "SUBSURF",
+        "visible": true,
+        "levels": 1
+      }
+    ],
+    "vertices": 783,
+    "polygons": 772,
+    "meshProperties": {}
+  },
+  {
+    "name": "Cochlea.r",
+    "type": "MESH",
+    "parent": "Internal ear.g",
+    "collections": [
+      "7: Nervous system & Sense organs",
+      "Cochlea",
+      "Head",
+      "Sense organs"
+    ],
+    "customProperties": {
+      "Cross-section-X": "1",
+      "Cross-section-Y": "1",
+      "Cross-section-Z": "1",
+      "Cross-section-X-inverse": "0",
+      "Cross-section-Y-inverse": "0",
+      "Cross-section-Z-inverse": "0",
+      "muscle_color": "0",
+      "comic_shader": "False",
+      "key_color": "False"
+    },
+    "modifiers": [
+      {
+        "name": "Subdivision",
+        "type": "SUBSURF",
+        "visible": true,
+        "levels": 1
+      }
+    ],
+    "vertices": 783,
+    "polygons": 772,
+    "meshProperties": {}
+  }
+]

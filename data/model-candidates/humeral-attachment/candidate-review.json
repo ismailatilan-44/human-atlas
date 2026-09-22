@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "status": "insufficient_attachment_source",
+  "anchors": [
+    {
+      "conceptId": "atlas:left-humerus-medial-midshaft",
+      "status": "unresolved",
+      "position": null,
+      "sourceObject": "Coracobrachialis muscle.l",
+      "tendonFaces": 292,
+      "components": [
+        {
+          "faceCount": 193,
+          "vertexCount": 108,
+          "sourceWorldBoundsMeters": [
+            [
+              0.1786319464445114,
+              0.02568153850734234,
+              1.2329797744750977
+            ],
+            [
+              0.1956707090139389,
+              0.03592050075531006,
+              1.2658950090408325
+            ]
+          ],
+          "semanticLabel": "Tendon only; component has no proximal/distal/footprint source label"
+        },
+        {
+          "faceCount": 99,
+          "vertexCount": 63,
+          "sourceWorldBoundsMeters": [
+            [
+              0.13484397530555725,
+              0.0013172458857297897,
+              1.3774147033691406
+            ],
+            [
+              0.14566072821617126,
+              0.010042817331850529,
+              1.391714096069336
+            ]
+          ],
+          "semanticLabel": "Tendon only; component has no proximal/distal/footprint source label"
+        }
+      ],
+      "reason": "Material separates tendon from muscle but does not identify a bone footprint or a unique attachment point",
+      "sourceObjectType": "MESH"
+    },
+    {
+      "conceptId": "atlas:right-humerus-medial-midshaft",
+      "status": "unresolved",
+      "position": null,
+      "sourceObject": "Coracobrachialis muscle.r",
+      "tendonFaces": 292,
+      "components": [
+        {
+          "faceCount": 193,
+          "vertexCount": 108,
+          "sourceWorldBoundsMeters": [
+            [
+              -0.19567076861858368,
+              0.025681542232632637,
+              1.2329797744750977
+            ],
+            [
+              -0.1786320060491562,
+              0.03592050075531006,
+              1.2658950090408325
+            ]
+          ],
+          "semanticLabel": "Tendon only; component has no proximal/distal/footprint source label"
+        },
+        {
+          "faceCount": 99,
+          "vertexCount": 63,
+          "sourceWorldBoundsMeters": [
+            [
+              -0.14566078782081604,
+              0.0013172458857297897,
+              1.3774147033691406
+            ],
+            [
+              -0.13484403491020203,
+              0.010042818263173103,
+              1.391714096069336
+            ]
+          ],
+          "semanticLabel": "Tendon only; component has no proximal/distal/footprint source label"
+        }
+      ],
+      "reason": "Material separates tendon from muscle but does not identify a bone footprint or a unique attachment point",
+      "sourceObjectType": "MESH"
+    }
+  ],
+  "source": {
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "license": "CC-BY-SA-4.0",
+    "coordinateFrame": "original source world meters; not registered to atlas"
+  },
+  "evidence": {
+    "sourceId": "uams-upper-limb",
+    "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/muscle-tables/muscles-of-the-upper-limb/",
+    "locator": "coracobrachialis row, Insertion column",
+    "supportedClaim": "Coracobrachialis inserts on the medial humerus at midshaft.",
+    "limitation": "Regional identity only; no coordinate or mesh footprint."
+  }
+}

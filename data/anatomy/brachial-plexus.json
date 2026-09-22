@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions",
+  "representationNoteTr": "Bu kısmi referans her tarafta 3 gövde, 6 bölüm ve arka kordonu gösterir. Kökler, medial/lateral kordonlar ve terminal dallar pakette yoktur. Yerleşim sınırı: boyun referanslarında 4,3–4,8 mm, ilk kaburgalarda 8,3–8,4 mm RMS fark; kesin komşuluk veya temas modeli değildir.",
+  "labelSource": {
+    "sourceId": "zanatomy-ta2-pinned",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "scope": "Exact upstream English/Latin pairs; Turkish editorial translations, not official Turkish terminology approval"
+  },
+  "labels": [
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-superior-trunk"
+      ],
+      "tr": "Brakiyal pleksusun üst gövdesi",
+      "en": "Superior trunk of brachial plexus",
+      "la": "Truncus superior plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6398: Superior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-middle-trunk"
+      ],
+      "tr": "Brakiyal pleksusun orta gövdesi",
+      "en": "Middle trunk of brachial plexus",
+      "la": "Truncus medius plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6401: Middle trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-inferior-trunk"
+      ],
+      "tr": "Brakiyal pleksusun alt gövdesi",
+      "en": "Inferior trunk of brachial plexus",
+      "la": "Truncus inferior plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6404: Inferior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-superior-anterior-division"
+      ],
+      "tr": "Brakiyal pleksusun üst gövdesinin ön bölümü",
+      "en": "Anterior division of superior trunk of brachial plexus",
+      "la": "Divisio anterior trunci superioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6399: Anterior division of superior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-middle-anterior-division"
+      ],
+      "tr": "Brakiyal pleksusun orta gövdesinin ön bölümü",
+      "en": "Anterior division of middle trunk of brachial plexus",
+      "la": "Divisio anterior trunci medii plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6402: Anterior division of middle trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-inferior-anterior-division"
+      ],
+      "tr": "Brakiyal pleksusun alt gövdesinin ön bölümü",
+      "en": "Anterior division of inferior trunk of brachial plexus",
+      "la": "Divisio anterior trunci inferioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6405: Anterior division of inferior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-superior-posterior-division"
+      ],
+      "tr": "Brakiyal pleksusun üst gövdesinin arka bölümü",
+      "en": "Posterior division of superior trunk of brachial plexus",
+      "la": "Divisio posterior trunci superioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6400: Posterior division of superior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-middle-posterior-division"
+      ],
+      "tr": "Brakiyal pleksusun orta gövdesinin arka bölümü",
+      "en": "Posterior division of middle trunk of brachial plexus",
+      "la": "Divisio posterior trunci medii plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6403: Posterior division of middle trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-inferior-posterior-division"
+      ],
+      "tr": "Brakiyal pleksusun alt gövdesinin arka bölümü",
+      "en": "Posterior division of inferior trunk of brachial plexus",
+      "la": "Divisio posterior trunci inferioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6406: Posterior division of inferior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-posterior-cord"
+      ],
+      "tr": "Brakiyal pleksusun arka kordonu",
+      "en": "Posterior cord of brachial plexus",
+      "la": "Fasciculus posterior plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6416: Posterior cord of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus"
+      ],
+      "tr": "Brakiyal pleksus",
+      "en": "Brachial plexus",
+      "la": "Plexus brachialis",
+      "side": "left",
+      "aliases": [
+        "plexus brachialis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6395: Brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-superior-trunk"
+      ],
+      "tr": "Brakiyal pleksusun üst gövdesi",
+      "en": "Superior trunk of brachial plexus",
+      "la": "Truncus superior plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6398: Superior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-middle-trunk"
+      ],
+      "tr": "Brakiyal pleksusun orta gövdesi",
+      "en": "Middle trunk of brachial plexus",
+      "la": "Truncus medius plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6401: Middle trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-inferior-trunk"
+      ],
+      "tr": "Brakiyal pleksusun alt gövdesi",
+      "en": "Inferior trunk of brachial plexus",
+      "la": "Truncus inferior plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6404: Inferior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-superior-anterior-division"
+      ],
+      "tr": "Brakiyal pleksusun üst gövdesinin ön bölümü",
+      "en": "Anterior division of superior trunk of brachial plexus",
+      "la": "Divisio anterior trunci superioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6399: Anterior division of superior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-middle-anterior-division"
+      ],
+      "tr": "Brakiyal pleksusun orta gövdesinin ön bölümü",
+      "en": "Anterior division of middle trunk of brachial plexus",
+      "la": "Divisio anterior trunci medii plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6402: Anterior division of middle trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-inferior-anterior-division"
+      ],
+      "tr": "Brakiyal pleksusun alt gövdesinin ön bölümü",
+      "en": "Anterior division of inferior trunk of brachial plexus",
+      "la": "Divisio anterior trunci inferioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6405: Anterior division of inferior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-superior-posterior-division"
+      ],
+      "tr": "Brakiyal pleksusun üst gövdesinin arka bölümü",
+      "en": "Posterior division of superior trunk of brachial plexus",
+      "la": "Divisio posterior trunci superioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6400: Posterior division of superior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-middle-posterior-division"
+      ],
+      "tr": "Brakiyal pleksusun orta gövdesinin arka bölümü",
+      "en": "Posterior division of middle trunk of brachial plexus",
+      "la": "Divisio posterior trunci medii plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6403: Posterior division of middle trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-inferior-posterior-division"
+      ],
+      "tr": "Brakiyal pleksusun alt gövdesinin arka bölümü",
+      "en": "Posterior division of inferior trunk of brachial plexus",
+      "la": "Divisio posterior trunci inferioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6406: Posterior division of inferior trunk of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-posterior-cord"
+      ],
+      "tr": "Brakiyal pleksusun arka kordonu",
+      "en": "Posterior cord of brachial plexus",
+      "la": "Fasciculus posterior plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6416: Posterior cord of brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus"
+      ],
+      "tr": "Brakiyal pleksus",
+      "en": "Brachial plexus",
+      "la": "Plexus brachialis",
+      "side": "right",
+      "aliases": [
+        "plexus brachialis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6395: Brachial plexus; Latin column"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:brachial-plexus"
+      ],
+      "tr": "Brakiyal pleksus",
+      "en": "Brachial plexus",
+      "la": "Plexus brachialis",
+      "side": null,
+      "aliases": [
+        "plexus brachialis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6395: Brachial plexus; Latin column"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "relations": [
+    {
+      "id": "atlas:left-brachial-plexus-superior-trunk|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-superior-trunk",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-superior-trunk / ZA-BP-SUP-TRUNK-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-middle-trunk|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-middle-trunk",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-middle-trunk / ZA-BP-MID-TRUNK-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-inferior-trunk|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-inferior-trunk",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-inferior-trunk / ZA-BP-INF-TRUNK-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-superior-anterior-division|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-superior-anterior-division",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-superior-anterior-division / ZA-BP-SUP-ANT-DIV-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-middle-anterior-division|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-middle-anterior-division",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-middle-anterior-division / ZA-BP-MID-ANT-DIV-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-inferior-anterior-division|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-inferior-anterior-division",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-inferior-anterior-division / ZA-BP-INF-ANT-DIV-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-superior-posterior-division|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-superior-posterior-division",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-superior-posterior-division / ZA-BP-SUP-POST-DIV-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-middle-posterior-division|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-middle-posterior-division",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-middle-posterior-division / ZA-BP-MID-POST-DIV-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-inferior-posterior-division|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-inferior-posterior-division",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-inferior-posterior-division / ZA-BP-INF-POST-DIV-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus-posterior-cord|part_of|atlas:left-brachial-plexus",
+      "subject": "atlas:left-brachial-plexus-posterior-cord",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:left-brachial-plexus / elements includes atlas:left-brachial-plexus-posterior-cord / ZA-BP-POST-CORD-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:left-brachial-plexus|part_of|atlas:brachial-plexus",
+      "subject": "atlas:left-brachial-plexus",
+      "predicate": "part_of",
+      "object": "atlas:brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:brachial-plexus / elements includes atlas:left-brachial-plexus / ZA-BP-SUP-TRUNK-L,ZA-BP-MID-TRUNK-L,ZA-BP-INF-TRUNK-L,ZA-BP-SUP-ANT-DIV-L,ZA-BP-MID-ANT-DIV-L,ZA-BP-INF-ANT-DIV-L,ZA-BP-SUP-POST-DIV-L,ZA-BP-MID-POST-DIV-L,ZA-BP-INF-POST-DIV-L,ZA-BP-POST-CORD-L"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-superior-trunk|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-superior-trunk",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-superior-trunk / ZA-BP-SUP-TRUNK-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-middle-trunk|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-middle-trunk",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-middle-trunk / ZA-BP-MID-TRUNK-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-inferior-trunk|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-inferior-trunk",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-inferior-trunk / ZA-BP-INF-TRUNK-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-superior-anterior-division|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-superior-anterior-division",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-superior-anterior-division / ZA-BP-SUP-ANT-DIV-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-middle-anterior-division|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-middle-anterior-division",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-middle-anterior-division / ZA-BP-MID-ANT-DIV-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-inferior-anterior-division|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-inferior-anterior-division",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-inferior-anterior-division / ZA-BP-INF-ANT-DIV-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-superior-posterior-division|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-superior-posterior-division",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-superior-posterior-division / ZA-BP-SUP-POST-DIV-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-middle-posterior-division|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-middle-posterior-division",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-middle-posterior-division / ZA-BP-MID-POST-DIV-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-inferior-posterior-division|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-inferior-posterior-division",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-inferior-posterior-division / ZA-BP-INF-POST-DIV-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus-posterior-cord|part_of|atlas:right-brachial-plexus",
+      "subject": "atlas:right-brachial-plexus-posterior-cord",
+      "predicate": "part_of",
+      "object": "atlas:right-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:right-brachial-plexus / elements includes atlas:right-brachial-plexus-posterior-cord / ZA-BP-POST-CORD-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    },
+    {
+      "id": "atlas:right-brachial-plexus|part_of|atlas:brachial-plexus",
+      "subject": "atlas:right-brachial-plexus",
+      "predicate": "part_of",
+      "object": "atlas:brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "brachial-plexus.json / concepts / atlas:brachial-plexus / elements includes atlas:right-brachial-plexus / ZA-BP-SUP-TRUNK-R,ZA-BP-MID-TRUNK-R,ZA-BP-INF-TRUNK-R,ZA-BP-SUP-ANT-DIV-R,ZA-BP-MID-ANT-DIV-R,ZA-BP-INF-ANT-DIV-R,ZA-BP-SUP-POST-DIV-R,ZA-BP-MID-POST-DIV-R,ZA-BP-INF-POST-DIV-R,ZA-BP-POST-CORD-R"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in the named partial source geometry group only; not a functional, physical-continuity or complete plexus assertion",
+        "laterality": "Source object side suffix and manifest aggregate",
+        "scope": "3 trunks, 6 divisions and posterior cord per side; roots excluded"
+      }
+    }
+  ]
+}

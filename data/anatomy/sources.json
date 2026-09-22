@@ -435,5 +435,254 @@
       "deployment": "not_asserted_by_this_record"
     },
     "use": "27 source surfaces in a separate female reference; uterus primary selection covers 10 surfaces and excludes the separate cervicovaginal junction root. No male atlas merge or complete female-body claim."
+  },
+  {
+    "id": "zanatomy-ta2-pinned",
+    "title": "Z-Anatomy TA2 English/Latin nomenclature table, pinned revision",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "retrievedOn": "2026-09-22",
+    "sourceArtifactSha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "use": "Selected exact English/Latin name pairs only; Turkish labels are editorial translations; not anatomical connectivity evidence"
+  },
+  {
+    "id": "extension-brachial-plexus",
+    "title": "Z-Anatomy partial brachial plexus reference extension 1",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "path": "public/models/extensions/brachial-plexus.json",
+    "sha256": "3d838137b4c3e9d84bf82be99fcf9fa62ae4f9c2de24587b2bafb02d26f1ff4c",
+    "retrievedOn": "2026-09-22",
+    "sourceId": "zanatomy",
+    "sourceArtifactSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "license": {
+      "id": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)"
+    },
+    "attribution": "/models/extensions/BRACHIAL-PLEXUS-ATTRIBUTION.md",
+    "geometryAssets": [
+      {
+        "path": "public/models/extensions/brachial-plexus.bin",
+        "sha256": "6362fdadd4b35762e4b7a12ce91729fe24ae26248bd419a4dc29df177954681f"
+      },
+      {
+        "path": "public/models/extensions/brachial-plexus.bin.gz",
+        "sha256": "28013f35155184ea439a115980c67096cda0ed7325a7f64f428a20e4a7451a51"
+      }
+    ],
+    "use": "Partial source geometry, named component/group membership and label mapping only; no functional anatomy or inferred root identities",
+    "limitations": "Bilateral 3 trunks, 6 divisions and posterior cord only; roots excluded for unresolved source identity; incomplete plexus, limited neck/shoulder registration, expert anatomical review pending; Object-specific author/source provenance is not supplied by upstream. No relicensing or blanket commercial clearance of the full archive is asserted.",
+    "registration": {
+      "status": "limited_neck_shoulder_alignment",
+      "method": "Existing six-bone upper-arm similarity retained for source-frame consistency with median/musculocutaneous packages; independently measured neck, clavicle and first-rib residuals limit regional accuracy",
+      "independentRegionalHoldouts": [
+        {
+          "sourceObject": "Vertebra C5",
+          "targetPartId": "FJ3167",
+          "targetConceptId": "FMA12523",
+          "role": "independent_regional_holdout",
+          "rmsMm": 4.800218293522794,
+          "meanMm": 3.698474646306238,
+          "p95Mm": 9.64349559508264,
+          "maxMm": 11.823903769254684
+        },
+        {
+          "sourceObject": "Vertebra C6",
+          "targetPartId": "FJ3170",
+          "targetConceptId": "FMA12524",
+          "role": "independent_regional_holdout",
+          "rmsMm": 4.499047173938789,
+          "meanMm": 3.7398094827107164,
+          "p95Mm": 8.01112800836563,
+          "maxMm": 9.498092345893383
+        },
+        {
+          "sourceObject": "Vertebra C7",
+          "targetPartId": "FJ3172",
+          "targetConceptId": "FMA12525",
+          "role": "independent_regional_holdout",
+          "rmsMm": 4.358563979965068,
+          "meanMm": 3.6884713650069654,
+          "p95Mm": 7.6445088488981074,
+          "maxMm": 9.71862394362688
+        },
+        {
+          "sourceObject": "Vertebra T1",
+          "targetPartId": "FJ3158",
+          "targetConceptId": "FMA9165",
+          "role": "independent_regional_holdout",
+          "rmsMm": 4.309052600374515,
+          "meanMm": 3.578731744531761,
+          "p95Mm": 7.560737687163055,
+          "maxMm": 8.228059858083725
+        },
+        {
+          "sourceObject": "Clavicle.l",
+          "targetPartId": "FJ3237",
+          "targetConceptId": "FMA13323",
+          "role": "independent_regional_holdout",
+          "rmsMm": 4.7606483543246245,
+          "meanMm": 3.6320277062487927,
+          "p95Mm": 10.1626580581069,
+          "maxMm": 12.855032458901405
+        },
+        {
+          "sourceObject": "Clavicle.r",
+          "targetPartId": "FJ3362",
+          "targetConceptId": "FMA13322",
+          "role": "independent_regional_holdout",
+          "rmsMm": 4.66386139516367,
+          "meanMm": 3.4981339434947634,
+          "p95Mm": 10.446348227560515,
+          "maxMm": 12.929840013384819
+        },
+        {
+          "sourceObject": "First rib.l",
+          "targetPartId": "FJ3228",
+          "targetConceptId": "FMA7987",
+          "role": "independent_regional_holdout",
+          "rmsMm": 8.432730736018097,
+          "meanMm": 8.043546475648048,
+          "p95Mm": 11.397076211869717,
+          "maxMm": 12.034031562507153
+        },
+        {
+          "sourceObject": "First rib.r",
+          "targetPartId": "FJ3334",
+          "targetConceptId": "FMA7857",
+          "role": "independent_regional_holdout",
+          "rmsMm": 8.313095620818682,
+          "meanMm": 7.905506472349051,
+          "p95Mm": 11.277846526354551,
+          "maxMm": 12.1145723387599
+        }
+      ]
+    }
+  },
+  {
+    "id": "reference-inner-ear",
+    "title": "Independent bilateral inner-ear reference with same-source temporal bones",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "retrievedOn": "2026-09-22",
+    "path": "public/models/inner-ear-reference/atlas.json",
+    "sha256": "05e3ab4cc24f0a205734c4a300fdfe23b023440f7812f66f976cb8e58d3410e1",
+    "sourceId": "zanatomy",
+    "sourceArtifactSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "datasetId": "inner-ear-reference",
+    "sex": "unspecified",
+    "sourceCandidate": {
+      "path": "data/model-candidates/inner-ear-reference/inner-ear-reference.json",
+      "sha256": "61c8bf428568966aaba5395bc1b69372f764c0fcee50ba1f3e0e6d1ad01426d0",
+      "binaryPath": "data/model-candidates/inner-ear-reference/inner-ear-reference.bin",
+      "binarySha256": "b172a3825998d4f78f43a308131bc89d74bff20c2c949750410f75dc2d8cdb77"
+    },
+    "geometryAssets": [
+      {
+        "path": "public/models/inner-ear-reference/atlas.bin",
+        "sha256": "18d64de74a64d8d702aeae11d63d47c113c679c52dae0aabf61635c5bd6951d9"
+      },
+      {
+        "path": "public/models/inner-ear-reference/atlas.bin.gz",
+        "sha256": "37086060bb48b87fb80ce587187ac52e7781088216cdf0ad5b4aafa43b98baae"
+      }
+    ],
+    "attribution": "/models/inner-ear-reference/ATTRIBUTION.md",
+    "license": {
+      "id": "mixed-component-noncommercial-reference",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/License.txt"
+    },
+    "licensePolicy": {
+      "packageUse": "noncommercial",
+      "innerEar": "CC-BY-NC-SA-4.0",
+      "temporalBones": "CC-BY-SA-4.0",
+      "note": "Separate source-license scopes retained; package restriction does not relicense temporal bones."
+    },
+    "componentLicenses": [
+      {
+        "partIds": [
+          "IE-COCHLEA-L",
+          "IE-COCHLEA-R",
+          "IE-VESTIBULAR-COMPLEX-L",
+          "IE-VESTIBULAR-COMPLEX-R"
+        ],
+        "licenseId": "CC-BY-NC-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attribution": "University of Dundee School of Medicine, Anatomy of the Inner Ear; Annie Campbell, Patrick Spielmann, Penny Lockwood and David Stewart; underlying 3D Ear by W. Robert J. Funnell, Sam Daniel and Daren Nicolson at McGill University",
+        "sourceUrl": "https://www.dundee.ac.uk/tilt/medical-illustration/anatomy-inner-ear",
+        "lineageStatus": "Inferred from archive-level component attribution; exact Blender object author/license certificates not supplied. No independent Dundee validation or commercial clearance asserted."
+      },
+      {
+        "partIds": [
+          "IE-TEMPORAL-BONE-L",
+          "IE-TEMPORAL-BONE-R"
+        ],
+        "licenseId": "CC-BY-SA-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Z-Anatomy contributors / Gauthier Kervyn; underlying BodyParts3D / Database Center for Life Science / Kousaku Okubo attribution and CC-BY-SA-2.1-JP retained in attribution file.",
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/License.txt",
+        "lineageStatus": "Archive general declaration; individual temporal-bone lineage not supplied. Not relicensed by package noncommercial restriction."
+      }
+    ],
+    "coordinateSystem": {
+      "unit": "meter",
+      "x": "left",
+      "y": "superior",
+      "z": "anterior",
+      "origin": "Original source origin retained; uniform axis rotation only",
+      "atlasRegistration": null,
+      "compatibleWithMainAtlas": false
+    },
+    "appliedDisplayTransform": {
+      "matrixColumnVector": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "formula": "(x, y, z) -> (x, z, -y)",
+      "uniformScale": 1,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "determinant": 1,
+      "appliesTo": "Every part position and normal; bounds recomputed from rotated positions",
+      "sourceFrame": "Source Z-Anatomy world meters, X left / Y posterior / Z superior",
+      "purpose": "One uniform display axis rotation. Not anatomical registration to another dataset."
+    },
+    "geometryImportStatus": "separate_reference_packaged",
+    "review": {
+      "technical": "source-preserving rigid display rotation",
+      "localVisual": "source temporal-context render reviewed; UI acceptance handled separately",
+      "expertAnatomical": "pending",
+      "deployment": "not_asserted_by_this_record"
+    },
+    "use": "6 source surfaces in an independent reference only; source spatial relationships retained, no male atlas registration or male graph entities. Cochlea coverage does not imply membranes, organ of Corti or cellular anatomy.",
+    "limitations": [
+      "A single uniform rigid axis rotation preserves source geometry and adjacency. This is not registered to the main atlas.",
+      "Authored viewport subdivision evaluated; original base cages also supplied as OBJ.",
+      "Cochlear and vestibular surfaces are illustrative source objects; membranes, sensory cells and organ of Corti are not modeled.",
+      "Semicircular canals are visible portions of combined Vestibule objects; individually named source objects are text/line labels only.",
+      "Bilateral authored objects do not imply independent specimens or independently verified anatomical segmentations.",
+      "Open and nonmanifold source edges are recorded and retained, not repaired. Expert anatomical review pending."
+    ]
   }
 ]

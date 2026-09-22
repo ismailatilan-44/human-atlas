@@ -1,3 +1,4 @@
+import { atlasDataset, referenceDataset } from "./reference-datasets";
 import { assetUrl } from "./asset-url";
 import { useEffect, useRef } from "react";
 import * as T from "three";
@@ -158,7 +159,7 @@ export default function AnatomyScene({
     const referenceBounds = bounds.reduce((box, part) => box.union(part), new T.Box3());
     const referenceCenter = referenceBounds.getCenter(new T.Vector3());
     const referenceSize = referenceBounds.getSize(new T.Vector3());
-    const regionalReference = atlas.datasetId === "female-pelvis";
+    const regionalReference = !!referenceDataset(atlasDataset(atlas));
     ground.visible = platform.visible = ring.visible = innerRing.visible = !regionalReference;
     let packingWidth = 1,
       packingHeight = 1;
@@ -719,7 +720,7 @@ export default function AnatomyScene({
         platform.visible =
         ring.visible =
         innerRing.visible =
-          amount < 0.5 && !s.isolate;
+          !regionalReference && amount < 0.5 && !s.isolate;
       markers.visible = amount > 0.75;
       controls.autoRotate = s.rotate && !s.isolate && amount < 0.4;
       controls.autoRotateSpeed = 0.65;

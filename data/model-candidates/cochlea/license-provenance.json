@@ -1,0 +1,30 @@
+{
+  "verifiedOn": "2026-09-22",
+  "primarySources": [
+    {
+      "url": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/License.txt",
+      "locator": "ATTRIBUTIONS / MODELS / Anatomy of the Inner Ear",
+      "claim": "Archive identifies the University of Dundee School of Medicine inner-ear work as referenced/included/adapted under CC BY-NC-SA 4.0."
+    },
+    {
+      "url": "https://www.dundee.ac.uk/tilt/medical-illustration/anatomy-inner-ear",
+      "locator": "Overview / attribution and license paragraphs; Final Product",
+      "claim": "Dundee identifies Anatomy of the Inner Ear as a derivative of McGill 3D Ear (CC BY-NC-SA 1.0), and licenses its own derivative under CC BY-NC-SA 4.0.",
+      "credits": [
+        "University of Dundee School of Medicine",
+        "Annie Campbell (medical artist)",
+        "Dr Patrick Spielmann (content expert)",
+        "Dr Penny Lockwood and Dr David Stewart (reviewers)",
+        "W. Robert J. Funnell, Sam Daniel and Daren Nicolson, McGill University (3D Ear)"
+      ]
+    }
+  ],
+  "objectScope": [
+    "Cochlea.l",
+    "Cochlea.r"
+  ],
+  "objectLineageStatus": "inferred_from_anatomical_component_and_upstream_inner_ear_attribution; no per-object author or license metadata found",
+  "distributionClassification": "separate_noncommercial_candidate",
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "note": "Dundee page was verified with the web tool; direct file retrieval returned HTTP 403, so this record preserves selected facts and source URL rather than claiming a downloaded page snapshot."
+}

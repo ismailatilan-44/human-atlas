@@ -1,0 +1,5033 @@
+{
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "selection": "All coracobrachialis/humerus/medial-shaft name matches plus recursive children of both humeri",
+  "objects": [
+    {
+      "name": "Anatomical neck of humerus.i",
+      "type": "MESH",
+      "parent": "Anatomical neck of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anatomical neck of humerus.j",
+      "type": "MESH",
+      "parent": "Anatomical neck of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anatomical neck of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANATOMICAL NECK OF HUMERUS"
+    },
+    {
+      "name": "Anatomical neck of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANATOMICAL NECK OF HUMERUS"
+    },
+    {
+      "name": "Anconeus muscle.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 26,
+      "polygons": 31,
+      "edges": 56,
+      "materialFaceCounts": {
+        "Origin-Extension": 31
+      }
+    },
+    {
+      "name": "Anconeus muscle.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 26,
+      "polygons": 31,
+      "edges": 56,
+      "materialFaceCounts": {
+        "Origin-Extension": 31
+      }
+    },
+    {
+      "name": "Anterior border of humerus.i",
+      "type": "MESH",
+      "parent": "Anterior border of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anterior border of humerus.j",
+      "type": "MESH",
+      "parent": "Anterior border of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anterior border of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTERIOR BORDER OF HUMERUS"
+    },
+    {
+      "name": "Anterior border of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTERIOR BORDER OF HUMERUS"
+    },
+    {
+      "name": "Anterolateral surface of humerus.i",
+      "type": "MESH",
+      "parent": "Anterolateral surface of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anterolateral surface of humerus.j",
+      "type": "MESH",
+      "parent": "Anterolateral surface of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anterolateral surface of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTEROLATERAL SURFACE OF HUMERUS"
+    },
+    {
+      "name": "Anterolateral surface of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTEROLATERAL SURFACE OF HUMERUS"
+    },
+    {
+      "name": "Anteromedial surface of fibula.i",
+      "type": "MESH",
+      "parent": "Anteromedial surface of fibula.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Fibula.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anteromedial surface of fibula.j",
+      "type": "MESH",
+      "parent": "Anteromedial surface of fibula.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Fibula.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anteromedial surface of fibula.s",
+      "type": "FONT",
+      "parent": "Fibula.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTEROMEDIAL SURFACE OF FIBULA"
+    },
+    {
+      "name": "Anteromedial surface of fibula.t",
+      "type": "FONT",
+      "parent": "Fibula.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTEROMEDIAL SURFACE OF FIBULA"
+    },
+    {
+      "name": "Anteromedial surface of humerus.i",
+      "type": "MESH",
+      "parent": "Anteromedial surface of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anteromedial surface of humerus.j",
+      "type": "MESH",
+      "parent": "Anteromedial surface of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Anteromedial surface of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTEROMEDIAL SURFACE OF HUMERUS"
+    },
+    {
+      "name": "Anteromedial surface of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "ANTEROMEDIAL SURFACE OF HUMERUS"
+    },
+    {
+      "name": "Body of humerus.i",
+      "type": "MESH",
+      "parent": "Body of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Body of humerus.j",
+      "type": "MESH",
+      "parent": "Body of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Body of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "BODY OF HUMERUS"
+    },
+    {
+      "name": "Body of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "BODY OF HUMERUS"
+    },
+    {
+      "name": "Brachialis muscle.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "MeasureItArchProps",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 134,
+      "polygons": 192,
+      "edges": 325,
+      "materialFaceCounts": {
+        "Origin-Flexion": 192
+      }
+    },
+    {
+      "name": "Brachialis muscle.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "MeasureItArchProps",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 134,
+      "polygons": 192,
+      "edges": 325,
+      "materialFaceCounts": {
+        "Origin-Flexion": 192
+      }
+    },
+    {
+      "name": "Brachioradialis muscle.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 25,
+      "polygons": 30,
+      "edges": 54,
+      "materialFaceCounts": {
+        "Origin-Flexion": 30
+      }
+    },
+    {
+      "name": "Brachioradialis muscle.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 25,
+      "polygons": 30,
+      "edges": 54,
+      "materialFaceCounts": {
+        "Origin-Flexion": 30
+      }
+    },
+    {
+      "name": "Capitulum of humerus.i",
+      "type": "MESH",
+      "parent": "Capitulum of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Capitulum of humerus.j",
+      "type": "MESH",
+      "parent": "Capitulum of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Capitulum of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CAPITULUM OF HUMERUS"
+    },
+    {
+      "name": "Capitulum of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CAPITULUM OF HUMERUS"
+    },
+    {
+      "name": "Common extensor tendon.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension fingers"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 32,
+      "polygons": 40,
+      "edges": 71,
+      "materialFaceCounts": {
+        "Origin-Extension fingers": 40
+      }
+    },
+    {
+      "name": "Common extensor tendon.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension fingers"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 32,
+      "polygons": 40,
+      "edges": 71,
+      "materialFaceCounts": {
+        "Origin-Extension fingers": 40
+      }
+    },
+    {
+      "name": "Common flexor tendon.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion fingers"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 33,
+      "polygons": 44,
+      "edges": 76,
+      "materialFaceCounts": {
+        "Origin-Flexion fingers": 44
+      }
+    },
+    {
+      "name": "Common flexor tendon.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion fingers"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 33,
+      "polygons": 44,
+      "edges": 76,
+      "materialFaceCounts": {
+        "Origin-Flexion fingers": 44
+      }
+    },
+    {
+      "name": "Condyle of humerus.i",
+      "type": "MESH",
+      "parent": "Condyle of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Condyle of humerus.j",
+      "type": "MESH",
+      "parent": "Condyle of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Condyle of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CONDYLE OF HUMERUS"
+    },
+    {
+      "name": "Condyle of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CONDYLE OF HUMERUS"
+    },
+    {
+      "name": "Coracobrachial bursa.l",
+      "type": "MESH",
+      "parent": "Bursae of upper limb.g",
+      "collections": [
+        "4: Muscular system",
+        "Bursae",
+        "Left upper limb"
+      ],
+      "materialSlots": [
+        "Bursa"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "key_color",
+        "comic_shader",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse"
+      ],
+      "vertices": 178,
+      "polygons": 192,
+      "edges": 368,
+      "materialFaceCounts": {
+        "Bursa": 192
+      }
+    },
+    {
+      "name": "Coracobrachial bursa.r",
+      "type": "MESH",
+      "parent": "Bursae of upper limb.g",
+      "collections": [
+        "4: Muscular system",
+        "Bursae",
+        "Right upper limb"
+      ],
+      "materialSlots": [
+        "Bursa"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "key_color",
+        "comic_shader",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse"
+      ],
+      "vertices": 178,
+      "polygons": 192,
+      "edges": 368,
+      "materialFaceCounts": {
+        "Bursa": 192
+      }
+    },
+    {
+      "name": "Coracobrachialis muscle.l",
+      "type": "MESH",
+      "parent": "Anterior compartment of arm.g",
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of arm",
+        "Left upper limb",
+        "Muscles",
+        "Muscles of upper limb",
+        "Musculocutaneous nerve"
+      ],
+      "materialSlots": [
+        "Flexion",
+        "Tendon"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "M3",
+        "SheetGenerator",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 582,
+      "polygons": 1160,
+      "edges": 1740,
+      "materialFaceCounts": {
+        "Flexion": 868,
+        "Tendon": 292
+      }
+    },
+    {
+      "name": "Coracobrachialis muscle.ol",
+      "type": "MESH",
+      "parent": "Scapula.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 130,
+      "polygons": 209,
+      "edges": 338,
+      "materialFaceCounts": {
+        "Origin-Flexion": 209
+      }
+    },
+    {
+      "name": "Coracobrachialis muscle.or",
+      "type": "MESH",
+      "parent": "Scapula.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Flexion"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 130,
+      "polygons": 209,
+      "edges": 338,
+      "materialFaceCounts": {
+        "Origin-Flexion": 209
+      }
+    },
+    {
+      "name": "Coracobrachialis muscle.r",
+      "type": "MESH",
+      "parent": "Anterior compartment of arm.g",
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of arm",
+        "Muscles",
+        "Muscles of upper limb",
+        "Musculocutaneous nerve",
+        "Right upper limb"
+      ],
+      "materialSlots": [
+        "Flexion",
+        "Tendon"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "M3",
+        "SheetGenerator",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 582,
+      "polygons": 1160,
+      "edges": 1740,
+      "materialFaceCounts": {
+        "Flexion": 868,
+        "Tendon": 292
+      }
+    },
+    {
+      "name": "Coronoid fossa.i",
+      "type": "MESH",
+      "parent": "Coronoid fossa.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Coronoid fossa.j",
+      "type": "MESH",
+      "parent": "Coronoid fossa.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Coronoid fossa.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CORONOID FOSSA"
+    },
+    {
+      "name": "Coronoid fossa.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CORONOID FOSSA"
+    },
+    {
+      "name": "Crest of greater tubercle.i",
+      "type": "MESH",
+      "parent": "Crest of greater tubercle.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Crest of greater tubercle.j",
+      "type": "MESH",
+      "parent": "Crest of greater tubercle.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Crest of greater tubercle.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CREST OF GREATER TUBERCLE"
+    },
+    {
+      "name": "Crest of greater tubercle.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CREST OF GREATER TUBERCLE"
+    },
+    {
+      "name": "Crest of lesser tubercle.i",
+      "type": "MESH",
+      "parent": "Crest of lesser tubercle.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Crest of lesser tubercle.j",
+      "type": "MESH",
+      "parent": "Crest of lesser tubercle.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Crest of lesser tubercle.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CREST OF LESSER TUBERCLE"
+    },
+    {
+      "name": "Crest of lesser tubercle.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "CREST OF LESSER TUBERCLE"
+    },
+    {
+      "name": "Deltoid muscle.el",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Abduction"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 29,
+      "polygons": 35,
+      "edges": 63,
+      "materialFaceCounts": {
+        "End-Abduction": 35
+      }
+    },
+    {
+      "name": "Deltoid muscle.er",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Abduction"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 29,
+      "polygons": 35,
+      "edges": 63,
+      "materialFaceCounts": {
+        "End-Abduction": 35
+      }
+    },
+    {
+      "name": "Deltoid tuberosity.i",
+      "type": "MESH",
+      "parent": "Deltoid tuberosity.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Deltoid tuberosity.j",
+      "type": "MESH",
+      "parent": "Deltoid tuberosity.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Deltoid tuberosity.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "DELTOID TUBEROSITY"
+    },
+    {
+      "name": "Deltoid tuberosity.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "DELTOID TUBEROSITY"
+    },
+    {
+      "name": "Extensor carpi radialis longus.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension hand/foot"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "MeasureItArchProps",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 49,
+      "polygons": 63,
+      "edges": 111,
+      "materialFaceCounts": {
+        "Origin-Extension hand/foot": 63
+      }
+    },
+    {
+      "name": "Extensor carpi radialis longus.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension hand/foot"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "MeasureItArchProps",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 49,
+      "polygons": 63,
+      "edges": 111,
+      "materialFaceCounts": {
+        "Origin-Extension hand/foot": 63
+      }
+    },
+    {
+      "name": "Greater tubercle.i",
+      "type": "MESH",
+      "parent": "Greater tubercle.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Greater tubercle.j",
+      "type": "MESH",
+      "parent": "Greater tubercle.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Greater tubercle.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "GREATER TUBERCLE"
+    },
+    {
+      "name": "Greater tubercle.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "GREATER TUBERCLE"
+    },
+    {
+      "name": "Groove for ulnar nerve.i",
+      "type": "MESH",
+      "parent": "Groove for ulnar nerve.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Groove for ulnar nerve.j",
+      "type": "MESH",
+      "parent": "Groove for ulnar nerve.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Groove for ulnar nerve.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "GROOVE FOR ULNAR NERVE"
+    },
+    {
+      "name": "Groove for ulnar nerve.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "GROOVE FOR ULNAR NERVE"
+    },
+    {
+      "name": "Head of humerus.i",
+      "type": "MESH",
+      "parent": "Head of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Head of humerus.j",
+      "type": "MESH",
+      "parent": "Head of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Head of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "HEAD OF HUMERUS"
+    },
+    {
+      "name": "Head of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "HEAD OF HUMERUS"
+    },
+    {
+      "name": "Humerus.i",
+      "type": "MESH",
+      "parent": "Humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Humerus.j",
+      "type": "MESH",
+      "parent": "Humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Humerus.l",
+      "type": "MESH",
+      "parent": "Bones of free part of upper limb.g",
+      "collections": [
+        "1: Skeletal system",
+        "Appendicular skeleton",
+        "Bones of upper limb",
+        "Bonus collection",
+        "Left upper limb"
+      ],
+      "materialSlots": [
+        "Bone",
+        "Cartilage"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "MeasureGenerator",
+        "M3",
+        "SheetGenerator",
+        "BIMObjectProperties",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2143,
+      "polygons": 4280,
+      "edges": 6421,
+      "materialFaceCounts": {
+        "Bone": 3477,
+        "Cartilage": 803
+      }
+    },
+    {
+      "name": "Humerus.r",
+      "type": "MESH",
+      "parent": "Bones of free part of upper limb.g",
+      "collections": [
+        "1: Skeletal system",
+        "Appendicular skeleton",
+        "Bones of upper limb",
+        "Bonus collection",
+        "Right upper limb"
+      ],
+      "materialSlots": [
+        "Bone",
+        "Cartilage"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "MeasureGenerator",
+        "M3",
+        "SheetGenerator",
+        "BIMObjectProperties",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2143,
+      "polygons": 4280,
+      "edges": 6421,
+      "materialFaceCounts": {
+        "Bone": 3477,
+        "Cartilage": 803
+      }
+    },
+    {
+      "name": "Humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme",
+        "M3"
+      ],
+      "text": "HUMERUS"
+    },
+    {
+      "name": "Humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "HUMERUS"
+    },
+    {
+      "name": "Infraspinatus muscle.el",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-External rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 59,
+      "polygons": 79,
+      "edges": 137,
+      "materialFaceCounts": {
+        "End-External rotation": 79
+      }
+    },
+    {
+      "name": "Infraspinatus muscle.er",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-External rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 59,
+      "polygons": 79,
+      "edges": 137,
+      "materialFaceCounts": {
+        "End-External rotation": 79
+      }
+    },
+    {
+      "name": "Intertubercular sulcus.i",
+      "type": "MESH",
+      "parent": "Intertubercular sulcus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Intertubercular sulcus.j",
+      "type": "MESH",
+      "parent": "Intertubercular sulcus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Intertubercular sulcus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "INTERTUBERCULAR SULCUS"
+    },
+    {
+      "name": "Intertubercular sulcus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "INTERTUBERCULAR SULCUS"
+    },
+    {
+      "name": "Lateral border of humerus.i",
+      "type": "MESH",
+      "parent": "Lateral border of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lateral border of humerus.j",
+      "type": "MESH",
+      "parent": "Lateral border of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lateral border of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LATERAL BORDER OF HUMERUS"
+    },
+    {
+      "name": "Lateral border of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LATERAL BORDER OF HUMERUS"
+    },
+    {
+      "name": "Lateral epicondyle of humerus.i",
+      "type": "MESH",
+      "parent": "Lateral epicondyle of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lateral epicondyle of humerus.j",
+      "type": "MESH",
+      "parent": "Lateral epicondyle of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lateral epicondyle of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LATERAL EPICONDYLE OF HUMERUS"
+    },
+    {
+      "name": "Lateral epicondyle of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LATERAL EPICONDYLE OF HUMERUS"
+    },
+    {
+      "name": "Lateral head of triceps brachii.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 55,
+      "polygons": 72,
+      "edges": 126,
+      "materialFaceCounts": {
+        "Origin-Extension": 72
+      }
+    },
+    {
+      "name": "Lateral head of triceps brachii.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 55,
+      "polygons": 72,
+      "edges": 126,
+      "materialFaceCounts": {
+        "Origin-Extension": 72
+      }
+    },
+    {
+      "name": "Lateral supracondylar ridge.i",
+      "type": "MESH",
+      "parent": "Lateral supracondylar ridge.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lateral supracondylar ridge.j",
+      "type": "MESH",
+      "parent": "Lateral supracondylar ridge.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lateral supracondylar ridge.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LATERAL SUPRACONDYLAR RIDGE"
+    },
+    {
+      "name": "Lateral supracondylar ridge.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LATERAL SUPRACONDYLAR RIDGE"
+    },
+    {
+      "name": "Lesser tubercle.i",
+      "type": "MESH",
+      "parent": "Lesser tubercle.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lesser tubercle.j",
+      "type": "MESH",
+      "parent": "Lesser tubercle.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Lesser tubercle.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LESSER TUBERCLE"
+    },
+    {
+      "name": "Lesser tubercle.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "LESSER TUBERCLE"
+    },
+    {
+      "name": "Medial border of humerus.i",
+      "type": "MESH",
+      "parent": "Medial border of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Medial border of humerus.j",
+      "type": "MESH",
+      "parent": "Medial border of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Medial border of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "MEDIAL BORDER OF HUMERUS"
+    },
+    {
+      "name": "Medial border of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "MEDIAL BORDER OF HUMERUS"
+    },
+    {
+      "name": "Medial epicondyle of humerus.i",
+      "type": "MESH",
+      "parent": "Medial epicondyle of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Medial epicondyle of humerus.j",
+      "type": "MESH",
+      "parent": "Medial epicondyle of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Medial epicondyle of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "MEDIAL EPICONDYLE OF HUMERUS"
+    },
+    {
+      "name": "Medial epicondyle of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "MEDIAL EPICONDYLE OF HUMERUS"
+    },
+    {
+      "name": "Medial head of triceps brachii.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 73,
+      "polygons": 97,
+      "edges": 169,
+      "materialFaceCounts": {
+        "Origin-Extension": 97
+      }
+    },
+    {
+      "name": "Medial head of triceps brachii.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Extension"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 73,
+      "polygons": 97,
+      "edges": 169,
+      "materialFaceCounts": {
+        "Origin-Extension": 97
+      }
+    },
+    {
+      "name": "Medial supracondylar ridge.i",
+      "type": "MESH",
+      "parent": "Medial supracondylar ridge.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Medial supracondylar ridge.j",
+      "type": "MESH",
+      "parent": "Medial supracondylar ridge.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Medial supracondylar ridge.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "MEDIAL SUPRACONDYLAR RIDGE"
+    },
+    {
+      "name": "Medial supracondylar ridge.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "MEDIAL SUPRACONDYLAR RIDGE"
+    },
+    {
+      "name": "Olecranon fossa.i",
+      "type": "MESH",
+      "parent": "Olecranon fossa.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Olecranon fossa.j",
+      "type": "MESH",
+      "parent": "Olecranon fossa.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Olecranon fossa.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "OLECRANON FOSSA"
+    },
+    {
+      "name": "Olecranon fossa.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "OLECRANON FOSSA"
+    },
+    {
+      "name": "Pectoralis major muscle.el",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Adduction"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 35,
+      "polygons": 47,
+      "edges": 81,
+      "materialFaceCounts": {
+        "End-Adduction": 47
+      }
+    },
+    {
+      "name": "Pectoralis major muscle.er",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Adduction"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 35,
+      "polygons": 47,
+      "edges": 81,
+      "materialFaceCounts": {
+        "End-Adduction": 47
+      }
+    },
+    {
+      "name": "Posterior surface of humerus.i",
+      "type": "MESH",
+      "parent": "Posterior surface of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Posterior surface of humerus.j",
+      "type": "MESH",
+      "parent": "Posterior surface of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Posterior surface of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "POSTERIOR SURFACE OF HUMERUS"
+    },
+    {
+      "name": "Posterior surface of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "POSTERIOR SURFACE OF HUMERUS"
+    },
+    {
+      "name": "Pronator teres.ol",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Internal rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 17,
+      "polygons": 16,
+      "edges": 32,
+      "materialFaceCounts": {
+        "Origin-Internal rotation": 16
+      }
+    },
+    {
+      "name": "Pronator teres.or",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "Origin-Internal rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 17,
+      "polygons": 16,
+      "edges": 32,
+      "materialFaceCounts": {
+        "Origin-Internal rotation": 16
+      }
+    },
+    {
+      "name": "Radial fossa.i",
+      "type": "MESH",
+      "parent": "Radial fossa.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Radial fossa.j",
+      "type": "MESH",
+      "parent": "Radial fossa.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Radial fossa.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "RADIAL FOSSA"
+    },
+    {
+      "name": "Radial fossa.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "RADIAL FOSSA"
+    },
+    {
+      "name": "Radial groove.i",
+      "type": "MESH",
+      "parent": "Radial groove.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Radial groove.j",
+      "type": "MESH",
+      "parent": "Radial groove.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Radial groove.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "RADIAL GROOVE"
+    },
+    {
+      "name": "Radial groove.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "RADIAL GROOVE"
+    },
+    {
+      "name": "Subscapularis muscle.el",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Internal rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 25,
+      "polygons": 28,
+      "edges": 52,
+      "materialFaceCounts": {
+        "End-Internal rotation": 28
+      }
+    },
+    {
+      "name": "Subscapularis muscle.er",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Internal rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 25,
+      "polygons": 28,
+      "edges": 52,
+      "materialFaceCounts": {
+        "End-Internal rotation": 28
+      }
+    },
+    {
+      "name": "Supraspinatus muscle.el",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Abduction"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 63,
+      "polygons": 89,
+      "edges": 151,
+      "materialFaceCounts": {
+        "End-Abduction": 89
+      }
+    },
+    {
+      "name": "Supraspinatus muscle.er",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-Abduction"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 63,
+      "polygons": 89,
+      "edges": 151,
+      "materialFaceCounts": {
+        "End-Abduction": 89
+      }
+    },
+    {
+      "name": "Surgical neck of humerus.i",
+      "type": "MESH",
+      "parent": "Surgical neck of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Surgical neck of humerus.j",
+      "type": "MESH",
+      "parent": "Surgical neck of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Surgical neck of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "SURGICAL NECK OF HUMERUS"
+    },
+    {
+      "name": "Surgical neck of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "SURGICAL NECK OF HUMERUS"
+    },
+    {
+      "name": "Teres minor muscle.el",
+      "type": "MESH",
+      "parent": "Humerus.l",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-External rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 83,
+      "polygons": 127,
+      "edges": 209,
+      "materialFaceCounts": {
+        "End-External rotation": 127
+      }
+    },
+    {
+      "name": "Teres minor muscle.er",
+      "type": "MESH",
+      "parent": "Humerus.r",
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "materialSlots": [
+        "End-External rotation"
+      ],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Solidify",
+          "type": "SOLIDIFY"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "propertyKeys": [
+        "SheetGenerator",
+        "M3",
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 83,
+      "polygons": 127,
+      "edges": 209,
+      "materialFaceCounts": {
+        "End-External rotation": 127
+      }
+    },
+    {
+      "name": "Trochlea of humerus.i",
+      "type": "MESH",
+      "parent": "Trochlea of humerus.s",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Trochlea of humerus.j",
+      "type": "MESH",
+      "parent": "Trochlea of humerus.t",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [],
+      "vertexGroups": [],
+      "modifiers": [
+        {
+          "name": "Hook-Humerus.r",
+          "type": "HOOK"
+        }
+      ],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-Y",
+        "Cross-section-Z",
+        "Cross-section-X-inverse",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z-inverse",
+        "muscle_color",
+        "comic_shader",
+        "key_color"
+      ],
+      "vertices": 2,
+      "polygons": 0,
+      "edges": 1,
+      "materialFaceCounts": {}
+    },
+    {
+      "name": "Trochlea of humerus.s",
+      "type": "FONT",
+      "parent": "Humerus.l",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "TROCHLEA OF HUMERUS"
+    },
+    {
+      "name": "Trochlea of humerus.t",
+      "type": "FONT",
+      "parent": "Humerus.r",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "materialSlots": [
+        "Text"
+      ],
+      "vertexGroups": [],
+      "modifiers": [],
+      "propertyKeys": [
+        "Cross-section-X",
+        "Cross-section-X-inverse",
+        "Cross-section-Y",
+        "Cross-section-Y-inverse",
+        "Cross-section-Z",
+        "Cross-section-Z-inverse",
+        "comic_shader",
+        "background",
+        "theme"
+      ],
+      "text": "TROCHLEA OF HUMERUS"
+    }
+  ]
+}

@@ -11,14 +11,14 @@ Makine kaydı: [coverage.json](../../data/anatomy/coverage.json). Mevcut ana atl
 - **Eksik:** İncelenen atlas/extension içinde bağımsız hedef kaydı bulunamadı. Ad taraması başka yüzeyin içindeki ayrıntının veya olası tüm eş adların yokluğunu kanıtlamaz.
 - **Doğrulanmamış:** Semantik hedef veya ilgili kemik yüzeyi var; bağımsız temsil ya da konum henüz doğrulanmadı.
 
-Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `full` sonucu çıkarılmadı. Toplam 65 hedef satırının 60’ı mevcut, 2’si kısmi, 2’si eksik, 1’i doğrulanmamış. Bu toplam iki datasetin hedef satırlarını birleştirir; erkek atlasın geometri sayısı değildir. **Erkek atlas: 57 mevcut, 2 kısmi, 2 eksik, 1 doğrulanmamış; ayrı kadın pelvis: 3 mevcut hedef.** Erkek atlasta mevcut 57 satırın 3’ü toplam altı yüzey referans noktasıdır; yeni bağımsız yüzey geometrisi sayılmaz.
+Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `full` sonucu çıkarılmadı. Toplam 65 hedef satırının 61’i mevcut, 3’ü kısmi, eksik işaretli hedef yok, 1’i doğrulanmamış. Bu toplam üç datasetin hedef satırlarını birleştirir; erkek atlasın geometri sayısı değildir. **Erkek atlas: 57 mevcut, 3 kısmi, eksik işaretli hedef yok, 1 doğrulanmamış; ayrı kadın pelvis: 3 mevcut hedef; ayrı iç kulak: 1 mevcut iki taraflı hedef.** Erkek atlasta mevcut 57 satırın 3’ü toplam altı yüzey referans noktasıdır; yeni bağımsız yüzey geometrisi sayılmaz.
 
 | Bölge | Mevcut | Kısmi | Eksik | Doğrulanmamış |
 | --- | ---: | ---: | ---: | ---: |
-| Baş ve boyun | 9 | 0 | 1 | 0 |
+| Baş ve boyun — 9 erkek + 1 ayrı iç kulak hedefi | 10 | 0 | 0 | 0 |
 | Toraks | 8 | 0 | 0 | 0 |
 | Abdomen ve pelvis — 13 erkek + 3 ayrı kadın hedefi | 16 | 0 | 0 | 0 |
-| Üst ekstremite | 15 | 1 | 1 | 1 |
+| Üst ekstremite | 15 | 2 | 0 | 1 |
 | Alt ekstremite | 12 | 1 | 0 | 0 |
 
 ## Baş ve boyun
@@ -34,7 +34,7 @@ Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `
 | Beyin ventrikülleri ve interventriküler foramen | Mevcut | `FMA78454`, `FMA78469`, `FMA75351`, `FMA78450`, `FMA78449` |
 | Omurilik | Mevcut — doku gövdesi | `FMA7647`: FJ1737 merkez kanal + BP43-FJ4426 uzunlamasına sinir dokusu; kök/zar/segment ayrıntısı yok |
 | Tiroid bezi | Mevcut | `FMA9603`: BodyParts3D 4.3 sağ/sol lob ve isthmus |
-| Koklea, iki taraf | Eksik | Bağımsız kayıt bulunamadı; aday: `za-cochlea` |
+| Koklea, iki taraf — ayrı iç kulak referansı | Mevcut — ayrı dataset | `inner-ear-reference:left-cochlea`, `inner-ear-reference:right-cochlea`; erkek atlasına kayıt yok |
 
 ## Toraks
 
@@ -87,7 +87,7 @@ Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `
 | Brakiyal arterler | Mevcut | `FMA22689` |
 | Muskülokutan sinirler | Mevcut | `atlas:left-musculocutaneous-nerve`, `atlas:right-musculocutaneous-nerve` |
 | Median sinirler | Kısmi — ana gövdeler | `atlas:left-median-nerve`, `atlas:right-median-nerve`; ayrı dallar dahil değil |
-| Brakiyal pleksus | Eksik | Bağımsız kayıt bulunamadı; aday: `za-brachial-plexus` |
+| Brakiyal pleksus | Kısmi — kökler hariç | `atlas:left-brachial-plexus`, `atlas:right-brachial-plexus`; her tarafta 3 gövde, 6 bölüm ve arka kordon |
 | Korakoid çıkıntılar | Mevcut — yüzey referans noktası | `atlas:left-coracoid-process`, `atlas:right-coracoid-process`; `surface_anchor`, bağımsız yüzey değil |
 | Supraglenoid tüberküller | Mevcut — yüzey referans noktası | `atlas:left-supraglenoid-tubercle`, `atlas:right-supraglenoid-tubercle`; `surface_anchor`, bağımsız yüzey değil |
 | Radius tüberoziteleri | Mevcut — yüzey referans noktası | `atlas:left-radial-tuberosity`, `atlas:right-radial-tuberosity`; `surface_anchor`, bağımsız yüzey değil |
@@ -132,8 +132,8 @@ Median ve diz paketleri sahne kayıt listesine eklendi. Siyatik paketi kayıtlı
 ## Açık kalan belirli boşluklar
 
 - **Omurilik ayrıntıları:** `FMA7647` artık mevcut merkez kanalına ek olarak BodyParts3D 4.3 `FJ4426` sinir dokusu gövdesini içerir. Tüm kök, zar ve segment ayrıntıları tamamlanmış sayılmaz; ilk Z-Anatomy küçük horn/white-matter yüzeyleri bu kapsamı tamamlamak için onaylanmış değildir.
-- **Brakiyal pleksus:** 22 geometrili eğri adları kaynakta mevcut; kök/trunk/division/posterior cord örnekleri tamlık kanıtı değil. Aktarımdan önce parça listesi ve birleşimleri incelenmeli.
-- **Koklea:** `Cochlea.l/.r` 772 polygon/yan. Yüzey var; upstream iç kulak için ayrıca NC-SA referans/uyarlama bildirimi bulunduğundan nesne kökeni ve kullanım koşulları ayrılmalı. Bu katalog lisans belirsizliğini çözmez.
+- **Brakiyal pleksus ayrıntıları:** Kök demetleri kimlik belirsizliği nedeniyle tamamen hariç; 20 eğri/23 kavram kısmi referans olarak kayıtlı. Her tarafta 3 gövde, 6 bölüm ve arka kordon var. Medial/lateral kordonlar ve terminal dallar bu pakette yok. Boyun referanslarında 4,3–4,8 mm, ilk kaburgalarda 8,3–8,4 mm RMS fark bulundu; kaynak uç yakınlığı doğrulanmış anatomik temas/bağlantı değildir.
+- **İç kulak ayrıntıları ve kaynak kapsamı:** İki koklea, iki birleşik vestibüler/semisirküler kompleks ve aynı kaynak temporal kemikleri ayrı referansta paketlendi. Koklea satırı iki koklea yüzeyinin varlığını gösterir; membranlar, duyu hücreleri veya Corti organını kapsamaz. Kaynak nesne kökeni arşiv bileşen atfından çıkarımdır: iç kulak NC-SA, temporal kemikler genel BY-SA kapsamını korur. Ticari kullanım veya bağımsız Dundee nesne doğrulaması iddiası yok.
 - **Kadın pelvis kapsam sınırı:** Ayrı `female-pelvis` datasetinde uterus, iki bağımsız kaynak ovaryum ve kemik bağlamı mevcut. Uterus v1.2, ovaryumlar ve pelvis v1.3 resmi dijital nesnelerinden 27 yüzey paketlendi. Tam kadın vücudu, tüpler, bağlar, damarlar, mesane veya pelvis tabanı bu seçimle tamamlanmış değildir. Donör ID’si kaynakta verilmediği için tek birey kesinliği iddia edilmez.
 - **Humerus orta iç tutunma alanı:** İki taraf `upper-arm-landmarks.json` dosyasındaki `unresolved` kayıtlarında; özel tutunma yüzeyi veya uygun işaret bulunamadı. Skapuladaki coracobrachialis başlangıç yüzeyi humeral tutunma yerine kullanılmadı. Kayıtlı konum yok; `unanchored_landmark` ve doğrulanmamış durumu korunuyor.
 
@@ -157,6 +157,24 @@ Bu katalog diğer bölgeleri çevrilmiş, etiketlenmiş, geometrisi tamamlanmı�
 
 Kadın üç hedefin `currentBindings` alanı boş kalır; bu alan yalnız erkek atlas kavram haritasında çözülür. Her hedefte `datasetId: female-pelvis`, `representation: separate_reference_geometry` ve `separateReference: { datasetId, conceptId, nameTr, sourceId, manifest, geometryPartIds }` vardır. Panel bu ayrı referansı açabilir; `hra-female:*` kimlikleri erkek bilgi grafiğine eklenmez. Uterus aggregate 10 primary yüzey içerir; ayrı cervicovaginal junction bağlam yüzeyi bu aggregate dışında kalır.
 
-`summaryByDataset` erkek ve kadın hedeflerini ayrı sayar. `summaryByRegion` ve `summaryOverall` iki datasetin hedef satırlarıdır; erkek atlas geometri sayısı veya anatomi tamamlanma yüzdesi olarak kullanılamaz. Siyatik kayıtları da canlı `extensions/index.json` ve `sciatic-nerves.json` ile yeniden uzlaştırıldı: iki ana gövde mevcut olduğundan önceki `missing` kaydı `partial` yapıldı; ayrı distal tibial/common-fibular devamlar dahil değil.
+`summaryByDataset` erkek, kadın pelvis ve iç kulak hedeflerini ayrı sayar. `summaryByRegion` ve `summaryOverall` üç datasetin hedef satırlarıdır; erkek atlas geometri sayısı veya anatomi tamamlanma yüzdesi olarak kullanılamaz. Siyatik kayıtları da canlı `extensions/index.json` ve `sciatic-nerves.json` ile yeniden uzlaştırıldı: iki ana gövde mevcut olduğundan önceki `missing` kaydı `partial` yapıldı; ayrı distal tibial/common-fibular devamlar dahil değil.
 
 Kaynak envanterinde `reference-female-pelvis` public manifest/binary/gzip hashlerini, dört `hra-...` kaydı ise resmi GLB hashleri, DOI, metadata/graph dosyaları ve CC BY 4.0 lisansını taşır. [Kadın pelvis kaynak incelemesi](female-pelvis-source-review.md) ve paket içindeki atıf belgesi sınırlamaları ayrıntılandırır. Yerel görsel kabul veya paket varlığı, yayına alınmış olma ya da anatomik uzman onayıyla eşit tutulmaz.
+
+
+## Brakiyal pleksus kısmi referansı — kayıt ve etiketler
+
+`brachial-plexus.json` paketi `extensions/index.json` üzerinden yüklenir: 20 kaynak eğri, 23 seçilebilir kavram. Kökler bütünüyle hariç tutulur. Görünür temsil notu yalnız iki aggregate için değil, paketteki bütün 23 kavram için kapsamı ve bölgesel yerleşim farklarını açıklar. Kaynak manifest/binary/üretici değiştirilmedi.
+
+`data/anatomy/brachial-plexus.json` yalnız manifestte doğrulanan parça–yan grup ve yan grup–iki taraflı grup üyeliğini taşıyan 22 `part_of` ilişkisi içerir. Bunlar geometri gruplarıdır; kök düzeyi, innervasyon, sinir iletimi, fiziksel devamlılık veya damar/komşuluk ilişkisi eklenmedi. Anatomik uzman incelemesi bekliyor.
+
+TR/EN/LA etiketleri aynı modülde 23 kimlik için saklanır ve `atlas-metadata.ts` tarafından okunur. İngilizce–Latince çiftleri sabit upstream TA2.csv kaynağının 6395, 6398–6406 ve 6416 kayıtlarıyla doğrulandı (SHA-256 `0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974`). Türkçe karşılıklar editoryal çeviridir. Latince temel terimler aynen saklanır, taraf L/R işaretiyle belirtilir; yeni Latince çekim üretilmez. Bu paket bütün pleksus anatomisinin veya tüm atlas çevirisinin tamamlandığı anlamına gelmez. [Ölçülmüş kaynak/yerleşim raporu](asset-registration-brachial-plexus.md).
+
+
+## Ayrı iç kulak referansı
+
+`coverage:cochlea` mevcut iki taraflı ayrı referans hedefidir. `currentBindings` boştur; `separateReference.datasetId: inner-ear-reference`, iki `conceptIds` ve `IE-COCHLEA-L/R` part kimlikleri taşır. Manifestte bulunmayan bir bilateral aggregate konsept üretilmedi. Bu referans `extensions/index.json` içine veya erkek bilgi grafiğine eklenmez.
+
+`reference-inner-ear` kaynak kaydı public manifest/binary/gzip ve değişmemiş kaynak adayın hashlerini, tüm altı yüzeye uygulanan `(x,y,z) → (x,z,-y)` katı dönüşümü ve ayrı lisans kapsamlarını saklar. Kaynak göreli konumları korunur; uniform dönüşüm anatomik kayıt değildir. İç kulak için **CC BY-NC-SA 4.0**, temporal kemikler için **CC BY-SA 4.0** atıfları ayrı tutulur; paketin ticari olmayan kullanım sınırı kemikleri yeniden lisanslamaz. Kesin nesne soyu/sertifikası verilmediği için Dundee bağlantısının arşiv bileşen atfından çıkarım olduğu açıkça kaydedilir. Anatomik uzman incelemesi bekler; UI kabulü ve yayın root tarafından ayrı değerlendirilir.
+
+Bu sınırlı 65 hedeflik listede artık “eksik” işaretli satır kalmaması bütün anatominin tamamlandığı anlamına gelmez: üç kısmi hedef, bir konumu doğrulanmamış hedef ve seçilmeyen anatomik yapılar sürmektedir.

@@ -24,13 +24,13 @@ GitHub OAuth oturumu workflow dosyası yazma yetkisi vermediği için ilk Action
 
 ## Uygulanan model ve etkileşim
 
-- 2.234 temel parça + 18 yeni parça: bilateral muskülokutan/median/siyatik sinirler, sekiz diz yüzeyi, üç tiroid yüzeyi, bir omurilik sinir dokusu yüzeyi. Altı tutunma referans noktası ayrı gösterilir; bağımsız yüzey gibi sayılmaz.
+- 2.234 temel parça + 38 yeni parça: bilateral muskülokutan/median/siyatik sinirler, sekiz diz yüzeyi, üç tiroid yüzeyi, bir omurilik sinir dokusu yüzeyi ve 20 kısmi pleksus parçası. Altı tutunma referans noktası ayrı gösterilir; bağımsız yüzey gibi sayılmaz.
 - Beş yanlış beyin parçası sistem ataması yüklemede düzeltilir.
 - FMA7647 artık mevcut FJ1737 merkez kanalını ve yeni BP43-FJ4426 uzunlamasına sinir dokusunu birlikte içerir. Kök, zar, ayrı segment ve gri/beyaz madde modelleri tamamlandı diye sunulmaz. Kavram genişletmesi manifestte açıkça izinlidir; izinsiz kimlik çakışmaları reddedilir.
 - Tiroid FMA9603: sağ/sol lob ve isthmus, resmî BodyParts3D 4.3 kaynağından. Stilize Z-Anatomy tiroidi görsel incelemede yetersiz bulundu ve aktif kayda alınmadı.
-- Grafik: 3.463 kavram, 1.435 ilişki; çoğunluğu kaynak PART-OF hiyerarşisidir. Bütün atlasın işlevsel bağlantıları tamamlandı anlamına gelmez. Siyatik bağlantılarında tibial/common-fibular bölüm ayrımı arayüzde korunur.
+- Grafik: 3.486 kavram, 1.457 ilişki; çoğunluğu kaynak PART-OF hiyerarşisidir. Bütün atlasın işlevsel bağlantıları tamamlandı anlamına gelmez. Siyatik bağlantılarında tibial/common-fibular bölüm ayrımı arayüzde korunur.
 - Seçme, odak, çevre saydamlığı, gizleme, önceki görünüm/kamera, sistem filtresi, bölge seçimi ve kapsam paneli çalışır. Çok dilli etiketler seçilmiş bölgelere uygulanır; bütün atlas çevirisi tamamlanmış değildir.
-- Katalog: 60 mevcut, 2 kısmi, 2 eksik, 1 doğrulanmamış hedef grubu; mevcutların 3’ü ayrı kadın pelvis referansındadır. Üç mevcut satır toplam altı yüzey referans noktasıdır. Güncel makine kaydı `data/anatomy/coverage.json`.
+- Katalog: 61 mevcut, 3 kısmi, 0 eksik, 1 doğrulanmamış hedef grubu; mevcutların 3’ü ayrı kadın pelvis, 1’i ayrı iç kulak referansındadır. Üç mevcut satır toplam altı yüzey referans noktasıdır. Güncel makine kaydı `data/anatomy/coverage.json`.
 
 ## Doğrulama ve sınırlar
 
@@ -45,9 +45,9 @@ BodyParts3D 4.0 temel geometri BY 4.0; yeni canlı 4.3 tiroid/omurilik BY-SA 2.1
 | İş | Bitiş ölçütü | Güncel durum |
 | --- | --- | --- |
 | Çalışan ilk yayını vermek | Gerçek adreste model ve temel inceleme akışları çalışır | 2.252 parçalı sürüm canlı; son omurilik/tiroid akışları gerçek adreste doğrulandı |
-| Brakiyal pleksus | Kaynak parçalar doğru ad/kapsamla, ölçülmüş yerleşim ve tıklanabilir seçimle görünür | 20 trunk/division/posterior-cord parçası hazır, henüz registryye eklenmedi; belirsiz üst kök demeti dışarıda, kaynak kısmi |
+| Brakiyal pleksus | Kaynak parçalar doğru ad/kapsamla, ölçülmüş yerleşim ve tıklanabilir seçimle görünür | 20 trunk/division/posterior-cord parçası kayıtlı; 23 üç dilli kavram ve 22 kaynak grup ilişkisi. Kökler/iki kordon yok; boyun4–5mm/ilk kaburga8mm uyum sınırı arayüzde belirtilir. Yerel görsel kabul yapıldı, yeni yayın sırada |
 | Kadın pelvis referansı | Erkek modele karışmayan ayrı sahne; uterus ve sağ/sol ovaryum kendi kaynaklarıyla, uygun pelvis bağlamında | Resmî HRA kaynaklarından 27 parça / 31 kavram içeren ayrı paket ve sahne seçici yerelde hazır; veri ayrımı ve TypeScript kontrolü geçti. Masaüstü ve 390×844 arayüzde kadraj, seçim/saydamlık, iki referans arasında temiz geçiş ve TR/LA etiketler doğrulandı; 90e054c sürümünde canlı; gerçek yayında geometri, Türkçe arama ve seçim doğrulandı |
-| Koklea | İki gerçek yüzey, kaynak/atıf ve temporal bölge uyumu doğrulanır | Z-Anatomy’den iki gerçek yüzey aday olarak çıkarıldı; aktif değil. Yerel temporal uyum yaklaşık 3 mm, hassas yerleşim doğrulanmadı; ayrı NC-SA kaynak koşulları ve nesne kökeni çıkarımının sınırı kaydedildi |
+| Koklea | İki gerçek yüzey, kaynak/atıf ve temporal bölge uyumu doğrulanır | Ana atlasa farklı kafatası uyumu uygulanmadı. Kaynağın kendi temporal kemikleriyle 6 parçalı ayrı referans hazır; tek uniform eksen dönüşümüyle konum ilişkileri korunur. Koklea seçimi ve arama yerelde doğrulandı, yayın sırada. NC-SA bileşen koşulu ve köken çıkarımı açık |
 | İki humeral tutunma konumu | Kanıtlı konum veya açık unresolved durumu; kemik bütünü landmark diye sunulmaz | 158 ilgili Z-Anatomy nesnesi incelendi; kemikle eşleştirilmiş gerçek footprint/işaret yok. Tendon yüzeyleri ayrı aday olarak saklandı; iki konum null, uydurma koordinat yok |
 | Etiket/ilişki kapsamı | Bölge bölge kaynaklı isimler ve ilişkiler; kullanıcı parça üzerinden bağlantılarına gider | Pilot, önkol, diz, siyatik, tiroid ve omurilikte seçilmiş bağlantılar var; daha geniş kapsam açık |
 | Kullanım kalitesi | Gerçek kullanıcı akışları, son masaüstü/mobil kabul; somut performans sorunları çözülür | Örnek akışlar geçti; yeni referanslar eklendikçe ilgili akışlar kontrol edilecek |
@@ -68,3 +68,7 @@ Araştırma yalnız açık uygulama boşluğunu çözmek için yapılır. İndir
 ## Kadın pelvis sürümü için kabul — 22 Eylül 2026
 
 27 yüzeyli ayrı HRA referansı, erkek sahnesine karışmadan yükleniyor. 31 kaynak kavramı aramada 29 ayrı geometri seçeneği olarak gösteriliyor; iki ovaryum aliası tekilleştirildi. TR/EN/LA görüntü etiketleri kaynak kimliklerini değiştirmiyor. Gerçek arayüzde kadın↔erkek geçişi, kamera/geçmiş temizliği, uterus seçimi/saydamlığı, mobil ovaryum seçimi, Türkçe arama ve Latince ad değişimi görüldü. Kapsam listesinden kadın sahnesine geçiş çalıştı. Üretim alt yolunda geometri yüklendi, tarayıcı hata kaydı boş. TypeScript, güncellenmiş veri ayrımı/etkileşim kontrolü, beş graph testi ve build geçti. Kaynak 90e054c ve statik dal f2da0d4 yayımlandı. Pages #35669678909 başarılı; canlı release.json 90e054cd7e24e3ead3abc6783eb7a72cf84feb66 döndü. Gerçek adreste pelvis geometrisi, iki Türkçe ovaryum sonucu ve sol ovaryum seçimi doğrulandı; konsol hatası yok.
+
+## Pleksus ve iç kulak kabulü — 22 Eylül 2026
+
+Ana atlas yerelde 2.272 parça. İç kulak ayrı 6 parça; kadın pelvis ayrı 27 parça. Kaynak model çerçeveleri karıştırılmaz. Kayıtlı pleksus, kök ve iki kordon eksikleriyle kısmi kabul edilir; temas/cerrahi hassasiyet iddiası yok. İç kulakta başlangıçta dört duyusal yüzey ve saydam temporal kemikler görünür. Koklea yüzeyinden doğrudan seçim, Türkçe arama, yakın görünüm ve referans değiştirme kontrol edildi. Bölgesel sahnelerin zemininin her karede yanlışlıkla geri açılması düzeltildi.

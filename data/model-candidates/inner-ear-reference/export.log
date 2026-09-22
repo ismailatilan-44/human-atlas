@@ -1,0 +1,120 @@
+00:00.804  blend            | Read blend: "/Users/ismailkerematilan/Desktop/atlas/work/open-assets-review/Startup.blend"
+00:01.603  blend.doversion  | WARNING Region type 5 missing in space type "Text" (id: 9) - removing region
+00:01.625  blend.doversion  | WARNING Region type 9 missing in space type "Userpref" (id: 19) - removing region
+00:01.625  blend.doversion  | WARNING Region type 9 missing in space type "Userpref" (id: 19) - removing region
+00:02.869  depsgraph        | WARNING Dependency cycle detected:
+                            |   CUOesophagus/GEOMETRY_EVAL() depends on
+                            |   OBOesophagus-profile/TRANSFORM_FINAL() via 'Curve Bevel Transform'
+                            |   OBOesophagus-profile/TRANSFORM_SIMULATION_INIT() via 'Simulation -> Final Transform'
+                            |   OBOesophagus-profile/TRANSFORM_EVAL() via 'Transform Eval -> Simulation Init'
+                            |   OBOesophagus-profile/TRANSFORM_PARENT() via 'Eval'
+                            |   OBOesophagus-profile/TRANSFORM_LOCAL() via 'ObLocal -> ObParent'
+                            |   OBOesophagus-profile/TRANSFORM_INIT() via 'Transform Init'
+                            |   OBOesophagus/GEOMETRY_EVAL() via 'Curve Follow Parent'
+                            |   OBOesophagus/MODIFIER(Solidify) via 'modifier stack order'
+                            |   OBOesophagus/GEOMETRY_EVAL_INIT() via 'Modifier'
+                            |   CUOesophagus/GEOMETRY_EVAL_DONE() via 'Object Geometry Base Data'
+                            |   CUOesophagus/GEOMETRY_EVAL() via 'ObData Geom Eval Done'
+                            | 
+00:02.875  depsgraph        | WARNING Detected 1 dependency cycles
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+{
+  "parts": 6,
+  "triangles": 57684,
+  "bytes": 1213384,
+  "gzipBytes": 737161,
+  "quality": [
+    {
+      "name": "Cochlea.l",
+      "boundaryEdges": 52,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        6.43635168671608,
+        9.839595295488834,
+        8.00168514251709
+      ]
+    },
+    {
+      "name": "Cochlea.r",
+      "boundaryEdges": 52,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        6.43635168671608,
+        9.839591104537249,
+        8.00168514251709
+      ]
+    },
+    {
+      "name": "Vestibule.l",
+      "boundaryEdges": 64,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        10.225102305412292,
+        12.003864860162139,
+        12.853145599365234
+      ]
+    },
+    {
+      "name": "Vestibule.r",
+      "boundaryEdges": 64,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        10.225102305412292,
+        12.003859737887979,
+        12.853145599365234
+      ]
+    },
+    {
+      "name": "Temporal bone.l",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        62.77178227901459,
+        96.34706377983093,
+        74.41902160644531
+      ]
+    },
+    {
+      "name": "Temporal bone.r",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        62.77178227901459,
+        96.34706377983093,
+        74.41902160644531
+      ]
+    }
+  ]
+}
+/Users/ismailkerematilan/Desktop/atlas/scripts/export-inner-ear-reference.py:172: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes = True
+/Users/ismailkerematilan/Desktop/atlas/scripts/export-inner-ear-reference.py:177: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+00:11.045  render           | Saved: '/Users/ismailkerematilan/Desktop/atlas/data/model-candidates/inner-ear-reference/source-temporal-context.png'
+00:13.048  render           | Saved: '/Users/ismailkerematilan/Desktop/atlas/data/model-candidates/inner-ear-reference/bilateral-inner-ear.png'
+00:29.845  render           | Saved: '/Users/ismailkerematilan/Desktop/atlas/data/model-candidates/inner-ear-reference/left-ear-context.png'
+00:48.151  render           | Saved: '/Users/ismailkerematilan/Desktop/atlas/data/model-candidates/inner-ear-reference/right-ear-context.png'
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:31:22)
+scripts disabled for "/Users/ismailkerematilan/Desktop/atlas/work/open-assets-review/Startup.blend", skipping 'z-anatomy.py'
+
+Blender quit

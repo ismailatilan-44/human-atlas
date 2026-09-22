@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-22",
+  "status": "technical_visual_review_complete_expert_anatomy_review_pending",
+  "views": [
+    "source-temporal-context.png",
+    "bilateral-inner-ear.png",
+    "left-ear-context.png",
+    "right-ear-context.png"
+  ],
+  "observations": [
+    "Both source-space ear complexes occupy their respective source temporal-bone contexts.",
+    "Bilateral cochlear spirals and vestibular loop surfaces remain visibly distinct.",
+    "No additional canal segment, membrane or sensory-cell geometry appears.",
+    "Bones are translucent for visibility; this is not a cutaway segmentation."
+  ],
+  "validation": {
+    "binaryGzipRoundtrip": true,
+    "indicesFinitePositionsLaterality": true,
+    "exportedParts": 6,
+    "triangles": 57684,
+    "maxObjBinaryCoordinateDifferenceMeters": 5.000000413701855e-10,
+    "atlasRegistration": null
+  },
+  "sources": [
+    {
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/License.txt",
+      "locator": "MODELS attribution list, Anatomy of the Inner Ear",
+      "supports": "Archive component NC-SA attribution; object-level lineage remains inferred."
+    },
+    {
+      "url": "https://www.dundee.ac.uk/tilt/medical-illustration/anatomy-inner-ear",
+      "locator": "Overview derivative/license paragraph and Final Product reuse paragraph",
+      "supports": "Dundee work CC-BY-NC-SA4 and its McGill 3D Ear lineage."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "atlasRead": false,
+  "transform": "identity after authored source world transforms",
+  "parts": [
+    {
+      "id": "IE-COCHLEA-L",
+      "sourceObject": "Cochlea.l",
+      "boundaryEdges": 52,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        6.43635168671608,
+        9.839595295488834,
+        8.00168514251709
+      ]
+    },
+    {
+      "id": "IE-COCHLEA-R",
+      "sourceObject": "Cochlea.r",
+      "boundaryEdges": 52,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        6.43635168671608,
+        9.839591104537249,
+        8.00168514251709
+      ]
+    },
+    {
+      "id": "IE-VESTIBULAR-COMPLEX-L",
+      "sourceObject": "Vestibule.l",
+      "boundaryEdges": 64,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        10.225102305412292,
+        12.003864860162139,
+        12.853145599365234
+      ]
+    },
+    {
+      "id": "IE-VESTIBULAR-COMPLEX-R",
+      "sourceObject": "Vestibule.r",
+      "boundaryEdges": 64,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        10.225102305412292,
+        12.003859737887979,
+        12.853145599365234
+      ]
+    },
+    {
+      "id": "IE-TEMPORAL-BONE-L",
+      "sourceObject": "Temporal bone.l",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        62.77178227901459,
+        96.34706377983093,
+        74.41902160644531
+      ]
+    },
+    {
+      "id": "IE-TEMPORAL-BONE-R",
+      "sourceObject": "Temporal bone.r",
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFacesRetained": 0,
+      "zeroNormalVertices": 0,
+      "maxFloat32PositionErrorMm": 0.0,
+      "dimensionsMm": [
+        62.77178227901459,
+        96.34706377983093,
+        74.41902160644531
+      ]
+    }
+  ],
+  "excludedCanalLabels": [
+    {
+      "name": "Anterior semicircular canal.j",
+      "sourceObjectType": "MESH",
+      "parent": "Anterior semicircular canal.t",
+      "vertices": 2,
+      "polygons": 0,
+      "text": null,
+      "exported": false
+    },
+    {
+      "name": "Anterior semicircular canal.t",
+      "sourceObjectType": "FONT",
+      "parent": "Vestibule.r",
+      "vertices": null,
+      "polygons": null,
+      "text": "ANTERIOR SEMICIRCULAR CANAL",
+      "exported": false
+    },
+    {
+      "name": "Lateral semicircular canal.j",
+      "sourceObjectType": "MESH",
+      "parent": "Lateral semicircular canal.t",
+      "vertices": 2,
+      "polygons": 0,
+      "text": null,
+      "exported": false
+    },
+    {
+      "name": "Lateral semicircular canal.t",
+      "sourceObjectType": "FONT",
+      "parent": "Vestibule.r",
+      "vertices": null,
+      "polygons": null,
+      "text": "LATERAL SEMICIRCULAR CANAL",
+      "exported": false
+    },
+    {
+      "name": "Posterior semicircular canal.j",
+      "sourceObjectType": "MESH",
+      "parent": "Posterior semicircular canal.t",
+      "vertices": 2,
+      "polygons": 0,
+      "text": null,
+      "exported": false
+    },
+    {
+      "name": "Posterior semicircular canal.t",
+      "sourceObjectType": "FONT",
+      "parent": "Vestibule.r",
+      "vertices": null,
+      "polygons": null,
+      "text": "POSTERIOR SEMICIRCULAR CANAL",
+      "exported": false
+    }
+  ]
+}

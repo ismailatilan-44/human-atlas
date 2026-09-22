@@ -1,10 +1,17 @@
-import { femalePelvisLabel, femalePelvisSearchTerms } from "./female-pelvis-labels";
+import {
+  REFERENCE_DATASETS,
+  referenceDataset,
+  referenceDescription,
+  datasetLabel,
+  datasetSearchTerms,
+  defaultDatasetScene,
+} from "./reference-datasets";
 import { assetUrl } from "./asset-url";
 import CoveragePanel from "./coverage-panel";
 import { loadAtlas } from "./load-atlas";
 import { flushSync } from "react-dom";
 import { registerAtlasTools } from "./agent-tools";
-import { getRepresentationNote, anatomyLabel, anatomySearchTerms } from "./atlas-metadata";
+import { getRepresentationNote } from "./atlas-metadata";
 import { explorerConcepts, relationshipsFor, knowledgeSources } from "./knowledge";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
@@ -68,7 +75,7 @@ export default function Home() {
   const [historySize, setHistorySize] = useState(0),
     [language, setLanguage] = useState<"tr" | "en" | "la">("tr");
   const [dataset, setDataset] = useState<DatasetId>("male-body");
-  const femaleReference = dataset === "female-pelvis";
+  const reference = referenceDataset(dataset);
   const [atlas, setAtlas] = useState<Atlas | null>(null),
     [state, setState] = useState(initial),
     [progress, setProgress] = useState(0),
@@ -99,9 +106,7 @@ export default function Home() {
         if (!abort.signal.aborted) {
           setState({
             ...initial,
-            visible: [...new Set(loaded.parts.map((p) => p.system))].filter((id) =>
-              DEFAULT_VISIBLE.includes(id),
-            ),
+            ...defaultDatasetScene(loaded),
           });
           setAtlas(loaded);
         }
@@ -130,15 +135,12 @@ export default function Home() {
   const concepts = useMemo(() => (atlas ? explorerConcepts(atlas) : []), [atlas]);
   const conceptMap = useMemo(() => new Map(concepts.map((c) => [c.id, c])), [concepts]);
   const relations = useMemo(
-    () => (chosen && !femaleReference ? relationshipsFor(chosen.id, conceptMap) : []),
-    [chosen, conceptMap, femaleReference],
+    () => (chosen && !reference ? relationshipsFor(chosen.id, conceptMap) : []),
+    [chosen, conceptMap, reference],
   );
   const anchorMap = useMemo(() => new Map(atlas?.anchors?.map((a) => [a.conceptId, a])), [atlas]);
   const chosenAnchor = chosen ? anchorMap.get(chosen.id) : undefined;
-  const label = (c: { id: string; name: string }) =>
-    femaleReference
-      ? femalePelvisLabel(c.id, c.name, language)
-      : anatomyLabel(c.id, c.name, language);
+  const label = (c: { id: string; name: string }) => datasetLabel(dataset, c.id, c.name, language);
   const remember = () => {
     history.current = [
       ...history.current.slice(-29),
@@ -177,7 +179,7 @@ export default function Home() {
   const results = useMemo(() => {
     if (!atlas) return [];
     const term = query.toLowerCase().trim();
-    if (!term && femaleReference) return concepts;
+    if (!term && reference) return concepts;
     if (!term)
       return [
         "heart",
@@ -194,10 +196,7 @@ export default function Home() {
     return concepts
       .filter(
         (c) =>
-          (femaleReference
-            ? femalePelvisSearchTerms(c.id, c.name)
-            : anatomySearchTerms(c.id, c.name)
-          ).some(
+          datasetSearchTerms(dataset, c.id, c.name).some(
             (name) =>
               name.toLocaleLowerCase("tr").includes(term.toLocaleLowerCase("tr")) ||
               name.toLowerCase().includes(term),
@@ -205,7 +204,7 @@ export default function Home() {
       )
       .sort((a, b) => a.name.length - b.name.length)
       .slice(0, 80);
-  }, [atlas, concepts, query, femaleReference]);
+  }, [atlas, concepts, query, dataset, reference]);
   const choose = (c: Concept) => {
     const anchor = anchorMap.get(c.id);
     remember();
@@ -261,9 +260,7 @@ export default function Home() {
     remember();
     setState((s) => ({
       ...initial,
-      visible: activeSystems
-        .map((system) => system.id)
-        .filter((id) => DEFAULT_VISIBLE.includes(id)),
+      ...(atlas ? defaultDatasetScene(atlas) : { visible: DEFAULT_VISIBLE }),
       reset: s.reset + 1,
     }));
     setChosen(null);
@@ -275,7 +272,7 @@ export default function Home() {
     setPanel((p) => (p === next ? null : next));
   };
   return (
-    <main className={`studio ${femaleReference ? "female-reference" : ""}`}>
+    <main className={`studio ${reference ? "regional-reference" : ""}`}>
       {atlas && (
         <AnatomyScene
           key={dataset}
@@ -302,14 +299,14 @@ export default function Home() {
           <span className="status-dot" /> INTERACTIVE ANATOMY
         </div>
         <h1>
-          {femaleReference ? "Pelvis Atlas" : "Human Atlas"}
+          {reference?.heading ?? "Human Atlas"}
           <Badge variant="outline" className="edition">
             3D
           </Badge>
         </h1>
         <div className="identity-meta">
           {atlas ? atlas.parts.length.toLocaleString() : "—"} modeled pieces <span>·</span>{" "}
-          {femaleReference ? "Kadın · HRA" : "Erkek · BodyParts3D + Z-Anatomy"}
+          {reference?.identity ?? "Erkek · BodyParts3D + Z-Anatomy"}
         </div>
         <select
           className="dataset-select"
@@ -321,7 +318,11 @@ export default function Home() {
           }}
         >
           <option value="male-body">Erkek vücut</option>
-          <option value="female-pelvis">Kadın pelvis referansı</option>
+          {Object.entries(REFERENCE_DATASETS).map(([id, config]) => (
+            <option key={id} value={id}>
+              {config.title}
+            </option>
+          ))}
         </select>
       </header>
       <nav className="top-actions" aria-label="Explorer panels">
@@ -421,7 +422,7 @@ export default function Home() {
             Organs
           </Button>
         </div>
-        {!femaleReference && (
+        {!reference && (
           <>
             <div className="region-shortcuts">
               <span>Bölgeye git</span>
@@ -463,11 +464,7 @@ export default function Home() {
             </Button>
           </>
         )}
-        {femaleReference && (
-          <p className="reference-scope">
-            Uterus, iki ovaryum ve pelvis kemikleri. Tam kadın vücudu değildir.
-          </p>
-        )}
+        {reference && <p className="reference-scope">{reference.scope}</p>}
         <div className="system-list">
           {activeSystems.map((s) => (
             <div
@@ -529,9 +526,7 @@ export default function Home() {
           >
             <ComboboxInput
               autoFocus
-              placeholder={
-                femaleReference ? "Uterus, ovary, pelvis…" : "Biceps, skapula, musculocutaneous…"
-              }
+              placeholder={reference?.placeholder ?? "Biceps, skapula, musculocutaneous…"}
               aria-label="Search named anatomical structures"
               showTrigger={false}
             />
@@ -605,9 +600,7 @@ export default function Home() {
               ? "ANATOMICAL INVENTORY"
               : state.explode > 0.05
                 ? "SEPARATED STRUCTURES"
-                : femaleReference
-                  ? "KADIN · PELVİS REFERANSI"
-                  : "ADULT HUMAN · MALE"}
+                : (reference?.title ?? "ADULT HUMAN · MALE")}
         </span>
         <span className="caption-line" />
       </div>
@@ -737,7 +730,31 @@ export default function Home() {
                 Tutunma yüzeyinden alınmış referans noktasıdır; yapının sınırlarını göstermez.
               </p>
             )}
-            {chosen && !femaleReference && (
+            <SheetDescription className="structure-description">
+              {reference
+                ? referenceDescription(dataset, chosen?.id)
+                : chosen && getRepresentationNote(chosen.id)
+                  ? getRepresentationNote(chosen.id)
+                  : chosenAnchor
+                    ? "Kemik üzerindeki kaynaklı yüzey işareti."
+                    : !selected
+                      ? "Bu yapının bağımsız geometrisi veya etiket konumu henüz eklenmedi. Kaynaklı bağlantılarını aşağıdan inceleyebilirsiniz."
+                      : new Set(selectedParts.map((p) => p.system)).size > 1
+                        ? "Bu bileşik yapı, modelde birden fazla sisteme ait parçaları bir araya getirir. Alt parçaları ve kaynaklı bağlantıları inceleyebilirsiniz."
+                        : chosen
+                          ? explanation(chosen.name, selected.system)
+                          : ""}
+            </SheetDescription>
+            {!reference &&
+              chosen &&
+              selected &&
+              !getRepresentationNote(chosen.id) &&
+              !EXPLANATIONS[chosen.name.toLowerCase()] && (
+                <span className="context-note">
+                  Genel sistem bilgisi · yapıya özel açıklama değildir
+                </span>
+              )}
+            {chosen && !reference && (
               <section className="relationship-list" aria-label="Anatomik bağlantılar">
                 <h3>
                   Anatomik bağlantılar <span>{relations.length}</span>
@@ -788,30 +805,6 @@ export default function Home() {
                 )}
               </section>
             )}
-            <SheetDescription className="structure-description">
-              {femaleReference
-                ? "HRA kadın pelvis referansında yer alan yapı. Bu sahne yalnız mevcut pelvis parçalarını içerir; anatomik ilişki bilgisi eklenmedi."
-                : chosen && getRepresentationNote(chosen.id)
-                  ? getRepresentationNote(chosen.id)
-                  : chosenAnchor
-                    ? "Kemik üzerindeki kaynaklı yüzey işareti."
-                    : !selected
-                      ? "Bu yapının bağımsız geometrisi veya etiket konumu henüz eklenmedi. Kaynaklı bağlantılarını aşağıdan inceleyebilirsiniz."
-                      : new Set(selectedParts.map((p) => p.system)).size > 1
-                        ? "Bu bileşik yapı, modelde birden fazla sisteme ait parçaları bir araya getirir. Alt parçaları ve kaynaklı bağlantıları inceleyebilirsiniz."
-                        : chosen
-                          ? explanation(chosen.name, selected.system)
-                          : ""}
-            </SheetDescription>
-            {!femaleReference &&
-              chosen &&
-              selected &&
-              !getRepresentationNote(chosen.id) &&
-              !EXPLANATIONS[chosen.name.toLowerCase()] && (
-                <span className="context-note">
-                  Genel sistem bilgisi · yapıya özel açıklama değildir
-                </span>
-              )}
             <div className="structure-meta">
               <span>
                 Yapı kimliği<strong>{chosen?.id}</strong>
@@ -937,14 +930,14 @@ export default function Home() {
           </div>
         </SheetContent>
       </Sheet>
-      {!femaleReference && (
+      {!reference && (
         <CoveragePanel
           open={coverageOpen}
           onOpenChange={setCoverageOpen}
-          onOpenFemaleReference={() => {
+          onOpenReference={(next: DatasetId) => {
             setCoverageOpen(false);
             setAtlas(null);
-            setDataset("female-pelvis");
+            setDataset(next);
           }}
           concepts={conceptMap}
           onChoose={(c) => {
@@ -957,21 +950,18 @@ export default function Home() {
         <SheetContent className="about-sheet glass">
           <div className="eyebrow">SOURCE & SCOPE</div>
           <SheetTitle className="structure-title">
-            {femaleReference ? "Kadın pelvis referansı" : "A body, revealed."}
+            {reference?.title ?? "A body, revealed."}
           </SheetTitle>
           <SheetDescription>
-            {femaleReference
-              ? "HRA kaynaklarından ayrı pelvis referansı. Tam kadın vücudu değildir."
-              : "Explore the adult male reference anatomy from BodyParts3D."}
+            {reference?.scope ?? "Explore the adult male reference anatomy from BodyParts3D."}
           </SheetDescription>
           <div className="about-copy">
-            {femaleReference ? (
+            {reference ? (
               <>
                 <p>
-                  <strong>Kadın · Human Reference Atlas</strong>
+                  <strong>{reference.sourceName}</strong>
                   <br />
-                  {atlas?.parts.length ?? "—"} kaynak parçası · uterus, iki ayrı ovaryum ve pelvis
-                  kemikleri.
+                  {atlas?.parts.length ?? "—"} kaynak parçası · {reference.title}
                 </p>
                 <p>{atlas?.scope}</p>
                 <p>
@@ -981,7 +971,7 @@ export default function Home() {
                 {typeof atlas?.source === "object" && (
                   <>
                     <a href={atlas.source.url} target="_blank" rel="noreferrer">
-                      HRA model kaynağı <ArrowUpRight size={14} />
+                      Model kaynağı <ArrowUpRight size={14} />
                     </a>
                     {atlas.source.attribution && (
                       <a href={assetUrl(atlas.source.attribution)} target="_blank" rel="noreferrer">
@@ -1036,6 +1026,13 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   Siyatik sinirler: kaynak ve atıflar
+                </a>
+                <a
+                  href={assetUrl("/models/extensions/BRACHIAL-PLEXUS-ATTRIBUTION.md")}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Brakiyal pleksus: kaynak, atıflar ve kapsam
                 </a>
                 <a
                   href={assetUrl("/models/extensions/THYROID-BP3D43-ATTRIBUTION.md")}

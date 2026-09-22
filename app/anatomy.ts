@@ -148,13 +148,13 @@ export interface AtlasAnchor {
   method: string;
   status: string;
 }
-export type DatasetId = "male-body" | "female-pelvis";
+export type DatasetId = "male-body" | "female-pelvis" | "inner-ear-reference";
 export interface Atlas {
   datasetId?: DatasetId;
   title?: string;
   anchors?: AtlasAnchor[];
   version: string;
-  sex?: "male" | "female";
+  sex?: "male" | "female" | "unspecified";
   source?: string | { url: string; name?: string; attribution?: string; license?: string };
   extendsConceptIds?: string[];
   scope?: string;

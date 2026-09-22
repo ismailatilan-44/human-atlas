@@ -8,17 +8,23 @@ An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Ta
 
 ## Model explorer work
 
-This branch adds registered Z-Anatomy musculocutaneous, median and sciatic nerves plus bilateral menisci and cruciate ligaments and BodyParts3D 4.3 thyroid lobes/isthmus and spinal cord tissue (2,252 total meshes), six source-derived attachment markers, pilot Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus.
+This branch adds registered Z-Anatomy musculocutaneous, median and sciatic nerves plus bilateral menisci and cruciate ligaments and BodyParts3D 4.3 thyroid lobes/isthmus and spinal cord tissue and 20 partial brachial-plexus source components (2,272 total meshes), six source-derived attachment markers, pilot Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus.
 
-Run locally to inspect the work. Read [delivery status](docs/model/2026-09-20-delivery-plan.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; nerve branches, brachial plexus, detailed spinal segments/roots and broader female anatomy remain open. Anatomical expert review is pending. The low-detail Z-Anatomy thyroid candidate is deliberately excluded from the active model registry after visual review.
+Run locally to inspect the work. Read [delivery status](docs/model/2026-09-20-delivery-plan.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; nerve branches, brachial-plexus roots and medial/lateral cords, detailed spinal segments/roots and broader female anatomy remain open. Anatomical expert review is pending. The low-detail Z-Anatomy thyroid candidate is deliberately excluded from the active model registry after visual review.
 
-The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md), and [BodyParts3D 4.3 thyroid attribution](public/models/extensions/THYROID-BP3D43-ATTRIBUTION.md), and [spinal cord attribution](public/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md). Its CC BY-SA source declaration must not be replaced by the base atlas license.
+The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md), and [BodyParts3D 4.3 thyroid attribution](public/models/extensions/THYROID-BP3D43-ATTRIBUTION.md), and [spinal cord attribution](public/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md). The [brachial-plexus attribution](public/models/extensions/BRACHIAL-PLEXUS-ATTRIBUTION.md) records its missing roots/cords and regional registration limits. Extension licenses must not be replaced by the base atlas license.
 
 ## Separate female pelvis reference
 
 The reference selector opens 27 HRA surfaces covering the uterus, two ovaries and pelvic bones in their original shared female coordinate frame. It loads separately from the male body. Turkish, English and Latin display labels preserve source identifiers; duplicated ovary aliases appear once in search. Switching references clears selection, view history and camera state. This is a regional reference, not a complete female body.
 
 See [source review](docs/model/female-pelvis-source-review.md) and [CC BY 4.0 attribution](public/models/female-pelvis/ATTRIBUTION.md). `python3 scripts/package-female-pelvis.py` reproduces the public package from the pinned candidate without changing geometry.
+
+## Separate inner-ear reference
+
+A second regional reference contains six Z-Anatomy surfaces: two cochleae, two combined vestibular/semicircular surfaces, and their original temporal-bone context. All positions receive one uniform display-axis rotation; no fitting to a different skull is applied. The source does not identify a sex. Inner-ear components retain noncommercial/share-alike terms separately from temporal-bone attribution. See [source review](docs/model/inner-ear-reference-review.md) and [component attribution](public/models/inner-ear-reference/ATTRIBUTION.md).
+
+The source canal labels are not independent surfaces. Internal membranes, sensory cells and detailed cochlear compartments are not modeled. Turkish/English/Latin search and the shared selection controls work independently of the male atlas.
 
 ## Explore
 

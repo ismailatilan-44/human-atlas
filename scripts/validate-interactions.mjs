@@ -75,6 +75,24 @@ inspectFemale.execute({id:ovaries[0].id});
 assert.equal(femaleSelected.elements.length, 1);
 assert.throws(() => inspectFemale.execute({id:'atlas:left-median-nerve'}));
 console.log('Female reference loads independently and exposes only its own structures.');
+const earRequests = [];
+let ear;
+try {
+  globalThis.fetch = async (url) => {
+    earRequests.push(String(url));
+    return new Response(await readFile(new URL('../public' + url, import.meta.url)));
+  };
+  ear = await loadAtlas(new AbortController().signal, 'inner-ear-reference');
+} finally { globalThis.fetch = originalFetch; }
+assert.deepEqual(earRequests, ['/models/inner-ear-reference/atlas.json']);
+assert.equal(ear.parts.length, 6);
+assert.equal(ear.anchors.length, 0);
+const earConcepts = explorerConcepts(ear);
+assert(earConcepts.every(c => c.id.startsWith('inner-ear-reference:')));
+const [findEar, inspectEar] = atlasTools({...ear, concepts:earConcepts}, () => {});
+assert.equal(findEar.execute({query:'cochlea'}).length, 2);
+assert.throws(() => inspectEar.execute({id:ovaries[0].id}));
+console.log('Inner-ear reference exposes only its own six structures.');
 const tap=new PointerTap();
 tap.down(1,10,10,5);assert.equal(tap.up(1,12,11),true);
 tap.down(1,10,10,5);tap.move(1,40,10);assert.equal(tap.up(1,10,10),false);

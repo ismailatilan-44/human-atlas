@@ -1,0 +1,35 @@
+{
+  "mappingUrl": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+  "mappingSha256": "ce0d46546efce5bb58b0b89914639544effcbcf2f6e4d00b1e53816ff389ce09",
+  "cochleaFMA60201Rows": [],
+  "objectNameSearchTerms": [
+    "cochlea",
+    "inner ear",
+    "labyrinth",
+    "semicircular",
+    "vestibule"
+  ],
+  "matchingManifestRows": [
+    {
+      "fj_id": "FJ3894",
+      "bp_id": "BP29543",
+      "fma_id": "FMA50869",
+      "name": "Right vestibulocochlear nerve",
+      "faces": "1672",
+      "verts": "838",
+      "bytes": "98735",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ3932",
+      "bp_id": "BP29535",
+      "fma_id": "FMA50869",
+      "name": "Left vestibulocochlear nerve",
+      "faces": "1714",
+      "verts": "859",
+      "bytes": "100417",
+      "mtime": "1779787488"
+    }
+  ],
+  "result": "No independent cochlea surface in checked live 4.3 mapping and complete object-name catalog; vestibulocochlear nerve matches are not cochlea geometry"
+}

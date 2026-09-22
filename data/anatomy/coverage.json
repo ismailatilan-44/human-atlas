@@ -19,7 +19,7 @@
     {
       "id": "knowledge-snapshot",
       "path": "data/anatomy/knowledge.json",
-      "sha256": "5d7893712cdc3b2106a80530cd33504b79dcd54a3e5edf207558706e52efbba9"
+      "sha256": "9d8692af474eefe0bc7799c074098a3501ac354dd99a73198881e9955de15f4c"
     },
     {
       "id": "upper-arm-nerves",
@@ -146,6 +146,17 @@
       "path": "public/models/female-pelvis/female-pelvis.bin.gz",
       "sha256": "de48dd42be30f775db56b02ca475289783b83c05b50151d8dd30437df38aef06",
       "datasetId": "female-pelvis"
+    },
+    {
+      "id": "brachial-plexus",
+      "path": "public/models/extensions/brachial-plexus.json",
+      "sha256": "3d838137b4c3e9d84bf82be99fcf9fa62ae4f9c2de24587b2bafb02d26f1ff4c"
+    },
+    {
+      "id": "reference-inner-ear",
+      "path": "public/models/inner-ear-reference/atlas.json",
+      "sha256": "05e3ab4cc24f0a205734c4a300fdfe23b023440f7812f66f976cb8e58d3410e1",
+      "datasetId": "inner-ear-reference"
     }
   ],
   "regions": [
@@ -480,11 +491,11 @@
         },
         {
           "id": "coverage:cochlea",
-          "nameTr": "Koklea, iki taraf",
-          "state": "missing",
+          "nameTr": "Koklea, iki taraf — ayrı iç kulak referansı",
+          "state": "existing",
           "currentBindings": [],
           "expertReview": "pending",
-          "note": "Bağımsız kayıt bulunamadı. Kaynak koklea yüzeyleri var; iç kulak için upstream lisans ayrımı çözülmeden hazır aktarım sayılmaz.",
+          "note": "Ayrı kaynak iç kulak referansında iki koklea ve aynı kaynağın temporal kemik bağlamı mevcut. Tek uniform eksen dönüşümü uygulanır; erkek atlasına kayıt yok. İç kulak için arşiv bileşen atfından çıkarılan CC BY-NC-SA 4.0, temporal kemikler için CC BY-SA 4.0 ayrımı korunur. Tam nesne kökeni bağımsız doğrulanmış değildir; anatomik uzman incelemesi bekliyor.",
           "candidateIds": [
             "za-cochlea"
           ],
@@ -493,7 +504,23 @@
               "cochlea"
             ],
             "matches": [],
-            "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
+            "scope": "Historical male main atlas name audit only; not a statement of absence in the independent inner-ear reference."
+          },
+          "datasetId": "inner-ear-reference",
+          "representation": "separate_reference_geometry",
+          "separateReference": {
+            "datasetId": "inner-ear-reference",
+            "conceptIds": [
+              "inner-ear-reference:left-cochlea",
+              "inner-ear-reference:right-cochlea"
+            ],
+            "nameTr": "Koklealar — ayrı iç kulak referansı",
+            "sourceId": "reference-inner-ear",
+            "manifest": "/models/inner-ear-reference/atlas.json",
+            "geometryPartIds": [
+              "IE-COCHLEA-L",
+              "IE-COCHLEA-R"
+            ]
           }
         }
       ]
@@ -1806,10 +1833,45 @@
         {
           "id": "coverage:brachial-plexus",
           "nameTr": "Brakiyal pleksus",
-          "state": "missing",
-          "currentBindings": [],
+          "state": "partial",
+          "currentBindings": [
+            {
+              "sourceId": "extension-brachial-plexus",
+              "conceptId": "atlas:left-brachial-plexus",
+              "sourceName": "Left brachial plexus",
+              "geometryPartIds": [
+                "ZA-BP-SUP-TRUNK-L",
+                "ZA-BP-MID-TRUNK-L",
+                "ZA-BP-INF-TRUNK-L",
+                "ZA-BP-SUP-ANT-DIV-L",
+                "ZA-BP-MID-ANT-DIV-L",
+                "ZA-BP-INF-ANT-DIV-L",
+                "ZA-BP-SUP-POST-DIV-L",
+                "ZA-BP-MID-POST-DIV-L",
+                "ZA-BP-INF-POST-DIV-L",
+                "ZA-BP-POST-CORD-L"
+              ]
+            },
+            {
+              "sourceId": "extension-brachial-plexus",
+              "conceptId": "atlas:right-brachial-plexus",
+              "sourceName": "Right brachial plexus",
+              "geometryPartIds": [
+                "ZA-BP-SUP-TRUNK-R",
+                "ZA-BP-MID-TRUNK-R",
+                "ZA-BP-INF-TRUNK-R",
+                "ZA-BP-SUP-ANT-DIV-R",
+                "ZA-BP-MID-ANT-DIV-R",
+                "ZA-BP-INF-ANT-DIV-R",
+                "ZA-BP-SUP-POST-DIV-R",
+                "ZA-BP-MID-POST-DIV-R",
+                "ZA-BP-INF-POST-DIV-R",
+                "ZA-BP-POST-CORD-R"
+              ]
+            }
+          ],
           "expertReview": "pending",
-          "note": "Ana atlas/extension içinde bağımsız kayıt yok; 22 adlandırılmış kaynak eğri bulundu. Bu sayı tam pleksus kapsamı anlamına gelmez.",
+          "note": "Bu kısmi referans her tarafta 3 gövde, 6 bölüm ve arka kordonu gösterir. Kökler, medial/lateral kordonlar ve terminal dallar pakette yoktur. Yerleşim sınırı: boyun referanslarında 4,3–4,8 mm, ilk kaburgalarda 8,3–8,4 mm RMS fark; kesin komşuluk veya temas modeli değildir.",
           "candidateIds": [
             "za-brachial-plexus"
           ],
@@ -1819,7 +1881,9 @@
             ],
             "matches": [],
             "scope": "Case-insensitive substring search over current main atlas concept and part names; not proof of absence inside other surfaces."
-          }
+          },
+          "datasetId": "male-body",
+          "representation": "partial_source_reference"
         },
         {
           "id": "coverage:coracoid-process",
@@ -2486,9 +2550,15 @@
         }
       ],
       "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
-      "readiness": "source_terms_review",
-      "note": "772 polygon/yan. İndirilen kaynakta yüzeyler var; upstream iç kulak NC-SA referansı/uyarlama kaydı nedeniyle nesne kökeni ve kullanım koşulları çözülmeli.",
-      "expertReview": "pending"
+      "readiness": "available_in_separate_inner_ear_reference",
+      "note": "İki koklea ayrı referansta paketlendi; temporal kemik bağlamı aynı kaynaktan. Erkek atlas kaydı yapılmadı. İç kulak bileşen kökeni arşiv atfından çıkarım; NC-SA kapsamı muhafazakâr biçimde korunuyor, temporal kemiklere yeniden lisans uygulanmıyor.",
+      "expertReview": "pending",
+      "datasetId": "inner-ear-reference",
+      "referenceSourceId": "reference-inner-ear",
+      "conceptIds": [
+        "inner-ear-reference:left-cochlea",
+        "inner-ear-reference:right-cochlea"
+      ]
     },
     {
       "id": "za-median",
@@ -2676,9 +2746,36 @@
         }
       ],
       "matchMethod": "Reviewed anatomical name and laterality; not geometry equality.",
-      "readiness": "inspect_before_transfer",
-      "note": "22 eğri kök/trunk/division/posterior cord örnekleri içerir; eksik parça listesi ve birleşim noktaları denetlenmeden tam pleksus paketi sayılmaz.",
-      "expertReview": "pending"
+      "readiness": "registered_partial_geometry",
+      "note": "Önceki envanterdeki 22 eğriden kök demetleri hariç 20 eğri kayıtlı: her tarafta 3 gövde, 6 bölüm, arka kordon. Boyun/ilk kaburga uyumu sınırlı; kaynak yakınlığı doğrulanmış sinir bağlantısı değildir.",
+      "expertReview": "pending",
+      "manifest": "/models/extensions/brachial-plexus.json",
+      "registeredSourceObjects": [
+        "Anterior division of inferior trunk of brachial plexus.l",
+        "Anterior division of inferior trunk of brachial plexus.r",
+        "Anterior division of middle trunk of brachial plexus.l",
+        "Anterior division of middle trunk of brachial plexus.r",
+        "Anterior division of superior trunk of brachial plexus.l",
+        "Anterior division of superior trunk of brachial plexus.r",
+        "Inferior trunk of brachial plexus.l",
+        "Inferior trunk of brachial plexus.r",
+        "Middle trunk of brachial plexus.l",
+        "Middle trunk of brachial plexus.r",
+        "Posterior cord of brachial plexus.l",
+        "Posterior cord of brachial plexus.r",
+        "Posterior division of inferior trunk of brachial plexus.l",
+        "Posterior division of inferior trunk of brachial plexus.r",
+        "Posterior division of middle trunk of brachial plexus.l",
+        "Posterior division of middle trunk of brachial plexus.r",
+        "Posterior division of superior trunk of brachial plexus.l",
+        "Posterior division of superior trunk of brachial plexus.r",
+        "Superior trunk of brachial plexus.l",
+        "Superior trunk of brachial plexus.r"
+      ],
+      "excludedSourceObjects": [
+        "Roots of brachial plexus.l",
+        "Roots of brachial plexus.r"
+      ]
     },
     {
       "id": "za-sciatic",
@@ -2965,9 +3062,9 @@
   ],
   "summaryByRegion": {
     "head-neck": {
-      "existing": 9,
+      "existing": 10,
       "partial": 0,
-      "missing": 1,
+      "missing": 0,
       "unverified": 0
     },
     "thorax": {
@@ -2984,8 +3081,8 @@
     },
     "upper-limb": {
       "existing": 15,
-      "partial": 1,
-      "missing": 1,
+      "partial": 2,
+      "missing": 0,
       "unverified": 1
     },
     "lower-limb": {
@@ -3026,13 +3123,21 @@
       "manifest": "/models/female-pelvis/atlas.json",
       "coordinateFrameId": "HRA-native-VHFemaleOrgans-glTF",
       "maleAtlasCompatible": false
+    },
+    {
+      "id": "inner-ear-reference",
+      "nameTr": "Ayrı iç kulak referansı",
+      "bindingField": "separateReference",
+      "manifest": "/models/inner-ear-reference/atlas.json",
+      "maleAtlasCompatible": false,
+      "licenseScope": "Noncommercial package, retaining separate component licenses"
     }
   ],
   "summaryByDataset": {
     "male-body": {
       "existing": 57,
-      "partial": 2,
-      "missing": 2,
+      "partial": 3,
+      "missing": 0,
       "unverified": 1
     },
     "female-pelvis": {
@@ -3040,13 +3145,19 @@
       "partial": 0,
       "missing": 0,
       "unverified": 0
+    },
+    "inner-ear-reference": {
+      "existing": 1,
+      "partial": 0,
+      "missing": 0,
+      "unverified": 0
     }
   },
   "summaryOverall": {
-    "existing": 60,
-    "partial": 2,
-    "missing": 2,
+    "existing": 61,
+    "partial": 3,
+    "missing": 0,
     "unverified": 1
   },
-  "summaryCountingScope": "Cross-dataset target-row counts only, not male geometry counts, anatomical structure counts or completeness percentages. The 3 female reference targets are excluded from male-body counts."
+  "summaryCountingScope": "Cross-dataset target-row counts only, not male geometry counts, anatomy counts or completeness percentages. Three female-pelvis targets and one bilateral inner-ear-reference target are excluded from male-body counts."
 }

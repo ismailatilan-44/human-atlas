@@ -1,7 +1,10 @@
 import type { Atlas } from "./anatomy";
 import labels from "../data/anatomy/labels.json";
+import brachialPlexus from "../data/anatomy/brachial-plexus.json";
 
 export type AnatomyLanguage = "tr" | "en" | "la";
+
+const BRACHIAL_PLEXUS_IDS = new Set(brachialPlexus.labels.flatMap((entry) => entry.ids));
 
 // Reviewed in docs/model/2026-09-08-audit.md (M-01). Keep the source manifest intact.
 const NERVOUS_PARTS = new Set(["FJ1730", "FJ1731", "FJ1752", "FJ1767", "FJ1814"]);
@@ -20,6 +23,7 @@ export function prepareAtlas(atlas: Atlas): Atlas {
 
 /** A missing note does not establish that a structure is fully represented. */
 export function getRepresentationNote(conceptId: string): string | undefined {
+  if (BRACHIAL_PLEXUS_IDS.has(conceptId)) return brachialPlexus.representationNoteTr;
   if (conceptId === "atlas:left-median-nerve" || conceptId === "atlas:right-median-nerve") {
     return "Bu model ana sinir gövdesini gösterir; ayrı kas, palmar ve dijital dal modelleri henüz eklenmedi.";
   }
@@ -36,10 +40,12 @@ export function getRepresentationNote(conceptId: string): string | undefined {
 }
 
 const LABELS_BY_ID = new Map(
-  labels.entries.flatMap((entry) => entry.ids.map((id) => [id, entry] as const)),
+  [...labels.entries, ...brachialPlexus.labels].flatMap((entry) =>
+    entry.ids.map((id) => [id, entry] as const),
+  ),
 );
 
-/** Outside the reviewed pilot, retain the supplied source label. */
+/** Outside reviewed label sets, retain the supplied source label. */
 export function anatomyLabel(id: string, fallback: string, language: AnatomyLanguage): string {
   const entry = LABELS_BY_ID.get(id);
   const label = entry?.[language];
@@ -58,7 +64,7 @@ export function anatomyLabel(id: string, fallback: string, language: AnatomyLang
   return `${side} ${label.toLocaleLowerCase(language)}`;
 }
 
-/** Include all pilot languages and source names, regardless of display language. */
+/** Include all reviewed languages and source names, regardless of display language. */
 export function anatomySearchTerms(id: string, fallback: string): string[] {
   const entry = LABELS_BY_ID.get(id);
   const terms = [id, fallback];
