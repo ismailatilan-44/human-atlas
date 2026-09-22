@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "scope": "22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.",
+  "entities": [
+    {
+      "id": "atlas:skull-bones",
+      "name": "Skull bones",
+      "side": null,
+      "kind": "display_group",
+      "geometryPartIds": [
+        "FJ3199",
+        "FJ3200",
+        "FJ3263",
+        "FJ3265",
+        "FJ3269",
+        "FJ3272",
+        "FJ3273",
+        "FJ3274",
+        "FJ3281",
+        "FJ3287",
+        "FJ3289",
+        "FJ3309",
+        "FJ3369",
+        "FJ3371",
+        "FJ3375",
+        "FJ3378",
+        "FJ3379",
+        "FJ3380",
+        "FJ3386",
+        "FJ3392",
+        "FJ3394",
+        "FJ3395"
+      ],
+      "representationStatus": "existing_geometry",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / elements and parts; original PART-OF and IS-A paths"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "FMA52740|part_of|atlas:skull-bones",
+      "subject": "FMA52740",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52740"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52734|part_of|atlas:skull-bones",
+      "subject": "FMA52734",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52734"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA54738|part_of|atlas:skull-bones",
+      "subject": "FMA54738",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA54738"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53646|part_of|atlas:skull-bones",
+      "subject": "FMA53646",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53646"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53650|part_of|atlas:skull-bones",
+      "subject": "FMA53650",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53650"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53648|part_of|atlas:skull-bones",
+      "subject": "FMA53648",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53648"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53656|part_of|atlas:skull-bones",
+      "subject": "FMA53656",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53656"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52789|part_of|atlas:skull-bones",
+      "subject": "FMA52789",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52789"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52739|part_of|atlas:skull-bones",
+      "subject": "FMA52739",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52739"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52893|part_of|atlas:skull-bones",
+      "subject": "FMA52893",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52893"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52748|part_of|atlas:skull-bones",
+      "subject": "FMA52748",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52748"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52735|part_of|atlas:skull-bones",
+      "subject": "FMA52735",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52735"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA54737|part_of|atlas:skull-bones",
+      "subject": "FMA54737",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA54737"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53645|part_of|atlas:skull-bones",
+      "subject": "FMA53645",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53645"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53649|part_of|atlas:skull-bones",
+      "subject": "FMA53649",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53649"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53647|part_of|atlas:skull-bones",
+      "subject": "FMA53647",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53647"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA53655|part_of|atlas:skull-bones",
+      "subject": "FMA53655",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA53655"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52788|part_of|atlas:skull-bones",
+      "subject": "FMA52788",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52788"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52738|part_of|atlas:skull-bones",
+      "subject": "FMA52738",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52738"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52892|part_of|atlas:skull-bones",
+      "subject": "FMA52892",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52892"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA52736|part_of|atlas:skull-bones",
+      "subject": "FMA52736",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA52736"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    },
+    {
+      "id": "FMA9710|part_of|atlas:skull-bones",
+      "subject": "FMA9710",
+      "predicate": "part_of",
+      "object": "atlas:skull-bones",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "reviewed-skull-bones",
+          "locator": "skull-bones-proposal.json / parts / FMA9710"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Membership in a project display group of source bone surfaces; not a replacement of the original FMA PART-OF hierarchy"
+      }
+    }
+  ]
+}

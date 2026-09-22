@@ -1,0 +1,630 @@
+{
+  "schemaVersion": 1,
+  "inputSnapshots": [
+    {
+      "path": "data/model-candidates/concept-selection-review/skull-bones-proposal.json",
+      "sha256": "5a15ed3984eb26342693cf81a62272c573d9ae10949c8f5c27f1088514a4e702"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "fdc052af0aaab53ced7b7351023acad90a2eb99fde0aa8821c8a097a7760a00a"
+    },
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "app/atlas-metadata.ts",
+      "sha256": "03d36f74d24495d983aa25ae5a59f81c88311af76b3aec4b2071f899e0502876"
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt"
+    },
+    {
+      "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_parts_list_e.txt"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "limitation": "Pinned upstream TA2 distribution; not a fresh FIPAT publisher PDF verification. Table IDs are upstream CSV row IDs."
+    }
+  ],
+  "entries": [
+    {
+      "id": "FMA52740",
+      "partId": "FJ3199",
+      "sourceEnglish": "Ethmoid",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2051,
+          "english": "ethmoid",
+          "representationId": "BP8991"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 906,
+          "english": "ethmoid",
+          "representationId": "BP10084"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 721,
+        "english": "Ethmoid bone",
+        "latin": "Os ethmoideum",
+        "line": 723
+      },
+      "semanticMapping": "Corresponding single bone term"
+    },
+    {
+      "id": "FMA52734",
+      "partId": "FJ3200",
+      "sourceEnglish": "Frontal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2045,
+          "english": "frontal bone",
+          "representationId": "BP8209"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 901,
+          "english": "frontal bone",
+          "representationId": "BP9668"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 520,
+        "english": "Frontal bone",
+        "latin": "Os frontale",
+        "line": 522
+      },
+      "semanticMapping": "Corresponding single bone term"
+    },
+    {
+      "id": "FMA54738",
+      "partId": "FJ3263",
+      "sourceEnglish": "Left inferior nasal concha",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2084,
+          "english": "left inferior nasal concha",
+          "representationId": "BP9034"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 943,
+          "english": "left inferior nasal concha",
+          "representationId": "BP10109"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 740,
+        "english": "Inferior nasal concha bone",
+        "latin": "Concha nasalis inferior",
+        "line": 742
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53646",
+      "partId": "FJ3265",
+      "sourceEnglish": "Left lacrimal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2066,
+          "english": "left lacrimal bone",
+          "representationId": "BP8103"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 919,
+          "english": "left lacrimal bone",
+          "representationId": "BP9614"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 744,
+        "english": "Lacrimal bone",
+        "latin": "Os lacrimale",
+        "line": 746
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53650",
+      "partId": "FJ3269",
+      "sourceEnglish": "Left maxilla",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2070,
+          "english": "left maxilla",
+          "representationId": "BP9046"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 923,
+          "english": "left maxilla",
+          "representationId": "BP10118"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 756,
+        "english": "Maxilla",
+        "latin": "Maxilla",
+        "line": 758
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53648",
+      "partId": "FJ3272",
+      "sourceEnglish": "Left nasal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2068,
+          "english": "left nasal bone",
+          "representationId": "BP8558"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 921,
+          "english": "left nasal bone",
+          "representationId": "BP9837"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 748,
+        "english": "Nasal bone",
+        "latin": "Os nasale",
+        "line": 750
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53656",
+      "partId": "FJ3273",
+      "sourceEnglish": "Left palatine bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2072,
+          "english": "left palatine bone",
+          "representationId": "BP7930"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 925,
+          "english": "left palatine bone",
+          "representationId": "BP9484"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 798,
+        "english": "Palatine bone",
+        "latin": "Os palatinum",
+        "line": 800
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52789",
+      "partId": "FJ3274",
+      "sourceEnglish": "Left parietal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2060,
+          "english": "left parietal bone",
+          "representationId": "BP9209"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 910,
+          "english": "left parietal bone",
+          "representationId": "BP10199"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 504,
+        "english": "Parietal bone",
+        "latin": "Os parietale",
+        "line": 506
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52739",
+      "partId": "FJ3281",
+      "sourceEnglish": "Left temporal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2050,
+          "english": "left temporal bone",
+          "representationId": "BP7991"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 905,
+          "english": "left temporal bone",
+          "representationId": "BP9536"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 641,
+        "english": "Temporal bone",
+        "latin": "Os temporale",
+        "line": 643
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52893",
+      "partId": "FJ3287",
+      "sourceEnglish": "Left zygomatic bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2062,
+          "english": "left zygomatic bone",
+          "representationId": "BP8495"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 913,
+          "english": "left zygomatic bone",
+          "representationId": "BP9801"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 818,
+        "english": "Zygomatic bone",
+        "latin": "Os zygomaticum",
+        "line": 820
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52748",
+      "partId": "FJ3289",
+      "sourceEnglish": "Mandible",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2056,
+          "english": "mandible",
+          "representationId": "BP8107"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 907,
+          "english": "mandible",
+          "representationId": "BP9617"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 835,
+        "english": "Mandible",
+        "latin": "Mandibula",
+        "line": 837
+      },
+      "semanticMapping": "Corresponding single bone term"
+    },
+    {
+      "id": "FMA52735",
+      "partId": "FJ3309",
+      "sourceEnglish": "Occipital bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2046,
+          "english": "occipital bone",
+          "representationId": "BP9177"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 902,
+          "english": "occipital bone",
+          "representationId": "BP10180"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 552,
+        "english": "Occipital bone",
+        "latin": "Os occipitale",
+        "line": 554
+      },
+      "semanticMapping": "Corresponding single bone term"
+    },
+    {
+      "id": "FMA54737",
+      "partId": "FJ3369",
+      "sourceEnglish": "Right inferior nasal concha",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2083,
+          "english": "right inferior nasal concha",
+          "representationId": "BP8413"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 942,
+          "english": "right inferior nasal concha",
+          "representationId": "BP9752"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 740,
+        "english": "Inferior nasal concha bone",
+        "latin": "Concha nasalis inferior",
+        "line": 742
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53645",
+      "partId": "FJ3371",
+      "sourceEnglish": "Right lacrimal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2065,
+          "english": "right lacrimal bone",
+          "representationId": "BP8741"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 918,
+          "english": "right lacrimal bone",
+          "representationId": "BP9936"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 744,
+        "english": "Lacrimal bone",
+        "latin": "Os lacrimale",
+        "line": 746
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53649",
+      "partId": "FJ3375",
+      "sourceEnglish": "Right maxilla",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2069,
+          "english": "right maxilla",
+          "representationId": "BP8309"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 922,
+          "english": "right maxilla",
+          "representationId": "BP9705"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 756,
+        "english": "Maxilla",
+        "latin": "Maxilla",
+        "line": 758
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53647",
+      "partId": "FJ3378",
+      "sourceEnglish": "Right nasal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2067,
+          "english": "right nasal bone",
+          "representationId": "BP9060"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 920,
+          "english": "right nasal bone",
+          "representationId": "BP10124"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 748,
+        "english": "Nasal bone",
+        "latin": "Os nasale",
+        "line": 750
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA53655",
+      "partId": "FJ3379",
+      "sourceEnglish": "Right palatine bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2071,
+          "english": "right palatine bone",
+          "representationId": "BP8406"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 924,
+          "english": "right palatine bone",
+          "representationId": "BP9748"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 798,
+        "english": "Palatine bone",
+        "latin": "Os palatinum",
+        "line": 800
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52788",
+      "partId": "FJ3380",
+      "sourceEnglish": "Right parietal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2059,
+          "english": "right parietal bone",
+          "representationId": "BP9057"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 909,
+          "english": "right parietal bone",
+          "representationId": "BP10121"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 504,
+        "english": "Parietal bone",
+        "latin": "Os parietale",
+        "line": 506
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52738",
+      "partId": "FJ3386",
+      "sourceEnglish": "Right temporal bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2049,
+          "english": "right temporal bone",
+          "representationId": "BP8875"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 904,
+          "english": "right temporal bone",
+          "representationId": "BP10032"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 641,
+        "english": "Temporal bone",
+        "latin": "Os temporale",
+        "line": 643
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52892",
+      "partId": "FJ3392",
+      "sourceEnglish": "Right zygomatic bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2061,
+          "english": "right zygomatic bone",
+          "representationId": "BP8777"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 912,
+          "english": "right zygomatic bone",
+          "representationId": "BP9965"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 818,
+        "english": "Zygomatic bone",
+        "latin": "Os zygomaticum",
+        "line": 820
+      },
+      "semanticMapping": "Generic bone term; side retained in a separate side field"
+    },
+    {
+      "id": "FMA52736",
+      "partId": "FJ3394",
+      "sourceEnglish": "Sphenoid bone",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 2047,
+          "english": "sphenoid bone",
+          "representationId": "BP8498"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 903,
+          "english": "sphenoid bone",
+          "representationId": "BP9806"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 584,
+        "english": "Sphenoid bone",
+        "latin": "Os sphenoideum",
+        "line": 586
+      },
+      "semanticMapping": "Corresponding single bone term"
+    },
+    {
+      "id": "FMA9710",
+      "partId": "FJ3395",
+      "sourceEnglish": "Vomer",
+      "bp3d": [
+        {
+          "file": "data/model-candidates/concept-selection-review/isa_parts_list_e.txt",
+          "line": 312,
+          "english": "vomer",
+          "representationId": "BP8776"
+        },
+        {
+          "file": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+          "line": 282,
+          "english": "vomer",
+          "representationId": "BP9960"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 751,
+        "english": "Vomer",
+        "latin": "Vomer",
+        "line": 753
+      },
+      "semanticMapping": "Corresponding single bone term"
+    },
+    {
+      "id": "atlas:skull-bones",
+      "ta2": {
+        "upstreamTableId": 503,
+        "english": "Bones of cranium",
+        "latin": "Ossa cranii",
+        "line": 505
+      },
+      "selectionSource": "data/model-candidates/concept-selection-review/skull-bones-proposal.json",
+      "semanticMapping": "Project selection label supported by Bones of cranium / Ossa cranii; not a new FMA assertion"
+    }
+  ],
+  "cautions": [
+    "Turkish labels and aliases are editorial, not official Turkish terminology endorsement.",
+    "Generic Latin is copied exactly; existing anatomyLabel helper supplies L/R markers, not invented Latin declensions.",
+    "Inferior nasal concha uses the osteology bone entry 740 Concha nasalis inferior, not the separate respiratory entry 3151 Concha inferior nasi.",
+    "Selection membership is inherited from the independent concept-selection review; this is an ID/name label audit, not a fresh mesh review."
+  ]
+}

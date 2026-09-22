@@ -72,13 +72,9 @@ export function buildKnowledge() {
     assert.equal(hash(fs.readFileSync(path.join(root, source.path))), source.sha256, `Changed source ${source.id}; re-review and update fingerprint`);
   }
   const atlas = JSON.parse(read('public/models/atlas.json'));
-  const pilot = JSON.parse(read('data/anatomy/upper-arm.json'));
-  const forearm = JSON.parse(read('data/anatomy/forearm.json'));
-  const knee = JSON.parse(read('data/anatomy/knee.json'));
-  const sciatic = JSON.parse(read('data/anatomy/sciatic.json'));
-  const thyroid = JSON.parse(read('data/anatomy/thyroid.json'));
-  const spinalCord = JSON.parse(read('data/anatomy/spinal-cord.json'));
-  const brachialPlexus = JSON.parse(read('data/anatomy/brachial-plexus.json'));
+  const modules = ['upper-arm', 'forearm', 'knee', 'sciatic', 'thyroid', 'spinal-cord', 'brachial-plexus', 'rotator-cuff', 'skull-bones']
+    .map(name => JSON.parse(read(`data/anatomy/${name}.json`)));
+  const pilot = modules[0];
   const entities = atlas.concepts.map(c => ({
     id: c.id, name: c.name, kind: 'source_concept',
     side: sideOf(c.name),
@@ -87,7 +83,7 @@ export function buildKnowledge() {
     evidence: [{ sourceId: 'human-atlas', locator: `atlas.json / concepts / ${c.id}` }],
   }));
   const entityMap = new Map();
-  for (const entity of [...entities, ...pilot.entities, ...forearm.entities, ...knee.entities, ...sciatic.entities, ...thyroid.entities, ...spinalCord.entities, ...brachialPlexus.entities]) {
+  for (const entity of [...entities, ...modules.flatMap(module => module.entities)]) {
     assert(!entityMap.has(entity.id), `Duplicate authored entity ${entity.id}`);
     entityMap.set(entity.id, entity);
   }
@@ -151,9 +147,9 @@ export function buildKnowledge() {
   });
   const graph = {
     schemaVersion: 1,
-    coverage: { structural: 'BodyParts3D source PART-OF snapshot', functional: `${pilot.scope}; ${forearm.scope}; ${knee.scope}; ${sciatic.scope}; ${thyroid.scope}; ${spinalCord.scope}; ${brachialPlexus.scope}`, complete: false },
+    coverage: { structural: 'BodyParts3D source PART-OF snapshot', functional: modules.map(module => module.scope).join('; '), complete: false },
     sources, geometryPartIds,
-    entities: [...entityMap.values()], relations: [...relations, ...pilot.relations, ...forearm.relations, ...knee.relations, ...sciatic.relations, ...thyroid.relations, ...spinalCord.relations, ...brachialPlexus.relations],
+    entities: [...entityMap.values()], relations: [...relations, ...modules.flatMap(module => module.relations)],
     assetBindings,
   };
   validateKnowledge(graph);

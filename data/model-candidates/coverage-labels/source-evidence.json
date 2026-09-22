@@ -1,0 +1,60 @@
+{
+  "retrievedOn": "2026-09-22",
+  "inputHashes": {
+    "data/anatomy/coverage.json": "aba58f507ea3445974cdcf6a0d21f61ca632d0dee09b4e96da50d6f2be67d263",
+    "public/models/atlas.json": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "data/anatomy/labels.json": "6ba8c9f95fb25d70e7cf710125a3eeea534fd915fc0b903e1a28d5cf2ebae5ae",
+    "data/anatomy/brachial-plexus.json": "10212a3bcc71a66d4b31e577c7a2cc8e7e6abef83a486b34e70d31a29632c7a6",
+    "app/atlas-metadata.ts": "03d36f74d24495d983aa25ae5a59f81c88311af76b3aec4b2071f899e0502876",
+    "app/reference-datasets.ts": "c965296f0333a0456f07fe87db63ed5db941c20d4e833134ef44688cc89d760a",
+    "app/female-pelvis-labels.ts": "d6f5868602dc7cce5634f9a599cba96be7f7cb3749a33e9a3be52b6e9d709a29",
+    "public/models/female-pelvis/atlas.json": "5d0fda078bb42a1826f3df44b4e4701a2640a59f368c7e3c40025d9e94e5a09f",
+    "public/models/inner-ear-reference/atlas.json": "05e3ab4cc24f0a205734c4a300fdfe23b023440f7812f66f976cb8e58d3410e1"
+  },
+  "sources": [
+    {
+      "id": "bp3d-official-names",
+      "publisher": "Database Center for Life Science / NBDC LSDB Archive",
+      "files": [
+        {
+          "path": "bp3d-isa-parts-list-e.txt",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+          "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+        },
+        {
+          "path": "bp3d-partof-parts-list-e.txt",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_parts_list_e.txt",
+          "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+        }
+      ],
+      "use": "Original FMA concept ID / representation ID / English source-name comparison"
+    },
+    {
+      "id": "zanatomy-ta2-pinned",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "selectedRows": "ta2-selected-rows.json",
+      "use": "Exact English/Latin term pairs from upstream distributed table; not independent revalidation of the entire TA publication"
+    },
+    {
+      "id": "ifaa-tah-cranium",
+      "url": "https://ifaa.unifr.ch/Public/TNAEntryPage/auto/part/EN/TAH305%20P2F%20EN.htm",
+      "retrievedOn": "2026-09-22",
+      "verifiedFields": {
+        "fmaId": "FMA46565",
+        "tahUid": 305,
+        "english": [
+          "cranium",
+          "skull"
+        ],
+        "latin": "cranium"
+      },
+      "status": "IFAA-hosted TAH work-in-progress page; narrow synonym corroboration"
+    },
+    {
+      "id": "fipat-live-access-attempt",
+      "url": "https://fipat.library.dal.ca/ta2/",
+      "status": "502/unavailable; publisher PDF requests also failed; not counted as independently verified text"
+    }
+  ]
+}

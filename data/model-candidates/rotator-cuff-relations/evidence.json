@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "uams-upper-limb",
+      "title": "UAMS Department of Neuroscience — Muscles of the Upper Limb",
+      "url": "https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/muscle-tables/muscles-of-the-upper-limb/",
+      "retrievedOn": "2026-09-09",
+      "use": "Selected anatomical facts with row/column references; no article text or images redistributed",
+      "lastVerifiedOn": "2026-09-22"
+    },
+    {
+      "id": "ttuhsc-axilla-shoulder-tables",
+      "title": "Texas Tech University Health Sciences Center El Paso — Axilla, Posterior Shoulder, & Arm anatomy tables",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/axilla_tables.html",
+      "retrievedOn": "2026-09-22",
+      "use": "Selected muscle origin/insertion/innervation and named nerve motor facts; row/column locators; no images or article copying"
+    },
+    {
+      "id": "zanatomy-ta2-terminology",
+      "title": "Z-Anatomy TA2 terminology table, pinned revision",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "retrievedOn": "2026-09-22",
+      "use": "Exact English/Latin naming rows, not anatomical relationship evidence; Turkish strings are editorial translations with expert review pending"
+    }
+  ],
+  "verifiedOn": "2026-09-22",
+  "claims": [
+    {
+      "muscle": "supraspinatus",
+      "originRegion": "supraspinous fossa of scapula",
+      "insertionRegion": "superior facet of greater tubercle of humerus",
+      "innervation": [
+        "suprascapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Origin / Insertion / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Origin / Insertion / Innervation"
+        }
+      ]
+    },
+    {
+      "muscle": "infraspinatus",
+      "originRegion": "infraspinous fossa of scapula",
+      "insertionRegion": "middle facet of greater tubercle of humerus",
+      "innervation": [
+        "suprascapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Origin / Insertion / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Origin / Insertion / Innervation"
+        }
+      ]
+    },
+    {
+      "muscle": "teres minor",
+      "originRegion": "superior two-thirds of lateral border of scapula",
+      "insertionRegion": "inferior facet of greater tubercle of humerus",
+      "innervation": [
+        "axillary nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Origin / Insertion / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Origin / Insertion / Innervation"
+        }
+      ]
+    },
+    {
+      "muscle": "subscapularis",
+      "originRegion": "medial two-thirds of costal surface of scapula, within subscapular fossa",
+      "insertionRegion": "lesser tubercle of humerus",
+      "innervation": [
+        "upper subscapular nerve",
+        "lower subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Origin / Insertion / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Origin / Insertion / Innervation"
+        }
+      ]
+    }
+  ],
+  "excludedClaims": [
+    "No capsule insertion, tendon footprint extent, origin/insertion coordinates or root-level motor segment assertions",
+    "No invented FMA nerve identifiers or unverified nerve geometry binding",
+    "No subscapularis territory segmentation or completeness claims"
+  ]
+}

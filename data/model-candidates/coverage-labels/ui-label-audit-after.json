@@ -1,0 +1,2350 @@
+{
+  "scope": "65 coverage targets, only direct currentBindings/separateReference concept IDs, no descendant expansion",
+  "targets": 65,
+  "uniqueConceptBindings": 83,
+  "counts": {
+    "tr": 0,
+    "en": 0,
+    "la": 4
+  },
+  "entries": [
+    {
+      "datasetId": "male-body",
+      "id": "atlas:skull-bones",
+      "name": "Skull bones",
+      "geometryPartIds": [
+        "FJ3199",
+        "FJ3200",
+        "FJ3263",
+        "FJ3265",
+        "FJ3269",
+        "FJ3272",
+        "FJ3273",
+        "FJ3274",
+        "FJ3281",
+        "FJ3287",
+        "FJ3289",
+        "FJ3309",
+        "FJ3369",
+        "FJ3371",
+        "FJ3375",
+        "FJ3378",
+        "FJ3379",
+        "FJ3380",
+        "FJ3386",
+        "FJ3392",
+        "FJ3394",
+        "FJ3395"
+      ],
+      "targetId": "coverage:skull",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Kafatası kemikleri",
+        "en": "Bones of cranium",
+        "la": "Ossa cranii"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA52748",
+      "name": "mandible",
+      "geometryPartIds": [
+        "FJ3289"
+      ],
+      "targetId": "coverage:mandible",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Mandibula",
+        "en": "Mandible",
+        "la": "Mandibula"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA50801",
+      "name": "brain",
+      "geometryPartIds": [
+        "FJ1730",
+        "FJ1731",
+        "FJ1732",
+        "FJ1733",
+        "FJ1738",
+        "FJ1739",
+        "FJ1740",
+        "FJ1743",
+        "FJ1744",
+        "FJ1745",
+        "FJ1746",
+        "FJ1747",
+        "FJ1748",
+        "FJ1749",
+        "FJ1750",
+        "FJ1751",
+        "FJ1758",
+        "FJ1759",
+        "FJ1760",
+        "FJ1762",
+        "FJ1767",
+        "FJ1769",
+        "FJ1770",
+        "FJ1775",
+        "FJ1779",
+        "FJ1780",
+        "FJ1781",
+        "FJ1783",
+        "FJ1784",
+        "FJ1785",
+        "FJ1786",
+        "FJ1787",
+        "FJ1788",
+        "FJ1789",
+        "FJ1790",
+        "FJ1791",
+        "FJ1792",
+        "FJ1795",
+        "FJ1797",
+        "FJ1798",
+        "FJ1800",
+        "FJ1801",
+        "FJ1806",
+        "FJ1807",
+        "FJ1808",
+        "FJ1810",
+        "FJ1814",
+        "FJ1817",
+        "FJ1822",
+        "FJ1826",
+        "FJ1828",
+        "FJ1830",
+        "FJ1831",
+        "FJ1833",
+        "FJ1834",
+        "FJ1835",
+        "FJ1836",
+        "FJ1841",
+        "FJ1842"
+      ],
+      "targetId": "coverage:brain",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Beyin",
+        "en": "Brain",
+        "la": "Encephalon"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA62493",
+      "name": "hippocampus",
+      "geometryPartIds": [
+        "FJ1759",
+        "FJ1807"
+      ],
+      "targetId": "coverage:hippocampus",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Hipokampus",
+        "en": "Hippocampus",
+        "la": "Hippocampus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA9915",
+      "name": "cervical vertebra",
+      "geometryPartIds": [
+        "FJ3161",
+        "FJ3164",
+        "FJ3167",
+        "FJ3170",
+        "FJ3172",
+        "FJ3176",
+        "FJ3177"
+      ],
+      "targetId": "coverage:cervical-vertebrae",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Servikal omurlar",
+        "en": "Cervical vertebrae",
+        "la": "Vertebrae cervicales"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA55108",
+      "name": "laryngeal cartilage",
+      "geometryPartIds": [
+        "FJ2440",
+        "FJ2769",
+        "FJ2773",
+        "FJ2775",
+        "FJ2776",
+        "FJ2792",
+        "FJ2793",
+        "FJ2795",
+        "FJ2808"
+      ],
+      "targetId": "coverage:laryngeal-cartilages",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Larinks kıkırdakları",
+        "en": "Laryngeal cartilages",
+        "la": "Cartilagines laryngis"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA78454",
+      "name": "third ventricle",
+      "geometryPartIds": [
+        "FJ1730"
+      ],
+      "targetId": "coverage:ventricles",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Üçüncü ventrikül",
+        "en": "Third ventricle",
+        "la": "Ventriculus tertius"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA78469",
+      "name": "fourth ventricle",
+      "geometryPartIds": [
+        "FJ1731"
+      ],
+      "targetId": "coverage:ventricles",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Dördüncü ventrikül",
+        "en": "Fourth ventricle",
+        "la": "Ventriculus quartus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA75351",
+      "name": "interventricular foramen",
+      "geometryPartIds": [
+        "FJ1752"
+      ],
+      "targetId": "coverage:ventricles",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "İnterventriküler foramen",
+        "en": "Interventricular foramen",
+        "la": "Foramen interventriculare"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA78450",
+      "name": "left lateral ventricle",
+      "geometryPartIds": [
+        "FJ1767"
+      ],
+      "targetId": "coverage:ventricles",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Sol yan ventrikül",
+        "en": "Left lateral ventricle",
+        "la": "Ventriculus lateralis (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA78449",
+      "name": "right lateral ventricle",
+      "geometryPartIds": [
+        "FJ1814"
+      ],
+      "targetId": "coverage:ventricles",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Sağ yan ventrikül",
+        "en": "Right lateral ventricle",
+        "la": "Ventriculus lateralis (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7647",
+      "name": "Spinal cord",
+      "geometryPartIds": [
+        "FJ1737",
+        "BP43-FJ4426"
+      ],
+      "targetId": "coverage:spinal-cord",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Omurilik",
+        "en": "Spinal cord",
+        "la": "Medulla spinalis"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA9603",
+      "name": "Thyroid gland",
+      "geometryPartIds": [
+        "BP43-FJ3671",
+        "BP43-FJ3672",
+        "BP43-FJ3670"
+      ],
+      "targetId": "coverage:thyroid",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Tiroid bezi",
+        "en": "Thyroid gland",
+        "la": "Glandula thyreoidea"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "inner-ear-reference",
+      "id": "inner-ear-reference:left-cochlea",
+      "name": "Left cochlea",
+      "geometryPartIds": [
+        "IE-COCHLEA-L"
+      ],
+      "targetId": "coverage:cochlea",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Sol koklea (salyangoz)",
+        "en": "Left cochlea",
+        "la": "Cochlea (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "inner-ear-reference",
+      "id": "inner-ear-reference:right-cochlea",
+      "name": "Right cochlea",
+      "geometryPartIds": [
+        "IE-COCHLEA-R"
+      ],
+      "targetId": "coverage:cochlea",
+      "regionId": "head-neck",
+      "current": {
+        "tr": "Sağ koklea (salyangoz)",
+        "en": "Right cochlea",
+        "la": "Cochlea (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7088",
+      "name": "heart",
+      "geometryPartIds": [
+        "FJ2417",
+        "FJ2418",
+        "FJ2419",
+        "FJ2420",
+        "FJ2421",
+        "FJ2422",
+        "FJ2423",
+        "FJ2424",
+        "FJ2425",
+        "FJ2426",
+        "FJ2427",
+        "FJ2429",
+        "FJ2430",
+        "FJ2431",
+        "FJ2432",
+        "FJ2433",
+        "FJ2434",
+        "FJ2435",
+        "FJ2436",
+        "FJ2437",
+        "FJ2438",
+        "FJ2439",
+        "FJ2631",
+        "FJ2632",
+        "FJ2633",
+        "FJ2634",
+        "FJ2635",
+        "FJ2636",
+        "FJ2637",
+        "FJ2638",
+        "FJ2639",
+        "FJ2640",
+        "FJ2641",
+        "FJ2642",
+        "FJ2643",
+        "FJ2644",
+        "FJ2645",
+        "FJ2646",
+        "FJ2647",
+        "FJ2648",
+        "FJ2649",
+        "FJ2650",
+        "FJ2651",
+        "FJ2652",
+        "FJ2653",
+        "FJ2654",
+        "FJ2655",
+        "FJ2656",
+        "FJ2667",
+        "FJ2668",
+        "FJ2670",
+        "FJ2671",
+        "FJ2672",
+        "FJ2673",
+        "FJ2674",
+        "FJ2675",
+        "FJ2676",
+        "FJ2677",
+        "FJ2692",
+        "FJ2693",
+        "FJ2694",
+        "FJ2695",
+        "FJ2696",
+        "FJ2697",
+        "FJ2698",
+        "FJ2699",
+        "FJ2700",
+        "FJ2714",
+        "FJ2715",
+        "FJ2716",
+        "FJ2717",
+        "FJ2718",
+        "FJ2719",
+        "FJ2720",
+        "FJ2721",
+        "FJ2722",
+        "FJ2723",
+        "FJ2724",
+        "FJ2727",
+        "FJ2728",
+        "FJ2729",
+        "FJ2731",
+        "FJ2737"
+      ],
+      "targetId": "coverage:heart",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Kalp",
+        "en": "Heart",
+        "la": "Cor"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7310",
+      "name": "left lung",
+      "geometryPartIds": [
+        "FJ2441",
+        "FJ2442",
+        "FJ2443",
+        "FJ2444",
+        "FJ2445",
+        "FJ2446",
+        "FJ2447",
+        "FJ2448",
+        "FJ2460",
+        "FJ2461",
+        "FJ2462",
+        "FJ2463",
+        "FJ2464",
+        "FJ2465",
+        "FJ2466",
+        "FJ2467",
+        "FJ2468",
+        "FJ2469",
+        "FJ2471",
+        "FJ2472",
+        "FJ2473",
+        "FJ2474",
+        "FJ2475",
+        "FJ2476",
+        "FJ2477",
+        "FJ2478",
+        "FJ2479",
+        "FJ2480",
+        "FJ2482",
+        "FJ2483",
+        "FJ2484",
+        "FJ2485",
+        "FJ2527",
+        "FJ2528",
+        "FJ2529",
+        "FJ2530",
+        "FJ2531",
+        "FJ2532",
+        "FJ2533",
+        "FJ2534",
+        "FJ2535",
+        "FJ2536",
+        "FJ2537",
+        "FJ2538",
+        "FJ2540",
+        "FJ2881",
+        "FJ2882",
+        "FJ2883",
+        "FJ2884",
+        "FJ2885",
+        "FJ2886",
+        "FJ2887",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2892",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895",
+        "FJ2896",
+        "FJ2897",
+        "FJ2898",
+        "FJ2899",
+        "FJ2900",
+        "FJ2901",
+        "FJ2902",
+        "FJ2903",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910",
+        "FJ2911",
+        "FJ2912",
+        "FJ2913",
+        "FJ2914",
+        "FJ2915",
+        "FJ2916",
+        "FJ2917",
+        "FJ2918",
+        "FJ2919",
+        "FJ2920",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923",
+        "FJ2926",
+        "FJ2927",
+        "FJ2928",
+        "FJ2929",
+        "FJ2930",
+        "FJ2931",
+        "FJ2932",
+        "FJ2934",
+        "FJ2935",
+        "FJ2936",
+        "FJ2937",
+        "FJ2938",
+        "FJ2939",
+        "FJ2940",
+        "FJ2941",
+        "FJ2942",
+        "FJ2943",
+        "FJ2945",
+        "FJ2946",
+        "FJ2947",
+        "FJ2948",
+        "FJ2949",
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954",
+        "FJ2956",
+        "FJ2957",
+        "FJ2958",
+        "FJ2959",
+        "FJ2960",
+        "FJ2961",
+        "FJ2962",
+        "FJ2963",
+        "FJ2964",
+        "FJ2965"
+      ],
+      "targetId": "coverage:lungs",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Sol akciğer",
+        "en": "Left lung",
+        "la": "Pulmo sinister"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7309",
+      "name": "right lung",
+      "geometryPartIds": [
+        "FJ2041",
+        "FJ2044",
+        "FJ2449",
+        "FJ2451",
+        "FJ2452",
+        "FJ2453",
+        "FJ2454",
+        "FJ2455",
+        "FJ2456",
+        "FJ2457",
+        "FJ2458",
+        "FJ2459",
+        "FJ2470",
+        "FJ2481",
+        "FJ2486",
+        "FJ2487",
+        "FJ2488",
+        "FJ2489",
+        "FJ2490",
+        "FJ2491",
+        "FJ2492",
+        "FJ2493",
+        "FJ2494",
+        "FJ2495",
+        "FJ2496",
+        "FJ2497",
+        "FJ2498",
+        "FJ2499",
+        "FJ2500",
+        "FJ2501",
+        "FJ2502",
+        "FJ2503",
+        "FJ2504",
+        "FJ2505",
+        "FJ2506",
+        "FJ2507",
+        "FJ2508",
+        "FJ2509",
+        "FJ2510",
+        "FJ2511",
+        "FJ2512",
+        "FJ2513",
+        "FJ2514",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519",
+        "FJ2520",
+        "FJ2521",
+        "FJ2522",
+        "FJ2523",
+        "FJ2524",
+        "FJ2525",
+        "FJ2526",
+        "FJ2967",
+        "FJ2968",
+        "FJ2969",
+        "FJ2970",
+        "FJ2971",
+        "FJ2972",
+        "FJ2973",
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2978",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981",
+        "FJ2982",
+        "FJ2983",
+        "FJ2984",
+        "FJ2985",
+        "FJ2986",
+        "FJ2987",
+        "FJ2988",
+        "FJ2989",
+        "FJ2990",
+        "FJ2991",
+        "FJ2992",
+        "FJ2993",
+        "FJ2994",
+        "FJ2995",
+        "FJ2996",
+        "FJ2997",
+        "FJ2998",
+        "FJ2999",
+        "FJ3000",
+        "FJ3001",
+        "FJ3002",
+        "FJ3003",
+        "FJ3004",
+        "FJ3005",
+        "FJ3006",
+        "FJ3007",
+        "FJ3008",
+        "FJ3009",
+        "FJ3010",
+        "FJ3011",
+        "FJ3012",
+        "FJ3013",
+        "FJ3014",
+        "FJ3015",
+        "FJ3016",
+        "FJ3017",
+        "FJ3018",
+        "FJ3021",
+        "FJ3022",
+        "FJ3023",
+        "FJ3024",
+        "FJ3025",
+        "FJ3026",
+        "FJ3027",
+        "FJ3028",
+        "FJ3029",
+        "FJ3030",
+        "FJ3031",
+        "FJ3032",
+        "FJ3033",
+        "FJ3034",
+        "FJ3035",
+        "FJ3036",
+        "FJ3037",
+        "FJ3038",
+        "FJ3039",
+        "FJ3041",
+        "FJ3042",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3049",
+        "FJ3050",
+        "FJ3051",
+        "FJ3052",
+        "FJ3053",
+        "FJ3054",
+        "FJ3055",
+        "FJ3056",
+        "FJ3057",
+        "FJ3058",
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062",
+        "FJ3063",
+        "FJ3064",
+        "FJ3065",
+        "FJ3066",
+        "FJ3067",
+        "FJ3068",
+        "FJ3069",
+        "FJ3070"
+      ],
+      "targetId": "coverage:lungs",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Sağ akciğer",
+        "en": "Right lung",
+        "la": "Pulmo dexter"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7394",
+      "name": "trachea",
+      "geometryPartIds": [
+        "FJ2541"
+      ],
+      "targetId": "coverage:trachea",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Trakea",
+        "en": "Trachea",
+        "la": "Trachea"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA13295",
+      "name": "diaphragm",
+      "geometryPartIds": [
+        "FJ3131"
+      ],
+      "targetId": "coverage:diaphragm",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Diyafram",
+        "en": "Diaphragm",
+        "la": "Diaphragma"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7574",
+      "name": "rib",
+      "geometryPartIds": [
+        "FJ3225",
+        "FJ3226",
+        "FJ3227",
+        "FJ3228",
+        "FJ3229",
+        "FJ3230",
+        "FJ3231",
+        "FJ3232",
+        "FJ3233",
+        "FJ3234",
+        "FJ3235",
+        "FJ3236",
+        "FJ3330",
+        "FJ3331",
+        "FJ3332",
+        "FJ3334",
+        "FJ3336",
+        "FJ3338",
+        "FJ3340",
+        "FJ3342",
+        "FJ3344",
+        "FJ3346",
+        "FJ3347",
+        "FJ3348"
+      ],
+      "targetId": "coverage:ribs",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Kaburgalar",
+        "en": "Ribs",
+        "la": "Costae"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7485",
+      "name": "sternum",
+      "geometryPartIds": [
+        "FJ3153",
+        "FJ3178",
+        "FJ3290"
+      ],
+      "targetId": "coverage:sternum",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Sternum",
+        "en": "Sternum",
+        "la": "Sternum"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA3734",
+      "name": "aorta",
+      "geometryPartIds": [
+        "FJ1931",
+        "FJ1932",
+        "FJ3411",
+        "FJ3413",
+        "FJ3427"
+      ],
+      "targetId": "coverage:aorta",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Aort",
+        "en": "Aorta",
+        "la": "Aorta"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7131",
+      "name": "esophagus",
+      "geometryPartIds": [
+        "FJ2563"
+      ],
+      "targetId": "coverage:esophagus",
+      "regionId": "thorax",
+      "current": {
+        "tr": "Özofagus",
+        "en": "Oesophagus",
+        "la": "Oesophagus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7197",
+      "name": "liver",
+      "geometryPartIds": [
+        "FJ1883",
+        "FJ1893",
+        "FJ1913",
+        "FJ1914",
+        "FJ1916",
+        "FJ2386",
+        "FJ2404",
+        "FJ2405",
+        "FJ2409",
+        "FJ2415",
+        "FJ2416",
+        "FJ2816",
+        "FJ2818",
+        "FJ2819",
+        "FJ2820",
+        "FJ2821",
+        "FJ2822",
+        "FJ2823",
+        "FJ2824",
+        "FJ3071",
+        "FJ3072",
+        "FJ3073",
+        "FJ3074",
+        "FJ3075",
+        "FJ3076",
+        "FJ3077",
+        "FJ3081",
+        "FJ3083",
+        "FJ3086",
+        "FJ3088",
+        "FJ3089",
+        "FJ3090",
+        "FJ3091",
+        "FJ3092",
+        "FJ3093",
+        "FJ3095",
+        "FJ3096",
+        "FJ3102",
+        "FJ3103",
+        "FJ3104",
+        "FJ3105",
+        "FJ3106",
+        "FJ3107",
+        "FJ3108",
+        "FJ3109",
+        "FJ3110",
+        "FJ3111",
+        "FJ3112",
+        "FJ3113",
+        "FJ3114",
+        "FJ3115",
+        "FJ3116",
+        "FJ3117",
+        "FJ3122",
+        "FJ3123",
+        "FJ3124",
+        "FJ3125",
+        "FJ3126",
+        "FJ3127",
+        "FJ3128"
+      ],
+      "targetId": "coverage:liver",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Karaciğer",
+        "en": "Liver",
+        "la": "Hepar"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7148",
+      "name": "stomach",
+      "geometryPartIds": [
+        "FJ2564"
+      ],
+      "targetId": "coverage:stomach",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Mide",
+        "en": "Stomach",
+        "la": "Gaster"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7198",
+      "name": "pancreas",
+      "geometryPartIds": [
+        "FJ1895",
+        "FJ1896",
+        "FJ2629",
+        "FJ2630"
+      ],
+      "targetId": "coverage:pancreas",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Pankreas",
+        "en": "Pancreas",
+        "la": "Pancreas"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7196",
+      "name": "spleen",
+      "geometryPartIds": [
+        "FJ2561"
+      ],
+      "targetId": "coverage:spleen",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Dalak",
+        "en": "Spleen",
+        "la": "Lien"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7203",
+      "name": "kidney",
+      "geometryPartIds": [
+        "FJ3145",
+        "FJ3147"
+      ],
+      "targetId": "coverage:kidneys",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Böbrek",
+        "en": "Kidney",
+        "la": "Ren"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7202",
+      "name": "gallbladder",
+      "geometryPartIds": [
+        "FJ2817"
+      ],
+      "targetId": "coverage:gallbladder",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Safra kesesi",
+        "en": "Gallbladder",
+        "la": "Vesica biliaris"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7200",
+      "name": "small intestine",
+      "geometryPartIds": [
+        "FJ2573",
+        "FJ2574",
+        "FJ2575",
+        "FJ2576",
+        "FJ2577",
+        "FJ2578",
+        "FJ2579",
+        "FJ2580",
+        "FJ2581",
+        "FJ2582",
+        "FJ2583",
+        "FJ2584",
+        "FJ2585",
+        "FJ2586",
+        "FJ2587",
+        "FJ2588",
+        "FJ2589",
+        "FJ2590",
+        "FJ2591",
+        "FJ2592",
+        "FJ2593",
+        "FJ2594",
+        "FJ2595",
+        "FJ2596",
+        "FJ2597",
+        "FJ2598",
+        "FJ2599",
+        "FJ2600",
+        "FJ2601",
+        "FJ2602",
+        "FJ2603",
+        "FJ2604",
+        "FJ2605",
+        "FJ2606",
+        "FJ2607",
+        "FJ2608",
+        "FJ2609",
+        "FJ2610",
+        "FJ2611",
+        "FJ2612",
+        "FJ2613",
+        "FJ2614",
+        "FJ2615",
+        "FJ2616",
+        "FJ2617",
+        "FJ2618",
+        "FJ2619",
+        "FJ2620",
+        "FJ2621",
+        "FJ2622",
+        "FJ2623",
+        "FJ2624",
+        "FJ2625",
+        "FJ2626",
+        "FJ2627",
+        "FJ2628"
+      ],
+      "targetId": "coverage:small-intestine",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "İnce bağırsak",
+        "en": "Small intestine",
+        "la": "Intestinum tenue"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA7201",
+      "name": "large intestine",
+      "geometryPartIds": [
+        "FJ2566",
+        "FJ2567",
+        "FJ2568",
+        "FJ2569",
+        "FJ2570",
+        "FJ2571",
+        "FJ2572",
+        "FJ2599"
+      ],
+      "targetId": "coverage:large-intestine",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Kalın bağırsak",
+        "en": "Large intestine",
+        "la": "Intestinum crassum"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA14544",
+      "name": "rectum",
+      "geometryPartIds": [
+        "FJ2571"
+      ],
+      "targetId": "coverage:rectum",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Rektum",
+        "en": "Rectum",
+        "la": "Rectum"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA15900",
+      "name": "urinary bladder",
+      "geometryPartIds": [
+        "FJ3149"
+      ],
+      "targetId": "coverage:urinary-bladder",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Mesane",
+        "en": "Urinary bladder",
+        "la": "Vesica urinaria"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA9600",
+      "name": "prostate",
+      "geometryPartIds": [
+        "FJ3139"
+      ],
+      "targetId": "coverage:prostate",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Prostat",
+        "en": "Prostate",
+        "la": "Prostata"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA16585",
+      "name": "hip bone",
+      "geometryPartIds": [
+        "FJ3152",
+        "FJ3288"
+      ],
+      "targetId": "coverage:hip-bones",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Kalça kemiği",
+        "en": "Hip bone",
+        "la": "Os coxae"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA16202",
+      "name": "sacrum",
+      "geometryPartIds": [
+        "FJ3393"
+      ],
+      "targetId": "coverage:sacrum",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Sakrum",
+        "en": "Sacrum",
+        "la": "Os sacrum"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "female-pelvis",
+      "id": "hra-female:uterus-female",
+      "name": "uterus",
+      "geometryPartIds": [
+        "HRA-FP-VH_F_abdominal_ostium_of_uterine_tube",
+        "HRA-FP-VH_F_body_of_uterus",
+        "HRA-FP-VH_F_fundus_of_uterus",
+        "HRA-FP-VH_F_cornua",
+        "HRA-FP-VH_F_lower_uterine_segment",
+        "HRA-FP-VH_F_posterior_wall_of_uterus",
+        "HRA-FP-VH_F_anterior_wall_of_uterus",
+        "HRA-FP-VH_F_cervix",
+        "HRA-FP-VH_F_internal_cervical_os",
+        "HRA-FP-VH_F_external_cervical_os"
+      ],
+      "targetId": "coverage:uterus",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Rahim",
+        "en": "Uterus",
+        "la": "Uterus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "female-pelvis",
+      "id": "hra-female:ovary-female-left",
+      "name": "Left ovary",
+      "geometryPartIds": [
+        "HRA-FP-VH_F_left_ovary"
+      ],
+      "targetId": "coverage:left-ovary",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Sol yumurtalık",
+        "en": "Left ovary",
+        "la": "Ovarium sinistrum"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "female-pelvis",
+      "id": "hra-female:ovary-female-right",
+      "name": "Right ovary",
+      "geometryPartIds": [
+        "HRA-FP-VH_F_right_ovary"
+      ],
+      "targetId": "coverage:right-ovary",
+      "regionId": "abdomen-pelvis",
+      "current": {
+        "tr": "Sağ yumurtalık",
+        "en": "Right ovary",
+        "la": "Ovarium dextrum"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA13321",
+      "name": "clavicle",
+      "geometryPartIds": [
+        "FJ3237",
+        "FJ3362"
+      ],
+      "targetId": "coverage:clavicles",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Klavikula",
+        "en": "Clavicle",
+        "la": "Clavicula"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA13394",
+      "name": "scapula",
+      "geometryPartIds": [
+        "FJ3279",
+        "FJ3384"
+      ],
+      "targetId": "coverage:scapulae",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Kürek kemiği",
+        "en": "Scapula",
+        "la": "Scapula"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA13303",
+      "name": "humerus",
+      "geometryPartIds": [
+        "FJ3262",
+        "FJ3368"
+      ],
+      "targetId": "coverage:humeri",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Kol kemiği",
+        "en": "Humerus",
+        "la": "Humerus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA23463",
+      "name": "radius",
+      "geometryPartIds": [
+        "FJ3277",
+        "FJ3349"
+      ],
+      "targetId": "coverage:radii",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Radius kemiği",
+        "en": "Radius",
+        "la": "Radius"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA23466",
+      "name": "ulna",
+      "geometryPartIds": [
+        "FJ3286",
+        "FJ3391"
+      ],
+      "targetId": "coverage:ulnae",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Ulna",
+        "en": "Ulna",
+        "la": "Ulna"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA23889",
+      "name": "carpal bone",
+      "geometryPartIds": [
+        "FJ3257",
+        "FJ3261",
+        "FJ3268",
+        "FJ3276",
+        "FJ3278",
+        "FJ3283",
+        "FJ3284",
+        "FJ3285",
+        "FJ3361",
+        "FJ3367",
+        "FJ3374",
+        "FJ3382",
+        "FJ3383",
+        "FJ3388",
+        "FJ3389",
+        "FJ3390"
+      ],
+      "targetId": "coverage:carpals",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Karpal kemikler",
+        "en": "Carpal bones",
+        "la": "Ossa carpi"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA34676",
+      "name": "zone of deltoid",
+      "geometryPartIds": [
+        "FJ1467",
+        "FJ1467M",
+        "FJ1468",
+        "FJ1468M",
+        "FJ1513",
+        "FJ1513M"
+      ],
+      "targetId": "coverage:deltoid-parts",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Deltoid kasının gösterilen bölümleri",
+        "en": "Zone of deltoid",
+        "la": "zone of deltoid"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": true
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA37683",
+      "name": "long head of biceps brachii",
+      "geometryPartIds": [
+        "FJ1478",
+        "FJ1478M"
+      ],
+      "targetId": "coverage:biceps-long",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "İki başlı kol kasının uzun başı",
+        "en": "Long head of biceps brachii",
+        "la": "Caput longum musculi bicipitis brachii"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA37682",
+      "name": "short head of biceps brachii",
+      "geometryPartIds": [
+        "FJ1512",
+        "FJ1512M"
+      ],
+      "targetId": "coverage:biceps-short",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "İki başlı kol kasının kısa başı",
+        "en": "Short head of biceps brachii",
+        "la": "Caput breve musculi bicipitis brachii"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA37664",
+      "name": "coracobrachialis",
+      "geometryPartIds": [
+        "FJ1488",
+        "FJ1488M"
+      ],
+      "targetId": "coverage:coracobrachialis",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Korakobrakiyal kas",
+        "en": "Coracobrachialis muscle",
+        "la": "Musculus coracobrachialis"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA22689",
+      "name": "brachial artery",
+      "geometryPartIds": [
+        "FJ2219",
+        "FJ2271"
+      ],
+      "targetId": "coverage:brachial-arteries",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Kol atardamarı",
+        "en": "Brachial artery",
+        "la": "Arteria brachialis"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-musculocutaneous-nerve",
+      "name": "Left musculocutaneous nerve",
+      "geometryPartIds": [
+        "ZA-MCN-L"
+      ],
+      "targetId": "coverage:musculocutaneous",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol muskülokutan sinir",
+        "en": "Left musculocutaneous nerve",
+        "la": "Nervus musculocutaneus (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-musculocutaneous-nerve",
+      "name": "Right musculocutaneous nerve",
+      "geometryPartIds": [
+        "ZA-MCN-R"
+      ],
+      "targetId": "coverage:musculocutaneous",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ muskülokutan sinir",
+        "en": "Right musculocutaneous nerve",
+        "la": "Nervus musculocutaneus (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-median-nerve",
+      "name": "Left median nerve",
+      "geometryPartIds": [
+        "ZA-MED-L"
+      ],
+      "targetId": "coverage:median-nerves",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol median sinir",
+        "en": "Left median nerve",
+        "la": "Nervus medianus (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-median-nerve",
+      "name": "Right median nerve",
+      "geometryPartIds": [
+        "ZA-MED-R"
+      ],
+      "targetId": "coverage:median-nerves",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ median sinir",
+        "en": "Right median nerve",
+        "la": "Nervus medianus (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-brachial-plexus",
+      "name": "Left brachial plexus",
+      "geometryPartIds": [
+        "ZA-BP-SUP-TRUNK-L",
+        "ZA-BP-MID-TRUNK-L",
+        "ZA-BP-INF-TRUNK-L",
+        "ZA-BP-SUP-ANT-DIV-L",
+        "ZA-BP-MID-ANT-DIV-L",
+        "ZA-BP-INF-ANT-DIV-L",
+        "ZA-BP-SUP-POST-DIV-L",
+        "ZA-BP-MID-POST-DIV-L",
+        "ZA-BP-INF-POST-DIV-L",
+        "ZA-BP-POST-CORD-L"
+      ],
+      "targetId": "coverage:brachial-plexus",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol brakiyal pleksus",
+        "en": "Left brachial plexus",
+        "la": "Plexus brachialis (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-brachial-plexus",
+      "name": "Right brachial plexus",
+      "geometryPartIds": [
+        "ZA-BP-SUP-TRUNK-R",
+        "ZA-BP-MID-TRUNK-R",
+        "ZA-BP-INF-TRUNK-R",
+        "ZA-BP-SUP-ANT-DIV-R",
+        "ZA-BP-MID-ANT-DIV-R",
+        "ZA-BP-INF-ANT-DIV-R",
+        "ZA-BP-SUP-POST-DIV-R",
+        "ZA-BP-MID-POST-DIV-R",
+        "ZA-BP-INF-POST-DIV-R",
+        "ZA-BP-POST-CORD-R"
+      ],
+      "targetId": "coverage:brachial-plexus",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ brakiyal pleksus",
+        "en": "Right brachial plexus",
+        "la": "Plexus brachialis (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-coracoid-process",
+      "name": "Left coracoid process",
+      "geometryPartIds": [],
+      "targetId": "coverage:coracoid-process",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol korakoid çıkıntı",
+        "en": "Left coracoid process",
+        "la": "Processus coracoideus (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-coracoid-process",
+      "name": "Right coracoid process",
+      "geometryPartIds": [],
+      "targetId": "coverage:coracoid-process",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ korakoid çıkıntı",
+        "en": "Right coracoid process",
+        "la": "Processus coracoideus (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-supraglenoid-tubercle",
+      "name": "Left supraglenoid tubercle",
+      "geometryPartIds": [],
+      "targetId": "coverage:supraglenoid-tubercle",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol supraglenoid tüberkül",
+        "en": "Left supraglenoid tubercle",
+        "la": "Tuberculum supraglenoideum (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-supraglenoid-tubercle",
+      "name": "Right supraglenoid tubercle",
+      "geometryPartIds": [],
+      "targetId": "coverage:supraglenoid-tubercle",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ supraglenoid tüberkül",
+        "en": "Right supraglenoid tubercle",
+        "la": "Tuberculum supraglenoideum (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-radial-tuberosity",
+      "name": "Left radial tuberosity",
+      "geometryPartIds": [],
+      "targetId": "coverage:radial-tuberosity",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol radius tüberozitesi",
+        "en": "Left radial tuberosity",
+        "la": "Tuberositas radii (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-radial-tuberosity",
+      "name": "Right radial tuberosity",
+      "geometryPartIds": [],
+      "targetId": "coverage:radial-tuberosity",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ radius tüberozitesi",
+        "en": "Right radial tuberosity",
+        "la": "Tuberositas radii (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-humerus-medial-midshaft",
+      "name": "Left medial midshaft attachment region of humerus",
+      "geometryPartIds": [],
+      "targetId": "coverage:humerus-medial-midshaft",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sol humerus gövdesinin orta iç tutunma bölgesi",
+        "en": "Left medial midshaft attachment region of humerus",
+        "la": "Left medial midshaft attachment region of humerus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": true
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-humerus-medial-midshaft",
+      "name": "Right medial midshaft attachment region of humerus",
+      "geometryPartIds": [],
+      "targetId": "coverage:humerus-medial-midshaft",
+      "regionId": "upper-limb",
+      "current": {
+        "tr": "Sağ humerus gövdesinin orta iç tutunma bölgesi",
+        "en": "Right medial midshaft attachment region of humerus",
+        "la": "Right medial midshaft attachment region of humerus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": true
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA9611",
+      "name": "femur",
+      "geometryPartIds": [
+        "FJ3259",
+        "FJ3365"
+      ],
+      "targetId": "coverage:femora",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Femur",
+        "en": "Femur",
+        "la": "Os femoris"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA24476",
+      "name": "tibia",
+      "geometryPartIds": [
+        "FJ3282",
+        "FJ3387"
+      ],
+      "targetId": "coverage:tibiae",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Tibia",
+        "en": "Tibia",
+        "la": "Tibia"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA24479",
+      "name": "fibula",
+      "geometryPartIds": [
+        "FJ3260",
+        "FJ3366"
+      ],
+      "targetId": "coverage:fibulae",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Fibula",
+        "en": "Fibula",
+        "la": "Fibula"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA24485",
+      "name": "patella",
+      "geometryPartIds": [
+        "FJ3275",
+        "FJ3381"
+      ],
+      "targetId": "coverage:patellae",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Patella",
+        "en": "Patella",
+        "la": "Patella"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA22314",
+      "name": "gluteus maximus",
+      "geometryPartIds": [
+        "FJ1418",
+        "FJ1418M"
+      ],
+      "targetId": "coverage:gluteus-maximus",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Gluteus maximus kası",
+        "en": "Gluteus maximus muscle",
+        "la": "Musculus gluteus maximus"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA22429",
+      "name": "zone of quadriceps femoris",
+      "geometryPartIds": [
+        "FJ1433",
+        "FJ1433M",
+        "FJ1441",
+        "FJ1441M",
+        "FJ1442",
+        "FJ1442M",
+        "FJ1443",
+        "FJ1443M"
+      ],
+      "targetId": "coverage:quadriceps-parts",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Quadriceps femoris kasının gösterilen bölümleri",
+        "en": "Zone of quadriceps femoris",
+        "la": "zone of quadriceps femoris"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": true
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA70248",
+      "name": "femoral artery",
+      "geometryPartIds": [
+        "FJ2074",
+        "FJ2143"
+      ],
+      "targetId": "coverage:femoral-arteries",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Femoral arter",
+        "en": "Femoral artery",
+        "la": "Arteria femoralis"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA24491",
+      "name": "tarsal bone",
+      "geometryPartIds": [
+        "FJ3256",
+        "FJ3258",
+        "FJ3264",
+        "FJ3267",
+        "FJ3271",
+        "FJ3280",
+        "FJ3307",
+        "FJ3308",
+        "FJ3360",
+        "FJ3364",
+        "FJ3370",
+        "FJ3373",
+        "FJ3377",
+        "FJ3385"
+      ],
+      "targetId": "coverage:tarsals",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Tarsal kemikler",
+        "en": "Tarsal bones",
+        "la": "Ossa tarsi"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-sciatic-nerve",
+      "name": "Left sciatic nerve",
+      "geometryPartIds": [
+        "ZA-SCI-L"
+      ],
+      "targetId": "coverage:sciatic",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sol siyatik sinir",
+        "en": "Left sciatic nerve",
+        "la": "Nervus ischiadicus (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-sciatic-nerve",
+      "name": "Right sciatic nerve",
+      "geometryPartIds": [
+        "ZA-SCI-R"
+      ],
+      "targetId": "coverage:sciatic",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sağ siyatik sinir",
+        "en": "Right sciatic nerve",
+        "la": "Nervus ischiadicus (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-medial-meniscus",
+      "name": "Left medial meniscus",
+      "geometryPartIds": [
+        "ZA-KNEE-MM-L"
+      ],
+      "targetId": "coverage:medial-menisci",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sol medial menisküs",
+        "en": "Left medial meniscus",
+        "la": "Meniscus medialis (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-medial-meniscus",
+      "name": "Right medial meniscus",
+      "geometryPartIds": [
+        "ZA-KNEE-MM-R"
+      ],
+      "targetId": "coverage:medial-menisci",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sağ medial menisküs",
+        "en": "Right medial meniscus",
+        "la": "Meniscus medialis (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-lateral-meniscus",
+      "name": "Left lateral meniscus",
+      "geometryPartIds": [
+        "ZA-KNEE-LM-L"
+      ],
+      "targetId": "coverage:lateral-menisci",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sol lateral menisküs",
+        "en": "Left lateral meniscus",
+        "la": "Meniscus lateralis (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-lateral-meniscus",
+      "name": "Right lateral meniscus",
+      "geometryPartIds": [
+        "ZA-KNEE-LM-R"
+      ],
+      "targetId": "coverage:lateral-menisci",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sağ lateral menisküs",
+        "en": "Right lateral meniscus",
+        "la": "Meniscus lateralis (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-anterior-cruciate-ligament",
+      "name": "Left anterior cruciate ligament",
+      "geometryPartIds": [
+        "ZA-KNEE-ACL-L"
+      ],
+      "targetId": "coverage:acl",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sol ön çapraz bağ",
+        "en": "Left anterior cruciate ligament",
+        "la": "Ligamentum cruciatum anterius (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-anterior-cruciate-ligament",
+      "name": "Right anterior cruciate ligament",
+      "geometryPartIds": [
+        "ZA-KNEE-ACL-R"
+      ],
+      "targetId": "coverage:acl",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sağ ön çapraz bağ",
+        "en": "Right anterior cruciate ligament",
+        "la": "Ligamentum cruciatum anterius (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-posterior-cruciate-ligament",
+      "name": "Left posterior cruciate ligament",
+      "geometryPartIds": [
+        "ZA-KNEE-PCL-L"
+      ],
+      "targetId": "coverage:pcl",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sol arka çapraz bağ",
+        "en": "Left posterior cruciate ligament",
+        "la": "Ligamentum decussatum posterius (L)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-posterior-cruciate-ligament",
+      "name": "Right posterior cruciate ligament",
+      "geometryPartIds": [
+        "ZA-KNEE-PCL-R"
+      ],
+      "targetId": "coverage:pcl",
+      "regionId": "lower-limb",
+      "current": {
+        "tr": "Sağ arka çapraz bağ",
+        "en": "Right posterior cruciate ligament",
+        "la": "Ligamentum decussatum posterius (R)"
+      },
+      "fallback": {
+        "tr": false,
+        "en": false,
+        "la": false
+      }
+    }
+  ]
+}

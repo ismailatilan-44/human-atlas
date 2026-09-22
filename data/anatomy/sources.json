@@ -684,5 +684,31 @@
       "Bilateral authored objects do not imply independent specimens or independently verified anatomical segmentations.",
       "Open and nonmanifold source edges are recorded and retained, not repaired. Expert anatomical review pending."
     ]
+  },
+  {
+    "id": "ttuhsc-axilla-shoulder-tables",
+    "title": "Texas Tech University Health Sciences Center El Paso — Axilla, Posterior Shoulder, & Arm anatomy tables",
+    "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/axilla_tables.html",
+    "retrievedOn": "2026-09-22",
+    "use": "Selected muscle origin/insertion/innervation and named nerve motor facts; row/column locators; no images or article copying"
+  },
+  {
+    "id": "zanatomy-ta2-terminology",
+    "title": "Z-Anatomy pinned TA2 terminology — selected rotator cuff rows",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "path": "data/model-candidates/rotator-cuff-relations/terminology-rows.json",
+    "sha256": "6fec546de23d54ff39e377b691d5c534c7ddfa0de21bbf3a3bf810d181639db6",
+    "retrievedOn": "2026-09-22",
+    "use": "Exact English/Latin naming rows, not anatomical relationship evidence; Turkish strings are editorial translations with expert review pending",
+    "upstreamSha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+  },
+  {
+    "id": "reviewed-skull-bones",
+    "title": "BodyParts3D skull-bone selection review — existing surface identities",
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "path": "data/model-candidates/concept-selection-review/skull-bones-proposal.json",
+    "sha256": "5a15ed3984eb26342693cf81a62272c573d9ae10949c8f5c27f1088514a4e702",
+    "retrievedOn": "2026-09-22",
+    "use": "Project selection of 22 existing bones; official IS-A/PART-OF membership and exclusion proof stored with review. Source FMA46565 remains unchanged."
   }
 ]

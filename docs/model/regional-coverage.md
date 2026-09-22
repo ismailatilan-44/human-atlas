@@ -178,3 +178,7 @@ TR/EN/LA etiketleri aynı modülde 23 kimlik için saklanır ve `atlas-metadata.
 `reference-inner-ear` kaynak kaydı public manifest/binary/gzip ve değişmemiş kaynak adayın hashlerini, tüm altı yüzeye uygulanan `(x,y,z) → (x,z,-y)` katı dönüşümü ve ayrı lisans kapsamlarını saklar. Kaynak göreli konumları korunur; uniform dönüşüm anatomik kayıt değildir. İç kulak için **CC BY-NC-SA 4.0**, temporal kemikler için **CC BY-SA 4.0** atıfları ayrı tutulur; paketin ticari olmayan kullanım sınırı kemikleri yeniden lisanslamaz. Kesin nesne soyu/sertifikası verilmediği için Dundee bağlantısının arşiv bileşen atfından çıkarım olduğu açıkça kaydedilir. Anatomik uzman incelemesi bekler; UI kabulü ve yayın root tarafından ayrı değerlendirilir.
 
 Bu sınırlı 65 hedeflik listede artık “eksik” işaretli satır kalmaması bütün anatominin tamamlandığı anlamına gelmez: üç kısmi hedef, bir konumu doğrulanmamış hedef ve seçilmeyen anatomik yapılar sürmektedir.
+
+## Etiket ve seçim güncellemesi — 22 Eylül
+
+Kafatası hedefi artık `atlas:skull-bones`22 kemiklik seçime bağlı; kaynak `FMA46565`43 parçalık grubu değişmedi. Sayılan65 hedef ve 61/3/0/1 durumları aynı. Doğrudan83bağdaTR/EN etiket boşluğu yok;LA 4 bilinçli boşluk. Alt parça ve bütün atlas kapsamı için bu sonuç genellenmez. Rotator manşete26 kaynak ilişki ve8 geometrisiz sinir kavramı eklendi; bunlar65 hedefe 8 yeni model eklendiği anlamına gelmez.

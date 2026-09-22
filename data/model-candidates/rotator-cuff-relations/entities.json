@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "entities": [
+    {
+      "id": "atlas:left-suprascapular-nerve",
+      "name": "Left suprascapular nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:left-axillary-nerve",
+      "name": "Left axillary nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:left-upper-subscapular-nerve",
+      "name": "Left upper subscapular nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:left-lower-subscapular-nerve",
+      "name": "Left lower subscapular nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve",
+      "name": "Right suprascapular nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-axillary-nerve",
+      "name": "Right axillary nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-upper-subscapular-nerve",
+      "name": "Right upper subscapular nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-lower-subscapular-nerve",
+      "name": "Right lower subscapular nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    }
+  ]
+}

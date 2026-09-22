@@ -1,0 +1,1228 @@
+{
+  "status": "candidate_not_integrated",
+  "id": "atlas:skull-bones",
+  "name": "Skull bones",
+  "nameTr": "Kafatası kemikleri",
+  "datasetId": "male-body",
+  "sourceGroupId": "FMA46565",
+  "sourceGroupName": "skull",
+  "elements": [
+    "FJ3199",
+    "FJ3200",
+    "FJ3263",
+    "FJ3265",
+    "FJ3269",
+    "FJ3272",
+    "FJ3273",
+    "FJ3274",
+    "FJ3281",
+    "FJ3287",
+    "FJ3289",
+    "FJ3309",
+    "FJ3369",
+    "FJ3371",
+    "FJ3375",
+    "FJ3378",
+    "FJ3379",
+    "FJ3380",
+    "FJ3386",
+    "FJ3392",
+    "FJ3394",
+    "FJ3395"
+  ],
+  "sourceConceptIds": [
+    "FMA52740",
+    "FMA52734",
+    "FMA54738",
+    "FMA53646",
+    "FMA53650",
+    "FMA53648",
+    "FMA53656",
+    "FMA52789",
+    "FMA52739",
+    "FMA52893",
+    "FMA52748",
+    "FMA52735",
+    "FMA54737",
+    "FMA53645",
+    "FMA53649",
+    "FMA53647",
+    "FMA53655",
+    "FMA52788",
+    "FMA52738",
+    "FMA52892",
+    "FMA52736",
+    "FMA9710"
+  ],
+  "sourceBaseManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+  "method": "Explicit source-part allowlist: source FMA46565 PART-OF elements whose original per-part concept descends from IS-A FMA5018 bone organ, excluding FMA52749 hyoid; reviewed as 8 cranial plus 14 facial bones",
+  "scope": "22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.",
+  "preserve": {
+    "sourceManifest": "unchanged",
+    "originalConceptId": "FMA46565",
+    "originalElements": [
+      "FJ1282",
+      "FJ1285",
+      "FJ1286",
+      "FJ1289",
+      "FJ1297",
+      "FJ1299",
+      "FJ1305",
+      "FJ1317",
+      "FJ1320",
+      "FJ1331",
+      "FJ1336",
+      "FJ1337",
+      "FJ1340",
+      "FJ1348",
+      "FJ1350",
+      "FJ1356",
+      "FJ1368",
+      "FJ1371",
+      "FJ1382",
+      "FJ2772",
+      "FJ3199",
+      "FJ3200",
+      "FJ3201",
+      "FJ3263",
+      "FJ3265",
+      "FJ3269",
+      "FJ3272",
+      "FJ3273",
+      "FJ3274",
+      "FJ3281",
+      "FJ3287",
+      "FJ3289",
+      "FJ3309",
+      "FJ3369",
+      "FJ3371",
+      "FJ3375",
+      "FJ3378",
+      "FJ3379",
+      "FJ3380",
+      "FJ3386",
+      "FJ3392",
+      "FJ3394",
+      "FJ3395"
+    ],
+    "suggestedOriginalLabelTr": "Kafatası (kaynak grubu)",
+    "suggestedOriginalNoteTr": "BodyParts3D kaynak grubu kafatası kemikleri yanında göz ve gözyaşı bezi yapıları ile hyoid yüzeylerini içerir."
+  },
+  "parts": [
+    {
+      "partId": "FJ3199",
+      "sourceConceptId": "FMA52740",
+      "sourceName": "Ethmoid",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52740",
+          "name": "ethmoid"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA7478",
+          "name": "pneumatized bone"
+        },
+        {
+          "id": "FMA52740",
+          "name": "ethmoid"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3200",
+      "sourceConceptId": "FMA52734",
+      "sourceName": "Frontal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53672",
+          "name": "neurocranium"
+        },
+        {
+          "id": "FMA52734",
+          "name": "frontal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7476",
+          "name": "flat bone"
+        },
+        {
+          "id": "FMA52734",
+          "name": "frontal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3263",
+      "sourceConceptId": "FMA54738",
+      "sourceName": "Left inferior nasal concha",
+      "currentSystem": "respiratory",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA54738",
+          "name": "left inferior nasal concha"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA54736",
+          "name": "inferior nasal concha"
+        },
+        {
+          "id": "FMA54738",
+          "name": "left inferior nasal concha"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3265",
+      "sourceConceptId": "FMA53646",
+      "sourceName": "Left lacrimal bone",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53646",
+          "name": "left lacrimal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52741",
+          "name": "lacrimal bone"
+        },
+        {
+          "id": "FMA53646",
+          "name": "left lacrimal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3269",
+      "sourceConceptId": "FMA53650",
+      "sourceName": "Left maxilla",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53650",
+          "name": "left maxilla"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA7478",
+          "name": "pneumatized bone"
+        },
+        {
+          "id": "FMA9711",
+          "name": "maxilla"
+        },
+        {
+          "id": "FMA53650",
+          "name": "left maxilla"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3272",
+      "sourceConceptId": "FMA53648",
+      "sourceName": "Left nasal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53648",
+          "name": "left nasal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7476",
+          "name": "flat bone"
+        },
+        {
+          "id": "FMA52745",
+          "name": "nasal bone"
+        },
+        {
+          "id": "FMA53648",
+          "name": "left nasal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3273",
+      "sourceConceptId": "FMA53656",
+      "sourceName": "Left palatine bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53656",
+          "name": "left palatine bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52746",
+          "name": "palatine bone"
+        },
+        {
+          "id": "FMA53656",
+          "name": "left palatine bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3274",
+      "sourceConceptId": "FMA52789",
+      "sourceName": "Left parietal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53672",
+          "name": "neurocranium"
+        },
+        {
+          "id": "FMA52789",
+          "name": "left parietal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7476",
+          "name": "flat bone"
+        },
+        {
+          "id": "FMA9613",
+          "name": "parietal bone"
+        },
+        {
+          "id": "FMA52789",
+          "name": "left parietal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3281",
+      "sourceConceptId": "FMA52739",
+      "sourceName": "Left temporal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52739",
+          "name": "left temporal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA7478",
+          "name": "pneumatized bone"
+        },
+        {
+          "id": "FMA52737",
+          "name": "temporal bone"
+        },
+        {
+          "id": "FMA52739",
+          "name": "left temporal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3287",
+      "sourceConceptId": "FMA52893",
+      "sourceName": "Left zygomatic bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52893",
+          "name": "left zygomatic bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52747",
+          "name": "zygomatic bone"
+        },
+        {
+          "id": "FMA52893",
+          "name": "left zygomatic bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3289",
+      "sourceConceptId": "FMA52748",
+      "sourceName": "Mandible",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52748",
+          "name": "mandible"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52748",
+          "name": "mandible"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3309",
+      "sourceConceptId": "FMA52735",
+      "sourceName": "Occipital bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53672",
+          "name": "neurocranium"
+        },
+        {
+          "id": "FMA52735",
+          "name": "occipital bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7476",
+          "name": "flat bone"
+        },
+        {
+          "id": "FMA52735",
+          "name": "occipital bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3369",
+      "sourceConceptId": "FMA54737",
+      "sourceName": "Right inferior nasal concha",
+      "currentSystem": "respiratory",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA54737",
+          "name": "right inferior nasal concha"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA54736",
+          "name": "inferior nasal concha"
+        },
+        {
+          "id": "FMA54737",
+          "name": "right inferior nasal concha"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3371",
+      "sourceConceptId": "FMA53645",
+      "sourceName": "Right lacrimal bone",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53645",
+          "name": "right lacrimal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52741",
+          "name": "lacrimal bone"
+        },
+        {
+          "id": "FMA53645",
+          "name": "right lacrimal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3375",
+      "sourceConceptId": "FMA53649",
+      "sourceName": "Right maxilla",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53649",
+          "name": "right maxilla"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA7478",
+          "name": "pneumatized bone"
+        },
+        {
+          "id": "FMA9711",
+          "name": "maxilla"
+        },
+        {
+          "id": "FMA53649",
+          "name": "right maxilla"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3378",
+      "sourceConceptId": "FMA53647",
+      "sourceName": "Right nasal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53647",
+          "name": "right nasal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7476",
+          "name": "flat bone"
+        },
+        {
+          "id": "FMA52745",
+          "name": "nasal bone"
+        },
+        {
+          "id": "FMA53647",
+          "name": "right nasal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3379",
+      "sourceConceptId": "FMA53655",
+      "sourceName": "Right palatine bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA53655",
+          "name": "right palatine bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52746",
+          "name": "palatine bone"
+        },
+        {
+          "id": "FMA53655",
+          "name": "right palatine bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3380",
+      "sourceConceptId": "FMA52788",
+      "sourceName": "Right parietal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": null,
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7476",
+          "name": "flat bone"
+        },
+        {
+          "id": "FMA9613",
+          "name": "parietal bone"
+        },
+        {
+          "id": "FMA52788",
+          "name": "right parietal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3386",
+      "sourceConceptId": "FMA52738",
+      "sourceName": "Right temporal bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52738",
+          "name": "right temporal bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA7478",
+          "name": "pneumatized bone"
+        },
+        {
+          "id": "FMA52737",
+          "name": "temporal bone"
+        },
+        {
+          "id": "FMA52738",
+          "name": "right temporal bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3392",
+      "sourceConceptId": "FMA52892",
+      "sourceName": "Right zygomatic bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52892",
+          "name": "right zygomatic bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52747",
+          "name": "zygomatic bone"
+        },
+        {
+          "id": "FMA52892",
+          "name": "right zygomatic bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3394",
+      "sourceConceptId": "FMA52736",
+      "sourceName": "Sphenoid bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52736",
+          "name": "sphenoid bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA7478",
+          "name": "pneumatized bone"
+        },
+        {
+          "id": "FMA52736",
+          "name": "sphenoid bone"
+        }
+      ]
+    },
+    {
+      "partId": "FJ3395",
+      "sourceConceptId": "FMA9710",
+      "sourceName": "Vomer",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA9710",
+          "name": "vomer"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA9710",
+          "name": "vomer"
+        }
+      ]
+    }
+  ],
+  "excludedSourceParts": [
+    {
+      "partId": "FJ1282",
+      "sourceConceptId": "FMA58082",
+      "sourceName": "Anterior chamber of left eyeball",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1285",
+      "sourceConceptId": "FMA58300",
+      "sourceName": "Left choroid",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1286",
+      "sourceConceptId": "FMA58300",
+      "sourceName": "Left choroid",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1289",
+      "sourceConceptId": "FMA58240",
+      "sourceName": "Left cornea",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1297",
+      "sourceConceptId": "FMA58237",
+      "sourceName": "Left iris",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1299",
+      "sourceConceptId": "FMA59103",
+      "sourceName": "Left lacrimal gland",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1305",
+      "sourceConceptId": "FMA58243",
+      "sourceName": "Left lens",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1317",
+      "sourceConceptId": "FMA58272",
+      "sourceName": "Left sclera",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1320",
+      "sourceConceptId": "FMA58840",
+      "sourceName": "Suspensory ligament of left lens",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1331",
+      "sourceConceptId": "FMA58829",
+      "sourceName": "Left vitreous body",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1336",
+      "sourceConceptId": "FMA58299",
+      "sourceName": "Right choroid",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1337",
+      "sourceConceptId": "FMA58299",
+      "sourceName": "Right choroid",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1340",
+      "sourceConceptId": "FMA58239",
+      "sourceName": "Right cornea",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1348",
+      "sourceConceptId": "FMA58236",
+      "sourceName": "Right iris",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1350",
+      "sourceConceptId": "FMA59102",
+      "sourceName": "Right lacrimal gland",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1356",
+      "sourceConceptId": "FMA58242",
+      "sourceName": "Right lens",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1368",
+      "sourceConceptId": "FMA58271",
+      "sourceName": "Right sclera",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1371",
+      "sourceConceptId": "FMA58839",
+      "sourceName": "Suspensory ligament of right lens",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ1382",
+      "sourceConceptId": "FMA58828",
+      "sourceName": "Right vitreous body",
+      "currentSystem": "sensory",
+      "sourceIsABoneOrgan": false,
+      "partOfPath": null,
+      "isABoneOrganPath": null,
+      "exclusionReason": "Eye/lacrimal structure, not a skull bone"
+    },
+    {
+      "partId": "FJ2772",
+      "sourceConceptId": "FMA52749",
+      "sourceName": "Hyoid bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52749",
+          "name": "hyoid bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52749",
+          "name": "hyoid bone"
+        }
+      ],
+      "exclusionReason": "Hyoid is outside the proposed conventional 22-bone skull scope"
+    },
+    {
+      "partId": "FJ3201",
+      "sourceConceptId": "FMA52749",
+      "sourceName": "Hyoid bone",
+      "currentSystem": "skeletal",
+      "sourceIsABoneOrgan": true,
+      "partOfPath": [
+        {
+          "id": "FMA46565",
+          "name": "skull"
+        },
+        {
+          "id": "FMA53673",
+          "name": "viscerocranium"
+        },
+        {
+          "id": "FMA52749",
+          "name": "hyoid bone"
+        }
+      ],
+      "isABoneOrganPath": [
+        {
+          "id": "FMA5018",
+          "name": "bone organ"
+        },
+        {
+          "id": "FMA7477",
+          "name": "irregular bone"
+        },
+        {
+          "id": "FMA52749",
+          "name": "hyoid bone"
+        }
+      ],
+      "exclusionReason": "Hyoid is outside the proposed conventional 22-bone skull scope"
+    }
+  ],
+  "sourceUrls": [
+    "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_element_parts.txt",
+    "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_inclusion_relation_list.txt",
+    "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_inclusion_relation_list.txt",
+    "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-1-divisions-of-the-skeletal-system"
+  ]
+}

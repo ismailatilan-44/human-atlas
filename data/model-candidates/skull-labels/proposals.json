@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal_only_not_applied",
+  "scope": "22 selected skull bones and the project aggregate only",
+  "entries": [
+    {
+      "ids": [
+        "FMA52740"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3199"
+      ],
+      "sourceEnglish": "Ethmoid",
+      "tr": "Etmoid kemik",
+      "en": "Ethmoid",
+      "la": "Os ethmoideum",
+      "side": null,
+      "ta2TableId": 721,
+      "aliases": [
+        "kalbur kemiği",
+        "etmoid"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52740",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52734"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3200"
+      ],
+      "sourceEnglish": "Frontal bone",
+      "tr": "Frontal kemik",
+      "en": "Frontal bone",
+      "la": "Os frontale",
+      "side": null,
+      "ta2TableId": 520,
+      "aliases": [
+        "alın kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52734",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA54738"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3263"
+      ],
+      "sourceEnglish": "Left inferior nasal concha",
+      "tr": "Alt burun konkası",
+      "en": "inferior nasal concha",
+      "la": "Concha nasalis inferior",
+      "side": "left",
+      "ta2TableId": 740,
+      "aliases": [
+        "alt konka",
+        "alt burun konkası kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA54738",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53646"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3265"
+      ],
+      "sourceEnglish": "Left lacrimal bone",
+      "tr": "Lakrimal kemik",
+      "en": "lacrimal bone",
+      "la": "Os lacrimale",
+      "side": "left",
+      "ta2TableId": 744,
+      "aliases": [
+        "gözyaşı kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53646",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53650"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3269"
+      ],
+      "sourceEnglish": "Left maxilla",
+      "tr": "Maksilla",
+      "en": "maxilla",
+      "la": "Maxilla",
+      "side": "left",
+      "ta2TableId": 756,
+      "aliases": [
+        "üst çene",
+        "üst çene kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53650",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53648"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3272"
+      ],
+      "sourceEnglish": "Left nasal bone",
+      "tr": "Nazal kemik",
+      "en": "nasal bone",
+      "la": "Os nasale",
+      "side": "left",
+      "ta2TableId": 748,
+      "aliases": [
+        "burun kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53648",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53656"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3273"
+      ],
+      "sourceEnglish": "Left palatine bone",
+      "tr": "Palatin kemik",
+      "en": "palatine bone",
+      "la": "Os palatinum",
+      "side": "left",
+      "ta2TableId": 798,
+      "aliases": [
+        "damak kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53656",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52789"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3274"
+      ],
+      "sourceEnglish": "Left parietal bone",
+      "tr": "Parietal kemik",
+      "en": "parietal bone",
+      "la": "Os parietale",
+      "side": "left",
+      "ta2TableId": 504,
+      "aliases": [
+        "duvar kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52789",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52739"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3281"
+      ],
+      "sourceEnglish": "Left temporal bone",
+      "tr": "Temporal kemik",
+      "en": "temporal bone",
+      "la": "Os temporale",
+      "side": "left",
+      "ta2TableId": 641,
+      "aliases": [
+        "şakak kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52739",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52893"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3287"
+      ],
+      "sourceEnglish": "Left zygomatic bone",
+      "tr": "Zigomatik kemik",
+      "en": "zygomatic bone",
+      "la": "Os zygomaticum",
+      "side": "left",
+      "ta2TableId": 818,
+      "aliases": [
+        "elmacık kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52893",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52735"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3309"
+      ],
+      "sourceEnglish": "Occipital bone",
+      "tr": "Oksipital kemik",
+      "en": "Occipital bone",
+      "la": "Os occipitale",
+      "side": null,
+      "ta2TableId": 552,
+      "aliases": [
+        "artkafa kemiği",
+        "art kafa kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52735",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA54737"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3369"
+      ],
+      "sourceEnglish": "Right inferior nasal concha",
+      "tr": "Alt burun konkası",
+      "en": "inferior nasal concha",
+      "la": "Concha nasalis inferior",
+      "side": "right",
+      "ta2TableId": 740,
+      "aliases": [
+        "alt konka",
+        "alt burun konkası kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA54737",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53645"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3371"
+      ],
+      "sourceEnglish": "Right lacrimal bone",
+      "tr": "Lakrimal kemik",
+      "en": "lacrimal bone",
+      "la": "Os lacrimale",
+      "side": "right",
+      "ta2TableId": 744,
+      "aliases": [
+        "gözyaşı kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53645",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53649"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3375"
+      ],
+      "sourceEnglish": "Right maxilla",
+      "tr": "Maksilla",
+      "en": "maxilla",
+      "la": "Maxilla",
+      "side": "right",
+      "ta2TableId": 756,
+      "aliases": [
+        "üst çene",
+        "üst çene kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53649",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53647"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3378"
+      ],
+      "sourceEnglish": "Right nasal bone",
+      "tr": "Nazal kemik",
+      "en": "nasal bone",
+      "la": "Os nasale",
+      "side": "right",
+      "ta2TableId": 748,
+      "aliases": [
+        "burun kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53647",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA53655"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3379"
+      ],
+      "sourceEnglish": "Right palatine bone",
+      "tr": "Palatin kemik",
+      "en": "palatine bone",
+      "la": "Os palatinum",
+      "side": "right",
+      "ta2TableId": 798,
+      "aliases": [
+        "damak kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA53655",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52788"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3380"
+      ],
+      "sourceEnglish": "Right parietal bone",
+      "tr": "Parietal kemik",
+      "en": "parietal bone",
+      "la": "Os parietale",
+      "side": "right",
+      "ta2TableId": 504,
+      "aliases": [
+        "duvar kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52788",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52738"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3386"
+      ],
+      "sourceEnglish": "Right temporal bone",
+      "tr": "Temporal kemik",
+      "en": "temporal bone",
+      "la": "Os temporale",
+      "side": "right",
+      "ta2TableId": 641,
+      "aliases": [
+        "şakak kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52738",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52892"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3392"
+      ],
+      "sourceEnglish": "Right zygomatic bone",
+      "tr": "Zigomatik kemik",
+      "en": "zygomatic bone",
+      "la": "Os zygomaticum",
+      "side": "right",
+      "ta2TableId": 818,
+      "aliases": [
+        "elmacık kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52892",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA52736"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3394"
+      ],
+      "sourceEnglish": "Sphenoid bone",
+      "tr": "Sfenoid kemik",
+      "en": "Sphenoid bone",
+      "la": "Os sphenoideum",
+      "side": null,
+      "ta2TableId": 584,
+      "aliases": [
+        "sfenoid"
+      ],
+      "evidenceRef": "source-evidence.json#FMA52736",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    },
+    {
+      "ids": [
+        "FMA9710"
+      ],
+      "datasetId": "male-body",
+      "geometryPartIds": [
+        "FJ3395"
+      ],
+      "sourceEnglish": "Vomer",
+      "tr": "Vomer",
+      "en": "Vomer",
+      "la": "Vomer",
+      "side": null,
+      "ta2TableId": 751,
+      "aliases": [
+        "sapan kemiği"
+      ],
+      "evidenceRef": "source-evidence.json#FMA9710",
+      "expertReview": "pending",
+      "trStatus": "editorial"
+    }
+  ],
+  "retainExisting": [
+    {
+      "id": "FMA52748",
+      "partId": "FJ3289",
+      "existingLabel": {
+        "ids": [
+          "FMA52748"
+        ],
+        "tr": "Mandibula",
+        "en": "Mandible",
+        "la": "Mandibula",
+        "side": null,
+        "ta2Id": 835,
+        "aliases": [
+          "mandible",
+          "alt çene",
+          "çene kemiği"
+        ],
+        "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA52748"
+      }
+    },
+    {
+      "id": "atlas:skull-bones",
+      "existingLabel": {
+        "ids": [
+          "atlas:skull-bones"
+        ],
+        "tr": "Kafatası kemikleri",
+        "en": "Bones of cranium",
+        "la": "Ossa cranii",
+        "side": null,
+        "ta2Id": 503,
+        "aliases": [
+          "kafatası",
+          "skull bones",
+          "cranial bones"
+        ],
+        "evidenceRef": "data/model-candidates/concept-selection-review/skull-bones-proposal.json"
+      }
+    }
+  ]
+}

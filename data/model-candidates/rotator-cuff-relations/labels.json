@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "scope": "Selected rotator cuff muscle and nerve labels; candidate only",
+  "source": {
+    "id": "zanatomy-ta2-terminology",
+    "title": "Z-Anatomy TA2 terminology table, pinned revision",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "path": "work/open-assets-review/TA2.csv",
+    "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "retrievedOn": "2026-09-22",
+    "use": "Exact English/Latin naming rows, not anatomical relationship evidence; Turkish strings are editorial translations with expert review pending"
+  },
+  "entries": [
+    {
+      "ids": [
+        "atlas:left-suprascapular-nerve"
+      ],
+      "side": "left",
+      "tr": "Supraskapular sinir",
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis",
+      "ta2Id": 6411,
+      "aliases": [
+        "suprascapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:left-axillary-nerve"
+      ],
+      "side": "left",
+      "tr": "Aksiller sinir",
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris",
+      "ta2Id": 6440,
+      "aliases": [
+        "axillary nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:left-upper-subscapular-nerve"
+      ],
+      "side": "left",
+      "tr": "Üst subskapular sinir",
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior",
+      "ta2Id": 6428,
+      "aliases": [
+        "upper subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:left-lower-subscapular-nerve"
+      ],
+      "side": "left",
+      "tr": "Alt subskapular sinir",
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior",
+      "ta2Id": 6429,
+      "aliases": [
+        "lower subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-suprascapular-nerve"
+      ],
+      "side": "right",
+      "tr": "Supraskapular sinir",
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis",
+      "ta2Id": 6411,
+      "aliases": [
+        "suprascapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-axillary-nerve"
+      ],
+      "side": "right",
+      "tr": "Aksiller sinir",
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris",
+      "ta2Id": 6440,
+      "aliases": [
+        "axillary nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-upper-subscapular-nerve"
+      ],
+      "side": "right",
+      "tr": "Üst subskapular sinir",
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior",
+      "ta2Id": 6428,
+      "aliases": [
+        "upper subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-lower-subscapular-nerve"
+      ],
+      "side": "right",
+      "tr": "Alt subskapular sinir",
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior",
+      "ta2Id": 6429,
+      "aliases": [
+        "lower subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32545",
+        "FJ1506M"
+      ],
+      "side": "left",
+      "tr": "Supraspinatus kası",
+      "en": "Supraspinatus muscle",
+      "la": "Musculus supraspinatus",
+      "ta2Id": 2457,
+      "aliases": [
+        "supraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2457; CSV line 2555; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32544",
+        "FJ1506"
+      ],
+      "side": "right",
+      "tr": "Supraspinatus kası",
+      "en": "Supraspinatus muscle",
+      "la": "Musculus supraspinatus",
+      "ta2Id": 2457,
+      "aliases": [
+        "supraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2457; CSV line 2555; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32548",
+        "FJ1500M"
+      ],
+      "side": "left",
+      "tr": "İnfraspinatus kası",
+      "en": "Infraspinatus muscle",
+      "la": "Musculus infraspinatus",
+      "ta2Id": 2458,
+      "aliases": [
+        "infraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2458; CSV line 2556; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32547",
+        "FJ1500"
+      ],
+      "side": "right",
+      "tr": "İnfraspinatus kası",
+      "en": "Infraspinatus muscle",
+      "la": "Musculus infraspinatus",
+      "ta2Id": 2458,
+      "aliases": [
+        "infraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2458; CSV line 2556; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32554",
+        "FJ1508M"
+      ],
+      "side": "left",
+      "tr": "Teres minor kası",
+      "en": "Teres minor muscle",
+      "la": "Musculus teres minor",
+      "ta2Id": 2459,
+      "aliases": [
+        "teres minor"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2459; CSV line 2557; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32553",
+        "FJ1508"
+      ],
+      "side": "right",
+      "tr": "Teres minor kası",
+      "en": "Teres minor muscle",
+      "la": "Musculus teres minor",
+      "ta2Id": 2459,
+      "aliases": [
+        "teres minor"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2459; CSV line 2557; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA13415",
+        "FJ1504M"
+      ],
+      "side": "left",
+      "tr": "Subskapularis kası",
+      "en": "Subscapularis muscle",
+      "la": "Musculus subscapularis",
+      "ta2Id": 2460,
+      "aliases": [
+        "subscapularis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2460; CSV line 2558; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA13414",
+        "FJ1504"
+      ],
+      "side": "right",
+      "tr": "Subskapularis kası",
+      "en": "Subscapularis muscle",
+      "la": "Musculus subscapularis",
+      "ta2Id": 2460,
+      "aliases": [
+        "subscapularis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2460; CSV line 2558; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    }
+  ]
+}

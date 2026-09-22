@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "data/anatomy/knowledge.json",
+      "sha256": "9d8692af474eefe0bc7799c074098a3501ac354dd99a73198881e9955de15f4c"
+    },
+    {
+      "path": "public/models/extensions/index.json",
+      "sha256": "ef35734b97e5396aa7287178fd4e9c0e11eec9e38fa35d3b07c65425482fef5b"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    }
+  ],
+  "existingEntities": [
+    {
+      "id": "FMA13396",
+      "role": "context_bone_not_localized_landmark",
+      "name": "left scapula",
+      "side": "left",
+      "geometryPartIds": [
+        "FJ3279"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA23131",
+      "role": "context_bone_not_localized_landmark",
+      "name": "left humerus",
+      "side": "left",
+      "geometryPartIds": [
+        "FJ3262"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA13395",
+      "role": "context_bone_not_localized_landmark",
+      "name": "right scapula",
+      "side": "right",
+      "geometryPartIds": [
+        "FJ3384"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA23130",
+      "role": "context_bone_not_localized_landmark",
+      "name": "right humerus",
+      "side": "right",
+      "geometryPartIds": [
+        "FJ3368"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA32545",
+      "name": "left supraspinatus",
+      "side": "left",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1506M"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA32544",
+      "name": "right supraspinatus",
+      "side": "right",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1506"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA32548",
+      "name": "left infraspinatus muscle",
+      "side": "left",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1500M"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA32547",
+      "name": "right infraspinatus muscle",
+      "side": "right",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1500"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA32554",
+      "name": "left teres minor",
+      "side": "left",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1508M"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA32553",
+      "name": "right teres minor",
+      "side": "right",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1508"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA13415",
+      "name": "left subscapularis",
+      "side": "left",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1504M"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    },
+    {
+      "id": "FMA13414",
+      "name": "right subscapularis",
+      "side": "right",
+      "role": "existing_muscle",
+      "geometryPartIds": [
+        "FJ1504"
+      ],
+      "source": "Existing canonical graph and atlas manifest; no entity overwrite proposed"
+    }
+  ],
+  "newEntityCount": 8,
+  "geometryMappingMethod": "Exact canonical ID/name/side/element comparison; no proximity inference",
+  "nerveGeometryAudit": "No matching named suprascapular, axillary, upper or lower subscapular nerve entity in canonical graph or atlas; no source candidate is promoted to registered geometry."
+}

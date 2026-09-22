@@ -1,0 +1,53 @@
+{
+  "upstreamSha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+  "rows": [
+    {
+      "tableId": 2457,
+      "sourceLine": 2555,
+      "en": "Supraspinatus muscle",
+      "la": "Musculus supraspinatus"
+    },
+    {
+      "tableId": 2458,
+      "sourceLine": 2556,
+      "en": "Infraspinatus muscle",
+      "la": "Musculus infraspinatus"
+    },
+    {
+      "tableId": 2459,
+      "sourceLine": 2557,
+      "en": "Teres minor muscle",
+      "la": "Musculus teres minor"
+    },
+    {
+      "tableId": 2460,
+      "sourceLine": 2558,
+      "en": "Subscapularis muscle",
+      "la": "Musculus subscapularis"
+    },
+    {
+      "tableId": 6411,
+      "sourceLine": 6494,
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis"
+    },
+    {
+      "tableId": 6428,
+      "sourceLine": 6511,
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior"
+    },
+    {
+      "tableId": 6429,
+      "sourceLine": 6512,
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior"
+    },
+    {
+      "tableId": 6440,
+      "sourceLine": 6523,
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris"
+    }
+  ]
+}

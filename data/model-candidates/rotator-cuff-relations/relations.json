@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "relations": [
+    {
+      "id": "FMA32545|originates_at|FMA13396",
+      "subject": "FMA32545",
+      "predicate": "originates_at",
+      "object": "FMA13396",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "supraspinous fossa of scapula",
+        "landmarkTr": "Skapulanın supraspinöz fossası",
+        "attachmentNoteTr": "Skapulanın supraspinöz fossası — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA32545|inserts_at|FMA23131",
+      "subject": "FMA32545",
+      "predicate": "inserts_at",
+      "object": "FMA23131",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "superior facet of greater tubercle of humerus",
+        "landmarkTr": "Humerusun büyük tüberkülünün üst faseti",
+        "attachmentNoteTr": "Humerusun büyük tüberkülünün üst faseti — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:left-suprascapular-nerve|innervates|FMA32545",
+      "subject": "atlas:left-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32545",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA32544|originates_at|FMA13395",
+      "subject": "FMA32544",
+      "predicate": "originates_at",
+      "object": "FMA13395",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "supraspinous fossa of scapula",
+        "landmarkTr": "Skapulanın supraspinöz fossası",
+        "attachmentNoteTr": "Skapulanın supraspinöz fossası — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA32544|inserts_at|FMA23130",
+      "subject": "FMA32544",
+      "predicate": "inserts_at",
+      "object": "FMA23130",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "superior facet of greater tubercle of humerus",
+        "landmarkTr": "Humerusun büyük tüberkülünün üst faseti",
+        "attachmentNoteTr": "Humerusun büyük tüberkülünün üst faseti — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve|innervates|FMA32544",
+      "subject": "atlas:right-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32544",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA32548|originates_at|FMA13396",
+      "subject": "FMA32548",
+      "predicate": "originates_at",
+      "object": "FMA13396",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "infraspinous fossa of scapula",
+        "landmarkTr": "Skapulanın infraspinöz fossası",
+        "attachmentNoteTr": "Skapulanın infraspinöz fossası — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA32548|inserts_at|FMA23131",
+      "subject": "FMA32548",
+      "predicate": "inserts_at",
+      "object": "FMA23131",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "middle facet of greater tubercle of humerus",
+        "landmarkTr": "Humerusun büyük tüberkülünün orta faseti",
+        "attachmentNoteTr": "Humerusun büyük tüberkülünün orta faseti — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:left-suprascapular-nerve|innervates|FMA32548",
+      "subject": "atlas:left-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32548",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA32547|originates_at|FMA13395",
+      "subject": "FMA32547",
+      "predicate": "originates_at",
+      "object": "FMA13395",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "infraspinous fossa of scapula",
+        "landmarkTr": "Skapulanın infraspinöz fossası",
+        "attachmentNoteTr": "Skapulanın infraspinöz fossası — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA32547|inserts_at|FMA23130",
+      "subject": "FMA32547",
+      "predicate": "inserts_at",
+      "object": "FMA23130",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "middle facet of greater tubercle of humerus",
+        "landmarkTr": "Humerusun büyük tüberkülünün orta faseti",
+        "attachmentNoteTr": "Humerusun büyük tüberkülünün orta faseti — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve|innervates|FMA32547",
+      "subject": "atlas:right-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32547",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA32554|originates_at|FMA13396",
+      "subject": "FMA32554",
+      "predicate": "originates_at",
+      "object": "FMA13396",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "superior two-thirds of lateral border of scapula",
+        "landmarkTr": "Skapulanın dış kenarının üst üçte ikisi",
+        "attachmentNoteTr": "Skapulanın dış kenarının üst üçte ikisi — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA32554|inserts_at|FMA23131",
+      "subject": "FMA32554",
+      "predicate": "inserts_at",
+      "object": "FMA23131",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "inferior facet of greater tubercle of humerus",
+        "landmarkTr": "Humerusun büyük tüberkülünün alt faseti",
+        "attachmentNoteTr": "Humerusun büyük tüberkülünün alt faseti — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:left-axillary-nerve|innervates|FMA32554",
+      "subject": "atlas:left-axillary-nerve",
+      "predicate": "innervates",
+      "object": "FMA32554",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA32553|originates_at|FMA13395",
+      "subject": "FMA32553",
+      "predicate": "originates_at",
+      "object": "FMA13395",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "superior two-thirds of lateral border of scapula",
+        "landmarkTr": "Skapulanın dış kenarının üst üçte ikisi",
+        "attachmentNoteTr": "Skapulanın dış kenarının üst üçte ikisi — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA32553|inserts_at|FMA23130",
+      "subject": "FMA32553",
+      "predicate": "inserts_at",
+      "object": "FMA23130",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "inferior facet of greater tubercle of humerus",
+        "landmarkTr": "Humerusun büyük tüberkülünün alt faseti",
+        "attachmentNoteTr": "Humerusun büyük tüberkülünün alt faseti — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:right-axillary-nerve|innervates|FMA32553",
+      "subject": "atlas:right-axillary-nerve",
+      "predicate": "innervates",
+      "object": "FMA32553",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA13415|originates_at|FMA13396",
+      "subject": "FMA13415",
+      "predicate": "originates_at",
+      "object": "FMA13396",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "medial two-thirds of costal surface of scapula, within subscapular fossa",
+        "landmarkTr": "Skapulanın kostal yüzünün iç üçte ikisi, subskapular fossa",
+        "attachmentNoteTr": "Skapulanın kostal yüzünün iç üçte ikisi, subskapular fossa — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA13415|inserts_at|FMA23131",
+      "subject": "FMA13415",
+      "predicate": "inserts_at",
+      "object": "FMA23131",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "lesser tubercle of humerus",
+        "landmarkTr": "Humerusun küçük tüberkülü",
+        "attachmentNoteTr": "Humerusun küçük tüberkülü — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:left-upper-subscapular-nerve|innervates|FMA13415",
+      "subject": "atlas:left-upper-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13415",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:left-lower-subscapular-nerve|innervates|FMA13415",
+      "subject": "atlas:left-lower-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13415",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "FMA13414|originates_at|FMA13395",
+      "subject": "FMA13414",
+      "predicate": "originates_at",
+      "object": "FMA13395",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Origin"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Origin"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "medial two-thirds of costal surface of scapula, within subscapular fossa",
+        "landmarkTr": "Skapulanın kostal yüzünün iç üçte ikisi, subskapular fossa",
+        "attachmentNoteTr": "Skapulanın kostal yüzünün iç üçte ikisi, subskapular fossa — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA13414|inserts_at|FMA23130",
+      "subject": "FMA13414",
+      "predicate": "inserts_at",
+      "object": "FMA23130",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Insertion"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Insertion"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "landmark": "lesser tubercle of humerus",
+        "landmarkTr": "Humerusun küçük tüberkülü",
+        "attachmentNoteTr": "Humerusun küçük tüberkülü — kesin yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Attachment in the named region of this bone, not the whole bone as a precise attachment point",
+        "geometry": "No coordinates, anchor, footprint segmentation, or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "atlas:right-upper-subscapular-nerve|innervates|FMA13414",
+      "subject": "atlas:right-upper-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13414",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:right-lower-subscapular-nerve|innervates|FMA13414",
+      "subject": "atlas:right-lower-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13414",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    }
+  ]
+}

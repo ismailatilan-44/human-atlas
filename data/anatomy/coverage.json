@@ -19,7 +19,7 @@
     {
       "id": "knowledge-snapshot",
       "path": "data/anatomy/knowledge.json",
-      "sha256": "9d8692af474eefe0bc7799c074098a3501ac354dd99a73198881e9955de15f4c"
+      "sha256": "b6dddf2b4f9f74c6be84e8d07e40e569f38b42136aa1e91c5af4bac0826d3d2c"
     },
     {
       "id": "upper-arm-nerves",
@@ -157,6 +157,15 @@
       "path": "public/models/inner-ear-reference/atlas.json",
       "sha256": "05e3ab4cc24f0a205734c4a300fdfe23b023440f7812f66f976cb8e58d3410e1",
       "datasetId": "inner-ear-reference"
+    },
+    {
+      "id": "reviewed-skull-bones",
+      "title": "BodyParts3D skull-bone selection review — existing surface identities",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+      "path": "data/model-candidates/concept-selection-review/skull-bones-proposal.json",
+      "sha256": "5a15ed3984eb26342693cf81a62272c573d9ae10949c8f5c27f1088514a4e702",
+      "retrievedOn": "2026-09-22",
+      "use": "Project selection of 22 existing bones; official IS-A/PART-OF membership and exclusion proof stored with review. Source FMA46565 remains unchanged."
     }
   ],
   "regions": [
@@ -166,37 +175,16 @@
       "targets": [
         {
           "id": "coverage:skull",
-          "nameTr": "Kafatası",
+          "nameTr": "Kafatası kemikleri",
           "state": "existing",
           "currentBindings": [
             {
-              "sourceId": "human-atlas",
-              "conceptId": "FMA46565",
-              "sourceName": "skull",
+              "sourceId": "reviewed-skull-bones",
+              "conceptId": "atlas:skull-bones",
+              "sourceName": "Skull bones",
               "geometryPartIds": [
-                "FJ1282",
-                "FJ1285",
-                "FJ1286",
-                "FJ1289",
-                "FJ1297",
-                "FJ1299",
-                "FJ1305",
-                "FJ1317",
-                "FJ1320",
-                "FJ1331",
-                "FJ1336",
-                "FJ1337",
-                "FJ1340",
-                "FJ1348",
-                "FJ1350",
-                "FJ1356",
-                "FJ1368",
-                "FJ1371",
-                "FJ1382",
-                "FJ2772",
                 "FJ3199",
                 "FJ3200",
-                "FJ3201",
                 "FJ3263",
                 "FJ3265",
                 "FJ3269",
@@ -221,7 +209,7 @@
             }
           ],
           "expertReview": "pending",
-          "note": "Adlandırılmış kavram ve bağlı geometri var; anatomik eksiksizlik ve yakın plan kalite doğrulanmış değil.",
+          "note": "Mandibula dahil 22 mevcut kemik yüzeyi; göz yapıları, hyoid ve orta kulak kemikçikleri bu seçime dahil değildir. Orijinal FMA46565 kaynak grubu ayrı korunur; uzman incelemesi bekliyor.",
           "candidateIds": []
         },
         {

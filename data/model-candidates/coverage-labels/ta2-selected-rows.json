@@ -1,0 +1,254 @@
+{
+  "406": {
+    "upstreamTableId": 406,
+    "english": "Cranium",
+    "latin": "Cranium",
+    "line": 408
+  },
+  "835": {
+    "upstreamTableId": 835,
+    "english": "Mandible",
+    "latin": "Mandibula",
+    "line": 837
+  },
+  "5415": {
+    "upstreamTableId": 5415,
+    "english": "Brain",
+    "latin": "Encephalon",
+    "line": 5499
+  },
+  "5518": {
+    "upstreamTableId": 5518,
+    "english": "Hippocampus",
+    "latin": "Hippocampus",
+    "line": 5602
+  },
+  "1031": {
+    "upstreamTableId": 1031,
+    "english": "Cervical vertebrae",
+    "latin": "Vertebrae cervicales",
+    "line": 1048
+  },
+  "3187": {
+    "upstreamTableId": 3187,
+    "english": "Laryngeal cartilages",
+    "latin": "Cartilagines laryngis",
+    "line": 3280
+  },
+  "5769": {
+    "upstreamTableId": 5769,
+    "english": "Third ventricle",
+    "latin": "Ventriculus tertius",
+    "line": 5853
+  },
+  "5966": {
+    "upstreamTableId": 5966,
+    "english": "Fourth ventricle",
+    "latin": "Ventriculus quartus",
+    "line": 6050
+  },
+  "5641": {
+    "upstreamTableId": 5641,
+    "english": "Interventricular foramen",
+    "latin": "Foramen interventriculare",
+    "line": 5725
+  },
+  "5639": {
+    "upstreamTableId": 5639,
+    "english": "Lateral ventricle",
+    "latin": "Ventriculus lateralis",
+    "line": 5723
+  },
+  "3932": {
+    "upstreamTableId": 3932,
+    "english": "Heart",
+    "latin": "Cor",
+    "line": 4015
+  },
+  "3299": {
+    "upstreamTableId": 3299,
+    "english": "Left lung",
+    "latin": "Pulmo sinister",
+    "line": 3391
+  },
+  "3283": {
+    "upstreamTableId": 3283,
+    "english": "Right lung",
+    "latin": "Pulmo dexter",
+    "line": 3375
+  },
+  "3213": {
+    "upstreamTableId": 3213,
+    "english": "Trachea",
+    "latin": "Trachea",
+    "line": 3305
+  },
+  "2327": {
+    "upstreamTableId": 2327,
+    "english": "Diaphragm",
+    "latin": "Diaphragma",
+    "line": 2425
+  },
+  "1105": {
+    "upstreamTableId": 1105,
+    "english": "Ribs",
+    "latin": "Costae",
+    "line": 1143
+  },
+  "1129": {
+    "upstreamTableId": 1129,
+    "english": "Sternum",
+    "latin": "Sternum",
+    "line": 1177
+  },
+  "4175": {
+    "upstreamTableId": 4175,
+    "english": "Aorta",
+    "latin": "Aorta",
+    "line": 4259
+  },
+  "2887": {
+    "upstreamTableId": 2887,
+    "english": "Oesophagus",
+    "latin": "Oesophagus",
+    "line": 2983
+  },
+  "3023": {
+    "upstreamTableId": 3023,
+    "english": "Liver",
+    "latin": "Hepar",
+    "line": 3118
+  },
+  "2901": {
+    "upstreamTableId": 2901,
+    "english": "Stomach",
+    "latin": "Gaster",
+    "line": 2997
+  },
+  "3114": {
+    "upstreamTableId": 3114,
+    "english": "Pancreas",
+    "latin": "Pancreas",
+    "line": 3209
+  },
+  "5159": {
+    "upstreamTableId": 5159,
+    "english": "Spleen",
+    "latin": "Lien",
+    "line": 5247
+  },
+  "3358": {
+    "upstreamTableId": 3358,
+    "english": "Kidney",
+    "latin": "Ren",
+    "line": 3449
+  },
+  "3081": {
+    "upstreamTableId": 3081,
+    "english": "Gallbladder",
+    "latin": "Vesica biliaris",
+    "line": 3176
+  },
+  "2933": {
+    "upstreamTableId": 2933,
+    "english": "Small intestine",
+    "latin": "Intestinum tenue",
+    "line": 3029
+  },
+  "2963": {
+    "upstreamTableId": 2963,
+    "english": "Large intestine",
+    "latin": "Intestinum crassum",
+    "line": 3059
+  },
+  "2998": {
+    "upstreamTableId": 2998,
+    "english": "Rectum",
+    "latin": "Rectum",
+    "line": 3094
+  },
+  "3401": {
+    "upstreamTableId": 3401,
+    "english": "Urinary bladder",
+    "latin": "Vesica urinaria",
+    "line": 3492
+  },
+  "3637": {
+    "upstreamTableId": 3637,
+    "english": "Prostate",
+    "latin": "Prostata",
+    "line": 3726
+  },
+  "1307": {
+    "upstreamTableId": 1307,
+    "english": "Hip bone",
+    "latin": "Os coxae",
+    "line": 1382
+  },
+  "1071": {
+    "upstreamTableId": 1071,
+    "english": "Sacrum",
+    "latin": "Os sacrum",
+    "line": 1109
+  },
+  "1168": {
+    "upstreamTableId": 1168,
+    "english": "Clavicle",
+    "latin": "Clavicula",
+    "line": 1225
+  },
+  "1230": {
+    "upstreamTableId": 1230,
+    "english": "Ulna",
+    "latin": "Ulna",
+    "line": 1287
+  },
+  "1249": {
+    "upstreamTableId": 1249,
+    "english": "Carpal bones",
+    "latin": "Ossa carpi",
+    "line": 1306
+  },
+  "1360": {
+    "upstreamTableId": 1360,
+    "english": "Femur",
+    "latin": "Os femoris",
+    "line": 1435
+  },
+  "1397": {
+    "upstreamTableId": 1397,
+    "english": "Tibia",
+    "latin": "Tibia",
+    "line": 1472
+  },
+  "1427": {
+    "upstreamTableId": 1427,
+    "english": "Fibula",
+    "latin": "Fibula",
+    "line": 1502
+  },
+  "1390": {
+    "upstreamTableId": 1390,
+    "english": "Patella",
+    "latin": "Patella",
+    "line": 1465
+  },
+  "2598": {
+    "upstreamTableId": 2598,
+    "english": "Gluteus maximus muscle",
+    "latin": "Musculus gluteus maximus",
+    "line": 2696
+  },
+  "4674": {
+    "upstreamTableId": 4674,
+    "english": "Femoral artery",
+    "latin": "Arteria femoralis",
+    "line": 4760
+  },
+  "1447": {
+    "upstreamTableId": 1447,
+    "english": "Tarsal bones",
+    "latin": "Ossa tarsi",
+    "line": 1522
+  }
+}

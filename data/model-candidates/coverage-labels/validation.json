@@ -1,0 +1,10 @@
+{
+  "auditedTargetRows": 65,
+  "uniqueBoundConcepts": 83,
+  "proposedIds": 45,
+  "exactLatinSourceMatches": 43,
+  "sourceScopedGroupsWithLatinWithheld": 2,
+  "existingProjectRegionsWithLatinWithheld": 2,
+  "retainedExistingThreeLanguageLabels": 36,
+  "noSharedFilesWritten": true
+}

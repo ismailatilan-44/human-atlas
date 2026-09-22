@@ -50,6 +50,16 @@ for (const file of ['atlas.json']) {
   assert.throws(()=>inspect.execute({id:'nonexistent-structure'}));
   assert.equal(selected,previous);
   assert.throws(()=>find.execute({query:' '}));
+  const concepts = explorerConcepts(atlas);
+  const skull = concepts.find(c => c.id === 'atlas:skull-bones');
+  assert.equal(skull.elements.length, 22);
+  assert(skull.elements.includes('FJ3289'), 'Skull bones must include the mandible');
+  assert(!skull.elements.some(id => ['FJ2772','FJ3201','FJ1289','FJ1340'].includes(id)), 'Skull bone view must exclude hyoid and eye surfaces');
+  assert.equal(concepts.find(c => c.id === 'FMA46565').elements.length, 43, 'Source skull group must remain intact');
+  const [findEnriched, inspectEnriched] = atlasTools({...atlas, concepts}, c => {selected=c;});
+  assert(findEnriched.execute({query:'karaciger'}).some(c => c.id === 'FMA7197'));
+  inspectEnriched.execute({id:'atlas:left-suprascapular-nerve'});
+  assert.equal(selected.elements.length, 0, 'An unmodeled nerve must not inherit other geometry');
   console.log(`${file} with ${atlas.parts.length} registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.`);
 }
 // A reference switch must never fetch male extensions or inherit their concepts.

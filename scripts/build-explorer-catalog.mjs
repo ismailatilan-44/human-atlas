@@ -12,15 +12,22 @@ const catalog = {
     .map(({ id, name, geometryPartIds }) => ({ id, name, geometryPartIds })),
   sources: graph.sources.map(({ id, title, url }) => ({ id, title, url })),
   relations: graph.relations.map(
-    ({ id, subject, predicate, object, status, evidence, qualifiers }) => ({
-      id,
-      subject,
-      predicate,
-      object,
-      status,
-      viaDivision: qualifiers?.viaDivision ?? null,
-      evidence: evidence.map(({ sourceId, locator }) => ({ sourceId, locator })),
-    }),
+    ({ id, subject, predicate, object, status, evidence, qualifiers }) => {
+      assert(
+        !qualifiers?.requiresLandmarkDisplay || qualifiers.attachmentNoteTr,
+        `Missing visible attachment region for ${id}`,
+      );
+      return {
+        id,
+        subject,
+        predicate,
+        object,
+        status,
+        viaDivision: qualifiers?.viaDivision ?? null,
+        attachmentNoteTr: qualifiers?.attachmentNoteTr ?? null,
+        evidence: evidence.map(({ sourceId, locator }) => ({ sourceId, locator })),
+      };
+    },
   ),
 };
 const target = new URL("data/anatomy/explorer.json", root);

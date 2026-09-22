@@ -1,0 +1,45 @@
+{
+  "skullExactOrderedMatch": true,
+  "sourceRowsOneBased": [
+    10845,
+    10887
+  ],
+  "sourceFile": "partof_element_parts.txt",
+  "sourceMappingSha256": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea",
+  "sourceManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+  "selectedPartCount": 43,
+  "proposedBoneCount": 22,
+  "excludedEyeLacrimalCount": 19,
+  "excludedHyoidCount": 2,
+  "codeEvidence": [
+    {
+      "path": "scripts/convert-anatomy.py",
+      "sha256": "b2986054496ee14e735c07db4ece7a48021ee59c0f0564b09e40eebf80a38221"
+    },
+    {
+      "path": "scripts/optimize-anatomy.mjs",
+      "sha256": "d41b7a6415ff5f38ed62c712d92dfdcaa8a162934b8dcf7191b6f33c68ef363c"
+    },
+    {
+      "path": "app/knowledge.ts",
+      "sha256": "a3ae3485493d92b3b87d2fe63e9a4d47ee0cca80156d070bdd3e459627616e79"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "0f6f4acbf306e5906554812ca03414197a8a18b01fca73a358e84dccae860c82"
+    },
+    {
+      "path": "app/coverage-panel.tsx",
+      "sha256": "a3fcd87e779005ae054e700a9ecc72411f52b3cbc7fc02d48da2112490f5f609"
+    },
+    {
+      "path": "app/scene.tsx",
+      "sha256": "561d3a55e2b06f88a1591fb10fd1bf7ce9dc23e7822bade4cd199b1e0439e63d"
+    }
+  ],
+  "limitations": [
+    "Importer CONCEPT_MAP input is external to the checked-in converter; this review establishes exact agreement with official final source mapping, not provenance of an absent historical intermediate.",
+    "No visual rendering or expert surface/anatomical correctness certification performed.",
+    "System labels are not used as tissue type evidence."
+  ]
+}

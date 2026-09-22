@@ -1,11 +1,11 @@
-# Omuz–kol pilotu: etiket ve görüntüleme düzeltmeleri
+# Model etiketleri ve görüntüleme düzeltmeleri
 
 22 Eylül 2026. `app/atlas-metadata.ts` kaynak manifesti değiştirmeden uygulanır. Görüntüleyici atlası yüklerken `prepareAtlas` çağırmalı; kavram kapsamı için `getRepresentationNote` sonucunu göstermelidir.
 
 ## İncelenen düzeltmeler
 
 - `FJ1730`, `FJ1731`, `FJ1752`, `FJ1767`, `FJ1814` parçalarının sistemi `nervous` olarak düzeltilir. Kimlik, geometri, paket ofsetleri ve kavram bağlantıları korunur. Kanıt: [8 Eylül denetimi, M-01](2026-09-08-audit.md) ve orada bağlantılanan BodyParts3D PART-OF tablosu.
-- `FMA7647` için Türkçe kısmi temsil notu verilir: yerel geometri yalnız merkez kanaldır. Kanıt: aynı denetimin M-02 kaydı. Diğer kavramlarda not olmaması tam temsil anlamına gelmez.
+- İlk denetimde `FMA7647` yalnız merkez kanalla temsil ediliyordu (M-02). Sonraki BodyParts3D 4.3 aktarımı uzunlamasına sinir dokusunu ekledi. Güncel not kök, zar ve segment ayrıntılarının bulunmadığını belirtir; diğer kavramlarda not olmaması tam temsil anlamına gelmez.
 
 ## Etiket kaynağı ve sınırları
 
@@ -45,3 +45,17 @@ Siyatik ilişkilerinin hedefleri TA2 2639/2640 (biceps femoris uzun/kısa baş),
 BodyParts3D 4.3 FMA9603 tiroid etiketi aynı TA2 3863 kaydına bağlandı. Sağ/sol loblar TA2 3864, isthmus TA2 3866; Türkçe etiketler editoryal, Latince kaynak terimi aynen korundu. Diz ilişkilerinin femur/tibia uçlarına TA2 1360/1397 yan işaretli etiketleri eklendi.
 
 FMA7647 omurilik / Medulla spinalis TA2 6049; FMA78497 merkez kanal / Canalis centralis TA2 6127. FMA242005 sinir dokusu için Türkçe editoryal etiket eklendi; doğrulanmış ayrı Latince satır olmadığından Latin alanı boş ve kaynak İngilizcesi yedek.
+
+## Doğrudan bölgesel hedeflerin etiketleri — 22 Eylül
+
+65 hedefin doğrudan bağlandığı 83 dataset/kavram çifti denetlendi. Başlangıçta 45 kimlikte TR etiketi ve 47 kimlikte LA etiketi yoktu. Kaynak ID/adları resmi BP3D tablolarıyla, 43 Latin çifti sabit Z-Anatomy TA2 dağıtımıyla karşılaştırıldı. 45 yeni TR/EN etiketi ve 43 kaynak Latin karşılığı `labels.json` dosyasına aktarıldı. Kaynak listesi, öncesi snapshot ve kararlar [aday incelemesinde](../../data/model-candidates/coverage-labels/REVIEW.md); etiket kayıtları aynı adayın kavram bazındaki kanıtına bağlanır. Türkçe çeviriler editoryaldir.
+
+Deltoid ve quadriceps `zone` kimlikleri bütün kas diye yeniden adlandırılmadı; iki grupta LA boş kaldı. İki proje tanımlı humeral tutunma bölgesinin LA boşluğu korunur. Günlük Türkçe aramada alt çene, yemek borusu, soluk borusu, köprücük kemiği, uyluk kemiği, kaval kemiği ve diz kapağı eşanlamları kullanılır. Bu iş alt parçaların, tüm ilişki uçlarının veya bütün atlasın çevrildiği anlamına gelmez.
+
+Yerel arayüzde `karaciger` sorgusu Karaciğer seçimini buldu; aynı 60 parça korunarak LA modunda Hepar gösterildi. Saydam çevre görünümü ve kaynaklı bağlantı paneli görüldü.
+
+21 yeni tekil kafatası kemiği etiketi ve `atlas:skull-bones` / Ossa cranii grup adı eklendi. Mandibulanın mevcut etiketi korundu; 22 kemikte kaynak FJ→FMA tekil eşleşme kanıtı [kafatası incelemesinde](../../data/model-candidates/skull-labels/REVIEW.md). 16 rotator manşet kas/sinir etiketi ayrıca eklendi; kaynak terimler [ilişki incelemesinde](../../data/model-candidates/rotator-cuff-relations/REVIEW.md). Aktif labels.json toplam155 kayıt içerir; bu sayı benzersiz anatomi veya tam çeviri sayısı değildir.
+
+Entegrasyon sonrası çalışma zamanı denetimi:65 hedef,83 doğrudan dataset/kavram bağı; TR 0,EN 0,LA 4 fallback. [Sonuç](../../data/model-candidates/coverage-labels/ui-label-audit-after.json). Denetim betiği orijinal pre-integration snapshotını artık ezmez.
+
+Dört ek kemik sistemi düzeltmesi FJ3263/FJ3369(inferior nasal concha), FJ3265/FJ3371(lacrimal bone) için kaynak IS-A bone-organ yollarına dayanır. FJ1504/FJ1504M subscapularis kasları skeletal→muscular olarak düzeltilir: resmi IS-A tablosunda FMA32520 intrinsic muscle of shoulder→FMA13413 subscapularis→FMA13414/FMA13415; satır 1141,467,468. Yalnız görüntüleme metadatası değişir; ham atlas, kimlikler ve vertexler korunur.

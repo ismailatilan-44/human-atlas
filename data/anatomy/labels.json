@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scope": "Reviewed regional labels for upper limb, knee, sciatic nerves and thyroid candidate; not a complete atlas translation.",
+  "scope": "Reviewed regional and direct coverage-target labels, including skull bones and rotator cuff. Source identities and geometric scope preserved; not a complete atlas translation.",
   "source": {
     "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
     "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
@@ -920,6 +920,1291 @@
       "ta2Id": 6127,
       "aliases": [],
       "side": null
+    },
+    {
+      "ids": [
+        "FMA46565"
+      ],
+      "tr": "Kafatası (kaynak grubu)",
+      "en": "Skull (source group)",
+      "la": "Cranium",
+      "side": null,
+      "ta2Id": 406,
+      "aliases": [
+        "skull"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA46565"
+    },
+    {
+      "ids": [
+        "FMA52748"
+      ],
+      "tr": "Mandibula",
+      "en": "Mandible",
+      "la": "Mandibula",
+      "side": null,
+      "ta2Id": 835,
+      "aliases": [
+        "mandible",
+        "alt çene",
+        "çene kemiği"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA52748"
+    },
+    {
+      "ids": [
+        "FMA50801"
+      ],
+      "tr": "Beyin",
+      "en": "Brain",
+      "la": "Encephalon",
+      "side": null,
+      "ta2Id": 5415,
+      "aliases": [
+        "brain"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA50801"
+    },
+    {
+      "ids": [
+        "FMA62493"
+      ],
+      "tr": "Hipokampus",
+      "en": "Hippocampus",
+      "la": "Hippocampus",
+      "side": null,
+      "ta2Id": 5518,
+      "aliases": [
+        "hippocampus"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA62493"
+    },
+    {
+      "ids": [
+        "FMA9915"
+      ],
+      "tr": "Servikal omurlar",
+      "en": "Cervical vertebrae",
+      "la": "Vertebrae cervicales",
+      "side": null,
+      "ta2Id": 1031,
+      "aliases": [
+        "cervical vertebra",
+        "boyun omurları"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA9915"
+    },
+    {
+      "ids": [
+        "FMA55108"
+      ],
+      "tr": "Larinks kıkırdakları",
+      "en": "Laryngeal cartilages",
+      "la": "Cartilagines laryngis",
+      "side": null,
+      "ta2Id": 3187,
+      "aliases": [
+        "laryngeal cartilage"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA55108"
+    },
+    {
+      "ids": [
+        "FMA78454"
+      ],
+      "tr": "Üçüncü ventrikül",
+      "en": "Third ventricle",
+      "la": "Ventriculus tertius",
+      "side": null,
+      "ta2Id": 5769,
+      "aliases": [
+        "third ventricle"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA78454"
+    },
+    {
+      "ids": [
+        "FMA78469"
+      ],
+      "tr": "Dördüncü ventrikül",
+      "en": "Fourth ventricle",
+      "la": "Ventriculus quartus",
+      "side": null,
+      "ta2Id": 5966,
+      "aliases": [
+        "fourth ventricle"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA78469"
+    },
+    {
+      "ids": [
+        "FMA75351"
+      ],
+      "tr": "İnterventriküler foramen",
+      "en": "Interventricular foramen",
+      "la": "Foramen interventriculare",
+      "side": null,
+      "ta2Id": 5641,
+      "aliases": [
+        "interventricular foramen"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA75351"
+    },
+    {
+      "ids": [
+        "FMA78450"
+      ],
+      "tr": "Yan ventrikül",
+      "en": "Lateral ventricle",
+      "la": "Ventriculus lateralis",
+      "side": "left",
+      "ta2Id": 5639,
+      "aliases": [
+        "left lateral ventricle"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA78450"
+    },
+    {
+      "ids": [
+        "FMA78449"
+      ],
+      "tr": "Yan ventrikül",
+      "en": "Lateral ventricle",
+      "la": "Ventriculus lateralis",
+      "side": "right",
+      "ta2Id": 5639,
+      "aliases": [
+        "right lateral ventricle"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA78449"
+    },
+    {
+      "ids": [
+        "FMA7088"
+      ],
+      "tr": "Kalp",
+      "en": "Heart",
+      "la": "Cor",
+      "side": null,
+      "ta2Id": 3932,
+      "aliases": [
+        "heart"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7088"
+    },
+    {
+      "ids": [
+        "FMA7310"
+      ],
+      "tr": "Sol akciğer",
+      "en": "Left lung",
+      "la": "Pulmo sinister",
+      "side": null,
+      "ta2Id": 3299,
+      "aliases": [
+        "left lung"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7310"
+    },
+    {
+      "ids": [
+        "FMA7309"
+      ],
+      "tr": "Sağ akciğer",
+      "en": "Right lung",
+      "la": "Pulmo dexter",
+      "side": null,
+      "ta2Id": 3283,
+      "aliases": [
+        "right lung"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7309"
+    },
+    {
+      "ids": [
+        "FMA7394"
+      ],
+      "tr": "Trakea",
+      "en": "Trachea",
+      "la": "Trachea",
+      "side": null,
+      "ta2Id": 3213,
+      "aliases": [
+        "trachea",
+        "soluk borusu"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7394"
+    },
+    {
+      "ids": [
+        "FMA13295"
+      ],
+      "tr": "Diyafram",
+      "en": "Diaphragm",
+      "la": "Diaphragma",
+      "side": null,
+      "ta2Id": 2327,
+      "aliases": [
+        "diaphragm"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA13295"
+    },
+    {
+      "ids": [
+        "FMA7574"
+      ],
+      "tr": "Kaburgalar",
+      "en": "Ribs",
+      "la": "Costae",
+      "side": null,
+      "ta2Id": 1105,
+      "aliases": [
+        "rib"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7574"
+    },
+    {
+      "ids": [
+        "FMA7485"
+      ],
+      "tr": "Sternum",
+      "en": "Sternum",
+      "la": "Sternum",
+      "side": null,
+      "ta2Id": 1129,
+      "aliases": [
+        "sternum"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7485"
+    },
+    {
+      "ids": [
+        "FMA3734"
+      ],
+      "tr": "Aort",
+      "en": "Aorta",
+      "la": "Aorta",
+      "side": null,
+      "ta2Id": 4175,
+      "aliases": [
+        "aorta"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA3734"
+    },
+    {
+      "ids": [
+        "FMA7131"
+      ],
+      "tr": "Özofagus",
+      "en": "Oesophagus",
+      "la": "Oesophagus",
+      "side": null,
+      "ta2Id": 2887,
+      "aliases": [
+        "esophagus",
+        "yemek borusu"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7131"
+    },
+    {
+      "ids": [
+        "FMA7197"
+      ],
+      "tr": "Karaciğer",
+      "en": "Liver",
+      "la": "Hepar",
+      "side": null,
+      "ta2Id": 3023,
+      "aliases": [
+        "liver"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7197"
+    },
+    {
+      "ids": [
+        "FMA7148"
+      ],
+      "tr": "Mide",
+      "en": "Stomach",
+      "la": "Gaster",
+      "side": null,
+      "ta2Id": 2901,
+      "aliases": [
+        "stomach"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7148"
+    },
+    {
+      "ids": [
+        "FMA7198"
+      ],
+      "tr": "Pankreas",
+      "en": "Pancreas",
+      "la": "Pancreas",
+      "side": null,
+      "ta2Id": 3114,
+      "aliases": [
+        "pancreas"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7198"
+    },
+    {
+      "ids": [
+        "FMA7196"
+      ],
+      "tr": "Dalak",
+      "en": "Spleen",
+      "la": "Lien",
+      "side": null,
+      "ta2Id": 5159,
+      "aliases": [
+        "spleen"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7196"
+    },
+    {
+      "ids": [
+        "FMA7203"
+      ],
+      "tr": "Böbrek",
+      "en": "Kidney",
+      "la": "Ren",
+      "side": null,
+      "ta2Id": 3358,
+      "aliases": [
+        "kidney"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7203"
+    },
+    {
+      "ids": [
+        "FMA7202"
+      ],
+      "tr": "Safra kesesi",
+      "en": "Gallbladder",
+      "la": "Vesica biliaris",
+      "side": null,
+      "ta2Id": 3081,
+      "aliases": [
+        "gallbladder"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7202"
+    },
+    {
+      "ids": [
+        "FMA7200"
+      ],
+      "tr": "İnce bağırsak",
+      "en": "Small intestine",
+      "la": "Intestinum tenue",
+      "side": null,
+      "ta2Id": 2933,
+      "aliases": [
+        "small intestine"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7200"
+    },
+    {
+      "ids": [
+        "FMA7201"
+      ],
+      "tr": "Kalın bağırsak",
+      "en": "Large intestine",
+      "la": "Intestinum crassum",
+      "side": null,
+      "ta2Id": 2963,
+      "aliases": [
+        "large intestine"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7201"
+    },
+    {
+      "ids": [
+        "FMA14544"
+      ],
+      "tr": "Rektum",
+      "en": "Rectum",
+      "la": "Rectum",
+      "side": null,
+      "ta2Id": 2998,
+      "aliases": [
+        "rectum"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA14544"
+    },
+    {
+      "ids": [
+        "FMA15900"
+      ],
+      "tr": "Mesane",
+      "en": "Urinary bladder",
+      "la": "Vesica urinaria",
+      "side": null,
+      "ta2Id": 3401,
+      "aliases": [
+        "urinary bladder"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA15900"
+    },
+    {
+      "ids": [
+        "FMA9600"
+      ],
+      "tr": "Prostat",
+      "en": "Prostate",
+      "la": "Prostata",
+      "side": null,
+      "ta2Id": 3637,
+      "aliases": [
+        "prostate"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA9600"
+    },
+    {
+      "ids": [
+        "FMA16585"
+      ],
+      "tr": "Kalça kemiği",
+      "en": "Hip bone",
+      "la": "Os coxae",
+      "side": null,
+      "ta2Id": 1307,
+      "aliases": [
+        "hip bone"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA16585"
+    },
+    {
+      "ids": [
+        "FMA16202"
+      ],
+      "tr": "Sakrum",
+      "en": "Sacrum",
+      "la": "Os sacrum",
+      "side": null,
+      "ta2Id": 1071,
+      "aliases": [
+        "sacrum"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA16202"
+    },
+    {
+      "ids": [
+        "FMA13321"
+      ],
+      "tr": "Klavikula",
+      "en": "Clavicle",
+      "la": "Clavicula",
+      "side": null,
+      "ta2Id": 1168,
+      "aliases": [
+        "clavicle",
+        "köprücük kemiği"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA13321"
+    },
+    {
+      "ids": [
+        "FMA23466"
+      ],
+      "tr": "Ulna",
+      "en": "Ulna",
+      "la": "Ulna",
+      "side": null,
+      "ta2Id": 1230,
+      "aliases": [
+        "ulna"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA23466"
+    },
+    {
+      "ids": [
+        "FMA23889"
+      ],
+      "tr": "Karpal kemikler",
+      "en": "Carpal bones",
+      "la": "Ossa carpi",
+      "side": null,
+      "ta2Id": 1249,
+      "aliases": [
+        "carpal bone",
+        "el bileği kemikleri"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA23889"
+    },
+    {
+      "ids": [
+        "FMA34676"
+      ],
+      "tr": "Deltoid kasının gösterilen bölümleri",
+      "en": "Zone of deltoid",
+      "la": null,
+      "side": null,
+      "ta2Id": null,
+      "aliases": [
+        "zone of deltoid"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA34676"
+    },
+    {
+      "ids": [
+        "FMA9611"
+      ],
+      "tr": "Femur",
+      "en": "Femur",
+      "la": "Os femoris",
+      "side": null,
+      "ta2Id": 1360,
+      "aliases": [
+        "femur",
+        "uyluk kemiği"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA9611"
+    },
+    {
+      "ids": [
+        "FMA24476"
+      ],
+      "tr": "Tibia",
+      "en": "Tibia",
+      "la": "Tibia",
+      "side": null,
+      "ta2Id": 1397,
+      "aliases": [
+        "tibia",
+        "kaval kemiği"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA24476"
+    },
+    {
+      "ids": [
+        "FMA24479"
+      ],
+      "tr": "Fibula",
+      "en": "Fibula",
+      "la": "Fibula",
+      "side": null,
+      "ta2Id": 1427,
+      "aliases": [
+        "fibula"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA24479"
+    },
+    {
+      "ids": [
+        "FMA24485"
+      ],
+      "tr": "Patella",
+      "en": "Patella",
+      "la": "Patella",
+      "side": null,
+      "ta2Id": 1390,
+      "aliases": [
+        "patella",
+        "diz kapağı"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA24485"
+    },
+    {
+      "ids": [
+        "FMA22314"
+      ],
+      "tr": "Gluteus maximus kası",
+      "en": "Gluteus maximus muscle",
+      "la": "Musculus gluteus maximus",
+      "side": null,
+      "ta2Id": 2598,
+      "aliases": [
+        "gluteus maximus"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA22314"
+    },
+    {
+      "ids": [
+        "FMA22429"
+      ],
+      "tr": "Quadriceps femoris kasının gösterilen bölümleri",
+      "en": "Zone of quadriceps femoris",
+      "la": null,
+      "side": null,
+      "ta2Id": null,
+      "aliases": [
+        "zone of quadriceps femoris"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA22429"
+    },
+    {
+      "ids": [
+        "FMA70248"
+      ],
+      "tr": "Femoral arter",
+      "en": "Femoral artery",
+      "la": "Arteria femoralis",
+      "side": null,
+      "ta2Id": 4674,
+      "aliases": [
+        "femoral artery"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA70248"
+    },
+    {
+      "ids": [
+        "FMA24491"
+      ],
+      "tr": "Tarsal kemikler",
+      "en": "Tarsal bones",
+      "la": "Ossa tarsi",
+      "side": null,
+      "ta2Id": 1447,
+      "aliases": [
+        "tarsal bone",
+        "ayak bileği kemikleri"
+      ],
+      "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA24491"
+    },
+    {
+      "ids": [
+        "atlas:left-suprascapular-nerve"
+      ],
+      "side": "left",
+      "tr": "Supraskapular sinir",
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis",
+      "ta2Id": 6411,
+      "aliases": [
+        "suprascapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:left-axillary-nerve"
+      ],
+      "side": "left",
+      "tr": "Aksiller sinir",
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris",
+      "ta2Id": 6440,
+      "aliases": [
+        "axillary nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:left-upper-subscapular-nerve"
+      ],
+      "side": "left",
+      "tr": "Üst subskapular sinir",
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior",
+      "ta2Id": 6428,
+      "aliases": [
+        "upper subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:left-lower-subscapular-nerve"
+      ],
+      "side": "left",
+      "tr": "Alt subskapular sinir",
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior",
+      "ta2Id": 6429,
+      "aliases": [
+        "lower subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-suprascapular-nerve"
+      ],
+      "side": "right",
+      "tr": "Supraskapular sinir",
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis",
+      "ta2Id": 6411,
+      "aliases": [
+        "suprascapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-axillary-nerve"
+      ],
+      "side": "right",
+      "tr": "Aksiller sinir",
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris",
+      "ta2Id": 6440,
+      "aliases": [
+        "axillary nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-upper-subscapular-nerve"
+      ],
+      "side": "right",
+      "tr": "Üst subskapular sinir",
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior",
+      "ta2Id": 6428,
+      "aliases": [
+        "upper subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:right-lower-subscapular-nerve"
+      ],
+      "side": "right",
+      "tr": "Alt subskapular sinir",
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior",
+      "ta2Id": 6429,
+      "aliases": [
+        "lower subscapular nerve"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32545",
+        "FJ1506M"
+      ],
+      "side": "left",
+      "tr": "Supraspinatus kası",
+      "en": "Supraspinatus muscle",
+      "la": "Musculus supraspinatus",
+      "ta2Id": 2457,
+      "aliases": [
+        "supraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2457; CSV line 2555; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32544",
+        "FJ1506"
+      ],
+      "side": "right",
+      "tr": "Supraspinatus kası",
+      "en": "Supraspinatus muscle",
+      "la": "Musculus supraspinatus",
+      "ta2Id": 2457,
+      "aliases": [
+        "supraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2457; CSV line 2555; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32548",
+        "FJ1500M"
+      ],
+      "side": "left",
+      "tr": "İnfraspinatus kası",
+      "en": "Infraspinatus muscle",
+      "la": "Musculus infraspinatus",
+      "ta2Id": 2458,
+      "aliases": [
+        "infraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2458; CSV line 2556; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32547",
+        "FJ1500"
+      ],
+      "side": "right",
+      "tr": "İnfraspinatus kası",
+      "en": "Infraspinatus muscle",
+      "la": "Musculus infraspinatus",
+      "ta2Id": 2458,
+      "aliases": [
+        "infraspinatus"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2458; CSV line 2556; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32554",
+        "FJ1508M"
+      ],
+      "side": "left",
+      "tr": "Teres minor kası",
+      "en": "Teres minor muscle",
+      "la": "Musculus teres minor",
+      "ta2Id": 2459,
+      "aliases": [
+        "teres minor"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2459; CSV line 2557; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA32553",
+        "FJ1508"
+      ],
+      "side": "right",
+      "tr": "Teres minor kası",
+      "en": "Teres minor muscle",
+      "la": "Musculus teres minor",
+      "ta2Id": 2459,
+      "aliases": [
+        "teres minor"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2459; CSV line 2557; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA13415",
+        "FJ1504M"
+      ],
+      "side": "left",
+      "tr": "Subskapularis kası",
+      "en": "Subscapularis muscle",
+      "la": "Musculus subscapularis",
+      "ta2Id": 2460,
+      "aliases": [
+        "subscapularis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2460; CSV line 2558; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "FMA13414",
+        "FJ1504"
+      ],
+      "side": "right",
+      "tr": "Subskapularis kası",
+      "en": "Subscapularis muscle",
+      "la": "Musculus subscapularis",
+      "ta2Id": 2460,
+      "aliases": [
+        "subscapularis"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 2460; CSV line 2558; English and Latin columns"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending"
+    },
+    {
+      "ids": [
+        "atlas:skull-bones"
+      ],
+      "tr": "Kafatası kemikleri",
+      "en": "Bones of cranium",
+      "la": "Ossa cranii",
+      "side": null,
+      "ta2Id": 503,
+      "aliases": [
+        "kafatası",
+        "skull bones",
+        "cranial bones"
+      ],
+      "evidenceRef": "data/model-candidates/concept-selection-review/skull-bones-proposal.json"
+    },
+    {
+      "ids": [
+        "FMA52740"
+      ],
+      "tr": "Etmoid kemik",
+      "en": "Ethmoid",
+      "la": "Os ethmoideum",
+      "side": null,
+      "aliases": [
+        "kalbur kemiği",
+        "etmoid"
+      ],
+      "ta2Id": 721,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52740"
+    },
+    {
+      "ids": [
+        "FMA52734"
+      ],
+      "tr": "Frontal kemik",
+      "en": "Frontal bone",
+      "la": "Os frontale",
+      "side": null,
+      "aliases": [
+        "alın kemiği"
+      ],
+      "ta2Id": 520,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52734"
+    },
+    {
+      "ids": [
+        "FMA54738"
+      ],
+      "tr": "Alt burun konkası",
+      "en": "inferior nasal concha",
+      "la": "Concha nasalis inferior",
+      "side": "left",
+      "aliases": [
+        "alt konka",
+        "alt burun konkası kemiği"
+      ],
+      "ta2Id": 740,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA54738"
+    },
+    {
+      "ids": [
+        "FMA53646"
+      ],
+      "tr": "Lakrimal kemik",
+      "en": "lacrimal bone",
+      "la": "Os lacrimale",
+      "side": "left",
+      "aliases": [
+        "gözyaşı kemiği"
+      ],
+      "ta2Id": 744,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53646"
+    },
+    {
+      "ids": [
+        "FMA53650"
+      ],
+      "tr": "Maksilla",
+      "en": "maxilla",
+      "la": "Maxilla",
+      "side": "left",
+      "aliases": [
+        "üst çene",
+        "üst çene kemiği"
+      ],
+      "ta2Id": 756,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53650"
+    },
+    {
+      "ids": [
+        "FMA53648"
+      ],
+      "tr": "Nazal kemik",
+      "en": "nasal bone",
+      "la": "Os nasale",
+      "side": "left",
+      "aliases": [
+        "burun kemiği"
+      ],
+      "ta2Id": 748,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53648"
+    },
+    {
+      "ids": [
+        "FMA53656"
+      ],
+      "tr": "Palatin kemik",
+      "en": "palatine bone",
+      "la": "Os palatinum",
+      "side": "left",
+      "aliases": [
+        "damak kemiği"
+      ],
+      "ta2Id": 798,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53656"
+    },
+    {
+      "ids": [
+        "FMA52789"
+      ],
+      "tr": "Parietal kemik",
+      "en": "parietal bone",
+      "la": "Os parietale",
+      "side": "left",
+      "aliases": [
+        "duvar kemiği"
+      ],
+      "ta2Id": 504,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52789"
+    },
+    {
+      "ids": [
+        "FMA52739"
+      ],
+      "tr": "Temporal kemik",
+      "en": "temporal bone",
+      "la": "Os temporale",
+      "side": "left",
+      "aliases": [
+        "şakak kemiği"
+      ],
+      "ta2Id": 641,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52739"
+    },
+    {
+      "ids": [
+        "FMA52893"
+      ],
+      "tr": "Zigomatik kemik",
+      "en": "zygomatic bone",
+      "la": "Os zygomaticum",
+      "side": "left",
+      "aliases": [
+        "elmacık kemiği"
+      ],
+      "ta2Id": 818,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52893"
+    },
+    {
+      "ids": [
+        "FMA52735"
+      ],
+      "tr": "Oksipital kemik",
+      "en": "Occipital bone",
+      "la": "Os occipitale",
+      "side": null,
+      "aliases": [
+        "artkafa kemiği",
+        "art kafa kemiği"
+      ],
+      "ta2Id": 552,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52735"
+    },
+    {
+      "ids": [
+        "FMA54737"
+      ],
+      "tr": "Alt burun konkası",
+      "en": "inferior nasal concha",
+      "la": "Concha nasalis inferior",
+      "side": "right",
+      "aliases": [
+        "alt konka",
+        "alt burun konkası kemiği"
+      ],
+      "ta2Id": 740,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA54737"
+    },
+    {
+      "ids": [
+        "FMA53645"
+      ],
+      "tr": "Lakrimal kemik",
+      "en": "lacrimal bone",
+      "la": "Os lacrimale",
+      "side": "right",
+      "aliases": [
+        "gözyaşı kemiği"
+      ],
+      "ta2Id": 744,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53645"
+    },
+    {
+      "ids": [
+        "FMA53649"
+      ],
+      "tr": "Maksilla",
+      "en": "maxilla",
+      "la": "Maxilla",
+      "side": "right",
+      "aliases": [
+        "üst çene",
+        "üst çene kemiği"
+      ],
+      "ta2Id": 756,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53649"
+    },
+    {
+      "ids": [
+        "FMA53647"
+      ],
+      "tr": "Nazal kemik",
+      "en": "nasal bone",
+      "la": "Os nasale",
+      "side": "right",
+      "aliases": [
+        "burun kemiği"
+      ],
+      "ta2Id": 748,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53647"
+    },
+    {
+      "ids": [
+        "FMA53655"
+      ],
+      "tr": "Palatin kemik",
+      "en": "palatine bone",
+      "la": "Os palatinum",
+      "side": "right",
+      "aliases": [
+        "damak kemiği"
+      ],
+      "ta2Id": 798,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA53655"
+    },
+    {
+      "ids": [
+        "FMA52788"
+      ],
+      "tr": "Parietal kemik",
+      "en": "parietal bone",
+      "la": "Os parietale",
+      "side": "right",
+      "aliases": [
+        "duvar kemiği"
+      ],
+      "ta2Id": 504,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52788"
+    },
+    {
+      "ids": [
+        "FMA52738"
+      ],
+      "tr": "Temporal kemik",
+      "en": "temporal bone",
+      "la": "Os temporale",
+      "side": "right",
+      "aliases": [
+        "şakak kemiği"
+      ],
+      "ta2Id": 641,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52738"
+    },
+    {
+      "ids": [
+        "FMA52892"
+      ],
+      "tr": "Zigomatik kemik",
+      "en": "zygomatic bone",
+      "la": "Os zygomaticum",
+      "side": "right",
+      "aliases": [
+        "elmacık kemiği"
+      ],
+      "ta2Id": 818,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52892"
+    },
+    {
+      "ids": [
+        "FMA52736"
+      ],
+      "tr": "Sfenoid kemik",
+      "en": "Sphenoid bone",
+      "la": "Os sphenoideum",
+      "side": null,
+      "aliases": [
+        "sfenoid"
+      ],
+      "ta2Id": 584,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA52736"
+    },
+    {
+      "ids": [
+        "FMA9710"
+      ],
+      "tr": "Vomer",
+      "en": "Vomer",
+      "la": "Vomer",
+      "side": null,
+      "aliases": [
+        "sapan kemiği"
+      ],
+      "ta2Id": 751,
+      "evidenceRef": "data/model-candidates/skull-labels/proposals.json#FMA9710"
     }
   ]
 }

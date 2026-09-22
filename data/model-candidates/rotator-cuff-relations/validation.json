@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "canonicalValidator": true,
+  "scope": "In-memory merge only; no canonical files written",
+  "candidateEntities": 8,
+  "candidateRelations": 26,
+  "sameSideEdges": 26,
+  "attachmentEdgesWithRequiredDisplayRegion": 16,
+  "geometryFreeInnervationEdges": 10
+}

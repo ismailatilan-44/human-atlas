@@ -777,6 +777,7 @@ export default function Home() {
                             <small>{relation.label}</small>
                             <strong>{target ? label(target) : relation.name}</strong>
                             {relation.divisionLabel && <em>{relation.divisionLabel}</em>}
+                            {relation.attachmentNoteTr && <em>{relation.attachmentNoteTr}</em>}
                             {target && !target.elements.length && (
                               <em>
                                 {anchorMap.has(target.id)
@@ -827,20 +828,22 @@ export default function Home() {
                 )}
               </div>
             )}
-            <a
-              className="source-link"
-              href={
-                chosenAnchor
-                  ? "https://github.com/Z-Anatomy/Models-of-human-anatomy"
-                  : (selectedParts.find((p) => p.sourceUrl)?.sourceUrl ??
-                    (typeof atlas?.source === "object" ? atlas.source.url : undefined) ??
-                    "https://lifesciencedb.jp/bp3d/")
-              }
-              target="_blank"
-              rel="noreferrer"
-            >
-              Model kaynağı <ArrowUpRight size={14} />
-            </a>
+            {(selectedParts.length > 0 || chosenAnchor) && (
+              <a
+                className="source-link"
+                href={
+                  chosenAnchor
+                    ? "https://github.com/Z-Anatomy/Models-of-human-anatomy"
+                    : (selectedParts.find((p) => p.sourceUrl)?.sourceUrl ??
+                      (typeof atlas?.source === "object" ? atlas.source.url : undefined) ??
+                      "https://lifesciencedb.jp/bp3d/")
+                }
+                target="_blank"
+                rel="noreferrer"
+              >
+                Model kaynağı <ArrowUpRight size={14} />
+              </a>
+            )}
           </div>
           <div className="detail-actions">
             <div className="inspection-tools">

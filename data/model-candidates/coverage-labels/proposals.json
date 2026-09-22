@@ -1,0 +1,5913 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal_only_not_applied",
+  "scope": "65 target rows, 83 directly bound dataset/concept pairs only; no descendant or full-atlas expansion",
+  "currentFallbackCounts": {
+    "tr": 45,
+    "en": 45,
+    "la": 47
+  },
+  "proposalCounts": {
+    "trEnAdditions": 45,
+    "latinAdditions": 43,
+    "latinWithheldSourceZoneGroups": 2,
+    "latinAlreadyWithheldProjectRegions": 2
+  },
+  "entries": [
+    {
+      "ids": [
+        "FMA46565"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:skull",
+      "sourceEnglish": "skull",
+      "geometryPartIds": [
+        "FJ1282",
+        "FJ1285",
+        "FJ1286",
+        "FJ1289",
+        "FJ1297",
+        "FJ1299",
+        "FJ1305",
+        "FJ1317",
+        "FJ1320",
+        "FJ1331",
+        "FJ1336",
+        "FJ1337",
+        "FJ1340",
+        "FJ1348",
+        "FJ1350",
+        "FJ1356",
+        "FJ1368",
+        "FJ1371",
+        "FJ1382",
+        "FJ2772",
+        "FJ3199",
+        "FJ3200",
+        "FJ3201",
+        "FJ3263",
+        "FJ3265",
+        "FJ3269",
+        "FJ3272",
+        "FJ3273",
+        "FJ3274",
+        "FJ3281",
+        "FJ3287",
+        "FJ3289",
+        "FJ3309",
+        "FJ3369",
+        "FJ3371",
+        "FJ3375",
+        "FJ3378",
+        "FJ3379",
+        "FJ3380",
+        "FJ3386",
+        "FJ3392",
+        "FJ3394",
+        "FJ3395"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1282",
+          "name": "Anterior chamber of left eyeball"
+        },
+        {
+          "id": "FJ1285",
+          "name": "Left choroid"
+        },
+        {
+          "id": "FJ1286",
+          "name": "Left choroid"
+        },
+        {
+          "id": "FJ1289",
+          "name": "Left cornea"
+        },
+        {
+          "id": "FJ1297",
+          "name": "Left iris"
+        },
+        {
+          "id": "FJ1299",
+          "name": "Left lacrimal gland"
+        },
+        {
+          "id": "FJ1305",
+          "name": "Left lens"
+        },
+        {
+          "id": "FJ1317",
+          "name": "Left sclera"
+        },
+        {
+          "id": "FJ1320",
+          "name": "Suspensory ligament of left lens"
+        },
+        {
+          "id": "FJ1331",
+          "name": "Left vitreous body"
+        },
+        {
+          "id": "FJ1336",
+          "name": "Right choroid"
+        },
+        {
+          "id": "FJ1337",
+          "name": "Right choroid"
+        },
+        {
+          "id": "FJ1340",
+          "name": "Right cornea"
+        },
+        {
+          "id": "FJ1348",
+          "name": "Right iris"
+        },
+        {
+          "id": "FJ1350",
+          "name": "Right lacrimal gland"
+        },
+        {
+          "id": "FJ1356",
+          "name": "Right lens"
+        },
+        {
+          "id": "FJ1368",
+          "name": "Right sclera"
+        },
+        {
+          "id": "FJ1371",
+          "name": "Suspensory ligament of right lens"
+        },
+        {
+          "id": "FJ1382",
+          "name": "Right vitreous body"
+        },
+        {
+          "id": "FJ2772",
+          "name": "Hyoid bone"
+        },
+        {
+          "id": "FJ3199",
+          "name": "Ethmoid"
+        },
+        {
+          "id": "FJ3200",
+          "name": "Frontal bone"
+        },
+        {
+          "id": "FJ3201",
+          "name": "Hyoid bone"
+        },
+        {
+          "id": "FJ3263",
+          "name": "Left inferior nasal concha"
+        },
+        {
+          "id": "FJ3265",
+          "name": "Left lacrimal bone"
+        },
+        {
+          "id": "FJ3269",
+          "name": "Left maxilla"
+        },
+        {
+          "id": "FJ3272",
+          "name": "Left nasal bone"
+        },
+        {
+          "id": "FJ3273",
+          "name": "Left palatine bone"
+        },
+        {
+          "id": "FJ3274",
+          "name": "Left parietal bone"
+        },
+        {
+          "id": "FJ3281",
+          "name": "Left temporal bone"
+        },
+        {
+          "id": "FJ3287",
+          "name": "Left zygomatic bone"
+        },
+        {
+          "id": "FJ3289",
+          "name": "Mandible"
+        },
+        {
+          "id": "FJ3309",
+          "name": "Occipital bone"
+        },
+        {
+          "id": "FJ3369",
+          "name": "Right inferior nasal concha"
+        },
+        {
+          "id": "FJ3371",
+          "name": "Right lacrimal bone"
+        },
+        {
+          "id": "FJ3375",
+          "name": "Right maxilla"
+        },
+        {
+          "id": "FJ3378",
+          "name": "Right nasal bone"
+        },
+        {
+          "id": "FJ3379",
+          "name": "Right palatine bone"
+        },
+        {
+          "id": "FJ3380",
+          "name": "Right parietal bone"
+        },
+        {
+          "id": "FJ3386",
+          "name": "Right temporal bone"
+        },
+        {
+          "id": "FJ3392",
+          "name": "Right zygomatic bone"
+        },
+        {
+          "id": "FJ3394",
+          "name": "Sphenoid bone"
+        },
+        {
+          "id": "FJ3395",
+          "name": "Vomer"
+        }
+      ],
+      "aliases": [
+        "skull"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Kafatası",
+      "en": "Cranium",
+      "la": "Cranium",
+      "side": null,
+      "ta2TableId": 406,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 807,
+            "representationId": "BP9486",
+            "english": "skull"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 406,
+            "line": 408,
+            "english": "Cranium",
+            "latin": "Cranium"
+          }
+        },
+        {
+          "sourceId": "ifaa-tah-cranium",
+          "locator": "FMA 46565 / TAH 305: cranium; skull → cranium"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA52748"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:mandible",
+      "sourceEnglish": "mandible",
+      "geometryPartIds": [
+        "FJ3289"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3289",
+          "name": "Mandible"
+        }
+      ],
+      "aliases": [
+        "mandible"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Mandibula",
+      "en": "Mandible",
+      "la": "Mandibula",
+      "side": null,
+      "ta2TableId": 835,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2056,
+            "representationId": "BP8107",
+            "english": "mandible"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 907,
+            "representationId": "BP9617",
+            "english": "mandible"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 835,
+            "line": 837,
+            "english": "Mandible",
+            "latin": "Mandibula"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA50801"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:brain",
+      "sourceEnglish": "brain",
+      "geometryPartIds": [
+        "FJ1730",
+        "FJ1731",
+        "FJ1732",
+        "FJ1733",
+        "FJ1738",
+        "FJ1739",
+        "FJ1740",
+        "FJ1743",
+        "FJ1744",
+        "FJ1745",
+        "FJ1746",
+        "FJ1747",
+        "FJ1748",
+        "FJ1749",
+        "FJ1750",
+        "FJ1751",
+        "FJ1758",
+        "FJ1759",
+        "FJ1760",
+        "FJ1762",
+        "FJ1767",
+        "FJ1769",
+        "FJ1770",
+        "FJ1775",
+        "FJ1779",
+        "FJ1780",
+        "FJ1781",
+        "FJ1783",
+        "FJ1784",
+        "FJ1785",
+        "FJ1786",
+        "FJ1787",
+        "FJ1788",
+        "FJ1789",
+        "FJ1790",
+        "FJ1791",
+        "FJ1792",
+        "FJ1795",
+        "FJ1797",
+        "FJ1798",
+        "FJ1800",
+        "FJ1801",
+        "FJ1806",
+        "FJ1807",
+        "FJ1808",
+        "FJ1810",
+        "FJ1814",
+        "FJ1817",
+        "FJ1822",
+        "FJ1826",
+        "FJ1828",
+        "FJ1830",
+        "FJ1831",
+        "FJ1833",
+        "FJ1834",
+        "FJ1835",
+        "FJ1836",
+        "FJ1841",
+        "FJ1842"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1730",
+          "name": "Third ventricle"
+        },
+        {
+          "id": "FJ1731",
+          "name": "Fourth ventricle"
+        },
+        {
+          "id": "FJ1732",
+          "name": "Left angular gyrus"
+        },
+        {
+          "id": "FJ1733",
+          "name": "Right angular gyrus"
+        },
+        {
+          "id": "FJ1738",
+          "name": "Cerebral aqueduct"
+        },
+        {
+          "id": "FJ1739",
+          "name": "Left cingulate gyrus"
+        },
+        {
+          "id": "FJ1740",
+          "name": "Right cingulate gyrus"
+        },
+        {
+          "id": "FJ1743",
+          "name": "Habenula"
+        },
+        {
+          "id": "FJ1744",
+          "name": "Left inferior frontal gyrus"
+        },
+        {
+          "id": "FJ1745",
+          "name": "Right inferior frontal gyrus"
+        },
+        {
+          "id": "FJ1746",
+          "name": "Left inferior temporal gyrus"
+        },
+        {
+          "id": "FJ1747",
+          "name": "Right inferior temporal gyrus"
+        },
+        {
+          "id": "FJ1748",
+          "name": "Left insula"
+        },
+        {
+          "id": "FJ1749",
+          "name": "Right insula"
+        },
+        {
+          "id": "FJ1750",
+          "name": "Left internal capsule"
+        },
+        {
+          "id": "FJ1751",
+          "name": "Right internal capsule"
+        },
+        {
+          "id": "FJ1758",
+          "name": "White matter of left cerebral hemisphere"
+        },
+        {
+          "id": "FJ1759",
+          "name": "Left hippocampus"
+        },
+        {
+          "id": "FJ1760",
+          "name": "Hypothalamus"
+        },
+        {
+          "id": "FJ1762",
+          "name": "Left inferior colliculus"
+        },
+        {
+          "id": "FJ1767",
+          "name": "Left lateral ventricle"
+        },
+        {
+          "id": "FJ1769",
+          "name": "Medulla oblongata"
+        },
+        {
+          "id": "FJ1770",
+          "name": "Midbrain"
+        },
+        {
+          "id": "FJ1775",
+          "name": "Pons"
+        },
+        {
+          "id": "FJ1779",
+          "name": "Left superior colliculus"
+        },
+        {
+          "id": "FJ1780",
+          "name": "Tuber cinereum"
+        },
+        {
+          "id": "FJ1781",
+          "name": "Cerebellum"
+        },
+        {
+          "id": "FJ1783",
+          "name": "Left fusiform gyrus"
+        },
+        {
+          "id": "FJ1784",
+          "name": "Right fusiform gyrus"
+        },
+        {
+          "id": "FJ1785",
+          "name": "Left parahippocampal gyrus"
+        },
+        {
+          "id": "FJ1786",
+          "name": "Right parahippocampal gyrus"
+        },
+        {
+          "id": "FJ1787",
+          "name": "Left middle frontal gyrus"
+        },
+        {
+          "id": "FJ1788",
+          "name": "Right middle frontal gyrus"
+        },
+        {
+          "id": "FJ1789",
+          "name": "Left middle temporal gyrus"
+        },
+        {
+          "id": "FJ1790",
+          "name": "Right middle temporal gyrus"
+        },
+        {
+          "id": "FJ1791",
+          "name": "Left occipital lobe"
+        },
+        {
+          "id": "FJ1792",
+          "name": "Right occipital lobe"
+        },
+        {
+          "id": "FJ1795",
+          "name": "Pineal body"
+        },
+        {
+          "id": "FJ1797",
+          "name": "Left postcentral gyrus"
+        },
+        {
+          "id": "FJ1798",
+          "name": "Right postcentral gyrus"
+        },
+        {
+          "id": "FJ1800",
+          "name": "Left precentral gyrus"
+        },
+        {
+          "id": "FJ1801",
+          "name": "Right precentral gyrus"
+        },
+        {
+          "id": "FJ1806",
+          "name": "White matter of right cerebral hemisphere"
+        },
+        {
+          "id": "FJ1807",
+          "name": "Right hippocampus"
+        },
+        {
+          "id": "FJ1808",
+          "name": "Hypothalamus"
+        },
+        {
+          "id": "FJ1810",
+          "name": "Right inferior colliculus"
+        },
+        {
+          "id": "FJ1814",
+          "name": "Right lateral ventricle"
+        },
+        {
+          "id": "FJ1817",
+          "name": "Midbrain"
+        },
+        {
+          "id": "FJ1822",
+          "name": "Pons"
+        },
+        {
+          "id": "FJ1826",
+          "name": "Right superior colliculus"
+        },
+        {
+          "id": "FJ1828",
+          "name": "Tuber cinereum"
+        },
+        {
+          "id": "FJ1830",
+          "name": "Cerebellum"
+        },
+        {
+          "id": "FJ1831",
+          "name": "Medulla oblongata"
+        },
+        {
+          "id": "FJ1833",
+          "name": "Left superior frontal gyrus"
+        },
+        {
+          "id": "FJ1834",
+          "name": "Right superior frontal gyrus"
+        },
+        {
+          "id": "FJ1835",
+          "name": "Left superior parietal lobule"
+        },
+        {
+          "id": "FJ1836",
+          "name": "Right superior parietal lobule"
+        },
+        {
+          "id": "FJ1841",
+          "name": "Left supramarginal gyrus"
+        },
+        {
+          "id": "FJ1842",
+          "name": "Right supramarginal gyrus"
+        }
+      ],
+      "aliases": [
+        "brain"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Beyin",
+      "en": "Brain",
+      "la": "Encephalon",
+      "side": null,
+      "ta2TableId": 5415,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 896,
+            "representationId": "BP6687",
+            "english": "brain"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5415,
+            "line": 5499,
+            "english": "Brain",
+            "latin": "Encephalon"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA62493"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:hippocampus",
+      "sourceEnglish": "hippocampus",
+      "geometryPartIds": [
+        "FJ1759",
+        "FJ1807"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1759",
+          "name": "Left hippocampus"
+        },
+        {
+          "id": "FJ1807",
+          "name": "Right hippocampus"
+        }
+      ],
+      "aliases": [
+        "hippocampus"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Hipokampus",
+      "en": "Hippocampus",
+      "la": "Hippocampus",
+      "side": null,
+      "ta2TableId": 5518,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2327,
+            "representationId": "BP5509",
+            "english": "hippocampus"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5518,
+            "line": 5602,
+            "english": "Hippocampus",
+            "latin": "Hippocampus"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA9915"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:cervical-vertebrae",
+      "sourceEnglish": "cervical vertebra",
+      "geometryPartIds": [
+        "FJ3161",
+        "FJ3164",
+        "FJ3167",
+        "FJ3170",
+        "FJ3172",
+        "FJ3176",
+        "FJ3177"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3161",
+          "name": "Third cervical vertebra"
+        },
+        {
+          "id": "FJ3164",
+          "name": "Fourth cervical vertebra"
+        },
+        {
+          "id": "FJ3167",
+          "name": "Fifth cervical vertebra"
+        },
+        {
+          "id": "FJ3170",
+          "name": "Sixth cervical vertebra"
+        },
+        {
+          "id": "FJ3172",
+          "name": "Seventh cervical vertebra"
+        },
+        {
+          "id": "FJ3176",
+          "name": "Atlas"
+        },
+        {
+          "id": "FJ3177",
+          "name": "Axis"
+        }
+      ],
+      "aliases": [
+        "cervical vertebra"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Servikal omurlar",
+      "en": "Cervical vertebrae",
+      "la": "Vertebrae cervicales",
+      "side": null,
+      "ta2TableId": 1031,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Plural display names the existing multi-part class/group selection. Original singular BP3D concept ID/name is preserved; this is not proof that every anatomical member exists.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 322,
+            "representationId": "BP7846",
+            "english": "cervical vertebra"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1031,
+            "line": 1048,
+            "english": "Cervical vertebrae",
+            "latin": "Vertebrae cervicales"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA55108"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:laryngeal-cartilages",
+      "sourceEnglish": "laryngeal cartilage",
+      "geometryPartIds": [
+        "FJ2440",
+        "FJ2769",
+        "FJ2773",
+        "FJ2775",
+        "FJ2776",
+        "FJ2792",
+        "FJ2793",
+        "FJ2795",
+        "FJ2808"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2440",
+          "name": "Cricoid cartilage"
+        },
+        {
+          "id": "FJ2769",
+          "name": "Cricoid cartilage"
+        },
+        {
+          "id": "FJ2773",
+          "name": "Left cuneiform cartilage"
+        },
+        {
+          "id": "FJ2775",
+          "name": "Left arytenoid cartilage"
+        },
+        {
+          "id": "FJ2776",
+          "name": "Left corniculate cartilage"
+        },
+        {
+          "id": "FJ2792",
+          "name": "Right arytenoid cartilage"
+        },
+        {
+          "id": "FJ2793",
+          "name": "Right corniculate cartilage"
+        },
+        {
+          "id": "FJ2795",
+          "name": "Right cuneiform cartilage"
+        },
+        {
+          "id": "FJ2808",
+          "name": "Thyroid cartilage"
+        }
+      ],
+      "aliases": [
+        "laryngeal cartilage"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Larinks kıkırdakları",
+      "en": "Laryngeal cartilages",
+      "la": "Cartilagines laryngis",
+      "side": null,
+      "ta2TableId": 3187,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Plural display names the existing multi-part class/group selection. Original singular BP3D concept ID/name is preserved; this is not proof that every anatomical member exists.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2093,
+            "representationId": "BP7902",
+            "english": "laryngeal cartilage"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3187,
+            "line": 3280,
+            "english": "Laryngeal cartilages",
+            "latin": "Cartilagines laryngis"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA78454"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ventricles",
+      "sourceEnglish": "third ventricle",
+      "geometryPartIds": [
+        "FJ1730"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1730",
+          "name": "Third ventricle"
+        }
+      ],
+      "aliases": [
+        "third ventricle"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Üçüncü ventrikül",
+      "en": "Third ventricle",
+      "la": "Ventriculus tertius",
+      "side": null,
+      "ta2TableId": 5769,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2768,
+            "representationId": "BP5515",
+            "english": "third ventricle"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 1292,
+            "representationId": "BP6685",
+            "english": "third ventricle"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5769,
+            "line": 5853,
+            "english": "Third ventricle",
+            "latin": "Ventriculus tertius"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA78469"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ventricles",
+      "sourceEnglish": "fourth ventricle",
+      "geometryPartIds": [
+        "FJ1731"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1731",
+          "name": "Fourth ventricle"
+        }
+      ],
+      "aliases": [
+        "fourth ventricle"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Dördüncü ventrikül",
+      "en": "Fourth ventricle",
+      "la": "Ventriculus quartus",
+      "side": null,
+      "ta2TableId": 5966,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2770,
+            "representationId": "BP5514",
+            "english": "fourth ventricle"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 1294,
+            "representationId": "BP6686",
+            "english": "fourth ventricle"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5966,
+            "line": 6050,
+            "english": "Fourth ventricle",
+            "latin": "Ventriculus quartus"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA75351"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ventricles",
+      "sourceEnglish": "interventricular foramen",
+      "geometryPartIds": [
+        "FJ1752"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1752",
+          "name": "Interventricular foramen"
+        }
+      ],
+      "aliases": [
+        "interventricular foramen"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "İnterventriküler foramen",
+      "en": "Interventricular foramen",
+      "la": "Foramen interventriculare",
+      "side": null,
+      "ta2TableId": 5641,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2722,
+            "representationId": "BP6671",
+            "english": "interventricular foramen"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5641,
+            "line": 5725,
+            "english": "Interventricular foramen",
+            "latin": "Foramen interventriculare"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA78450"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ventricles",
+      "sourceEnglish": "left lateral ventricle",
+      "geometryPartIds": [
+        "FJ1767"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1767",
+          "name": "Left lateral ventricle"
+        }
+      ],
+      "aliases": [
+        "left lateral ventricle"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Yan ventrikül",
+      "en": "Lateral ventricle",
+      "la": "Ventriculus lateralis",
+      "side": "left",
+      "ta2TableId": 5639,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2767,
+            "representationId": "BP10468",
+            "english": "left lateral ventricle"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 1291,
+            "representationId": "BP10543",
+            "english": "left lateral ventricle"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5639,
+            "line": 5723,
+            "english": "Lateral ventricle",
+            "latin": "Ventriculus lateralis"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA78449"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ventricles",
+      "sourceEnglish": "right lateral ventricle",
+      "geometryPartIds": [
+        "FJ1814"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1814",
+          "name": "Right lateral ventricle"
+        }
+      ],
+      "aliases": [
+        "right lateral ventricle"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Yan ventrikül",
+      "en": "Lateral ventricle",
+      "la": "Ventriculus lateralis",
+      "side": "right",
+      "ta2TableId": 5639,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2766,
+            "representationId": "BP10436",
+            "english": "right lateral ventricle"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 1290,
+            "representationId": "BP10503",
+            "english": "right lateral ventricle"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5639,
+            "line": 5723,
+            "english": "Lateral ventricle",
+            "latin": "Ventriculus lateralis"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7088"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:heart",
+      "sourceEnglish": "heart",
+      "geometryPartIds": [
+        "FJ2417",
+        "FJ2418",
+        "FJ2419",
+        "FJ2420",
+        "FJ2421",
+        "FJ2422",
+        "FJ2423",
+        "FJ2424",
+        "FJ2425",
+        "FJ2426",
+        "FJ2427",
+        "FJ2429",
+        "FJ2430",
+        "FJ2431",
+        "FJ2432",
+        "FJ2433",
+        "FJ2434",
+        "FJ2435",
+        "FJ2436",
+        "FJ2437",
+        "FJ2438",
+        "FJ2439",
+        "FJ2631",
+        "FJ2632",
+        "FJ2633",
+        "FJ2634",
+        "FJ2635",
+        "FJ2636",
+        "FJ2637",
+        "FJ2638",
+        "FJ2639",
+        "FJ2640",
+        "FJ2641",
+        "FJ2642",
+        "FJ2643",
+        "FJ2644",
+        "FJ2645",
+        "FJ2646",
+        "FJ2647",
+        "FJ2648",
+        "FJ2649",
+        "FJ2650",
+        "FJ2651",
+        "FJ2652",
+        "FJ2653",
+        "FJ2654",
+        "FJ2655",
+        "FJ2656",
+        "FJ2667",
+        "FJ2668",
+        "FJ2670",
+        "FJ2671",
+        "FJ2672",
+        "FJ2673",
+        "FJ2674",
+        "FJ2675",
+        "FJ2676",
+        "FJ2677",
+        "FJ2692",
+        "FJ2693",
+        "FJ2694",
+        "FJ2695",
+        "FJ2696",
+        "FJ2697",
+        "FJ2698",
+        "FJ2699",
+        "FJ2700",
+        "FJ2714",
+        "FJ2715",
+        "FJ2716",
+        "FJ2717",
+        "FJ2718",
+        "FJ2719",
+        "FJ2720",
+        "FJ2721",
+        "FJ2722",
+        "FJ2723",
+        "FJ2724",
+        "FJ2727",
+        "FJ2728",
+        "FJ2729",
+        "FJ2731",
+        "FJ2737"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2417",
+          "name": "Left anterior cusp of pulmonary valve"
+        },
+        {
+          "id": "FJ2418",
+          "name": "Anterolateral head of lateral papillary muscle of left ventricle"
+        },
+        {
+          "id": "FJ2419",
+          "name": "Anterior papillary muscle of right ventricle"
+        },
+        {
+          "id": "FJ2420",
+          "name": "Anterior leaflet of mitral valve"
+        },
+        {
+          "id": "FJ2421",
+          "name": "Anterior leaflet of tricuspid valve"
+        },
+        {
+          "id": "FJ2422",
+          "name": "Cavity of left ventricle"
+        },
+        {
+          "id": "FJ2423",
+          "name": "Cavity of right ventricle"
+        },
+        {
+          "id": "FJ2424",
+          "name": "Cavity of right atrium"
+        },
+        {
+          "id": "FJ2425",
+          "name": "Cavity of left atrium"
+        },
+        {
+          "id": "FJ2426",
+          "name": "Left posterior cusp of aortic valve"
+        },
+        {
+          "id": "FJ2427",
+          "name": "Posterior cusp of pulmonary valve"
+        },
+        {
+          "id": "FJ2429",
+          "name": "Lateral papillary muscle of left ventricle"
+        },
+        {
+          "id": "FJ2430",
+          "name": "Posterior papillary muscle of right ventricle"
+        },
+        {
+          "id": "FJ2431",
+          "name": "Right posterior cusp of aortic valve"
+        },
+        {
+          "id": "FJ2432",
+          "name": "Posterior leaflet of mitral valve"
+        },
+        {
+          "id": "FJ2433",
+          "name": "Posterior leaflet of tricuspid valve"
+        },
+        {
+          "id": "FJ2434",
+          "name": "Right anterior cusp of pulmonary valve"
+        },
+        {
+          "id": "FJ2435",
+          "name": "Anterior cusp of aortic valve"
+        },
+        {
+          "id": "FJ2436",
+          "name": "Septal leaflet of tricuspid valve"
+        },
+        {
+          "id": "FJ2437",
+          "name": "Septal papillary muscle of right ventricle"
+        },
+        {
+          "id": "FJ2438",
+          "name": "Wall of left atrium"
+        },
+        {
+          "id": "FJ2439",
+          "name": "Wall of right atrium"
+        },
+        {
+          "id": "FJ2631",
+          "name": "Trunk of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2632",
+          "name": "First right anterior branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2633",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2634",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2635",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2636",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2637",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2638",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2639",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2640",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2641",
+          "name": "Third right anterior branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2642",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2643",
+          "name": "Conus branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2644",
+          "name": "Conus branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2645",
+          "name": "First right anterior branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2646",
+          "name": "Second right anterior branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2647",
+          "name": "Third right anterior branch of anterior interventricular branch of left coronary artery"
+        },
+        {
+          "id": "FJ2648",
+          "name": "Diagonal branch of anterior descending branch of left coronary artery"
+        },
+        {
+          "id": "FJ2649",
+          "name": "Circumflex branch of left coronary artery"
+        },
+        {
+          "id": "FJ2650",
+          "name": "Circumflex branch of left coronary artery"
+        },
+        {
+          "id": "FJ2651",
+          "name": "Circumflex branch of left coronary artery"
+        },
+        {
+          "id": "FJ2652",
+          "name": "Circumflex branch of left coronary artery"
+        },
+        {
+          "id": "FJ2653",
+          "name": "Circumflex branch of left coronary artery"
+        },
+        {
+          "id": "FJ2654",
+          "name": "Circumflex branch of left coronary artery"
+        },
+        {
+          "id": "FJ2655",
+          "name": "Coronary sinus"
+        },
+        {
+          "id": "FJ2656",
+          "name": "Great cardiac vein"
+        },
+        {
+          "id": "FJ2667",
+          "name": "Marginal branch of right coronary artery"
+        },
+        {
+          "id": "FJ2668",
+          "name": "Marginal branch of right coronary artery"
+        },
+        {
+          "id": "FJ2670",
+          "name": "Right conus artery"
+        },
+        {
+          "id": "FJ2671",
+          "name": "First anterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2672",
+          "name": "Marginal branch of right coronary artery"
+        },
+        {
+          "id": "FJ2673",
+          "name": "First anterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2674",
+          "name": "Marginal branch of right coronary artery"
+        },
+        {
+          "id": "FJ2675",
+          "name": "Marginal branch of right coronary artery"
+        },
+        {
+          "id": "FJ2676",
+          "name": "Right conus artery"
+        },
+        {
+          "id": "FJ2677",
+          "name": "First anterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2692",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2693",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2694",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2695",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2696",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2697",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2698",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2699",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2700",
+          "name": "Posterior interventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2714",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2715",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2716",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2717",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2718",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2719",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2720",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2721",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2722",
+          "name": "First posterior ventricular branch of right coronary artery"
+        },
+        {
+          "id": "FJ2723",
+          "name": "Trunk of right coronary artery"
+        },
+        {
+          "id": "FJ2724",
+          "name": "Small cardiac vein"
+        },
+        {
+          "id": "FJ2727",
+          "name": "Right marginal vein"
+        },
+        {
+          "id": "FJ2728",
+          "name": "Right marginal vein"
+        },
+        {
+          "id": "FJ2729",
+          "name": "Right marginal vein"
+        },
+        {
+          "id": "FJ2731",
+          "name": "Small cardiac vein"
+        },
+        {
+          "id": "FJ2737",
+          "name": "Trunk of left coronary artery"
+        }
+      ],
+      "aliases": [
+        "heart"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Kalp",
+      "en": "Heart",
+      "la": "Cor",
+      "side": null,
+      "ta2TableId": 3932,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 63,
+            "representationId": "BP9305",
+            "english": "heart"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3932,
+            "line": 4015,
+            "english": "Heart",
+            "latin": "Cor"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7310"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:lungs",
+      "sourceEnglish": "left lung",
+      "geometryPartIds": [
+        "FJ2441",
+        "FJ2442",
+        "FJ2443",
+        "FJ2444",
+        "FJ2445",
+        "FJ2446",
+        "FJ2447",
+        "FJ2448",
+        "FJ2460",
+        "FJ2461",
+        "FJ2462",
+        "FJ2463",
+        "FJ2464",
+        "FJ2465",
+        "FJ2466",
+        "FJ2467",
+        "FJ2468",
+        "FJ2469",
+        "FJ2471",
+        "FJ2472",
+        "FJ2473",
+        "FJ2474",
+        "FJ2475",
+        "FJ2476",
+        "FJ2477",
+        "FJ2478",
+        "FJ2479",
+        "FJ2480",
+        "FJ2482",
+        "FJ2483",
+        "FJ2484",
+        "FJ2485",
+        "FJ2527",
+        "FJ2528",
+        "FJ2529",
+        "FJ2530",
+        "FJ2531",
+        "FJ2532",
+        "FJ2533",
+        "FJ2534",
+        "FJ2535",
+        "FJ2536",
+        "FJ2537",
+        "FJ2538",
+        "FJ2540",
+        "FJ2881",
+        "FJ2882",
+        "FJ2883",
+        "FJ2884",
+        "FJ2885",
+        "FJ2886",
+        "FJ2887",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2892",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895",
+        "FJ2896",
+        "FJ2897",
+        "FJ2898",
+        "FJ2899",
+        "FJ2900",
+        "FJ2901",
+        "FJ2902",
+        "FJ2903",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910",
+        "FJ2911",
+        "FJ2912",
+        "FJ2913",
+        "FJ2914",
+        "FJ2915",
+        "FJ2916",
+        "FJ2917",
+        "FJ2918",
+        "FJ2919",
+        "FJ2920",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923",
+        "FJ2926",
+        "FJ2927",
+        "FJ2928",
+        "FJ2929",
+        "FJ2930",
+        "FJ2931",
+        "FJ2932",
+        "FJ2934",
+        "FJ2935",
+        "FJ2936",
+        "FJ2937",
+        "FJ2938",
+        "FJ2939",
+        "FJ2940",
+        "FJ2941",
+        "FJ2942",
+        "FJ2943",
+        "FJ2945",
+        "FJ2946",
+        "FJ2947",
+        "FJ2948",
+        "FJ2949",
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954",
+        "FJ2956",
+        "FJ2957",
+        "FJ2958",
+        "FJ2959",
+        "FJ2960",
+        "FJ2961",
+        "FJ2962",
+        "FJ2963",
+        "FJ2964",
+        "FJ2965"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2441",
+          "name": "Inferior lingular bronchial tree"
+        },
+        {
+          "id": "FJ2442",
+          "name": "Left medial basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2443",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2444",
+          "name": "Left apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2445",
+          "name": "Left lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2446",
+          "name": "Left posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2447",
+          "name": "Left posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2448",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2460",
+          "name": "Left apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2461",
+          "name": "Left apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2462",
+          "name": "Left apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2463",
+          "name": "Left apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2464",
+          "name": "Left apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2465",
+          "name": "Left posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2466",
+          "name": "Left posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2467",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2468",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2469",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2471",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2472",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2473",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2474",
+          "name": "Left anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2475",
+          "name": "Inferior lingular bronchial tree"
+        },
+        {
+          "id": "FJ2476",
+          "name": "Superior lingular bronchial tree"
+        },
+        {
+          "id": "FJ2477",
+          "name": "Superior lingular bronchial tree"
+        },
+        {
+          "id": "FJ2478",
+          "name": "Superior lingular bronchial tree"
+        },
+        {
+          "id": "FJ2479",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2480",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2482",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2483",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2484",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2485",
+          "name": "Left superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2527",
+          "name": "Left posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2528",
+          "name": "Left posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2529",
+          "name": "Left posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2530",
+          "name": "Left posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2531",
+          "name": "Left posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2532",
+          "name": "Left lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2533",
+          "name": "Left lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2534",
+          "name": "Left lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2535",
+          "name": "Left anterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2536",
+          "name": "Left anterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2537",
+          "name": "Left medial basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2538",
+          "name": "Left anterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2540",
+          "name": "Superior lingular bronchial tree"
+        },
+        {
+          "id": "FJ2881",
+          "name": "Left posterior basal segmental artery"
+        },
+        {
+          "id": "FJ2882",
+          "name": "Left lateral basal segmental artery"
+        },
+        {
+          "id": "FJ2883",
+          "name": "Left anterior basal segmental artery"
+        },
+        {
+          "id": "FJ2884",
+          "name": "Left medial basal segmental artery"
+        },
+        {
+          "id": "FJ2885",
+          "name": "Left medial basal segmental artery"
+        },
+        {
+          "id": "FJ2886",
+          "name": "Left anterior basal segmental artery"
+        },
+        {
+          "id": "FJ2887",
+          "name": "Left anterior basal segmental artery"
+        },
+        {
+          "id": "FJ2888",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2889",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2890",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2891",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2892",
+          "name": "Left posterior basal segmental artery"
+        },
+        {
+          "id": "FJ2893",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2894",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2895",
+          "name": "Left superior segmental artery"
+        },
+        {
+          "id": "FJ2896",
+          "name": "Inferior lingular artery"
+        },
+        {
+          "id": "FJ2897",
+          "name": "Inferior lingular artery"
+        },
+        {
+          "id": "FJ2898",
+          "name": "Superior lingular artery"
+        },
+        {
+          "id": "FJ2899",
+          "name": "Superior lingular artery"
+        },
+        {
+          "id": "FJ2900",
+          "name": "Superior lingular artery"
+        },
+        {
+          "id": "FJ2901",
+          "name": "Superior lingular artery"
+        },
+        {
+          "id": "FJ2902",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2903",
+          "name": "Left posterior basal segmental artery"
+        },
+        {
+          "id": "FJ2904",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2905",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2906",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2907",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2908",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2909",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2910",
+          "name": "Left anterior segmental artery"
+        },
+        {
+          "id": "FJ2911",
+          "name": "Left posterior segmental artery"
+        },
+        {
+          "id": "FJ2912",
+          "name": "Left posterior segmental artery"
+        },
+        {
+          "id": "FJ2913",
+          "name": "Left posterior segmental artery"
+        },
+        {
+          "id": "FJ2914",
+          "name": "Left posterior basal segmental artery"
+        },
+        {
+          "id": "FJ2915",
+          "name": "Left apical segmental artery"
+        },
+        {
+          "id": "FJ2916",
+          "name": "Left apical segmental artery"
+        },
+        {
+          "id": "FJ2917",
+          "name": "Left apical segmental artery"
+        },
+        {
+          "id": "FJ2918",
+          "name": "Left apical segmental artery"
+        },
+        {
+          "id": "FJ2919",
+          "name": "Left posterior basal segmental artery"
+        },
+        {
+          "id": "FJ2920",
+          "name": "Left posterior basal segmental artery"
+        },
+        {
+          "id": "FJ2921",
+          "name": "Left lateral basal segmental artery"
+        },
+        {
+          "id": "FJ2922",
+          "name": "Left lateral basal segmental artery"
+        },
+        {
+          "id": "FJ2923",
+          "name": "Left lateral basal segmental artery"
+        },
+        {
+          "id": "FJ2926",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2927",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2928",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2929",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2930",
+          "name": "Left anterior segmental vein"
+        },
+        {
+          "id": "FJ2931",
+          "name": "Left anterior segmental vein"
+        },
+        {
+          "id": "FJ2932",
+          "name": "Left anterior segmental vein"
+        },
+        {
+          "id": "FJ2934",
+          "name": "Inferior lingular vein"
+        },
+        {
+          "id": "FJ2935",
+          "name": "Inferior lingular vein"
+        },
+        {
+          "id": "FJ2936",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2937",
+          "name": "Superior lingular vein"
+        },
+        {
+          "id": "FJ2938",
+          "name": "Superior lingular vein"
+        },
+        {
+          "id": "FJ2939",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2940",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2941",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2942",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2943",
+          "name": "Left posterior segmental vein"
+        },
+        {
+          "id": "FJ2945",
+          "name": "Left posterior basal segmental vein"
+        },
+        {
+          "id": "FJ2946",
+          "name": "Left posterior basal segmental vein"
+        },
+        {
+          "id": "FJ2947",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2948",
+          "name": "Left posterior basal segmental vein"
+        },
+        {
+          "id": "FJ2949",
+          "name": "Left posterior basal segmental vein"
+        },
+        {
+          "id": "FJ2951",
+          "name": "Left lateral basal segmental vein"
+        },
+        {
+          "id": "FJ2952",
+          "name": "Left lateral basal segmental vein"
+        },
+        {
+          "id": "FJ2953",
+          "name": "Left lateral basal segmental vein"
+        },
+        {
+          "id": "FJ2954",
+          "name": "Left lateral basal segmental vein"
+        },
+        {
+          "id": "FJ2956",
+          "name": "Left anterior basal segmental vein"
+        },
+        {
+          "id": "FJ2957",
+          "name": "Left anterior basal segmental vein"
+        },
+        {
+          "id": "FJ2958",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2959",
+          "name": "Left anterior basal segmental vein"
+        },
+        {
+          "id": "FJ2960",
+          "name": "Left anterior basal segmental vein"
+        },
+        {
+          "id": "FJ2961",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2962",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2963",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2964",
+          "name": "Left apical segmental vein"
+        },
+        {
+          "id": "FJ2965",
+          "name": "Left posterior segmental vein"
+        }
+      ],
+      "aliases": [
+        "left lung"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Sol akciğer",
+      "en": "Left lung",
+      "la": "Pulmo sinister",
+      "side": null,
+      "ta2TableId": 3299,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 120,
+            "representationId": "BP9417",
+            "english": "left lung"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3299,
+            "line": 3391,
+            "english": "Left lung",
+            "latin": "Pulmo sinister"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7309"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:lungs",
+      "sourceEnglish": "right lung",
+      "geometryPartIds": [
+        "FJ2041",
+        "FJ2044",
+        "FJ2449",
+        "FJ2451",
+        "FJ2452",
+        "FJ2453",
+        "FJ2454",
+        "FJ2455",
+        "FJ2456",
+        "FJ2457",
+        "FJ2458",
+        "FJ2459",
+        "FJ2470",
+        "FJ2481",
+        "FJ2486",
+        "FJ2487",
+        "FJ2488",
+        "FJ2489",
+        "FJ2490",
+        "FJ2491",
+        "FJ2492",
+        "FJ2493",
+        "FJ2494",
+        "FJ2495",
+        "FJ2496",
+        "FJ2497",
+        "FJ2498",
+        "FJ2499",
+        "FJ2500",
+        "FJ2501",
+        "FJ2502",
+        "FJ2503",
+        "FJ2504",
+        "FJ2505",
+        "FJ2506",
+        "FJ2507",
+        "FJ2508",
+        "FJ2509",
+        "FJ2510",
+        "FJ2511",
+        "FJ2512",
+        "FJ2513",
+        "FJ2514",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519",
+        "FJ2520",
+        "FJ2521",
+        "FJ2522",
+        "FJ2523",
+        "FJ2524",
+        "FJ2525",
+        "FJ2526",
+        "FJ2967",
+        "FJ2968",
+        "FJ2969",
+        "FJ2970",
+        "FJ2971",
+        "FJ2972",
+        "FJ2973",
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2978",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981",
+        "FJ2982",
+        "FJ2983",
+        "FJ2984",
+        "FJ2985",
+        "FJ2986",
+        "FJ2987",
+        "FJ2988",
+        "FJ2989",
+        "FJ2990",
+        "FJ2991",
+        "FJ2992",
+        "FJ2993",
+        "FJ2994",
+        "FJ2995",
+        "FJ2996",
+        "FJ2997",
+        "FJ2998",
+        "FJ2999",
+        "FJ3000",
+        "FJ3001",
+        "FJ3002",
+        "FJ3003",
+        "FJ3004",
+        "FJ3005",
+        "FJ3006",
+        "FJ3007",
+        "FJ3008",
+        "FJ3009",
+        "FJ3010",
+        "FJ3011",
+        "FJ3012",
+        "FJ3013",
+        "FJ3014",
+        "FJ3015",
+        "FJ3016",
+        "FJ3017",
+        "FJ3018",
+        "FJ3021",
+        "FJ3022",
+        "FJ3023",
+        "FJ3024",
+        "FJ3025",
+        "FJ3026",
+        "FJ3027",
+        "FJ3028",
+        "FJ3029",
+        "FJ3030",
+        "FJ3031",
+        "FJ3032",
+        "FJ3033",
+        "FJ3034",
+        "FJ3035",
+        "FJ3036",
+        "FJ3037",
+        "FJ3038",
+        "FJ3039",
+        "FJ3041",
+        "FJ3042",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3049",
+        "FJ3050",
+        "FJ3051",
+        "FJ3052",
+        "FJ3053",
+        "FJ3054",
+        "FJ3055",
+        "FJ3056",
+        "FJ3057",
+        "FJ3058",
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062",
+        "FJ3063",
+        "FJ3064",
+        "FJ3065",
+        "FJ3066",
+        "FJ3067",
+        "FJ3068",
+        "FJ3069",
+        "FJ3070"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2041",
+          "name": "Right anterior segmental artery"
+        },
+        {
+          "id": "FJ2044",
+          "name": "Right anterior segmental artery"
+        },
+        {
+          "id": "FJ2449",
+          "name": "Lateral segmental bronchial tree"
+        },
+        {
+          "id": "FJ2451",
+          "name": "Medial segmental bronchial tree"
+        },
+        {
+          "id": "FJ2452",
+          "name": "Right anterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2453",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2454",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2455",
+          "name": "Right lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2456",
+          "name": "Right medial basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2457",
+          "name": "Right posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2458",
+          "name": "Right posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2459",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2470",
+          "name": "Right posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2481",
+          "name": "Right posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2486",
+          "name": "Right posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2487",
+          "name": "Right posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2488",
+          "name": "Right medial basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2489",
+          "name": "Right posterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2490",
+          "name": "Right lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2491",
+          "name": "Right lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2492",
+          "name": "Right lateral basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2493",
+          "name": "Right anterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2494",
+          "name": "Right anterior basal segmental bronchial tree"
+        },
+        {
+          "id": "FJ2495",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2496",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2497",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2498",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2499",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2500",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2501",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2502",
+          "name": "Right superior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2503",
+          "name": "Lateral segmental bronchial tree"
+        },
+        {
+          "id": "FJ2504",
+          "name": "Lateral segmental bronchial tree"
+        },
+        {
+          "id": "FJ2505",
+          "name": "Lateral segmental bronchial tree"
+        },
+        {
+          "id": "FJ2506",
+          "name": "Medial segmental bronchial tree"
+        },
+        {
+          "id": "FJ2507",
+          "name": "Medial segmental bronchial tree"
+        },
+        {
+          "id": "FJ2508",
+          "name": "Medial segmental bronchial tree"
+        },
+        {
+          "id": "FJ2509",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2510",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2511",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2512",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2513",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2514",
+          "name": "Right anterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2515",
+          "name": "Right posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2516",
+          "name": "Right posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2517",
+          "name": "Right posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2518",
+          "name": "Right posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2519",
+          "name": "Right posterior segmental bronchial tree"
+        },
+        {
+          "id": "FJ2520",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2521",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2522",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2523",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2524",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2525",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2526",
+          "name": "Right apical segmental bronchial tree"
+        },
+        {
+          "id": "FJ2967",
+          "name": "Apical part of right apical segmental artery"
+        },
+        {
+          "id": "FJ2968",
+          "name": "Apical part of right posterior segmental artery"
+        },
+        {
+          "id": "FJ2969",
+          "name": "Apical part of right posterior segmental artery"
+        },
+        {
+          "id": "FJ2970",
+          "name": "Posterior part of right posterior segmental artery"
+        },
+        {
+          "id": "FJ2971",
+          "name": "Posterior part of right posterior segmental artery"
+        },
+        {
+          "id": "FJ2972",
+          "name": "Posterior part of right posterior segmental artery"
+        },
+        {
+          "id": "FJ2973",
+          "name": "Right upper lobar artery"
+        },
+        {
+          "id": "FJ2974",
+          "name": "Posterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2975",
+          "name": "Anterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2976",
+          "name": "Anterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2977",
+          "name": "Anterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2978",
+          "name": "Anterior part of right apical segmental artery"
+        },
+        {
+          "id": "FJ2979",
+          "name": "Anterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2980",
+          "name": "Posterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2981",
+          "name": "Posterior branch of right anterior segmental artery"
+        },
+        {
+          "id": "FJ2982",
+          "name": "Anterior branch of lateral segmental artery"
+        },
+        {
+          "id": "FJ2983",
+          "name": "Posterior branch of lateral segmental artery"
+        },
+        {
+          "id": "FJ2984",
+          "name": "Posterior branch of lateral segmental artery"
+        },
+        {
+          "id": "FJ2985",
+          "name": "Anterior branch of lateral segmental artery"
+        },
+        {
+          "id": "FJ2986",
+          "name": "Superior branch of medial segmental artery"
+        },
+        {
+          "id": "FJ2987",
+          "name": "Inferior branch of medial segmental artery"
+        },
+        {
+          "id": "FJ2988",
+          "name": "Inferior branch of medial segmental artery"
+        },
+        {
+          "id": "FJ2989",
+          "name": "Anterior part of right apical segmental artery"
+        },
+        {
+          "id": "FJ2990",
+          "name": "Superior branch of medial segmental artery"
+        },
+        {
+          "id": "FJ2991",
+          "name": "Lateral branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2992",
+          "name": "Lateral branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2993",
+          "name": "Lateral branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2994",
+          "name": "Medial branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2995",
+          "name": "Medial branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2996",
+          "name": "Medial branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2997",
+          "name": "Superior branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2998",
+          "name": "Superior branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ2999",
+          "name": "Superior branch of right superior segmental artery"
+        },
+        {
+          "id": "FJ3000",
+          "name": "Anterior part of right apical segmental artery"
+        },
+        {
+          "id": "FJ3001",
+          "name": "Lateral branch of right anterior basal segmental artery"
+        },
+        {
+          "id": "FJ3002",
+          "name": "Basal branch of right anterior basal segmental artery"
+        },
+        {
+          "id": "FJ3003",
+          "name": "Basal branch of right anterior basal segmental artery"
+        },
+        {
+          "id": "FJ3004",
+          "name": "Lateral branch of right lateral basal segmental artery"
+        },
+        {
+          "id": "FJ3005",
+          "name": "Lateral branch of right lateral basal segmental artery"
+        },
+        {
+          "id": "FJ3006",
+          "name": "Lateral branch of right lateral basal segmental artery"
+        },
+        {
+          "id": "FJ3007",
+          "name": "Lateral branch of right lateral basal segmental artery"
+        },
+        {
+          "id": "FJ3008",
+          "name": "Mediobasal branch of right posterior basal segmental artery"
+        },
+        {
+          "id": "FJ3009",
+          "name": "Accessory subsuperior branch of right posterior basal segmental artery"
+        },
+        {
+          "id": "FJ3010",
+          "name": "Accessory subsuperior branch of right posterior basal segmental artery"
+        },
+        {
+          "id": "FJ3011",
+          "name": "Anterior part of right apical segmental artery"
+        },
+        {
+          "id": "FJ3012",
+          "name": "Mediobasal branch of right posterior basal segmental artery"
+        },
+        {
+          "id": "FJ3013",
+          "name": "Laterobasal branch of right posterior basal segmental artery"
+        },
+        {
+          "id": "FJ3014",
+          "name": "Laterobasal branch of right posterior basal segmental artery"
+        },
+        {
+          "id": "FJ3015",
+          "name": "Apical part of right apical segmental artery"
+        },
+        {
+          "id": "FJ3016",
+          "name": "Apical part of right apical segmental artery"
+        },
+        {
+          "id": "FJ3017",
+          "name": "Apical part of right apical segmental artery"
+        },
+        {
+          "id": "FJ3018",
+          "name": "Apical part of right posterior segmental artery"
+        },
+        {
+          "id": "FJ3021",
+          "name": "Inferior part of right anterior segmental vein"
+        },
+        {
+          "id": "FJ3022",
+          "name": "Right posterior segmental vein"
+        },
+        {
+          "id": "FJ3023",
+          "name": "Right posterior segmental vein"
+        },
+        {
+          "id": "FJ3024",
+          "name": "Right posterior segmental vein"
+        },
+        {
+          "id": "FJ3025",
+          "name": "Right posterior segmental vein"
+        },
+        {
+          "id": "FJ3026",
+          "name": "Right posterior segmental vein"
+        },
+        {
+          "id": "FJ3027",
+          "name": "Superior part of right anterior segmental vein"
+        },
+        {
+          "id": "FJ3028",
+          "name": "Right anterior segmental vein"
+        },
+        {
+          "id": "FJ3029",
+          "name": "Right anterior segmental vein"
+        },
+        {
+          "id": "FJ3030",
+          "name": "Superior part of medial segmental vein"
+        },
+        {
+          "id": "FJ3031",
+          "name": "Trunk of right apical segmental vein"
+        },
+        {
+          "id": "FJ3032",
+          "name": "Inferior part of medial segmental vein"
+        },
+        {
+          "id": "FJ3033",
+          "name": "Inferior part of medial segmental vein"
+        },
+        {
+          "id": "FJ3034",
+          "name": "Anterior part of lateral segmental vein"
+        },
+        {
+          "id": "FJ3035",
+          "name": "Anterior part of lateral segmental vein"
+        },
+        {
+          "id": "FJ3036",
+          "name": "Anterior part of lateral segmental vein"
+        },
+        {
+          "id": "FJ3037",
+          "name": "Posterior part of lateral segmental vein"
+        },
+        {
+          "id": "FJ3038",
+          "name": "Posterior part of lateral segmental vein"
+        },
+        {
+          "id": "FJ3039",
+          "name": "Posterior part of lateral segmental vein"
+        },
+        {
+          "id": "FJ3041",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3042",
+          "name": "Anterior part of right apical segmental vein"
+        },
+        {
+          "id": "FJ3043",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3044",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3045",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3046",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3047",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3048",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3049",
+          "name": "Right anterior basal segmental vein"
+        },
+        {
+          "id": "FJ3050",
+          "name": "Right superior segmental vein"
+        },
+        {
+          "id": "FJ3051",
+          "name": "Right superior segmental vein"
+        },
+        {
+          "id": "FJ3052",
+          "name": "Right superior segmental vein"
+        },
+        {
+          "id": "FJ3053",
+          "name": "Anterior part of right apical segmental vein"
+        },
+        {
+          "id": "FJ3054",
+          "name": "Right medial basal segmental vein"
+        },
+        {
+          "id": "FJ3055",
+          "name": "Right medial basal segmental vein"
+        },
+        {
+          "id": "FJ3056",
+          "name": "Right anterior basal segmental vein"
+        },
+        {
+          "id": "FJ3057",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3058",
+          "name": "Right posterior basal segmental vein"
+        },
+        {
+          "id": "FJ3059",
+          "name": "Right lateral basal segmental vein"
+        },
+        {
+          "id": "FJ3060",
+          "name": "Right lateral basal segmental vein"
+        },
+        {
+          "id": "FJ3061",
+          "name": "Right lateral basal segmental vein"
+        },
+        {
+          "id": "FJ3062",
+          "name": "Right lateral basal segmental vein"
+        },
+        {
+          "id": "FJ3063",
+          "name": "Right superior segmental vein"
+        },
+        {
+          "id": "FJ3064",
+          "name": "Apical part of right apical segmental vein"
+        },
+        {
+          "id": "FJ3065",
+          "name": "Right superior segmental vein"
+        },
+        {
+          "id": "FJ3066",
+          "name": "Right superior segmental vein"
+        },
+        {
+          "id": "FJ3067",
+          "name": "Apical part of right apical segmental vein"
+        },
+        {
+          "id": "FJ3068",
+          "name": "Apical part of right apical segmental vein"
+        },
+        {
+          "id": "FJ3069",
+          "name": "Right posterior segmental vein"
+        },
+        {
+          "id": "FJ3070",
+          "name": "Right posterior segmental vein"
+        }
+      ],
+      "aliases": [
+        "right lung"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Sağ akciğer",
+      "en": "Right lung",
+      "la": "Pulmo dexter",
+      "side": null,
+      "ta2TableId": 3283,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 119,
+            "representationId": "BP9359",
+            "english": "right lung"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3283,
+            "line": 3375,
+            "english": "Right lung",
+            "latin": "Pulmo dexter"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7394"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:trachea",
+      "sourceEnglish": "trachea",
+      "geometryPartIds": [
+        "FJ2541"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2541",
+          "name": "Trachea"
+        }
+      ],
+      "aliases": [
+        "trachea"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Trakea",
+      "en": "Trachea",
+      "la": "Trachea",
+      "side": null,
+      "ta2TableId": 3213,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 153,
+            "representationId": "BP7849",
+            "english": "trachea"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 148,
+            "representationId": "BP9373",
+            "english": "trachea"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3213,
+            "line": 3305,
+            "english": "Trachea",
+            "latin": "Trachea"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA13295"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:diaphragm",
+      "sourceEnglish": "diaphragm",
+      "geometryPartIds": [
+        "FJ3131"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3131",
+          "name": "Diaphragm"
+        }
+      ],
+      "aliases": [
+        "diaphragm"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Diyafram",
+      "en": "Diaphragm",
+      "la": "Diaphragma",
+      "side": null,
+      "ta2TableId": 2327,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 395,
+            "representationId": "BP8798",
+            "english": "diaphragm"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 342,
+            "representationId": "BP9976",
+            "english": "diaphragm"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2327,
+            "line": 2425,
+            "english": "Diaphragm",
+            "latin": "Diaphragma"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7574"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ribs",
+      "sourceEnglish": "rib",
+      "geometryPartIds": [
+        "FJ3225",
+        "FJ3226",
+        "FJ3227",
+        "FJ3228",
+        "FJ3229",
+        "FJ3230",
+        "FJ3231",
+        "FJ3232",
+        "FJ3233",
+        "FJ3234",
+        "FJ3235",
+        "FJ3236",
+        "FJ3330",
+        "FJ3331",
+        "FJ3332",
+        "FJ3334",
+        "FJ3336",
+        "FJ3338",
+        "FJ3340",
+        "FJ3342",
+        "FJ3344",
+        "FJ3346",
+        "FJ3347",
+        "FJ3348"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3225",
+          "name": "Left tenth rib"
+        },
+        {
+          "id": "FJ3226",
+          "name": "Left eleventh rib"
+        },
+        {
+          "id": "FJ3227",
+          "name": "Left twelfth rib"
+        },
+        {
+          "id": "FJ3228",
+          "name": "Left first rib"
+        },
+        {
+          "id": "FJ3229",
+          "name": "Left second rib"
+        },
+        {
+          "id": "FJ3230",
+          "name": "Left third rib"
+        },
+        {
+          "id": "FJ3231",
+          "name": "Left fourth rib"
+        },
+        {
+          "id": "FJ3232",
+          "name": "Left fifth rib"
+        },
+        {
+          "id": "FJ3233",
+          "name": "Left sixth rib"
+        },
+        {
+          "id": "FJ3234",
+          "name": "Left seventh rib"
+        },
+        {
+          "id": "FJ3235",
+          "name": "Left eighth rib"
+        },
+        {
+          "id": "FJ3236",
+          "name": "Left ninth rib"
+        },
+        {
+          "id": "FJ3330",
+          "name": "Right tenth rib"
+        },
+        {
+          "id": "FJ3331",
+          "name": "Right eleventh rib"
+        },
+        {
+          "id": "FJ3332",
+          "name": "Right twelfth rib"
+        },
+        {
+          "id": "FJ3334",
+          "name": "Right first rib"
+        },
+        {
+          "id": "FJ3336",
+          "name": "Right second rib"
+        },
+        {
+          "id": "FJ3338",
+          "name": "Right third rib"
+        },
+        {
+          "id": "FJ3340",
+          "name": "Right fourth rib"
+        },
+        {
+          "id": "FJ3342",
+          "name": "Right fifth rib"
+        },
+        {
+          "id": "FJ3344",
+          "name": "Right sixth rib"
+        },
+        {
+          "id": "FJ3346",
+          "name": "Right seventh rib"
+        },
+        {
+          "id": "FJ3347",
+          "name": "Right eighth rib"
+        },
+        {
+          "id": "FJ3348",
+          "name": "Right ninth rib"
+        }
+      ],
+      "aliases": [
+        "rib"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Kaburgalar",
+      "en": "Ribs",
+      "la": "Costae",
+      "side": null,
+      "ta2TableId": 1105,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Plural display names the existing multi-part class/group selection. Original singular BP3D concept ID/name is preserved; this is not proof that every anatomical member exists.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 166,
+            "representationId": "BP8085",
+            "english": "rib"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1105,
+            "line": 1143,
+            "english": "Ribs",
+            "latin": "Costae"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7485"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:sternum",
+      "sourceEnglish": "sternum",
+      "geometryPartIds": [
+        "FJ3153",
+        "FJ3178",
+        "FJ3290"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3153",
+          "name": "Xiphoid process"
+        },
+        {
+          "id": "FJ3178",
+          "name": "Body of sternum"
+        },
+        {
+          "id": "FJ3290",
+          "name": "Manubrium"
+        }
+      ],
+      "aliases": [
+        "sternum"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Sternum",
+      "en": "Sternum",
+      "la": "Sternum",
+      "side": null,
+      "ta2TableId": 1129,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 155,
+            "representationId": "BP9392",
+            "english": "sternum"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1129,
+            "line": 1177,
+            "english": "Sternum",
+            "latin": "Sternum"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA3734"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:aorta",
+      "sourceEnglish": "aorta",
+      "geometryPartIds": [
+        "FJ1931",
+        "FJ1932",
+        "FJ3411",
+        "FJ3413",
+        "FJ3427"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1931",
+          "name": "Descending thoracic aorta"
+        },
+        {
+          "id": "FJ1932",
+          "name": "Abdominal aorta"
+        },
+        {
+          "id": "FJ3411",
+          "name": "Arch of aorta"
+        },
+        {
+          "id": "FJ3413",
+          "name": "Ascending aorta"
+        },
+        {
+          "id": "FJ3427",
+          "name": "Descending aorta"
+        }
+      ],
+      "aliases": [
+        "aorta"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Aort",
+      "en": "Aorta",
+      "la": "Aorta",
+      "side": null,
+      "ta2TableId": 4175,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 2,
+            "representationId": "BP10374",
+            "english": "aorta"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 4175,
+            "line": 4259,
+            "english": "Aorta",
+            "latin": "Aorta"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7131"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:esophagus",
+      "sourceEnglish": "esophagus",
+      "geometryPartIds": [
+        "FJ2563"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2563",
+          "name": "Esophagus"
+        }
+      ],
+      "aliases": [
+        "esophagus"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Özofagus",
+      "en": "Oesophagus",
+      "la": "Oesophagus",
+      "side": null,
+      "ta2TableId": 2887,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 117,
+            "representationId": "BP9222",
+            "english": "esophagus"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 68,
+            "representationId": "BP10206",
+            "english": "esophagus"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2887,
+            "line": 2983,
+            "english": "Oesophagus",
+            "latin": "Oesophagus"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7197"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:liver",
+      "sourceEnglish": "liver",
+      "geometryPartIds": [
+        "FJ1883",
+        "FJ1893",
+        "FJ1913",
+        "FJ1914",
+        "FJ1916",
+        "FJ2386",
+        "FJ2404",
+        "FJ2405",
+        "FJ2409",
+        "FJ2415",
+        "FJ2416",
+        "FJ2816",
+        "FJ2818",
+        "FJ2819",
+        "FJ2820",
+        "FJ2821",
+        "FJ2822",
+        "FJ2823",
+        "FJ2824",
+        "FJ3071",
+        "FJ3072",
+        "FJ3073",
+        "FJ3074",
+        "FJ3075",
+        "FJ3076",
+        "FJ3077",
+        "FJ3081",
+        "FJ3083",
+        "FJ3086",
+        "FJ3088",
+        "FJ3089",
+        "FJ3090",
+        "FJ3091",
+        "FJ3092",
+        "FJ3093",
+        "FJ3095",
+        "FJ3096",
+        "FJ3102",
+        "FJ3103",
+        "FJ3104",
+        "FJ3105",
+        "FJ3106",
+        "FJ3107",
+        "FJ3108",
+        "FJ3109",
+        "FJ3110",
+        "FJ3111",
+        "FJ3112",
+        "FJ3113",
+        "FJ3114",
+        "FJ3115",
+        "FJ3116",
+        "FJ3117",
+        "FJ3122",
+        "FJ3123",
+        "FJ3124",
+        "FJ3125",
+        "FJ3126",
+        "FJ3127",
+        "FJ3128"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1883",
+          "name": "Caudate lobe tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ1893",
+          "name": "Left portal vein"
+        },
+        {
+          "id": "FJ1913",
+          "name": "Right portal vein"
+        },
+        {
+          "id": "FJ1914",
+          "name": "Caudate lobe branch of right portal vein"
+        },
+        {
+          "id": "FJ1916",
+          "name": "Caudate lobe branch of right hepatic artery"
+        },
+        {
+          "id": "FJ2386",
+          "name": "Caudate lobe branch of right hepatic artery"
+        },
+        {
+          "id": "FJ2404",
+          "name": "Left portal vein"
+        },
+        {
+          "id": "FJ2405",
+          "name": "Right portal vein"
+        },
+        {
+          "id": "FJ2409",
+          "name": "Hepatovenous segment VII"
+        },
+        {
+          "id": "FJ2415",
+          "name": "Left hepatic vein"
+        },
+        {
+          "id": "FJ2416",
+          "name": "Right hepatic vein"
+        },
+        {
+          "id": "FJ2816",
+          "name": "Caudate lobe of liver"
+        },
+        {
+          "id": "FJ2818",
+          "name": "Hepatovenous segment II"
+        },
+        {
+          "id": "FJ2819",
+          "name": "Hepatovenous segment III"
+        },
+        {
+          "id": "FJ2820",
+          "name": "Hepatovenous segment IV"
+        },
+        {
+          "id": "FJ2821",
+          "name": "Hepatovenous segment V"
+        },
+        {
+          "id": "FJ2822",
+          "name": "Hepatovenous segment VI"
+        },
+        {
+          "id": "FJ2823",
+          "name": "Hepatovenous segment VIII"
+        },
+        {
+          "id": "FJ2824",
+          "name": "Hepatovenous segment VIII"
+        },
+        {
+          "id": "FJ3071",
+          "name": "Anterior superior tributary of right hepatic biliary tree"
+        },
+        {
+          "id": "FJ3072",
+          "name": "Anterior inferior tributary of right hepatic biliary tree"
+        },
+        {
+          "id": "FJ3073",
+          "name": "Anterior superior segmental branch of right portal vein"
+        },
+        {
+          "id": "FJ3074",
+          "name": "Anterior inferior segmental branch of right portal vein"
+        },
+        {
+          "id": "FJ3075",
+          "name": "Anterior inferior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3076",
+          "name": "Anterior superior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3077",
+          "name": "Caudate lobe branch of left hepatic artery"
+        },
+        {
+          "id": "FJ3081",
+          "name": "Hepatic artery proper"
+        },
+        {
+          "id": "FJ3083",
+          "name": "Anterior inferior segmental tributary of middle hepatic vein"
+        },
+        {
+          "id": "FJ3086",
+          "name": "Anterior inferior segmental tributary of middle hepatic vein"
+        },
+        {
+          "id": "FJ3088",
+          "name": "Lateral superior tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ3089",
+          "name": "Lateral inferior tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ3090",
+          "name": "Lateral superior tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ3091",
+          "name": "Lateral superior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3092",
+          "name": "Lateral inferior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3093",
+          "name": "Lateral superior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3095",
+          "name": "Trunk of left hepatic artery"
+        },
+        {
+          "id": "FJ3096",
+          "name": "Left hepatic duct"
+        },
+        {
+          "id": "FJ3102",
+          "name": "Trunk of left portal vein"
+        },
+        {
+          "id": "FJ3103",
+          "name": "Medial inferior tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ3104",
+          "name": "Medial superior tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ3105",
+          "name": "Medial superior tributary of left hepatic biliary tree"
+        },
+        {
+          "id": "FJ3106",
+          "name": "Medial inferior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3107",
+          "name": "Medial superior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3108",
+          "name": "Posterior inferior tributary of right hepatic biliary tree"
+        },
+        {
+          "id": "FJ3109",
+          "name": "Posterior superior tributary of right hepatic biliary tree"
+        },
+        {
+          "id": "FJ3110",
+          "name": "Posterior superior tributary of right hepatic biliary tree"
+        },
+        {
+          "id": "FJ3111",
+          "name": "Posterior inferior segmental branch of right portal vein"
+        },
+        {
+          "id": "FJ3112",
+          "name": "Posterior superior segmental branch of right portal vein"
+        },
+        {
+          "id": "FJ3113",
+          "name": "Posterior superior segmental branch of right portal vein"
+        },
+        {
+          "id": "FJ3114",
+          "name": "Posterior inferior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3115",
+          "name": "Posterior superior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3116",
+          "name": "Posterior superior segmental hepatic artery"
+        },
+        {
+          "id": "FJ3117",
+          "name": "Trunk of right hepatic artery"
+        },
+        {
+          "id": "FJ3122",
+          "name": "Trunk of right portal vein"
+        },
+        {
+          "id": "FJ3123",
+          "name": "Right hepatic duct"
+        },
+        {
+          "id": "FJ3124",
+          "name": "Caudate lobe branch of left portal vein"
+        },
+        {
+          "id": "FJ3125",
+          "name": "Lateral inferior segmental branch of left portal vein"
+        },
+        {
+          "id": "FJ3126",
+          "name": "Lateral superior segmental branch of left portal vein"
+        },
+        {
+          "id": "FJ3127",
+          "name": "Medial superior segmental branch of left portal vein"
+        },
+        {
+          "id": "FJ3128",
+          "name": "Medial inferior segmental branch of left portal vein"
+        }
+      ],
+      "aliases": [
+        "liver"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Karaciğer",
+      "en": "Liver",
+      "la": "Hepar",
+      "side": null,
+      "ta2TableId": 3023,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 87,
+            "representationId": "BP9334",
+            "english": "liver"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3023,
+            "line": 3118,
+            "english": "Liver",
+            "latin": "Hepar"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7148"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:stomach",
+      "sourceEnglish": "stomach",
+      "geometryPartIds": [
+        "FJ2564"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2564",
+          "name": "Stomach"
+        }
+      ],
+      "aliases": [
+        "stomach"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Mide",
+      "en": "Stomach",
+      "la": "Gaster",
+      "side": null,
+      "ta2TableId": 2901,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 120,
+            "representationId": "BP7926",
+            "english": "stomach"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 69,
+            "representationId": "BP9480",
+            "english": "stomach"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2901,
+            "line": 2997,
+            "english": "Stomach",
+            "latin": "Gaster"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7198"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:pancreas",
+      "sourceEnglish": "pancreas",
+      "geometryPartIds": [
+        "FJ1895",
+        "FJ1896",
+        "FJ2629",
+        "FJ2630"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1895",
+          "name": "Pancreas"
+        },
+        {
+          "id": "FJ1896",
+          "name": "Pancreatic duct"
+        },
+        {
+          "id": "FJ2629",
+          "name": "Parenchyma of pancreas"
+        },
+        {
+          "id": "FJ2630",
+          "name": "Pancreatic duct tree"
+        }
+      ],
+      "aliases": [
+        "pancreas"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Pankreas",
+      "en": "Pancreas",
+      "la": "Pancreas",
+      "side": null,
+      "ta2TableId": 3114,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 123,
+            "representationId": "BP4631",
+            "english": "pancreas"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 88,
+            "representationId": "BP9653",
+            "english": "pancreas"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3114,
+            "line": 3209,
+            "english": "Pancreas",
+            "latin": "Pancreas"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7196"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:spleen",
+      "sourceEnglish": "spleen",
+      "geometryPartIds": [
+        "FJ2561"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2561",
+          "name": "Spleen"
+        }
+      ],
+      "aliases": [
+        "spleen"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Dalak",
+      "en": "Spleen",
+      "la": "Lien",
+      "side": null,
+      "ta2TableId": 5159,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 122,
+            "representationId": "BP8804",
+            "english": "spleen"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 5159,
+            "line": 5247,
+            "english": "Spleen",
+            "latin": "Lien"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7203"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:kidneys",
+      "sourceEnglish": "kidney",
+      "geometryPartIds": [
+        "FJ3145",
+        "FJ3147"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3145",
+          "name": "Left kidney"
+        },
+        {
+          "id": "FJ3147",
+          "name": "Right kidney"
+        }
+      ],
+      "aliases": [
+        "kidney"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Böbrek",
+      "en": "Kidney",
+      "la": "Ren",
+      "side": null,
+      "ta2TableId": 3358,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 125,
+            "representationId": "BP8908",
+            "english": "kidney"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3358,
+            "line": 3449,
+            "english": "Kidney",
+            "latin": "Ren"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7202"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:gallbladder",
+      "sourceEnglish": "gallbladder",
+      "geometryPartIds": [
+        "FJ2817"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2817",
+          "name": "Gallbladder"
+        }
+      ],
+      "aliases": [
+        "gallbladder"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Safra kesesi",
+      "en": "Gallbladder",
+      "la": "Vesica biliaris",
+      "side": null,
+      "ta2TableId": 3081,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 124,
+            "representationId": "BP9029",
+            "english": "gallbladder"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 91,
+            "representationId": "BP10105",
+            "english": "gallbladder"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3081,
+            "line": 3176,
+            "english": "Gallbladder",
+            "latin": "Vesica biliaris"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7200"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:small-intestine",
+      "sourceEnglish": "small intestine",
+      "geometryPartIds": [
+        "FJ2573",
+        "FJ2574",
+        "FJ2575",
+        "FJ2576",
+        "FJ2577",
+        "FJ2578",
+        "FJ2579",
+        "FJ2580",
+        "FJ2581",
+        "FJ2582",
+        "FJ2583",
+        "FJ2584",
+        "FJ2585",
+        "FJ2586",
+        "FJ2587",
+        "FJ2588",
+        "FJ2589",
+        "FJ2590",
+        "FJ2591",
+        "FJ2592",
+        "FJ2593",
+        "FJ2594",
+        "FJ2595",
+        "FJ2596",
+        "FJ2597",
+        "FJ2598",
+        "FJ2599",
+        "FJ2600",
+        "FJ2601",
+        "FJ2602",
+        "FJ2603",
+        "FJ2604",
+        "FJ2605",
+        "FJ2606",
+        "FJ2607",
+        "FJ2608",
+        "FJ2609",
+        "FJ2610",
+        "FJ2611",
+        "FJ2612",
+        "FJ2613",
+        "FJ2614",
+        "FJ2615",
+        "FJ2616",
+        "FJ2617",
+        "FJ2618",
+        "FJ2619",
+        "FJ2620",
+        "FJ2621",
+        "FJ2622",
+        "FJ2623",
+        "FJ2624",
+        "FJ2625",
+        "FJ2626",
+        "FJ2627",
+        "FJ2628"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2573",
+          "name": "Duodenum"
+        },
+        {
+          "id": "FJ2574",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2575",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2576",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2577",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2578",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2579",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2580",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2581",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2582",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2583",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2584",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2585",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2586",
+          "name": "Middle part of ileum"
+        },
+        {
+          "id": "FJ2587",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2588",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2589",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2590",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2591",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2592",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2593",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2594",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2595",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2596",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2597",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2598",
+          "name": "Distal part of ileum"
+        },
+        {
+          "id": "FJ2599",
+          "name": "Ileocecal junction"
+        },
+        {
+          "id": "FJ2600",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2601",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2602",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2603",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2604",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2605",
+          "name": "Proximal part of ileum"
+        },
+        {
+          "id": "FJ2606",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2607",
+          "name": "Middle part of jejunum"
+        },
+        {
+          "id": "FJ2608",
+          "name": "Middle part of jejunum"
+        },
+        {
+          "id": "FJ2609",
+          "name": "Middle part of jejunum"
+        },
+        {
+          "id": "FJ2610",
+          "name": "Middle part of jejunum"
+        },
+        {
+          "id": "FJ2611",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2612",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2613",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2614",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2615",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2616",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2617",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2618",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2619",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2620",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2621",
+          "name": "Distal part of jejunum"
+        },
+        {
+          "id": "FJ2622",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2623",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2624",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2625",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2626",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2627",
+          "name": "Proximal part of jejunum"
+        },
+        {
+          "id": "FJ2628",
+          "name": "Middle part of jejunum"
+        }
+      ],
+      "aliases": [
+        "small intestine"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "İnce bağırsak",
+      "en": "Small intestine",
+      "la": "Intestinum tenue",
+      "side": null,
+      "ta2TableId": 2933,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 89,
+            "representationId": "BP9352",
+            "english": "small intestine"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2933,
+            "line": 3029,
+            "english": "Small intestine",
+            "latin": "Intestinum tenue"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA7201"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:large-intestine",
+      "sourceEnglish": "large intestine",
+      "geometryPartIds": [
+        "FJ2566",
+        "FJ2567",
+        "FJ2568",
+        "FJ2569",
+        "FJ2570",
+        "FJ2571",
+        "FJ2572",
+        "FJ2599"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2566",
+          "name": "Ascending colon"
+        },
+        {
+          "id": "FJ2567",
+          "name": "Descending colon"
+        },
+        {
+          "id": "FJ2568",
+          "name": "Taenia libera"
+        },
+        {
+          "id": "FJ2569",
+          "name": "Taenia mesocolica"
+        },
+        {
+          "id": "FJ2570",
+          "name": "Taenia omentalis"
+        },
+        {
+          "id": "FJ2571",
+          "name": "Rectum"
+        },
+        {
+          "id": "FJ2572",
+          "name": "Transverse colon"
+        },
+        {
+          "id": "FJ2599",
+          "name": "Ileocecal junction"
+        }
+      ],
+      "aliases": [
+        "large intestine"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Kalın bağırsak",
+      "en": "Large intestine",
+      "la": "Intestinum crassum",
+      "side": null,
+      "ta2TableId": 2963,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 90,
+            "representationId": "BP9747",
+            "english": "large intestine"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2963,
+            "line": 3059,
+            "english": "Large intestine",
+            "latin": "Intestinum crassum"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA14544"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:rectum",
+      "sourceEnglish": "rectum",
+      "geometryPartIds": [
+        "FJ2571"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2571",
+          "name": "Rectum"
+        }
+      ],
+      "aliases": [
+        "rectum"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Rektum",
+      "en": "Rectum",
+      "la": "Rectum",
+      "side": null,
+      "ta2TableId": 2998,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 521,
+            "representationId": "BP9212",
+            "english": "rectum"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 392,
+            "representationId": "BP10203",
+            "english": "rectum"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2998,
+            "line": 3094,
+            "english": "Rectum",
+            "latin": "Rectum"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA15900"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:urinary-bladder",
+      "sourceEnglish": "urinary bladder",
+      "geometryPartIds": [
+        "FJ3149"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3149",
+          "name": "Urinary bladder"
+        }
+      ],
+      "aliases": [
+        "urinary bladder"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Mesane",
+      "en": "Urinary bladder",
+      "la": "Vesica urinaria",
+      "side": null,
+      "ta2TableId": 3401,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 649,
+            "representationId": "BP8497",
+            "english": "urinary bladder"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 486,
+            "representationId": "BP9803",
+            "english": "urinary bladder"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3401,
+            "line": 3492,
+            "english": "Urinary bladder",
+            "latin": "Vesica urinaria"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA9600"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:prostate",
+      "sourceEnglish": "prostate",
+      "geometryPartIds": [
+        "FJ3139"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3139",
+          "name": "Prostate"
+        }
+      ],
+      "aliases": [
+        "prostate"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Prostat",
+      "en": "Prostate",
+      "la": "Prostata",
+      "side": null,
+      "ta2TableId": 3637,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 289,
+            "representationId": "BP8469",
+            "english": "prostate"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 279,
+            "representationId": "BP9784",
+            "english": "prostate"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 3637,
+            "line": 3726,
+            "english": "Prostate",
+            "latin": "Prostata"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA16585"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:hip-bones",
+      "sourceEnglish": "hip bone",
+      "geometryPartIds": [
+        "FJ3152",
+        "FJ3288"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3152",
+          "name": "Right hip bone"
+        },
+        {
+          "id": "FJ3288",
+          "name": "Left hip bone"
+        }
+      ],
+      "aliases": [
+        "hip bone"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Kalça kemiği",
+      "en": "Hip bone",
+      "la": "Os coxae",
+      "side": null,
+      "ta2TableId": 1307,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 657,
+            "representationId": "BP8769",
+            "english": "hip bone"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1307,
+            "line": 1382,
+            "english": "Hip bone",
+            "latin": "Os coxae"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA16202"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:sacrum",
+      "sourceEnglish": "sacrum",
+      "geometryPartIds": [
+        "FJ3393"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3393",
+          "name": "Sacrum"
+        }
+      ],
+      "aliases": [
+        "sacrum"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Sakrum",
+      "en": "Sacrum",
+      "la": "Os sacrum",
+      "side": null,
+      "ta2TableId": 1071,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 655,
+            "representationId": "BP9174",
+            "english": "sacrum"
+          }
+        },
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-partof-parts-list-e.txt",
+            "line": 492,
+            "representationId": "BP10178",
+            "english": "sacrum"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1071,
+            "line": 1109,
+            "english": "Sacrum",
+            "latin": "Os sacrum"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA13321"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:clavicles",
+      "sourceEnglish": "clavicle",
+      "geometryPartIds": [
+        "FJ3237",
+        "FJ3362"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3237",
+          "name": "Left clavicle"
+        },
+        {
+          "id": "FJ3362",
+          "name": "Right clavicle"
+        }
+      ],
+      "aliases": [
+        "clavicle"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Klavikula",
+      "en": "Clavicle",
+      "la": "Clavicula",
+      "side": null,
+      "ta2TableId": 1168,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 397,
+            "representationId": "BP8842",
+            "english": "clavicle"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1168,
+            "line": 1225,
+            "english": "Clavicle",
+            "latin": "Clavicula"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA23466"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:ulnae",
+      "sourceEnglish": "ulna",
+      "geometryPartIds": [
+        "FJ3286",
+        "FJ3391"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3286",
+          "name": "Left ulna"
+        },
+        {
+          "id": "FJ3391",
+          "name": "Right ulna"
+        }
+      ],
+      "aliases": [
+        "ulna"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Ulna",
+      "en": "Ulna",
+      "la": "Ulna",
+      "side": null,
+      "ta2TableId": 1230,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1087,
+            "representationId": "BP8234",
+            "english": "ulna"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1230,
+            "line": 1287,
+            "english": "Ulna",
+            "latin": "Ulna"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA23889"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:carpals",
+      "sourceEnglish": "carpal bone",
+      "geometryPartIds": [
+        "FJ3257",
+        "FJ3261",
+        "FJ3268",
+        "FJ3276",
+        "FJ3278",
+        "FJ3283",
+        "FJ3284",
+        "FJ3285",
+        "FJ3361",
+        "FJ3367",
+        "FJ3374",
+        "FJ3382",
+        "FJ3383",
+        "FJ3388",
+        "FJ3389",
+        "FJ3390"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3257",
+          "name": "Left capitate"
+        },
+        {
+          "id": "FJ3261",
+          "name": "Left hamate"
+        },
+        {
+          "id": "FJ3268",
+          "name": "Left lunate"
+        },
+        {
+          "id": "FJ3276",
+          "name": "Left pisiform"
+        },
+        {
+          "id": "FJ3278",
+          "name": "Left scaphoid"
+        },
+        {
+          "id": "FJ3283",
+          "name": "Left trapezium"
+        },
+        {
+          "id": "FJ3284",
+          "name": "Left trapezoid"
+        },
+        {
+          "id": "FJ3285",
+          "name": "Left triquetral"
+        },
+        {
+          "id": "FJ3361",
+          "name": "Right capitate"
+        },
+        {
+          "id": "FJ3367",
+          "name": "Right hamate"
+        },
+        {
+          "id": "FJ3374",
+          "name": "Right lunate"
+        },
+        {
+          "id": "FJ3382",
+          "name": "Right pisiform"
+        },
+        {
+          "id": "FJ3383",
+          "name": "Right scaphoid"
+        },
+        {
+          "id": "FJ3388",
+          "name": "Right trapezium"
+        },
+        {
+          "id": "FJ3389",
+          "name": "Right trapezoid"
+        },
+        {
+          "id": "FJ3390",
+          "name": "Right triquetral"
+        }
+      ],
+      "aliases": [
+        "carpal bone"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Karpal kemikler",
+      "en": "Carpal bones",
+      "la": "Ossa carpi",
+      "side": null,
+      "ta2TableId": 1249,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Plural display names the existing multi-part class/group selection. Original singular BP3D concept ID/name is preserved; this is not proof that every anatomical member exists.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1102,
+            "representationId": "BP7883",
+            "english": "carpal bone"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1249,
+            "line": 1306,
+            "english": "Carpal bones",
+            "latin": "Ossa carpi"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA34676"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:deltoid-parts",
+      "sourceEnglish": "zone of deltoid",
+      "geometryPartIds": [
+        "FJ1467",
+        "FJ1467M",
+        "FJ1468",
+        "FJ1468M",
+        "FJ1513",
+        "FJ1513M"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1467",
+          "name": "Acromial part of right deltoid"
+        },
+        {
+          "id": "FJ1467M",
+          "name": "Acromial part of left deltoid"
+        },
+        {
+          "id": "FJ1468",
+          "name": "Clavicular part of right deltoid"
+        },
+        {
+          "id": "FJ1468M",
+          "name": "Clavicular part of left deltoid"
+        },
+        {
+          "id": "FJ1513",
+          "name": "Spinal part of right deltoid"
+        },
+        {
+          "id": "FJ1513M",
+          "name": "Spinal part of left deltoid"
+        }
+      ],
+      "aliases": [
+        "zone of deltoid"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Deltoid kasının gösterilen bölümleri",
+      "en": "Zone of deltoid",
+      "la": null,
+      "side": null,
+      "proposalStatus": "source_scoped_TR_EN_only",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1322,
+            "representationId": "BP8153",
+            "english": "zone of deltoid"
+          }
+        }
+      ],
+      "scopeNote": "Retain source zone/group identity and its selected component surfaces; do not rename this concept as the whole muscle.",
+      "rejectedLatinAlternative": "Musculus deltoideus",
+      "latinWithheldReason": "TA muscle term exists but is not an exact label for the BP3D zone concept. No matched official Latin zone label was found."
+    },
+    {
+      "ids": [
+        "FMA9611"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:femora",
+      "sourceEnglish": "femur",
+      "geometryPartIds": [
+        "FJ3259",
+        "FJ3365"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3259",
+          "name": "Left femur"
+        },
+        {
+          "id": "FJ3365",
+          "name": "Right femur"
+        }
+      ],
+      "aliases": [
+        "femur"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Femur",
+      "en": "Femur",
+      "la": "Os femoris",
+      "side": null,
+      "ta2TableId": 1360,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 291,
+            "representationId": "BP8921",
+            "english": "femur"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1360,
+            "line": 1435,
+            "english": "Femur",
+            "latin": "Os femoris"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA24476"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:tibiae",
+      "sourceEnglish": "tibia",
+      "geometryPartIds": [
+        "FJ3282",
+        "FJ3387"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3282",
+          "name": "Left tibia"
+        },
+        {
+          "id": "FJ3387",
+          "name": "Right tibia"
+        }
+      ],
+      "aliases": [
+        "tibia"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Tibia",
+      "en": "Tibia",
+      "la": "Tibia",
+      "side": null,
+      "ta2TableId": 1397,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1175,
+            "representationId": "BP8032",
+            "english": "tibia"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1397,
+            "line": 1472,
+            "english": "Tibia",
+            "latin": "Tibia"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA24479"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:fibulae",
+      "sourceEnglish": "fibula",
+      "geometryPartIds": [
+        "FJ3260",
+        "FJ3366"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3260",
+          "name": "Left fibula"
+        },
+        {
+          "id": "FJ3366",
+          "name": "Right fibula"
+        }
+      ],
+      "aliases": [
+        "fibula"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Fibula",
+      "en": "Fibula",
+      "la": "Fibula",
+      "side": null,
+      "ta2TableId": 1427,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1178,
+            "representationId": "BP8010",
+            "english": "fibula"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1427,
+            "line": 1502,
+            "english": "Fibula",
+            "latin": "Fibula"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA24485"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:patellae",
+      "sourceEnglish": "patella",
+      "geometryPartIds": [
+        "FJ3275",
+        "FJ3381"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3275",
+          "name": "Left patella"
+        },
+        {
+          "id": "FJ3381",
+          "name": "Right patella"
+        }
+      ],
+      "aliases": [
+        "patella"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Patella",
+      "en": "Patella",
+      "la": "Patella",
+      "side": null,
+      "ta2TableId": 1390,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1183,
+            "representationId": "BP8379",
+            "english": "patella"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1390,
+            "line": 1465,
+            "english": "Patella",
+            "latin": "Patella"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA22314"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:gluteus-maximus",
+      "sourceEnglish": "gluteus maximus",
+      "geometryPartIds": [
+        "FJ1418",
+        "FJ1418M"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1418",
+          "name": "Right gluteus maximus"
+        },
+        {
+          "id": "FJ1418M",
+          "name": "Left gluteus maximus"
+        }
+      ],
+      "aliases": [
+        "gluteus maximus"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Gluteus maximus kası",
+      "en": "Gluteus maximus muscle",
+      "la": "Musculus gluteus maximus",
+      "side": null,
+      "ta2TableId": 2598,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 772,
+            "representationId": "BP8402",
+            "english": "gluteus maximus"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 2598,
+            "line": 2696,
+            "english": "Gluteus maximus muscle",
+            "latin": "Musculus gluteus maximus"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA22429"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:quadriceps-parts",
+      "sourceEnglish": "zone of quadriceps femoris",
+      "geometryPartIds": [
+        "FJ1433",
+        "FJ1433M",
+        "FJ1441",
+        "FJ1441M",
+        "FJ1442",
+        "FJ1442M",
+        "FJ1443",
+        "FJ1443M"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ1433",
+          "name": "Right rectus femoris"
+        },
+        {
+          "id": "FJ1433M",
+          "name": "Left rectus femoris"
+        },
+        {
+          "id": "FJ1441",
+          "name": "Right vastus intermedius"
+        },
+        {
+          "id": "FJ1441M",
+          "name": "Left vastus intermedius"
+        },
+        {
+          "id": "FJ1442",
+          "name": "Right vastus lateralis"
+        },
+        {
+          "id": "FJ1442M",
+          "name": "Left vastus lateralis"
+        },
+        {
+          "id": "FJ1443",
+          "name": "Right vastus medialis"
+        },
+        {
+          "id": "FJ1443M",
+          "name": "Left vastus medialis"
+        }
+      ],
+      "aliases": [
+        "zone of quadriceps femoris"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Quadriceps femoris kasının gösterilen bölümleri",
+      "en": "Zone of quadriceps femoris",
+      "la": null,
+      "side": null,
+      "proposalStatus": "source_scoped_TR_EN_only",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 812,
+            "representationId": "BP8096",
+            "english": "zone of quadriceps femoris"
+          }
+        }
+      ],
+      "scopeNote": "Retain source zone/group identity and its selected component surfaces; do not rename this concept as the whole muscle.",
+      "rejectedLatinAlternative": "Musculus quadriceps femoris",
+      "latinWithheldReason": "TA muscle term exists but is not an exact label for the BP3D zone concept. No matched official Latin zone label was found."
+    },
+    {
+      "ids": [
+        "FMA70248"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:femoral-arteries",
+      "sourceEnglish": "femoral artery",
+      "geometryPartIds": [
+        "FJ2074",
+        "FJ2143"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ2074",
+          "name": "Left femoral artery"
+        },
+        {
+          "id": "FJ2143",
+          "name": "Right femoral artery"
+        }
+      ],
+      "aliases": [
+        "femoral artery"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Femoral arter",
+      "en": "Femoral artery",
+      "la": "Arteria femoralis",
+      "side": null,
+      "ta2TableId": 4674,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Canonical term labels the existing source concept only; no change to geometry, relationships, target state or completeness.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 2525,
+            "representationId": "BP6080",
+            "english": "femoral artery"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 4674,
+            "line": 4760,
+            "english": "Femoral artery",
+            "latin": "Arteria femoralis"
+          }
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA24491"
+      ],
+      "datasetId": "male-body",
+      "targetId": "coverage:tarsals",
+      "sourceEnglish": "tarsal bone",
+      "geometryPartIds": [
+        "FJ3256",
+        "FJ3258",
+        "FJ3264",
+        "FJ3267",
+        "FJ3271",
+        "FJ3280",
+        "FJ3307",
+        "FJ3308",
+        "FJ3360",
+        "FJ3364",
+        "FJ3370",
+        "FJ3373",
+        "FJ3377",
+        "FJ3385"
+      ],
+      "sourceGeometryNames": [
+        {
+          "id": "FJ3256",
+          "name": "Left calcaneus"
+        },
+        {
+          "id": "FJ3258",
+          "name": "Left cuboid bone"
+        },
+        {
+          "id": "FJ3264",
+          "name": "Left intermediate cuneiform bone"
+        },
+        {
+          "id": "FJ3267",
+          "name": "Left lateral cuneiform bone"
+        },
+        {
+          "id": "FJ3271",
+          "name": "Left medial cuneiform bone"
+        },
+        {
+          "id": "FJ3280",
+          "name": "Left talus"
+        },
+        {
+          "id": "FJ3307",
+          "name": "Navicular bone of left foot"
+        },
+        {
+          "id": "FJ3308",
+          "name": "Navicular bone of right foot"
+        },
+        {
+          "id": "FJ3360",
+          "name": "Right calcaneus"
+        },
+        {
+          "id": "FJ3364",
+          "name": "Right cuboid bone"
+        },
+        {
+          "id": "FJ3370",
+          "name": "Right intermediate cuneiform bone"
+        },
+        {
+          "id": "FJ3373",
+          "name": "Right lateral cuneiform bone"
+        },
+        {
+          "id": "FJ3377",
+          "name": "Right medial cuneiform bone"
+        },
+        {
+          "id": "FJ3385",
+          "name": "Right talus"
+        }
+      ],
+      "aliases": [
+        "tarsal bone"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial_translation_not_official_Turkish_standard",
+      "tr": "Tarsal kemikler",
+      "en": "Tarsal bones",
+      "la": "Ossa tarsi",
+      "side": null,
+      "ta2TableId": 1447,
+      "proposalStatus": "source_matched_candidate",
+      "scopeNote": "Plural display names the existing multi-part class/group selection. Original singular BP3D concept ID/name is preserved; this is not proof that every anatomical member exists.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-official-names",
+          "locator": {
+            "file": "bp3d-isa-parts-list-e.txt",
+            "line": 1186,
+            "representationId": "BP8035",
+            "english": "tarsal bone"
+          }
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": {
+            "upstreamTableId": 1447,
+            "line": 1522,
+            "english": "Tarsal bones",
+            "latin": "Ossa tarsi"
+          }
+        }
+      ]
+    }
+  ],
+  "retainExistingBoundIds": [
+    {
+      "datasetId": "male-body",
+      "id": "FMA7647"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA9603"
+    },
+    {
+      "datasetId": "inner-ear-reference",
+      "id": "inner-ear-reference:left-cochlea"
+    },
+    {
+      "datasetId": "inner-ear-reference",
+      "id": "inner-ear-reference:right-cochlea"
+    },
+    {
+      "datasetId": "female-pelvis",
+      "id": "hra-female:uterus-female"
+    },
+    {
+      "datasetId": "female-pelvis",
+      "id": "hra-female:ovary-female-left"
+    },
+    {
+      "datasetId": "female-pelvis",
+      "id": "hra-female:ovary-female-right"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA13394"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA13303"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA23463"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA37683"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA37682"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA37664"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "FMA22689"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-musculocutaneous-nerve"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-musculocutaneous-nerve"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-median-nerve"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-median-nerve"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-brachial-plexus"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-brachial-plexus"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-coracoid-process"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-coracoid-process"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-supraglenoid-tubercle"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-supraglenoid-tubercle"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-radial-tuberosity"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-radial-tuberosity"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-sciatic-nerve"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-sciatic-nerve"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-medial-meniscus"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-medial-meniscus"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-lateral-meniscus"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-lateral-meniscus"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-anterior-cruciate-ligament"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-anterior-cruciate-ligament"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:left-posterior-cruciate-ligament"
+    },
+    {
+      "datasetId": "male-body",
+      "id": "atlas:right-posterior-cruciate-ligament"
+    }
+  ],
+  "keepFallback": [
+    {
+      "id": "atlas:left-humerus-medial-midshaft",
+      "datasetId": "male-body",
+      "current": {
+        "tr": "Sol humerus gövdesinin orta iç tutunma bölgesi",
+        "en": "Left medial midshaft attachment region of humerus",
+        "la": "Left medial midshaft attachment region of humerus"
+      },
+      "language": "la",
+      "reason": "Project-defined unanchored humeral attachment region; no independently matched TA term. Keep documented English fallback; do not imply an identified landmark or invent Latin."
+    },
+    {
+      "id": "atlas:right-humerus-medial-midshaft",
+      "datasetId": "male-body",
+      "current": {
+        "tr": "Sağ humerus gövdesinin orta iç tutunma bölgesi",
+        "en": "Right medial midshaft attachment region of humerus",
+        "la": "Right medial midshaft attachment region of humerus"
+      },
+      "language": "la",
+      "reason": "Project-defined unanchored humeral attachment region; no independently matched TA term. Keep documented English fallback; do not imply an identified landmark or invent Latin."
+    }
+  ],
+  "sourceCautions": [
+    "Official BP3D name snapshots were retrieved and every proposed FMA ID/name matched.",
+    "Latin spellings are exact pairs from the pinned Z-Anatomy-distributed TA2 table; this is not a fresh full FIPAT publisher-PDF verification.",
+    "FIPAT publisher requests returned DNS/502 failures. IFAA TAH FMA46565/cranium was independently accessible and checked.",
+    "Upstream CSV IDs are local table identifiers here; do not silently equate them with row numbers in other TA2 editions or publisher PDFs.",
+    "Turkish translations are editorial; clinical/anatomist terminology review pending."
+  ]
+}
