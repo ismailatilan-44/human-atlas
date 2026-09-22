@@ -1,0 +1,31 @@
+{
+  "scope": "Actual geometry visual inspection; no generated anatomy or expert acceptance claim.",
+  "expertReview": "pending",
+  "images": [
+    {
+      "filename": "outliers-lung-and-renal-context.png",
+      "sha256": "de168b7850c768214c6545bcc4bc01aed5a47c41efc18b5b1a591c847f7dd948",
+      "observation": "Actual base outliers shown in orange below actual source lung surfaces and alongside base right renal geometry."
+    },
+    {
+      "filename": "outliers-right-renal-close.png",
+      "sha256": "13cad28c5a9da8c4e19d52c70ec7d1c5c1cd495ea08d866a9f86f6a1df35c429",
+      "observation": "Orange source outliers occupy renal branching context; this does not establish exact renal branch names or vascular connectivity."
+    },
+    {
+      "filename": "outliers-right-renal-oblique.png",
+      "sha256": "e518a72931ef99d60a691d427c68cdbb84beafa4bee6986fd44eff25be8cd0c6",
+      "observation": "Retained alternate projection; no additional anatomical claim."
+    },
+    {
+      "filename": "pulmonary-existing-seven.png",
+      "sha256": "019e12b40b20708c6e75af9988847336329bf4a3aee51dce64255f5c6bbb282d",
+      "observation": "Existing seven thoracic branch surfaces, same camera/material/right-upper-lobe context as source43 comparison."
+    },
+    {
+      "filename": "pulmonary-source43-seven.png",
+      "sha256": "ade3115058ed2fa856ba8e04dd27b95c868472ebcf94af7d9fdea87de17e84d4",
+      "observation": "Alternative source43 seven surfaces occupy substantially the same shape and position as existing seven; additive import would duplicate representation."
+    }
+  ]
+}

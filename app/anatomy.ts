@@ -122,6 +122,7 @@ export const SYSTEMS: { id: SystemId; name: string; color: string; description: 
   },
 ];
 export interface Part {
+  sourceConceptId?: string;
   sourceUrl?: string;
   id: string;
   name: string;

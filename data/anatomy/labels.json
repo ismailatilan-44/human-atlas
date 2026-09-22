@@ -1121,7 +1121,7 @@
         "right lung"
       ],
       "evidenceRef": "data/model-candidates/coverage-labels/proposals.json#FMA7309",
-      "representationNoteTr": "Bu seçim akciğerin bronş ve damarlarıyla birlikte 9 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez. Kaynak grubundaki iki küçük damar yüzeyi akciğerin altında kalıyor; anatomik eşleşmeleri henüz doğrulanmadı.",
+      "representationNoteTr": "Bu seçim akciğerin bronş ve damarlarıyla birlikte 9 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
       "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7309"
     },
     {
@@ -2287,7 +2287,7 @@
       ],
       "ta2Id": 3284,
       "evidenceRef": "data/model-candidates/organ-neighbor-labels/source-evidence.json#FMA7333",
-      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 3 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez. Kaynak grubundaki iki küçük damar yüzeyi akciğerin altında kalıyor; anatomik eşleşmeleri henüz doğrulanmadı.",
+      "representationNoteTr": "Bu seçim lobun bronş ve damarlarıyla birlikte 3 segment dokusu yüzeyini içerir. Modelde segment sınırları görünür; mikroskobik yapı ve tüm anatomik varyasyonlar gösterilmez.",
       "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7333"
     },
     {
@@ -3860,7 +3860,7 @@
       ],
       "ta2Id": 3287,
       "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7359",
-      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin. Kaynak grubundaki iki küçük damar yüzeyi akciğerin altında kalıyor; anatomik eşleşmeleri henüz doğrulanmadı.",
+      "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
       "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7359"
     },
     {

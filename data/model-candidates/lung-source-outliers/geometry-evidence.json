@@ -1,0 +1,622 @@
+{
+  "outliers": [
+    {
+      "partId": "FJ2041",
+      "base": {
+        "id": "FJ2041",
+        "name": "Right anterior segmental artery",
+        "conceptId": "FMA8620",
+        "system": "arterial",
+        "chunk": 7,
+        "positions": 1533792,
+        "normals": 1535688,
+        "indices": 1536636,
+        "vertexCount": 158,
+        "indexCount": 870,
+        "bounds": [
+          [
+            -0.0851699,
+            1.1067011999999998,
+            -0.026760499999999993
+          ],
+          [
+            -0.0576642,
+            1.1284212,
+            -0.014118100000000008
+          ]
+        ]
+      },
+      "sourceHeader": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2041",
+        "Representation ID": "BP7722",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA8620",
+        "English name": "Right anterior segmental artery"
+      },
+      "sourceMember": "live_outlier_objects/FJ2041_BP7722_FMA8620_Right anterior segmental artery.obj",
+      "sourceSha256": "2a5e3114257df65d3aa658cf3c64e1f1197beda36c8c4311e495052789727c45",
+      "sourceVsBaseRmsMm": 0.0,
+      "sourceVsBaseMaxMm": 0.0,
+      "minDistanceToLungSurfaceMm": 75.94572007656097,
+      "medianDistanceToLungSurfaceMm": 88.45508098602295,
+      "nearestRenalContext": [
+        {
+          "id": "FJ3562",
+          "name": "Anterior division of right renal artery",
+          "minMm": 0.005387806595535949,
+          "medianMm": 13.94448708742857,
+          "maxMm": 31.198913231492043
+        },
+        {
+          "id": "FJ2043",
+          "name": "Inferior segmental branch of right renal artery",
+          "minMm": 0.06859061249997467,
+          "medianMm": 15.07837837561965,
+          "maxMm": 30.707592144608498
+        },
+        {
+          "id": "FJ3563",
+          "name": "Anterior division of right renal artery",
+          "minMm": 0.08477924711769447,
+          "medianMm": 3.974117338657379,
+          "maxMm": 16.574330627918243
+        },
+        {
+          "id": "FJ3578",
+          "name": "Right renal vein",
+          "minMm": 0.11350860586389899,
+          "medianMm": 2.946128719486296,
+          "maxMm": 18.260439857840538
+        },
+        {
+          "id": "FJ3147",
+          "name": "Right kidney",
+          "minMm": 0.12011908256681636,
+          "medianMm": 8.072562515735626,
+          "maxMm": 14.896506443619728
+        },
+        {
+          "id": "FJ2042",
+          "name": "Superior segmental branch of right renal artery",
+          "minMm": 0.15999580500647426,
+          "medianMm": 6.24837726354599,
+          "maxMm": 22.950926795601845
+        }
+      ],
+      "allBaseParents": [
+        {
+          "id": "FMA8620",
+          "name": "right anterior segmental artery"
+        },
+        {
+          "id": "FMA8755",
+          "name": "segmental pulmonary artery"
+        },
+        {
+          "id": "FMA13278",
+          "name": "anterior segmental artery"
+        },
+        {
+          "id": "FMA50720",
+          "name": "artery"
+        },
+        {
+          "id": "FMA50722",
+          "name": "region of vascular tree organ"
+        },
+        {
+          "id": "FMA50872",
+          "name": "right pulmonary artery"
+        },
+        {
+          "id": "FMA61775",
+          "name": "physical anatomical entity"
+        },
+        {
+          "id": "FMA62955",
+          "name": "anatomical entity"
+        },
+        {
+          "id": "FMA66326",
+          "name": "pulmonary artery"
+        },
+        {
+          "id": "FMA67135",
+          "name": "anatomical structure"
+        },
+        {
+          "id": "FMA67165",
+          "name": "material anatomical entity"
+        },
+        {
+          "id": "FMA67619",
+          "name": "organ region"
+        },
+        {
+          "id": "FMA68197",
+          "name": "right upper lobar artery"
+        },
+        {
+          "id": "FMA82472",
+          "name": "cardinal organ part"
+        },
+        {
+          "id": "FMA86140",
+          "name": "organ segment"
+        },
+        {
+          "id": "FMA86187",
+          "name": "segment of arterial tree organ"
+        },
+        {
+          "id": "FMA7158",
+          "name": "respiratory system"
+        },
+        {
+          "id": "FMA7161",
+          "name": "cardiovascular system"
+        },
+        {
+          "id": "FMA7181",
+          "name": "trunk"
+        },
+        {
+          "id": "FMA7309",
+          "name": "right lung"
+        },
+        {
+          "id": "FMA7333",
+          "name": "upper lobe of right lung"
+        },
+        {
+          "id": "FMA7359",
+          "name": "right anterior bronchopulmonary segment"
+        },
+        {
+          "id": "FMA7563",
+          "name": "body compartment"
+        },
+        {
+          "id": "FMA9576",
+          "name": "thorax"
+        },
+        {
+          "id": "FMA20394",
+          "name": "human body"
+        },
+        {
+          "id": "FMA45621",
+          "name": "pulmonary vascular system"
+        },
+        {
+          "id": "FMA45662",
+          "name": "lower respiratory tract"
+        },
+        {
+          "id": "FMA45842",
+          "name": "pulmonary arterial tree"
+        },
+        {
+          "id": "FMA67994",
+          "name": "intrapulmonary part of right pulmonary artery"
+        },
+        {
+          "id": "FMA85008",
+          "name": "compartment of thorax"
+        },
+        {
+          "id": "FMA85055",
+          "name": "right pulmopleural compartment"
+        },
+        {
+          "id": "FMA228642",
+          "name": "vasculature of body"
+        },
+        {
+          "id": "FMA231424",
+          "name": "body proper"
+        },
+        {
+          "id": "FMA259209",
+          "name": "thoracic segment of trunk"
+        },
+        {
+          "id": "FMA265130",
+          "name": "respiratory tract"
+        }
+      ]
+    },
+    {
+      "partId": "FJ2044",
+      "base": {
+        "id": "FJ2044",
+        "name": "Right anterior segmental artery",
+        "conceptId": "FMA8620",
+        "system": "arterial",
+        "chunk": 7,
+        "positions": 1552580,
+        "normals": 1554428,
+        "indices": 1555352,
+        "vertexCount": 154,
+        "indexCount": 822,
+        "bounds": [
+          [
+            -0.0971391,
+            1.0927012,
+            -0.019103300000000004
+          ],
+          [
+            -0.0582803,
+            1.1125512,
+            -0.013282200000000008
+          ]
+        ]
+      },
+      "sourceHeader": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2044",
+        "Representation ID": "BP7722",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA8620",
+        "English name": "Right anterior segmental artery"
+      },
+      "sourceMember": "live_outlier_objects/FJ2044_BP7722_FMA8620_Right anterior segmental artery.obj",
+      "sourceSha256": "4afa31399eaafe6801467c83b4ac38a14c4c9b4360d9eb5ce39c61e9f846ca84",
+      "sourceVsBaseRmsMm": 0.004120223900461213,
+      "sourceVsBaseMaxMm": 0.07242692663567141,
+      "minDistanceToLungSurfaceMm": 97.88131713867188,
+      "medianDistanceToLungSurfaceMm": 103.09343785047531,
+      "nearestRenalContext": [
+        {
+          "id": "FJ3562",
+          "name": "Anterior division of right renal artery",
+          "minMm": 0.016749778296798468,
+          "medianMm": 16.57374482601881,
+          "maxMm": 38.26029226183891
+        },
+        {
+          "id": "FJ3147",
+          "name": "Right kidney",
+          "minMm": 0.029190285204094835,
+          "medianMm": 9.354297537356615,
+          "maxMm": 15.104717575013638
+        },
+        {
+          "id": "FJ2042",
+          "name": "Superior segmental branch of right renal artery",
+          "minMm": 0.03856539478874765,
+          "medianMm": 17.602059058845043,
+          "maxMm": 39.432015269994736
+        },
+        {
+          "id": "FJ2043",
+          "name": "Inferior segmental branch of right renal artery",
+          "minMm": 0.05568798223976046,
+          "medianMm": 9.56186093389988,
+          "maxMm": 19.11497674882412
+        },
+        {
+          "id": "FJ3563",
+          "name": "Anterior division of right renal artery",
+          "minMm": 0.06282794493017718,
+          "medianMm": 7.596669718623161,
+          "maxMm": 23.747427389025688
+        },
+        {
+          "id": "FJ3578",
+          "name": "Right renal vein",
+          "minMm": 0.08249856909969822,
+          "medianMm": 8.220059797167778,
+          "maxMm": 23.78484420478344
+        }
+      ],
+      "allBaseParents": [
+        {
+          "id": "FMA8620",
+          "name": "right anterior segmental artery"
+        },
+        {
+          "id": "FMA8755",
+          "name": "segmental pulmonary artery"
+        },
+        {
+          "id": "FMA13278",
+          "name": "anterior segmental artery"
+        },
+        {
+          "id": "FMA50720",
+          "name": "artery"
+        },
+        {
+          "id": "FMA50722",
+          "name": "region of vascular tree organ"
+        },
+        {
+          "id": "FMA50872",
+          "name": "right pulmonary artery"
+        },
+        {
+          "id": "FMA61775",
+          "name": "physical anatomical entity"
+        },
+        {
+          "id": "FMA62955",
+          "name": "anatomical entity"
+        },
+        {
+          "id": "FMA66326",
+          "name": "pulmonary artery"
+        },
+        {
+          "id": "FMA67135",
+          "name": "anatomical structure"
+        },
+        {
+          "id": "FMA67165",
+          "name": "material anatomical entity"
+        },
+        {
+          "id": "FMA67619",
+          "name": "organ region"
+        },
+        {
+          "id": "FMA68197",
+          "name": "right upper lobar artery"
+        },
+        {
+          "id": "FMA82472",
+          "name": "cardinal organ part"
+        },
+        {
+          "id": "FMA86140",
+          "name": "organ segment"
+        },
+        {
+          "id": "FMA86187",
+          "name": "segment of arterial tree organ"
+        },
+        {
+          "id": "FMA7158",
+          "name": "respiratory system"
+        },
+        {
+          "id": "FMA7161",
+          "name": "cardiovascular system"
+        },
+        {
+          "id": "FMA7181",
+          "name": "trunk"
+        },
+        {
+          "id": "FMA7309",
+          "name": "right lung"
+        },
+        {
+          "id": "FMA7333",
+          "name": "upper lobe of right lung"
+        },
+        {
+          "id": "FMA7359",
+          "name": "right anterior bronchopulmonary segment"
+        },
+        {
+          "id": "FMA7563",
+          "name": "body compartment"
+        },
+        {
+          "id": "FMA9576",
+          "name": "thorax"
+        },
+        {
+          "id": "FMA20394",
+          "name": "human body"
+        },
+        {
+          "id": "FMA45621",
+          "name": "pulmonary vascular system"
+        },
+        {
+          "id": "FMA45662",
+          "name": "lower respiratory tract"
+        },
+        {
+          "id": "FMA45842",
+          "name": "pulmonary arterial tree"
+        },
+        {
+          "id": "FMA67994",
+          "name": "intrapulmonary part of right pulmonary artery"
+        },
+        {
+          "id": "FMA85008",
+          "name": "compartment of thorax"
+        },
+        {
+          "id": "FMA85055",
+          "name": "right pulmopleural compartment"
+        },
+        {
+          "id": "FMA228642",
+          "name": "vasculature of body"
+        },
+        {
+          "id": "FMA231424",
+          "name": "body proper"
+        },
+        {
+          "id": "FMA259209",
+          "name": "thoracic segment of trunk"
+        },
+        {
+          "id": "FMA265130",
+          "name": "respiratory tract"
+        }
+      ]
+    }
+  ],
+  "comparisonObjects": [
+    {
+      "id": "FJ2044",
+      "header": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2044",
+        "Representation ID": "BP7722",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA8620",
+        "English name": "Right anterior segmental artery"
+      },
+      "bounds": [
+        [
+          -0.0971391,
+          1.0927012,
+          -0.019103300000000004
+        ],
+        [
+          -0.0582803,
+          1.1125512,
+          -0.013282200000000008
+        ]
+      ]
+    },
+    {
+      "id": "FJ2041",
+      "header": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2041",
+        "Representation ID": "BP7722",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA8620",
+        "English name": "Right anterior segmental artery"
+      },
+      "bounds": [
+        [
+          -0.0851699,
+          1.1067011999999998,
+          -0.026760499999999993
+        ],
+        [
+          -0.0576642,
+          1.1284212,
+          -0.014118100000000008
+        ]
+      ]
+    },
+    {
+      "id": "FJ2045",
+      "header": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2045",
+        "Representation ID": "BP7670",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA86348",
+        "English name": "Posterior segmental branch of right renal artery"
+      },
+      "bounds": [
+        [
+          -0.111388,
+          1.0716242,
+          -0.049377800000000006
+        ],
+        [
+          -0.060562700000000004,
+          1.0973112,
+          -0.008068400000000003
+        ]
+      ]
+    },
+    {
+      "id": "FJ2042",
+      "header": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2042",
+        "Representation ID": "BP7665",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA86340",
+        "English name": "Superior segmental branch of right renal artery"
+      },
+      "bounds": [
+        [
+          -0.06901840000000001,
+          1.1083212,
+          -0.0363233
+        ],
+        [
+          -0.057554600000000004,
+          1.1511912,
+          -0.0103472
+        ]
+      ]
+    },
+    {
+      "id": "FJ2043",
+      "header": {
+        "Compatibility version": "4.0",
+        "File ID": "FJ2043",
+        "Representation ID": "BP7668",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA86346",
+        "English name": "Inferior segmental branch of right renal artery"
+      },
+      "bounds": [
+        [
+          -0.0865751,
+          1.0777142,
+          -0.016376400000000013
+        ],
+        [
+          -0.056624400000000005,
+          1.1118712,
+          -0.007624900000000004
+        ]
+      ]
+    },
+    {
+      "id": "FJ6044",
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ6044",
+        "Representation ID": "BP22387",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA8620",
+        "English name": "Right anterior segmental artery"
+      },
+      "bounds": [
+        [
+          -0.0912036,
+          1.3547011999999998,
+          -0.009242100000000003
+        ],
+        [
+          -0.039483,
+          1.3703312,
+          0.0010259999999999991
+        ]
+      ]
+    },
+    {
+      "id": "FJ2974",
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ2974",
+        "Representation ID": "BP22456",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA68677",
+        "English name": "Posterior branch of right anterior segmental artery"
+      },
+      "bounds": [
+        [
+          -0.0910654,
+          1.3547712,
+          -0.009253400000000009
+        ],
+        [
+          -0.039422,
+          1.3703712,
+          0.0009849999999999998
+        ]
+      ]
+    }
+  ],
+  "method": "Actual retained base binary geometry and source OBJ conversion; nearest triangle distance is spatial evidence, not proof of vascular connectivity or anatomical identity."
+}

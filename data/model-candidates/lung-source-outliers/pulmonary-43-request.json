@@ -1,0 +1,25 @@
+{
+  "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "method": "POST",
+  "ids": [
+    "FJ6044",
+    "FJ6045",
+    "FJ6046",
+    "FJ6047",
+    "FJ6049",
+    "FJ6050",
+    "FJ6051"
+  ],
+  "rep_id": [
+    "BP22263",
+    "BP22263",
+    "BP22263",
+    "BP22263",
+    "BP22263",
+    "BP22263",
+    "BP22263"
+  ],
+  "type": "art_file",
+  "all_downloads": 1,
+  "sha256": "58a7c6fba2caf4e4088b772eb407f57dd3664ea30f04ec5e934c2bb35845b085"
+}

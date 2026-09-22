@@ -186,3 +186,5 @@ Kafatası hedefi artık `atlas:skull-bones`22 kemiklik seçime bağlı; kaynak `
 ## Akciğer dokusu aktarımı — 22 Eylül
 
 Mevcut iki akciğer hedefi, 18 BodyParts3D 4.3 segment doku yüzeyiyle genişletildi. Eski 280 yüzey korunarak sağ 165 / sol 133 parça seçiliyor; ana atlas toplam 2.290 parça. 24 akciğer/lob/segment kavramı genişletildi. İki ayrı doku seçim grubu 9'ar yüzey içeriyor. Bu aktarım yeni hedef satırı eklemedi; 65 hedef dağılımı değişmez. Eski sağ gruptaki FJ2041/FJ2044 konum/eşleşme uyuşmazlığı açıklamayla korunuyor ve ayrı inceleniyor. Kaynak kusurları ve uzman incelemesi, geometri varlığı durumundan ayrıdır.
+
+22 Eylül kaynak seçimi düzeltmesi: sağ akciğerin incelenmiş görüntüleme üyeliği163 parçadır; ham165 üyelik ayrı seçimde korunur. FJ2041/FJ2044 kaynak4.0'daki pulmoner kimliğe rağmen renal seviyededir;19 pulmoner/toraks seçiminden çıkarıldı. Ana model2290 yüzeyi korur. Bu iki yüzeyin kesin renal dal kimliği doğrulanmış sayılmaz. `coverage.json` incelenmiş üyeliği ve dışarıda bırakılan iki kaynak kimliğini ayrı kaydeder; kaynak bilgi grafiği değiştirilmedi.

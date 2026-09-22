@@ -1,4 +1,10 @@
 import type { Atlas } from "./anatomy";
+import {
+  applyReviewedSelections,
+  selectionReviewNote,
+  sourceSelectionId,
+  unverifiedSourcePart,
+} from "./reviewed-selections";
 import labels from "../data/anatomy/labels.json";
 import brachialPlexus from "../data/anatomy/brachial-plexus.json";
 
@@ -57,7 +63,7 @@ const HEPATIC_SEGMENT_PARTS = new Set([
 
 /** Apply reviewed display metadata without mutating source data or geometry identities. */
 export function prepareAtlas(atlas: Atlas): Atlas {
-  return {
+  return applyReviewedSelections({
     ...atlas,
     parts: atlas.parts.map((part) => {
       const system = NERVOUS_PARTS.has(part.id)
@@ -71,7 +77,7 @@ export function prepareAtlas(atlas: Atlas): Atlas {
               : part.system;
       return system === part.system ? part : { ...part, system };
     }),
-  };
+  });
 }
 
 /** A missing note does not establish that a structure is fully represented. */
@@ -96,7 +102,8 @@ export function getRepresentationNote(conceptId: string): string | undefined {
     return "Omuriliğin uzunlamasına sinir dokusu ve mevcut merkez kanal parçası birlikte gösteriliyor. Kökler, zarlar ve ayrı segment modelleri bu pakete dahil değildir.";
   }
   const label = LABELS_BY_ID.get(conceptId);
-  return label && "representationNoteTr" in label ? label.representationNoteTr : undefined;
+  const note = label && "representationNoteTr" in label ? label.representationNoteTr : undefined;
+  return [note, selectionReviewNote(conceptId)].filter(Boolean).join(" ") || undefined;
 }
 
 const LABELS_BY_ID = new Map(
@@ -107,6 +114,12 @@ const LABELS_BY_ID = new Map(
 
 /** Outside reviewed label sets, retain the supplied source label. */
 export function anatomyLabel(id: string, fallback: string, language: AnatomyLanguage): string {
+  const sourceId = sourceSelectionId(id);
+  if (sourceId)
+    return `${anatomyLabel(sourceId, fallback, language)} · ${language === "tr" ? "ham kaynak seçimi" : "raw source selection"}`;
+  const unverified = unverifiedSourcePart(id);
+  if (unverified)
+    return `${language === "tr" ? "Kimliği doğrulanmamış damar" : "Unverified vessel"} · ${unverified}`;
   const entry = LABELS_BY_ID.get(id);
   // A missing Latin term must not remove a reviewed source-group qualifier.
   const label =
@@ -129,12 +142,12 @@ export function anatomyLabel(id: string, fallback: string, language: AnatomyLang
 
 /** Include all reviewed languages and source names, regardless of display language. */
 export function anatomySearchTerms(id: string, fallback: string): string[] {
-  const entry = LABELS_BY_ID.get(id);
+  const entry = LABELS_BY_ID.get(sourceSelectionId(id) ?? id);
   const terms = [id, fallback];
-  if (entry) {
+  if (entry || sourceSelectionId(id) || unverifiedSourcePart(id)) {
     terms.push(
       ...(["tr", "en", "la"] as const).map((language) => anatomyLabel(id, fallback, language)),
-      ...entry.aliases,
+      ...(entry?.aliases ?? []),
     );
   }
   // Permit an ASCII keyboard to find Turkish labels while retaining readable terms.

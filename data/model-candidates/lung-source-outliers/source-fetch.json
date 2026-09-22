@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA8620",
+    "file": "FMA8620-pinned43.json",
+    "sha256": "508d5ddd4ee1004b48c5958ab5a9b0a943e6751f4ab188ab806a8a889a9a008c"
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA86342",
+    "file": "FMA86342-pinned43.json",
+    "sha256": "49ff16b6aaf26e9542f35344fd0fe89526744f3235b29fa72dffecbe9c8530a9"
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/get-fmastratum.cgi?version=4.3&lng=en&t_type=4&bul_id=4&cb_id=5&ci_id=1&md_id=1&mv_id=6&mr_id=1&f_id=FMA86344",
+    "file": "FMA86344-pinned43.json",
+    "sha256": "3ca3e8da373f8d2ab1e8798544e89fa813092d1ca11f5067db290c80daaf4a80"
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+    "method": "POST",
+    "filename": "comparison-objects.zip",
+    "ids": [
+      "FJ2042",
+      "FJ2043",
+      "FJ2045",
+      "FJ2974",
+      "FJ6044"
+    ],
+    "rep_id": [
+      "BP7665",
+      "BP7668",
+      "BP7670",
+      "BP20853",
+      "BP22263"
+    ],
+    "type": "art_file",
+    "all_downloads": 1,
+    "sha256": "28c4ad9fd597f08bc8b4350667772cf7a7bf00a33f28fdf64e842ea1ec0ef74b",
+    "note": "Inspect each returned OBJ compatibility version; IDs are not assumed to belong to 4.3."
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+    "method": "POST",
+    "filename": "live-outlier-objects.zip",
+    "ids": [
+      "FJ2041",
+      "FJ2044"
+    ],
+    "rep_id": [
+      "BP7661"
+    ],
+    "type": "art_file",
+    "all_downloads": 1,
+    "sha256": "e9279be861fef20068d0e3816b517425aae2a7b39c11488d7984be38601dfca4",
+    "returnedCompatibilityVersion": "4.0"
+  },
+  {
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "filename": "isa_element_parts.txt",
+    "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+  },
+  {
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_element_parts.txt",
+    "filename": "partof_element_parts.txt",
+    "sha256": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea"
+  },
+  {
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "filename": "isa_parts_list_e.txt",
+    "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+  },
+  {
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_parts_list_e.txt",
+    "filename": "partof_parts_list_e.txt",
+    "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+  },
+  {
+    "filename": "../lung-surfaces/FMA2Obj.txt",
+    "url": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+    "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f",
+    "headers": {
+      "Data Version": "4.3",
+      "Objects set": "4.3",
+      "Tree version": "FMA3.0"
+    }
+  }
+]

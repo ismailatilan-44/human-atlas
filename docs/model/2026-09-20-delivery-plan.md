@@ -118,3 +118,9 @@ Yerel görsel kabul: sağ 165 parçalı akciğer yüzeyi, sol 9 parçalı doku g
 Açık yeni bulgu: eski sağ akciğer grubu içinde FJ2041/FJ2044 yüzeyleri akciğerin altında kalıyor. Mevcut kaynak üyeliği sessizce değiştirilmedi; sağ akciğer/üst lob/anterior segment seçiminde açıklama var. Eşleşmeleri ayrı aday çalışmada inceleniyor. Sonraki somut iş bu kaynak uyuşmazlığını çözmek ve ilgili damar/bronş alt adlarını genişletmek; daha geniş model kapsamı, gerçek cihaz ve uzman inceleme işleri açık kalır.
 
 Yayın kabulü: kaynak `0a9414e5ea25f22280c2b2169e4c2a7a4a381c4f`, statik dal `363aa7a548009636e1f19a21c455573ede25f0a9`; Pages #35674866577 başarılı. Canlı release.json aynı kaynak SHA döndürdü. Gerçek adreste 2.290 parça yüklendi; ASCII `sol akciger dokusu` araması dokuz yüzeyli grubu buldu, izolasyonda geometri ve Türkçe açıklama görüldü. Konsol hata kaydı boş. Üretim JS 332,93 KB gzip; büyük paket uyarısı ve fiziksel cihaz/uzman inceleme sınırları sürüyor.
+
+## Pulmoner kaynak üyeliği düzeltmesi — 22 Eylül, yerel kabul
+
+FJ2041/FJ2044 kaynak4.0 kimlik/konum uyuşmazlığı doğrulandı; importer dönüşüm hatası desteklenmiyor.19 açık pulmoner/toraks seçimi bu iki yüzeyi dışarıda bırakıyor. Sağ akciğer163 ve sağ anterior segmental arter7 yüzey; ham kaynak seçimi165/9 yüzey olarak düğmeyle erişilebilir. Ham manifest/grafik/geometri değiştirilmez. İki yüzey doğrudan seçildiğinde kimliği doğrulanmamış damar olarak gösterilir, kaynak FMA8620 metadata içinde korunur.4.3'ün örtüşen yedi yüzeyi tekrar eklenmedi. Ana model2290 parça.
+
+Mevcut etkileşim kontrolüne yalnız bu değişikliğin kaynak verisini koruması, extension sonrası163/165 üyeliği ve tekrar hazırlamada değişmemesi eklendi. TypeScript ve etkileşim kontrolü geçti. Gerçek arayüzde7/9 damar karşılaştırması,163/165 akciğer geçişi, belirsiz tek parçanın başlığı ve390×844 mobil geometri görüldü. Karşılaştırma düğmesi izolasyonu korur. Tarayıcı hata kaydı boş. Yayın doğrulaması ayrıca kaydedilecek.

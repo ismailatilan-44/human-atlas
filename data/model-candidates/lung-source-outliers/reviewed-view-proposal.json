@@ -1,0 +1,40 @@
+{
+  "status": "reviewed_proposal_not_applied",
+  "preferredOption": "Use existing seven source-corroborated thoracic branch surfaces in an explicitly curated pulmonary selection; preserve raw source group and anomaly note.",
+  "rawConceptId": "FMA8620",
+  "rawElementIds": [
+    "FJ2041",
+    "FJ2044",
+    "FJ2974",
+    "FJ2975",
+    "FJ2976",
+    "FJ2977",
+    "FJ2979",
+    "FJ2980",
+    "FJ2981"
+  ],
+  "proposedReviewedElementIds": [
+    "FJ2974",
+    "FJ2975",
+    "FJ2976",
+    "FJ2977",
+    "FJ2979",
+    "FJ2980",
+    "FJ2981"
+  ],
+  "excludedFromReviewedSelectionOnly": [
+    {
+      "id": "FJ2041",
+      "reason": "Legacy4.0 pulmonary ID with renal-region geometry; exact branch identity unresolved."
+    },
+    {
+      "id": "FJ2044",
+      "reason": "Legacy4.0 pulmonary ID with renal-region geometry; exact branch identity unresolved."
+    }
+  ],
+  "rawSourceMutation": false,
+  "automaticRenalReassignment": false,
+  "alternativeCandidate": "right-anterior-pulmonary-43.json",
+  "alternativeCandidateIntegration": "Do not add over existing seven branches; explicit alternative/replacement only.",
+  "propagation": "Pulmonary parent selections inherit outliers in raw source; any reviewed-view override must be explicit and consistent, not an ontology rewrite."
+}

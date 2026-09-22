@@ -1,0 +1,495 @@
+{
+  "measure": "Bidirectional sampled vertex-to-nearest-triangle distance, existing base binary versus actual4.3source; no fitting.",
+  "pairs": [
+    {
+      "sourceId": "FJ6044",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2974",
+        "baseConceptId": "FMA68677",
+        "baseName": "Posterior branch of right anterior segmental artery",
+        "rmsMm": 0.09750009288253761,
+        "p95Mm": 0.19328408234287053,
+        "maxMm": 0.3198995837010443
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 0.09750009288253761,
+          "p95Mm": 0.19328408234287053,
+          "maxMm": 0.3198995837010443
+        },
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 16.383923169934228,
+          "p95Mm": 32.82342031598091,
+          "maxMm": 34.01580452919006
+        },
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 20.98925058204093,
+          "p95Mm": 36.2408846616745,
+          "maxMm": 36.95769980549812
+        },
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 27.251981139543236,
+          "p95Mm": 54.60793897509575,
+          "maxMm": 55.318158119916916
+        },
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 36.10930119155726,
+          "p95Mm": 56.07437789440155,
+          "maxMm": 56.99620768427849
+        },
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 41.29996642229364,
+          "p95Mm": 58.080922812223434,
+          "maxMm": 59.055786579847336
+        },
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 51.74689943013232,
+          "p95Mm": 70.1947957277298,
+          "maxMm": 71.25096768140793
+        }
+      ]
+    },
+    {
+      "sourceId": "FJ6045",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2975",
+        "baseConceptId": "FMA68683",
+        "baseName": "Anterior branch of right anterior segmental artery",
+        "rmsMm": 0.1252657114636759,
+        "p95Mm": 0.2388635475654155,
+        "maxMm": 0.42989320354536176
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 0.1252657114636759,
+          "p95Mm": 0.2388635475654155,
+          "maxMm": 0.42989320354536176
+        },
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 17.47542067979962,
+          "p95Mm": 30.239112582057714,
+          "maxMm": 30.76557256281376
+        },
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 18.445870332191895,
+          "p95Mm": 33.087047934532166,
+          "maxMm": 33.629968762397766
+        },
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 23.64138054484618,
+          "p95Mm": 46.85492068529129,
+          "maxMm": 47.41870239377022
+        },
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 28.120042366080902,
+          "p95Mm": 54.80150878429413,
+          "maxMm": 55.435653775930405
+        },
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 39.105129961687524,
+          "p95Mm": 64.18976187705994,
+          "maxMm": 64.97389823198318
+        },
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 47.566694372188266,
+          "p95Mm": 71.45340740680695,
+          "maxMm": 71.84304296970367
+        }
+      ]
+    },
+    {
+      "sourceId": "FJ6046",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2976",
+        "baseConceptId": "FMA68683",
+        "baseName": "Anterior branch of right anterior segmental artery",
+        "rmsMm": 0.1628741977587443,
+        "p95Mm": 0.37727493327111006,
+        "maxMm": 0.4519942740444094
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 0.1628741977587443,
+          "p95Mm": 0.37727493327111006,
+          "maxMm": 0.4519942740444094
+        },
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 15.97022938600036,
+          "p95Mm": 23.702811263501644,
+          "maxMm": 23.97444285452366
+        },
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 17.9805815820032,
+          "p95Mm": 24.271046742796898,
+          "maxMm": 24.631882086396217
+        },
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 23.442268337873973,
+          "p95Mm": 46.39677722007036,
+          "maxMm": 47.43296280503273
+        },
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 51.276881098283084,
+          "p95Mm": 70.39867602288723,
+          "maxMm": 71.35603576898575
+        },
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 57.7402658539782,
+          "p95Mm": 65.21822549402714,
+          "maxMm": 65.81316888332367
+        },
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 66.93084803389686,
+          "p95Mm": 77.70256698131561,
+          "maxMm": 77.86651700735092
+        }
+      ]
+    },
+    {
+      "sourceId": "FJ6047",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2977",
+        "baseConceptId": "FMA68683",
+        "baseName": "Anterior branch of right anterior segmental artery",
+        "rmsMm": 0.09206517955054204,
+        "p95Mm": 0.18752997857518494,
+        "maxMm": 0.31225034035742283
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 0.09206517955054204,
+          "p95Mm": 0.18752997857518494,
+          "maxMm": 0.31225034035742283
+        },
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 11.912018285518455,
+          "p95Mm": 23.214370012283325,
+          "maxMm": 23.37316982448101
+        },
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 16.626382688783284,
+          "p95Mm": 23.504566401243206,
+          "maxMm": 23.870475590229034
+        },
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 18.104456553294145,
+          "p95Mm": 32.701483741402626,
+          "maxMm": 33.57134014368057
+        },
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 41.4869197644512,
+          "p95Mm": 58.09793248772621,
+          "maxMm": 59.127990156412125
+        },
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 44.602793524033466,
+          "p95Mm": 46.34874537587166,
+          "maxMm": 46.690210700035095
+        },
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 53.53945597348744,
+          "p95Mm": 64.32054191827774,
+          "maxMm": 64.51097875833511
+        }
+      ]
+    },
+    {
+      "sourceId": "FJ6049",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2979",
+        "baseConceptId": "FMA68683",
+        "baseName": "Anterior branch of right anterior segmental artery",
+        "rmsMm": 0.10214287664281088,
+        "p95Mm": 0.19325982430018485,
+        "maxMm": 0.3342200943734497
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 0.10214287664281088,
+          "p95Mm": 0.19325982430018485,
+          "maxMm": 0.3342200943734497
+        },
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 11.15021781618811,
+          "p95Mm": 22.762807086110115,
+          "maxMm": 23.362115025520325
+        },
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 16.497750803517363,
+          "p95Mm": 29.90848198533058,
+          "maxMm": 30.737379565835
+        },
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 18.4799705188923,
+          "p95Mm": 24.098511785268784,
+          "maxMm": 24.68382753431797
+        },
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 35.76151078371325,
+          "p95Mm": 56.105995178222656,
+          "maxMm": 57.07719922065735
+        },
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 42.55294696516276,
+          "p95Mm": 45.25480419397354,
+          "maxMm": 45.78916355967522
+        },
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 49.8784827113815,
+          "p95Mm": 62.06728518009186,
+          "maxMm": 62.24103271961212
+        }
+      ]
+    },
+    {
+      "sourceId": "FJ6050",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2980",
+        "baseConceptId": "FMA68677",
+        "baseName": "Posterior branch of right anterior segmental artery",
+        "rmsMm": 0.09597378452436137,
+        "p95Mm": 0.19467188394628465,
+        "maxMm": 0.29137401725165546
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 0.09597378452436137,
+          "p95Mm": 0.19467188394628465,
+          "maxMm": 0.29137401725165546
+        },
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 9.293002273947003,
+          "p95Mm": 18.73636618256569,
+          "maxMm": 18.979499116539955
+        },
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 21.10893166457456,
+          "p95Mm": 36.40361428260803,
+          "maxMm": 37.11248189210892
+        },
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 46.32002961448635,
+          "p95Mm": 71.02101296186447,
+          "maxMm": 71.85196131467819
+        },
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 49.753181298035116,
+          "p95Mm": 62.08895146846771,
+          "maxMm": 62.25619092583656
+        },
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 53.34642729276,
+          "p95Mm": 64.35145437717438,
+          "maxMm": 64.51382488012314
+        },
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 67.15091933943154,
+          "p95Mm": 77.71556824445724,
+          "maxMm": 77.87516713142395
+        }
+      ]
+    },
+    {
+      "sourceId": "FJ6051",
+      "sourceConceptId": "FMA8620",
+      "bestExistingCorrespondence": {
+        "basePartId": "FJ2981",
+        "baseConceptId": "FMA68677",
+        "baseName": "Posterior branch of right anterior segmental artery",
+        "rmsMm": 0.02459786436528067,
+        "p95Mm": 0.04623772838385776,
+        "maxMm": 0.10743483289843425
+      },
+      "allComparisons": [
+        {
+          "basePartId": "FJ2981",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 0.02459786436528067,
+          "p95Mm": 0.04623772838385776,
+          "maxMm": 0.10743483289843425
+        },
+        {
+          "basePartId": "FJ2980",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 9.364360203570726,
+          "p95Mm": 18.718214705586433,
+          "maxMm": 18.977712839841843
+        },
+        {
+          "basePartId": "FJ2974",
+          "baseConceptId": "FMA68677",
+          "baseName": "Posterior branch of right anterior segmental artery",
+          "rmsMm": 15.51782052717567,
+          "p95Mm": 32.78889451175928,
+          "maxMm": 34.037381410598755
+        },
+        {
+          "basePartId": "FJ2975",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 37.586221899988445,
+          "p95Mm": 59.29831396788359,
+          "maxMm": 64.99490141868591
+        },
+        {
+          "basePartId": "FJ2979",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 42.47013416862605,
+          "p95Mm": 44.43126115947962,
+          "maxMm": 45.777902007102966
+        },
+        {
+          "basePartId": "FJ2977",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 44.59474142158343,
+          "p95Mm": 46.39418050646782,
+          "maxMm": 46.68060317635536
+        },
+        {
+          "basePartId": "FJ2976",
+          "baseConceptId": "FMA68683",
+          "baseName": "Anterior branch of right anterior segmental artery",
+          "rmsMm": 57.910385709648125,
+          "p95Mm": 65.3848722577095,
+          "maxMm": 65.99225848913193
+        }
+      ]
+    }
+  ]
+}

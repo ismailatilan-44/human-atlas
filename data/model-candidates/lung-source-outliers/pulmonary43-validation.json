@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "parts": 7,
+  "triangles": 1464,
+  "checks": [
+    "official4.3FMA8620 IS-A object set exact match",
+    "seven distinct nearest existing branch correspondences",
+    "per-OBJ hashes and exact source coordinate conversion",
+    "finite positions, valid indices, unit normals",
+    "gzip equals binary; binary checksum",
+    "withheld non-additive status"
+  ],
+  "binarySha256": "7279b73411795bc9769afff7a576e860102b715a53faa86bfea913aae9004ead"
+}

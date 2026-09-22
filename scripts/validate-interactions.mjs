@@ -5,16 +5,23 @@ import {PointerTap} from '../app/pointer-tap.ts';
 import {createServer} from 'vite';
 // Use the app's bundler for its TypeScript and JSON dependency imports.
 const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
-let atlasTools, mergeAtlas, loadAtlas, explorerConcepts;
+let atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel;
 try {
   ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts'));
   ({mergeAtlas, loadAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
   ({explorerConcepts} = await loader.ssrLoadModule('/app/knowledge.ts'));
+  ({prepareAtlas, anatomyLabel} = await loader.ssrLoadModule('/app/atlas-metadata.ts'));
 }
 finally { await loader.close(); }
 
 for (const file of ['atlas.json']) {
   let atlas=JSON.parse(await readFile(new URL(`../public/models/${file}`,import.meta.url)));
+  const baseSource = atlas;
+  const untouched = structuredClone(atlas);
+  atlas = prepareAtlas(atlas);
+  assert.deepEqual(baseSource, untouched, "Display review must not mutate the source manifest");
+  assert.equal(untouched.concepts.find(c=>c.id==='FMA8620').elements.length, 9);
+  assert.equal(atlas.concepts.find(c=>c.id==='FMA8620').elements.length, 7);
   const registry=JSON.parse(await readFile(new URL('../public/models/extensions/index.json',import.meta.url)));
   for (const url of registry.manifests) {
     const extension=JSON.parse(await readFile(new URL('../public'+url,import.meta.url)));
@@ -26,6 +33,26 @@ for (const file of ['atlas.json']) {
       for (const part of original.elements) assert(merged.elements.includes(part), 'Existing geometry was lost during extension');
       assert.throws(()=>mergeAtlas(previous,{...extension,extendsConceptIds:[]}), /yinelenen/);
     }
+  }
+  assert.deepEqual(prepareAtlas(atlas), atlas, 'Repeated metadata preparation must preserve both selections');
+  const reviewedLung = atlas.concepts.find(c=>c.id==='FMA7309');
+  const rawLung = atlas.concepts.find(c=>c.id==='atlas:source-membership:FMA7309');
+  assert.equal(reviewedLung.elements.length, 163);
+  assert.equal(rawLung.elements.length, 165);
+  assert.equal(rawLung.elements.filter(id=>id.startsWith('BP43-')).length, 9, 'Source alias must retain subsequently merged tissue');
+  assert.equal(atlas.concepts.find(c=>c.id==='atlas:source-membership:FMA8620').elements.length, 9);
+  for (const id of ['FJ2041','FJ2044']) {
+    assert(!reviewedLung.elements.includes(id));
+    assert(rawLung.elements.includes(id));
+    const original = untouched.parts.find(p=>p.id===id), current = atlas.parts.find(p=>p.id===id);
+    assert.equal(current.sourceConceptId, original.conceptId);
+    assert.match(anatomyLabel(current.conceptId,current.name,'tr'), /Kimliği doğrulanmamış damar/);
+    for (const field of ['positions','normals','indices','bounds','vertexCount','indexCount','chunk'])
+      assert.deepEqual(current[field], original[field], 'Source geometry must not be changed');
+  }
+  for (const raw of atlas.concepts.filter(c=>c.id.startsWith('atlas:source-membership:'))) {
+    const reviewed=atlas.concepts.find(c=>c.id===raw.id.replace('atlas:source-membership:',''));
+    assert.deepEqual(reviewed.elements,raw.elements.filter(id=>!['FJ2041','FJ2044'].includes(id)));
   }
   const groups=[atlas.parts,...[...new Set(atlas.parts.map(p=>p.system))].map(system=>atlas.parts.filter(p=>p.system===system))];
   for(const group of groups) for(const aspect of [.46,1,1.7]) {

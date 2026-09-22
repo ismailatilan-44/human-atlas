@@ -38,3 +38,6 @@ next-env.d.ts
 /work/
 /data/model-candidates/**/export.log
 *.tsbuildinfo
+
+# Local Blender diagnostics may contain machine-specific paths
+/data/model-candidates/lung-source-outliers/*.log

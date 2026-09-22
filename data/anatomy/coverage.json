@@ -781,8 +781,6 @@
                 "BP43-FJ6610",
                 "BP43-FJ6611",
                 "BP43-FJ6612",
-                "FJ2041",
-                "FJ2044",
                 "FJ2449",
                 "FJ2451",
                 "FJ2452",
@@ -937,11 +935,16 @@
                 "FJ3068",
                 "FJ3069",
                 "FJ3070"
+              ],
+              "displaySelectionReview": "app/reviewed-selections.ts",
+              "excludedSourceGeometryPartIds": [
+                "FJ2041",
+                "FJ2044"
               ]
             }
           ],
           "expertReview": "pending",
-          "note": "Mevcut280 bronş/damar yüzeyi korunarak18 segment dokusu yüzeyi eklendi: sağ165,sol133 parça. Beş lobun kaynak üyeliği korunur; tek birleşik/manifold akciğer veya klinik segmentasyon tamlığı iddiası yok. Sağ kaynak grupta akciğer altına düşen mevcutFJ2041/FJ2044 eşleşmesi incelemede.",
+          "note": "18 segment dokusu yüzeyi mevcut bronş/damar yüzeylerine eklenmiştir. İncelenmiş seçim sağ163, sol133 parçadır. Sağ ham kaynak grubu165 parçayı korur; böbrek seviyesindeki FJ2041/FJ2044 incelenmiş pulmoner/toraks seçimlerinden çıkarılmıştır. Tek manifold akciğer veya klinik segmentasyon tamlığı iddiası yok.",
           "candidateIds": [],
           "representation": "registered_geometry"
         },

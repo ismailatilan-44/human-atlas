@@ -12,6 +12,7 @@ import { loadAtlas } from "./load-atlas";
 import { flushSync } from "react-dom";
 import { registerAtlasTools } from "./agent-tools";
 import { getRepresentationNote } from "./atlas-metadata";
+import { selectionVariant } from "./reviewed-selections";
 import { explorerConcepts, relationshipsFor, knowledgeSources } from "./knowledge";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
@@ -139,6 +140,8 @@ export default function Home() {
     [chosen, conceptMap, reference],
   );
   const anchorMap = useMemo(() => new Map(atlas?.anchors?.map((a) => [a.conceptId, a])), [atlas]);
+  const variant = chosen && !reference ? selectionVariant(chosen.id) : undefined;
+  const variantConcept = variant ? conceptMap.get(variant.id) : undefined;
   const chosenAnchor = chosen ? anchorMap.get(chosen.id) : undefined;
   const label = (c: { id: string; name: string }) => datasetLabel(dataset, c.id, c.name, language);
   const remember = () => {
@@ -205,7 +208,7 @@ export default function Home() {
       .sort((a, b) => a.name.length - b.name.length)
       .slice(0, 80);
   }, [atlas, concepts, query, dataset, reference]);
-  const choose = (c: Concept) => {
+  const choose = (c: Concept, preserveIsolation = false) => {
     const anchor = anchorMap.get(c.id);
     remember();
     setChosen(c);
@@ -214,7 +217,7 @@ export default function Home() {
       selected: c.elements,
       anchor: anchor ? { ...anchor, label: label(c) } : undefined,
       ghost: anchor ? true : s.ghost,
-      isolate: false,
+      isolate: preserveIsolation ? s.isolate : false,
       focused: c.elements.length > 0 || !!anchor,
       explode: 0,
       rotate: false,
@@ -729,6 +732,11 @@ export default function Home() {
               <p className="anchor-note">
                 Tutunma yüzeyinden alınmış referans noktasıdır; yapının sınırlarını göstermez.
               </p>
+            )}
+            {variantConcept && variant && (
+              <Button variant="outline" onClick={() => choose(variantConcept, true)}>
+                {variant.source ? "Ham kaynak seçimini göster" : "İncelenmiş seçime dön"}
+              </Button>
             )}
             <SheetDescription className="structure-description">
               {reference
