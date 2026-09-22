@@ -25,7 +25,7 @@ Bütün hedeflerde anatomik uzman incelemesi bekliyor. Geometri varlığından `
 
 | İlk sürüm hedefi | Durum | Mevcut kimlikler / indirilen aday |
 | --- | --- | --- |
-| Kafatası | Mevcut | `FMA46565` |
+| Kafatası | Mevcut | `atlas:skull-bones`: 22 kemik; `FMA46565` geniş kaynak grubu ayrıca korunur |
 | Mandibula | Mevcut | `FMA52748` |
 | Beyin | Mevcut | `FMA50801` |
 | Hipokampus, iki taraf | Mevcut | `FMA62493` |
@@ -182,3 +182,7 @@ Bu sınırlı 65 hedeflik listede artık “eksik” işaretli satır kalmaması
 ## Etiket ve seçim güncellemesi — 22 Eylül
 
 Kafatası hedefi artık `atlas:skull-bones`22 kemiklik seçime bağlı; kaynak `FMA46565`43 parçalık grubu değişmedi. Sayılan65 hedef ve 61/3/0/1 durumları aynı. Doğrudan83bağdaTR/EN etiket boşluğu yok;LA 4 bilinçli boşluk. Alt parça ve bütün atlas kapsamı için bu sonuç genellenmez. Rotator manşete26 kaynak ilişki ve8 geometrisiz sinir kavramı eklendi; bunlar65 hedefe 8 yeni model eklendiği anlamına gelmez.
+
+## Akciğer dokusu aktarımı — 22 Eylül
+
+Mevcut iki akciğer hedefi, 18 BodyParts3D 4.3 segment doku yüzeyiyle genişletildi. Eski 280 yüzey korunarak sağ 165 / sol 133 parça seçiliyor; ana atlas toplam 2.290 parça. 24 akciğer/lob/segment kavramı genişletildi. İki ayrı doku seçim grubu 9'ar yüzey içeriyor. Bu aktarım yeni hedef satırı eklemedi; 65 hedef dağılımı değişmez. Eski sağ gruptaki FJ2041/FJ2044 konum/eşleşme uyuşmazlığı açıklamayla korunuyor ve ayrı inceleniyor. Kaynak kusurları ve uzman incelemesi, geometri varlığı durumundan ayrıdır.

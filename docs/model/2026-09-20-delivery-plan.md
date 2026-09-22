@@ -2,6 +2,8 @@
 
 İlk plan: 20 Eylül 2026. Güncelleme: 22 Eylül 2026. Kod, kaynak paketi, görsel kabul ve yayın birbirinden ayrı izlenir.
 
+Güncel canlı sürüm: `0a9414e` — ana atlas 2.290 parça, ayrı kadın pelvis 27 ve iç kulak 6 parça; 271 etiket kaydı. Gerçek yayında akciğer dokusu arama/seçim/geometri kabulü yapıldı. Aşağıdaki tarihî sürüm kayıtları önceki aşamaları gösterir.
+
 ## Hedef
 
 Tıp öğrencileri için anatomik yapıları seçilebilir, adlandırılmış, ilişkileri izlenebilir ve bölge düzeyinde incelenebilir bir model deneyimi. Human Atlas başlangıç tabanıdır; kullanılabilir parçalar yeniden modellenmez. Eksikler doğrulanmış açık kaynaklardan tamamlanır. Önce model, sonra ders akışının yapı kimliklerine ve kayıtlı sahnelere bağlanması. Ders/quiz/AI model tesliminin ön koşulu değildir.
@@ -24,11 +26,11 @@ GitHub OAuth oturumu workflow dosyası yazma yetkisi vermediği için ilk Action
 
 ## Uygulanan model ve etkileşim
 
-- 2.234 temel parça + 38 yeni parça: bilateral muskülokutan/median/siyatik sinirler, sekiz diz yüzeyi, üç tiroid yüzeyi, bir omurilik sinir dokusu yüzeyi ve 20 kısmi pleksus parçası. Altı tutunma referans noktası ayrı gösterilir; bağımsız yüzey gibi sayılmaz.
+- 2.234 temel parça + 56 yeni parça: bilateral muskülokutan/median/siyatik sinirler, sekiz diz yüzeyi, üç tiroid yüzeyi, bir omurilik sinir dokusu yüzeyi 20 kısmi pleksus parçası ve 18 akciğer doku yüzeyi. Altı tutunma referans noktası ayrı gösterilir; bağımsız yüzey gibi sayılmaz.
 - Beş beyin parçası, dört kafatası kemiği ve iki subskapularis kasının yanlış sistem ataması yüklemede düzeltilir.
 - FMA7647 artık mevcut FJ1737 merkez kanalını ve yeni BP43-FJ4426 uzunlamasına sinir dokusunu birlikte içerir. Kök, zar, ayrı segment ve gri/beyaz madde modelleri tamamlandı diye sunulmaz. Kavram genişletmesi manifestte açıkça izinlidir; izinsiz kimlik çakışmaları reddedilir.
 - Tiroid FMA9603: sağ/sol lob ve isthmus, resmî BodyParts3D 4.3 kaynağından. Stilize Z-Anatomy tiroidi görsel incelemede yetersiz bulundu ve aktif kayda alınmadı.
-- Grafik: 3.495 kavram, 1.505 ilişki; çoğunluğu kaynak PART-OF hiyerarşisidir. Bütün atlasın işlevsel bağlantıları tamamlandı anlamına gelmez. Siyatik bağlantılarında tibial/common-fibular bölüm ayrımı arayüzde korunur.
+- Grafik: 3.514 kavram, 1.524 ilişki; çoğunluğu kaynak PART-OF hiyerarşisidir. Bütün atlasın işlevsel bağlantıları tamamlandı anlamına gelmez. Siyatik bağlantılarında tibial/common-fibular bölüm ayrımı arayüzde korunur.
 - Seçme, odak, çevre saydamlığı, gizleme, önceki görünüm/kamera, sistem filtresi, bölge seçimi ve kapsam paneli çalışır. Çok dilli etiketler seçilmiş bölgelere uygulanır; bütün atlas çevirisi tamamlanmış değildir.
 - Katalog: 61 mevcut, 3 kısmi, 0 eksik, 1 doğrulanmamış hedef grubu; mevcutların 3’ü ayrı kadın pelvis, 1’i ayrı iç kulak referansındadır. Üç mevcut satır toplam altı yüzey referans noktasıdır. Güncel makine kaydı `data/anatomy/coverage.json`.
 
@@ -44,7 +46,7 @@ BodyParts3D 4.0 temel geometri BY 4.0; yeni canlı 4.3 tiroid/omurilik BY-SA 2.1
 
 | İş | Bitiş ölçütü | Güncel durum |
 | --- | --- | --- |
-| Çalışan ilk yayını vermek | Gerçek adreste model ve temel inceleme akışları çalışır | 2.272 parçalı sürüm canlı; pleksus, ayrı kadın pelvis ve iç kulak akışları gerçek adreste doğrulandı |
+| Çalışan ilk yayını vermek | Gerçek adreste model ve temel inceleme akışları çalışır | 2.290 parçalı sürüm canlı; akciğer dokusu, pleksus, ayrı kadın pelvis ve iç kulak akışları gerçek adreste doğrulandı |
 | Brakiyal pleksus | Kaynak parçalar doğru ad/kapsamla, ölçülmüş yerleşim ve tıklanabilir seçimle görünür | 20 trunk/division/posterior-cord parçası kayıtlı; 23 üç dilli kavram ve 22 kaynak grup ilişkisi. Kökler/iki kordon yok; boyun4–5mm/ilk kaburga8mm uyum sınırı arayüzde belirtilir. Yerel ve canlı görsel kabul yapıldı; becb591 sürümünde yayında |
 | Kadın pelvis referansı | Erkek modele karışmayan ayrı sahne; uterus ve sağ/sol ovaryum kendi kaynaklarıyla, uygun pelvis bağlamında | Resmî HRA kaynaklarından 27 parça / 31 kavram içeren ayrı paket ve sahne seçici yerelde hazır; veri ayrımı ve TypeScript kontrolü geçti. Masaüstü ve 390×844 arayüzde kadraj, seçim/saydamlık, iki referans arasında temiz geçiş ve TR/LA etiketler doğrulandı; 90e054c sürümünde canlı; gerçek yayında geometri, Türkçe arama ve seçim doğrulandı |
 | Koklea | İki gerçek yüzey, kaynak/atıf ve temporal bölge uyumu doğrulanır | Ana atlasa farklı kafatası uyumu uygulanmadı. Kaynağın kendi temporal kemikleriyle 6 parçalı ayrı referans hazır; tek uniform eksen dönüşümüyle konum ilişkileri korunur. Koklea seçimi ve Türkçe arama yerelde ve canlı yayında doğrulandı. NC-SA bileşen koşulu ve köken çıkarımı açık |
@@ -114,3 +116,5 @@ Etiket 155 → 271 kayıt:46 organ komşusu, 26 kas, 8 hepatovenöz segment, 17 
 Yerel görsel kabul: sağ 165 parçalı akciğer yüzeyi, sol 9 parçalı doku grubu, dokuyu gizledikten sonra 37 parçalı sol pulmoner arteri saydam çevrede inceleme; parankim 2 → segment 19 → lob 73 → akciğer 133 gerçek düğme akışı. Mobil 390×844 Türkçe arama iki ayrı segment/parankim sonucunu verdi, Latince segment başlığı ve geometri görüldü. Kas ve karaciğer katmanları ile kaynak-grubu dil değişimi de kontrol edildi. TypeScript, mevcut 5 grafik testi ve etkileşim doğrulayıcısı geçti; tarayıcı hata kaydı boş. Üretim derlemesi/yayın kabulü ayrıca kaydedilecek.
 
 Açık yeni bulgu: eski sağ akciğer grubu içinde FJ2041/FJ2044 yüzeyleri akciğerin altında kalıyor. Mevcut kaynak üyeliği sessizce değiştirilmedi; sağ akciğer/üst lob/anterior segment seçiminde açıklama var. Eşleşmeleri ayrı aday çalışmada inceleniyor. Sonraki somut iş bu kaynak uyuşmazlığını çözmek ve ilgili damar/bronş alt adlarını genişletmek; daha geniş model kapsamı, gerçek cihaz ve uzman inceleme işleri açık kalır.
+
+Yayın kabulü: kaynak `0a9414e5ea25f22280c2b2169e4c2a7a4a381c4f`, statik dal `363aa7a548009636e1f19a21c455573ede25f0a9`; Pages #35674866577 başarılı. Canlı release.json aynı kaynak SHA döndürdü. Gerçek adreste 2.290 parça yüklendi; ASCII `sol akciger dokusu` araması dokuz yüzeyli grubu buldu, izolasyonda geometri ve Türkçe açıklama görüldü. Konsol hata kaydı boş. Üretim JS 332,93 KB gzip; büyük paket uyarısı ve fiziksel cihaz/uzman inceleme sınırları sürüyor.
