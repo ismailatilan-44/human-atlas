@@ -1,0 +1,13 @@
+{
+  "scopedConcepts": 4,
+  "newTrEnRecords": 4,
+  "retainedExisting": 0,
+  "verifiedLatin": 2,
+  "nullLatin": 2,
+  "officialIdNameMatches": 4,
+  "reviewedFMA8620Surfaces": 7,
+  "posteriorBranchSurfaces": 3,
+  "anteriorBranchSurfaces": 4,
+  "unionOfBranchesEqualsReviewedSelection": true,
+  "sharedFilesWritten": false
+}

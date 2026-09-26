@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal_only_not_applied",
+  "scope": "Requested FMA8620 and two sub-branches plus the one current direct arterial branch neighbor of right/left pulmonary artery",
+  "entries": [
+    {
+      "ids": [
+        "FMA8620"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right anterior segmental artery",
+      "tr": "Sağ akciğer anterior segmental arteri",
+      "en": "Right anterior segmental artery",
+      "la": "Arteria segmentalis anterior pulmonis dextri",
+      "side": null,
+      "aliases": [
+        "sağ ön segment atardamarı",
+        "sağ anterior segmental pulmoner arter"
+      ],
+      "ta2TableId": 4080,
+      "geometryPartIds": [
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981"
+      ],
+      "rawSourceGeometryPartIds": [
+        "FJ2041",
+        "FJ2044",
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "İncelenmiş seçim yedi torasik damar yüzeyini içerir. Ham kaynak grubundaki FJ2041/FJ2044 bu seçimden ayrılmıştır; kimlikleri belirsizdir ve renal damara otomatik yeniden atanmaz.",
+      "evidenceRef": "source-evidence.json#FMA8620"
+    },
+    {
+      "ids": [
+        "FMA68677"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "posterior branch of right anterior segmental artery",
+      "tr": "Sağ anterior segmental pulmoner arterin posterior dalı",
+      "en": "Posterior branch of right anterior segmental artery",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sağ anterior segmental arterin arka dalı"
+      ],
+      "ta2TableId": null,
+      "geometryPartIds": [
+        "FJ2974",
+        "FJ2980",
+        "FJ2981"
+      ],
+      "rawSourceGeometryPartIds": [
+        "FJ2974",
+        "FJ2980",
+        "FJ2981"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Bu kavram anterior segmental arterin posterior alt dalıdır; üç mevcut kaynak yüzeyini birlikte seçer. Ana segmental arterle eşitlenmez.",
+      "evidenceRef": "source-evidence.json#FMA68677"
+    },
+    {
+      "ids": [
+        "FMA68683"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "anterior branch of right anterior segmental artery",
+      "tr": "Sağ anterior segmental pulmoner arterin anterior dalı",
+      "en": "Anterior branch of right anterior segmental artery",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sağ anterior segmental arterin ön dalı"
+      ],
+      "ta2TableId": null,
+      "geometryPartIds": [
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2979"
+      ],
+      "rawSourceGeometryPartIds": [
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2979"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Bu kavram anterior segmental arterin anterior alt dalıdır; dört mevcut kaynak yüzeyini birlikte seçer. Ana segmental arterle eşitlenmez.",
+      "evidenceRef": "source-evidence.json#FMA68683"
+    },
+    {
+      "ids": [
+        "FMA68201"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left lower lobar artery",
+      "tr": "Sol akciğer alt lob arteri",
+      "en": "Left lower lobar artery",
+      "la": "Arteria lobaris inferior pulmonis sinistri",
+      "side": null,
+      "aliases": [
+        "sol alt lobar arter"
+      ],
+      "ta2TableId": 4101,
+      "geometryPartIds": [
+        "FJ2881",
+        "FJ2882",
+        "FJ2883",
+        "FJ2884",
+        "FJ2885",
+        "FJ2886",
+        "FJ2887",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2892",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895",
+        "FJ2903",
+        "FJ2914",
+        "FJ2919",
+        "FJ2920",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923"
+      ],
+      "rawSourceGeometryPartIds": [
+        "FJ2881",
+        "FJ2882",
+        "FJ2883",
+        "FJ2884",
+        "FJ2885",
+        "FJ2886",
+        "FJ2887",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2892",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895",
+        "FJ2903",
+        "FJ2914",
+        "FJ2919",
+        "FJ2920",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Kaynak dal kimliği korunur; etiket tam damar ağacı veya geometri eksiksizliği iddiası değildir.",
+      "evidenceRef": "source-evidence.json#FMA68201"
+    }
+  ],
+  "retainExisting": [],
+  "geometryPolicy": "Evidence-only identity and reviewed-selection snapshots; this label package does not change raw source membership, perform renal reassignment or integrate an alternative mesh."
+}

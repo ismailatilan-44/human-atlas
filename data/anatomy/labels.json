@@ -3947,6 +3947,66 @@
       "evidenceRef": "data/model-candidates/lung-segment-labels/source-evidence.json#FMA7363",
       "representationNoteTr": "Segment dokusu ve bu segment için mevcut diğer yüzeyler birlikte gösterilir. Yalnız dokuyu incelemek için parankim alt yapısını seçin.",
       "representationEvidenceRef": "public/models/extensions/lung-bp3d43.json#FMA7363"
+    },
+    {
+      "ids": [
+        "FMA8620"
+      ],
+      "tr": "Sağ akciğer anterior segmental arteri",
+      "en": "Right anterior segmental artery",
+      "la": "Arteria segmentalis anterior pulmonis dextri",
+      "side": null,
+      "aliases": [
+        "sağ ön segment atardamarı",
+        "sağ anterior segmental pulmoner arter"
+      ],
+      "ta2Id": 4080,
+      "evidenceRef": "data/model-candidates/pulmonary-branch-labels/source-evidence.json#FMA8620"
+    },
+    {
+      "ids": [
+        "FMA68677"
+      ],
+      "tr": "Sağ anterior segmental pulmoner arterin posterior dalı",
+      "en": "Posterior branch of right anterior segmental artery",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sağ anterior segmental arterin arka dalı"
+      ],
+      "ta2Id": null,
+      "evidenceRef": "data/model-candidates/pulmonary-branch-labels/source-evidence.json#FMA68677",
+      "representationNoteTr": "Bu kavram anterior segmental arterin posterior alt dalıdır; üç mevcut kaynak yüzeyini birlikte seçer. Ana segmental arterle eşitlenmez."
+    },
+    {
+      "ids": [
+        "FMA68683"
+      ],
+      "tr": "Sağ anterior segmental pulmoner arterin anterior dalı",
+      "en": "Anterior branch of right anterior segmental artery",
+      "la": null,
+      "side": null,
+      "aliases": [
+        "sağ anterior segmental arterin ön dalı"
+      ],
+      "ta2Id": null,
+      "evidenceRef": "data/model-candidates/pulmonary-branch-labels/source-evidence.json#FMA68683",
+      "representationNoteTr": "Bu kavram anterior segmental arterin anterior alt dalıdır; dört mevcut kaynak yüzeyini birlikte seçer. Ana segmental arterle eşitlenmez."
+    },
+    {
+      "ids": [
+        "FMA68201"
+      ],
+      "tr": "Sol akciğer alt lob arteri",
+      "en": "Left lower lobar artery",
+      "la": "Arteria lobaris inferior pulmonis sinistri",
+      "side": null,
+      "aliases": [
+        "sol alt lobar arter"
+      ],
+      "ta2Id": 4101,
+      "evidenceRef": "data/model-candidates/pulmonary-branch-labels/source-evidence.json#FMA68201",
+      "representationNoteTr": "Kaynak dal kimliği korunur; etiket tam damar ağacı veya geometri eksiksizliği iddiası değildir."
     }
   ]
 }

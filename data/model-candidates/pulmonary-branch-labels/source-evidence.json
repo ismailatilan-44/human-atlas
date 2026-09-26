@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "inputSnapshots": [
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "data/anatomy/explorer.json",
+      "sha256": "b1b464af9e9be5cd974fe52e1ead89256469f2405e4d58f16daafe18335d47e8"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "f1199587a68e75889d20eda5a87afbd361caa9021520ca31842b85ef1058e319"
+    },
+    {
+      "path": "data/model-candidates/lung-source-outliers/FMA8620-pinned43.json",
+      "sha256": "508d5ddd4ee1004b48c5958ab5a9b0a943e6751f4ab188ab806a8a889a9a008c"
+    },
+    {
+      "path": "data/model-candidates/lung-source-outliers/reviewed-view-proposal.json",
+      "sha256": "7db3062807cbf9501795f36722bed22d0a48311857af1d91b709c39a45193431"
+    },
+    {
+      "path": "data/model-candidates/lung-source-outliers/evidence.json",
+      "sha256": "1182e8d7dfc43c6e089218173f4c99142854c4663baca6a8cbff41d0c1ca5963"
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/model-candidates/lung-source-outliers/isa_parts_list_e.txt",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt"
+    },
+    {
+      "path": "data/model-candidates/lung-source-outliers/partof_parts_list_e.txt",
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_parts_list_e.txt"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv"
+    }
+  ],
+  "scopeCheck": {
+    "parentIds": [
+      "FMA50872",
+      "FMA50873"
+    ],
+    "directArterialChildren": [
+      {
+        "id": "FMA68201|part_of|FMA50873",
+        "subject": "FMA68201",
+        "predicate": "part_of",
+        "object": "FMA50873",
+        "status": "source_imported",
+        "viaDivision": null,
+        "attachmentNoteTr": null,
+        "evidence": [
+          {
+            "sourceId": "bp3d-partof",
+            "locator": "line 878: parent=FMA50873, child=FMA68201"
+          }
+        ]
+      }
+    ],
+    "notIncluded": "FMA45842 pulmonary arterial tree is a parent group, not a direct arterial branch; no additional graph expansion."
+  },
+  "entries": [
+    {
+      "id": "FMA8620",
+      "bp3d": [
+        {
+          "path": "data/model-candidates/lung-source-outliers/isa_parts_list_e.txt",
+          "line": 233,
+          "english": "right anterior segmental artery",
+          "representationId": "BP7661"
+        },
+        {
+          "path": "data/model-candidates/lung-source-outliers/partof_parts_list_e.txt",
+          "line": 202,
+          "english": "right anterior segmental artery",
+          "representationId": "BP9744"
+        }
+      ],
+      "official43SnapshotRecords": [
+        {
+          "jsonPath": "$/images/0/is_a_brother/0/children/2",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/is_a_path2root/0/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_brother/0/children/3",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_brother/1/children/1",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/0/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/1/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/2/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/3/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/4/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/5/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/6/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/7/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/8/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/9/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        },
+        {
+          "jsonPath": "$/images/0/partof_path2root/10/fma/0",
+          "id": "FMA8620",
+          "english": "Right anterior segmental artery",
+          "latin": "Ramus anterior descendens (arteria pulmonalis dextra)"
+        }
+      ],
+      "ta2": {
+        "upstreamTableId": 4080,
+        "english": "Anterior segmental artery of right lung",
+        "latin": "Arteria segmentalis anterior pulmonis dextri",
+        "line": 4163
+      },
+      "geometry": [
+        {
+          "id": "FJ2974",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ2975",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2976",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2977",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2979",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2980",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ2981",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        }
+      ],
+      "relationEvidence": [],
+      "mappingNote": "FMA8620 official4.3 Latin field uses Ramus anterior descendens (arteria pulmonalis dextra); this proposal chooses the exact pinned TA2 anterior segmental artery term matching its English concept. Both source wordings preserved; no silent source rewrite."
+    },
+    {
+      "id": "FMA68677",
+      "bp3d": [
+        {
+          "path": "data/model-candidates/lung-source-outliers/isa_parts_list_e.txt",
+          "line": 2461,
+          "english": "posterior branch of right anterior segmental artery",
+          "representationId": "BP8518"
+        },
+        {
+          "path": "data/model-candidates/lung-source-outliers/partof_parts_list_e.txt",
+          "line": 1137,
+          "english": "posterior branch of right anterior segmental artery",
+          "representationId": "BP9819"
+        }
+      ],
+      "official43SnapshotRecords": [
+        {
+          "jsonPath": "$/images/0/partof_children/1",
+          "id": "FMA68677",
+          "english": "Posterior branch of right anterior segmental artery",
+          "latin": null
+        }
+      ],
+      "ta2": null,
+      "geometry": [
+        {
+          "id": "FJ2974",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ2980",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        },
+        {
+          "id": "FJ2981",
+          "name": "Posterior branch of right anterior segmental artery",
+          "conceptId": "FMA68677"
+        }
+      ],
+      "relationEvidence": [],
+      "mappingNote": "No exact Latin established for this qualified sub-branch; null retained."
+    },
+    {
+      "id": "FMA68683",
+      "bp3d": [
+        {
+          "path": "data/model-candidates/lung-source-outliers/isa_parts_list_e.txt",
+          "line": 2463,
+          "english": "anterior branch of right anterior segmental artery",
+          "representationId": "BP8391"
+        },
+        {
+          "path": "data/model-candidates/lung-source-outliers/partof_parts_list_e.txt",
+          "line": 1138,
+          "english": "anterior branch of right anterior segmental artery",
+          "representationId": "BP9743"
+        }
+      ],
+      "official43SnapshotRecords": [
+        {
+          "jsonPath": "$/images/0/partof_children/0",
+          "id": "FMA68683",
+          "english": "Anterior branch of right anterior segmental artery",
+          "latin": null
+        }
+      ],
+      "ta2": null,
+      "geometry": [
+        {
+          "id": "FJ2975",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2976",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2977",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        },
+        {
+          "id": "FJ2979",
+          "name": "Anterior branch of right anterior segmental artery",
+          "conceptId": "FMA68683"
+        }
+      ],
+      "relationEvidence": [],
+      "mappingNote": "No exact Latin established for this qualified sub-branch; null retained."
+    },
+    {
+      "id": "FMA68201",
+      "bp3d": [
+        {
+          "path": "data/model-candidates/lung-source-outliers/partof_parts_list_e.txt",
+          "line": 1106,
+          "english": "left lower lobar artery",
+          "representationId": "BP9413"
+        }
+      ],
+      "official43SnapshotRecords": [],
+      "ta2": {
+        "upstreamTableId": 4101,
+        "english": "Inferior lobar artery of left lung",
+        "latin": "Arteria lobaris inferior pulmonis sinistri",
+        "line": 4184
+      },
+      "geometry": [
+        {
+          "id": "FJ2881",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2882",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2883",
+          "name": "Left anterior basal segmental artery",
+          "conceptId": "FMA8645"
+        },
+        {
+          "id": "FJ2884",
+          "name": "Left medial basal segmental artery",
+          "conceptId": "FMA8644"
+        },
+        {
+          "id": "FJ2885",
+          "name": "Left medial basal segmental artery",
+          "conceptId": "FMA8644"
+        },
+        {
+          "id": "FJ2886",
+          "name": "Left anterior basal segmental artery",
+          "conceptId": "FMA8645"
+        },
+        {
+          "id": "FJ2887",
+          "name": "Left anterior basal segmental artery",
+          "conceptId": "FMA8645"
+        },
+        {
+          "id": "FJ2888",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2889",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2890",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2891",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2892",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2893",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2894",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2895",
+          "name": "Left superior segmental artery",
+          "conceptId": "FMA8642"
+        },
+        {
+          "id": "FJ2903",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2914",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2919",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2920",
+          "name": "Left posterior basal segmental artery",
+          "conceptId": "FMA8647"
+        },
+        {
+          "id": "FJ2921",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2922",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        },
+        {
+          "id": "FJ2923",
+          "name": "Left lateral basal segmental artery",
+          "conceptId": "FMA8646"
+        }
+      ],
+      "relationEvidence": [
+        {
+          "id": "FMA68201|part_of|FMA50873",
+          "subject": "FMA68201",
+          "predicate": "part_of",
+          "object": "FMA50873",
+          "status": "source_imported",
+          "viaDivision": null,
+          "attachmentNoteTr": null,
+          "evidence": [
+            {
+              "sourceId": "bp3d-partof",
+              "locator": "line 878: parent=FMA50873, child=FMA68201"
+            }
+          ]
+        }
+      ],
+      "mappingNote": "Lower/inferior lobar artery wording matched; exact lateralized TA2 term."
+    }
+  ],
+  "cautions": [
+    "Two branch Latin fields remain null; do not derive unverified Latin compounds.",
+    "TA2 supplied by pinned upstream distribution, not new publisher verification.",
+    "FJ2041 and FJ2044 remain unresolved raw source IDs.",
+    "Turkish editorial labels require expert review."
+  ]
+}
