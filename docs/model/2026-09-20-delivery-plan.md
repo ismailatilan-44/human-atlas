@@ -2,7 +2,7 @@
 
 İlk plan: 20 Eylül 2026. Güncelleme: 22 Eylül 2026. Kod, kaynak paketi, görsel kabul ve yayın birbirinden ayrı izlenir.
 
-Güncel canlı sürüm: `0a9414e` — ana atlas 2.290 parça, ayrı kadın pelvis 27 ve iç kulak 6 parça; 271 etiket kaydı. Gerçek yayında akciğer dokusu arama/seçim/geometri kabulü yapıldı. Aşağıdaki tarihî sürüm kayıtları önceki aşamaları gösterir.
+Güncel canlı sürüm: `caa938a` — ana atlas 2.290 parça, ayrı kadın pelvis 27 ve iç kulak 6 parça; 275 etiket kaydı. Akciğer kaynak seçimi düzeltmesi ve dört pulmoner damar etiketi gerçek yayında doğrulandı. [26 Eylül ilerleme/süre raporu](progress-report-2026-09-26.md) ve [kapsam-bitiş planı](model-scope-and-acceptance.md) güncel takibi verir. Aşağıdaki tarihî sürüm kayıtları önceki aşamaları gösterir.
 
 ## Hedef
 
@@ -127,4 +127,4 @@ Mevcut etkileşim kontrolüne yalnız bu değişikliğin kaynak verisini korumas
 
 Pulmoner seçim düzeltmesi kaynak `b1a7090feecf64c8dabdfd6526f6430fb12d3846`, statik `5f19aea5b59abbea364f23c373b3aa8dc33c7105` ile yayımlandı. Pages35675956943 başarılı; canlı release.json aynı kaynak sürümünü döndürdü.
 
-Ek etiket paketi: FMA8620, FMA68677, FMA68683 ve FMA68201 için4TR/EN kaydı eklendi; toplam275. İki TA2 Latin terimi doğrulandı; iki ayrıntılı dalda Latin null. Kaynak FMA8620 Latin ifadesiyle TA2 adlandırmasının farkı kanıtta korunur. ASCII arama, Türkçe ana damardan posterior dala gerçek düğme geçişi, üç yüzeyin izolasyonu ve390×844 uzun başlık görüldü; FMA8620 Latin başlığı doğrulandı. TypeScript geçti; tarayıcı hata kaydı boş. Bu etiketler sonraki yayın paketindedir.
+Ek etiket paketi: FMA8620, FMA68677, FMA68683 ve FMA68201 için dört TR/EN kaydı eklendi; toplam 275. İki TA2 Latin terimi doğrulandı; iki ayrıntılı dalda Latin alanı boş. Kaynak FMA8620 Latin ifadesiyle TA2 adlandırmasının farkı kanıtta korunur. ASCII arama, Türkçe ana damardan posterior dala gerçek düğme geçişi, üç yüzeyin izolasyonu ve 390×844 uzun başlık görüldü; FMA8620 Latin başlığı doğrulandı. TypeScript geçti; tarayıcı hata kaydı boş. Kaynak `caa938a4745a570fad13e445dda6c34909cdf4e5`, statik `21a902f675be0d281883a5ac1e9be21c938eeb1c`; Pages #36210534954 başarılı, canlı release.json kaynak sürümüyle eşleşti. Gerçek yayında ASCII `sag on segment` iki ayrı 7/9 yüzeyli sonucu buldu, Türkçe başlık/alt dal bağlantısı göründü; tarayıcı hata kaydı boş.
