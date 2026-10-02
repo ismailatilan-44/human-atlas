@@ -1,0 +1,63 @@
+{
+  "reference": "lower-limb-nerve-reference",
+  "loadedReference": "lower-limb-nerve-reference",
+  "sourceVersion": "atlas-content-b877954-2026-10-02:99dc0888",
+  "conceptId": "zanatomy:talus-l",
+  "camera": {
+    "position": [
+      0.23258689590304168,
+      0.11277951003329828,
+      0.41453092650491774
+    ],
+    "target": [
+      0.07470057532191277,
+      0.06766913272440434,
+      -0.036572846584022045
+    ],
+    "viewOffset": {
+      "enabled": true,
+      "fullWidth": 320,
+      "fullHeight": 568,
+      "offsetX": 0,
+      "offsetY": 57.63671875,
+      "width": 320,
+      "height": 568
+    }
+  },
+  "visibility": {
+    "systems": [
+      "skeletal"
+    ],
+    "hidden": [],
+    "selected": [
+      "ZA-DLN-TALUS-L"
+    ],
+    "isolate": false,
+    "ghost": true
+  },
+  "language": "la",
+  "viewMode": "three-quarter",
+  "progress": 100,
+  "error": "",
+  "explorerHistory": 13,
+  "pending": {
+    "pack": null,
+    "scene": null,
+    "returning": false
+  },
+  "study": {
+    "health": "saved",
+    "observed": "live",
+    "storedPhase": "recall",
+    "sceneCount": 1,
+    "phase": "recall",
+    "module": "left-ankle-v1",
+    "retry": false,
+    "firstAttempt": {},
+    "eventualCorrect": [],
+    "undo": false,
+    "completedRounds": 0,
+    "reviewEvents": 0,
+    "reviewSchedule": {}
+  }
+}

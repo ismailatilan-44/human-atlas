@@ -501,12 +501,17 @@ export default function AnatomyScene({
         lastState?.ghost !== s.ghost ||
         lastState?.anchor?.conceptId !== s.anchor?.conceptId ||
         lastState?.anchor?.label !== s.anchor?.label;
+      // Saved poses describe the destination layout. Settle it before fitting once;
+      // subsequent animation frames must not replace the restored camera.
+      if (!s.restoreCamera) lastRestore = undefined;
+      const restoring = !!s.restoreCamera && s.restoreCamera !== lastRestore;
+      if (restoring) amount = s.explode;
       const moving = Math.abs(amount - s.explode) > 0.0001;
       if (moving) {
         amount = T.MathUtils.damp(amount, s.explode, 8, dt);
         dirty = true;
       }
-      if (changed || moving || lastExtent < 0) {
+      if (changed || moving || restoring || lastExtent < 0) {
         const visible = new Set(s.visible),
           selection = new Set(s.selected);
         const hidden = new Set(s.hidden ?? []);

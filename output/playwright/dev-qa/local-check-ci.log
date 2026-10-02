@@ -1,0 +1,236 @@
+
+> anatomy-studio@0.1.0 check:ci
+> node scripts/check-ci.mjs
+
+
+TypeScript: npm run check
+
+> anatomy-studio@0.1.0 check
+> tsc --noEmit
+
+
+All repository unit tests: node --test scripts/anatomy-knowledge.test.mjs scripts/dev-qa.test.mjs scripts/saved-scenes.test.mjs scripts/study-history.test.mjs scripts/study-packs.test.mjs scripts/study-session.test.mjs
+TAP version 13
+# Subtest: the source parent/child columns are imported in child-to-parent direction
+ok 1 - the source parent/child columns are imported in child-to-parent direction
+  ---
+  duration_ms: 44.730583
+  type: 'test'
+  ...
+# Subtest: registered nerve geometry merges with the existing biceps relationships
+ok 2 - registered nerve geometry merges with the existing biceps relationships
+  ---
+  duration_ms: 28.826166
+  type: 'test'
+  ...
+# Subtest: each registered median nerve innervates the four sourced muscles on its own side
+ok 3 - each registered median nerve innervates the four sourced muscles on its own side
+  ---
+  duration_ms: 20.358417
+  type: 'test'
+  ...
+# Subtest: broken evidence, wrong-side links and missing endpoints are rejected
+ok 4 - broken evidence, wrong-side links and missing endpoints are rejected
+  ---
+  duration_ms: 95.036166
+  type: 'test'
+  ...
+# Subtest: cycles in part-of data cannot silently enter the graph
+ok 5 - cycles in part-of data cannot silently enter the graph
+  ---
+  duration_ms: 28.193875
+  type: 'test'
+  ...
+# Subtest: fixture storage isolates reads, writes and backups; production ignores activation flags
+ok 6 - fixture storage isolates reads, writes and backups; production ignores activation flags
+  ---
+  duration_ms: 37.373375
+  type: 'test'
+  ...
+# Subtest: scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+ok 7 - scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+  ---
+  duration_ms: 3.452
+  type: 'test'
+  ...
+# Subtest: content and identity changes never silently restore a stale scene
+ok 8 - content and identity changes never silently restore a stale scene
+  ---
+  duration_ms: 0.336416
+  type: 'test'
+  ...
+# Subtest: malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+ok 9 - malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+  ---
+  duration_ms: 0.114
+  type: 'test'
+  ...
+# Subtest: corrupt data can recover previous good backup and unreadable original is retained on repair
+ok 10 - corrupt data can recover previous good backup and unreadable original is retained on repair
+  ---
+  duration_ms: 0.188125
+  type: 'test'
+  ...
+# Subtest: quota or denied storage reports failure while last valid primary survives
+ok 11 - quota or denied storage reports failure while last valid primary survives
+  ---
+  duration_ms: 0.102875
+  type: 'test'
+  ...
+# Subtest: storage bounds reject missing versions, duplicate slots and overlarge arrays
+ok 12 - storage bounds reject missing versions, duplicate slots and overlarge arrays
+  ---
+  duration_ms: 0.154625
+  type: 'test'
+  ...
+# Subtest: scheduler correct intervals, early practice, mastery, cap and UTC across DST
+ok 13 - scheduler correct intervals, early practice, mastery, cap and UTC across DST
+  ---
+  duration_ms: 1.275458
+  type: 'test'
+  ...
+# Subtest: wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+ok 14 - wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+  ---
+  duration_ms: 0.721083
+  type: 'test'
+  ...
+# Subtest: hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+ok 15 - hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+  ---
+  duration_ms: 0.145292
+  type: 'test'
+  ...
+# Subtest: storage resumes session and rejects absent versions, stale concepts and invalid state
+ok 16 - storage resumes session and rejects absent versions, stale concepts and invalid state
+  ---
+  duration_ms: 0.435708
+  type: 'test'
+  ...
+# Subtest: bounded audit log continues accepting distinct events beyond 500 reviews
+ok 17 - bounded audit log continues accepting distinct events beyond 500 reviews
+  ---
+  duration_ms: 3.11825
+  type: 'test'
+  ...
+# Subtest: full content identity invalidates changed source evidence and undo survives storage reload
+ok 18 - full content identity invalidates changed source evidence and undo survives storage reload
+  ---
+  duration_ms: 0.339791
+  type: 'test'
+  ...
+# Subtest: left-ankle-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+ok 19 - left-ankle-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+  ---
+  duration_ms: 9.078333
+  type: 'test'
+  ...
+# Subtest: right-upper-limb-bones-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+ok 20 - right-upper-limb-bones-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+  ---
+  duration_ms: 6.480875
+  type: 'test'
+  ...
+# Subtest: new ankle module preserves original recognition scope with separate left identities
+ok 21 - new ankle module preserves original recognition scope with separate left identities
+  ---
+  duration_ms: 0.385833
+  type: 'test'
+  ...
+# Subtest: every scored item has one same-side source surface and exact verified label evidence
+ok 22 - every scored item has one same-side source surface and exact verified label evidence
+  ---
+  duration_ms: 4.259667
+  type: 'test'
+  ...
+# Subtest: wrong, skipped and repeated submissions preserve first attempt through repeated retry rounds
+ok 23 - wrong, skipped and repeated submissions preserve first attempt through repeated retry rounds
+  ---
+  duration_ms: 0.696708
+  type: 'test'
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 404.882917
+
+Current knowledge projection: node scripts/build-anatomy-knowledge.mjs --check
+{"entities":3516,"relations":1539,"assetBindings":170,"output":"data/anatomy/knowledge.json"}
+
+Current explorer projection: node scripts/build-explorer-catalog.mjs --check
+{"entities":84,"relations":1539,"bytes":720653,"path":"<repository>/data/anatomy/explorer.json"}
+
+Current source and coverage inventory: node scripts/build-model-inventory.mjs --check
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:1919:21)
+    at listenInCluster (node:net:1998:12)
+    at Server.listen (node:net:2103:7)
+    at Object.listen (file://<repository>/node_modules/vite/dist/node/chunks/node.js:16304:18)
+    at Object.listen (file://<repository>/node_modules/vite/dist/node/chunks/node.js:26638:27)
+    at DevEnvironment.listen (file://<repository>/node_modules/vite/dist/node/chunks/node.js:24787:12)
+    at file://<repository>/node_modules/vite/dist/node/chunks/node.js:26359:95
+    at Array.map (<anonymous>)
+    at file://<repository>/node_modules/vite/dist/node/chunks/node.js:26359:82
+    at async _createServer (file://<repository>/node_modules/vite/dist/node/chunks/node.js:26376:9)
+{"mode":"check","individualTargetRows":1010,"individualTargetInventories":3,"expertAcceptedTargets":0,"catalogRows":3838,"assetRows":2589,"pilotTargetRows":65,"regions":13,"familyRequirements":52,"targetMatrixCells":208,"classifiedCatalogRows":764,"unassignedCatalogRows":3074,"surfaceAnchorConcepts":6,"unresolvedAnchorConcepts":2,"relationRecords":1677}
+
+Atlas binary and identity validation: node scripts/validate-atlas.mjs
+Verified 2234 individually indexed meshes, 3432 complete concept mappings, 2,288,268 triangles, and every binary buffer.
+
+Interaction and reference contracts: node scripts/validate-interactions.mjs
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:1919:21)
+    at listenInCluster (node:net:1998:12)
+    at Server.listen (node:net:2103:7)
+    at Object.listen (file://<repository>/node_modules/vite/dist/node/chunks/node.js:16304:18)
+    at Object.listen (file://<repository>/node_modules/vite/dist/node/chunks/node.js:26638:27)
+    at DevEnvironment.listen (file://<repository>/node_modules/vite/dist/node/chunks/node.js:24787:12)
+    at file://<repository>/node_modules/vite/dist/node/chunks/node.js:26359:95
+    at Array.map (<anonymous>)
+    at file://<repository>/node_modules/vite/dist/node/chunks/node.js:26359:82
+    at async _createServer (file://<repository>/node_modules/vite/dist/node/chunks/node.js:26376:9)
+atlas.json with 2292 registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.
+Female reference loads independently and exposes only its own structures.
+Inner-ear reference exposes only its own six structures.
+Lower-limb reference resolves its own branch geometry without male graph leakage.
+Upper-limb reference search and cited parent routes stay in its own127 structures.
+Tap, drag, multitouch, cancellation, and empty-view checks passed.
+
+Production build: npm run build
+
+> anatomy-studio@0.1.0 prebuild
+> node scripts/build-explorer-catalog.mjs --check
+
+{"entities":84,"relations":1539,"bytes":720653,"path":"<repository>/data/anatomy/explorer.json"}
+
+> anatomy-studio@0.1.0 build
+> vite build
+
+vite v8.0.13 building client environment for production...
+[2K
+transforming...✓ 2504 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.62 kB │ gzip:   0.40 kB
+dist/assets/index-TZxcjnj0.css    206.30 kB │ gzip:  33.12 kB
+dist/assets/index-DkgwlWIQ.js   2,432.72 kB │ gzip: 396.79 kB
+
+✓ built in 875ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+Production QA exclusion: node scripts/check-dev-qa-production.mjs
+Production QA exclusion: no panel, controls, sandbox namespace or activation flag in dist JS/CSS/HTML/maps.
+
+Production transfer budget: node scripts/check-performance-budget.mjs
+Production JavaScript gzip: 393027 bytes / 450000 byte budget (1 files).

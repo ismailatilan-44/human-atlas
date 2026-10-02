@@ -1,3 +1,4 @@
+import { learningStorage } from './learning-storage';
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import './saved-scenes.css';
@@ -10,14 +11,14 @@ export default function SavedScenesPanel(props: {
   onRestore: (scene: SavedScene) => void; onClose: () => void;
 }) {
   const [store, setStore] = useState(() => {
-    try { return loadSceneStore(window.localStorage); }
+    try { return loadSceneStore(learningStorage()); }
     catch { return { scenes: [] as SavedScene[], error: 'Tarayıcı depolamasına erişilemiyor.', recovered: false }; }
   });
   const [name, setName] = useState('');
   const [message, setMessage] = useState(store.error ?? '');
   function save(scenes: SavedScene[]) {
     let error: string | null;
-    try { error = writeSceneStore(window.localStorage, scenes); }
+    try { error = writeSceneStore(learningStorage(), scenes); }
     catch { error = 'Tarayıcı depolamasına erişilemiyor.'; }
     if (error) { setMessage(error); return; }
     setStore({ scenes, error: null, recovered: false });
