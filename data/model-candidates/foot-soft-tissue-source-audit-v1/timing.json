@@ -1,0 +1,14 @@
+{
+  "startedAt": "2026-10-02T10:26:20.895760+00:00",
+  "scope": "Elapsed wall time from first Blender discovery through task delivery; excludes initial instruction reading.",
+  "completedAt": "2026-10-02T10:40:34.167911+00:00",
+  "elapsedSeconds": 853.272151,
+  "renderRun": {
+    "scriptSeconds": 23.494611000001896,
+    "rendered": true
+  },
+  "numericalReproductionRun": {
+    "scriptSeconds": 3.0471148750002612,
+    "rendered": false
+  }
+}

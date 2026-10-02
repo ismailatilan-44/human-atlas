@@ -8,6 +8,7 @@ import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js
 import { createExplosionLayout } from "./explosion-layout";
 import { decodeModelResponse } from "./model-download";
 import { PointerTap } from "./pointer-tap";
+import { inspectionDistance } from "./inspection-camera";
 import { SYSTEMS, type Atlas, type SceneState, type CameraPose } from "./anatomy";
 interface Props {
   atlas: Atlas;
@@ -634,8 +635,7 @@ export default function AnatomyScene({
             box.setFromCenterAndSize(point, new T.Vector3(0.1, 0.1, 0.1));
           }
           if (!box.isEmpty()) {
-            const center = box.getCenter(new T.Vector3()),
-              size = box.getSize(new T.Vector3());
+            const center = box.getCenter(new T.Vector3());
             const w = el.clientWidth,
               h = el.clientHeight,
               mobile = w < 768,
@@ -669,29 +669,21 @@ export default function AnatomyScene({
               w,
               h,
             );
-            const distance = Math.max(
-              0.07,
-              (Math.max(
-                (size.length() * h) / availableHeight,
-                (size.length() * w) / availableWidth / camera.aspect,
-              ) /
-                (2 * Math.tan(T.MathUtils.degToRad(camera.fov / 2)))) *
-                1.35,
+            const direction = s.view === "front"
+              ? new T.Vector3(0, 0, 1)
+              : s.view === "back"
+                ? new T.Vector3(0, 0, -1)
+                : s.view === "side"
+                  ? new T.Vector3(1, 0, 0)
+                  : new T.Vector3(0.35, 0.1, 1).normalize();
+            const distance = inspectionDistance(
+              box, direction, camera.fov, h, availableWidth, availableHeight,
             );
             controls.maxDistance = Math.max(40, distance * 2);
             controls.target.copy(center);
             camera.position
               .copy(center)
-              .add(
-                (s.view === "front"
-                  ? new T.Vector3(0, 0, 1)
-                  : s.view === "back"
-                    ? new T.Vector3(0, 0, -1)
-                    : s.view === "side"
-                      ? new T.Vector3(1, 0, 0)
-                      : new T.Vector3(0.35, 0.1, 1).normalize()
-                ).multiplyScalar(distance),
-              );
+              .addScaledVector(direction, distance);
             controls.update();
             dirty = true;
           }

@@ -1,0 +1,17 @@
+{
+  "startedAt": "2026-10-02T10:25:19.173891+00:00",
+  "completedAt": "2026-10-02T10:35:13.258530+00:00",
+  "elapsedSeconds": 594.085,
+  "measurement": "wall-clock elapsed including source lookups and concurrent source geometry work;not exclusive labor",
+  "rework": [
+    {
+      "reason": "Initial literal-name scan missed main flexor accessorius synonym for quadratus plantae;official synonym evidence recovered both bindings before handoff",
+      "additionalMinutes": "not separately measured"
+    },
+    {
+      "reason": "Direct primary terminology page/PDF fetch failures;indexed official terminology result used with constraint recorded",
+      "additionalMinutes": "not separately measured"
+    }
+  ],
+  "ownership": "Only this candidate directory;root integration and source geometry acceptance separate"
+}

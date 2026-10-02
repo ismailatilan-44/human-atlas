@@ -5,11 +5,11 @@
   "inputSnapshots": [
     {
       "path": "public/models/lower-limb-nerve-reference/atlas.json",
-      "sha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed"
+      "sha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b"
     },
     {
       "path": "scripts/build-foot-reference-relationships.py",
-      "sha256": "091a49c5eadfcb0da128c64daf59e8b6e4ec86d9b2828458b342f7eb34ab9b15"
+      "sha256": "fb8d51baf963fac5a2f9e7ea132d7e485aeb760490265b135e39652c12755f7a"
     }
   ],
   "summary": {

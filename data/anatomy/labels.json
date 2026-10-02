@@ -6861,6 +6861,1756 @@
           "scope": "Unsided Foot/Pes term; separate laterality; bone-only rendered scope explicitly disclosed"
         }
       ]
+    },
+    {
+      "ids": [
+        "FMA86035"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "opponens digiti minimi of left foot",
+      "tr": "Ayağın opponens digiti minimi kası",
+      "en": "Opponens digiti minimi muscle of foot",
+      "la": "(Musculus opponens digiti minimi pedis)",
+      "side": "left",
+      "aliases": [
+        "opponens digiti minimi of left foot",
+        "opponens digiti minimi muscle of foot"
+      ],
+      "ta2TableId": 2681,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2681; CSV line 2779; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 2855; FMA86035"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 27146"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2681",
+        "en": "(Opponens digiti minimi muscle of foot)",
+        "la": "(Musculus opponens digiti minimi pedis)",
+        "csvLine": 2779
+      }
+    },
+    {
+      "ids": [
+        "FMA86034"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "opponens digiti minimi of right foot",
+      "tr": "Ayağın opponens digiti minimi kası",
+      "en": "Opponens digiti minimi muscle of foot",
+      "la": "(Musculus opponens digiti minimi pedis)",
+      "side": "right",
+      "aliases": [
+        "opponens digiti minimi of right foot",
+        "opponens digiti minimi muscle of foot"
+      ],
+      "ta2TableId": 2681,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2681; CSV line 2779; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 2854; FMA86034"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 27145"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2681",
+        "en": "(Opponens digiti minimi muscle of foot)",
+        "la": "(Musculus opponens digiti minimi pedis)",
+        "csvLine": 2779
+      }
+    },
+    {
+      "ids": [
+        "FMA37464"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "abductor digiti minimi of left foot",
+      "tr": "Ayağın abductor digiti minimi kası",
+      "en": "Abductor digiti minimi of foot",
+      "la": "Abductor digiti minimi pedis",
+      "side": "left",
+      "aliases": [
+        "abductor digiti minimi of left foot",
+        "abductor digiti minimi of foot"
+      ],
+      "ta2TableId": 2679,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2679; CSV line 2777; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1386; FMA37464"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5366"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2679",
+        "en": "Abductor digiti minimi of foot",
+        "la": "Abductor digiti minimi pedis",
+        "csvLine": 2777
+      }
+    },
+    {
+      "ids": [
+        "FMA37463"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "abductor digiti minimi of right foot",
+      "tr": "Ayağın abductor digiti minimi kası",
+      "en": "Abductor digiti minimi of foot",
+      "la": "Abductor digiti minimi pedis",
+      "side": "right",
+      "aliases": [
+        "abductor digiti minimi of right foot",
+        "abductor digiti minimi of foot"
+      ],
+      "ta2TableId": 2679,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2679; CSV line 2777; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1385; FMA37463"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5365"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2679",
+        "en": "Abductor digiti minimi of foot",
+        "la": "Abductor digiti minimi pedis",
+        "csvLine": 2777
+      }
+    },
+    {
+      "ids": [
+        "FMA37460"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left abductor hallucis",
+      "tr": "Abductor hallucis kası",
+      "en": "Abductor hallucis",
+      "la": "Abductor hallucis",
+      "side": "left",
+      "aliases": [
+        "left abductor hallucis",
+        "abductor hallucis"
+      ],
+      "ta2TableId": 2672,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2672; CSV line 2770; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1382; FMA37460"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5362"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2672",
+        "en": "Abductor hallucis",
+        "la": "Abductor hallucis",
+        "csvLine": 2770
+      }
+    },
+    {
+      "ids": [
+        "FMA37459"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right abductor hallucis",
+      "tr": "Abductor hallucis kası",
+      "en": "Abductor hallucis",
+      "la": "Abductor hallucis",
+      "side": "right",
+      "aliases": [
+        "right abductor hallucis",
+        "abductor hallucis"
+      ],
+      "ta2TableId": 2672,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2672; CSV line 2770; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1381; FMA37459"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5361"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2672",
+        "en": "Abductor hallucis",
+        "la": "Abductor hallucis",
+        "csvLine": 2770
+      }
+    },
+    {
+      "ids": [
+        "FMA51145"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left extensor hallucis brevis",
+      "tr": "Extensor hallucis brevis kası",
+      "en": "Extensor hallucis brevis",
+      "la": "Extensor brevis hallucis",
+      "side": "left",
+      "aliases": [
+        "left extensor hallucis brevis",
+        "extensor hallucis brevis"
+      ],
+      "ta2TableId": 2670,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2670; CSV line 2768; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 2000; FMA51145"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 8804"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2670",
+        "en": "Extensor hallucis brevis",
+        "la": "Extensor brevis hallucis",
+        "csvLine": 2768
+      }
+    },
+    {
+      "ids": [
+        "FMA51144"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right extensor hallucis brevis",
+      "tr": "Extensor hallucis brevis kası",
+      "en": "Extensor hallucis brevis",
+      "la": "Extensor brevis hallucis",
+      "side": "right",
+      "aliases": [
+        "right extensor hallucis brevis",
+        "extensor hallucis brevis"
+      ],
+      "ta2TableId": 2670,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2670; CSV line 2768; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1999; FMA51144"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 8803"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2670",
+        "en": "Extensor hallucis brevis",
+        "la": "Extensor brevis hallucis",
+        "csvLine": 2768
+      }
+    },
+    {
+      "ids": [
+        "FMA37472"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "flexor digiti minimi brevis of left foot",
+      "tr": "Ayağın flexor digiti minimi brevis kası",
+      "en": "Flexor digiti minimi brevis of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "flexor digiti minimi brevis of left foot",
+        "flexor digiti minimi of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Pinned numeric row2682 contains duplicated Latin pedis pedis; correction is not independently verified. Source text retained without making it a display term.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2682; CSV line 2780; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1390; FMA37472"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5370"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2682",
+        "en": "Flexor digiti minimi of foot",
+        "la": "Flexor digiti minimi pedis pedis",
+        "csvLine": 2780
+      },
+      "sourceTermCorrespondence": "Main source specifies brevis;reference/TA2 table title omits brevis. Candidate terminology correspondence pending expert review;never merge geometry or IDs."
+    },
+    {
+      "ids": [
+        "FMA37471"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "flexor digiti minimi brevis of right foot",
+      "tr": "Ayağın flexor digiti minimi brevis kası",
+      "en": "Flexor digiti minimi brevis of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "flexor digiti minimi brevis of right foot",
+        "flexor digiti minimi of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Pinned numeric row2682 contains duplicated Latin pedis pedis; correction is not independently verified. Source text retained without making it a display term.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2682; CSV line 2780; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1389; FMA37471"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5369"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2682",
+        "en": "Flexor digiti minimi of foot",
+        "la": "Flexor digiti minimi pedis pedis",
+        "csvLine": 2780
+      },
+      "sourceTermCorrespondence": "Main source specifies brevis;reference/TA2 table title omits brevis. Candidate terminology correspondence pending expert review;never merge geometry or IDs."
+    },
+    {
+      "ids": [
+        "FMA37462"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left flexor digitorum brevis",
+      "tr": "Flexor digitorum brevis kası",
+      "en": "Flexor digitorum brevis",
+      "la": "Flexor brevis digitorum",
+      "side": "left",
+      "aliases": [
+        "left flexor digitorum brevis",
+        "flexor digitorum brevis"
+      ],
+      "ta2TableId": 2683,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2683; CSV line 2781; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1384; FMA37462"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5364"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2683",
+        "en": "Flexor digitorum brevis",
+        "la": "Flexor brevis digitorum",
+        "csvLine": 2781
+      }
+    },
+    {
+      "ids": [
+        "FMA37461"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right flexor digitorum brevis",
+      "tr": "Flexor digitorum brevis kası",
+      "en": "Flexor digitorum brevis",
+      "la": "Flexor brevis digitorum",
+      "side": "right",
+      "aliases": [
+        "right flexor digitorum brevis",
+        "flexor digitorum brevis"
+      ],
+      "ta2TableId": 2683,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2683; CSV line 2781; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1383; FMA37461"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5363"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2683",
+        "en": "Flexor digitorum brevis",
+        "la": "Flexor brevis digitorum",
+        "csvLine": 2781
+      }
+    },
+    {
+      "ids": [
+        "FMA45974"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "lateral head of left flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının lateral başı",
+      "en": "Lateral head of flexor hallucis brevis",
+      "la": "Caput laterale flexoris brevis hallucis",
+      "side": "left",
+      "aliases": [
+        "lateral head of left flexor hallucis brevis",
+        "lateral head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2675,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2675; CSV line 2773; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1656; FMA45974"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5983"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2675",
+        "en": "Lateral head of flexor hallucis brevis",
+        "la": "Caput laterale flexoris brevis hallucis",
+        "csvLine": 2773
+      }
+    },
+    {
+      "ids": [
+        "FMA45973"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "lateral head of right flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının lateral başı",
+      "en": "Lateral head of flexor hallucis brevis",
+      "la": "Caput laterale flexoris brevis hallucis",
+      "side": "right",
+      "aliases": [
+        "lateral head of right flexor hallucis brevis",
+        "lateral head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2675,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2675; CSV line 2773; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1655; FMA45973"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5982"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2675",
+        "en": "Lateral head of flexor hallucis brevis",
+        "la": "Caput laterale flexoris brevis hallucis",
+        "csvLine": 2773
+      }
+    },
+    {
+      "ids": [
+        "FMA37718"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "first lumbrical of left foot",
+      "tr": "Ayağın 1. lumbrikal kası",
+      "en": "first lumbrical of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "first lumbrical of left foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1426; FMA37718"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5422"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 1,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37720"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "second lumbrical of left foot",
+      "tr": "Ayağın 2. lumbrikal kası",
+      "en": "second lumbrical of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "second lumbrical of left foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1428; FMA37720"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5424"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 2,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37486"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "third lumbrical of left foot",
+      "tr": "Ayağın 3. lumbrikal kası",
+      "en": "third lumbrical of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "third lumbrical of left foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1398; FMA37486"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5382"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 3,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37484"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "fourth lumbrical of left foot",
+      "tr": "Ayağın 4. lumbrikal kası",
+      "en": "fourth lumbrical of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "fourth lumbrical of left foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1396; FMA37484"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5380"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 4,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37717"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "first lumbrical of right foot",
+      "tr": "Ayağın 1. lumbrikal kası",
+      "en": "first lumbrical of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "first lumbrical of right foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1425; FMA37717"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5421"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 1,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37719"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "second lumbrical of right foot",
+      "tr": "Ayağın 2. lumbrikal kası",
+      "en": "second lumbrical of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "second lumbrical of right foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1427; FMA37719"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5423"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 2,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37485"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "third lumbrical of right foot",
+      "tr": "Ayağın 3. lumbrikal kası",
+      "en": "third lumbrical of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "third lumbrical of right foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1397; FMA37485"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5381"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 3,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA37483"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "fourth lumbrical of right foot",
+      "tr": "Ayağın 4. lumbrikal kası",
+      "en": "fourth lumbrical of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "fourth lumbrical of right foot",
+        "lumbrical muscles of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1395; FMA37483"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5379"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "muscleNumber": 4,
+      "genericTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      }
+    },
+    {
+      "ids": [
+        "FMA45972"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "medial head of left flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının medial başı",
+      "en": "Medial head of flexor hallucis brevis",
+      "la": "Caput mediale flexoris brevis hallucis",
+      "side": "left",
+      "aliases": [
+        "medial head of left flexor hallucis brevis",
+        "medial head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2674,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2674; CSV line 2772; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1654; FMA45972"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5981"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2674",
+        "en": "Medial head of flexor hallucis brevis",
+        "la": "Caput mediale flexoris brevis hallucis",
+        "csvLine": 2772
+      }
+    },
+    {
+      "ids": [
+        "FMA45971"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "medial head of right flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının medial başı",
+      "en": "Medial head of flexor hallucis brevis",
+      "la": "Caput mediale flexoris brevis hallucis",
+      "side": "right",
+      "aliases": [
+        "medial head of right flexor hallucis brevis",
+        "medial head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2674,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2674; CSV line 2772; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1653; FMA45971"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5980"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2674",
+        "en": "Medial head of flexor hallucis brevis",
+        "la": "Caput mediale flexoris brevis hallucis",
+        "csvLine": 2772
+      }
+    },
+    {
+      "ids": [
+        "FMA46019"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "oblique head of left adductor hallucis",
+      "tr": "Adductor hallucis kasının oblik başı",
+      "en": "Oblique head of adductor hallucis",
+      "la": "Caput obliquum adductoris hallucis",
+      "side": "left",
+      "aliases": [
+        "oblique head of left adductor hallucis",
+        "oblique head of adductor hallucis"
+      ],
+      "ta2TableId": 2677,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2677; CSV line 2775; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1661; FMA46019"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5993"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2677",
+        "en": "Oblique head of adductor hallucis",
+        "la": "Caput obliquum adductoris hallucis",
+        "csvLine": 2775
+      }
+    },
+    {
+      "ids": [
+        "FMA46018"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "oblique head of right adductor hallucis",
+      "tr": "Adductor hallucis kasının oblik başı",
+      "en": "Oblique head of adductor hallucis",
+      "la": "Caput obliquum adductoris hallucis",
+      "side": "right",
+      "aliases": [
+        "oblique head of right adductor hallucis",
+        "oblique head of adductor hallucis"
+      ],
+      "ta2TableId": 2677,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2677; CSV line 2775; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1660; FMA46018"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5992"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2677",
+        "en": "Oblique head of adductor hallucis",
+        "la": "Caput obliquum adductoris hallucis",
+        "csvLine": 2775
+      }
+    },
+    {
+      "ids": [
+        "FMA37746"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "first plantar interosseous of left foot",
+      "tr": "Ayağın 1. plantar interosseöz kası",
+      "en": "first plantar interosseous of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "first plantar interosseous of left foot",
+        "plantar interossei muscles"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1437; FMA37746"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5436"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "muscleNumber": 1,
+      "genericTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      }
+    },
+    {
+      "ids": [
+        "FMA37744"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "second plantar interosseous of left foot",
+      "tr": "Ayağın 2. plantar interosseöz kası",
+      "en": "second plantar interosseous of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "second plantar interosseous of left foot",
+        "plantar interossei muscles"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1435; FMA37744"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5434"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "muscleNumber": 2,
+      "genericTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      }
+    },
+    {
+      "ids": [
+        "FMA37742"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "third plantar interosseous of left foot",
+      "tr": "Ayağın 3. plantar interosseöz kası",
+      "en": "third plantar interosseous of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "third plantar interosseous of left foot",
+        "plantar interossei muscles"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1433; FMA37742"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5432"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "muscleNumber": 3,
+      "genericTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      }
+    },
+    {
+      "ids": [
+        "FMA37745"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "first plantar interosseous of right foot",
+      "tr": "Ayağın 1. plantar interosseöz kası",
+      "en": "first plantar interosseous of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "first plantar interosseous of right foot",
+        "plantar interossei muscles"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1436; FMA37745"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5435"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "muscleNumber": 1,
+      "genericTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      }
+    },
+    {
+      "ids": [
+        "FMA37743"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "second plantar interosseous of right foot",
+      "tr": "Ayağın 2. plantar interosseöz kası",
+      "en": "second plantar interosseous of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "second plantar interosseous of right foot",
+        "plantar interossei muscles"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1434; FMA37743"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5433"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "muscleNumber": 2,
+      "genericTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      }
+    },
+    {
+      "ids": [
+        "FMA37741"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "third plantar interosseous of right foot",
+      "tr": "Ayağın 3. plantar interosseöz kası",
+      "en": "third plantar interosseous of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "third plantar interosseous of right foot",
+        "plantar interossei muscles"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "numbered_individual_muscle",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta ayrı adlandırılmış numaralı kas parçası gösterilir; kas grubu etiketi ve ilişkileri otomatik devralınmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Only a plural whole-group numeric TA2 term was verified;no exact numbered individual Latin term verified. Do not singularize or append an inferred numeral.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1432; FMA37741"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5431"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "muscleNumber": 3,
+      "genericTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      }
+    },
+    {
+      "ids": [
+        "FMA37466"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left flexor accessorius",
+      "tr": "Quadratus plantae kası",
+      "en": "Quadratus plantae muscle",
+      "la": "Musculus quadratus plantae",
+      "side": "left",
+      "aliases": [
+        "left flexor accessorius",
+        "quadratus plantae muscle",
+        "Flexor accessorius",
+        "Quadratus plantae"
+      ],
+      "ta2TableId": 2684,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2684; CSV line 2782; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1388; FMA37466"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5368"
+        },
+        {
+          "sourceId": "ta98-quadratus-plantae-synonym",
+          "locator": "A04.7.02.068; Quadratus plantae; Flexor accessorius"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2684",
+        "en": "Quadratus plantae muscle",
+        "la": "Musculus quadratus plantae",
+        "csvLine": 2782
+      },
+      "sourceTermCorrespondence": "Official TA98 explicit synonym connects retained main flexor accessorius name to quadratus plantae;no source ID or geometry equivalence alteration."
+    },
+    {
+      "ids": [
+        "FMA37465"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right flexor accessorius",
+      "tr": "Quadratus plantae kası",
+      "en": "Quadratus plantae muscle",
+      "la": "Musculus quadratus plantae",
+      "side": "right",
+      "aliases": [
+        "right flexor accessorius",
+        "quadratus plantae muscle",
+        "Flexor accessorius",
+        "Quadratus plantae"
+      ],
+      "ta2TableId": 2684,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2684; CSV line 2782; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1387; FMA37465"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5367"
+        },
+        {
+          "sourceId": "ta98-quadratus-plantae-synonym",
+          "locator": "A04.7.02.068; Quadratus plantae; Flexor accessorius"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2684",
+        "en": "Quadratus plantae muscle",
+        "la": "Musculus quadratus plantae",
+        "csvLine": 2782
+      },
+      "sourceTermCorrespondence": "Official TA98 explicit synonym connects retained main flexor accessorius name to quadratus plantae;no source ID or geometry equivalence alteration."
+    },
+    {
+      "ids": [
+        "FMA45098"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "sesamoid bone of left foot",
+      "tr": "Ayak sesamoid kemikleri",
+      "en": "Sesamoid bones of foot",
+      "la": "Ossa sesamoidea pedis",
+      "side": "left",
+      "aliases": [
+        "sesamoid bone of left foot",
+        "sesamoid bones of foot"
+      ],
+      "ta2TableId": 1514,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "rendered_source_sesamoid_group",
+      "scopeNoteTr": "Kaynak kavramı tekil ad taşısa da bu seçim iki ayrı sesamoid kemik parçasını içerir; tekil medial/lateral kimlik atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak kavramı tekil ad taşısa da bu seçim iki ayrı sesamoid kemik parçasını içerir; tekil medial/lateral kimlik atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1514; CSV line 1606; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1617; FMA45098"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5881; line 5882"
+        }
+      ],
+      "sourceTerm": {
+        "id": "1514",
+        "en": "Sesamoid bones of foot",
+        "la": "Ossa sesamoidea pedis",
+        "csvLine": 1606
+      },
+      "sourceTermCorrespondence": "Main source concept is singular but selects2sesamoid pieces. Plural TA2 display label describes this rendered group, without changing source concept identity or assigning individual sesamoid identities."
+    },
+    {
+      "ids": [
+        "FMA45097"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "sesamoid bone of right foot",
+      "tr": "Ayak sesamoid kemikleri",
+      "en": "Sesamoid bones of foot",
+      "la": "Ossa sesamoidea pedis",
+      "side": "right",
+      "aliases": [
+        "sesamoid bone of right foot",
+        "sesamoid bones of foot"
+      ],
+      "ta2TableId": 1514,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "rendered_source_sesamoid_group",
+      "scopeNoteTr": "Kaynak kavramı tekil ad taşısa da bu seçim iki ayrı sesamoid kemik parçasını içerir; tekil medial/lateral kimlik atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak kavramı tekil ad taşısa da bu seçim iki ayrı sesamoid kemik parçasını içerir; tekil medial/lateral kimlik atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1514; CSV line 1606; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1616; FMA45097"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5879; line 5880"
+        }
+      ],
+      "sourceTerm": {
+        "id": "1514",
+        "en": "Sesamoid bones of foot",
+        "la": "Ossa sesamoidea pedis",
+        "csvLine": 1606
+      },
+      "sourceTermCorrespondence": "Main source concept is singular but selects2sesamoid pieces. Plural TA2 display label describes this rendered group, without changing source concept identity or assigning individual sesamoid identities."
+    },
+    {
+      "ids": [
+        "FMA46021"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "transverse head of left adductor hallucis",
+      "tr": "Adductor hallucis kasının transvers başı",
+      "en": "Transverse head of adductor hallucis",
+      "la": "Caput transversum adductoris hallucis",
+      "side": "left",
+      "aliases": [
+        "transverse head of left adductor hallucis",
+        "transverse head of adductor hallucis"
+      ],
+      "ta2TableId": 2678,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2678; CSV line 2776; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1663; FMA46021"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5995"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2678",
+        "en": "Transverse head of adductor hallucis",
+        "la": "Caput transversum adductoris hallucis",
+        "csvLine": 2776
+      }
+    },
+    {
+      "ids": [
+        "FMA46020"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "transverse head of right adductor hallucis",
+      "tr": "Adductor hallucis kasının transvers başı",
+      "en": "Transverse head of adductor hallucis",
+      "la": "Caput transversum adductoris hallucis",
+      "side": "right",
+      "aliases": [
+        "transverse head of right adductor hallucis",
+        "transverse head of adductor hallucis"
+      ],
+      "ta2TableId": 2678,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2678; CSV line 2776; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-names",
+          "locator": "line 1662; FMA46020"
+        },
+        {
+          "sourceId": "foot-soft-tissue-bp3d40-membership",
+          "locator": "line 5994"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2678",
+        "en": "Transverse head of adductor hallucis",
+        "la": "Caput transversum adductoris hallucis",
+        "csvLine": 2776
+      }
     }
   ]
 }

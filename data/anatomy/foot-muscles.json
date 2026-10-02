@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "scope": "Selected bilateral abductor hallucis and extensor hallucis brevis origins/insertions; whole-bone context and named regions, not footprints or complete foot network",
+  "entities": [],
+  "relations": [
+    {
+      "id": "FMA37460|originates_at|FMA24498",
+      "subject": "FMA37460",
+      "predicate": "originates_at",
+      "object": "FMA24498",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneus tüberositesinin medial bölümü",
+        "attachmentNoteTr": "Kalkaneus tüberositesinin medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA37460|inserts_at|FMA43254",
+      "subject": "FMA37460",
+      "predicate": "inserts_at",
+      "object": "FMA43254",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının medial bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA51145|originates_at|FMA24498",
+      "subject": "FMA51145",
+      "predicate": "originates_at",
+      "object": "FMA24498",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneusun üst-dış yüzü",
+        "attachmentNoteTr": "Kalkaneusun üst-dış yüzü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA51145|inserts_at|FMA43254",
+      "subject": "FMA51145",
+      "predicate": "inserts_at",
+      "object": "FMA43254",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının dorsal bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının dorsal bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA37459|originates_at|FMA24497",
+      "subject": "FMA37459",
+      "predicate": "originates_at",
+      "object": "FMA24497",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneus tüberositesinin medial bölümü",
+        "attachmentNoteTr": "Kalkaneus tüberositesinin medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA37459|inserts_at|FMA43253",
+      "subject": "FMA37459",
+      "predicate": "inserts_at",
+      "object": "FMA43253",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının medial bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA51144|originates_at|FMA24497",
+      "subject": "FMA51144",
+      "predicate": "originates_at",
+      "object": "FMA24497",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneusun üst-dış yüzü",
+        "attachmentNoteTr": "Kalkaneusun üst-dış yüzü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA51144|inserts_at|FMA43253",
+      "subject": "FMA51144",
+      "predicate": "inserts_at",
+      "object": "FMA43253",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının dorsal bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının dorsal bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      }
+    }
+  ],
+  "sourceAudit": "data/model-candidates/foot-soft-tissue-metadata-v1/activation-proposal.json"
+}

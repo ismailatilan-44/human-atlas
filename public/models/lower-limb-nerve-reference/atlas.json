@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+  "version": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
   "datasetId": "lower-limb-nerve-reference",
   "status": "independent_source_reference",
-  "releaseStatus": "packaged-reference-expert-review-pending",
+  "releaseStatus": "packaged_reference;anatomical_expert_review_pending",
   "sex": "male",
   "compatibleWithMainAtlas": false,
   "atlasRegistration": null,
-  "scope": "Sixteen authored nerve curves, two fibular artery curves, six ankle ligament surfaces and sixty-three same-source bone surfaces. Selected named distal courses and foot context; complete innervation, circulation, root and joint-support detail remain outside this package. Anatomical expert review pending.",
+  "scope": "Sixteen nerve curves, two fibular artery curves, six ankle ligament surfaces, thirty source-named intrinsic foot muscle objects and sixty-five bone objects including compound sesamoid groups. Compound interosseous/lumbrical/sesamoid objects retain source scope; full innervation/circulation/support detail and expert acceptance remain open.",
   "coordinates": {
     "units": "meters",
     "axes": "X left, Y superior, Z anterior",
@@ -9000,6 +9000,3642 @@
       "cancelledVertexNormalFallback": "Largest incident face normal for source bone vertices whose angle-weighted normals cancel; faces and positions unchanged",
       "looseVertexNormal": "Default up normal only for source vertices unused by triangles; positions preserved",
       "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:opponens-digiti-minimi-muscle-of-foot-l",
+      "name": "Left opponens digiti minimi muscle of foot",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2643600,
+      "normals": 2645040,
+      "indices": 2645760,
+      "vertexCount": 120,
+      "indexCount": 708,
+      "bounds": [
+        [
+          0.10563655197620392,
+          0.015597392804920673,
+          -0.004513160325586796
+        ],
+        [
+          0.12821581959724426,
+          0.027166470885276794,
+          0.03877326101064682
+        ]
+      ],
+      "sourceObject": "(Opponens digiti minimi muscle of foot).l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "(Opponens digiti minimi muscle of foot).l",
+        "objectType": "MESH",
+        "dataBlock": "(Opponens digiti minimi muscle of foot)",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 120,
+        "basePolygons": 236,
+        "evaluatedVertices": 120,
+        "evaluatedTriangles": 236,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.11741778999567032
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.01400946918874979
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.021952616050839424
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.10563655197620392,
+            -0.03877326101064682,
+            0.015597392804920673
+          ],
+          [
+            0.12821581959724426,
+            0.004513160325586796,
+            0.027166470885276794
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.333933789995956e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            120
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "f374e030a7d211c7b6df853f17ff90fcb4bf5a6f23fb5bb18bf6b3af657d4c1a"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source-parenthesized muscle identity; anatomical variation and expert identity review pending",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:opponens-digiti-minimi-muscle-of-foot-r",
+      "name": "Right opponens digiti minimi muscle of foot",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2648592,
+      "normals": 2650032,
+      "indices": 2650752,
+      "vertexCount": 120,
+      "indexCount": 708,
+      "bounds": [
+        [
+          -0.12821580469608307,
+          0.015597512014210224,
+          -0.004513162188231945
+        ],
+        [
+          -0.10563653707504272,
+          0.027166586369276047,
+          0.03877323865890503
+        ]
+      ],
+      "sourceObject": "(Opponens digiti minimi muscle of foot).r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "(Opponens digiti minimi muscle of foot).r",
+        "objectType": "MESH",
+        "dataBlock": "(Opponens digiti minimi muscle of foot)",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 120,
+        "basePolygons": 236,
+        "evaluatedVertices": 120,
+        "evaluatedTriangles": 236,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11741777509450912
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.014009459875524044
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.021952733397483826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.12821580469608307,
+            -0.03877323865890503,
+            0.015597512014210224
+          ],
+          [
+            -0.10563653707504272,
+            0.004513162188231945,
+            0.027166586369276047
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.333906074506562e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            120
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d189304adb30468e5d101259f36b9e8c8a0bb4755925ecb02983a82ddfbbaf65"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source-parenthesized muscle identity; anatomical variation and expert identity review pending",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:abductor-digiti-minimi-of-foot-l",
+      "name": "Left abductor digiti minimi of foot",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2653584,
+      "normals": 2661264,
+      "indices": 2665104,
+      "vertexCount": 640,
+      "indexCount": 3840,
+      "bounds": [
+        [
+          0.06840932369232178,
+          0.010193431749939919,
+          -0.06856423616409302
+        ],
+        [
+          0.13936808705329895,
+          0.026712916791439056,
+          0.0588822066783905
+        ]
+      ],
+      "sourceObject": "Abductor digiti minimi of foot.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Abductor digiti minimi of foot.l",
+        "objectType": "MESH",
+        "dataBlock": "Abductor digiti minimi of foot",
+        "materials": [
+          "Abductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 640,
+        "basePolygons": 1280,
+        "evaluatedVertices": 640,
+        "evaluatedTriangles": 1280,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.1049676388502121
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            0.015506028197705746
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.019060390070080757
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06840932369232178,
+            -0.0588822066783905,
+            0.010193431749939919
+          ],
+          [
+            0.13936808705329895,
+            0.06856423616409302,
+            0.026712916791439056
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.00563800888349e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            640
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "588e31b6b78708878afca44c3aab188588631ca77e4e8743d3dc9c369104b63c"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:abductor-digiti-minimi-of-foot-r",
+      "name": "Right abductor digiti minimi of foot",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2680464,
+      "normals": 2688144,
+      "indices": 2691984,
+      "vertexCount": 640,
+      "indexCount": 3840,
+      "bounds": [
+        [
+          -0.13936807215213776,
+          0.010193554684519768,
+          -0.06856420636177063
+        ],
+        [
+          -0.06840930879116058,
+          0.02671303227543831,
+          0.058882180601358414
+        ]
+      ],
+      "sourceObject": "Abductor digiti minimi of foot.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Abductor digiti minimi of foot.r",
+        "objectType": "MESH",
+        "dataBlock": "Abductor digiti minimi of foot",
+        "materials": [
+          "Abductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 640,
+        "basePolygons": 1280,
+        "evaluatedVertices": 640,
+        "evaluatedTriangles": 1280,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.1049676239490509
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            0.015506023541092873
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.019060509279370308
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.13936807215213776,
+            -0.058882180601358414,
+            0.010193554684519768
+          ],
+          [
+            -0.06840930879116058,
+            0.06856420636177063,
+            0.02671303227543831
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.00563800888349e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            640
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "050bf1cf9feaae8b0544c28e12603b54118001f47180ce52fad51bdd8773f245"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-ABDUCTOR-HALLUCIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:abductor-hallucis-l",
+      "name": "Left abductor hallucis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2707344,
+      "normals": 2717472,
+      "indices": 2722536,
+      "vertexCount": 844,
+      "indexCount": 5064,
+      "bounds": [
+        [
+          0.055125802755355835,
+          0.014434991404414177,
+          -0.06050378084182739
+        ],
+        [
+          0.07554645091295242,
+          0.04136994108557701,
+          0.08471755683422089
+        ]
+      ],
+      "sourceObject": "Abductor hallucis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Abductor hallucis.l",
+        "objectType": "MESH",
+        "dataBlock": "Abductor hallucis",
+        "materials": [
+          "Abductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 844,
+        "basePolygons": 1688,
+        "evaluatedVertices": 844,
+        "evaluatedTriangles": 1688,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.06248173117637634
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.010095974430441856
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.02796979993581772
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.055125802755355835,
+            -0.08471755683422089,
+            0.014434991404414177
+          ],
+          [
+            0.07554645091295242,
+            0.06050378084182739,
+            0.04136994108557701
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.9944356474926997e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 2,
+          "componentVertices": [
+            841,
+            3
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "0d7eb628c4354a6069b877603704c8845a30bec6ab28d85f23ff7004f4c4d2f4"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 3,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-ABDUCTOR-HALLUCIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:abductor-hallucis-r",
+      "name": "Right abductor hallucis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2742792,
+      "normals": 2752920,
+      "indices": 2757984,
+      "vertexCount": 844,
+      "indexCount": 5064,
+      "bounds": [
+        [
+          -0.07554643601179123,
+          0.014435111545026302,
+          -0.0605037622153759
+        ],
+        [
+          -0.05512578785419464,
+          0.041370049118995667,
+          0.0847175195813179
+        ]
+      ],
+      "sourceObject": "Abductor hallucis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Abductor hallucis.r",
+        "objectType": "MESH",
+        "dataBlock": "Abductor hallucis",
+        "materials": [
+          "Abductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 844,
+        "basePolygons": 1688,
+        "evaluatedVertices": 844,
+        "evaluatedTriangles": 1688,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.06248171627521515
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.01009596697986126
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.02796991355717182
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.07554643601179123,
+            -0.0847175195813179,
+            0.014435111545026302
+          ],
+          [
+            -0.05512578785419464,
+            0.0605037622153759,
+            0.041370049118995667
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.9944356474926997e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 2,
+          "componentVertices": [
+            841,
+            3
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "be745ce28050f780f9d75cdcbd81575140b855cd3a2134642053ccd6f2491712"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 3,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:dorsal-interossei-muscles-of-foot-l",
+      "name": "Left dorsal interossei muscles of foot",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2778240,
+      "normals": 2789940,
+      "indices": 2795792,
+      "vertexCount": 975,
+      "indexCount": 5838,
+      "bounds": [
+        [
+          0.0760936513543129,
+          0.017552567645907402,
+          0.016883596777915955
+        ],
+        [
+          0.12742355465888977,
+          0.05441776663064957,
+          0.08908262103796005
+        ]
+      ],
+      "sourceObject": "Dorsal interossei muscles of foot.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Dorsal interossei muscles of foot.l",
+        "objectType": "MESH",
+        "dataBlock": "Dorsal interossei muscles of foot",
+        "materials": [
+          "Abductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 975,
+        "basePolygons": 1946,
+        "evaluatedVertices": 975,
+        "evaluatedTriangles": 1946,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.10270427912473679
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.0493568517267704
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.03699832037091255
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.0760936513543129,
+            -0.08908262103796005,
+            0.017552567645907402
+          ],
+          [
+            0.12742355465888977,
+            -0.016883596777915955,
+            0.05441776663064957
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.663325337139044e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 4,
+          "componentVertices": [
+            257,
+            252,
+            234,
+            232
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "f26e661103a7035dd8ba2e43222d44620ad5716d0c8c5c9ee0dd4877a9fd0ccd"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:dorsal-interossei-muscles-of-foot-r",
+      "name": "Right dorsal interossei muscles of foot",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2819144,
+      "normals": 2830844,
+      "indices": 2836696,
+      "vertexCount": 975,
+      "indexCount": 5838,
+      "bounds": [
+        [
+          -0.12742353975772858,
+          0.017552688717842102,
+          0.01688358560204506
+        ],
+        [
+          -0.0760936364531517,
+          0.054417870938777924,
+          0.08908257633447647
+        ]
+      ],
+      "sourceObject": "Dorsal interossei muscles of foot.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Dorsal interossei muscles of foot.r",
+        "objectType": "MESH",
+        "dataBlock": "Dorsal interossei muscles of foot",
+        "materials": [
+          "Abductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 975,
+        "basePolygons": 1946,
+        "evaluatedVertices": 975,
+        "evaluatedTriangles": 1946,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.10270426422357559
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.04935682564973831
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.036998432129621506
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.12742353975772858,
+            -0.08908257633447647,
+            0.017552688717842102
+          ],
+          [
+            -0.0760936364531517,
+            -0.01688358560204506,
+            0.054417870938777924
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.663325337139044e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 4,
+          "componentVertices": [
+            257,
+            252,
+            234,
+            232
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "27eff2fba914a85d417195fb7ade72e1c55ebf9b0b677969a77857192afd54b8"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:extensor-digitorum-brevis-l",
+      "name": "Left extensor digitorum brevis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2860048,
+      "normals": 2879200,
+      "indices": 2888776,
+      "vertexCount": 1596,
+      "indexCount": 9552,
+      "bounds": [
+        [
+          0.09062299877405167,
+          0.015249956399202347,
+          -0.03684069216251373
+        ],
+        [
+          0.13345859944820404,
+          0.07397099584341049,
+          0.117220439016819
+        ]
+      ],
+      "sourceObject": "Extensor digitorum brevis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Extensor digitorum brevis.l",
+        "objectType": "MESH",
+        "dataBlock": "Extensor digitorum brevis",
+        "materials": [
+          "Extensor extremities",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Deep fibular nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 1596,
+        "basePolygons": 3184,
+        "evaluatedVertices": 1596,
+        "evaluatedTriangles": 3184,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.10483567416667938
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.02677156589925289
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.04820313677191734
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.09062299877405167,
+            -0.117220439016819,
+            0.015249956399202347
+          ],
+          [
+            0.13345859944820404,
+            0.03684069216251373,
+            0.07397099584341049
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.6513155798838855e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 3,
+          "componentVertices": [
+            619,
+            533,
+            444
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "a308bb513291df79dc72a9d79e33961b78ece00dd9cefeb1fb0a44f25479c3fd"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:extensor-digitorum-brevis-r",
+      "name": "Right extensor digitorum brevis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2926984,
+      "normals": 2946136,
+      "indices": 2955712,
+      "vertexCount": 1596,
+      "indexCount": 9552,
+      "bounds": [
+        [
+          -0.13345858454704285,
+          0.015250075608491898,
+          -0.03684068098664284
+        ],
+        [
+          -0.09062298387289047,
+          0.07397109270095825,
+          0.11722037196159363
+        ]
+      ],
+      "sourceObject": "Extensor digitorum brevis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Extensor digitorum brevis.r",
+        "objectType": "MESH",
+        "dataBlock": "Extensor digitorum brevis",
+        "materials": [
+          "Extensor extremities",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Deep fibular nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 1596,
+        "basePolygons": 3184,
+        "evaluatedVertices": 1596,
+        "evaluatedTriangles": 3184,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.10483565926551819
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.02677154913544655
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.0482032410800457
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.13345858454704285,
+            -0.11722037196159363,
+            0.015250075608491898
+          ],
+          [
+            -0.09062298387289047,
+            0.03684068098664284,
+            0.07397109270095825
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.651564271866346e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 3,
+          "componentVertices": [
+            619,
+            533,
+            444
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ccaf8b50df5490bf619290f372ed3d1141b199abf8b7c755abaa1225f937d8b9"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:extensor-hallucis-brevis-l",
+      "name": "Left extensor hallucis brevis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 2993920,
+      "normals": 3000652,
+      "indices": 3004020,
+      "vertexCount": 561,
+      "indexCount": 3354,
+      "bounds": [
+        [
+          0.06754178553819656,
+          0.027145622298121452,
+          -0.029697218909859657
+        ],
+        [
+          0.10142297297716141,
+          0.07506947964429855,
+          0.0921395793557167
+        ]
+      ],
+      "sourceObject": "Extensor hallucis brevis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Extensor hallucis brevis.l",
+        "objectType": "MESH",
+        "dataBlock": "Extensor hallucis brevis",
+        "materials": [
+          "Extensor extremities",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Deep fibular nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 561,
+        "basePolygons": 1118,
+        "evaluatedVertices": 561,
+        "evaluatedTriangles": 1118,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08486967533826828
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.02739790640771389
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.05288262292742729
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06754178553819656,
+            -0.0921395793557167,
+            0.027145622298121452
+          ],
+          [
+            0.10142297297716141,
+            0.029697218909859657,
+            0.07506947964429855
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.0353789155506585e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            561
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "dfa9bbf68d24b6f1f31d932ed2ef18e30d209ce1231237773a12675a4d635ede"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:extensor-hallucis-brevis-r",
+      "name": "Right extensor hallucis brevis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3017436,
+      "normals": 3024168,
+      "indices": 3027536,
+      "vertexCount": 561,
+      "indexCount": 3354,
+      "bounds": [
+        [
+          -0.10142295807600021,
+          0.027145734056830406,
+          -0.02969720959663391
+        ],
+        [
+          -0.06754177063703537,
+          0.07506957650184631,
+          0.09213952720165253
+        ]
+      ],
+      "sourceObject": "Extensor hallucis brevis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Extensor hallucis brevis.r",
+        "objectType": "MESH",
+        "dataBlock": "Extensor hallucis brevis",
+        "materials": [
+          "Extensor extremities",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Deep fibular nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 561,
+        "basePolygons": 1118,
+        "evaluatedVertices": 561,
+        "evaluatedTriangles": 1118,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08486966043710709
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.027397889643907547
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.05288272351026535
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.10142295807600021,
+            -0.09213952720165253,
+            0.027145734056830406
+          ],
+          [
+            -0.06754177063703537,
+            0.02969720959663391,
+            0.07506957650184631
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.0353136429015204e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            561
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d49df9b9ca6e3902f6cae5a006cc564b2e4499cdaa7c49c0926150c5c9b63692"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:flexor-digiti-minimi-of-foot-l",
+      "name": "Left flexor digiti minimi of foot",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3040952,
+      "normals": 3043712,
+      "indices": 3045092,
+      "vertexCount": 230,
+      "indexCount": 1392,
+      "bounds": [
+        [
+          0.10548482090234756,
+          0.008853858336806297,
+          -0.005630245432257652
+        ],
+        [
+          0.13852277398109436,
+          0.027216410264372826,
+          0.06711101531982422
+        ]
+      ],
+      "sourceObject": "Flexor digiti minimi of foot.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Flexor digiti minimi of foot.l",
+        "objectType": "MESH",
+        "dataBlock": "Flexor digiti minimi of foot",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 230,
+        "basePolygons": 464,
+        "evaluatedVertices": 230,
+        "evaluatedTriangles": 464,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.12163344770669937
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.028317248448729515
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.017001356929540634
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.10548482090234756,
+            -0.06711101531982422,
+            0.008853858336806297
+          ],
+          [
+            0.13852277398109436,
+            0.005630245432257652,
+            0.027216410264372826
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.9728225756024946e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            230
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "8c51bc2e1ad4bae2198f539581da51f6b33db85025915758b4ed0241f68cc99f"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:flexor-digiti-minimi-of-foot-r",
+      "name": "Right flexor digiti minimi of foot",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3050660,
+      "normals": 3053420,
+      "indices": 3054800,
+      "vertexCount": 230,
+      "indexCount": 1392,
+      "bounds": [
+        [
+          -0.13852274417877197,
+          0.008853981271386147,
+          -0.0056302472949028015
+        ],
+        [
+          -0.10548480600118637,
+          0.027216525748372078,
+          0.06711097806692123
+        ]
+      ],
+      "sourceObject": "Flexor digiti minimi of foot.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Flexor digiti minimi of foot.r",
+        "objectType": "MESH",
+        "dataBlock": "Flexor digiti minimi of foot",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 230,
+        "basePolygons": 464,
+        "evaluatedVertices": 230,
+        "evaluatedTriangles": 464,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.12163343280553818
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.028317231684923172
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.017001476138830185
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.13852274417877197,
+            -0.06711097806692123,
+            0.008853981271386147
+          ],
+          [
+            -0.10548480600118637,
+            0.0056302472949028015,
+            0.027216525748372078
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.9728225756024946e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            230
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "bdb96da40125dcd68dbd568fbe6d0dd4373fadd70d83600fbd3136cbed8aea73"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:flexor-digitorum-brevis-l",
+      "name": "Left flexor digitorum brevis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3060368,
+      "normals": 3079688,
+      "indices": 3089348,
+      "vertexCount": 1610,
+      "indexCount": 9672,
+      "bounds": [
+        [
+          0.06512454897165298,
+          0.006932077929377556,
+          -0.06843127310276031
+        ],
+        [
+          0.14360618591308594,
+          0.02694324590265751,
+          0.11955229938030243
+        ]
+      ],
+      "sourceObject": "Flexor digitorum brevis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Flexor digitorum brevis.l",
+        "objectType": "MESH",
+        "dataBlock": "Flexor digitorum brevis",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 1610,
+        "basePolygons": 3224,
+        "evaluatedVertices": 1610,
+        "evaluatedTriangles": 3224,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.09932587295770645
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.03849410265684128
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.013800214044749737
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06512454897165298,
+            -0.11955229938030243,
+            0.006932077929377556
+          ],
+          [
+            0.14360618591308594,
+            0.06843127310276031,
+            0.02694324590265751
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.2414889468615805e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1610
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "c81b72c235c91025b571444e0ac047f816cf8691f81c1e92df6ba3c640572318"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:flexor-digitorum-brevis-r",
+      "name": "Right flexor digitorum brevis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3128036,
+      "normals": 3147356,
+      "indices": 3157016,
+      "vertexCount": 1610,
+      "indexCount": 9672,
+      "bounds": [
+        [
+          -0.14360615611076355,
+          0.006932201329618692,
+          -0.06843124330043793
+        ],
+        [
+          -0.06512453407049179,
+          0.026943359524011612,
+          0.11955223977565765
+        ]
+      ],
+      "sourceObject": "Flexor digitorum brevis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Flexor digitorum brevis.r",
+        "objectType": "MESH",
+        "dataBlock": "Flexor digitorum brevis",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 1610,
+        "basePolygons": 3224,
+        "evaluatedVertices": 1610,
+        "evaluatedTriangles": 3224,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.09932585805654526
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.03849408030509949
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.013800334185361862
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.14360615611076355,
+            -0.11955223977565765,
+            0.006932201329618692
+          ],
+          [
+            -0.06512453407049179,
+            0.06843124330043793,
+            0.026943359524011612
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.2414889468615805e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1610
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "4cee104b69b2261b2d44cb49ef34820f34d88a476347001d2cc74b74add34ae8"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:lateral-head-of-flexor-hallucis-brevis-l",
+      "name": "Left lateral head of flexor hallucis brevis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3195704,
+      "normals": 3201476,
+      "indices": 3204364,
+      "vertexCount": 481,
+      "indexCount": 2898,
+      "bounds": [
+        [
+          0.06001649424433708,
+          0.008879469707608223,
+          0.006027095019817352
+        ],
+        [
+          0.08089586347341537,
+          0.04738179221749306,
+          0.08730548620223999
+        ]
+      ],
+      "sourceObject": "Lateral head of flexor hallucis brevis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Lateral head of flexor hallucis brevis.l",
+        "objectType": "MESH",
+        "dataBlock": "Lateral head of flexor hallucis brevis",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Flexor hallucis brevis.g",
+        "baseVertices": 481,
+        "basePolygons": 966,
+        "evaluatedVertices": 481,
+        "evaluatedTriangles": 966,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.07205717265605927
+          ],
+          [
+            0.0,
+            0.9999998211860657,
+            -1.4210854715202004e-14,
+            -0.0368950329720974
+          ],
+          [
+            0.0,
+            1.4210854715202004e-14,
+            0.9999998211860657,
+            0.029005149379372597
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999995827674866,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06001649424433708,
+            -0.08730548620223999,
+            0.008879469707608223
+          ],
+          [
+            0.08089586347341537,
+            -0.006027095019817352,
+            0.04738179221749306
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.75752155816843e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            481
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d925330cdf39bb4b6f44a95c02e61b0311fccc32dbbd88451fd80c5b06d8d1b6"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:lateral-head-of-flexor-hallucis-brevis-r",
+      "name": "Right lateral head of flexor hallucis brevis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3215956,
+      "normals": 3221728,
+      "indices": 3224616,
+      "vertexCount": 481,
+      "indexCount": 2898,
+      "bounds": [
+        [
+          -0.08089586347341537,
+          0.008879594504833221,
+          0.006027095019817352
+        ],
+        [
+          -0.06001649424433708,
+          0.047381892800331116,
+          0.08730544149875641
+        ]
+      ],
+      "sourceObject": "Lateral head of flexor hallucis brevis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Lateral head of flexor hallucis brevis.r",
+        "objectType": "MESH",
+        "dataBlock": "Lateral head of flexor hallucis brevis",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Flexor hallucis brevis.g",
+        "baseVertices": 481,
+        "basePolygons": 966,
+        "evaluatedVertices": 481,
+        "evaluatedTriangles": 966,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.07205717265605927
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -1.1368683772161603e-13,
+            -0.036895014345645905
+          ],
+          [
+            0.0,
+            1.1368683772161603e-13,
+            0.9999992251396179,
+            0.0290052630007267
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999983906745911,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.08089586347341537,
+            -0.08730544149875641,
+            0.008879594504833221
+          ],
+          [
+            -0.06001649424433708,
+            -0.006027095019817352,
+            0.047381892800331116
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.75752155816843e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            481
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "839b739f4560535dd62b9995e089df56b474a4bb5dce2286588270ace3a5cadd"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:lumbrical-muscles-of-foot-l",
+      "name": "Left lumbrical muscles of foot",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3236208,
+      "normals": 3238692,
+      "indices": 3239936,
+      "vertexCount": 207,
+      "indexCount": 1254,
+      "bounds": [
+        [
+          0.07279100269079208,
+          0.012944226153194904,
+          -0.005460016429424286
+        ],
+        [
+          0.0884825736284256,
+          0.03316984698176384,
+          0.08849867433309555
+        ]
+      ],
+      "sourceObject": "Lumbrical muscles of foot.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Lumbrical muscles of foot.l",
+        "objectType": "MESH",
+        "dataBlock": "Lumbrical muscles of foot",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 207,
+        "basePolygons": 418,
+        "evaluatedVertices": 207,
+        "evaluatedTriangles": 418,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.07969950884580612
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.03559938445687294
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.023405753076076508
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.07279100269079208,
+            -0.08849867433309555,
+            0.012944226153194904
+          ],
+          [
+            0.0884825736284256,
+            0.005460016429424286,
+            0.03316984698176384
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.609141516319133e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            207
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "648d942ac86e29b61b4e8b7ffe934df299a38b922f2abc108958a2c5246fdf71"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:lumbrical-muscles-of-foot-r",
+      "name": "Right lumbrical muscles of foot",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3244952,
+      "normals": 3247436,
+      "indices": 3248680,
+      "vertexCount": 207,
+      "indexCount": 1254,
+      "bounds": [
+        [
+          -0.0884825587272644,
+          0.01294434629380703,
+          -0.005460016429424286
+        ],
+        [
+          -0.07279098778963089,
+          0.033169958740472794,
+          0.08849862962961197
+        ]
+      ],
+      "sourceObject": "Lumbrical muscles of foot.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Lumbrical muscles of foot.r",
+        "objectType": "MESH",
+        "dataBlock": "Lumbrical muscles of foot",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 207,
+        "basePolygons": 418,
+        "evaluatedVertices": 207,
+        "evaluatedTriangles": 418,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.07969949394464493
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.03559936583042145
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.02340586856007576
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.0884825587272644,
+            -0.08849862962961197,
+            0.01294434629380703
+          ],
+          [
+            -0.07279098778963089,
+            0.005460016429424286,
+            0.033169958740472794
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.609141516319133e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            207
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "1171dde1515da6de1c8deb0baea02c22130c7309d6ff5b3719e28069d1381c4d"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:medial-head-of-flexor-hallucis-brevis-l",
+      "name": "Left medial head of flexor hallucis brevis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3253696,
+      "normals": 3256804,
+      "indices": 3258360,
+      "vertexCount": 259,
+      "indexCount": 1542,
+      "bounds": [
+        [
+          0.05914286896586418,
+          0.010821504518389702,
+          0.003970865160226822
+        ],
+        [
+          0.07213599234819412,
+          0.050588563084602356,
+          0.08730100095272064
+        ]
+      ],
+      "sourceObject": "Medial head of flexor hallucis brevis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Medial head of flexor hallucis brevis.l",
+        "objectType": "MESH",
+        "dataBlock": "Medial head of flexor hallucis brevis",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Flexor hallucis brevis.g",
+        "baseVertices": 259,
+        "basePolygons": 514,
+        "evaluatedVertices": 259,
+        "evaluatedTriangles": 514,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.06478726863861084
+          ],
+          [
+            0.0,
+            0.9999998211860657,
+            -1.4210854715202004e-14,
+            -0.0487215630710125
+          ],
+          [
+            0.0,
+            1.4210854715202004e-14,
+            0.9999998211860657,
+            0.02799665555357933
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999995827674866,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.05914286896586418,
+            -0.08730100095272064,
+            0.010821504518389702
+          ],
+          [
+            0.07213599234819412,
+            -0.003970865160226822,
+            0.050588563084602356
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1145930441984872e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            259
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "dabac8c09d72be7afe0419de794e7384eb5f920a81d34ebacf7687affb244316"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:medial-head-of-flexor-hallucis-brevis-r",
+      "name": "Right medial head of flexor hallucis brevis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3264528,
+      "normals": 3267636,
+      "indices": 3269192,
+      "vertexCount": 259,
+      "indexCount": 1542,
+      "bounds": [
+        [
+          -0.07213599234819412,
+          0.010821627452969551,
+          0.003970865160226822
+        ],
+        [
+          -0.05914286896586418,
+          0.050588663667440414,
+          0.08730094879865646
+        ]
+      ],
+      "sourceObject": "Medial head of flexor hallucis brevis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Medial head of flexor hallucis brevis.r",
+        "objectType": "MESH",
+        "dataBlock": "Medial head of flexor hallucis brevis",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Medial plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Flexor hallucis brevis.g",
+        "baseVertices": 259,
+        "basePolygons": 514,
+        "evaluatedVertices": 259,
+        "evaluatedTriangles": 514,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.06478726863861084
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -1.1368683772161603e-13,
+            -0.04872153699398041
+          ],
+          [
+            0.0,
+            1.1368683772161603e-13,
+            0.9999992251396179,
+            0.027996769174933434
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999983906745911,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.07213599234819412,
+            -0.08730094879865646,
+            0.010821627452969551
+          ],
+          [
+            -0.05914286896586418,
+            -0.003970865160226822,
+            0.050588663667440414
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1145930441984872e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            259
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "3948cbf9ba7504f718200007e3d8f6dadd4b6e5ac3690b9b7230da264d5c06b3"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:oblique-head-of-adductor-hallucis-l",
+      "name": "Left oblique head of adductor hallucis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3275360,
+      "normals": 3280808,
+      "indices": 3283532,
+      "vertexCount": 454,
+      "indexCount": 2712,
+      "bounds": [
+        [
+          0.07656577974557877,
+          0.014184840023517609,
+          0.0011166203767061234
+        ],
+        [
+          0.1045856699347496,
+          0.04428297281265259,
+          0.06791496276855469
+        ]
+      ],
+      "sourceObject": "Oblique head of adductor hallucis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Oblique head of adductor hallucis.l",
+        "objectType": "MESH",
+        "dataBlock": "Oblique head of adductor hallucis",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve",
+          "Ulnar nerve"
+        ],
+        "parent": "Adductor hallucis.g",
+        "baseVertices": 454,
+        "basePolygons": 904,
+        "evaluatedVertices": 454,
+        "evaluatedTriangles": 904,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.0911918506026268
+          ],
+          [
+            0.0,
+            0.9999998211860657,
+            -1.4210854715202004e-14,
+            -0.028640657663345337
+          ],
+          [
+            0.0,
+            1.4210854715202004e-14,
+            0.9999998211860657,
+            0.032311417162418365
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999995827674866,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.07656577974557877,
+            -0.06791496276855469,
+            0.014184840023517609
+          ],
+          [
+            0.1045856699347496,
+            -0.0011166203767061234,
+            0.04428297281265259
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.864138075829684e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            454
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "fc4c2147e6793b298ee18300a17a910d4f470a2f7b3831fed5621348e3b2e009"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:oblique-head-of-adductor-hallucis-r",
+      "name": "Right oblique head of adductor hallucis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3294380,
+      "normals": 3299828,
+      "indices": 3302552,
+      "vertexCount": 454,
+      "indexCount": 2712,
+      "bounds": [
+        [
+          -0.1045856773853302,
+          0.01418495923280716,
+          0.0011166296899318695
+        ],
+        [
+          -0.07656578719615936,
+          0.044283073395490646,
+          0.0679149404168129
+        ]
+      ],
+      "sourceObject": "Oblique head of adductor hallucis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Oblique head of adductor hallucis.r",
+        "objectType": "MESH",
+        "dataBlock": "Oblique head of adductor hallucis",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve",
+          "Ulnar nerve"
+        ],
+        "parent": "Adductor hallucis.g",
+        "baseVertices": 454,
+        "basePolygons": 904,
+        "evaluatedVertices": 454,
+        "evaluatedTriangles": 904,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.0911918580532074
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -1.1368683772161603e-13,
+            -0.02864065207540989
+          ],
+          [
+            0.0,
+            1.1368683772161603e-13,
+            0.9999992251396179,
+            0.03231152519583702
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999983906745911,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.1045856773853302,
+            -0.0679149404168129,
+            0.01418495923280716
+          ],
+          [
+            -0.07656578719615936,
+            -0.0011166296899318695,
+            0.044283073395490646
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.864138075829684e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            454
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "30f8ffef843ea1c702329feb8e605dc42fb840bec1a8eed3e449c3a2439519ab"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-interossei-muscles-l",
+      "name": "Left plantar interossei muscles",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3313400,
+      "normals": 3320924,
+      "indices": 3324688,
+      "vertexCount": 627,
+      "indexCount": 3726,
+      "bounds": [
+        [
+          0.09355440735816956,
+          0.015565665438771248,
+          0.01242772489786148
+        ],
+        [
+          0.13653947412967682,
+          0.04186142235994339,
+          0.08421463519334793
+        ]
+      ],
+      "sourceObject": "Plantar interossei muscles.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar interossei muscles.l",
+        "objectType": "MESH",
+        "dataBlock": "Plantar interossei muscles",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 627,
+        "basePolygons": 1242,
+        "evaluatedVertices": 627,
+        "evaluatedTriangles": 1242,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.1083296462893486
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            -0.04812677577137947
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.02806488238275051
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.09355440735816956,
+            -0.08421463519334793,
+            0.015565665438771248
+          ],
+          [
+            0.13653947412967682,
+            -0.01242772489786148,
+            0.04186142235994339
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.0447629609969505e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 3,
+          "componentVertices": [
+            223,
+            217,
+            187
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "9a55f4436902caf9bd7ef09fb6e8affbc29e1438d87cbe78f5ef2647be6c5954"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-interossei-muscles-r",
+      "name": "Right plantar interossei muscles",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3339592,
+      "normals": 3347116,
+      "indices": 3350880,
+      "vertexCount": 627,
+      "indexCount": 3726,
+      "bounds": [
+        [
+          -0.13653945922851562,
+          0.015565784648060799,
+          0.012427713721990585
+        ],
+        [
+          -0.09355439245700836,
+          0.041861530393362045,
+          0.08421459048986435
+        ]
+      ],
+      "sourceObject": "Plantar interossei muscles.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar interossei muscles.r",
+        "objectType": "MESH",
+        "dataBlock": "Plantar interossei muscles",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 627,
+        "basePolygons": 1242,
+        "evaluatedVertices": 627,
+        "evaluatedTriangles": 1242,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.10832963138818741
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            -0.04812674969434738
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.028064996004104614
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.13653945922851562,
+            -0.08421459048986435,
+            0.015565784648060799
+          ],
+          [
+            -0.09355439245700836,
+            -0.012427713721990585,
+            0.041861530393362045
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.0452505128774054e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 3,
+          "componentVertices": [
+            223,
+            217,
+            187
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "8ffadaf303a8d538a8f665325ad8f78549d173936d5e48b6e8e2cd59d5a211bf"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:quadratus-plantae-muscle-l",
+      "name": "Left quadratus plantae muscle",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3365784,
+      "normals": 3372864,
+      "indices": 3376404,
+      "vertexCount": 590,
+      "indexCount": 3528,
+      "bounds": [
+        [
+          0.06616540253162384,
+          0.017378458753228188,
+          -0.062006138265132904
+        ],
+        [
+          0.10176628828048706,
+          0.0343828946352005,
+          0.014798611402511597
+        ]
+      ],
+      "sourceObject": "Quadratus plantae muscle.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Quadratus plantae muscle.l",
+        "objectType": "MESH",
+        "dataBlock": "Quadratus plantae muscle",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 590,
+        "basePolygons": 1176,
+        "evaluatedVertices": 590,
+        "evaluatedTriangles": 1176,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08551809936761856
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.4210854715202004e-14,
+            0.022636737674474716
+          ],
+          [
+            0.0,
+            -1.4210854715202004e-14,
+            0.9999999403953552,
+            0.025027984753251076
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -0.9999998807907104,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06616540253162384,
+            -0.014798611402511597,
+            0.017378458753228188
+          ],
+          [
+            0.10176628828048706,
+            0.062006138265132904,
+            0.0343828946352005
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 8.04358145596161e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            590
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "0d7f3e3c7f7cc1fca9f03fe724e93c2e4be46c6b60489e0a7da6cc3e7d757d30"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:quadratus-plantae-muscle-r",
+      "name": "Right quadratus plantae muscle",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3390516,
+      "normals": 3397596,
+      "indices": 3401136,
+      "vertexCount": 590,
+      "indexCount": 3528,
+      "bounds": [
+        [
+          -0.10176627337932587,
+          0.01737857796251774,
+          -0.062006112188100815
+        ],
+        [
+          -0.06616538763046265,
+          0.034383006393909454,
+          0.014798603951931
+        ]
+      ],
+      "sourceObject": "Quadratus plantae muscle.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Quadratus plantae muscle.r",
+        "objectType": "MESH",
+        "dataBlock": "Quadratus plantae muscle",
+        "materials": [
+          "Flexion fingers",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve"
+        ],
+        "parent": "Muscles of foot.g",
+        "baseVertices": 590,
+        "basePolygons": 1176,
+        "evaluatedVertices": 590,
+        "evaluatedTriangles": 1176,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08551808446645737
+          ],
+          [
+            0.0,
+            0.999999463558197,
+            -7.105427357601002e-14,
+            0.02263673022389412
+          ],
+          [
+            0.0,
+            7.105427357601002e-14,
+            0.999999463558197,
+            0.025028100237250328
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.999998927116394,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.10176627337932587,
+            -0.014798603951931,
+            0.01737857796251774
+          ],
+          [
+            -0.06616538763046265,
+            0.062006112188100815,
+            0.034383006393909454
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 8.04358145596161e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            590
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ae14ccd21703085a093e864d6728ff9cb9df0d5b38e47d94ce445c1c7cbbeed2"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "source muscle object",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-SESAMOID-BONES-OF-FOOT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:sesamoid-bones-of-foot-l",
+      "name": "Left sesamoid bones of foot",
+      "side": "left",
+      "system": "skeletal",
+      "componentRole": "bone",
+      "role": "context",
+      "chunk": 0,
+      "positions": 3415248,
+      "normals": 3417036,
+      "indices": 3417932,
+      "vertexCount": 149,
+      "indexCount": 870,
+      "bounds": [
+        [
+          0.06302047520875931,
+          0.010635171085596085,
+          0.06363531202077866
+        ],
+        [
+          0.08037590235471725,
+          0.018657632172107697,
+          0.07726883888244629
+        ]
+      ],
+      "sourceObject": "Sesamoid bones of foot.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Sesamoid bones of foot.l",
+        "objectType": "MESH",
+        "dataBlock": "Sesamoid bones of foot",
+        "materials": [
+          "Bone-1",
+          "Cartilage"
+        ],
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Bones of foot.g",
+        "baseVertices": 149,
+        "basePolygons": 290,
+        "evaluatedVertices": 149,
+        "evaluatedTriangles": 290,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.07420171797275543
+          ],
+          [
+            0.0,
+            0.9999995231628418,
+            -1.4210850480037267e-14,
+            -0.06992559134960175
+          ],
+          [
+            0.0,
+            1.4210850480037267e-14,
+            0.9999995231628418,
+            0.015307500958442688
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "worldDeterminant": -0.9999989867210388,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06302047520875931,
+            -0.07726883888244629,
+            0.010635171085596085
+          ],
+          [
+            0.08037590235471725,
+            -0.06363531202077866,
+            0.018657632172107697
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.775916721899688e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 2,
+          "componentVertices": [
+            107,
+            42
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "04749cabfc73b72f5c10014f008c8f858769f9e062c095876f1261da7398e4cd"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source sesamoid group; medial/lateral identities not independently assigned",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-SESAMOID-BONES-OF-FOOT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:sesamoid-bones-of-foot-r",
+      "name": "Right sesamoid bones of foot",
+      "side": "right",
+      "system": "skeletal",
+      "componentRole": "bone",
+      "role": "context",
+      "chunk": 0,
+      "positions": 3421412,
+      "normals": 3423200,
+      "indices": 3424096,
+      "vertexCount": 149,
+      "indexCount": 870,
+      "bounds": [
+        [
+          -0.08037590235471725,
+          0.010635171085596085,
+          0.06363531202077866
+        ],
+        [
+          -0.06302047520875931,
+          0.018657632172107697,
+          0.07726883888244629
+        ]
+      ],
+      "sourceObject": "Sesamoid bones of foot.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Sesamoid bones of foot.r",
+        "objectType": "MESH",
+        "dataBlock": "Sesamoid bones of foot",
+        "materials": [
+          "Bone-1",
+          "Cartilage"
+        ],
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Bones of foot.g",
+        "baseVertices": 149,
+        "basePolygons": 290,
+        "evaluatedVertices": 149,
+        "evaluatedTriangles": 290,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.07420171797275543
+          ],
+          [
+            0.0,
+            0.9999995231628418,
+            -1.4210850480037267e-14,
+            -0.06992559134960175
+          ],
+          [
+            0.0,
+            1.4210850480037267e-14,
+            0.9999995231628418,
+            0.015307500958442688
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "worldDeterminant": 0.9999989867210388,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.08037590235471725,
+            -0.07726883888244629,
+            0.010635171085596085
+          ],
+          [
+            -0.06302047520875931,
+            -0.06363531202077866,
+            0.018657632172107697
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.775916721899688e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 2,
+          "componentVertices": [
+            107,
+            42
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "6aa5b5c5fdea171b7f685c65d0b2fe8b293faa00622dbb3d7e56530a18063e23"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "compound source sesamoid group; medial/lateral identities not independently assigned",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:transverse-head-of-adductor-hallucis-l",
+      "name": "Left transverse head of adductor hallucis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3427576,
+      "normals": 3429748,
+      "indices": 3430836,
+      "vertexCount": 181,
+      "indexCount": 1098,
+      "bounds": [
+        [
+          0.07660207897424698,
+          0.014536259695887566,
+          0.050535574555397034
+        ],
+        [
+          0.12477162480354309,
+          0.021983632817864418,
+          0.07290928810834885
+        ]
+      ],
+      "sourceObject": "Transverse head of adductor hallucis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Transverse head of adductor hallucis.l",
+        "objectType": "MESH",
+        "dataBlock": "Transverse head of adductor hallucis",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Sciatic nerve",
+          "Ulnar nerve"
+        ],
+        "parent": "Adductor hallucis.g",
+        "baseVertices": 181,
+        "basePolygons": 366,
+        "evaluatedVertices": 181,
+        "evaluatedTriangles": 366,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.10272680968046188
+          ],
+          [
+            0.0,
+            0.9999998211860657,
+            -1.4210854715202004e-14,
+            -0.06379137933254242
+          ],
+          [
+            0.0,
+            1.4210854715202004e-14,
+            0.9999998211860657,
+            0.017840996384620667
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999995827674866,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.07660207897424698,
+            -0.07290928810834885,
+            0.014536259695887566
+          ],
+          [
+            0.12477162480354309,
+            -0.050535574555397034,
+            0.021983632817864418
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.5632445353209753e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            181
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "0ae7d2c4179ea4e3eb97540501fdd874a6a5a3d5ae5775c259f476847e1052cb"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:transverse-head-of-adductor-hallucis-r",
+      "name": "Right transverse head of adductor hallucis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "muscle",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3435228,
+      "normals": 3437400,
+      "indices": 3438488,
+      "vertexCount": 181,
+      "indexCount": 1098,
+      "bounds": [
+        [
+          -0.12477163225412369,
+          0.014536380767822266,
+          0.05053555220365524
+        ],
+        [
+          -0.07660208642482758,
+          0.02198375016450882,
+          0.07290925085544586
+        ]
+      ],
+      "sourceObject": "Transverse head of adductor hallucis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Transverse head of adductor hallucis.r",
+        "objectType": "MESH",
+        "dataBlock": "Transverse head of adductor hallucis",
+        "materials": [
+          "Adductor",
+          "Tendon"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Lateral plantar nerve",
+          "Muscles",
+          "Muscles of foot",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Sciatic nerve",
+          "Ulnar nerve"
+        ],
+        "parent": "Adductor hallucis.g",
+        "baseVertices": 181,
+        "basePolygons": 366,
+        "evaluatedVertices": 181,
+        "evaluatedTriangles": 366,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.10272681713104248
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -1.1368683772161603e-13,
+            -0.06379134953022003
+          ],
+          [
+            0.0,
+            1.1368683772161603e-13,
+            0.9999992251396179,
+            0.017841115593910217
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999983906745911,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.12477163225412369,
+            -0.07290925085544586,
+            0.014536380767822266
+          ],
+          [
+            -0.07660208642482758,
+            -0.05053555220365524,
+            0.02198375016450882
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.5632526200853325e-09,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            181
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "17d92717060cf02cbb68a468e2a133a6e596f80cf02cea3daf04dddc19369cc7"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "expertReview": "pending"
     }
   ],
   "concepts": [
@@ -9611,18 +13247,242 @@
       "elements": [
         "ZA-LLR-THIRD-METATARSAL-BONE-R"
       ]
+    },
+    {
+      "id": "zanatomy:opponens-digiti-minimi-muscle-of-foot-l",
+      "name": "Left opponens digiti minimi muscle of foot",
+      "elements": [
+        "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:opponens-digiti-minimi-muscle-of-foot-r",
+      "name": "Right opponens digiti minimi muscle of foot",
+      "elements": [
+        "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:abductor-digiti-minimi-of-foot-l",
+      "name": "Left abductor digiti minimi of foot",
+      "elements": [
+        "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:abductor-digiti-minimi-of-foot-r",
+      "name": "Right abductor digiti minimi of foot",
+      "elements": [
+        "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:abductor-hallucis-l",
+      "name": "Left abductor hallucis",
+      "elements": [
+        "ZA-LLR-ABDUCTOR-HALLUCIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:abductor-hallucis-r",
+      "name": "Right abductor hallucis",
+      "elements": [
+        "ZA-LLR-ABDUCTOR-HALLUCIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:dorsal-interossei-muscles-of-foot-l",
+      "name": "Left dorsal interossei muscles of foot",
+      "elements": [
+        "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:dorsal-interossei-muscles-of-foot-r",
+      "name": "Right dorsal interossei muscles of foot",
+      "elements": [
+        "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:extensor-digitorum-brevis-l",
+      "name": "Left extensor digitorum brevis",
+      "elements": [
+        "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:extensor-digitorum-brevis-r",
+      "name": "Right extensor digitorum brevis",
+      "elements": [
+        "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:extensor-hallucis-brevis-l",
+      "name": "Left extensor hallucis brevis",
+      "elements": [
+        "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:extensor-hallucis-brevis-r",
+      "name": "Right extensor hallucis brevis",
+      "elements": [
+        "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:flexor-digiti-minimi-of-foot-l",
+      "name": "Left flexor digiti minimi of foot",
+      "elements": [
+        "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:flexor-digiti-minimi-of-foot-r",
+      "name": "Right flexor digiti minimi of foot",
+      "elements": [
+        "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:flexor-digitorum-brevis-l",
+      "name": "Left flexor digitorum brevis",
+      "elements": [
+        "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:flexor-digitorum-brevis-r",
+      "name": "Right flexor digitorum brevis",
+      "elements": [
+        "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:lateral-head-of-flexor-hallucis-brevis-l",
+      "name": "Left lateral head of flexor hallucis brevis",
+      "elements": [
+        "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:lateral-head-of-flexor-hallucis-brevis-r",
+      "name": "Right lateral head of flexor hallucis brevis",
+      "elements": [
+        "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:lumbrical-muscles-of-foot-l",
+      "name": "Left lumbrical muscles of foot",
+      "elements": [
+        "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:lumbrical-muscles-of-foot-r",
+      "name": "Right lumbrical muscles of foot",
+      "elements": [
+        "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:medial-head-of-flexor-hallucis-brevis-l",
+      "name": "Left medial head of flexor hallucis brevis",
+      "elements": [
+        "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:medial-head-of-flexor-hallucis-brevis-r",
+      "name": "Right medial head of flexor hallucis brevis",
+      "elements": [
+        "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:oblique-head-of-adductor-hallucis-l",
+      "name": "Left oblique head of adductor hallucis",
+      "elements": [
+        "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:oblique-head-of-adductor-hallucis-r",
+      "name": "Right oblique head of adductor hallucis",
+      "elements": [
+        "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-interossei-muscles-l",
+      "name": "Left plantar interossei muscles",
+      "elements": [
+        "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-L"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-interossei-muscles-r",
+      "name": "Right plantar interossei muscles",
+      "elements": [
+        "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-R"
+      ]
+    },
+    {
+      "id": "zanatomy:quadratus-plantae-muscle-l",
+      "name": "Left quadratus plantae muscle",
+      "elements": [
+        "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-L"
+      ]
+    },
+    {
+      "id": "zanatomy:quadratus-plantae-muscle-r",
+      "name": "Right quadratus plantae muscle",
+      "elements": [
+        "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-R"
+      ]
+    },
+    {
+      "id": "zanatomy:sesamoid-bones-of-foot-l",
+      "name": "Left sesamoid bones of foot",
+      "elements": [
+        "ZA-LLR-SESAMOID-BONES-OF-FOOT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:sesamoid-bones-of-foot-r",
+      "name": "Right sesamoid bones of foot",
+      "elements": [
+        "ZA-LLR-SESAMOID-BONES-OF-FOOT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:transverse-head-of-adductor-hallucis-l",
+      "name": "Left transverse head of adductor hallucis",
+      "elements": [
+        "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:transverse-head-of-adductor-hallucis-r",
+      "name": "Right transverse head of adductor hallucis",
+      "elements": [
+        "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-R"
+      ]
     }
   ],
   "chunks": [
     {
       "url": "/models/lower-limb-nerve-reference/anatomy.bin",
-      "bytes": 2643600,
+      "bytes": 3442880,
       "gzip": "/models/lower-limb-nerve-reference/anatomy.bin.gz",
-      "gzipBytes": 1462468,
-      "sha256": "572a92f6c7f630c226e70fd5e02d93db70714c063c8fd493d4eaa4c87472ca56"
+      "gzipBytes": 1931012,
+      "sha256": "038387150768d7c34670bdce332ad4870dc15fbcbb622c0e441ab064cc979350"
     }
   ],
-  "triangles": 125372,
+  "triangles": 163404,
   "source": {
     "id": "zanatomy",
     "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
@@ -17332,8 +21192,499 @@
       "minFaceNormalDot": -0.5953634571042262,
       "maxFloat32PositionErrorMeters": 0.0,
       "maxNormalLengthError": 2.2080899521492725e-05
+    },
+    {
+      "partId": "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-L",
+      "sourceObject": "Abductor digiti minimi of foot.l",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "minFaceNormalDot": -0.10734029370595012,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 4.00563800888349e-08,
+      "maxNormalLengthError": 2.0587464481636175e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.00563800888349e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        640
+      ]
+    },
+    {
+      "partId": "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-R",
+      "sourceObject": "Abductor digiti minimi of foot.r",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "minFaceNormalDot": -0.10734029674543956,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 4.00563800888349e-08,
+      "maxNormalLengthError": 2.3451393138085308e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.00563800888349e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        640
+      ]
+    },
+    {
+      "partId": "ZA-LLR-ABDUCTOR-HALLUCIS-L",
+      "sourceObject": "Abductor hallucis.l",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.9999895642617362,
+      "cancelledVertexNormals": 3,
+      "duplicateIndexFaceSets": 1,
+      "duplicateFaceExtraCount": 1,
+      "minDoubleTriangleArea": 1.9944356474926997e-08,
+      "maxNormalLengthError": 2.2052979399167505e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.9944356474926997e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        841,
+        3
+      ]
+    },
+    {
+      "partId": "ZA-LLR-ABDUCTOR-HALLUCIS-R",
+      "sourceObject": "Abductor hallucis.r",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.9999895642617362,
+      "cancelledVertexNormals": 3,
+      "duplicateIndexFaceSets": 1,
+      "duplicateFaceExtraCount": 1,
+      "minDoubleTriangleArea": 1.9944356474926997e-08,
+      "maxNormalLengthError": 2.2052979399167505e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.9944356474926997e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        841,
+        3
+      ]
+    },
+    {
+      "partId": "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-L",
+      "sourceObject": "Dorsal interossei muscles of foot.l",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "minFaceNormalDot": -0.5976877968927983,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 4.663325337139044e-09,
+      "maxNormalLengthError": 2.2648144151093952e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.663325337139044e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 4,
+      "componentVertices": [
+        257,
+        252,
+        234,
+        232
+      ]
+    },
+    {
+      "partId": "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-R",
+      "sourceObject": "Dorsal interossei muscles of foot.r",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "minFaceNormalDot": -0.597688059062329,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 4.663325337139044e-09,
+      "maxNormalLengthError": 2.2323052794481768e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.663325337139044e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 4,
+      "componentVertices": [
+        257,
+        252,
+        234,
+        232
+      ]
+    },
+    {
+      "partId": "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-L",
+      "sourceObject": "Extensor digitorum brevis.l",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.45342893575007537,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 5.651315579883885e-08,
+      "maxNormalLengthError": 2.2670032063465406e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.6513155798838855e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 3,
+      "componentVertices": [
+        619,
+        533,
+        444
+      ]
+    },
+    {
+      "partId": "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-R",
+      "sourceObject": "Extensor digitorum brevis.r",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.45342893575007537,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 5.651564271866346e-08,
+      "maxNormalLengthError": 2.0912974834752518e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.651564271866346e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 3,
+      "componentVertices": [
+        619,
+        533,
+        444
+      ]
+    },
+    {
+      "partId": "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-L",
+      "sourceObject": "Flexor digiti minimi of foot.l",
+      "nonpositiveInterpolatedFaceNormals": 4,
+      "minFaceNormalDot": -0.46404553278841904,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 4.972822575602495e-09,
+      "maxNormalLengthError": 1.975203399173786e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.9728225756024946e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        230
+      ]
+    },
+    {
+      "partId": "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-R",
+      "sourceObject": "Flexor digiti minimi of foot.r",
+      "nonpositiveInterpolatedFaceNormals": 4,
+      "minFaceNormalDot": -0.46404553278841904,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 4.972822575602495e-09,
+      "maxNormalLengthError": 2.1192831905270104e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.9728225756024946e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        230
+      ]
+    },
+    {
+      "partId": "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-L",
+      "sourceObject": "Flexor digitorum brevis.l",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.25872096931604804,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 1.2414889468615805e-08,
+      "maxNormalLengthError": 2.2367758007790783e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2414889468615805e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1610
+      ]
+    },
+    {
+      "partId": "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-R",
+      "sourceObject": "Flexor digitorum brevis.r",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.25872096931604804,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 1.2414889468615805e-08,
+      "maxNormalLengthError": 2.2367758007790783e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2414889468615805e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1610
+      ]
+    },
+    {
+      "partId": "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L",
+      "sourceObject": "Lateral head of flexor hallucis brevis.l",
+      "nonpositiveInterpolatedFaceNormals": 10,
+      "minFaceNormalDot": -0.5304733786234522,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 1.75752155816843e-09,
+      "maxNormalLengthError": 2.091061799969207e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.75752155816843e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        481
+      ]
+    },
+    {
+      "partId": "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R",
+      "sourceObject": "Lateral head of flexor hallucis brevis.r",
+      "nonpositiveInterpolatedFaceNormals": 10,
+      "minFaceNormalDot": -0.5304733786234522,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 1.75752155816843e-09,
+      "maxNormalLengthError": 2.34108790826415e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.75752155816843e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        481
+      ]
+    },
+    {
+      "partId": "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-L",
+      "sourceObject": "Lumbrical muscles of foot.l",
+      "nonpositiveInterpolatedFaceNormals": 2,
+      "minFaceNormalDot": -0.13006761507311534,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 2.609141516319133e-08,
+      "maxNormalLengthError": 2.047891470424723e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.609141516319133e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        207
+      ]
+    },
+    {
+      "partId": "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-R",
+      "sourceObject": "Lumbrical muscles of foot.r",
+      "nonpositiveInterpolatedFaceNormals": 2,
+      "minFaceNormalDot": -0.13006680437644474,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 2.609141516319133e-08,
+      "maxNormalLengthError": 2.047891470424723e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.609141516319133e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        207
+      ]
+    },
+    {
+      "partId": "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-L",
+      "sourceObject": "Oblique head of adductor hallucis.l",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "minFaceNormalDot": -0.1857711546877004,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 9.864138075829684e-08,
+      "maxNormalLengthError": 2.4316158276249666e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 9.864138075829684e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        454
+      ]
+    },
+    {
+      "partId": "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-R",
+      "sourceObject": "Oblique head of adductor hallucis.r",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "minFaceNormalDot": -0.18573772693662755,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 9.864138075829684e-08,
+      "maxNormalLengthError": 2.2550812802113462e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 9.864138075829684e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        454
+      ]
+    },
+    {
+      "partId": "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-L",
+      "sourceObject": "Plantar interossei muscles.l",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "minFaceNormalDot": -0.44768342743758316,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 2.0447629609969505e-08,
+      "maxNormalLengthError": 2.0401658095137165e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.0447629609969505e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 3,
+      "componentVertices": [
+        223,
+        217,
+        187
+      ]
+    },
+    {
+      "partId": "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-R",
+      "sourceObject": "Plantar interossei muscles.r",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "minFaceNormalDot": -0.4476639069116269,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 2.0452505128774054e-08,
+      "maxNormalLengthError": 2.1007017790175553e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.0452505128774054e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 3,
+      "componentVertices": [
+        223,
+        217,
+        187
+      ]
+    },
+    {
+      "partId": "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-L",
+      "sourceObject": "Transverse head of adductor hallucis.l",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "minFaceNormalDot": -0.3777650618551955,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 3.5632445353209753e-09,
+      "maxNormalLengthError": 1.8740926623461718e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.5632445353209753e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        181
+      ]
+    },
+    {
+      "partId": "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-R",
+      "sourceObject": "Transverse head of adductor hallucis.r",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "minFaceNormalDot": -0.3777749420287673,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 3.5632526200853325e-09,
+      "maxNormalLengthError": 1.8740926623461718e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.5632526200853325e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        181
+      ]
     }
   ],
   "anatomicalExpertReview": "pending",
-  "priorRejectedMainFrameAudit": "docs/model/asset-registration-distal-leg-nerves.md"
+  "priorRejectedMainFrameAudit": "docs/model/asset-registration-distal-leg-nerves.md",
+  "candidateBaseline": {
+    "manifestSha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed",
+    "binarySha256": "572a92f6c7f630c226e70fd5e02d93db70714c063c8fd493d4eaa4c87472ca56",
+    "parts": 87,
+    "geometryPreservation": "Entire baseline binary prefix and all offsets/arrays unchanged"
+  },
+  "candidateSourceReview": "data/model-candidates/foot-soft-tissue-source-audit-v1/REVIEW.md",
+  "packaging": {
+    "producer": "scripts/export-lower-limb-reference.py",
+    "sourceExport": "data/model-candidates/foot-soft-tissue-source-audit-v1/export.py",
+    "sourceCandidateManifestSha256": "d746e77f27af6b92153dc05930b6af7fde7612c9732ad4ad2c4ce76432d5a4f8",
+    "inclusion": "Source-preserved D1 reference with disclosed mesh/group limits; not regional anatomy acceptance"
+  }
 }

@@ -39,10 +39,10 @@ export const REFERENCE_DATASETS = {
     identity: "Alt ekstremite · Z-Anatomy",
     sex: "male",
     manifest: "/models/lower-limb-nerve-reference/atlas.json",
-    scope: "Sinirlerin kısmi seyri, fibular arterler, seçilmiş ayak bileği bağları ve aynı kaynaktan kemik bağlamı. Tam sinir veya damar ağı değildir; uzman incelemesi bekliyor.",
+    scope: "Kısmi sinir/arter seyirleri, seçilmiş ayak bileği bağları, ayak kasları ve sesamoid grupları; aynı kaynaktan kemik bağlamı. Bütün ayak ayrıntıları veya tam ağ değildir; uzman incelemesi bekliyor.",
     description: lowerLimb.descriptionTr,
     sourceName: "Z-Anatomy · alt ekstremite referansı",
-    placeholder: "Plantar sinir, ayak bileği bağı, metatars…",
+    placeholder: "Abductor hallucis, plantar sinir, sesamoid…",
   },
 } as const;
 
@@ -52,7 +52,8 @@ export function referenceDataset(dataset?: DatasetId) {
 export function referenceDescription(dataset: DatasetId, conceptId?: string): string | undefined {
   if (dataset === "lower-limb-nerve-reference") {
     const entry = lowerLimb.labels.find((label) => label.ids.includes(conceptId ?? ""));
-    const scope = entry?.componentRole === "nerve"
+    const authoredNote = entry && "representationNoteTr" in entry ? entry.representationNoteTr : undefined;
+    const scope = authoredNote || (entry?.componentRole === "nerve"
       ? "Adlandırılmış sinirin kaynakta çizilmiş kısmi seyrini gösterir. İnce dallar, kökler ve tam innervasyon kapsamı bu modelden çıkarılamaz; anatomik uzman incelemesi bekliyor."
       : entry?.componentRole === "artery"
         ? "Fibular arterin kaynakta çizilmiş kısmi seyrini gösterir. Tam damar ağı ve besleme alanı bu modelden çıkarılamaz; anatomik uzman incelemesi bekliyor."
@@ -60,9 +61,9 @@ export function referenceDescription(dataset: DatasetId, conceptId?: string): st
           ? "Kaynakta ayrı adlandırılmış bağ yüzeyidir. Ayak bileğinin bütün bağları, eklem kapsülü ve tutunma bölgeleri bu seçimle karşılanmaz; anatomik uzman incelemesi bekliyor."
           : entry?.componentRole === "bone_context"
             ? "Aynı kaynak modelden alınmış ayrı kemik yüzeyidir. Eklem ayrıntıları ve bağ tutunmaları ayrıca incelenmelidir; anatomik uzman incelemesi bekliyor."
-            : undefined;
+            : undefined);
     const note = entry?.la === null
-      ? "Dijite özgü Latince ad henüz doğrulanmadı; Latince modunda İngilizce gösterim adı korunur."
+      ? "Latince ad henüz doğrulanmadı; Latince modunda İngilizce gösterim adı korunur."
       : undefined;
     return [note, scope || lowerLimb.descriptionTr].filter(Boolean).join(" ");
   }
@@ -140,8 +141,11 @@ export function datasetSearchTerms(dataset: DatasetId, id: string, name: string)
   if (dataset === "female-pelvis") return femalePelvisSearchTerms(id, name);
   if (dataset === "lower-limb-nerve-reference") {
     const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
+    const compactTurkish = entry?.side === "left" || entry?.side === "right"
+      ? `${entry.side === "left" ? "Sol" : "Sağ"} ${entry.tr.replace(/^Ayağın /, "")}`
+      : entry?.tr;
     const terms = [id, name, ...["tr", "en", "la"].map((language) =>
-      datasetLabel(dataset, id, name, language as AnatomyLanguage)), ...(entry?.aliases ?? [])];
+      datasetLabel(dataset, id, name, language as AnatomyLanguage)), ...(compactTurkish ? [compactTurkish] : []), ...(entry?.aliases ?? [])];
     return [...new Set(terms.flatMap((term) => [term, term.normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i")]))];
   }

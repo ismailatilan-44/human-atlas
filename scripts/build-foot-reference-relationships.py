@@ -129,12 +129,17 @@ if '--apply' in sys.argv:
     for s in sources:
         assert s['id'] not in existing or existing[s['id']] == s, f'Conflicting source {s["id"]}'
         if s['id'] not in existing: metadata['sources'].append(s)
-    metadata['relationshipPredicates'] = [metadata['predicate'],*predicates]
+    definitions = {p['id']:p for p in metadata.get('relationshipPredicates',[metadata['predicate']])}
+    for p in predicates:
+        assert p['id'] not in definitions or definitions[p['id']] == p
+        definitions[p['id']] = p
+    metadata['relationshipPredicates'] = list(definitions.values())
     metadata['counts']['articulationRelations'] = 48
     metadata['counts']['attachmentRelations'] = 12
     metadata['counts']['totalRelations'] = len(metadata['relations'])
-    metadata['review']['relationshipEvidence'] = ('12 preserved same-side nerve branches; 48 sourced bone-level '
-        'articulations and 12 ligament-to-bone attachments; no measured contact, footprints or expert acceptance')
+    if len(metadata['relations']) == 72:
+        metadata['review']['relationshipEvidence'] = ('12 preserved same-side nerve branches; 48 sourced bone-level '
+            'articulations and 12 ligament-to-bone attachments; no measured contact, footprints or expert acceptance')
     metadata['notAsserted'] = [x for x in metadata['notAsserted'] if x != 'Bone adjacency, ligament attachments or joint relationships']
     claim = 'Complete bone articulation/ligament network; segmented joint surfaces or attachment coordinates'
     if claim not in metadata['notAsserted']: metadata['notAsserted'].append(claim)
@@ -142,5 +147,5 @@ if '--apply' in sys.argv:
 if '--check' in sys.argv:
     active = {r['id']:r for r in metadata['relations']}
     assert all(active.get(r['id']) == r for r in relations), 'Proposed relationships not integrated'
-    assert metadata['counts']['totalRelations'] == len(metadata['relations']) == 72
+    assert metadata['counts']['totalRelations'] == len(metadata['relations']) >= 72
 print(json.dumps(proposal['summary']))

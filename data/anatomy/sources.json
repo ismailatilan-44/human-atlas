@@ -721,5 +721,46 @@
     "sourceId": "bodyparts3d-4.3-live",
     "attribution": "/models/extensions/LUNG-BP3D43-ATTRIBUTION.md",
     "use": "18 official segment-parenchyma surfaces,17 source concepts,7 lung/lobe membership extensions. Independent no-fit thoracic coordinate checks; original280 bronchovascular surfaces retained. Source aggregate conflicts and geometry flaws recorded."
+  },
+  {
+    "id": "zanatomy-lower-limb-source",
+    "title": "Pinned Z-Anatomy named source objects",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "member": "Z-Anatomy/Startup.blend",
+    "sourceArtifactSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "mappingPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+    "use": "Source object name,side and head/group scope;license/geometry acceptance owned by source package"
+  },
+  {
+    "id": "foot-soft-tissue-bp3d40-names",
+    "title": "Retained official BodyParts3D4.0 archive names",
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "path": "data/model-candidates/coverage-labels/bp3d-isa-parts-list-e.txt",
+    "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+  },
+  {
+    "id": "foot-soft-tissue-bp3d40-membership",
+    "title": "Retained official BodyParts3D4.0 element memberships",
+    "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "path": "data/model-candidates/concept-selection-review/isa_element_parts.txt",
+    "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+  },
+  {
+    "id": "ttuhsc-anterior-lateral-leg-foot-tables",
+    "title": "TTUHSC Anatomy Tables — Anterior & Lateral Leg & Foot",
+    "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/leg_tables.html",
+    "retrievedOn": "2026-10-02",
+    "locator": "Muscles table; abductor hallucis and extensor hallucis brevis rows; Origin,Insertion,Innervation columns",
+    "use": "Six selected factual cells; no table redistribution;unsided educational descriptions,not specimen validation",
+    "fetchStatus": "Successful web read;no access restriction or authentication required"
+  },
+  {
+    "id": "ta98-quadratus-plantae-synonym",
+    "title": "University of Fribourg TA98 terminology — lower limb muscles",
+    "url": "https://svx-uo7640ifaa2.unifr.ch/Public/EntryPage/TA98%20Tree/TA98%20EN/04.7.02%20TA98%20EN.htm",
+    "retrievedOn": "2026-10-02",
+    "locator": "A04.7.02.068; English and Latin synonym columns",
+    "use": "Explicit quadratus plantae/flexor accessorius synonym only;Latin display remains pinned numeric TA2 row2684",
+    "fetchStatus": "Primary-source indexed search result read;direct page fetch returned502. TTUHSC TA2 PDF direct read also timed out;no access restriction bypassed."
   }
 ]

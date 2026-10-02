@@ -2,15 +2,17 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createExplosionLayout} from '../app/explosion-layout.ts';
 import {PointerTap} from '../app/pointer-tap.ts';
+import {inspectionDistance} from '../app/inspection-camera.ts';
+import {Box3, Vector3, PerspectiveCamera} from 'three';
 import {createServer} from 'vite';
 // Use the app's bundler for its TypeScript and JSON dependency imports.
 const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
-let atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel, relationshipsFor, datasetLabel;
+let atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel, relationshipsFor, datasetLabel, referenceDescription;
 try {
   ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts'));
   ({mergeAtlas, loadAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
   ({explorerConcepts, relationshipsFor} = await loader.ssrLoadModule('/app/knowledge.ts'));
-  ({datasetLabel} = await loader.ssrLoadModule('/app/reference-datasets.ts'));
+  ({datasetLabel, referenceDescription} = await loader.ssrLoadModule('/app/reference-datasets.ts'));
   ({prepareAtlas, anatomyLabel} = await loader.ssrLoadModule('/app/atlas-metadata.ts'));
 }
 finally { await loader.close(); }
@@ -36,6 +38,34 @@ for (const file of ['atlas.json']) {
     }
   }
   assert.deepEqual(prepareAtlas(atlas), atlas, 'Repeated metadata preparation must preserve both selections');
+  // The actual foot bounds must fill a useful part of the free area without
+  // projecting into the detail sheet or controls, including a depth-heavy view.
+  const footIds = new Set(atlas.concepts.find(c=>c.id==='FMA11344').elements);
+  const footBounds = new Box3();
+  for (const p of atlas.parts.filter(p=>footIds.has(p.id)))
+    footBounds.union(new Box3(new Vector3(...p.bounds[0]),new Vector3(...p.bounds[1])));
+  for (const [w,h,left,right,top,bottom] of [
+    [390,844,20,370,264,430], [320,568,20,300,190,290],
+    [844,390,20,512,100,265], [1440,1000,285,1015,110,830],
+  ]) for (const direction of [new Vector3(0,0,1),new Vector3(0,0,-1),new Vector3(1,0,0),new Vector3(.35,.1,1).normalize()]) {
+    const center=footBounds.getCenter(new Vector3());
+    const camera=new PerspectiveCamera(34,w/h,.005,100);
+    camera.setViewOffset(w,h,w/2-(left+right)/2,h/2-(top+bottom)/2,w,h);
+    camera.position.copy(center).addScaledVector(direction,
+      inspectionDistance(footBounds,direction,camera.fov,h,right-left,bottom-top));
+    camera.lookAt(center);
+    camera.updateMatrixWorld();
+    const xs=[],ys=[];
+    for(const x of [footBounds.min.x,footBounds.max.x]) for(const y of [footBounds.min.y,footBounds.max.y]) for(const z of [footBounds.min.z,footBounds.max.z]) {
+      const projected=new Vector3(x,y,z).project(camera);
+      const px=(projected.x+1)*w/2,py=(1-projected.y)*h/2;
+      assert(px>=left && px<=right && py>=top && py<=bottom,'Selected foot is clipped by inspection UI');
+      assert(projected.z>=-1 && projected.z<=1,'Selected foot crosses a clipping plane');
+      xs.push(px);ys.push(py);
+    }
+    assert(Math.max((Math.max(...xs)-Math.min(...xs))/(right-left),(Math.max(...ys)-Math.min(...ys))/(bottom-top))>.6,
+      'Foot framing leaves the selected group too small');
+  }
   const reviewedLung = atlas.concepts.find(c=>c.id==='FMA7309');
   const rawLung = atlas.concepts.find(c=>c.id==='atlas:source-membership:FMA7309');
   assert.equal(reviewedLung.elements.length, 163);
@@ -141,10 +171,13 @@ try {
   lower = await loadAtlas(new AbortController().signal, 'lower-limb-nerve-reference');
 } finally { globalThis.fetch = originalFetch; }
 assert.deepEqual(lowerRequests, ['/models/lower-limb-nerve-reference/atlas.json']);
-assert.equal(lower.parts.length, 87);
+assert.equal(lower.parts.length, 119);
 assert.equal(lower.compatibleWithMainAtlas, false);
 assert.equal(lower.anchors.length, 0);
 const lowerConcepts = explorerConcepts(lower), lowerMap = new Map(lowerConcepts.map(c => [c.id, c]));
+const [findLower] = atlasTools({...lower,concepts:lowerConcepts}, () => {});
+assert.deepEqual(findLower.execute({query:'sol lumbrikal'}).map(r => r.id), ['zanatomy:lumbrical-muscles-of-foot-l']);
+assert.deepEqual(findLower.execute({query:'sag plantar interosseoz'}).map(r => r.id), ['zanatomy:plantar-interossei-muscles-r']);
 const tibial = lowerMap.get('atlas:left-tibial-nerve');
 assert.deepEqual(tibial.elements, ['ZA-TIB-L']);
 assert.equal(datasetLabel(lower.datasetId, tibial.id, tibial.name, 'tr'), 'Sol Tibial sinir');
@@ -162,8 +195,10 @@ for (const side of ['left','right']) {
   const plantar = lowerMap.get(`atlas:${side}-medial-plantar-nerve`);
   assert.deepEqual(plantar.elements, [`ZA-MPL-${side[0].toUpperCase()}`]);
   const links = relationshipsFor(plantar.id, lowerMap, lower.datasetId);
-  assert.equal(links.length, 1);
-  assert.equal(links[0].otherId, `atlas:${side}-tibial-nerve`);
+  const branches = links.filter(r => r.predicate === 'branch_of');
+  assert.equal(branches.length, 1);
+  assert.equal(branches[0].otherId, `atlas:${side}-tibial-nerve`);
+  assert(links.some(r => r.predicate === 'innervates' && r.otherId === `zanatomy:abductor-hallucis-${side[0]}`));
   assert.equal(lowerMap.get(`atlas:${side}-anterior-talofibular-ligament`).elements.length, 1);
   const suffix = side[0];
   const metatarsalId = `zanatomy:second-metatarsal-bone-${suffix}`;
@@ -180,6 +215,24 @@ for (const side of ['left','right']) {
   assert.equal(ligament.length, 2);
   assert(ligament.every(r => r.predicate === 'attaches_to' && r.attachmentNoteTr));
   assert.deepEqual(ligament.map(r => r.otherId).sort(), [`zanatomy:calcaneus-${suffix}`,`zanatomy:fibula-${suffix}`]);
+  const muscleId = `zanatomy:abductor-hallucis-${suffix}`;
+  const muscle = lowerMap.get(muscleId);
+  assert.equal(muscle.elements.length, 1);
+  const muscleLinks = relationshipsFor(muscleId, lowerMap, lower.datasetId);
+  assert.equal(muscleLinks.length, 3);
+  assert(muscleLinks.every(r => lowerMap.has(r.otherId)));
+  assert(muscleLinks.filter(r => ['originates_at','inserts_at'].includes(r.predicate)).every(r => r.attachmentNoteTr));
+  assert(muscleLinks.some(r => r.otherId === `atlas:${side}-medial-plantar-nerve`));
+  const headId = `zanatomy:lateral-head-of-flexor-hallucis-brevis-${suffix}`;
+  assert.equal(relationshipsFor(headId, lowerMap, lower.datasetId).length, 0, 'Do not inherit whole-muscle links to a head');
+  assert.match(referenceDescription(lower.datasetId, headId), /kas başı/);
+  assert.match(referenceDescription(lower.datasetId, `zanatomy:lumbrical-muscles-of-foot-${suffix}`), /Dört ayrı/);
+  assert.match(referenceDescription(lower.datasetId, `zanatomy:sesamoid-bones-of-foot-${suffix}`), /medial\/lateral/);
+  assert.match(referenceDescription(lower.datasetId, `zanatomy:flexor-digiti-minimi-of-foot-${suffix}`), /Latince ad henüz doğrulanmadı/);
+  const mainMuscle = side === 'left' ? 'FMA37460' : 'FMA37459';
+  const mainLinks = relationshipsFor(mainMuscle, undefined, 'male-body');
+  assert(mainLinks.some(r => r.predicate === 'originates_at' && r.otherId === (side === 'left' ? 'FMA24498' : 'FMA24497')));
+  assert(!mainLinks.some(r => r.otherId.startsWith('zanatomy:') || r.otherId.includes('plantar-nerve')), 'No reference-only nerve in main graph');
 }
 assert(relationshipsFor('atlas:left-sciatic-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
 assert.deepEqual(relationshipsFor('atlas:left-sciatic-nerve', lowerMap, 'inner-ear-reference'), []);

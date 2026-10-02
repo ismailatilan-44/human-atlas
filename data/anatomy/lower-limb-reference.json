@@ -2,24 +2,29 @@
   "schemaVersion": 1,
   "datasetId": "lower-limb-nerve-reference",
   "scope": "Sixteen independently named nerve objects, two fibular artery objects, six ankle ligament objects and 63 same-source bone context objects; partial lower-limb reference",
-  "descriptionTr": "Bilateral seçilmiş sinir, fibular arter ve ayak bileği bağ nesneleri; aynı kaynaktan 63 kemik bağlamı. 87 kaynak nesnesi, tam alt ekstremite ağı veya bölge kabulü değildir. Anatomik uzman incelemesi bekliyor.",
+  "descriptionTr": "Kaynağın kendi kemik bağlamındaki kısmi sinir/arter seyirleri, seçilmiş ayak bileği bağları, ayak kasları ve sesamoid grupları. Ana gövdeye yerleştirilmiş değildir; tam ağ veya bütün ayak ayrıntısı değildir.",
   "representationNoteTr": "Kaynakta yazılmış sinir ve arter eğrileri, seçilmiş bağ yüzeyleri ve kemik bağlamı korunur. Nesnedeki spline sayısı adlandırılmış dal sayısı değildir. Kökler, tüm distal dallar, innervasyon ve damar ağı tamlığı bu paketten çıkarılamaz.",
   "counts": {
-    "labels": 87,
+    "labels": 119,
     "authoredNerveObjects": 16,
     "authoredArteryObjects": 2,
     "ligamentObjects": 6,
-    "boneContextObjects": 63,
+    "boneContextObjects": 65,
     "branchOfRelations": 12,
-    "verifiedDisplayLatin": 53,
-    "unresolvedSpecificLatin": 34,
+    "verifiedDisplayLatin": 83,
+    "unresolvedSpecificLatin": 36,
     "articulationRelations": 48,
     "attachmentRelations": 12,
-    "totalRelations": 72
+    "totalRelations": 84,
+    "muscleObjects": 30,
+    "sesamoidGroupObjects": 2,
+    "muscleOriginRelations": 4,
+    "muscleInsertionRelations": 4,
+    "muscleInnervationRelations": 4
   },
   "review": {
-    "terminology": "87 TR/EN labels;53 exact pinned numeric-table Latin display terms;34 digit-specific Latin labels unresolved with generic term evidence retained separately; Turkish editorial",
-    "relationshipEvidence": "12 preserved same-side nerve branches; 48 sourced bone-level articulations and 12 ligament-to-bone attachments; no measured contact, footprints or expert acceptance",
+    "terminology": "119 TR/EN labels;83 exact pinned numeric-table Latin display terms; 34 digit-specific and two source-typo Latin displays unresolved; Turkish editorial, expert pending",
+    "relationshipEvidence": "12 nerve branches,48 bone articulations,12 ligament attachments; four muscle origins,four insertions,four innervations from selected direct teaching facts. No model footprints,contact,motor branch geometry or expert acceptance.",
     "expertReview": "pending",
     "geometry": "Not assessed by this metadata task; see the owning reference package review",
     "mainAtlasRegistration": "Existing rejected distal registration is not accepted by this separate dataset metadata",
@@ -3990,6 +3995,1788 @@
         "csvLine": 1578,
         "status": "retained_source_text_not_verified_display_latin"
       }
+    },
+    {
+      "ids": [
+        "zanatomy:opponens-digiti-minimi-muscle-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "(Opponens digiti minimi muscle of foot)",
+      "tr": "Ayağın opponens digiti minimi kası",
+      "en": "Opponens digiti minimi muscle of foot",
+      "la": "(Musculus opponens digiti minimi pedis)",
+      "side": "left",
+      "aliases": [
+        "(Opponens digiti minimi muscle of foot).l",
+        "(Opponens digiti minimi muscle of foot)",
+        "Opponens digiti minimi muscle of foot"
+      ],
+      "ta2TableId": 2681,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2681; CSV line 2779; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object (Opponens digiti minimi muscle of foot).l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2681",
+        "en": "(Opponens digiti minimi muscle of foot)",
+        "la": "(Musculus opponens digiti minimi pedis)",
+        "csvLine": 2779
+      },
+      "sourceObject": "(Opponens digiti minimi muscle of foot).l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-L"
+      ],
+      "sourceScope": "source-parenthesized muscle identity; anatomical variation and expert identity review pending",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          120
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      },
+      "sourceParenthesizedIdentity": true
+    },
+    {
+      "ids": [
+        "zanatomy:opponens-digiti-minimi-muscle-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "(Opponens digiti minimi muscle of foot)",
+      "tr": "Ayağın opponens digiti minimi kası",
+      "en": "Opponens digiti minimi muscle of foot",
+      "la": "(Musculus opponens digiti minimi pedis)",
+      "side": "right",
+      "aliases": [
+        "(Opponens digiti minimi muscle of foot).r",
+        "(Opponens digiti minimi muscle of foot)",
+        "Opponens digiti minimi muscle of foot"
+      ],
+      "ta2TableId": 2681,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynağın parantezle işaretlediği kas kimliği korunur; varyasyonun sıklığı veya her bireyde bulunması iddia edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2681; CSV line 2779; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object (Opponens digiti minimi muscle of foot).r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2681",
+        "en": "(Opponens digiti minimi muscle of foot)",
+        "la": "(Musculus opponens digiti minimi pedis)",
+        "csvLine": 2779
+      },
+      "sourceObject": "(Opponens digiti minimi muscle of foot).r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-R"
+      ],
+      "sourceScope": "source-parenthesized muscle identity; anatomical variation and expert identity review pending",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          120
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      },
+      "sourceParenthesizedIdentity": true
+    },
+    {
+      "ids": [
+        "zanatomy:abductor-digiti-minimi-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Abductor digiti minimi of foot",
+      "tr": "Ayağın abductor digiti minimi kası",
+      "en": "Abductor digiti minimi of foot",
+      "la": "Abductor digiti minimi pedis",
+      "side": "left",
+      "aliases": [
+        "Abductor digiti minimi of foot.l",
+        "Abductor digiti minimi of foot"
+      ],
+      "ta2TableId": 2679,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2679; CSV line 2777; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Abductor digiti minimi of foot.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2679",
+        "en": "Abductor digiti minimi of foot",
+        "la": "Abductor digiti minimi pedis",
+        "csvLine": 2777
+      },
+      "sourceObject": "Abductor digiti minimi of foot.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          640
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:abductor-digiti-minimi-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Abductor digiti minimi of foot",
+      "tr": "Ayağın abductor digiti minimi kası",
+      "en": "Abductor digiti minimi of foot",
+      "la": "Abductor digiti minimi pedis",
+      "side": "right",
+      "aliases": [
+        "Abductor digiti minimi of foot.r",
+        "Abductor digiti minimi of foot"
+      ],
+      "ta2TableId": 2679,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2679; CSV line 2777; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Abductor digiti minimi of foot.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2679",
+        "en": "Abductor digiti minimi of foot",
+        "la": "Abductor digiti minimi pedis",
+        "csvLine": 2777
+      },
+      "sourceObject": "Abductor digiti minimi of foot.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          640
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:abductor-hallucis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Abductor hallucis",
+      "tr": "Abductor hallucis kası",
+      "en": "Abductor hallucis",
+      "la": "Abductor hallucis",
+      "side": "left",
+      "aliases": [
+        "Abductor hallucis.l",
+        "Abductor hallucis"
+      ],
+      "ta2TableId": 2672,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinde küçük bir geometri kusuru vardır; ayrı anatomik yapı sayılmaz.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinde küçük bir geometri kusuru vardır; ayrı anatomik yapı sayılmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2672; CSV line 2770; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Abductor hallucis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2672",
+        "en": "Abductor hallucis",
+        "la": "Abductor hallucis",
+        "csvLine": 2770
+      },
+      "sourceObject": "Abductor hallucis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-ABDUCTOR-HALLUCIS-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 2,
+        "componentVertices": [
+          841,
+          3
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:abductor-hallucis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Abductor hallucis",
+      "tr": "Abductor hallucis kası",
+      "en": "Abductor hallucis",
+      "la": "Abductor hallucis",
+      "side": "right",
+      "aliases": [
+        "Abductor hallucis.r",
+        "Abductor hallucis"
+      ],
+      "ta2TableId": 2672,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinde küçük bir geometri kusuru vardır; ayrı anatomik yapı sayılmaz.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinde küçük bir geometri kusuru vardır; ayrı anatomik yapı sayılmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2672; CSV line 2770; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Abductor hallucis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2672",
+        "en": "Abductor hallucis",
+        "la": "Abductor hallucis",
+        "csvLine": 2770
+      },
+      "sourceObject": "Abductor hallucis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-ABDUCTOR-HALLUCIS-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 2,
+        "componentVertices": [
+          841,
+          3
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:dorsal-interossei-muscles-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Dorsal interossei muscles of foot",
+      "tr": "Ayağın dorsal interosseöz kasları",
+      "en": "Dorsal interossei muscles of foot",
+      "la": "Musculi interossei dorsales pedis",
+      "side": "left",
+      "aliases": [
+        "Dorsal interossei muscles of foot.l",
+        "Dorsal interossei muscles of foot"
+      ],
+      "ta2TableId": 2686,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_muscle_group",
+      "scopeNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 4 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "representationNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 4 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2686; CSV line 2784; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Dorsal interossei muscles of foot.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2686",
+        "en": "Dorsal interossei muscles of foot",
+        "la": "Musculi interossei dorsales pedis",
+        "csvLine": 2784
+      },
+      "sourceObject": "Dorsal interossei muscles of foot.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-L"
+      ],
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 4,
+        "componentVertices": [
+          257,
+          252,
+          234,
+          232
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:dorsal-interossei-muscles-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Dorsal interossei muscles of foot",
+      "tr": "Ayağın dorsal interosseöz kasları",
+      "en": "Dorsal interossei muscles of foot",
+      "la": "Musculi interossei dorsales pedis",
+      "side": "right",
+      "aliases": [
+        "Dorsal interossei muscles of foot.r",
+        "Dorsal interossei muscles of foot"
+      ],
+      "ta2TableId": 2686,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_muscle_group",
+      "scopeNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 4 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "representationNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 4 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2686; CSV line 2784; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Dorsal interossei muscles of foot.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2686",
+        "en": "Dorsal interossei muscles of foot",
+        "la": "Musculi interossei dorsales pedis",
+        "csvLine": 2784
+      },
+      "sourceObject": "Dorsal interossei muscles of foot.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-R"
+      ],
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 4,
+        "componentVertices": [
+          257,
+          252,
+          234,
+          232
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:extensor-digitorum-brevis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Extensor digitorum brevis",
+      "tr": "Extensor digitorum brevis kası",
+      "en": "Extensor digitorum brevis",
+      "la": "Extensor brevis digitorum",
+      "side": "left",
+      "aliases": [
+        "Extensor digitorum brevis.l",
+        "Extensor digitorum brevis"
+      ],
+      "ta2TableId": 2671,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2671; CSV line 2769; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Extensor digitorum brevis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2671",
+        "en": "Extensor digitorum brevis",
+        "la": "Extensor brevis digitorum",
+        "csvLine": 2769
+      },
+      "sourceObject": "Extensor digitorum brevis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 3,
+        "componentVertices": [
+          619,
+          533,
+          444
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:extensor-digitorum-brevis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Extensor digitorum brevis",
+      "tr": "Extensor digitorum brevis kası",
+      "en": "Extensor digitorum brevis",
+      "la": "Extensor brevis digitorum",
+      "side": "right",
+      "aliases": [
+        "Extensor digitorum brevis.r",
+        "Extensor digitorum brevis"
+      ],
+      "ta2TableId": 2671,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2671; CSV line 2769; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Extensor digitorum brevis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2671",
+        "en": "Extensor digitorum brevis",
+        "la": "Extensor brevis digitorum",
+        "csvLine": 2769
+      },
+      "sourceObject": "Extensor digitorum brevis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 3,
+        "componentVertices": [
+          619,
+          533,
+          444
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:extensor-hallucis-brevis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Extensor hallucis brevis",
+      "tr": "Extensor hallucis brevis kası",
+      "en": "Extensor hallucis brevis",
+      "la": "Extensor brevis hallucis",
+      "side": "left",
+      "aliases": [
+        "Extensor hallucis brevis.l",
+        "Extensor hallucis brevis"
+      ],
+      "ta2TableId": 2670,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2670; CSV line 2768; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Extensor hallucis brevis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2670",
+        "en": "Extensor hallucis brevis",
+        "la": "Extensor brevis hallucis",
+        "csvLine": 2768
+      },
+      "sourceObject": "Extensor hallucis brevis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          561
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:extensor-hallucis-brevis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Extensor hallucis brevis",
+      "tr": "Extensor hallucis brevis kası",
+      "en": "Extensor hallucis brevis",
+      "la": "Extensor brevis hallucis",
+      "side": "right",
+      "aliases": [
+        "Extensor hallucis brevis.r",
+        "Extensor hallucis brevis"
+      ],
+      "ta2TableId": 2670,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2670; CSV line 2768; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Extensor hallucis brevis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2670",
+        "en": "Extensor hallucis brevis",
+        "la": "Extensor brevis hallucis",
+        "csvLine": 2768
+      },
+      "sourceObject": "Extensor hallucis brevis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          561
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:flexor-digiti-minimi-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Flexor digiti minimi of foot",
+      "tr": "Ayağın flexor digiti minimi kası",
+      "en": "Flexor digiti minimi of foot",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Flexor digiti minimi of foot.l",
+        "Flexor digiti minimi of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Pinned numeric row2682 contains duplicated Latin pedis pedis; correction is not independently verified. Source text retained without making it a display term.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2682; CSV line 2780; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Flexor digiti minimi of foot.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2682",
+        "en": "Flexor digiti minimi of foot",
+        "la": "Flexor digiti minimi pedis pedis",
+        "csvLine": 2780
+      },
+      "sourceObject": "Flexor digiti minimi of foot.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          230
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:flexor-digiti-minimi-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Flexor digiti minimi of foot",
+      "tr": "Ayağın flexor digiti minimi kası",
+      "en": "Flexor digiti minimi of foot",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Flexor digiti minimi of foot.r",
+        "Flexor digiti minimi of foot"
+      ],
+      "ta2TableId": null,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": "Pinned numeric row2682 contains duplicated Latin pedis pedis; correction is not independently verified. Source text retained without making it a display term.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2682; CSV line 2780; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Flexor digiti minimi of foot.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2682",
+        "en": "Flexor digiti minimi of foot",
+        "la": "Flexor digiti minimi pedis pedis",
+        "csvLine": 2780
+      },
+      "sourceObject": "Flexor digiti minimi of foot.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          230
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:flexor-digitorum-brevis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Flexor digitorum brevis",
+      "tr": "Flexor digitorum brevis kası",
+      "en": "Flexor digitorum brevis",
+      "la": "Flexor brevis digitorum",
+      "side": "left",
+      "aliases": [
+        "Flexor digitorum brevis.l",
+        "Flexor digitorum brevis"
+      ],
+      "ta2TableId": 2683,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2683; CSV line 2781; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Flexor digitorum brevis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2683",
+        "en": "Flexor digitorum brevis",
+        "la": "Flexor brevis digitorum",
+        "csvLine": 2781
+      },
+      "sourceObject": "Flexor digitorum brevis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          1610
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:flexor-digitorum-brevis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Flexor digitorum brevis",
+      "tr": "Flexor digitorum brevis kası",
+      "en": "Flexor digitorum brevis",
+      "la": "Flexor brevis digitorum",
+      "side": "right",
+      "aliases": [
+        "Flexor digitorum brevis.r",
+        "Flexor digitorum brevis"
+      ],
+      "ta2TableId": 2683,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2683; CSV line 2781; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Flexor digitorum brevis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2683",
+        "en": "Flexor digitorum brevis",
+        "la": "Flexor brevis digitorum",
+        "csvLine": 2781
+      },
+      "sourceObject": "Flexor digitorum brevis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          1610
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:lateral-head-of-flexor-hallucis-brevis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Lateral head of flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının lateral başı",
+      "en": "Lateral head of flexor hallucis brevis",
+      "la": "Caput laterale flexoris brevis hallucis",
+      "side": "left",
+      "aliases": [
+        "Lateral head of flexor hallucis brevis.l",
+        "Lateral head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2675,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2675; CSV line 2773; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Lateral head of flexor hallucis brevis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2675",
+        "en": "Lateral head of flexor hallucis brevis",
+        "la": "Caput laterale flexoris brevis hallucis",
+        "csvLine": 2773
+      },
+      "sourceObject": "Lateral head of flexor hallucis brevis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          481
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:lateral-head-of-flexor-hallucis-brevis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Lateral head of flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının lateral başı",
+      "en": "Lateral head of flexor hallucis brevis",
+      "la": "Caput laterale flexoris brevis hallucis",
+      "side": "right",
+      "aliases": [
+        "Lateral head of flexor hallucis brevis.r",
+        "Lateral head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2675,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2675; CSV line 2773; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Lateral head of flexor hallucis brevis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2675",
+        "en": "Lateral head of flexor hallucis brevis",
+        "la": "Caput laterale flexoris brevis hallucis",
+        "csvLine": 2773
+      },
+      "sourceObject": "Lateral head of flexor hallucis brevis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          481
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:lumbrical-muscles-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Lumbrical muscles of foot",
+      "tr": "Ayağın lumbrikal kasları",
+      "en": "Lumbrical muscles of foot",
+      "la": "Musculi lumbricales pedis",
+      "side": "left",
+      "aliases": [
+        "Lumbrical muscles of foot.l",
+        "Lumbrical muscles of foot"
+      ],
+      "ta2TableId": 2685,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_muscle_group",
+      "scopeNoteTr": "Kaynak çoğul lumbrikal kas grubu adı taşır; geometri tek bağlı bileşendir. Dört ayrı veya numaralı lumbrikal kasın bağımsız temsili doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak çoğul lumbrikal kas grubu adı taşır; geometri tek bağlı bileşendir. Dört ayrı veya numaralı lumbrikal kasın bağımsız temsili doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Lumbrical muscles of foot.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "sourceObject": "Lumbrical muscles of foot.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-L"
+      ],
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          207
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:lumbrical-muscles-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Lumbrical muscles of foot",
+      "tr": "Ayağın lumbrikal kasları",
+      "en": "Lumbrical muscles of foot",
+      "la": "Musculi lumbricales pedis",
+      "side": "right",
+      "aliases": [
+        "Lumbrical muscles of foot.r",
+        "Lumbrical muscles of foot"
+      ],
+      "ta2TableId": 2685,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_muscle_group",
+      "scopeNoteTr": "Kaynak çoğul lumbrikal kas grubu adı taşır; geometri tek bağlı bileşendir. Dört ayrı veya numaralı lumbrikal kasın bağımsız temsili doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak çoğul lumbrikal kas grubu adı taşır; geometri tek bağlı bileşendir. Dört ayrı veya numaralı lumbrikal kasın bağımsız temsili doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2685; CSV line 2783; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Lumbrical muscles of foot.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2685",
+        "en": "Lumbrical muscles of foot",
+        "la": "Musculi lumbricales pedis",
+        "csvLine": 2783
+      },
+      "sourceObject": "Lumbrical muscles of foot.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-R"
+      ],
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          207
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:medial-head-of-flexor-hallucis-brevis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Medial head of flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının medial başı",
+      "en": "Medial head of flexor hallucis brevis",
+      "la": "Caput mediale flexoris brevis hallucis",
+      "side": "left",
+      "aliases": [
+        "Medial head of flexor hallucis brevis.l",
+        "Medial head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2674,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2674; CSV line 2772; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Medial head of flexor hallucis brevis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2674",
+        "en": "Medial head of flexor hallucis brevis",
+        "la": "Caput mediale flexoris brevis hallucis",
+        "csvLine": 2772
+      },
+      "sourceObject": "Medial head of flexor hallucis brevis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          259
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:medial-head-of-flexor-hallucis-brevis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Medial head of flexor hallucis brevis",
+      "tr": "Flexor hallucis brevis kasının medial başı",
+      "en": "Medial head of flexor hallucis brevis",
+      "la": "Caput mediale flexoris brevis hallucis",
+      "side": "right",
+      "aliases": [
+        "Medial head of flexor hallucis brevis.r",
+        "Medial head of flexor hallucis brevis"
+      ],
+      "ta2TableId": 2674,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2674; CSV line 2772; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Medial head of flexor hallucis brevis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2674",
+        "en": "Medial head of flexor hallucis brevis",
+        "la": "Caput mediale flexoris brevis hallucis",
+        "csvLine": 2772
+      },
+      "sourceObject": "Medial head of flexor hallucis brevis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          259
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:oblique-head-of-adductor-hallucis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Oblique head of adductor hallucis",
+      "tr": "Adductor hallucis kasının oblik başı",
+      "en": "Oblique head of adductor hallucis",
+      "la": "Caput obliquum adductoris hallucis",
+      "side": "left",
+      "aliases": [
+        "Oblique head of adductor hallucis.l",
+        "Oblique head of adductor hallucis"
+      ],
+      "ta2TableId": 2677,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2677; CSV line 2775; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Oblique head of adductor hallucis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2677",
+        "en": "Oblique head of adductor hallucis",
+        "la": "Caput obliquum adductoris hallucis",
+        "csvLine": 2775
+      },
+      "sourceObject": "Oblique head of adductor hallucis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-L"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          454
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:oblique-head-of-adductor-hallucis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Oblique head of adductor hallucis",
+      "tr": "Adductor hallucis kasının oblik başı",
+      "en": "Oblique head of adductor hallucis",
+      "la": "Caput obliquum adductoris hallucis",
+      "side": "right",
+      "aliases": [
+        "Oblique head of adductor hallucis.r",
+        "Oblique head of adductor hallucis"
+      ],
+      "ta2TableId": 2677,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2677; CSV line 2775; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Oblique head of adductor hallucis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2677",
+        "en": "Oblique head of adductor hallucis",
+        "la": "Caput obliquum adductoris hallucis",
+        "csvLine": 2775
+      },
+      "sourceObject": "Oblique head of adductor hallucis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-R"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          454
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-interossei-muscles-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar interossei muscles",
+      "tr": "Ayağın plantar interosseöz kasları",
+      "en": "Plantar interossei muscles",
+      "la": "Musculi interossei plantares",
+      "side": "left",
+      "aliases": [
+        "Plantar interossei muscles.l",
+        "Plantar interossei muscles"
+      ],
+      "ta2TableId": 2687,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_muscle_group",
+      "scopeNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "representationNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar interossei muscles.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "sourceObject": "Plantar interossei muscles.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-L"
+      ],
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 3,
+        "componentVertices": [
+          223,
+          217,
+          187
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-interossei-muscles-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar interossei muscles",
+      "tr": "Ayağın plantar interosseöz kasları",
+      "en": "Plantar interossei muscles",
+      "la": "Musculi interossei plantares",
+      "side": "right",
+      "aliases": [
+        "Plantar interossei muscles.r",
+        "Plantar interossei muscles"
+      ],
+      "ta2TableId": 2687,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_muscle_group",
+      "scopeNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "representationNoteTr": "Kaynak tek bir adlandırılmış kas grubu nesnesi sunar; numaralı kaslar bu seçimde bağımsız kimlik veya bağımsız seçim olarak doğrulanmaz. Grup bütünlüğü ve anatomik uzman incelemesi bekliyor. Kaynak nesnede 3 bağlı geometri bileşeni vardır; bunlara ayrı numaralı kas/parmak kimliği atanmaz.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2687; CSV line 2785; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar interossei muscles.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2687",
+        "en": "Plantar interossei muscles",
+        "la": "Musculi interossei plantares",
+        "csvLine": 2785
+      },
+      "sourceObject": "Plantar interossei muscles.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-R"
+      ],
+      "sourceScope": "compound source muscle group; numbered individual muscles not independently identified here",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 3,
+        "componentVertices": [
+          223,
+          217,
+          187
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:quadratus-plantae-muscle-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Quadratus plantae muscle",
+      "tr": "Quadratus plantae kası",
+      "en": "Quadratus plantae muscle",
+      "la": "Musculus quadratus plantae",
+      "side": "left",
+      "aliases": [
+        "Quadratus plantae muscle.l",
+        "Quadratus plantae muscle"
+      ],
+      "ta2TableId": 2684,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2684; CSV line 2782; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Quadratus plantae muscle.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2684",
+        "en": "Quadratus plantae muscle",
+        "la": "Musculus quadratus plantae",
+        "csvLine": 2782
+      },
+      "sourceObject": "Quadratus plantae muscle.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-L"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          590
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:quadratus-plantae-muscle-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Quadratus plantae muscle",
+      "tr": "Quadratus plantae kası",
+      "en": "Quadratus plantae muscle",
+      "la": "Musculus quadratus plantae",
+      "side": "right",
+      "aliases": [
+        "Quadratus plantae muscle.r",
+        "Quadratus plantae muscle"
+      ],
+      "ta2TableId": 2684,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "whole_named_muscle_object",
+      "scopeNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış kas nesnesi gösterilir; tüm ayak kasları, tendon kılıfları, innervasyon ağı veya kesin tutunma yüzeyleri bu seçimle doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2684; CSV line 2782; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Quadratus plantae muscle.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2684",
+        "en": "Quadratus plantae muscle",
+        "la": "Musculus quadratus plantae",
+        "csvLine": 2782
+      },
+      "sourceObject": "Quadratus plantae muscle.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-R"
+      ],
+      "sourceScope": "source muscle object",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          590
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:sesamoid-bones-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Sesamoid bones of foot",
+      "tr": "Ayak sesamoid kemikleri",
+      "en": "Sesamoid bones of foot",
+      "la": "Ossa sesamoidea pedis",
+      "side": "left",
+      "aliases": [
+        "Sesamoid bones of foot.l",
+        "Sesamoid bones of foot"
+      ],
+      "ta2TableId": 1514,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_sesamoid_group",
+      "scopeNoteTr": "Kaynakta adlandırılmış ayak sesamoid kemikleri grubu gösterilir; tekil medial/lateral veya tibial/fibular kemik kimliği atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış ayak sesamoid kemikleri grubu gösterilir; tekil medial/lateral veya tibial/fibular kemik kimliği atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1514; CSV line 1606; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Sesamoid bones of foot.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "1514",
+        "en": "Sesamoid bones of foot",
+        "la": "Ossa sesamoidea pedis",
+        "csvLine": 1606
+      },
+      "sourceObject": "Sesamoid bones of foot.l",
+      "componentRole": "bone",
+      "geometryPartIds": [
+        "ZA-LLR-SESAMOID-BONES-OF-FOOT-L"
+      ],
+      "sourceScope": "compound source sesamoid group; medial/lateral identities not independently assigned",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 2,
+        "componentVertices": [
+          107,
+          42
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:sesamoid-bones-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Sesamoid bones of foot",
+      "tr": "Ayak sesamoid kemikleri",
+      "en": "Sesamoid bones of foot",
+      "la": "Ossa sesamoidea pedis",
+      "side": "right",
+      "aliases": [
+        "Sesamoid bones of foot.r",
+        "Sesamoid bones of foot"
+      ],
+      "ta2TableId": 1514,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "compound_sesamoid_group",
+      "scopeNoteTr": "Kaynakta adlandırılmış ayak sesamoid kemikleri grubu gösterilir; tekil medial/lateral veya tibial/fibular kemik kimliği atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış ayak sesamoid kemikleri grubu gösterilir; tekil medial/lateral veya tibial/fibular kemik kimliği atanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1514; CSV line 1606; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Sesamoid bones of foot.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "1514",
+        "en": "Sesamoid bones of foot",
+        "la": "Ossa sesamoidea pedis",
+        "csvLine": 1606
+      },
+      "sourceObject": "Sesamoid bones of foot.r",
+      "componentRole": "bone",
+      "geometryPartIds": [
+        "ZA-LLR-SESAMOID-BONES-OF-FOOT-R"
+      ],
+      "sourceScope": "compound source sesamoid group; medial/lateral identities not independently assigned",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 2,
+        "componentVertices": [
+          107,
+          42
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:transverse-head-of-adductor-hallucis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Transverse head of adductor hallucis",
+      "tr": "Adductor hallucis kasının transvers başı",
+      "en": "Transverse head of adductor hallucis",
+      "la": "Caput transversum adductoris hallucis",
+      "side": "left",
+      "aliases": [
+        "Transverse head of adductor hallucis.l",
+        "Transverse head of adductor hallucis"
+      ],
+      "ta2TableId": 2678,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2678; CSV line 2776; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Transverse head of adductor hallucis.l; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2678",
+        "en": "Transverse head of adductor hallucis",
+        "la": "Caput transversum adductoris hallucis",
+        "csvLine": 2776
+      },
+      "sourceObject": "Transverse head of adductor hallucis.l",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-L"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          181
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:transverse-head-of-adductor-hallucis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Transverse head of adductor hallucis",
+      "tr": "Adductor hallucis kasının transvers başı",
+      "en": "Transverse head of adductor hallucis",
+      "la": "Caput transversum adductoris hallucis",
+      "side": "right",
+      "aliases": [
+        "Transverse head of adductor hallucis.r",
+        "Transverse head of adductor hallucis"
+      ],
+      "ta2TableId": 2678,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "muscle_head",
+      "scopeNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Yalnız kaynakta adlandırılmış kas başı gösterilir; bütün kasın etiketi veya ilişkileri otomatik olarak bu başa aktarılmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2678; CSV line 2776; exact English/Latin columns",
+          "scope": "Source numeric term; not a formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Transverse head of adductor hallucis.r; source mapping data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+          "scope": "Named source object and side; export, quality and release acceptance remain separate"
+        }
+      ],
+      "sourceTerm": {
+        "id": "2678",
+        "en": "Transverse head of adductor hallucis",
+        "la": "Caput transversum adductoris hallucis",
+        "csvLine": 2776
+      },
+      "sourceObject": "Transverse head of adductor hallucis.r",
+      "componentRole": "muscle",
+      "geometryPartIds": [
+        "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-R"
+      ],
+      "sourceScope": "head explicitly named by source; no finer fascicles inferred",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "triangleConnectedComponents": 1,
+        "componentVertices": [
+          181
+        ],
+        "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+        "scope": "Geometry connectivity only;not independent anatomical substructure identity"
+      }
     }
   ],
   "relations": [
@@ -5708,6 +7495,290 @@
         "fasciclesVerified": false,
         "anatomicalVariation": "Not modeled or accepted by this bounded package"
       }
+    },
+    {
+      "id": "zanatomy:abductor-hallucis-l|originates_at|zanatomy:calcaneus-l",
+      "subject": "zanatomy:abductor-hallucis-l",
+      "predicate": "originates_at",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneus tüberositesinin medial bölümü",
+        "attachmentNoteTr": "Kalkaneus tüberositesinin medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Kalkaneus tüberositesinin medial bölümü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "zanatomy:abductor-hallucis-l|inserts_at|zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "subject": "zanatomy:abductor-hallucis-l",
+      "predicate": "inserts_at",
+      "object": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının medial bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Başparmağın proksimal falanks tabanının medial bölümü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "atlas:left-medial-plantar-nerve|innervates|zanatomy:abductor-hallucis-l",
+      "subject": "atlas:left-medial-plantar-nerve",
+      "predicate": "innervates",
+      "object": "zanatomy:abductor-hallucis-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Innervation column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of directly named muscle supply;not specimen validated",
+        "semantics": "Directly named educational motor-supply fact for this muscle;not inherited from a muscle group or parent",
+        "modeledMotorBranch": false,
+        "geometry": "No motor entry point, neural branch trajectory or contact asserted"
+      }
+    },
+    {
+      "id": "zanatomy:extensor-hallucis-brevis-l|originates_at|zanatomy:calcaneus-l",
+      "subject": "zanatomy:extensor-hallucis-brevis-l",
+      "predicate": "originates_at",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneusun üst-dış yüzü",
+        "attachmentNoteTr": "Kalkaneusun üst-dış yüzü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Kalkaneusun üst-dış yüzü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "zanatomy:extensor-hallucis-brevis-l|inserts_at|zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "subject": "zanatomy:extensor-hallucis-brevis-l",
+      "predicate": "inserts_at",
+      "object": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının dorsal bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının dorsal bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Başparmağın proksimal falanks tabanının dorsal bölümü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "atlas:left-deep-fibular-nerve|innervates|zanatomy:extensor-hallucis-brevis-l",
+      "subject": "atlas:left-deep-fibular-nerve",
+      "predicate": "innervates",
+      "object": "zanatomy:extensor-hallucis-brevis-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Innervation column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of directly named muscle supply;not specimen validated",
+        "semantics": "Directly named educational motor-supply fact for this muscle;not inherited from a muscle group or parent",
+        "modeledMotorBranch": false,
+        "geometry": "No motor entry point, neural branch trajectory or contact asserted"
+      }
+    },
+    {
+      "id": "zanatomy:abductor-hallucis-r|originates_at|zanatomy:calcaneus-r",
+      "subject": "zanatomy:abductor-hallucis-r",
+      "predicate": "originates_at",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneus tüberositesinin medial bölümü",
+        "attachmentNoteTr": "Kalkaneus tüberositesinin medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Kalkaneus tüberositesinin medial bölümü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "zanatomy:abductor-hallucis-r|inserts_at|zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "subject": "zanatomy:abductor-hallucis-r",
+      "predicate": "inserts_at",
+      "object": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının medial bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının medial bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Başparmağın proksimal falanks tabanının medial bölümü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "atlas:right-medial-plantar-nerve|innervates|zanatomy:abductor-hallucis-r",
+      "subject": "atlas:right-medial-plantar-nerve",
+      "predicate": "innervates",
+      "object": "zanatomy:abductor-hallucis-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; abductor hallucis row; Innervation column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of directly named muscle supply;not specimen validated",
+        "semantics": "Directly named educational motor-supply fact for this muscle;not inherited from a muscle group or parent",
+        "modeledMotorBranch": false,
+        "geometry": "No motor entry point, neural branch trajectory or contact asserted"
+      }
+    },
+    {
+      "id": "zanatomy:extensor-hallucis-brevis-r|originates_at|zanatomy:calcaneus-r",
+      "subject": "zanatomy:extensor-hallucis-brevis-r",
+      "predicate": "originates_at",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Origin column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Kalkaneusun üst-dış yüzü",
+        "attachmentNoteTr": "Kalkaneusun üst-dış yüzü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Kalkaneusun üst-dış yüzü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "zanatomy:extensor-hallucis-brevis-r|inserts_at|zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "subject": "zanatomy:extensor-hallucis-brevis-r",
+      "predicate": "inserts_at",
+      "object": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Insertion column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of unsided educational fact;not specimen validated",
+        "landmarkTr": "Başparmağın proksimal falanks tabanının dorsal bölümü",
+        "attachmentNoteTr": "Başparmağın proksimal falanks tabanının dorsal bölümü — kesin model yüzey işareti yok",
+        "targetRole": "context_bone",
+        "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
+        "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
+        "requiresLandmarkDisplay": true
+      },
+      "attachmentNoteTr": "Başparmağın proksimal falanks tabanının dorsal bölümü — kesin model yüzey işareti yok"
+    },
+    {
+      "id": "atlas:right-deep-fibular-nerve|innervates|zanatomy:extensor-hallucis-brevis-r",
+      "subject": "atlas:right-deep-fibular-nerve",
+      "predicate": "innervates",
+      "object": "zanatomy:extensor-hallucis-brevis-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Muscles table; extensor hallucis brevis row; Innervation column"
+        }
+      ],
+      "qualifiers": {
+        "laterality": "Same-side instantiation of directly named muscle supply;not specimen validated",
+        "semantics": "Directly named educational motor-supply fact for this muscle;not inherited from a muscle group or parent",
+        "modeledMotorBranch": false,
+        "geometry": "No motor entry point, neural branch trajectory or contact asserted"
+      }
     }
   ],
   "predicate": {
@@ -5969,6 +8040,29 @@
       "retrievedOn": "2026-10-02",
       "locator": "Lateral collateral ligaments; journal pages 559–560, PDF pages 3–4",
       "use": "Selected attachment bone/region facts; no article figures, measurements or text redistributed; no model footprint or fascicle validation"
+    },
+    {
+      "id": "foot-soft-tissue-bp3d40-names",
+      "title": "Retained official BodyParts3D4.0 archive names",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+      "path": "data/model-candidates/coverage-labels/bp3d-isa-parts-list-e.txt",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "id": "foot-soft-tissue-bp3d40-membership",
+      "title": "Retained official BodyParts3D4.0 element memberships",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+      "path": "data/model-candidates/concept-selection-review/isa_element_parts.txt",
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    {
+      "id": "ta98-quadratus-plantae-synonym",
+      "title": "University of Fribourg TA98 terminology — lower limb muscles",
+      "url": "https://svx-uo7640ifaa2.unifr.ch/Public/EntryPage/TA98%20Tree/TA98%20EN/04.7.02%20TA98%20EN.htm",
+      "retrievedOn": "2026-10-02",
+      "locator": "A04.7.02.068; English and Latin synonym columns",
+      "use": "Explicit quadratus plantae/flexor accessorius synonym only;Latin display remains pinned numeric TA2 row2684",
+      "fetchStatus": "Primary-source indexed search result read;direct page fetch returned502. TTUHSC TA2 PDF direct read also timed out;no access restriction bypassed."
     }
   ],
   "inputSnapshots": [
@@ -5997,13 +8091,15 @@
     "Complete lower-limb nerve or vascular network",
     "Roots or segment levels",
     "All distal branches or independent identity for unnamed splines",
-    "Muscle innervation or skin territories",
+    "Complete muscle innervation or skin territories",
     "Specimen-validated connectivity, fused surfaces or named terminal endpoint landmarks",
     "New FMA mappings",
     "Official per-digit TA2 identifiers for star-suffixed source rows",
     "Registration into the male BodyParts3D atlas",
     "Anatomical expert approval",
-    "Complete bone articulation/ligament network; segmented joint surfaces or attachment coordinates"
+    "Complete bone articulation/ligament network; segmented joint surfaces or attachment coordinates",
+    "Independent numbered identities within compound muscle/sesamoid source objects",
+    "Whole-muscle relationship inheritance to individual source heads"
   ],
   "expansionInputSnapshots": [
     {
@@ -6042,6 +8138,47 @@
       "symmetric": false,
       "transitive": false,
       "meaning": "Ligament attaches to named bone/region; bone geometry is not an attachment footprint"
+    },
+    {
+      "id": "originates_at",
+      "symmetric": false,
+      "transitive": false,
+      "meaning": "Selected directly sourced typical anatomy; not specimen or geometric contact validation"
+    },
+    {
+      "id": "inserts_at",
+      "symmetric": false,
+      "transitive": false,
+      "meaning": "Selected directly sourced typical anatomy; not specimen or geometric contact validation"
+    },
+    {
+      "id": "innervates",
+      "symmetric": false,
+      "transitive": false,
+      "meaning": "Selected directly sourced typical anatomy; not specimen or geometric contact validation"
     }
-  ]
+  ],
+  "softTissueInputSnapshots": [
+    {
+      "path": "data/model-candidates/foot-soft-tissue-metadata-v1/activation-proposal.json",
+      "sha256": "f6625c94b26417c6de33029718566484136e9804384ccfde0e4baa85e161bdbe"
+    },
+    {
+      "path": "public/models/lower-limb-nerve-reference/atlas.json",
+      "sha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b"
+    },
+    {
+      "path": "scripts/integrate-foot-soft-tissue.py",
+      "sha256": "6d12d69e7240e57aca9609b20c8a18e79d5c303d2d67369da8beadcd10298a5e"
+    },
+    {
+      "path": "data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
+      "sha256": "d4fde7e458d9dfa378e464f998edd01f5ed56dd38c972abbbb6c7e8477f75db9"
+    },
+    {
+      "path": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
+      "sha256": "2fe9163df7abe6a453b381962dbc71f0702269a673bf27750ed678b51892ebad"
+    }
+  ],
+  "softTissueInputNote": "Frozen pre-activation proposal preserves intake inputs; current candidate proposal can refresh active hashes independently."
 }

@@ -1,0 +1,322 @@
+[
+  {
+    "sourceObject": "(Opponens digiti minimi muscle of foot).l",
+    "partId": "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-L",
+    "conceptId": "zanatomy:opponens-digiti-minimi-muscle-of-foot-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source-parenthesized muscle identity; anatomical variation and expert identity review pending"
+  },
+  {
+    "sourceObject": "(Opponens digiti minimi muscle of foot).r",
+    "partId": "ZA-LLR-OPPONENS-DIGITI-MINIMI-MUSCLE-OF-FOOT-R",
+    "conceptId": "zanatomy:opponens-digiti-minimi-muscle-of-foot-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source-parenthesized muscle identity; anatomical variation and expert identity review pending"
+  },
+  {
+    "sourceObject": "Abductor digiti minimi of foot.l",
+    "partId": "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-L",
+    "conceptId": "zanatomy:abductor-digiti-minimi-of-foot-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Abductor digiti minimi of foot.r",
+    "partId": "ZA-LLR-ABDUCTOR-DIGITI-MINIMI-OF-FOOT-R",
+    "conceptId": "zanatomy:abductor-digiti-minimi-of-foot-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Abductor hallucis.l",
+    "partId": "ZA-LLR-ABDUCTOR-HALLUCIS-L",
+    "conceptId": "zanatomy:abductor-hallucis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Abductor hallucis.r",
+    "partId": "ZA-LLR-ABDUCTOR-HALLUCIS-R",
+    "conceptId": "zanatomy:abductor-hallucis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Dorsal interossei muscles of foot.l",
+    "partId": "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-L",
+    "conceptId": "zanatomy:dorsal-interossei-muscles-of-foot-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "compound source muscle group; numbered individual muscles not independently identified here"
+  },
+  {
+    "sourceObject": "Dorsal interossei muscles of foot.r",
+    "partId": "ZA-LLR-DORSAL-INTEROSSEI-MUSCLES-OF-FOOT-R",
+    "conceptId": "zanatomy:dorsal-interossei-muscles-of-foot-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "compound source muscle group; numbered individual muscles not independently identified here"
+  },
+  {
+    "sourceObject": "Extensor digitorum brevis.l",
+    "partId": "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-L",
+    "conceptId": "zanatomy:extensor-digitorum-brevis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Extensor digitorum brevis.r",
+    "partId": "ZA-LLR-EXTENSOR-DIGITORUM-BREVIS-R",
+    "conceptId": "zanatomy:extensor-digitorum-brevis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Extensor hallucis brevis.l",
+    "partId": "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-L",
+    "conceptId": "zanatomy:extensor-hallucis-brevis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Extensor hallucis brevis.r",
+    "partId": "ZA-LLR-EXTENSOR-HALLUCIS-BREVIS-R",
+    "conceptId": "zanatomy:extensor-hallucis-brevis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Flexor digiti minimi of foot.l",
+    "partId": "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-L",
+    "conceptId": "zanatomy:flexor-digiti-minimi-of-foot-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Flexor digiti minimi of foot.r",
+    "partId": "ZA-LLR-FLEXOR-DIGITI-MINIMI-OF-FOOT-R",
+    "conceptId": "zanatomy:flexor-digiti-minimi-of-foot-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Flexor digitorum brevis.l",
+    "partId": "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-L",
+    "conceptId": "zanatomy:flexor-digitorum-brevis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Flexor digitorum brevis.r",
+    "partId": "ZA-LLR-FLEXOR-DIGITORUM-BREVIS-R",
+    "conceptId": "zanatomy:flexor-digitorum-brevis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Lateral head of flexor hallucis brevis.l",
+    "partId": "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L",
+    "conceptId": "zanatomy:lateral-head-of-flexor-hallucis-brevis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Lateral head of flexor hallucis brevis.r",
+    "partId": "ZA-LLR-LATERAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R",
+    "conceptId": "zanatomy:lateral-head-of-flexor-hallucis-brevis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Lumbrical muscles of foot.l",
+    "partId": "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-L",
+    "conceptId": "zanatomy:lumbrical-muscles-of-foot-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "compound source muscle group; numbered individual muscles not independently identified here"
+  },
+  {
+    "sourceObject": "Lumbrical muscles of foot.r",
+    "partId": "ZA-LLR-LUMBRICAL-MUSCLES-OF-FOOT-R",
+    "conceptId": "zanatomy:lumbrical-muscles-of-foot-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "compound source muscle group; numbered individual muscles not independently identified here"
+  },
+  {
+    "sourceObject": "Medial head of flexor hallucis brevis.l",
+    "partId": "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-L",
+    "conceptId": "zanatomy:medial-head-of-flexor-hallucis-brevis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Medial head of flexor hallucis brevis.r",
+    "partId": "ZA-LLR-MEDIAL-HEAD-OF-FLEXOR-HALLUCIS-BREVIS-R",
+    "conceptId": "zanatomy:medial-head-of-flexor-hallucis-brevis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Oblique head of adductor hallucis.l",
+    "partId": "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-L",
+    "conceptId": "zanatomy:oblique-head-of-adductor-hallucis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Oblique head of adductor hallucis.r",
+    "partId": "ZA-LLR-OBLIQUE-HEAD-OF-ADDUCTOR-HALLUCIS-R",
+    "conceptId": "zanatomy:oblique-head-of-adductor-hallucis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Plantar interossei muscles.l",
+    "partId": "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-L",
+    "conceptId": "zanatomy:plantar-interossei-muscles-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "compound source muscle group; numbered individual muscles not independently identified here"
+  },
+  {
+    "sourceObject": "Plantar interossei muscles.r",
+    "partId": "ZA-LLR-PLANTAR-INTEROSSEI-MUSCLES-R",
+    "conceptId": "zanatomy:plantar-interossei-muscles-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "compound source muscle group; numbered individual muscles not independently identified here"
+  },
+  {
+    "sourceObject": "Quadratus plantae muscle.l",
+    "partId": "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-L",
+    "conceptId": "zanatomy:quadratus-plantae-muscle-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Quadratus plantae muscle.r",
+    "partId": "ZA-LLR-QUADRATUS-PLANTAE-MUSCLE-R",
+    "conceptId": "zanatomy:quadratus-plantae-muscle-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "source muscle object"
+  },
+  {
+    "sourceObject": "Sesamoid bones of foot.l",
+    "partId": "ZA-LLR-SESAMOID-BONES-OF-FOOT-L",
+    "conceptId": "zanatomy:sesamoid-bones-of-foot-l",
+    "side": "left",
+    "componentRole": "bone",
+    "role": "context",
+    "system": "skeletal",
+    "scope": "compound source sesamoid group; medial/lateral identities not independently assigned"
+  },
+  {
+    "sourceObject": "Sesamoid bones of foot.r",
+    "partId": "ZA-LLR-SESAMOID-BONES-OF-FOOT-R",
+    "conceptId": "zanatomy:sesamoid-bones-of-foot-r",
+    "side": "right",
+    "componentRole": "bone",
+    "role": "context",
+    "system": "skeletal",
+    "scope": "compound source sesamoid group; medial/lateral identities not independently assigned"
+  },
+  {
+    "sourceObject": "Transverse head of adductor hallucis.l",
+    "partId": "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-L",
+    "conceptId": "zanatomy:transverse-head-of-adductor-hallucis-l",
+    "side": "left",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  },
+  {
+    "sourceObject": "Transverse head of adductor hallucis.r",
+    "partId": "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-R",
+    "conceptId": "zanatomy:transverse-head-of-adductor-hallucis-r",
+    "side": "right",
+    "componentRole": "muscle",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "head explicitly named by source; no finer fascicles inferred"
+  }
+]

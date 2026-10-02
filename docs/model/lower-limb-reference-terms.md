@@ -1,4 +1,8 @@
-# Alt ekstremite referansı — 87 nesneli metadata genişlemesi
+# Alt ekstremite referansı — 119 nesneli güncel metadata
+
+2 Ekim yerel entegrasyonu:119 TR/EN,83 kesin Latin etiket ve84 kaynaklı ilişki. Önceki87 etiket/72 ilişki korunur;30 kas nesnesi veiki sesamoid grubu eklenir. İki kaynak yazım kusurlu Latin alan ile34 dijite özgü Latin alan null kalır. Baş/grup sınırları ve uzman incelemesi görünürdür. [Yeni metadata kanıtı](../../data/model-candidates/foot-soft-tissue-metadata-v1/REVIEW.md) ve [kaynak/geometri](../../data/model-candidates/foot-soft-tissue-source-audit-v1/REVIEW.md) ayrı izlenir.12 yeni kas ilişkisi yalnız iki bütün kas için başlangıç/tutunma/innervasyon gerçeklerini açar;model footprint veya motor dalı değildir. Yayın kabulü [eylem raporunda](progress-report-2026-10-02.md).
+
+## 87 nesneli genişleme — tarihî kanıt
 
 2 Ekim 2026; başlangıç kaynak revision'ı `e879fc92e1bfa6226898d12cdca2863e365858e0`. Aşağıdaki 21 nesneli ilk teslim kaydı tarihî kanıt olarak korunmuştur. Güncel [metadata](../../data/anatomy/lower-limb-reference.json) **87 etiket / 12 ilişki** içerir: 16 adlandırılmış sinir nesnesi, iki fibular arter nesnesi, altı ayak bileği bağ nesnesi ve 63 kemik bağlamı. İlk 21 etiket ve dört ilişki aynı alan/değerlerle korunmuştur; 66 yeni nesne kaydı eklenmiştir. Bu sayılar tam alt ekstremite ağı, bağımsız spline/dal sayısı veya anatomik bölge kabulü değildir.
 

@@ -79,7 +79,7 @@ Ana gövdenin 38 mevcut PART-OF bağı korunur; yeni ilişki veya kaynak üyeli�
 
 Yeni liste `python3 scripts/build-foot-bone-targets.py` ile üretilir; `--check` giriş hash'lerini ve deterministik çıktıyı doğrular. Önce source audit üreticisi kendi güncel girişleriyle üretilebilir. Kontrol 104 benzersiz ID, değişmeyen 66 eski kayıt, 38 yeni hedefin iki dataset içindeki exact tek-parçalı üyeliği ve aktif {summary['activeFootMainLabels']} ana etiketin proposal eşitliğini kapsar; anatomik uzman veya bütün bölge kabulü değildir.
 
-Sonraki açık işler: sesamoidler, ayrı eklem/tutunma bölgeleri, iç ayak kasları, tendon/fasya/retinakulum, tam eklem desteği, damar/lenf ve ince sinir dalları; bütün vücudun diğer bölge hedefleri de açılmaya devam eder. v1 makine/doküman kaydı tarihî ilk kapsam olarak korunur; güncel envanter v2'yi kullanır.
+Sonraki açık işler: sesamoidler, ayrı eklem/tutunma bölgeleri, iç ayak kasları, tendon/fasya/retinakulum, tam eklem desteği, damar/lenf ve ince sinir dalları; bütün vücudun diğer bölge hedefleri de açılmaya devam eder. v1 makine/doküman kaydı tarihî ilk kapsam olarak korunur; güncel envanter sonraki [v3 hedeflerini](lower-limb-targets-v3.md) kullanır; v2'nin 104 hedefi aynen korunur.
 '''
 for path, content in [('data/anatomy/regional-targets-lower-limb-v2.json',json.dumps(result,ensure_ascii=False,indent=2)+'\n'),
                       ('docs/model/lower-limb-targets-v2.md',doc)]:

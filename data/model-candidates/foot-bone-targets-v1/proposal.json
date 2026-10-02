@@ -105,7 +105,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:first-metatarsal-bone-l",
           "sourceName": "Left first metatarsal bone",
           "sourceObject": "First metatarsal bone.l",
@@ -213,7 +213,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:second-metatarsal-bone-l",
           "sourceName": "Left second metatarsal bone",
           "sourceObject": "Second metatarsal bone.l",
@@ -321,7 +321,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:third-metatarsal-bone-l",
           "sourceName": "Left third metatarsal bone",
           "sourceObject": "Third metatarsal bone.l",
@@ -429,7 +429,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:fourth-metatarsal-bone-l",
           "sourceName": "Left fourth metatarsal bone",
           "sourceObject": "Fourth metatarsal bone.l",
@@ -537,7 +537,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:fifth-metatarsal-bone-l",
           "sourceName": "Left fifth metatarsal bone",
           "sourceObject": "Fifth metatarsal bone.l",
@@ -645,7 +645,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-first-finger-of-foot-l",
           "sourceName": "Left distal phalanx of first toe",
           "sourceObject": "Distal phalanx of first finger of foot.l",
@@ -753,7 +753,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
           "sourceName": "Left proximal phalanx of first toe",
           "sourceObject": "Proximal phalanx of first finger of foot.l",
@@ -861,7 +861,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-second-finger-of-foot-l",
           "sourceName": "Left distal phalanx of second toe",
           "sourceObject": "Distal phalanx of second finger of foot.l",
@@ -969,7 +969,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-second-finger-of-foot-l",
           "sourceName": "Left middle phalanx of second toe",
           "sourceObject": "Middle phalanx of second finger of foot.l",
@@ -1077,7 +1077,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-second-finger-of-foot-l",
           "sourceName": "Left proximal phalanx of second toe",
           "sourceObject": "Proximal phalanx of second finger of foot.l",
@@ -1185,7 +1185,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-third-finger-of-foot-l",
           "sourceName": "Left distal phalanx of third toe",
           "sourceObject": "Distal phalanx of third finger of foot.l",
@@ -1293,7 +1293,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-third-finger-of-foot-l",
           "sourceName": "Left middle phalanx of third toe",
           "sourceObject": "Middle phalanx of third finger of foot.l",
@@ -1401,7 +1401,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-third-finger-of-foot-l",
           "sourceName": "Left proximal phalanx of third toe",
           "sourceObject": "Proximal phalanx of third finger of foot.l",
@@ -1509,7 +1509,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-fourth-finger-of-foot-l",
           "sourceName": "Left distal phalanx of fourth toe",
           "sourceObject": "Distal phalanx of fourth finger of foot.l",
@@ -1617,7 +1617,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-l",
           "sourceName": "Left middle phalanx of fourth toe",
           "sourceObject": "Middle phalanx of fourth finger of foot.l",
@@ -1725,7 +1725,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l",
           "sourceName": "Left proximal phalanx of fourth toe",
           "sourceObject": "Proximal phalanx of fourth finger of foot.l",
@@ -1833,7 +1833,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-fifth-finger-of-foot-l",
           "sourceName": "Left distal phalanx of fifth toe",
           "sourceObject": "Distal phalanx of fifth finger of foot.l",
@@ -1941,7 +1941,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-l",
           "sourceName": "Left middle phalanx of fifth toe",
           "sourceObject": "Middle phalanx of fifth finger of foot.l",
@@ -2049,7 +2049,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l",
           "sourceName": "Left proximal phalanx of fifth toe",
           "sourceObject": "Proximal phalanx of fifth finger of foot.l",
@@ -2157,7 +2157,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:first-metatarsal-bone-r",
           "sourceName": "Right first metatarsal bone",
           "sourceObject": "First metatarsal bone.r",
@@ -2265,7 +2265,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:second-metatarsal-bone-r",
           "sourceName": "Right second metatarsal bone",
           "sourceObject": "Second metatarsal bone.r",
@@ -2373,7 +2373,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:third-metatarsal-bone-r",
           "sourceName": "Right third metatarsal bone",
           "sourceObject": "Third metatarsal bone.r",
@@ -2481,7 +2481,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:fourth-metatarsal-bone-r",
           "sourceName": "Right fourth metatarsal bone",
           "sourceObject": "Fourth metatarsal bone.r",
@@ -2589,7 +2589,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:fifth-metatarsal-bone-r",
           "sourceName": "Right fifth metatarsal bone",
           "sourceObject": "Fifth metatarsal bone.r",
@@ -2697,7 +2697,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-first-finger-of-foot-r",
           "sourceName": "Right distal phalanx of first toe",
           "sourceObject": "Distal phalanx of first finger of foot.r",
@@ -2805,7 +2805,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
           "sourceName": "Right proximal phalanx of first toe",
           "sourceObject": "Proximal phalanx of first finger of foot.r",
@@ -2913,7 +2913,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-second-finger-of-foot-r",
           "sourceName": "Right distal phalanx of second toe",
           "sourceObject": "Distal phalanx of second finger of foot.r",
@@ -3021,7 +3021,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-second-finger-of-foot-r",
           "sourceName": "Right middle phalanx of second toe",
           "sourceObject": "Middle phalanx of second finger of foot.r",
@@ -3129,7 +3129,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-second-finger-of-foot-r",
           "sourceName": "Right proximal phalanx of second toe",
           "sourceObject": "Proximal phalanx of second finger of foot.r",
@@ -3237,7 +3237,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-third-finger-of-foot-r",
           "sourceName": "Right distal phalanx of third toe",
           "sourceObject": "Distal phalanx of third finger of foot.r",
@@ -3345,7 +3345,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-third-finger-of-foot-r",
           "sourceName": "Right middle phalanx of third toe",
           "sourceObject": "Middle phalanx of third finger of foot.r",
@@ -3453,7 +3453,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-third-finger-of-foot-r",
           "sourceName": "Right proximal phalanx of third toe",
           "sourceObject": "Proximal phalanx of third finger of foot.r",
@@ -3561,7 +3561,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-fourth-finger-of-foot-r",
           "sourceName": "Right distal phalanx of fourth toe",
           "sourceObject": "Distal phalanx of fourth finger of foot.r",
@@ -3669,7 +3669,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-r",
           "sourceName": "Right middle phalanx of fourth toe",
           "sourceObject": "Middle phalanx of fourth finger of foot.r",
@@ -3777,7 +3777,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r",
           "sourceName": "Right proximal phalanx of fourth toe",
           "sourceObject": "Proximal phalanx of fourth finger of foot.r",
@@ -3885,7 +3885,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:distal-phalanx-of-fifth-finger-of-foot-r",
           "sourceName": "Right distal phalanx of fifth toe",
           "sourceObject": "Distal phalanx of fifth finger of foot.r",
@@ -3993,7 +3993,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-r",
           "sourceName": "Right middle phalanx of fifth toe",
           "sourceObject": "Middle phalanx of fifth finger of foot.r",
@@ -4101,7 +4101,7 @@
         },
         {
           "datasetId": "lower-limb-nerve-reference",
-          "sourceVersion": "Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2",
+          "sourceVersion": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
           "conceptId": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r",
           "sourceName": "Right proximal phalanx of fifth toe",
           "sourceObject": "Proximal phalanx of fifth finger of foot.r",
@@ -9485,19 +9485,19 @@
     },
     {
       "path": "public/models/lower-limb-nerve-reference/atlas.json",
-      "sha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed"
+      "sha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b"
     },
     {
       "path": "data/anatomy/lower-limb-reference.json",
-      "sha256": "c4f7749a33f51ff9f9c22d953dd01d248a138108817d8b1f6676b69bdad05f09"
+      "sha256": "458c40d71910524a084b5dbe3af2b239bc02feccb13eaa03f7abd15b2a7ebcd8"
     },
     {
       "path": "data/anatomy/labels.json",
-      "sha256": "664dae906f10b8cdfaf31bf0aa4088012cf822a7dbbc7a472cc28b0151215836"
+      "sha256": "1d3d46bcf011072ca50f7691086e0d76ac27ee92e46f9db1c82842ce699f9d0a"
     },
     {
       "path": "data/anatomy/knowledge.json",
-      "sha256": "684117e12b668dff5772bf1b48578a8e65b1a8be2f18d53b6e13706a16c9197f"
+      "sha256": "ba4dadc5df125ce4df98f02c9d977c580491729ae042b564893f77be1bd95626"
     },
     {
       "path": "work/open-assets-review/TA2.csv",
