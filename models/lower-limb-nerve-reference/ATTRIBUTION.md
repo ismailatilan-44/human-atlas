@@ -28,3 +28,20 @@ The exact 32 added source-object/part/concept mappings are in `new-object-mappin
 All added objects use the same common orthonormal axis rotation and Float32/Int16/Uint32 encoding as the existing reference. Original evaluated positions and triangles are preserved, including a pair of coincident opposing triangles in each abductor hallucis. Three vertices per side have cancelling normals; the largest incident face supplies a disclosed fallback normal. Across twenty-two muscle objects, eighty source triangles have nonpositive averaged vertex-normal agreement. Those faces are retained and recorded; no source mesh repair is claimed. The sesamoid objects have two connected components each and remain a single selectable source group per side.
 
 No other newly inspected foot/ankle support geometry is distributed in this candidate. The support inventory, compound identities, source-normal limitations and pending anatomical expert review remain separate from product integration or full regional acceptance. The preserved baseline87 files are included solely as reproducible source-frame package inputs with their existing attribution and terms.
+
+
+## Foot/ankle support candidate — 2 October 2026
+
+This 139-object candidate preserves every record and geometry byte of the 119-object reference and adds twenty same-source objects: bilateral flexor, superior/inferior extensor and superior/inferior fibular retinacula; plantar aponeuroses; long plantar, plantar calcaneocuboid, plantar calcaneonavicular and intersesamoid ligaments. Exact source-object names and stable mappings are recorded in the candidate manifest and `new-object-mapping.json`.
+
+Original evaluated viewport geometry receives only the common `(x,z,-y)` display-axis rotation. Inferior fibular retinacula retain 27 open boundary edges per side; plantar aponeuroses retain 72. The aponeurosis Solidify modifier is disabled for viewport evaluation and enabled for source rendering; the candidate preserves the viewport sheet and does not turn that render setting into newly authored thickness. Other source Solidify/Subdivision settings are recorded and evaluated as authored. No caps, filling, healing, joining, local fitting or decimation are applied.
+
+Each selected source object is retained as one selection. Separate retinacular bands, ligament fascicles, aponeurotic layers and attachment footprints are not inferred. These source-preserved surfaces do not establish full foot/ankle support coverage or expert anatomical acceptance. Source licensing and unresolved object-level provenance remain as described above.
+
+Current support candidate source quality: bilateral long plantar ligament retains five triangles per side with nonpositive averaged vertex-normal agreement; no geometry or normal repair was applied. Named intersesamoid source mesh placement and relationship to both sesamoid components remain uncertain and unaccepted anatomically.
+
+Integration disposition: 20 supports inspected and retained in this139-object source candidate;18 are eligible for explicitly limited source-reference integration. The two named intersesamoid meshes remain candidate-only because they do not span both modeled sesamoid components. Root excludes them from the active137-object student reference; no source mesh was changed.
+
+## Active student reference packaging
+
+This package contains137 objects: the prior119 unchanged and18 selected support meshes. The139-object audit candidate retains two source-named intersesamoid meshes whose extent does not connect the two modeled sesamoid components. These two are excluded from active geometry and search; source/target identities remain in the candidate records. No source geometry is repaired or repositioned.
