@@ -1,0 +1,81 @@
+- main:
+  - generic "Interactive human anatomy. Drag to orbit, pinch or scroll to zoom, and tap a structure to inspect it."
+  - heading "Alt Ekstremite Atlası 3D" [level=1]:
+    - text: Alt Ekstremite Atlası
+    - generic: 3D
+  - generic: 137 modeled pieces Alt ekstremite · Z-Anatomy
+  - combobox "Anatomi referansı":
+    - option "Erkek vücut"
+    - option "Kadın pelvis referansı"
+    - option "İç kulak referansı"
+    - option "Alt ekstremite referansı" [selected]
+    - option "Üst ekstremite sinir referansı"
+  - navigation "Explorer panels":
+    - combobox "Anatomik ad dili":
+      - option "TR" [selected]
+      - option "EN"
+      - option "LA"
+    - button "Önceki görünüme dön" [active]: ← Geri
+    - button "Search anatomy":
+    - button "About this atlas":
+  - navigation "Camera controls":
+    - button "three-quarter view" [pressed]:
+      - generic: ¾
+    - button "front view":
+      - generic: F
+    - button "side view":
+      - generic: S
+    - button "back view":
+      - generic: B
+    - button "Rotate body":
+    - button "Reset view and layers":
+  - dialog "Sol Aşık kemiği":
+    - button "Sahneyi kaydet"
+    - button "Çalışma"
+    - heading "Sol Aşık kemiği" [level=2]
+    - paragraph: Aynı kaynak modelden alınmış ayrı kemik yüzeyidir. Eklem ayrıntıları ve bağ tutunmaları ayrıca incelenmelidir; anatomik uzman incelemesi bekliyor.
+    - region "Anatomik bağlantılar":
+      - heading "Anatomik bağlantılar 6" [level=3]:
+        - text: Anatomik bağlantılar
+        - generic: "6"
+      - button "Bağlanan yapı Sol Ön talofibular bağ Talus gövdesinin lateral eklem yüzeyi önündeki bölge; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.":
+        - generic: Bağlanan yapı
+        - strong: Sol Ön talofibular bağ
+        - emphasis: Talus gövdesinin lateral eklem yüzeyi önündeki bölge; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.
+      - generic "Kaynak"
+      - button "Eklem yaptığı kemik Sol Topuk kemiği":
+        - generic: Eklem yaptığı kemik
+        - strong: Sol Topuk kemiği
+      - generic "Kaynak"
+      - button "Eklem yaptığı kemik Sol Kamış kemiği":
+        - generic: Eklem yaptığı kemik
+        - strong: Sol Kamış kemiği
+      - generic "Kaynak"
+      - button "Eklem yaptığı kemik Sol Naviküler kemik":
+        - generic: Eklem yaptığı kemik
+        - strong: Sol Naviküler kemik
+      - generic "Kaynak"
+      - button "Bağlanan yapı Sol Arka talofibular bağ Talusun posterolateral bölgesi; lif kapsamı ve varyasyonlar bu modelde doğrulanmadı.":
+        - generic: Bağlanan yapı
+        - strong: Sol Arka talofibular bağ
+        - emphasis: Talusun posterolateral bölgesi; lif kapsamı ve varyasyonlar bu modelde doğrulanmadı.
+      - generic "Kaynak"
+      - button "Eklem yaptığı kemik Sol Kaval kemiği":
+        - generic: Eklem yaptığı kemik
+        - strong: Sol Kaval kemiği
+      - generic "Kaynak"
+    - text: Yapı kimliği
+    - strong: zanatomy:talus-l
+    - text: Seçili parça
+    - strong: "1"
+    - link "Model kaynağı":
+      - /url: https://github.com/Z-Anatomy/Models-of-human-anatomy
+      - text: Model kaynağı
+    - button "Odaklan"
+    - button "Çevreyi göster" [pressed]
+    - button "Parçayı gizle"
+    - button "Çevreyi göster":
+      - text: Çevreyi göster
+    - button "Seçimi temizle"
+    - button "Close":
+      - generic: Close
