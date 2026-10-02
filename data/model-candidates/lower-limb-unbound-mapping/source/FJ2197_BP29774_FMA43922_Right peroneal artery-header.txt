@@ -1,0 +1,10 @@
+#
+# Compatibility version : 4.3
+# File ID : FJ2197
+# Representation ID : BP29774
+# Build-up logic : FMA 3.0 part_of
+# Concept ID : FMA43922
+# English name : Right peroneal artery
+# Bounds(mm): (-101.232300,-64.647600,-38.605000)-(-68.403900,-44.021400,289.769300)
+# Volume(cm3): 4.700700
+#

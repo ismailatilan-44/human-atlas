@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scope": "Reviewed regional labels including organ neighbors, skull bones, rotator cuff, hepatic segments and lung tissue/segments. Source identities and geometric scope preserved; not a complete atlas translation.",
+  "scope": "Reviewed regional labels including organ neighbors, skull bones, rotator cuff, hepatic segments, lung tissue/segments and named knee/leg/foot bones, muscles and arterial groups. Source identities and geometric scope preserved; not a complete atlas translation.",
   "source": {
     "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
     "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
@@ -4007,6 +4007,528 @@
       "ta2Id": 4101,
       "evidenceRef": "data/model-candidates/pulmonary-branch-labels/source-evidence.json#FMA68201",
       "representationNoteTr": "Kaynak dal kimliği korunur; etiket tam damar ağacı veya geometri eksiksizliği iddiası değildir."
+    },
+    {
+      "ids": [
+        "FMA24481",
+        "FJ3260"
+      ],
+      "tr": "Fibula",
+      "en": "Fibula",
+      "la": "Fibula",
+      "side": "left",
+      "aliases": [
+        "kamış kemiği"
+      ],
+      "ta2Id": 1427,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24481"
+    },
+    {
+      "ids": [
+        "FMA24480",
+        "FJ3366"
+      ],
+      "tr": "Fibula",
+      "en": "Fibula",
+      "la": "Fibula",
+      "side": "right",
+      "aliases": [
+        "kamış kemiği"
+      ],
+      "ta2Id": 1427,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24480"
+    },
+    {
+      "ids": [
+        "FMA24487",
+        "FJ3275"
+      ],
+      "tr": "Patella",
+      "en": "Patella",
+      "la": "Patella",
+      "side": "left",
+      "aliases": [
+        "diz kapağı kemiği"
+      ],
+      "ta2Id": 1390,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24487"
+    },
+    {
+      "ids": [
+        "FMA24486",
+        "FJ3381"
+      ],
+      "tr": "Patella",
+      "en": "Patella",
+      "la": "Patella",
+      "side": "right",
+      "aliases": [
+        "diz kapağı kemiği"
+      ],
+      "ta2Id": 1390,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24486"
+    },
+    {
+      "ids": [
+        "FMA24483",
+        "FJ3280"
+      ],
+      "tr": "Talus",
+      "en": "Talus",
+      "la": "Os tali",
+      "side": "left",
+      "aliases": [
+        "aşık kemiği"
+      ],
+      "ta2Id": 1448,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24483"
+    },
+    {
+      "ids": [
+        "FMA24482",
+        "FJ3385"
+      ],
+      "tr": "Talus",
+      "en": "Talus",
+      "la": "Os tali",
+      "side": "right",
+      "aliases": [
+        "aşık kemiği"
+      ],
+      "ta2Id": 1448,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24482"
+    },
+    {
+      "ids": [
+        "FMA24498",
+        "FJ3256"
+      ],
+      "tr": "Kalkaneus",
+      "en": "Calcaneus",
+      "la": "Calcaneus",
+      "side": "left",
+      "aliases": [
+        "topuk kemiği",
+        "calcaneus"
+      ],
+      "ta2Id": 1468,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24498"
+    },
+    {
+      "ids": [
+        "FMA24497",
+        "FJ3360"
+      ],
+      "tr": "Kalkaneus",
+      "en": "Calcaneus",
+      "la": "Calcaneus",
+      "side": "right",
+      "aliases": [
+        "topuk kemiği",
+        "calcaneus"
+      ],
+      "ta2Id": 1468,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24497"
+    },
+    {
+      "ids": [
+        "FMA24501",
+        "FJ3307"
+      ],
+      "tr": "Kayık kemiği",
+      "en": "Navicular bone",
+      "la": "Os naviculare",
+      "side": "left",
+      "aliases": [
+        "naviküler kemik",
+        "os naviculare"
+      ],
+      "ta2Id": 1484,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24501"
+    },
+    {
+      "ids": [
+        "FMA24500",
+        "FJ3308"
+      ],
+      "tr": "Kayık kemiği",
+      "en": "Navicular bone",
+      "la": "Os naviculare",
+      "side": "right",
+      "aliases": [
+        "naviküler kemik",
+        "os naviculare"
+      ],
+      "ta2Id": 1484,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24500"
+    },
+    {
+      "ids": [
+        "FMA24529",
+        "FJ3258"
+      ],
+      "tr": "Küp kemiği",
+      "en": "Cuboid bone",
+      "la": "Os cuboideum",
+      "side": "left",
+      "aliases": [
+        "kuboid kemik",
+        "os cuboideum"
+      ],
+      "ta2Id": 1489,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24529"
+    },
+    {
+      "ids": [
+        "FMA24528",
+        "FJ3364"
+      ],
+      "tr": "Küp kemiği",
+      "en": "Cuboid bone",
+      "la": "Os cuboideum",
+      "side": "right",
+      "aliases": [
+        "kuboid kemik",
+        "os cuboideum"
+      ],
+      "ta2Id": 1489,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24528"
+    },
+    {
+      "ids": [
+        "FMA24522",
+        "FJ3271"
+      ],
+      "tr": "Medial kama kemiği",
+      "en": "Medial cuneiform bone",
+      "la": "Os cuneiforme mediale",
+      "side": "left",
+      "aliases": [
+        "medial kuneiform kemik"
+      ],
+      "ta2Id": 1486,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24522"
+    },
+    {
+      "ids": [
+        "FMA24521",
+        "FJ3377"
+      ],
+      "tr": "Medial kama kemiği",
+      "en": "Medial cuneiform bone",
+      "la": "Os cuneiforme mediale",
+      "side": "right",
+      "aliases": [
+        "medial kuneiform kemik"
+      ],
+      "ta2Id": 1486,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24521"
+    },
+    {
+      "ids": [
+        "FMA24524",
+        "FJ3264"
+      ],
+      "tr": "Ara kama kemiği",
+      "en": "Intermediate cuneiform bone",
+      "la": "Os cuneiforme intermedium",
+      "side": "left",
+      "aliases": [
+        "orta kuneiform kemik"
+      ],
+      "ta2Id": 1487,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24524"
+    },
+    {
+      "ids": [
+        "FMA24523",
+        "FJ3370"
+      ],
+      "tr": "Ara kama kemiği",
+      "en": "Intermediate cuneiform bone",
+      "la": "Os cuneiforme intermedium",
+      "side": "right",
+      "aliases": [
+        "orta kuneiform kemik"
+      ],
+      "ta2Id": 1487,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24523"
+    },
+    {
+      "ids": [
+        "FMA24526",
+        "FJ3267"
+      ],
+      "tr": "Lateral kama kemiği",
+      "en": "Lateral cuneiform bone",
+      "la": "Os cuneiforme laterale",
+      "side": "left",
+      "aliases": [
+        "lateral kuneiform kemik"
+      ],
+      "ta2Id": 1488,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24526"
+    },
+    {
+      "ids": [
+        "FMA24525",
+        "FJ3373"
+      ],
+      "tr": "Lateral kama kemiği",
+      "en": "Lateral cuneiform bone",
+      "la": "Os cuneiforme laterale",
+      "side": "right",
+      "aliases": [
+        "lateral kuneiform kemik"
+      ],
+      "ta2Id": 1488,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA24525"
+    },
+    {
+      "ids": [
+        "FMA22549",
+        "FJ1406M"
+      ],
+      "tr": "Uzun parmak ekstansör kası",
+      "en": "Extensor digitorum longus",
+      "la": "Extensor longus digitorum",
+      "side": "left",
+      "aliases": [
+        "uzun parmak açıcı kas"
+      ],
+      "ta2Id": 2645,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA22549"
+    },
+    {
+      "ids": [
+        "FMA22548",
+        "FJ1406"
+      ],
+      "tr": "Uzun parmak ekstansör kası",
+      "en": "Extensor digitorum longus",
+      "la": "Extensor longus digitorum",
+      "side": "right",
+      "aliases": [
+        "uzun parmak açıcı kas"
+      ],
+      "ta2Id": 2645,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA22548"
+    },
+    {
+      "ids": [
+        "FMA22547",
+        "FJ1408M"
+      ],
+      "tr": "Uzun başparmak ekstansör kası",
+      "en": "Extensor hallucis longus",
+      "la": "Extensor longus hallucis",
+      "side": "left",
+      "aliases": [
+        "uzun başparmak açıcı kas"
+      ],
+      "ta2Id": 2650,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA22547"
+    },
+    {
+      "ids": [
+        "FMA22546",
+        "FJ1408"
+      ],
+      "tr": "Uzun başparmak ekstansör kası",
+      "en": "Extensor hallucis longus",
+      "la": "Extensor longus hallucis",
+      "side": "right",
+      "aliases": [
+        "uzun başparmak açıcı kas"
+      ],
+      "ta2Id": 2650,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA22546"
+    },
+    {
+      "ids": [
+        "FMA65017",
+        "FJ1414M"
+      ],
+      "tr": "Uzun parmak fleksör kası",
+      "en": "Flexor digitorum longus",
+      "la": "Musculus flexor digitorum longus",
+      "side": "left",
+      "aliases": [
+        "uzun parmak bükücü kas"
+      ],
+      "ta2Id": 2667,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA65017"
+    },
+    {
+      "ids": [
+        "FMA65016",
+        "FJ1414"
+      ],
+      "tr": "Uzun parmak fleksör kası",
+      "en": "Flexor digitorum longus",
+      "la": "Musculus flexor digitorum longus",
+      "side": "right",
+      "aliases": [
+        "uzun parmak bükücü kas"
+      ],
+      "ta2Id": 2667,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA65016"
+    },
+    {
+      "ids": [
+        "FMA65015",
+        "FJ1415M"
+      ],
+      "tr": "Uzun başparmak fleksör kası",
+      "en": "Flexor hallucis longus",
+      "la": "Flexor longus hallucis",
+      "side": "left",
+      "aliases": [
+        "uzun başparmak bükücü kas"
+      ],
+      "ta2Id": 2668,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA65015"
+    },
+    {
+      "ids": [
+        "FMA65014",
+        "FJ1415"
+      ],
+      "tr": "Uzun başparmak fleksör kası",
+      "en": "Flexor hallucis longus",
+      "la": "Flexor longus hallucis",
+      "side": "right",
+      "aliases": [
+        "uzun başparmak bükücü kas"
+      ],
+      "ta2Id": 2668,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA65014"
+    },
+    {
+      "ids": [
+        "FMA22559",
+        "FJ1437M"
+      ],
+      "tr": "Soleus kası",
+      "en": "Soleus muscle",
+      "la": "Musculus soleus",
+      "side": "left",
+      "aliases": [
+        "soleus"
+      ],
+      "ta2Id": 2660,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA22559"
+    },
+    {
+      "ids": [
+        "FMA22558",
+        "FJ1437"
+      ],
+      "tr": "Soleus kası",
+      "en": "Soleus muscle",
+      "la": "Musculus soleus",
+      "side": "right",
+      "aliases": [
+        "soleus"
+      ],
+      "ta2Id": 2660,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA22558"
+    },
+    {
+      "ids": [
+        "FMA43897",
+        "FJ2065"
+      ],
+      "tr": "Ön tibial arter",
+      "en": "Anterior tibial artery",
+      "la": "Arteria tibialis anterior",
+      "side": "left",
+      "aliases": [
+        "anterior tibial arter"
+      ],
+      "ta2Id": 4708,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA43897",
+      "representationNoteTr": "Kaynak seçimi dört yüzeyi birlikte gösterir: anterior tibial arter, dorsalis pedis, arkuat ve lateral tarsal arter. Ana arter yüzeyi ile kaynak grubunun kapsamı ayrıdır; bütün dalların eksiksizliği kabul edilmemiştir."
+    },
+    {
+      "ids": [
+        "FMA43896",
+        "FJ2130"
+      ],
+      "tr": "Ön tibial arter",
+      "en": "Anterior tibial artery",
+      "la": "Arteria tibialis anterior",
+      "side": "right",
+      "aliases": [
+        "anterior tibial arter"
+      ],
+      "ta2Id": 4708,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA43896",
+      "representationNoteTr": "Kaynak seçimi dört yüzeyi birlikte gösterir: anterior tibial arter, dorsalis pedis, arkuat ve lateral tarsal arter. Ana arter yüzeyi ile kaynak grubunun kapsamı ayrıdır; bütün dalların eksiksizliği kabul edilmemiştir."
+    },
+    {
+      "ids": [
+        "FMA43899",
+        "FJ2087"
+      ],
+      "tr": "Arka tibial arter",
+      "en": "Posterior tibial artery",
+      "la": "Arteria tibialis posterior",
+      "side": "left",
+      "aliases": [
+        "posterior tibial arter"
+      ],
+      "ta2Id": 4721,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA43899",
+      "representationNoteTr": "Kaynak seçimi beş yüzeyi birlikte gösterir: posterior tibial arter, medial/lateral plantar arter, plantar ark ve yüzeyel medial plantar arter. Ana arter yüzeyi ile kaynak grubunun kapsamı ayrıdır; bütün dalların eksiksizliği kabul edilmemiştir."
+    },
+    {
+      "ids": [
+        "FMA43898",
+        "FJ2172"
+      ],
+      "tr": "Arka tibial arter",
+      "en": "Posterior tibial artery",
+      "la": "Arteria tibialis posterior",
+      "side": "right",
+      "aliases": [
+        "posterior tibial arter"
+      ],
+      "ta2Id": 4721,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA43898",
+      "representationNoteTr": "Kaynak seçimi beş yüzeyi birlikte gösterir: posterior tibial arter, medial/lateral plantar arter, plantar ark ve yüzeyel medial plantar arter. Ana arter yüzeyi ile kaynak grubunun kapsamı ayrıdır; bütün dalların eksiksizliği kabul edilmemiştir."
+    },
+    {
+      "ids": [
+        "FMA77381",
+        "FJ2086"
+      ],
+      "tr": "Popliteal arter",
+      "en": "Popliteal artery",
+      "la": "Arteria poplitea",
+      "side": "left",
+      "aliases": [
+        "diz arkası atardamarı"
+      ],
+      "ta2Id": 4699,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA77381",
+      "representationNoteTr": "Tek kaynak popliteal arter yüzeyi seçilir. Ayrı geniküler dalların ve bölgesel damar ağının eksiksizliği bu etiketle kabul edilmez."
+    },
+    {
+      "ids": [
+        "FMA77380",
+        "FJ2170"
+      ],
+      "tr": "Popliteal arter",
+      "en": "Popliteal artery",
+      "la": "Arteria poplitea",
+      "side": "right",
+      "aliases": [
+        "diz arkası atardamarı"
+      ],
+      "ta2Id": 4699,
+      "evidenceRef": "data/model-candidates/lower-limb-main-labels/source-evidence.json#FMA77380",
+      "representationNoteTr": "Tek kaynak popliteal arter yüzeyi seçilir. Ayrı geniküler dalların ve bölgesel damar ağının eksiksizliği bu etiketle kabul edilmez."
     }
   ]
 }

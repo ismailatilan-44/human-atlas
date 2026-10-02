@@ -1,18 +1,22 @@
 {
   "schemaVersion": 1,
   "datasetId": "lower-limb-nerve-reference",
-  "scope": "Six independently named authored nerve curves (bilateral sciatic, tibial and common fibular nerves) and 15 matched-source bone context objects; partial lower-limb nerve reference",
-  "descriptionTr": "Bilateral siyatik, tibial ve ortak fibular sinirlerin altı kaynak eğrisi; aynı kaynaktan 15 kemik bağlamı. Tam alt ekstremite sinir ağı değildir. Anatomik uzman incelemesi bekliyor.",
-  "representationNoteTr": "Sinir gövdeleri kaynakta yazılmış eğrilerin kapsamını korur. Kökler, ayrı distal dallar, kas innervasyonu ve tam alt ekstremite ağı bu pakette gösterilmez. Kemikler bağlam içindir.",
+  "scope": "Sixteen independently named nerve objects, two fibular artery objects, six ankle ligament objects and 63 same-source bone context objects; partial lower-limb reference",
+  "descriptionTr": "Bilateral seçilmiş sinir, fibular arter ve ayak bileği bağ nesneleri; aynı kaynaktan 63 kemik bağlamı. 87 kaynak nesnesi, tam alt ekstremite ağı veya bölge kabulü değildir. Anatomik uzman incelemesi bekliyor.",
+  "representationNoteTr": "Kaynakta yazılmış sinir ve arter eğrileri, seçilmiş bağ yüzeyleri ve kemik bağlamı korunur. Nesnedeki spline sayısı adlandırılmış dal sayısı değildir. Kökler, tüm distal dallar, innervasyon ve damar ağı tamlığı bu paketten çıkarılamaz.",
   "counts": {
-    "labels": 21,
-    "authoredNerveObjects": 6,
-    "boneContextObjects": 15,
-    "branchOfRelations": 4
+    "labels": 87,
+    "authoredNerveObjects": 16,
+    "authoredArteryObjects": 2,
+    "ligamentObjects": 6,
+    "boneContextObjects": 63,
+    "branchOfRelations": 12,
+    "verifiedDisplayLatin": 53,
+    "unresolvedSpecificLatin": 34
   },
   "review": {
-    "terminology": "21 labels verified against the pinned TA2 table; Turkish editorial",
-    "relationshipEvidence": "Four source-supported terminal branch facts, copied from the existing candidate with same-side endpoints",
+    "terminology": "87 TR/EN labels;53 exact pinned numeric-table Latin display terms;34 digit-specific Latin labels unresolved with generic term evidence retained separately; Turkish editorial",
+    "relationshipEvidence": "Four preserved sciatic terminal-branch facts plus eight same-side sourced distal branch facts; no single parent assigned to sural nerve",
     "expertReview": "pending",
     "geometry": "Not assessed by this metadata task; see the owning reference package review",
     "mainAtlasRegistration": "Existing rejected distal registration is not accepted by this separate dataset metadata",
@@ -723,6 +727,3266 @@
           "scope": "Source object identity and side naming; geometry acceptance is separate"
         }
       ]
+    },
+    {
+      "ids": [
+        "atlas:left-deep-fibular-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Deep fibular nerve.l",
+      "sourceEnglish": "Deep fibular nerve",
+      "tr": "Derin fibular sinir",
+      "en": "Deep fibular nerve",
+      "la": "Nervus fibularis profundus",
+      "side": "left",
+      "aliases": [
+        "Deep fibular nerve.l",
+        "Deep fibular nerve",
+        "deep peroneal nerve"
+      ],
+      "ta2TableId": 6579,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-DFIB-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6579; CSV line 6662; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Deep fibular nerve.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 1,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-deep-fibular-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Deep fibular nerve.r",
+      "sourceEnglish": "Deep fibular nerve",
+      "tr": "Derin fibular sinir",
+      "en": "Deep fibular nerve",
+      "la": "Nervus fibularis profundus",
+      "side": "right",
+      "aliases": [
+        "Deep fibular nerve.r",
+        "Deep fibular nerve",
+        "deep peroneal nerve"
+      ],
+      "ta2TableId": 6579,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-DFIB-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6579; CSV line 6662; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Deep fibular nerve.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 1,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-superficial-fibular-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Superficial fibular nerve.l",
+      "sourceEnglish": "Superficial fibular nerve",
+      "tr": "Yüzeyel fibular sinir",
+      "en": "Superficial fibular nerve",
+      "la": "Nervus fibularis superficialis",
+      "side": "left",
+      "aliases": [
+        "Superficial fibular nerve.l",
+        "Superficial fibular nerve",
+        "superficial peroneal nerve"
+      ],
+      "ta2TableId": 6574,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-SFIB-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6574; CSV line 6657; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Superficial fibular nerve.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 1,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-superficial-fibular-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Superficial fibular nerve.r",
+      "sourceEnglish": "Superficial fibular nerve",
+      "tr": "Yüzeyel fibular sinir",
+      "en": "Superficial fibular nerve",
+      "la": "Nervus fibularis superficialis",
+      "side": "right",
+      "aliases": [
+        "Superficial fibular nerve.r",
+        "Superficial fibular nerve",
+        "superficial peroneal nerve"
+      ],
+      "ta2TableId": 6574,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-SFIB-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6574; CSV line 6657; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Superficial fibular nerve.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 1,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-sural-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Sural nerve.l",
+      "sourceEnglish": "Sural nerve",
+      "tr": "Sural sinir",
+      "en": "Sural nerve",
+      "la": "Nervus suralis",
+      "side": "left",
+      "aliases": [
+        "Sural nerve.l",
+        "Sural nerve"
+      ],
+      "ta2TableId": 6586,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-SUR-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6586; CSV line 6669; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Sural nerve.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 3,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-sural-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Sural nerve.r",
+      "sourceEnglish": "Sural nerve",
+      "tr": "Sural sinir",
+      "en": "Sural nerve",
+      "la": "Nervus suralis",
+      "side": "right",
+      "aliases": [
+        "Sural nerve.r",
+        "Sural nerve"
+      ],
+      "ta2TableId": 6586,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-SUR-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6586; CSV line 6669; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Sural nerve.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 3,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-medial-plantar-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Medial plantar nerve.l",
+      "sourceEnglish": "Medial plantar nerve",
+      "tr": "Medial plantar sinir",
+      "en": "Medial plantar nerve",
+      "la": "Nervus plantaris medialis",
+      "side": "left",
+      "aliases": [
+        "Medial plantar nerve.l",
+        "Medial plantar nerve",
+        "İç plantar sinir"
+      ],
+      "ta2TableId": 6590,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta üç spline vardır: ikisi tüp geometrisi üretir, biri yalnız tek kontrol noktasıdır; bu noktadan ek yüzey üretilmez. Bunlar bağımsız adlandırılmış dal kanıtı değildir. Tam distal ağ ve innervasyon bu seçimde temsil edilmez; anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-MPL-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6590; CSV line 6673; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Medial plantar nerve.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 3,
+        "scope": "Three authored splines; two yield tube geometry and one is a single source point with no invented surface. No independently verified named subbranches.",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json",
+        "splineControlPointCounts": [
+          4,
+          1,
+          2
+        ],
+        "pointOnlySplineCount": 1,
+        "tubeProducingSplineCount": 2
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-medial-plantar-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Medial plantar nerve.r",
+      "sourceEnglish": "Medial plantar nerve",
+      "tr": "Medial plantar sinir",
+      "en": "Medial plantar nerve",
+      "la": "Nervus plantaris medialis",
+      "side": "right",
+      "aliases": [
+        "Medial plantar nerve.r",
+        "Medial plantar nerve",
+        "İç plantar sinir"
+      ],
+      "ta2TableId": 6590,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta üç spline vardır: ikisi tüp geometrisi üretir, biri yalnız tek kontrol noktasıdır; bu noktadan ek yüzey üretilmez. Bunlar bağımsız adlandırılmış dal kanıtı değildir. Tam distal ağ ve innervasyon bu seçimde temsil edilmez; anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-MPL-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6590; CSV line 6673; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Medial plantar nerve.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 3,
+        "scope": "Three authored splines; two yield tube geometry and one is a single source point with no invented surface. No independently verified named subbranches.",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json",
+        "splineControlPointCounts": [
+          4,
+          1,
+          2
+        ],
+        "pointOnlySplineCount": 1,
+        "tubeProducingSplineCount": 2
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-lateral-plantar-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Lateral plantar nerve.l",
+      "sourceEnglish": "Lateral plantar nerve",
+      "tr": "Lateral plantar sinir",
+      "en": "Lateral plantar nerve",
+      "la": "Nervus plantaris lateralis",
+      "side": "left",
+      "aliases": [
+        "Lateral plantar nerve.l",
+        "Lateral plantar nerve",
+        "Dış plantar sinir"
+      ],
+      "ta2TableId": 6593,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LPL-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6593; CSV line 6676; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Lateral plantar nerve.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 1,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-lateral-plantar-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Lateral plantar nerve.r",
+      "sourceEnglish": "Lateral plantar nerve",
+      "tr": "Lateral plantar sinir",
+      "en": "Lateral plantar nerve",
+      "la": "Nervus plantaris lateralis",
+      "side": "right",
+      "aliases": [
+        "Lateral plantar nerve.r",
+        "Lateral plantar nerve",
+        "Dış plantar sinir"
+      ],
+      "ta2TableId": 6593,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış anatomik dal sayılmaz; tüm distal dallar, kökler ve innervasyon ağı bu seçimde temsil edilmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LPL-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 6593; CSV line 6676; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Lateral plantar nerve.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 1,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-fibular-artery"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fibular artery.l",
+      "sourceEnglish": "Fibular artery",
+      "tr": "Fibular arter",
+      "en": "Fibular artery",
+      "la": "Arteria fibularis",
+      "side": "left",
+      "aliases": [
+        "Fibular artery.l",
+        "Fibular artery",
+        "peroneal artery"
+      ],
+      "ta2TableId": 4727,
+      "componentRole": "artery",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta yazılmış fibular arter eğrilerinin kısmi kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış dal veya tam damar ağı değildir; besleme alanı ve ana gövdeye kayıt bu seçimden çıkarılamaz. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-FIBART-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 4727; CSV line 4813; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fibular artery.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 5,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-fibular-artery"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fibular artery.r",
+      "sourceEnglish": "Fibular artery",
+      "tr": "Fibular arter",
+      "en": "Fibular artery",
+      "la": "Arteria fibularis",
+      "side": "right",
+      "aliases": [
+        "Fibular artery.r",
+        "Fibular artery",
+        "peroneal artery"
+      ],
+      "ta2TableId": 4727,
+      "componentRole": "artery",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta yazılmış fibular arter eğrilerinin kısmi kapsamı gösterilir. Nesnedeki birden çok spline ayrı adlandırılmış dal veya tam damar ağı değildir; besleme alanı ve ana gövdeye kayıt bu seçimden çıkarılamaz. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-FIBART-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 4727; CSV line 4813; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fibular artery.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "CURVE",
+        "splineCount": 5,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-anterior-talofibular-ligament"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Anterior talofibular ligament.l",
+      "sourceEnglish": "Anterior talofibular ligament",
+      "tr": "Ön talofibular bağ",
+      "en": "Anterior talofibular ligament",
+      "la": "Ligamentum talofibulare anterius",
+      "side": "left",
+      "aliases": [
+        "Anterior talofibular ligament.l",
+        "Anterior talofibular ligament",
+        "anterior taloperoneal ligament"
+      ],
+      "ta2TableId": 1919,
+      "componentRole": "ligament",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış bağ yüzeyinin kapsamı gösterilir. Bu yüzey tüm ayak bileği bağlarını, eklem kapsülünü veya doğrulanmış tutunma bölgelerini temsil etmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-ATFL-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1919; CSV line 2018; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Anterior talofibular ligament.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "splineCount": null,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-anterior-talofibular-ligament"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Anterior talofibular ligament.r",
+      "sourceEnglish": "Anterior talofibular ligament",
+      "tr": "Ön talofibular bağ",
+      "en": "Anterior talofibular ligament",
+      "la": "Ligamentum talofibulare anterius",
+      "side": "right",
+      "aliases": [
+        "Anterior talofibular ligament.r",
+        "Anterior talofibular ligament",
+        "anterior taloperoneal ligament"
+      ],
+      "ta2TableId": 1919,
+      "componentRole": "ligament",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış bağ yüzeyinin kapsamı gösterilir. Bu yüzey tüm ayak bileği bağlarını, eklem kapsülünü veya doğrulanmış tutunma bölgelerini temsil etmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-ATFL-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1919; CSV line 2018; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Anterior talofibular ligament.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "splineCount": null,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-posterior-talofibular-ligament"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Posterior talofibular ligament.l",
+      "sourceEnglish": "Posterior talofibular ligament",
+      "tr": "Arka talofibular bağ",
+      "en": "Posterior talofibular ligament",
+      "la": "Ligamentum talofibulare posterius",
+      "side": "left",
+      "aliases": [
+        "Posterior talofibular ligament.l",
+        "Posterior talofibular ligament",
+        "posterior taloperoneal ligament"
+      ],
+      "ta2TableId": 1920,
+      "componentRole": "ligament",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış bağ yüzeyinin kapsamı gösterilir. Bu yüzey tüm ayak bileği bağlarını, eklem kapsülünü veya doğrulanmış tutunma bölgelerini temsil etmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-PTFL-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1920; CSV line 2019; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Posterior talofibular ligament.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "splineCount": null,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-posterior-talofibular-ligament"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Posterior talofibular ligament.r",
+      "sourceEnglish": "Posterior talofibular ligament",
+      "tr": "Arka talofibular bağ",
+      "en": "Posterior talofibular ligament",
+      "la": "Ligamentum talofibulare posterius",
+      "side": "right",
+      "aliases": [
+        "Posterior talofibular ligament.r",
+        "Posterior talofibular ligament",
+        "posterior taloperoneal ligament"
+      ],
+      "ta2TableId": 1920,
+      "componentRole": "ligament",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış bağ yüzeyinin kapsamı gösterilir. Bu yüzey tüm ayak bileği bağlarını, eklem kapsülünü veya doğrulanmış tutunma bölgelerini temsil etmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-PTFL-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1920; CSV line 2019; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Posterior talofibular ligament.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "splineCount": null,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:left-calcaneofibular-ligament"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Calcaneofibular ligament.l",
+      "sourceEnglish": "Calcaneofibular ligament",
+      "tr": "Kalkaneofibular bağ",
+      "en": "Calcaneofibular ligament",
+      "la": "Ligamentum calcaneofibulare",
+      "side": "left",
+      "aliases": [
+        "Calcaneofibular ligament.l",
+        "Calcaneofibular ligament",
+        "calcaneoperoneal ligament"
+      ],
+      "ta2TableId": 1921,
+      "componentRole": "ligament",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış bağ yüzeyinin kapsamı gösterilir. Bu yüzey tüm ayak bileği bağlarını, eklem kapsülünü veya doğrulanmış tutunma bölgelerini temsil etmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-CFL-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1921; CSV line 2020; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Calcaneofibular ligament.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "splineCount": null,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "atlas:right-calcaneofibular-ligament"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Calcaneofibular ligament.r",
+      "sourceEnglish": "Calcaneofibular ligament",
+      "tr": "Kalkaneofibular bağ",
+      "en": "Calcaneofibular ligament",
+      "la": "Ligamentum calcaneofibulare",
+      "side": "right",
+      "aliases": [
+        "Calcaneofibular ligament.r",
+        "Calcaneofibular ligament",
+        "calcaneoperoneal ligament"
+      ],
+      "ta2TableId": 1921,
+      "componentRole": "ligament",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış bağ yüzeyinin kapsamı gösterilir. Bu yüzey tüm ayak bileği bağlarını, eklem kapsülünü veya doğrulanmış tutunma bölgelerini temsil etmez. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-CFL-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1921; CSV line 2020; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Calcaneofibular ligament.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "splineCount": null,
+        "scope": "Whole named source object; unnamed splines are not independently identified branches",
+        "geometryReviewPath": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:cuboid-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Cuboid bone.l",
+      "sourceEnglish": "Cuboid bone",
+      "tr": "Küboid kemik",
+      "en": "Cuboid bone",
+      "la": "Os cuboideum",
+      "side": "left",
+      "aliases": [
+        "Cuboid bone.l",
+        "Cuboid bone"
+      ],
+      "ta2TableId": 1489,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-CUBOID-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1489; CSV line 1564; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Cuboid bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:cuboid-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Cuboid bone.r",
+      "sourceEnglish": "Cuboid bone",
+      "tr": "Küboid kemik",
+      "en": "Cuboid bone",
+      "la": "Os cuboideum",
+      "side": "right",
+      "aliases": [
+        "Cuboid bone.r",
+        "Cuboid bone"
+      ],
+      "ta2TableId": 1489,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-CUBOID-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1489; CSV line 1564; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Cuboid bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-fifth-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of fifth finger of foot.l",
+      "sourceEnglish": "Distal phalanx of fifth finger of foot",
+      "tr": "5. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of fifth toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Distal phalanx of fifth finger of foot.l",
+        "Distal phalanx of fifth finger of foot",
+        "distal phalanx of toe 5",
+        "5. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*5; CSV line 1604; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of fifth finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*5",
+        "en": "Distal phalanx of fifth finger of foot",
+        "la": "Phalanx distalis quintum digitorum pedis",
+        "csvLine": 1604,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-fifth-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of fifth finger of foot.r",
+      "sourceEnglish": "Distal phalanx of fifth finger of foot",
+      "tr": "5. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of fifth toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Distal phalanx of fifth finger of foot.r",
+        "Distal phalanx of fifth finger of foot",
+        "distal phalanx of toe 5",
+        "5. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*5; CSV line 1604; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of fifth finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*5",
+        "en": "Distal phalanx of fifth finger of foot",
+        "la": "Phalanx distalis quintum digitorum pedis",
+        "csvLine": 1604,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-first-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of first finger of foot.l",
+      "sourceEnglish": "Distal phalanx of first finger of foot",
+      "tr": "1. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of first toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Distal phalanx of first finger of foot.l",
+        "Distal phalanx of first finger of foot",
+        "distal phalanx of toe 1",
+        "1. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*1; CSV line 1600; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of first finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 1,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*1",
+        "en": "Distal phalanx of first finger of foot",
+        "la": "Phalanx distalis primum digitorum pedis",
+        "csvLine": 1600,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-first-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of first finger of foot.r",
+      "sourceEnglish": "Distal phalanx of first finger of foot",
+      "tr": "1. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of first toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Distal phalanx of first finger of foot.r",
+        "Distal phalanx of first finger of foot",
+        "distal phalanx of toe 1",
+        "1. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*1; CSV line 1600; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of first finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 1,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*1",
+        "en": "Distal phalanx of first finger of foot",
+        "la": "Phalanx distalis primum digitorum pedis",
+        "csvLine": 1600,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-fourth-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of fourth finger of foot.l",
+      "sourceEnglish": "Distal phalanx of fourth finger of foot",
+      "tr": "4. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of fourth toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Distal phalanx of fourth finger of foot.l",
+        "Distal phalanx of fourth finger of foot",
+        "distal phalanx of toe 4",
+        "4. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*4; CSV line 1603; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of fourth finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*4",
+        "en": "Distal phalanx of fourth finger of foot",
+        "la": "Phalanx distalis quartum digitorum pedis",
+        "csvLine": 1603,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-fourth-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of fourth finger of foot.r",
+      "sourceEnglish": "Distal phalanx of fourth finger of foot",
+      "tr": "4. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of fourth toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Distal phalanx of fourth finger of foot.r",
+        "Distal phalanx of fourth finger of foot",
+        "distal phalanx of toe 4",
+        "4. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*4; CSV line 1603; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of fourth finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*4",
+        "en": "Distal phalanx of fourth finger of foot",
+        "la": "Phalanx distalis quartum digitorum pedis",
+        "csvLine": 1603,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-second-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of second finger of foot.l",
+      "sourceEnglish": "Distal phalanx of second finger of foot",
+      "tr": "2. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of second toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Distal phalanx of second finger of foot.l",
+        "Distal phalanx of second finger of foot",
+        "distal phalanx of toe 2",
+        "2. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*2; CSV line 1601; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of second finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*2",
+        "en": "Distal phalanx of second finger of foot",
+        "la": "Phalanx distalis secundum digitorum pedis",
+        "csvLine": 1601,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-second-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of second finger of foot.r",
+      "sourceEnglish": "Distal phalanx of second finger of foot",
+      "tr": "2. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of second toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Distal phalanx of second finger of foot.r",
+        "Distal phalanx of second finger of foot",
+        "distal phalanx of toe 2",
+        "2. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*2; CSV line 1601; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of second finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*2",
+        "en": "Distal phalanx of second finger of foot",
+        "la": "Phalanx distalis secundum digitorum pedis",
+        "csvLine": 1601,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-third-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of third finger of foot.l",
+      "sourceEnglish": "Distal phalanx of third finger of foot",
+      "tr": "3. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of third toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Distal phalanx of third finger of foot.l",
+        "Distal phalanx of third finger of foot",
+        "distal phalanx of toe 3",
+        "3. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*3; CSV line 1602; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of third finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*3",
+        "en": "Distal phalanx of third finger of foot",
+        "la": "Phalanx distalis tertium digitorum pedis",
+        "csvLine": 1602,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:distal-phalanx-of-third-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Distal phalanx of third finger of foot.r",
+      "sourceEnglish": "Distal phalanx of third finger of foot",
+      "tr": "3. ayak parmağının distal falanksı",
+      "en": "Distal phalanx of third toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Distal phalanx of third finger of foot.r",
+        "Distal phalanx of third finger of foot",
+        "distal phalanx of toe 3",
+        "3. parmak distal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-DISTAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1512*3; CSV line 1602; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Distal phalanx of third finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "distal",
+      "genericTerm": {
+        "ta2TableId": 1512,
+        "en": "Distal phalanx of foot",
+        "la": "Phalanx distalis pedis",
+        "locator": "TA2 1512; CSV line 1599",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1512*3",
+        "en": "Distal phalanx of third finger of foot",
+        "la": "Phalanx distalis tertium digitorum pedis",
+        "csvLine": 1602,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:fifth-metatarsal-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fifth metatarsal bone.l",
+      "sourceEnglish": "Fifth metatarsal bone",
+      "tr": "5. metatarsal kemik",
+      "en": "Fifth metatarsal bone",
+      "la": "Os quintum metatarsi",
+      "side": "left",
+      "aliases": [
+        "Fifth metatarsal bone.l",
+        "Fifth metatarsal bone",
+        "5. ayak tarak kemiği"
+      ],
+      "ta2TableId": 1502,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-FIFTH-METATARSAL-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1502; CSV line 1580; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fifth metatarsal bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_metatarsals_I_to_V"
+    },
+    {
+      "ids": [
+        "zanatomy:fifth-metatarsal-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fifth metatarsal bone.r",
+      "sourceEnglish": "Fifth metatarsal bone",
+      "tr": "5. metatarsal kemik",
+      "en": "Fifth metatarsal bone",
+      "la": "Os quintum metatarsi",
+      "side": "right",
+      "aliases": [
+        "Fifth metatarsal bone.r",
+        "Fifth metatarsal bone",
+        "5. ayak tarak kemiği"
+      ],
+      "ta2TableId": 1502,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-FIFTH-METATARSAL-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1502; CSV line 1580; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fifth metatarsal bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_metatarsals_I_to_V"
+    },
+    {
+      "ids": [
+        "zanatomy:first-metatarsal-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "First metatarsal bone.l",
+      "sourceEnglish": "First metatarsal bone",
+      "tr": "1. metatarsal kemik",
+      "en": "First metatarsal bone",
+      "la": "Os primum metatarsi",
+      "side": "left",
+      "aliases": [
+        "First metatarsal bone.l",
+        "First metatarsal bone",
+        "1. ayak tarak kemiği"
+      ],
+      "ta2TableId": 1500,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-FIRST-METATARSAL-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1500; CSV line 1575; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object First metatarsal bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 1,
+      "digitSystem": "foot_metatarsals_I_to_V"
+    },
+    {
+      "ids": [
+        "zanatomy:first-metatarsal-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "First metatarsal bone.r",
+      "sourceEnglish": "First metatarsal bone",
+      "tr": "1. metatarsal kemik",
+      "en": "First metatarsal bone",
+      "la": "Os primum metatarsi",
+      "side": "right",
+      "aliases": [
+        "First metatarsal bone.r",
+        "First metatarsal bone",
+        "1. ayak tarak kemiği"
+      ],
+      "ta2TableId": 1500,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-FIRST-METATARSAL-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1500; CSV line 1575; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object First metatarsal bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 1,
+      "digitSystem": "foot_metatarsals_I_to_V"
+    },
+    {
+      "ids": [
+        "zanatomy:fourth-metatarsal-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fourth metatarsal bone.l",
+      "sourceEnglish": "Fourth metatarsal bone",
+      "tr": "4. metatarsal kemik",
+      "en": "Fourth metatarsal bone",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Fourth metatarsal bone.l",
+        "Fourth metatarsal bone",
+        "4. ayak tarak kemiği"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-FOURTH-METATARSAL-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1496*4; CSV line 1579; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fourth metatarsal bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_metatarsals_I_to_V",
+      "genericTerm": {
+        "ta2TableId": 1496,
+        "en": "Metatarsal bone",
+        "la": "Os metatarsi",
+        "locator": "TA2 1496; CSV line 1571",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1496*4",
+        "en": "Fourth metatarsal bone",
+        "la": "Os quatum metatarsi",
+        "csvLine": 1579,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:fourth-metatarsal-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fourth metatarsal bone.r",
+      "sourceEnglish": "Fourth metatarsal bone",
+      "tr": "4. metatarsal kemik",
+      "en": "Fourth metatarsal bone",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Fourth metatarsal bone.r",
+        "Fourth metatarsal bone",
+        "4. ayak tarak kemiği"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-FOURTH-METATARSAL-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1496*4; CSV line 1579; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fourth metatarsal bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_metatarsals_I_to_V",
+      "genericTerm": {
+        "ta2TableId": 1496,
+        "en": "Metatarsal bone",
+        "la": "Os metatarsi",
+        "locator": "TA2 1496; CSV line 1571",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1496*4",
+        "en": "Fourth metatarsal bone",
+        "la": "Os quatum metatarsi",
+        "csvLine": 1579,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:intermediate-cuneiform-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Intermediate cuneiform bone.l",
+      "sourceEnglish": "Intermediate cuneiform bone",
+      "tr": "Orta kuneiform kemik",
+      "en": "Intermediate cuneiform bone",
+      "la": "Os cuneiforme intermedium",
+      "side": "left",
+      "aliases": [
+        "Intermediate cuneiform bone.l",
+        "Intermediate cuneiform bone"
+      ],
+      "ta2TableId": 1487,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-INTERMEDIATE-CUNEIFORM-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1487; CSV line 1562; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Intermediate cuneiform bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:intermediate-cuneiform-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Intermediate cuneiform bone.r",
+      "sourceEnglish": "Intermediate cuneiform bone",
+      "tr": "Orta kuneiform kemik",
+      "en": "Intermediate cuneiform bone",
+      "la": "Os cuneiforme intermedium",
+      "side": "right",
+      "aliases": [
+        "Intermediate cuneiform bone.r",
+        "Intermediate cuneiform bone"
+      ],
+      "ta2TableId": 1487,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-INTERMEDIATE-CUNEIFORM-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1487; CSV line 1562; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Intermediate cuneiform bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:lateral-cuneiform-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Lateral cuneiform bone.l",
+      "sourceEnglish": "Lateral cuneiform bone",
+      "tr": "Lateral kuneiform kemik",
+      "en": "Lateral cuneiform bone",
+      "la": "Os cuneiforme laterale",
+      "side": "left",
+      "aliases": [
+        "Lateral cuneiform bone.l",
+        "Lateral cuneiform bone"
+      ],
+      "ta2TableId": 1488,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-LATERAL-CUNEIFORM-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1488; CSV line 1563; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Lateral cuneiform bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:lateral-cuneiform-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Lateral cuneiform bone.r",
+      "sourceEnglish": "Lateral cuneiform bone",
+      "tr": "Lateral kuneiform kemik",
+      "en": "Lateral cuneiform bone",
+      "la": "Os cuneiforme laterale",
+      "side": "right",
+      "aliases": [
+        "Lateral cuneiform bone.r",
+        "Lateral cuneiform bone"
+      ],
+      "ta2TableId": 1488,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-LATERAL-CUNEIFORM-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1488; CSV line 1563; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Lateral cuneiform bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:medial-cuneiform-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Medial cuneiform bone.l",
+      "sourceEnglish": "Medial cuneiform bone",
+      "tr": "Medial kuneiform kemik",
+      "en": "Medial cuneiform bone",
+      "la": "Os cuneiforme mediale",
+      "side": "left",
+      "aliases": [
+        "Medial cuneiform bone.l",
+        "Medial cuneiform bone"
+      ],
+      "ta2TableId": 1486,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MEDIAL-CUNEIFORM-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1486; CSV line 1561; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Medial cuneiform bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:medial-cuneiform-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Medial cuneiform bone.r",
+      "sourceEnglish": "Medial cuneiform bone",
+      "tr": "Medial kuneiform kemik",
+      "en": "Medial cuneiform bone",
+      "la": "Os cuneiforme mediale",
+      "side": "right",
+      "aliases": [
+        "Medial cuneiform bone.r",
+        "Medial cuneiform bone"
+      ],
+      "ta2TableId": 1486,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MEDIAL-CUNEIFORM-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1486; CSV line 1561; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Medial cuneiform bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-fifth-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of fifth finger of foot.l",
+      "sourceEnglish": "Middle phalanx of fifth finger of foot",
+      "tr": "5. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of fifth toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Middle phalanx of fifth finger of foot.l",
+        "Middle phalanx of fifth finger of foot",
+        "middle phalanx of toe 5",
+        "5. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-FIFTH-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*5; CSV line 1598; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of fifth finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*5",
+        "en": "Middle phalanx of fifth finger of foot",
+        "la": "Phalanx media quintum digitorum pedis",
+        "csvLine": 1598,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-fifth-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of fifth finger of foot.r",
+      "sourceEnglish": "Middle phalanx of fifth finger of foot",
+      "tr": "5. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of fifth toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Middle phalanx of fifth finger of foot.r",
+        "Middle phalanx of fifth finger of foot",
+        "middle phalanx of toe 5",
+        "5. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-FIFTH-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*5; CSV line 1598; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of fifth finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*5",
+        "en": "Middle phalanx of fifth finger of foot",
+        "la": "Phalanx media quintum digitorum pedis",
+        "csvLine": 1598,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-fourth-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of fourth finger of foot.l",
+      "sourceEnglish": "Middle phalanx of fourth finger of foot",
+      "tr": "4. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of fourth toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Middle phalanx of fourth finger of foot.l",
+        "Middle phalanx of fourth finger of foot",
+        "middle phalanx of toe 4",
+        "4. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-FOURTH-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*4; CSV line 1597; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of fourth finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*4",
+        "en": "Middle phalanx of fourth finger of foot",
+        "la": "Phalanx media quartum digitorum pedis",
+        "csvLine": 1597,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-fourth-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of fourth finger of foot.r",
+      "sourceEnglish": "Middle phalanx of fourth finger of foot",
+      "tr": "4. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of fourth toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Middle phalanx of fourth finger of foot.r",
+        "Middle phalanx of fourth finger of foot",
+        "middle phalanx of toe 4",
+        "4. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-FOURTH-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*4; CSV line 1597; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of fourth finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*4",
+        "en": "Middle phalanx of fourth finger of foot",
+        "la": "Phalanx media quartum digitorum pedis",
+        "csvLine": 1597,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-second-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of second finger of foot.l",
+      "sourceEnglish": "Middle phalanx of second finger of foot",
+      "tr": "2. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of second toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Middle phalanx of second finger of foot.l",
+        "Middle phalanx of second finger of foot",
+        "middle phalanx of toe 2",
+        "2. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-SECOND-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*2; CSV line 1595; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of second finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*2",
+        "en": "Middle phalanx of second finger of foot",
+        "la": "Phalanx media secundum digitorum pedis",
+        "csvLine": 1595,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-second-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of second finger of foot.r",
+      "sourceEnglish": "Middle phalanx of second finger of foot",
+      "tr": "2. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of second toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Middle phalanx of second finger of foot.r",
+        "Middle phalanx of second finger of foot",
+        "middle phalanx of toe 2",
+        "2. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-SECOND-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*2; CSV line 1595; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of second finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*2",
+        "en": "Middle phalanx of second finger of foot",
+        "la": "Phalanx media secundum digitorum pedis",
+        "csvLine": 1595,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-third-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of third finger of foot.l",
+      "sourceEnglish": "Middle phalanx of third finger of foot",
+      "tr": "3. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of third toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Middle phalanx of third finger of foot.l",
+        "Middle phalanx of third finger of foot",
+        "middle phalanx of toe 3",
+        "3. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-THIRD-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*3; CSV line 1596; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of third finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*3",
+        "en": "Middle phalanx of third finger of foot",
+        "la": "Phalanx media tertium digitorum pedis",
+        "csvLine": 1596,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:middle-phalanx-of-third-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Middle phalanx of third finger of foot.r",
+      "sourceEnglish": "Middle phalanx of third finger of foot",
+      "tr": "3. ayak parmağının orta falanksı",
+      "en": "Middle phalanx of third toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Middle phalanx of third finger of foot.r",
+        "Middle phalanx of third finger of foot",
+        "middle phalanx of toe 3",
+        "3. parmak orta falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-MIDDLE-PHALANX-OF-THIRD-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1511*3; CSV line 1596; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Middle phalanx of third finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "middle",
+      "genericTerm": {
+        "ta2TableId": 1511,
+        "en": "Middle phalanx of foot",
+        "la": "Phalanx media pedis",
+        "locator": "TA2 1511; CSV line 1594",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1511*3",
+        "en": "Middle phalanx of third finger of foot",
+        "la": "Phalanx media tertium digitorum pedis",
+        "csvLine": 1596,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:navicular-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Navicular bone.l",
+      "sourceEnglish": "Navicular bone",
+      "tr": "Naviküler kemik",
+      "en": "Navicular bone",
+      "la": "Os naviculare",
+      "side": "left",
+      "aliases": [
+        "Navicular bone.l",
+        "Navicular bone"
+      ],
+      "ta2TableId": 1484,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-NAVICULAR-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1484; CSV line 1559; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Navicular bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:navicular-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Navicular bone.r",
+      "sourceEnglish": "Navicular bone",
+      "tr": "Naviküler kemik",
+      "en": "Navicular bone",
+      "la": "Os naviculare",
+      "side": "right",
+      "aliases": [
+        "Navicular bone.r",
+        "Navicular bone"
+      ],
+      "ta2TableId": 1484,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-NAVICULAR-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1484; CSV line 1559; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Navicular bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of fifth finger of foot.l",
+      "sourceEnglish": "Proximal phalanx of fifth finger of foot",
+      "tr": "5. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of fifth toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Proximal phalanx of fifth finger of foot.l",
+        "Proximal phalanx of fifth finger of foot",
+        "proximal phalanx of toe 5",
+        "5. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*5; CSV line 1593; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of fifth finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*5",
+        "en": "Proximal phalanx of fifth finger of foot",
+        "la": "Phalanx proximalis quintum digitorum pedis",
+        "csvLine": 1593,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of fifth finger of foot.r",
+      "sourceEnglish": "Proximal phalanx of fifth finger of foot",
+      "tr": "5. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of fifth toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Proximal phalanx of fifth finger of foot.r",
+        "Proximal phalanx of fifth finger of foot",
+        "proximal phalanx of toe 5",
+        "5. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*5; CSV line 1593; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of fifth finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 5,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*5",
+        "en": "Proximal phalanx of fifth finger of foot",
+        "la": "Phalanx proximalis quintum digitorum pedis",
+        "csvLine": 1593,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-first-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of first finger of foot.l",
+      "sourceEnglish": "Proximal phalanx of first finger of foot",
+      "tr": "1. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of first toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Proximal phalanx of first finger of foot.l",
+        "Proximal phalanx of first finger of foot",
+        "proximal phalanx of toe 1",
+        "1. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*1; CSV line 1589; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of first finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 1,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*1",
+        "en": "Proximal phalanx of first finger of foot",
+        "la": "Phalanx proximalis primum digitorum pedis",
+        "csvLine": 1589,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-first-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of first finger of foot.r",
+      "sourceEnglish": "Proximal phalanx of first finger of foot",
+      "tr": "1. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of first toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Proximal phalanx of first finger of foot.r",
+        "Proximal phalanx of first finger of foot",
+        "proximal phalanx of toe 1",
+        "1. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*1; CSV line 1589; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of first finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 1,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*1",
+        "en": "Proximal phalanx of first finger of foot",
+        "la": "Phalanx proximalis primum digitorum pedis",
+        "csvLine": 1589,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of fourth finger of foot.l",
+      "sourceEnglish": "Proximal phalanx of fourth finger of foot",
+      "tr": "4. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of fourth toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Proximal phalanx of fourth finger of foot.l",
+        "Proximal phalanx of fourth finger of foot",
+        "proximal phalanx of toe 4",
+        "4. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*4; CSV line 1592; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of fourth finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*4",
+        "en": "Proximal phalanx of fourth finger of foot",
+        "la": "Phalanx proximalis quartum digitorum pedis",
+        "csvLine": 1592,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of fourth finger of foot.r",
+      "sourceEnglish": "Proximal phalanx of fourth finger of foot",
+      "tr": "4. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of fourth toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Proximal phalanx of fourth finger of foot.r",
+        "Proximal phalanx of fourth finger of foot",
+        "proximal phalanx of toe 4",
+        "4. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*4; CSV line 1592; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of fourth finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 4,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*4",
+        "en": "Proximal phalanx of fourth finger of foot",
+        "la": "Phalanx proximalis quartum digitorum pedis",
+        "csvLine": 1592,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-second-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of second finger of foot.l",
+      "sourceEnglish": "Proximal phalanx of second finger of foot",
+      "tr": "2. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of second toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Proximal phalanx of second finger of foot.l",
+        "Proximal phalanx of second finger of foot",
+        "proximal phalanx of toe 2",
+        "2. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*2; CSV line 1590; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of second finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*2",
+        "en": "Proximal phalanx of second finger of foot",
+        "la": "Phalanx proximalis secundum digitorum pedis",
+        "csvLine": 1590,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-second-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of second finger of foot.r",
+      "sourceEnglish": "Proximal phalanx of second finger of foot",
+      "tr": "2. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of second toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Proximal phalanx of second finger of foot.r",
+        "Proximal phalanx of second finger of foot",
+        "proximal phalanx of toe 2",
+        "2. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*2; CSV line 1590; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of second finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*2",
+        "en": "Proximal phalanx of second finger of foot",
+        "la": "Phalanx proximalis secundum digitorum pedis",
+        "csvLine": 1590,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-third-finger-of-foot-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of third finger of foot.l",
+      "sourceEnglish": "Proximal phalanx of third finger of foot",
+      "tr": "3. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of third toe",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Proximal phalanx of third finger of foot.l",
+        "Proximal phalanx of third finger of foot",
+        "proximal phalanx of toe 3",
+        "3. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*3; CSV line 1591; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of third finger of foot.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*3",
+        "en": "Proximal phalanx of third finger of foot",
+        "la": "Phalanx proximalis tertium digitorum pedis",
+        "csvLine": 1591,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:proximal-phalanx-of-third-finger-of-foot-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Proximal phalanx of third finger of foot.r",
+      "sourceEnglish": "Proximal phalanx of third finger of foot",
+      "tr": "3. ayak parmağının proksimal falanksı",
+      "en": "Proximal phalanx of third toe",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Proximal phalanx of third finger of foot.r",
+        "Proximal phalanx of third finger of foot",
+        "proximal phalanx of toe 3",
+        "3. parmak proksimal falanks"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-PROXIMAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1510*3; CSV line 1591; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Proximal phalanx of third finger of foot.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_toes_I_to_V",
+      "phalanxPosition": "proximal",
+      "genericTerm": {
+        "ta2TableId": 1510,
+        "en": "Proximal phalanx of foot",
+        "la": "Phalanx proximalis pedis",
+        "locator": "TA2 1510; CSV line 1588",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1510*3",
+        "en": "Proximal phalanx of third finger of foot",
+        "la": "Phalanx proximalis tertium digitorum pedis",
+        "csvLine": 1591,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:second-metatarsal-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Second metatarsal bone.l",
+      "sourceEnglish": "Second metatarsal bone",
+      "tr": "2. metatarsal kemik",
+      "en": "Second metatarsal bone",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Second metatarsal bone.l",
+        "Second metatarsal bone",
+        "2. ayak tarak kemiği"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-SECOND-METATARSAL-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1496*2; CSV line 1577; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Second metatarsal bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_metatarsals_I_to_V",
+      "genericTerm": {
+        "ta2TableId": 1496,
+        "en": "Metatarsal bone",
+        "la": "Os metatarsi",
+        "locator": "TA2 1496; CSV line 1571",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1496*2",
+        "en": "Second metatarsal bone",
+        "la": "Os secundum metatarsi",
+        "csvLine": 1577,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:second-metatarsal-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Second metatarsal bone.r",
+      "sourceEnglish": "Second metatarsal bone",
+      "tr": "2. metatarsal kemik",
+      "en": "Second metatarsal bone",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Second metatarsal bone.r",
+        "Second metatarsal bone",
+        "2. ayak tarak kemiği"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-SECOND-METATARSAL-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1496*2; CSV line 1577; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Second metatarsal bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 2,
+      "digitSystem": "foot_metatarsals_I_to_V",
+      "genericTerm": {
+        "ta2TableId": 1496,
+        "en": "Metatarsal bone",
+        "la": "Os metatarsi",
+        "locator": "TA2 1496; CSV line 1571",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1496*2",
+        "en": "Second metatarsal bone",
+        "la": "Os secundum metatarsi",
+        "csvLine": 1577,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:third-metatarsal-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Third metatarsal bone.l",
+      "sourceEnglish": "Third metatarsal bone",
+      "tr": "3. metatarsal kemik",
+      "en": "Third metatarsal bone",
+      "la": null,
+      "side": "left",
+      "aliases": [
+        "Third metatarsal bone.l",
+        "Third metatarsal bone",
+        "3. ayak tarak kemiği"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-THIRD-METATARSAL-BONE-L"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1496*3; CSV line 1578; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Third metatarsal bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_metatarsals_I_to_V",
+      "genericTerm": {
+        "ta2TableId": 1496,
+        "en": "Metatarsal bone",
+        "la": "Os metatarsi",
+        "locator": "TA2 1496; CSV line 1571",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1496*3",
+        "en": "Third metatarsal bone",
+        "la": "Os tertium metatarsi",
+        "csvLine": 1578,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:third-metatarsal-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Third metatarsal bone.r",
+      "sourceEnglish": "Third metatarsal bone",
+      "tr": "3. metatarsal kemik",
+      "en": "Third metatarsal bone",
+      "la": null,
+      "side": "right",
+      "aliases": [
+        "Third metatarsal bone.r",
+        "Third metatarsal bone",
+        "3. ayak tarak kemiği"
+      ],
+      "ta2TableId": null,
+      "componentRole": "bone_context",
+      "terminologyStatus": "specific_latin_unresolved_custom_source_table_row",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynak referansından ayak kemiği bağlamı. Taraf, parmak numarası ve falanks düzeyi ayrı alanlarda tutulur; bu seçim bağımsız eklem veya bağ ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "geometryPartIds": [
+        "ZA-LLR-THIRD-METATARSAL-BONE-R"
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1496*3; CSV line 1578; English and Latin columns",
+          "scope": "Star-suffixed upstream extension row; not asserted as an official per-digit TA2 identity"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Third metatarsal bone.r",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "digit": 3,
+      "digitSystem": "foot_metatarsals_I_to_V",
+      "genericTerm": {
+        "ta2TableId": 1496,
+        "en": "Metatarsal bone",
+        "la": "Os metatarsi",
+        "locator": "TA2 1496; CSV line 1571",
+        "scope": "Broader position/type term only; no per-digit identity or complete display label"
+      },
+      "latinUnavailableReason": "Digit-specific pinned row has a custom star-suffixed ID; its Latin compound is not independently verified. Generic sourced term is retained separately; do not silently use it as a digit-specific label.",
+      "sourceTableRow": {
+        "id": "1496*3",
+        "en": "Third metatarsal bone",
+        "la": "Os tertium metatarsi",
+        "csvLine": 1578,
+        "status": "retained_source_text_not_verified_display_latin"
+      }
     }
   ],
   "relations": [
@@ -817,6 +4081,190 @@
         "physicalContinuityClaim": false
       },
       "datasetId": "lower-limb-nerve-reference"
+    },
+    {
+      "id": "atlas:left-deep-fibular-nerve|branch_of|atlas:left-common-fibular-nerve",
+      "subject": "atlas:left-deep-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-common-fibular-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; fibular, deep row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .l side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:left-superficial-fibular-nerve|branch_of|atlas:left-common-fibular-nerve",
+      "subject": "atlas:left-superficial-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-common-fibular-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; fibular, superficial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .l side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:left-medial-plantar-nerve|branch_of|atlas:left-tibial-nerve",
+      "subject": "atlas:left-medial-plantar-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-tibial-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; plantar, medial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .l side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:left-lateral-plantar-nerve|branch_of|atlas:left-tibial-nerve",
+      "subject": "atlas:left-lateral-plantar-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-tibial-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; plantar, lateral row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .l side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:right-deep-fibular-nerve|branch_of|atlas:right-common-fibular-nerve",
+      "subject": "atlas:right-deep-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-common-fibular-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; fibular, deep row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .r side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:right-superficial-fibular-nerve|branch_of|atlas:right-common-fibular-nerve",
+      "subject": "atlas:right-superficial-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-common-fibular-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; fibular, superficial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .r side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:right-medial-plantar-nerve|branch_of|atlas:right-tibial-nerve",
+      "subject": "atlas:right-medial-plantar-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-tibial-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; plantar, medial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .r side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:right-lateral-plantar-nerve|branch_of|atlas:right-tibial-nerve",
+      "subject": "atlas:right-lateral-plantar-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-tibial-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "datasetId": "lower-limb-nerve-reference",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-anterior-lateral-leg-foot-tables",
+          "locator": "Nerves table; plantar, lateral row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "named_branch",
+        "semantics": "Named branch to source parent nerve, instantiated on the same side",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Both source objects have .r side suffix; no cross-side edge",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
     }
   ],
   "predicate": {
@@ -903,6 +4351,126 @@
           "english": "Sacrum",
           "latin": "Os sacrum",
           "csvLine": 1109
+        },
+        {
+          "upstreamTableId": 6579,
+          "english": "Deep fibular nerve",
+          "latin": "Nervus fibularis profundus",
+          "csvLine": 6662
+        },
+        {
+          "upstreamTableId": 6574,
+          "english": "Superficial fibular nerve",
+          "latin": "Nervus fibularis superficialis",
+          "csvLine": 6657
+        },
+        {
+          "upstreamTableId": 6586,
+          "english": "Sural nerve",
+          "latin": "Nervus suralis",
+          "csvLine": 6669
+        },
+        {
+          "upstreamTableId": 6590,
+          "english": "Medial plantar nerve",
+          "latin": "Nervus plantaris medialis",
+          "csvLine": 6673
+        },
+        {
+          "upstreamTableId": 6593,
+          "english": "Lateral plantar nerve",
+          "latin": "Nervus plantaris lateralis",
+          "csvLine": 6676
+        },
+        {
+          "upstreamTableId": 4727,
+          "english": "Fibular artery",
+          "latin": "Arteria fibularis",
+          "csvLine": 4813
+        },
+        {
+          "upstreamTableId": 1919,
+          "english": "Anterior talofibular ligament",
+          "latin": "Ligamentum talofibulare anterius",
+          "csvLine": 2018
+        },
+        {
+          "upstreamTableId": 1920,
+          "english": "Posterior talofibular ligament",
+          "latin": "Ligamentum talofibulare posterius",
+          "csvLine": 2019
+        },
+        {
+          "upstreamTableId": 1921,
+          "english": "Calcaneofibular ligament",
+          "latin": "Ligamentum calcaneofibulare",
+          "csvLine": 2020
+        },
+        {
+          "upstreamTableId": 1489,
+          "english": "Cuboid bone",
+          "latin": "Os cuboideum",
+          "csvLine": 1564
+        },
+        {
+          "upstreamTableId": 1512,
+          "english": "Distal phalanx of foot",
+          "latin": "Phalanx distalis pedis",
+          "csvLine": 1599
+        },
+        {
+          "upstreamTableId": 1502,
+          "english": "Fifth metatarsal bone",
+          "latin": "Os quintum metatarsi",
+          "csvLine": 1580
+        },
+        {
+          "upstreamTableId": 1500,
+          "english": "First metatarsal bone",
+          "latin": "Os primum metatarsi",
+          "csvLine": 1575
+        },
+        {
+          "upstreamTableId": 1496,
+          "english": "Metatarsal bone",
+          "latin": "Os metatarsi",
+          "csvLine": 1571
+        },
+        {
+          "upstreamTableId": 1487,
+          "english": "Intermediate cuneiform bone",
+          "latin": "Os cuneiforme intermedium",
+          "csvLine": 1562
+        },
+        {
+          "upstreamTableId": 1488,
+          "english": "Lateral cuneiform bone",
+          "latin": "Os cuneiforme laterale",
+          "csvLine": 1563
+        },
+        {
+          "upstreamTableId": 1486,
+          "english": "Medial cuneiform bone",
+          "latin": "Os cuneiforme mediale",
+          "csvLine": 1561
+        },
+        {
+          "upstreamTableId": 1511,
+          "english": "Middle phalanx of foot",
+          "latin": "Phalanx media pedis",
+          "csvLine": 1594
+        },
+        {
+          "upstreamTableId": 1484,
+          "english": "Navicular bone",
+          "latin": "Os naviculare",
+          "csvLine": 1559
+        },
+        {
+          "upstreamTableId": 1510,
+          "english": "Proximal phalanx of foot",
+          "latin": "Phalanx proximalis pedis",
+          "csvLine": 1588
         }
       ]
     },
@@ -928,6 +4496,18 @@
       ],
       "use": "Object names and source side suffixes; source curves and matched-source bone context; export/geometry verification owned by the package review",
       "licensing": "Preserve final geometry component attribution and upstream exceptions; terminology metadata does not replace component licenses"
+    },
+    {
+      "id": "ttuhsc-anterior-lateral-leg-foot-tables",
+      "title": "TTUHSC anatomy tables — anterior and lateral leg and foot",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/leg_tables.html",
+      "retrievedOn": "2026-10-02",
+      "locator": "Nerves table; fibular superficial, fibular deep, plantar medial and plantar lateral rows, Source column; common fibular Branches column",
+      "verifiedFacts": [
+        "Deep and superficial fibular nerves are branches of common fibular nerve",
+        "Medial and lateral plantar nerves originate from tibial nerve"
+      ],
+      "use": "Selected source/branch facts only; no table redistribution, inferred innervation or specimen-specific physical continuity"
     }
   ],
   "inputSnapshots": [
@@ -953,14 +4533,31 @@
     }
   ],
   "notAsserted": [
-    "Complete lower-limb nerve network",
+    "Complete lower-limb nerve or vascular network",
     "Roots or segment levels",
-    "Distal branch surfaces or drawn branch geometry",
+    "All distal branches or independent identity for unnamed splines",
     "Muscle innervation or skin territories",
-    "Bone adjacency or joint relationships",
-    "Specimen-validated connectivity, fused nerve surfaces or named terminal endpoint landmarks",
+    "Bone adjacency, ligament attachments or joint relationships",
+    "Specimen-validated connectivity, fused surfaces or named terminal endpoint landmarks",
     "New FMA mappings",
+    "Official per-digit TA2 identifiers for star-suffixed source rows",
     "Registration into the male BodyParts3D atlas",
     "Anatomical expert approval"
-  ]
+  ],
+  "expansionInputSnapshots": [
+    {
+      "path": "data/model-candidates/lower-limb-unbound-source-audit/new-object-mapping.json",
+      "sha256": "41fc6c0419464b1e064251003102268eb0ed299751d65000da454384e939740b"
+    },
+    {
+      "path": "data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json",
+      "sha256": "fbf534f5ad3a077c524274ad28116483c703f67f7a82bbc57769368b3ca1d2ba"
+    },
+    {
+      "path": "data/model-candidates/lower-limb-unbound-source-audit/foot-context.json",
+      "sha256": "3c69fcf2212cf226b9951965f71d70a82390b3d2ee02ad246599202420f72e07"
+    }
+  ],
+  "inputSnapshotsRevision": "e879fc92e1bfa6226898d12cdca2863e365858e0",
+  "inputSnapshotsNote": "Original21-object metadata input snapshots, preserved as historical baseline; active main labels may change independently. Expansion inputs are recorded separately."
 }

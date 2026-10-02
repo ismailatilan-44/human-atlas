@@ -1,0 +1,32 @@
+{
+  "revisionBase": "e879fc92e1bfa6226898d12cdca2863e365858e0",
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "binarySha256": "572a92f6c7f630c226e70fd5e02d93db70714c063c8fd493d4eaa4c87472ca56",
+  "gzipSha256": "a0b631ca5621957160d00427e2b7e9dfe64eea5e1b1901cbd405d98b99c01865",
+  "manifestSha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed",
+  "previous21ArrayPreservation": "PASS: all 63 per-field SHA-256 values match baseline-21-array-hashes.json",
+  "reproducibility": "PASS: final render-producing export and subsequent numerical-only export reproduced all three exact hashes",
+  "visualReview": {
+    "status": "inspected",
+    "views": [
+      "source-decoded-foot-anterior.png",
+      "source-decoded-foot-plantar.png",
+      "decoded-ankle-ligaments-lateral.png"
+    ],
+    "observation": "Source left / decoded right in paired views. No gross course, side, frame, missing-object or source-output mismatch seen; limited authored plantar extent and coarse ligament sheets remain visible.",
+    "anatomicalAcceptance": "pending"
+  },
+  "testsNotPerformed": [
+    "browser interaction acceptance",
+    "new main-atlas registration",
+    "self-intersection audit",
+    "anatomical expert acceptance",
+    "deployment"
+  ],
+  "exporterSha256": "0365a23bb531e699d316b312273901fa78be42e2bca87b8f44ff0520e81cc4d5",
+  "renderSha256": {
+    "source-decoded-foot-anterior.png": "8cdd2999006c0d6e59323d13bea14f552a9d3cd0082270c2090d8d6cacf7e39f",
+    "source-decoded-foot-plantar.png": "b4c2058a9c0b1df6621f65e3046470f0b3d5b766f2f38414cc1acccd5280b489",
+    "decoded-ankle-ligaments-lateral.png": "2bb89ec36eb7f94b1acf7c7e709cc264f5382aa69557861191ea032afed6d663"
+  }
+}

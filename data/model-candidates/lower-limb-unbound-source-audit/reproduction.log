@@ -1,0 +1,43 @@
+00:00.378  blend            | Read blend: "/Users/ismailkerematilan/Desktop/atlas/work/open-assets-review/Startup.blend"
+00:00.526  blend.doversion  | WARNING Region type 5 missing in space type "Text" (id: 9) - removing region
+00:00.545  blend.doversion  | WARNING Region type 9 missing in space type "Userpref" (id: 19) - removing region
+00:00.545  blend.doversion  | WARNING Region type 9 missing in space type "Userpref" (id: 19) - removing region
+00:01.453  depsgraph        | WARNING Dependency cycle detected:
+                            |   CUOesophagus/GEOMETRY_EVAL() depends on
+                            |   OBOesophagus-profile/TRANSFORM_FINAL() via 'Curve Bevel Transform'
+                            |   OBOesophagus-profile/TRANSFORM_SIMULATION_INIT() via 'Simulation -> Final Transform'
+                            |   OBOesophagus-profile/TRANSFORM_EVAL() via 'Transform Eval -> Simulation Init'
+                            |   OBOesophagus-profile/TRANSFORM_PARENT() via 'Eval'
+                            |   OBOesophagus-profile/TRANSFORM_LOCAL() via 'ObLocal -> ObParent'
+                            |   OBOesophagus-profile/TRANSFORM_INIT() via 'Transform Init'
+                            |   OBOesophagus/GEOMETRY_EVAL() via 'Curve Follow Parent'
+                            |   OBOesophagus/MODIFIER(Solidify) via 'modifier stack order'
+                            |   OBOesophagus/GEOMETRY_EVAL_INIT() via 'Modifier'
+                            |   CUOesophagus/GEOMETRY_EVAL_DONE() via 'Object Geometry Base Data'
+                            |   CUOesophagus/GEOMETRY_EVAL() via 'ObData Geom Eval Done'
+                            | 
+00:01.459  depsgraph        | WARNING Detected 1 dependency cycles
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+{
+  "parts": 87,
+  "nerves": 16,
+  "arteries": 2,
+  "ligaments": 6,
+  "bones": 63,
+  "vertices": 63282,
+  "triangles": 125372,
+  "bytes": 2643600,
+  "gzipBytes": 1462468,
+  "binarySha256": "572a92f6c7f630c226e70fd5e02d93db70714c063c8fd493d4eaa4c87472ca56",
+  "gzipSha256": "a0b631ca5621957160d00427e2b7e9dfe64eea5e1b1901cbd405d98b99c01865",
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "manifestSha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed",
+  "previous21ArrayPreservation": "PASS: all 63 per-field SHA-256 values match baseline-21-array-hashes.json",
+  "validation": "Finite decoded coordinates, bounds, index ranges, normal lengths, aligned offsets, gzip roundtrip; original evaluated source indices and world coordinates retained under one rotation."
+}
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:31:22)
+scripts disabled for "/Users/ismailkerematilan/Desktop/atlas/work/open-assets-review/Startup.blend", skipping 'z-anatomy.py'
+
+Blender quit

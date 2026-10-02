@@ -1,0 +1,237 @@
+{
+  "manifestSha256": "2230e2d1b3d92d0dafed463c5c3038580bbff5dc765448a7c2e44820d4913c22",
+  "binarySha256": "66374fc7903125278ccc3285b7cfae836db19d8d129edefc8759b9e6ab457b92",
+  "parts": [
+    {
+      "id": "ZA-TIB-L",
+      "sourceObject": "Tibial nerve.l",
+      "vertexCount": 1308,
+      "indexCount": 7776,
+      "arrays": {
+        "positions": "a6dac17f7957b20682280266406a9afc1ad9e21a690f410cdb3f863f27af4589",
+        "normals": "fe9b4c3f424e7a66abc0ed1ada5515bf9c8c2dce42ba788816b2d5862207979c",
+        "indices": "6c8a4a46d35b73bd9c739afa488f59a00f89cbd09fc2be9fddf1e61d84566b13"
+      }
+    },
+    {
+      "id": "ZA-TIB-R",
+      "sourceObject": "Tibial nerve.r",
+      "vertexCount": 1308,
+      "indexCount": 7776,
+      "arrays": {
+        "positions": "57716bd405d434822897f2471f7b6b1f7e6e86369bef2abaab7e6619cb1afe35",
+        "normals": "30cf768a478bad3667045e637ab4962897e0df4e6fadbbb03058efe1b7db13a1",
+        "indices": "e0d156d287cc6ac0fe6064188b89e66974b8bfe53ad89604185b6fe8288452fa"
+      }
+    },
+    {
+      "id": "ZA-CFIB-L",
+      "sourceObject": "Common fibular nerve.l",
+      "vertexCount": 1020,
+      "indexCount": 6048,
+      "arrays": {
+        "positions": "8fcdf2a966867185bed9e6fb65571144dc740067aa340e31301de0052751962d",
+        "normals": "c60b47c23e98d5273ef07230e097ac7314a6a0ad89f5d921fa9835327d1ed902",
+        "indices": "e7b2a6d619b0172053f924a4a8103b19ea569f0b0023afbd947da4b42841e527"
+      }
+    },
+    {
+      "id": "ZA-CFIB-R",
+      "sourceObject": "Common fibular nerve.r",
+      "vertexCount": 1020,
+      "indexCount": 6048,
+      "arrays": {
+        "positions": "d2c82a7c03599c6edd16d5498bbb7375efb9d4f0893776053385d4bd6050aeb8",
+        "normals": "3b9a5f85208b2f90b0694da738e97d9b299aa46bd03be5751586198cce19e67c",
+        "indices": "f484b74ae106f379adf0e387073e49679e3566974b3364c5a5a16f4954075af5"
+      }
+    },
+    {
+      "id": "ZA-SCI-L",
+      "sourceObject": "Sciatic nerve.l",
+      "vertexCount": 2484,
+      "indexCount": 14688,
+      "arrays": {
+        "positions": "78b6b1b8ea70b85f0420654cc535dea6fd94bec134661be199b750a6debfdb09",
+        "normals": "6f4e6a75b32e0675a321e37e32ca7fe23e13cc734a674fb99cd2ad7e6d575676",
+        "indices": "a75d0b4a23964f36496bacf477d57f715b8991e7294cd352588282a5a993c8f6"
+      }
+    },
+    {
+      "id": "ZA-SCI-R",
+      "sourceObject": "Sciatic nerve.r",
+      "vertexCount": 2484,
+      "indexCount": 14688,
+      "arrays": {
+        "positions": "efc72ec8b287a975fbe9cf8b09776b7b4390d875c1f696ead0cea95f242f7e5a",
+        "normals": "5282ae5bb7c990586c190f3b3a3d1e17bf7bac0128c2c672f351e85af6af934f",
+        "indices": "efb6dda4413de90b8f2aa380ad71f5960a1e2fcdb5d1c3334f5b0ff305a7a2c6"
+      }
+    },
+    {
+      "id": "ZA-DLN-TIBIA-L",
+      "sourceObject": "Tibia.l",
+      "vertexCount": 837,
+      "indexCount": 5010,
+      "arrays": {
+        "positions": "db05b39f17a8199e479e377a61cb01c7f4d8ce99c67e02413c41ce1226593cf0",
+        "normals": "b68704cb29b282e0cbbb2919960d7fe331949118297dd11996f96e980958a9d4",
+        "indices": "ab02cd6664083bba2265ae66f2dd245b82ee6c410f4e49c41f616a27a5d31cf8"
+      }
+    },
+    {
+      "id": "ZA-DLN-TIBIA-R",
+      "sourceObject": "Tibia.r",
+      "vertexCount": 837,
+      "indexCount": 5010,
+      "arrays": {
+        "positions": "2b397ae1165fe40a952acd599b301d63b698e6988a6a2e787a25155a401f7c7a",
+        "normals": "2aa75c25b4e17b7ed2cc5da541475a9cce81de30652783853a9e16c55d51e3f7",
+        "indices": "535145f85741faab343e979282cce7d18379c004296335dd4590abc1159b718f"
+      }
+    },
+    {
+      "id": "ZA-DLN-FIBULA-L",
+      "sourceObject": "Fibula.l",
+      "vertexCount": 653,
+      "indexCount": 3792,
+      "arrays": {
+        "positions": "21823bb20487c02d23df2b8ea094ce37f31aadb659a6788f4711e4b8df527179",
+        "normals": "f13a71200a80c36483f956bdaea0ec568ea0320295939c016f57be9e116e5772",
+        "indices": "527f4bbea7ae1df44daec56af758f1b506eca04aa6fcda837f5db1a277850538"
+      }
+    },
+    {
+      "id": "ZA-DLN-FIBULA-R",
+      "sourceObject": "Fibula.r",
+      "vertexCount": 653,
+      "indexCount": 3792,
+      "arrays": {
+        "positions": "92ab08a5ef6e22e4aec91c96d3bc98f8879724860926ed497c574a28c2cecf5e",
+        "normals": "2641dea3490c758eb14767ab79be9f2cc4ce5430bb7d7286dee986555069e753",
+        "indices": "2a0e7fc7e574b9b0752a78bbf793e1cca377401a152b0b42708233e6d957dd91"
+      }
+    },
+    {
+      "id": "ZA-DLN-PATELLA-L",
+      "sourceObject": "Patella.l",
+      "vertexCount": 140,
+      "indexCount": 828,
+      "arrays": {
+        "positions": "2ca50051c0c92b7f03759b37fc7a468d0ff0e499ecbe611e2a3971abb3fb8525",
+        "normals": "35ae96d0c53c0bf21b5ee4db796e8ff2454fe43523df8996e109b7849fe471eb",
+        "indices": "971860a59d68fb7baecc1f9b26e8cda948905e0d115a40c64735df0f1edac1ee"
+      }
+    },
+    {
+      "id": "ZA-DLN-PATELLA-R",
+      "sourceObject": "Patella.r",
+      "vertexCount": 140,
+      "indexCount": 828,
+      "arrays": {
+        "positions": "0cedae7e208526e6fe5a35a5dab464ba4296e4b5d3ad96eea9f9559f77bf60b4",
+        "normals": "758815c80c665b50ceb07819b247610edf45d62d6ddc384a07abf24e260a5bff",
+        "indices": "cdaff4ca8abf4a4f32610d3781dd45ab5311b8600f320c4ac1749c310aade5f4"
+      }
+    },
+    {
+      "id": "ZA-DLN-TALUS-L",
+      "sourceObject": "Talus.l",
+      "vertexCount": 677,
+      "indexCount": 4050,
+      "arrays": {
+        "positions": "eaaaa6657f7f52fb1f3c840986674352416d35451f71756c1bc47986de59f8c1",
+        "normals": "9dab448b313e16770079e1975d45c33bf04ce0c86804596aeff71fcc3bb7e6e3",
+        "indices": "568f8dc6711aeb68dd95875d98f791437c12f2e29b23087c5c37894ab60cf31e"
+      }
+    },
+    {
+      "id": "ZA-DLN-TALUS-R",
+      "sourceObject": "Talus.r",
+      "vertexCount": 677,
+      "indexCount": 4050,
+      "arrays": {
+        "positions": "2edf0a75776d56bab4ca101c51b7534aaa181a975184ee2e5406d903bed3b5f8",
+        "normals": "e4d9811058abbc14f867feb71db873da576c08e5cedd9a3e3ac03995feccee75",
+        "indices": "9fcd99c8266dd08a2e330d185bd280fd1644c8e3251ea9789a25d1c36674c21e"
+      }
+    },
+    {
+      "id": "ZA-DLN-CALCANEUS-L",
+      "sourceObject": "Calcaneus.l",
+      "vertexCount": 726,
+      "indexCount": 4344,
+      "arrays": {
+        "positions": "a5cacf7bceb5bfb5bb59eb01f844891e78aedd046afb79cbf84689919feffeba",
+        "normals": "cafef396103135d68a0d6d0d520445572c6a0501ea3098edff4251412346dc7a",
+        "indices": "170355ed2cfc1c7d0c02603ea9979c9bb97be3d803a4f3ab9888b01003b7f6ed"
+      }
+    },
+    {
+      "id": "ZA-DLN-CALCANEUS-R",
+      "sourceObject": "Calcaneus.r",
+      "vertexCount": 726,
+      "indexCount": 4344,
+      "arrays": {
+        "positions": "05b754f23a8e7b458dcc4633d35befdbfa0f1f48c42930cf3f876e0d2fba7f99",
+        "normals": "0a864977e3c5bfc6f67cda9721455763fcc4f9b8cd0eb9bc9e040c5f480d0226",
+        "indices": "aaeb17fd3c8898ec244933d8b1f504379a0e1bce38cebea0fe73a5951e8dc1eb"
+      }
+    },
+    {
+      "id": "ZA-LLR-FEMUR-L",
+      "sourceObject": "Femur.l",
+      "vertexCount": 1899,
+      "indexCount": 11382,
+      "arrays": {
+        "positions": "d382b03299cf4a7492bc5778ba683bac6db4f716435aa1b83ad55eec9bbae757",
+        "normals": "d81684312b4ffd2d175076cd390e6efeedb84876faa9f8a0ba5c7a087bd443a7",
+        "indices": "5ecfe3d829f0ed9e7d6bd3e5695c0864493b93f1e5006848f98023d8d00c14b4"
+      }
+    },
+    {
+      "id": "ZA-LLR-FEMUR-R",
+      "sourceObject": "Femur.r",
+      "vertexCount": 1899,
+      "indexCount": 11382,
+      "arrays": {
+        "positions": "ae8acfde99b3a9a4a0db4302c9e0c1a129f0848d7c001d4dc8e1fe21600d8835",
+        "normals": "cb30c43c3a60318bd85d433882ef0b2599d10e7df471a3631997572f38dbec3a",
+        "indices": "1a20a3c6acab2b40a2fd019d4b7546e12a235c7c9a3665accd9112fdbe970843"
+      }
+    },
+    {
+      "id": "ZA-LLR-HIP-L",
+      "sourceObject": "Hip bone.l",
+      "vertexCount": 1894,
+      "indexCount": 11364,
+      "arrays": {
+        "positions": "09ddcd5b88ea5a4320caee123b58b393b4b24ef9758e23b49b12e73f1eae4270",
+        "normals": "09c983f02fb7e2d715a8df0bdcaedc5ce9303c9de9922d8d41d0193bb70d5c95",
+        "indices": "05ad69ae92d45fb2e0a7b67633604d8c2a6ffdc3131e63785ea43a73a8743be4"
+      }
+    },
+    {
+      "id": "ZA-LLR-HIP-R",
+      "sourceObject": "Hip bone.r",
+      "vertexCount": 1894,
+      "indexCount": 11364,
+      "arrays": {
+        "positions": "8a76f4d4a22dbc22b2de4e7b40fdff1ec950bfb261273c60a09f313a3565b9f7",
+        "normals": "116ae923cf7128f21ec3f9ff25f630c78ec2704851d59fe32682cbb08fc10e03",
+        "indices": "b6941231a8db4c75b4dfaffc4a56590fc4fdfbf5f751e39c2eef3cccdafd382d"
+      }
+    },
+    {
+      "id": "ZA-LLR-SACRUM",
+      "sourceObject": "Sacrum",
+      "vertexCount": 5832,
+      "indexCount": 35028,
+      "arrays": {
+        "positions": "da3457f450cf2ea01bb2be70f7de33a499d7fc5405e666b5619e6faee4698474",
+        "normals": "c8553767a1cda99f27e455b9dd968bf83ae516e1c1b0efcb45d60ceaea1648e7",
+        "indices": "a82bead44a7981dacd5b253874c4b469ea7a0dc3308a711b66d2281424d11a5b"
+      }
+    }
+  ]
+}

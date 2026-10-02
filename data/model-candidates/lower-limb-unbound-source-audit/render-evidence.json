@@ -1,0 +1,70 @@
+{
+  "views": [
+    {
+      "file": "left-leg-anterior.png",
+      "center": [
+        0.09000000357627869,
+        0.2800000011920929,
+        0.029999999329447746
+      ],
+      "direction": [
+        0.15,
+        0.04,
+        1
+      ],
+      "orthoScaleMeters": 0.61,
+      "side": "left",
+      "roles": [
+        "bone",
+        "nerve",
+        "artery",
+        "ligament"
+      ],
+      "meaning": "Evaluated source candidates in shared rotated frame, with previously packaged same-source lower-leg context and freshly inspected foot context."
+    },
+    {
+      "file": "left-foot-plantar.png",
+      "center": [
+        0.08500000089406967,
+        0.04500000178813934,
+        0.09000000357627869
+      ],
+      "direction": [
+        0.08,
+        -1,
+        0.25
+      ],
+      "orthoScaleMeters": 0.31,
+      "side": "left",
+      "roles": [
+        "bone",
+        "nerve"
+      ],
+      "meaning": "Evaluated source candidates in shared rotated frame, with previously packaged same-source lower-leg context and freshly inspected foot context."
+    },
+    {
+      "file": "left-ankle-lateral-ligaments.png",
+      "center": [
+        0.09000000357627869,
+        0.10499999672174454,
+        0.0
+      ],
+      "direction": [
+        1,
+        0.03,
+        0.12
+      ],
+      "orthoScaleMeters": 0.18,
+      "side": "left",
+      "roles": [
+        "bone",
+        "ligament"
+      ],
+      "meaning": "Evaluated source candidates in shared rotated frame, with previously packaged same-source lower-leg context and freshly inspected foot context."
+    }
+  ],
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "reusedContextManifestSha256": "2230e2d1b3d92d0dafed463c5c3038580bbff5dc765448a7c2e44820d4913c22",
+  "renderEngine": "Cycles, 16 samples; evaluated viewport geometry snapshots, not render-level reevaluation",
+  "visualReview": "pending-human-or-agent-image-inspection"
+}

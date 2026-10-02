@@ -1,0 +1,3992 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceObjects": 7184,
+  "sourceDate": "2026-10-02T08:49:40.633403+00:00",
+  "tokens": [
+    "fibular",
+    "peroneal",
+    "peroneus",
+    "sural",
+    "plantar",
+    "talofibular",
+    "calcaneofibular",
+    "talofibulare",
+    "calcaneofibulare"
+  ],
+  "textReadErrors": [
+    "Anterior basal segment of left lung (SVIII).t",
+    "Anterior basal segment of right lung (SVIII).t",
+    "Anterior border of pancreas.t",
+    "Anterior border of testis.t",
+    "Anterior lateral segment of liver (VI).t",
+    "Anterior medial segment of liver (V).t",
+    "Anterior segment of left lung (SIII).t",
+    "Anterior segment of right lung (SIII).t",
+    "Anterior surface of kidney.t",
+    "Anterior surface of liver.t",
+    "Anterior surface of suprarenal gland.t",
+    "Antero-inferior surface of pancreas.t",
+    "Anterosuperior surface of pancreas.t",
+    "Apical segment of right lung (SI).t",
+    "Apicoposterior segment of left lung (SI+SII).t",
+    "Cardiac impression of liver.t",
+    "Diaphragmatic surface of liver.t",
+    "Diaphragmatic surface of lung.t",
+    "Fissure for ligamentum teres.t",
+    "Fissure for ligamentum venosum.t",
+    "Greater curvature of stomach.t",
+    "Horizontal fissure of right lung.t",
+    "Inferior lingular segment of left lung (SV).t",
+    "Lateral basal segment of left lung (SIX).t",
+    "Lateral basal segment of right lung (SIX).t",
+    "Lateral segment of right lung (SIV).t",
+    "Left anterior lateral segment of liver (III).t",
+    "Left lateral division of liver.t",
+    "Left medial division of liver.t",
+    "Left medial segment of liver (IV).t",
+    "Left posterior lateral segment of liver (II).t",
+    "Lesser curvature of stomach.t",
+    "Medial basal segment of left lung (SVII).t",
+    "Medial basal segment of right lung (SVII).t",
+    "Medial border of suprarenal gland.t",
+    "Medial segment of right lung (SV).t",
+    "Oblique fissure of right lung.t",
+    "Oesophageal impression of liver.t",
+    "Omental eminence of pancreas.t",
+    "Omental tuberosity of liver.t",
+    "Posterior medial segment of liver (VIII).t",
+    "Posterior surface of cornea.t",
+    "Pars intermedia of hypophysis.t",
+    "Pars nervosa of hypophysis.t",
+    "Pars tubelaris of hypophysis.t",
+    "Posterior basal segment of left lung (SX).t",
+    "Posterior basal segment of right lung (SX).t",
+    "Posterior segment of liver (I).t",
+    "Posterior segment of right lung (SII).t",
+    "Posterior surface of pancreas.t",
+    "Posterior surface of suprarenal gland.t",
+    "Posterior wall of stomach.t",
+    "Renal impression of liver.t",
+    "Renal surface of suprarenal gland.t",
+    "Right lateral division of liver.t",
+    "Right medial division of liver.t",
+    "Superior border of pancreas.t",
+    "Superior border of suprarenal gland.t",
+    "Superior lingular segment of left lung (SIV).t",
+    "Superior segment of left lung (SVI).t",
+    "Superior segment of right lung (SVI).t",
+    "Suprarenal impression of liver.t",
+    "Uncinate process of pancreas.t",
+    "Visceral surface of liver.t"
+  ],
+  "targetSeedSha256": "fbad56a41f808e7ed04f9d6f38994d48db944db5d187073e5bc3be6749233af2",
+  "targets": [
+    {
+      "id": "lower-limb-v1:ta2:6579:left",
+      "side": "left",
+      "term": "Deep fibular nerve",
+      "ta2": 6579
+    },
+    {
+      "id": "lower-limb-v1:ta2:6579:right",
+      "side": "right",
+      "term": "Deep fibular nerve",
+      "ta2": 6579
+    },
+    {
+      "id": "lower-limb-v1:ta2:6574:left",
+      "side": "left",
+      "term": "Superficial fibular nerve",
+      "ta2": 6574
+    },
+    {
+      "id": "lower-limb-v1:ta2:6574:right",
+      "side": "right",
+      "term": "Superficial fibular nerve",
+      "ta2": 6574
+    },
+    {
+      "id": "lower-limb-v1:ta2:6586:left",
+      "side": "left",
+      "term": "Sural nerve",
+      "ta2": 6586
+    },
+    {
+      "id": "lower-limb-v1:ta2:6586:right",
+      "side": "right",
+      "term": "Sural nerve",
+      "ta2": 6586
+    },
+    {
+      "id": "lower-limb-v1:ta2:6590:left",
+      "side": "left",
+      "term": "Medial plantar nerve",
+      "ta2": 6590
+    },
+    {
+      "id": "lower-limb-v1:ta2:6590:right",
+      "side": "right",
+      "term": "Medial plantar nerve",
+      "ta2": 6590
+    },
+    {
+      "id": "lower-limb-v1:ta2:6593:left",
+      "side": "left",
+      "term": "Lateral plantar nerve",
+      "ta2": 6593
+    },
+    {
+      "id": "lower-limb-v1:ta2:6593:right",
+      "side": "right",
+      "term": "Lateral plantar nerve",
+      "ta2": 6593
+    },
+    {
+      "id": "lower-limb-v1:ta2:4727:left",
+      "side": "left",
+      "term": "Fibular artery",
+      "ta2": 4727
+    },
+    {
+      "id": "lower-limb-v1:ta2:4727:right",
+      "side": "right",
+      "term": "Fibular artery",
+      "ta2": 4727
+    },
+    {
+      "id": "lower-limb-v1:ta2:1919:left",
+      "side": "left",
+      "term": "Anterior talofibular ligament",
+      "ta2": 1919
+    },
+    {
+      "id": "lower-limb-v1:ta2:1919:right",
+      "side": "right",
+      "term": "Anterior talofibular ligament",
+      "ta2": 1919
+    },
+    {
+      "id": "lower-limb-v1:ta2:1920:left",
+      "side": "left",
+      "term": "Posterior talofibular ligament",
+      "ta2": 1920
+    },
+    {
+      "id": "lower-limb-v1:ta2:1920:right",
+      "side": "right",
+      "term": "Posterior talofibular ligament",
+      "ta2": 1920
+    },
+    {
+      "id": "lower-limb-v1:ta2:1921:left",
+      "side": "left",
+      "term": "Calcaneofibular ligament",
+      "ta2": 1921
+    },
+    {
+      "id": "lower-limb-v1:ta2:1921:right",
+      "side": "right",
+      "term": "Calcaneofibular ligament",
+      "ta2": 1921
+    }
+  ],
+  "matchingObjects": [
+    {
+      "name": "(Fibular node).l",
+      "dataBlock": "(Fibular node)",
+      "text": null,
+      "collections": [
+        "6: Lymphoid organs",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 86,
+      "basePolygons": 96
+    },
+    {
+      "name": "(Fibular node).r",
+      "dataBlock": "(Fibular node)",
+      "text": null,
+      "collections": [
+        "6: Lymphoid organs",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 86,
+      "basePolygons": 96
+    },
+    {
+      "name": "Abductor digiti minimi of foot.l",
+      "dataBlock": "Abductor digiti minimi of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 640,
+      "basePolygons": 1280
+    },
+    {
+      "name": "Abductor digiti minimi of foot.r",
+      "dataBlock": "Abductor digiti minimi of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 640,
+      "basePolygons": 1280
+    },
+    {
+      "name": "Abductor hallucis.l",
+      "dataBlock": "Abductor hallucis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 844,
+      "basePolygons": 1688
+    },
+    {
+      "name": "Abductor hallucis.r",
+      "dataBlock": "Abductor hallucis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 844,
+      "basePolygons": 1688
+    },
+    {
+      "name": "Anterior ligament of fibular head.l",
+      "dataBlock": "Anterior ligament of fibular head",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left lower limb",
+        "Superior tibiofibular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 4
+    },
+    {
+      "name": "Anterior ligament of fibular head.r",
+      "dataBlock": "Anterior ligament of fibular head",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right lower limb",
+        "Superior tibiofibular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 4
+    },
+    {
+      "name": "Anterior talofibular ligament.l",
+      "dataBlock": "Anterior talofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Lateral collateral ligament",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Anterior talofibular ligament.r",
+      "dataBlock": "Anterior talofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Lateral collateral ligament",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Anterior tibiofibular ligament.l",
+      "dataBlock": "Anterior tibiofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Tibiofibular syndesmosis"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 20,
+      "basePolygons": 12
+    },
+    {
+      "name": "Anterior tibiofibular ligament.r",
+      "dataBlock": "Anterior tibiofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Tibiofibular syndesmosis"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 20,
+      "basePolygons": 12
+    },
+    {
+      "name": "Articular capsule of superior tibiofibular joint.l",
+      "dataBlock": "Articular capsule of superior tibiofibular joint",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left lower limb",
+        "Superior tibiofibular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 42,
+      "basePolygons": 28
+    },
+    {
+      "name": "Articular capsule of superior tibiofibular joint.r",
+      "dataBlock": "Articular capsule of superior tibiofibular joint",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right lower limb",
+        "Superior tibiofibular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 42,
+      "basePolygons": 28
+    },
+    {
+      "name": "Calcaneal branches of fibular artery.l",
+      "dataBlock": "Calcaneal branches of fibular artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Calcaneal branches of fibular artery.r",
+      "dataBlock": "Calcaneal branches of fibular artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Calcaneofibular ligament.l",
+      "dataBlock": "Calcaneofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Lateral collateral ligament",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Calcaneofibular ligament.r",
+      "dataBlock": "Calcaneofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Lateral collateral ligament",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Commissural fibres of telencephalon.g",
+      "dataBlock": "Commissural fibres of telencephalon.g",
+      "text": "COMMISSURAL FIBRES OF TELENCEPHALON",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Central nervous system",
+        "Cerebrum",
+        "Commissural fibres of telencephalon",
+        "Head",
+        "Telencephalon"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Commissural fibres of telencephalon.j",
+      "dataBlock": "Commissural fibres of telencephalon.j",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Commissural fibres of telencephalon",
+        "Head"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Common fibular nerve.l",
+      "dataBlock": "Common fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common fibular nerve.r",
+      "dataBlock": "Common fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common plantar digital arteries.l",
+      "dataBlock": "Common plantar digital arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common plantar digital arteries.r",
+      "dataBlock": "Common plantar digital arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common plantar digital branches of lateral plantar nerve.l",
+      "dataBlock": "Common plantar digital branches of lateral plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common plantar digital branches of lateral plantar nerve.r",
+      "dataBlock": "Common plantar digital branches of lateral plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common plantar digital branches of medial plantar nerve.l",
+      "dataBlock": "Common plantar digital branches of medial plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Common tendon sheath of fibularis muscles.l",
+      "dataBlock": "Common tendon sheath of fibularis muscles",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Tendon sheaths"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 194,
+      "basePolygons": 192
+    },
+    {
+      "name": "Common tendon sheath of fibularis muscles.r",
+      "dataBlock": "Common tendon sheath of fibularis muscles",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Right lower limb",
+        "Tendon sheaths"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 194,
+      "basePolygons": 192
+    },
+    {
+      "name": "Deep fibular nerve.l",
+      "dataBlock": "Deep fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Deep fibular nerve.r",
+      "dataBlock": "Deep fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Deep plantar artery.l",
+      "dataBlock": "Deep plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Deep plantar artery.r",
+      "dataBlock": "Deep plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Dorsal digital branches of deep fibular nerve.l",
+      "dataBlock": "Dorsal digital branches of deep fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Dorsal digital branches of deep fibular nerve.r",
+      "dataBlock": "Dorsal digital branches of deep fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Dorsal digital branches of superficial fibular nerve.l",
+      "dataBlock": "Dorsal digital branches of superficial fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Dorsal digital branches of superficial fibular nerve.r",
+      "dataBlock": "Dorsal digital branches of superficial fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Dorsal interossei muscles of foot.l",
+      "dataBlock": "Dorsal interossei muscles of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 975,
+      "basePolygons": 1946
+    },
+    {
+      "name": "Dorsal interossei muscles of foot.r",
+      "dataBlock": "Dorsal interossei muscles of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 975,
+      "basePolygons": 1946
+    },
+    {
+      "name": "Extensor digitorum brevis.l",
+      "dataBlock": "Extensor digitorum brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1596,
+      "basePolygons": 3184
+    },
+    {
+      "name": "Extensor digitorum brevis.r",
+      "dataBlock": "Extensor digitorum brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1596,
+      "basePolygons": 3184
+    },
+    {
+      "name": "Extensor digitorum longus.l",
+      "dataBlock": "Extensor digitorum longus",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1597,
+      "basePolygons": 3176
+    },
+    {
+      "name": "Extensor digitorum longus.r",
+      "dataBlock": "Extensor digitorum longus",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1597,
+      "basePolygons": 3176
+    },
+    {
+      "name": "Extensor hallucis brevis.l",
+      "dataBlock": "Extensor hallucis brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 561,
+      "basePolygons": 1118
+    },
+    {
+      "name": "Extensor hallucis brevis.r",
+      "dataBlock": "Extensor hallucis brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 561,
+      "basePolygons": 1118
+    },
+    {
+      "name": "Extensor hallucis longus.l",
+      "dataBlock": "Extensor hallucis longus",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1183,
+      "basePolygons": 2362
+    },
+    {
+      "name": "Extensor hallucis longus.r",
+      "dataBlock": "Extensor hallucis longus",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1183,
+      "basePolygons": 2362
+    },
+    {
+      "name": "Facet for plantar calcaneonavicular ligament.i",
+      "dataBlock": "Facet for plantar calcaneonavicular ligament.j",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Head of talus",
+        "Left lower limb",
+        "Right foot"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Facet for plantar calcaneonavicular ligament.j",
+      "dataBlock": "Facet for plantar calcaneonavicular ligament.j",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Head of talus",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Facet for plantar calcaneonavicular ligament.s",
+      "dataBlock": "Facet for plantar calcaneonavicular ligament.t",
+      "text": "FACET FOR PLANTAR CALCANEONAVICULAR LIGAMENT",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Head of talus",
+        "Left lower limb",
+        "Right foot"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Facet for plantar calcaneonavicular ligament.t",
+      "dataBlock": "Facet for plantar calcaneonavicular ligament.t",
+      "text": "FACET FOR PLANTAR CALCANEONAVICULAR LIGAMENT",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Head of talus",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular",
+      "dataBlock": "Fibular",
+      "text": null,
+      "collections": [
+        "General terms",
+        "Orientations",
+        "Reference lines, reference planes, movements"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 23,
+      "basePolygons": 21
+    },
+    {
+      "name": "Fibular artery.l",
+      "dataBlock": "Fibular artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular artery.r",
+      "dataBlock": "Fibular artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular articular facet.i",
+      "dataBlock": "Fibular articular facet.j",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Fibular articular facet.j",
+      "dataBlock": "Fibular articular facet.j",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Fibular articular facet.s",
+      "dataBlock": "Fibular articular facet.t",
+      "text": "FIBULAR ARTICULAR FACET",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular articular facet.t",
+      "dataBlock": "Fibular articular facet.t",
+      "text": "FIBULAR ARTICULAR FACET",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular collateral ligament.l",
+      "dataBlock": "Fibular collateral ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Knee joint",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 8,
+      "basePolygons": 3
+    },
+    {
+      "name": "Fibular collateral ligament.r",
+      "dataBlock": "Fibular collateral ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Knee joint",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 8,
+      "basePolygons": 3
+    },
+    {
+      "name": "Fibular notch.i",
+      "dataBlock": "Fibular notch.j",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Fibular notch.j",
+      "dataBlock": "Fibular notch.j",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Fibular notch.s",
+      "dataBlock": "Fibular notch.t",
+      "text": "FIBULAR NOTCH",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular notch.t",
+      "dataBlock": "Fibular notch.t",
+      "text": "FIBULAR NOTCH",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular tarsal tendon sheaths.g",
+      "dataBlock": "Fibular tarsal tendon sheaths.g",
+      "text": "FIBULAR TARSAL TENDON SHEATHS",
+      "collections": [
+        "4: Muscular system",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular tarsal tendon sheaths.j",
+      "dataBlock": "Fibular tarsal tendon sheaths.j",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Fibular veins.l",
+      "dataBlock": "Fibular veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibular veins.r",
+      "dataBlock": "Fibular veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Fibularis brevis muscle.el",
+      "dataBlock": "Fibularis brevis muscle.e",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 37,
+      "basePolygons": 42
+    },
+    {
+      "name": "Fibularis brevis muscle.er",
+      "dataBlock": "Fibularis brevis muscle.e",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 37,
+      "basePolygons": 42
+    },
+    {
+      "name": "Fibularis brevis muscle.l",
+      "dataBlock": "Fibularis brevis muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral compartment of leg",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 1723,
+      "basePolygons": 3446
+    },
+    {
+      "name": "Fibularis brevis muscle.ol",
+      "dataBlock": "Fibularis brevis muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 41,
+      "basePolygons": 56
+    },
+    {
+      "name": "Fibularis brevis muscle.or",
+      "dataBlock": "Fibularis brevis muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 41,
+      "basePolygons": 56
+    },
+    {
+      "name": "Fibularis brevis muscle.r",
+      "dataBlock": "Fibularis brevis muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral compartment of leg",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 1723,
+      "basePolygons": 3446
+    },
+    {
+      "name": "Fibularis longus muscle.l",
+      "dataBlock": "Fibularis longus muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral compartment of leg",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve",
+        "Superficial muscles"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2739,
+      "basePolygons": 5522
+    },
+    {
+      "name": "Fibularis longus muscle.ol",
+      "dataBlock": "Fibularis longus muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 78,
+      "basePolygons": 91
+    },
+    {
+      "name": "Fibularis longus muscle.or",
+      "dataBlock": "Fibularis longus muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 78,
+      "basePolygons": 91
+    },
+    {
+      "name": "Fibularis longus muscle.r",
+      "dataBlock": "Fibularis longus muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral compartment of leg",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve",
+        "Superficial muscles"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2739,
+      "basePolygons": 5522
+    },
+    {
+      "name": "Fibularis tertius muscle.el",
+      "dataBlock": "Fibularis tertius muscle.e",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 21,
+      "basePolygons": 24
+    },
+    {
+      "name": "Fibularis tertius muscle.er",
+      "dataBlock": "Fibularis tertius muscle.e",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 21,
+      "basePolygons": 24
+    },
+    {
+      "name": "Fibularis tertius muscle.l",
+      "dataBlock": "Fibularis tertius muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 294,
+      "basePolygons": 586
+    },
+    {
+      "name": "Fibularis tertius muscle.ol",
+      "dataBlock": "Fibularis tertius muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 6
+    },
+    {
+      "name": "Fibularis tertius muscle.or",
+      "dataBlock": "Fibularis tertius muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 6
+    },
+    {
+      "name": "Fibularis tertius muscle.r",
+      "dataBlock": "Fibularis tertius muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 294,
+      "basePolygons": 586
+    },
+    {
+      "name": "Flexor digiti minimi of foot.l",
+      "dataBlock": "Flexor digiti minimi of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 230,
+      "basePolygons": 464
+    },
+    {
+      "name": "Flexor digiti minimi of foot.r",
+      "dataBlock": "Flexor digiti minimi of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 230,
+      "basePolygons": 464
+    },
+    {
+      "name": "Groove for tendon of fibularis longus muscle of cuboid bone.i",
+      "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone-lin",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Cuboid bone",
+        "Left lower limb",
+        "Right foot"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Groove for tendon of fibularis longus muscle of cuboid bone.j",
+      "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone-lin",
+      "text": null,
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Cuboid bone",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Groove for tendon of fibularis longus muscle of cuboid bone.s",
+      "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone.t",
+      "text": "GROOVE FOR TENDON OF FIBULARIS LONGUS MUSCLE OF CUBOID BONE",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Cuboid bone",
+        "Left lower limb",
+        "Right foot"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Groove for tendon of fibularis longus muscle of cuboid bone.t",
+      "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone.t",
+      "text": "GROOVE FOR TENDON OF FIBULARIS LONGUS MUSCLE OF CUBOID BONE",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection",
+        "Cuboid bone",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Hippocampal commissure",
+      "dataBlock": "Hippocampal commissure",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Central nervous system",
+        "Cerebrum",
+        "Commissural fibres of telencephalon",
+        "Head",
+        "Telencephalon"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 5110,
+      "basePolygons": 10213
+    },
+    {
+      "name": "Inferior fibular retinaculum.l",
+      "dataBlock": "Inferior fibular retinaculum",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 32,
+      "basePolygons": 35
+    },
+    {
+      "name": "Inferior fibular retinaculum.r",
+      "dataBlock": "Inferior fibular retinaculum",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 32,
+      "basePolygons": 35
+    },
+    {
+      "name": "Intermediate dorsal cutaneous nerve of foot.l",
+      "dataBlock": "Intermediate dorsal cutaneous nerve of foot",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "collection-only",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Intermediate dorsal cutaneous nerve of foot.r",
+      "dataBlock": "Intermediate dorsal cutaneous nerve of foot",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "collection-only",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Lateral head of flexor hallucis brevis.l",
+      "dataBlock": "Lateral head of flexor hallucis brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 481,
+      "basePolygons": 966
+    },
+    {
+      "name": "Lateral head of flexor hallucis brevis.r",
+      "dataBlock": "Lateral head of flexor hallucis brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 481,
+      "basePolygons": 966
+    },
+    {
+      "name": "Lateral plantar artery.l",
+      "dataBlock": "Lateral plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Lateral plantar artery.r",
+      "dataBlock": "Lateral plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Lateral plantar nerve.l",
+      "dataBlock": "Lateral plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Lateral plantar nerve.r",
+      "dataBlock": "Lateral plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Lateral plantar veins.l",
+      "dataBlock": "Lateral plantar veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Lateral plantar veins.r",
+      "dataBlock": "Lateral plantar veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Long head of biceps femoris.l",
+      "dataBlock": "Long head of biceps femoris",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Common fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Posterior compartment of thigh",
+        "Sciatic nerve",
+        "Superficial muscles",
+        "Tibial nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 3623,
+      "basePolygons": 7258
+    },
+    {
+      "name": "Long head of biceps femoris.r",
+      "dataBlock": "Long head of biceps femoris",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Common fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Posterior compartment of thigh",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial muscles",
+        "Tibial nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 3623,
+      "basePolygons": 7258
+    },
+    {
+      "name": "Long plantar ligament.l",
+      "dataBlock": "Long plantar ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Transverse tarsal joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 1741,
+      "basePolygons": 3486
+    },
+    {
+      "name": "Long plantar ligament.o1l",
+      "dataBlock": "Long plantar ligament.o1",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 31,
+      "basePolygons": 37
+    },
+    {
+      "name": "Long plantar ligament.o1r",
+      "dataBlock": "Long plantar ligament.o1",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 31,
+      "basePolygons": 37
+    },
+    {
+      "name": "Long plantar ligament.o2l",
+      "dataBlock": "Long plantar ligament.o2",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 23,
+      "basePolygons": 26
+    },
+    {
+      "name": "Long plantar ligament.o2r",
+      "dataBlock": "Long plantar ligament.o2",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 23,
+      "basePolygons": 26
+    },
+    {
+      "name": "Long plantar ligament.o3l",
+      "dataBlock": "Long plantar ligament.o3",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 8
+    },
+    {
+      "name": "Long plantar ligament.o3r",
+      "dataBlock": "Long plantar ligament.o3",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 8
+    },
+    {
+      "name": "Long plantar ligament.o4l",
+      "dataBlock": "Long plantar ligament.o4",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 22,
+      "basePolygons": 12
+    },
+    {
+      "name": "Long plantar ligament.o4r",
+      "dataBlock": "Long plantar ligament.o4",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 22,
+      "basePolygons": 12
+    },
+    {
+      "name": "Long plantar ligament.ol",
+      "dataBlock": "Long plantar ligament.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 42,
+      "basePolygons": 45
+    },
+    {
+      "name": "Long plantar ligament.or",
+      "dataBlock": "Long plantar ligament.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 42,
+      "basePolygons": 45
+    },
+    {
+      "name": "Long plantar ligament.r",
+      "dataBlock": "Long plantar ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Transverse tarsal joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 1741,
+      "basePolygons": 3486
+    },
+    {
+      "name": "Lumbrical muscles of foot.l",
+      "dataBlock": "Lumbrical muscles of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 207,
+      "basePolygons": 418
+    },
+    {
+      "name": "Lumbrical muscles of foot.r",
+      "dataBlock": "Lumbrical muscles of foot",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 207,
+      "basePolygons": 418
+    },
+    {
+      "name": "Medial dorsal cutaneous nerve of foot.l",
+      "dataBlock": "Medial dorsal cutaneous nerve of foot",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "collection-only",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial dorsal cutaneous nerve of foot.r",
+      "dataBlock": "Medial dorsal cutaneous nerve of foot",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "collection-only",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial head of flexor hallucis brevis.l",
+      "dataBlock": "Medial head of flexor hallucis brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 259,
+      "basePolygons": 514
+    },
+    {
+      "name": "Medial head of flexor hallucis brevis.r",
+      "dataBlock": "Medial head of flexor hallucis brevis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Medial plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 259,
+      "basePolygons": 514
+    },
+    {
+      "name": "Medial plantar artery.l",
+      "dataBlock": "Medial plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial plantar artery.r",
+      "dataBlock": "Medial plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial plantar nerve.l",
+      "dataBlock": "Medial plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial plantar nerve.r",
+      "dataBlock": "Medial plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial plantar veins.l",
+      "dataBlock": "Medial plantar veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial plantar veins.r",
+      "dataBlock": "Medial plantar veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial sural cutaneous nerve.l",
+      "dataBlock": "Medial sural cutaneous nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Medial sural cutaneous nerve.r",
+      "dataBlock": "Medial sural cutaneous nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Muscular branches of deep fibular nerve.l",
+      "dataBlock": "Muscular branches of deep fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Muscular branches of deep fibular nerve.r",
+      "dataBlock": "Muscular branches of deep fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Oblique head of adductor hallucis.l",
+      "dataBlock": "Oblique head of adductor hallucis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve",
+        "Ulnar nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 454,
+      "basePolygons": 904
+    },
+    {
+      "name": "Oblique head of adductor hallucis.r",
+      "dataBlock": "Oblique head of adductor hallucis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Ulnar nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 454,
+      "basePolygons": 904
+    },
+    {
+      "name": "Perforating branches of plantar metatarsal arteries.l",
+      "dataBlock": "Perforating branches of plantar metatarsal arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Perforating branches of plantar metatarsal arteries.r",
+      "dataBlock": "Perforating branches of plantar metatarsal arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar aponeurosis.l",
+      "dataBlock": "Plantar aponeurosis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Superficial muscles"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 240,
+      "basePolygons": 211
+    },
+    {
+      "name": "Plantar aponeurosis.r",
+      "dataBlock": "Plantar aponeurosis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Superficial muscles"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 240,
+      "basePolygons": 211
+    },
+    {
+      "name": "Plantar arch.l",
+      "dataBlock": "Plantar arch",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar arch.r",
+      "dataBlock": "Plantar arch",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar calcaneocuboid ligament.l",
+      "dataBlock": "Plantar calcaneocuboid ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Calcaneocuboid joint",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 12,
+      "basePolygons": 6
+    },
+    {
+      "name": "Plantar calcaneocuboid ligament.r",
+      "dataBlock": "Plantar calcaneocuboid ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Calcaneocuboid joint",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 12,
+      "basePolygons": 6
+    },
+    {
+      "name": "Plantar cuneocuboid ligament.l",
+      "dataBlock": "Plantar cuneocuboid ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Cuneocuboid joint",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 9,
+      "basePolygons": 4
+    },
+    {
+      "name": "Plantar cuneocuboid ligament.r",
+      "dataBlock": "Plantar cuneocuboid ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Cuneocuboid joint",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 9,
+      "basePolygons": 4
+    },
+    {
+      "name": "Plantar cuneonavicular ligaments.l",
+      "dataBlock": "Plantar cuneonavicular ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Cuneonavicular joint",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 16,
+      "basePolygons": 5
+    },
+    {
+      "name": "Plantar cuneonavicular ligaments.r",
+      "dataBlock": "Plantar cuneonavicular ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Cuneonavicular joint",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 16,
+      "basePolygons": 5
+    },
+    {
+      "name": "Plantar digital veins.l",
+      "dataBlock": "Plantar digital veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar digital veins.r",
+      "dataBlock": "Plantar digital veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar flexion",
+      "dataBlock": "Plantar flexion",
+      "text": null,
+      "collections": [
+        "Movements",
+        "Reference lines, reference planes, movements"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 15,
+      "basePolygons": 13
+    },
+    {
+      "name": "Plantar intercuneiform ligaments.l",
+      "dataBlock": "Plantar intercuneiform ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Intercuneiform joints",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 8,
+      "basePolygons": 2
+    },
+    {
+      "name": "Plantar intercuneiform ligaments.r",
+      "dataBlock": "Plantar intercuneiform ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Intercuneiform joints",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 8,
+      "basePolygons": 2
+    },
+    {
+      "name": "Plantar interossei muscles.e1l",
+      "dataBlock": "Plantar interossei muscles.e1",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 17,
+      "basePolygons": 18
+    },
+    {
+      "name": "Plantar interossei muscles.l",
+      "dataBlock": "Plantar interossei muscles",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 627,
+      "basePolygons": 1242
+    },
+    {
+      "name": "Plantar interossei muscles.r",
+      "dataBlock": "Plantar interossei muscles",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 627,
+      "basePolygons": 1242
+    },
+    {
+      "name": "Plantar interphalangeal ligaments.l",
+      "dataBlock": "Plantar interphalangeal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Interphalangeal joints of foot",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 137,
+      "basePolygons": 74
+    },
+    {
+      "name": "Plantar interphalangeal ligaments.r",
+      "dataBlock": "Plantar interphalangeal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Interphalangeal joints of foot",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 137,
+      "basePolygons": 74
+    },
+    {
+      "name": "Plantar metatarsal ligaments.l",
+      "dataBlock": "Plantar metatarsal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Intermetatarsal joints",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 16,
+      "basePolygons": 4
+    },
+    {
+      "name": "Plantar metatarsal ligaments.r",
+      "dataBlock": "Plantar metatarsal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Intermetatarsal joints",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 16,
+      "basePolygons": 4
+    },
+    {
+      "name": "Plantar metatarsophalangeal ligaments.l",
+      "dataBlock": "Plantar metatarsophalangeal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Metatarsophalangeal joints"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 75,
+      "basePolygons": 40
+    },
+    {
+      "name": "Plantar metatarsophalangeal ligaments.r",
+      "dataBlock": "Plantar metatarsophalangeal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Metatarsophalangeal joints",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 75,
+      "basePolygons": 40
+    },
+    {
+      "name": "Plantar surfaces of digits of foot.l",
+      "dataBlock": "Plantar surfaces of digits of foot",
+      "text": null,
+      "collections": [
+        "9: Regions of human body",
+        "Left lower limb",
+        "Region of digits of foot"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 508,
+      "basePolygons": 441
+    },
+    {
+      "name": "Plantar surfaces of digits of foot.r",
+      "dataBlock": "Plantar surfaces of digits of foot",
+      "text": null,
+      "collections": [
+        "9: Regions of human body",
+        "Region of digits of foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 508,
+      "basePolygons": 441
+    },
+    {
+      "name": "Plantar tarsometatarsal ligaments.l",
+      "dataBlock": "Plantar tarsometatarsal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Tarsometatarsal joints"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 30,
+      "basePolygons": 10
+    },
+    {
+      "name": "Plantar tarsometatarsal ligaments.r",
+      "dataBlock": "Plantar tarsometatarsal ligaments",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Tarsometatarsal joints"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 30,
+      "basePolygons": 10
+    },
+    {
+      "name": "Plantar tendon sheath of fibularis longus muscle.l",
+      "dataBlock": "Plantar tendon sheath of fibularis longus muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Tendon sheaths"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 82,
+      "basePolygons": 80
+    },
+    {
+      "name": "Plantar tendon sheath of fibularis longus muscle.r",
+      "dataBlock": "Plantar tendon sheath of fibularis longus muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Right lower limb",
+        "Tendon sheaths"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 82,
+      "basePolygons": 80
+    },
+    {
+      "name": "Plantar venous arch.l",
+      "dataBlock": "Plantar venous arch",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar venous arch.r",
+      "dataBlock": "Plantar venous arch",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantaris muscle.l",
+      "dataBlock": "Plantaris muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Posterior compartment of leg",
+        "Sciatic nerve",
+        "Tibial nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2351,
+      "basePolygons": 4698
+    },
+    {
+      "name": "Plantaris muscle.ol",
+      "dataBlock": "Plantaris muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 33,
+      "basePolygons": 38
+    },
+    {
+      "name": "Plantaris muscle.or",
+      "dataBlock": "Plantaris muscle.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 33,
+      "basePolygons": 38
+    },
+    {
+      "name": "Plantaris muscle.r",
+      "dataBlock": "Plantaris muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Posterior compartment of leg",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Tibial nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2351,
+      "basePolygons": 4698
+    },
+    {
+      "name": "Popliteofibular ligament.l",
+      "dataBlock": "Popliteofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Knee joint",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 24,
+      "basePolygons": 11
+    },
+    {
+      "name": "Popliteofibular ligament.r",
+      "dataBlock": "Popliteofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Knee joint",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 24,
+      "basePolygons": 11
+    },
+    {
+      "name": "Posterior ligament of fibular head.l",
+      "dataBlock": "Posterior ligament of fibular head",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left lower limb",
+        "Superior tibiofibular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 15,
+      "basePolygons": 8
+    },
+    {
+      "name": "Posterior ligament of fibular head.r",
+      "dataBlock": "Posterior ligament of fibular head",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right lower limb",
+        "Superior tibiofibular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 15,
+      "basePolygons": 8
+    },
+    {
+      "name": "Posterior talofibular ligament.l",
+      "dataBlock": "Posterior talofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Lateral collateral ligament",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Posterior talofibular ligament.r",
+      "dataBlock": "Posterior talofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Lateral collateral ligament",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Posterior tibiofibular ligament.l",
+      "dataBlock": "Posterior tibiofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Tibiofibular syndesmosis"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 20,
+      "basePolygons": 12
+    },
+    {
+      "name": "Posterior tibiofibular ligament.r",
+      "dataBlock": "Posterior tibiofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Tibiofibular syndesmosis"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 20,
+      "basePolygons": 12
+    },
+    {
+      "name": "Proper plantar digital branches of lateral plantar nerve.l",
+      "dataBlock": "Proper plantar digital branches of lateral plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Proper plantar digital branches of lateral plantar nerve.r",
+      "dataBlock": "Proper plantar digital branches of lateral plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Proper plantar digital branches of medial plantar nerve.l",
+      "dataBlock": "Proper plantar digital branches of medial plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Proper plantar digital branches of medial plantar nerve.r",
+      "dataBlock": "Proper plantar digital branches of medial plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Quadratus plantae muscle.l",
+      "dataBlock": "Quadratus plantae muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 590,
+      "basePolygons": 1176
+    },
+    {
+      "name": "Quadratus plantae muscle.r",
+      "dataBlock": "Quadratus plantae muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 590,
+      "basePolygons": 1176
+    },
+    {
+      "name": "Common plantar digital branches of medial plantar nerve",
+      "dataBlock": "Common plantar digital branches of medial plantar nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Short head of biceps femoris.l",
+      "dataBlock": "Short head of biceps femoris",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Common fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Posterior compartment of thigh",
+        "Sciatic nerve",
+        "Tibial nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1238,
+      "basePolygons": 2476
+    },
+    {
+      "name": "Short head of biceps femoris.r",
+      "dataBlock": "Short head of biceps femoris",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Common fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Posterior compartment of thigh",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Tibial nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1238,
+      "basePolygons": 2476
+    },
+    {
+      "name": "Plantar",
+      "dataBlock": "Plantar",
+      "text": null,
+      "collections": [
+        "General terms",
+        "Orientations",
+        "Reference lines, reference planes, movements"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 23,
+      "basePolygons": 21
+    },
+    {
+      "name": "Plantar calcaneonavicular ligament.l",
+      "dataBlock": "Plantar calcaneonavicular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Talocalcaneonavicular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Plantar calcaneonavicular ligament.r",
+      "dataBlock": "Plantar calcaneonavicular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Talocalcaneonavicular joint"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Plantar cuboideonavicular ligament.l",
+      "dataBlock": "Plantar cuboideonavicular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Cuboidonavicular joint",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Plantar cuboideonavicular ligament.r",
+      "dataBlock": "Plantar cuboideonavicular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Cuboidonavicular joint",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 4,
+      "basePolygons": 1
+    },
+    {
+      "name": "Plantar interossei muscles.e2l",
+      "dataBlock": "Plantar interossei muscles.e2",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 16,
+      "basePolygons": 15
+    },
+    {
+      "name": "Plantar interossei muscles.el",
+      "dataBlock": "Plantar interossei muscles.e",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 15,
+      "basePolygons": 15
+    },
+    {
+      "name": "Plantar interossei muscles.o1l",
+      "dataBlock": "Plantar interossei muscles.o1",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 26,
+      "basePolygons": 27
+    },
+    {
+      "name": "Plantar interossei muscles.o2l",
+      "dataBlock": "Plantar interossei muscles.o2",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 34,
+      "basePolygons": 42
+    },
+    {
+      "name": "Plantar interossei muscles.ol",
+      "dataBlock": "Plantar interossei muscles.o",
+      "text": null,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 24,
+      "basePolygons": 25
+    },
+    {
+      "name": "Plantar metatarsal arteries.l",
+      "dataBlock": "Plantar metatarsal arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar metatarsal arteries.r",
+      "dataBlock": "Plantar metatarsal arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar metatarsal veins.l",
+      "dataBlock": "Plantar metatarsal veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Plantar metatarsal veins.r",
+      "dataBlock": "Plantar metatarsal veins",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic veins"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Proper plantar digital arteries.l",
+      "dataBlock": "Proper plantar digital arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Proper plantar digital arteries.r",
+      "dataBlock": "Proper plantar digital arteries",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Superficial branch of medial plantar artery.l",
+      "dataBlock": "Superficial branch of medial plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Left foot",
+        "Left lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Superficial branch of medial plantar artery.r",
+      "dataBlock": "Superficial branch of medial plantar artery",
+      "text": null,
+      "collections": [
+        "5: Cardiovascular system",
+        "Right foot",
+        "Right lower limb",
+        "Systemic arteries"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Superficial fibular nerve.l",
+      "dataBlock": "Superficial fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Superficial fibular nerve.r",
+      "dataBlock": "Superficial fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Superior fibular retinaculum.l",
+      "dataBlock": "Superior fibular retinaculum",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 164,
+      "basePolygons": 138
+    },
+    {
+      "name": "Superior fibular retinaculum.r",
+      "dataBlock": "Superior fibular retinaculum",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 164,
+      "basePolygons": 138
+    },
+    {
+      "name": "Superior tibiofibular joint.g",
+      "dataBlock": "Superior tibiofibular joint.g",
+      "text": "SUPERIOR TIBIOFIBULAR JOINT",
+      "collections": [
+        "3: Joints"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Superior tibiofibular joint.j",
+      "dataBlock": "Superior tibiofibular joint.j",
+      "text": null,
+      "collections": [
+        "3: Joints"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Sural communicating branch of common fibular nerve.l",
+      "dataBlock": "Sural communicating branch of common fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Sural communicating branch of common fibular nerve.r",
+      "dataBlock": "Sural communicating branch of common fibular nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Sural nerve.l",
+      "dataBlock": "Sural nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Sural nerve.r",
+      "dataBlock": "Sural nerve",
+      "text": null,
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "type": "CURVE",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Tendon of extensor digitorum longus.l",
+      "dataBlock": "Tendon of extensor digitorum longus",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 2640,
+      "basePolygons": 5184
+    },
+    {
+      "name": "Tendon of extensor digitorum longus.r",
+      "dataBlock": "Tendon of extensor digitorum longus",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 2640,
+      "basePolygons": 5184
+    },
+    {
+      "name": "Tibialis anterior muscle.l",
+      "dataBlock": "Tibialis anterior muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Sciatic nerve",
+        "Superficial muscles"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1761,
+      "basePolygons": 3526
+    },
+    {
+      "name": "Tibialis anterior muscle.r",
+      "dataBlock": "Tibialis anterior muscle",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Anterior compartment of leg",
+        "Deep fibular nerve",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial muscles"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 1761,
+      "basePolygons": 3526
+    },
+    {
+      "name": "Tibiofibular syndesmosis.g",
+      "dataBlock": "Tibiofibular syndesmosis.g",
+      "text": "TIBIOFIBULAR SYNDESMOSIS",
+      "collections": [
+        "3: Joints"
+      ],
+      "type": "FONT",
+      "matchKind": "object-data-text",
+      "baseVertices": null,
+      "basePolygons": null
+    },
+    {
+      "name": "Tibiofibular syndesmosis.j",
+      "dataBlock": "Tibiofibular syndesmosis.j",
+      "text": null,
+      "collections": [
+        "3: Joints"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 2,
+      "basePolygons": 0
+    },
+    {
+      "name": "Transverse head of adductor hallucis.l",
+      "dataBlock": "Transverse head of adductor hallucis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Sciatic nerve",
+        "Ulnar nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 181,
+      "basePolygons": 366
+    },
+    {
+      "name": "Transverse head of adductor hallucis.r",
+      "dataBlock": "Transverse head of adductor hallucis",
+      "text": null,
+      "collections": [
+        "4: Muscular system",
+        "Lateral plantar nerve",
+        "Muscles",
+        "Muscles of foot",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Ulnar nerve"
+      ],
+      "type": "MESH",
+      "matchKind": "collection-only",
+      "baseVertices": 181,
+      "basePolygons": 366
+    },
+    {
+      "name": "Transverse tibiofibular ligament.l",
+      "dataBlock": "Transverse tibiofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Tibiofibular syndesmosis"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 4
+    },
+    {
+      "name": "Transverse tibiofibular ligament.r",
+      "dataBlock": "Transverse tibiofibular ligament",
+      "text": null,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Tibiofibular syndesmosis"
+      ],
+      "type": "MESH",
+      "matchKind": "object-data-text",
+      "baseVertices": 10,
+      "basePolygons": 4
+    }
+  ],
+  "matchingCollections": [
+    {
+      "name": "Commissural fibres of telencephalon",
+      "objects": [
+        "Hippocampal commissure",
+        "Commissural fibres of telencephalon.g",
+        "Commissural fibres of telencephalon.j",
+        "Corpus callosum",
+        "Anterior commissure"
+      ]
+    },
+    {
+      "name": "Common fibular nerve",
+      "objects": [
+        "Long head of biceps femoris.r",
+        "Short head of biceps femoris.r",
+        "Long head of biceps femoris.l",
+        "Short head of biceps femoris.l",
+        "Common fibular nerve.r",
+        "Common fibular nerve.l",
+        "Dorsal digital branches of superficial fibular nerve.r",
+        "Superficial fibular nerve.r",
+        "Medial dorsal cutaneous nerve of foot.r",
+        "Intermediate dorsal cutaneous nerve of foot.r",
+        "Dorsal digital branches of superficial fibular nerve.l",
+        "Superficial fibular nerve.l",
+        "Medial dorsal cutaneous nerve of foot.l",
+        "Intermediate dorsal cutaneous nerve of foot.l",
+        "Fibularis longus muscle.r",
+        "Fibularis brevis muscle.r",
+        "Fibularis longus muscle.l",
+        "Fibularis brevis muscle.l",
+        "Dorsal digital branches of deep fibular nerve.r",
+        "Muscular branches of deep fibular nerve.r",
+        "Deep fibular nerve.r",
+        "Dorsal digital branches of deep fibular nerve.l",
+        "Muscular branches of deep fibular nerve.l",
+        "Deep fibular nerve.l",
+        "Extensor digitorum longus.r",
+        "Extensor digitorum longus.l",
+        "Tibialis anterior muscle.r",
+        "Extensor hallucis longus.r",
+        "Tibialis anterior muscle.l",
+        "Extensor hallucis longus.l",
+        "Tendon of extensor digitorum longus.r",
+        "Tendon of extensor digitorum longus.l",
+        "Fibularis tertius muscle.r",
+        "Fibularis tertius muscle.l",
+        "Extensor digitorum brevis.r",
+        "Extensor hallucis brevis.r",
+        "Extensor digitorum brevis.l",
+        "Extensor hallucis brevis.l"
+      ]
+    },
+    {
+      "name": "Common plantar digital arteries'",
+      "objects": []
+    },
+    {
+      "name": "Common plantar digital branches of lateral plantar nerve",
+      "objects": []
+    },
+    {
+      "name": "Common plantar digital branches of medial plantar nerve",
+      "objects": []
+    },
+    {
+      "name": "Deep fibular nerve",
+      "objects": [
+        "Dorsal digital branches of deep fibular nerve.r",
+        "Muscular branches of deep fibular nerve.r",
+        "Deep fibular nerve.r",
+        "Dorsal digital branches of deep fibular nerve.l",
+        "Muscular branches of deep fibular nerve.l",
+        "Deep fibular nerve.l",
+        "Extensor digitorum longus.r",
+        "Extensor digitorum longus.l",
+        "Tibialis anterior muscle.r",
+        "Extensor hallucis longus.r",
+        "Tibialis anterior muscle.l",
+        "Extensor hallucis longus.l",
+        "Tendon of extensor digitorum longus.r",
+        "Tendon of extensor digitorum longus.l",
+        "Fibularis tertius muscle.r",
+        "Fibularis tertius muscle.l",
+        "Extensor digitorum brevis.r",
+        "Extensor hallucis brevis.r",
+        "Extensor digitorum brevis.l",
+        "Extensor hallucis brevis.l"
+      ]
+    },
+    {
+      "name": "Fibular artery'",
+      "objects": []
+    },
+    {
+      "name": "Fibular tarsal tendon sheaths",
+      "objects": []
+    },
+    {
+      "name": "Insertions of fibularis brevis muscle",
+      "objects": []
+    },
+    {
+      "name": "Insertions of fibularis tertius muscle",
+      "objects": []
+    },
+    {
+      "name": "Insertions of long plantar ligament",
+      "objects": []
+    },
+    {
+      "name": "Insertions of plantar interossei muscle",
+      "objects": []
+    },
+    {
+      "name": "Lateral malleolar branch of fibular artery'",
+      "objects": []
+    },
+    {
+      "name": "Lateral plantar artery'",
+      "objects": []
+    },
+    {
+      "name": "Lateral plantar nerve",
+      "objects": [
+        "Oblique head of adductor hallucis.r",
+        "Transverse head of adductor hallucis.r",
+        "Oblique head of adductor hallucis.l",
+        "Transverse head of adductor hallucis.l",
+        "Flexor digiti minimi of foot.r",
+        "Flexor digiti minimi of foot.l",
+        "Common plantar digital branches of lateral plantar nerve.r",
+        "Lateral plantar nerve.r",
+        "Common plantar digital branches of lateral plantar nerve.l",
+        "Lateral plantar nerve.l",
+        "Proper plantar digital branches of lateral plantar nerve.r",
+        "Proper plantar digital branches of lateral plantar nerve.l",
+        "Dorsal interossei muscles of foot.r",
+        "Lumbrical muscles of foot.r",
+        "Plantar interossei muscles.r",
+        "Dorsal interossei muscles of foot.l",
+        "Lumbrical muscles of foot.l",
+        "Plantar interossei muscles.l",
+        "Quadratus plantae muscle.r",
+        "Quadratus plantae muscle.l",
+        "Abductor digiti minimi of foot.r",
+        "Abductor digiti minimi of foot.l"
+      ]
+    },
+    {
+      "name": "Lateral plantar veins'",
+      "objects": []
+    },
+    {
+      "name": "Medial plantar artery'",
+      "objects": []
+    },
+    {
+      "name": "Medial plantar nerve",
+      "objects": [
+        "Medial head of flexor hallucis brevis.r",
+        "Lateral head of flexor hallucis brevis.r",
+        "Medial head of flexor hallucis brevis.l",
+        "Lateral head of flexor hallucis brevis.l",
+        "Abductor hallucis.r",
+        "Abductor hallucis.l",
+        "Proper plantar digital branches of medial plantar nerve.r",
+        "Medial plantar nerve.r",
+        "Proper plantar digital branches of medial plantar nerve.l",
+        "Medial plantar nerve.l",
+        "Common plantar digital branches of medial plantar nerve",
+        "Common plantar digital branches of medial plantar nerve.l",
+        "Lumbrical muscles of foot.r",
+        "Lumbrical muscles of foot.l"
+      ]
+    },
+    {
+      "name": "Medial sural cutaneous nerve",
+      "objects": []
+    },
+    {
+      "name": "Plantar aponeurosis",
+      "objects": []
+    },
+    {
+      "name": "Plantar arch'",
+      "objects": []
+    },
+    {
+      "name": "Plantar metatarsal arteries'",
+      "objects": []
+    },
+    {
+      "name": "Plantar venous arch'",
+      "objects": []
+    },
+    {
+      "name": "Superficial branch of lateral plantar nerve",
+      "objects": []
+    },
+    {
+      "name": "Superficial fibular nerve",
+      "objects": [
+        "Dorsal digital branches of superficial fibular nerve.r",
+        "Superficial fibular nerve.r",
+        "Medial dorsal cutaneous nerve of foot.r",
+        "Intermediate dorsal cutaneous nerve of foot.r",
+        "Dorsal digital branches of superficial fibular nerve.l",
+        "Superficial fibular nerve.l",
+        "Medial dorsal cutaneous nerve of foot.l",
+        "Intermediate dorsal cutaneous nerve of foot.l",
+        "Fibularis longus muscle.r",
+        "Fibularis brevis muscle.r",
+        "Fibularis longus muscle.l",
+        "Fibularis brevis muscle.l"
+      ]
+    },
+    {
+      "name": "Superior tibiofibular joint",
+      "objects": [
+        "Anterior ligament of fibular head.r",
+        "Posterior ligament of fibular head.r",
+        "Articular capsule of superior tibiofibular joint.r",
+        "Anterior ligament of fibular head.l",
+        "Posterior ligament of fibular head.l",
+        "Articular capsule of superior tibiofibular joint.l"
+      ]
+    },
+    {
+      "name": "Sural nerve",
+      "objects": []
+    },
+    {
+      "name": "Tibiofibular syndesmosis",
+      "objects": [
+        "Anterior tibiofibular ligament.r",
+        "Posterior tibiofibular ligament.r",
+        "Transverse tibiofibular ligament.r",
+        "Anterior tibiofibular ligament.l",
+        "Posterior tibiofibular ligament.l",
+        "Transverse tibiofibular ligament.l"
+      ]
+    }
+  ],
+  "measuredInspectionSeconds": 7.48809308300406
+}

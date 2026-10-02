@@ -32,11 +32,11 @@ SEEDS = [
  ('Patella','skeletal-support','D1',['FMA24487','FMA24486'],['left patella','right patella'],['zanatomy:patella-l','zanatomy:patella-r']),
  ('Talus','skeletal-support','D1',['FMA24483','FMA24482'],['left talus','right talus'],['zanatomy:talus-l','zanatomy:talus-r']),
  ('Calcaneus','skeletal-support','D1',['FMA24498','FMA24497'],['left calcaneus','right calcaneus'],['zanatomy:calcaneus-l','zanatomy:calcaneus-r']),
- ('Navicular bone','skeletal-support','D1',['FMA24501','FMA24500'],['navicular bone of left foot','navicular bone of right foot'],None),
- ('Cuboid bone','skeletal-support','D1',['FMA24529','FMA24528'],['left cuboid bone','right cuboid bone'],None),
- ('Medial cuneiform bone','skeletal-support','D1',['FMA24522','FMA24521'],['left medial cuneiform bone','right medial cuneiform bone'],None),
- ('Intermediate cuneiform bone','skeletal-support','D1',['FMA24524','FMA24523'],['left intermediate cuneiform bone','right intermediate cuneiform bone'],None),
- ('Lateral cuneiform bone','skeletal-support','D1',['FMA24526','FMA24525'],['left lateral cuneiform bone','right lateral cuneiform bone'],None),
+ ('Navicular bone','skeletal-support','D1',['FMA24501','FMA24500'],['navicular bone of left foot','navicular bone of right foot'],['zanatomy:navicular-bone-l','zanatomy:navicular-bone-r']),
+ ('Cuboid bone','skeletal-support','D1',['FMA24529','FMA24528'],['left cuboid bone','right cuboid bone'],['zanatomy:cuboid-bone-l','zanatomy:cuboid-bone-r']),
+ ('Medial cuneiform bone','skeletal-support','D1',['FMA24522','FMA24521'],['left medial cuneiform bone','right medial cuneiform bone'],['zanatomy:medial-cuneiform-bone-l','zanatomy:medial-cuneiform-bone-r']),
+ ('Intermediate cuneiform bone','skeletal-support','D1',['FMA24524','FMA24523'],['left intermediate cuneiform bone','right intermediate cuneiform bone'],['zanatomy:intermediate-cuneiform-bone-l','zanatomy:intermediate-cuneiform-bone-r']),
+ ('Lateral cuneiform bone','skeletal-support','D1',['FMA24526','FMA24525'],['left lateral cuneiform bone','right lateral cuneiform bone'],['zanatomy:lateral-cuneiform-bone-l','zanatomy:lateral-cuneiform-bone-r']),
  ('Tibialis anterior muscle','muscle-tendon-fascia','D1',['FMA22545','FMA22544'],['left tibialis anterior','right tibialis anterior'],None),
  ('Extensor digitorum longus','muscle-tendon-fascia','D1',['FMA22549','FMA22548'],['left extensor digitorum longus','right extensor digitorum longus'],None),
  ('Extensor hallucis longus','muscle-tendon-fascia','D1',['FMA22547','FMA22546'],['left extensor hallucis longus','right extensor hallucis longus'],None),
@@ -48,18 +48,18 @@ SEEDS = [
  ('Soleus muscle','muscle-tendon-fascia','D1',['FMA22559','FMA22558'],['left soleus','right soleus'],None),
  ('Tibial nerve','neurovascular-lymph','D1',None,None,['atlas:left-tibial-nerve','atlas:right-tibial-nerve']),
  ('Common fibular nerve','neurovascular-lymph','D1',None,None,['atlas:left-common-fibular-nerve','atlas:right-common-fibular-nerve']),
- ('Deep fibular nerve','neurovascular-lymph','D2',None,None,None),
- ('Superficial fibular nerve','neurovascular-lymph','D2',None,None,None),
- ('Sural nerve','neurovascular-lymph','D1',None,None,None),
- ('Medial plantar nerve','neurovascular-lymph','D2',None,None,None),
- ('Lateral plantar nerve','neurovascular-lymph','D2',None,None,None),
+ ('Deep fibular nerve','neurovascular-lymph','D2',None,None,['atlas:left-deep-fibular-nerve','atlas:right-deep-fibular-nerve']),
+ ('Superficial fibular nerve','neurovascular-lymph','D2',None,None,['atlas:left-superficial-fibular-nerve','atlas:right-superficial-fibular-nerve']),
+ ('Sural nerve','neurovascular-lymph','D1',None,None,['atlas:left-sural-nerve','atlas:right-sural-nerve']),
+ ('Medial plantar nerve','neurovascular-lymph','D2',None,None,['atlas:left-medial-plantar-nerve','atlas:right-medial-plantar-nerve']),
+ ('Lateral plantar nerve','neurovascular-lymph','D2',None,None,['atlas:left-lateral-plantar-nerve','atlas:right-lateral-plantar-nerve']),
  ('Anterior tibial artery','neurovascular-lymph','D1',['FMA43897','FMA43896'],['left anterior tibial artery','right anterior tibial artery'],None),
  ('Posterior tibial artery','neurovascular-lymph','D1',['FMA43899','FMA43898'],['left posterior tibial artery','right posterior tibial artery'],None),
- ('Fibular artery','neurovascular-lymph','D1',None,None,None),
+ ('Fibular artery','neurovascular-lymph','D1',None,None,['atlas:left-fibular-artery','atlas:right-fibular-artery']),
  ('Popliteal artery','neurovascular-lymph','D1',['FMA77381','FMA77380'],['left popliteal artery','right popliteal artery'],None),
- ('Anterior talofibular ligament','skeletal-support','D2',None,None,None),
- ('Posterior talofibular ligament','skeletal-support','D2',None,None,None),
- ('Calcaneofibular ligament','skeletal-support','D2',None,None,None),
+ ('Anterior talofibular ligament','skeletal-support','D2',None,None,['atlas:left-anterior-talofibular-ligament','atlas:right-anterior-talofibular-ligament']),
+ ('Posterior talofibular ligament','skeletal-support','D2',None,None,['atlas:left-posterior-talofibular-ligament','atlas:right-posterior-talofibular-ligament']),
+ ('Calcaneofibular ligament','skeletal-support','D2',None,None,['atlas:left-calcaneofibular-ligament','atlas:right-calcaneofibular-ligament']),
 ]
 targets = []
 for term, family, detail, ids, source_names, ref_ids in SEEDS:
@@ -136,9 +136,9 @@ for i,(term,_,detail,_,_,_) in enumerate(SEEDS):
     pair=targets[2*i:2*i+2]
     doc+=f"| {term} | {pair[0]['terminology']['ta2TableId']} | {detail} | {len(pair[0]['representations'])} / {len(pair[1]['representations'])} |\n"
 doc+='''
-Tibia/fibula/patella/talus/calcaneus iki ayrı gövdeye ait temsillerle kayıtlıdır; geometrileri birleştirilmez. Tibial/ortak fibular sinirler ayrı alt ekstremite referansındadır. Yeni referansın ana gövdeye distal kaydı kabul edilmemiştir. Arter kavramlarının birden çok parça içermesi açıkça listelenir; dal kapsamı ayrıca denetlenecek.
+On kemik hedefi iki ayrı gövdeye ait temsillerle kayıtlıdır; geometrileri birleştirilmez. Sinirler, fibular arter ve üç ayak bileği bağı ayrı alt ekstremite referansındadır. Bu referansın ana gövdeye distal kaydı kabul edilmemiştir. Ana gövdenin anterior/posterior tibial arter kavramlarının birden çok parça içermesi açıkça listelenir; dal kapsamı ayrıca denetlenecek. Referansın metatars/parmak kemikleri kaynak bağlamı olarak vardır; tek tek gereksinim ve ayrıntı hedeflerine açılması henüz bu listede yapılmamıştır.
 
-Ayak parmak/metatars kemikleri, iç kaslar, gastrocnemius başları, tendon/fasya/retinakulum, tam eklem desteği, ven/lenf, ince sinir dalları ve D3 hedefleri açılmaya devam edecek. Sıfır uzman kabulü vardır; kayıtlar hiçbir kapsam hücresini kapatmaz. Sonraki somut iş: bağlanmamış distal sinir ve ayak bileği bağ hedeflerini kaynak alt nesneleriyle denetlemek.
+Ayak parmak/metatars kemiklerinin gereksinimleri, iç kaslar, gastrocnemius başları, tendon/fasya/retinakulum, tam eklem desteği, ven/lenf, ince sinir dalları ve D3 hedefleri açılmaya devam edecek. Sıfır uzman kabulü vardır; kayıtlar hiçbir kapsam hücresini kapatmaz. Sonraki somut iş: ayak kemiklerini dijit/segment/ayrıntı hedeflerine açmak ve model üzerinden kaynaklı ilişki/bağlam kabulünü tamamlamak.
 
 Doğrulama: 66 benzersiz hedef, 33 kesin TA2 terim/satır çifti, elle seçilmiş mevcut kaynak kavramlarının tam ad karşılıkları ve tüm gözlenen parça bağlarının kendi manifestinde çözülmesi. Bu kontrol geometri/görsel/uzman kabulü değildir.
 '''

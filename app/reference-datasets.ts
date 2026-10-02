@@ -34,17 +34,15 @@ export const REFERENCE_DATASETS = {
     placeholder: "Koklea, vestibül, temporal…",
   },
   "lower-limb-nerve-reference": {
-    title: "Alt ekstremite sinir referansı",
+    title: "Alt ekstremite referansı",
     heading: "Alt Ekstremite Atlası",
     identity: "Alt ekstremite · Z-Anatomy",
     sex: "male",
     manifest: "/models/lower-limb-nerve-reference/atlas.json",
-    scope:
-      "İki taraflı siyatik, tibial ve ortak fibular sinirler; aynı kaynaktan kemik bağlamı. Tam sinir ağı değildir; uzman incelemesi bekliyor.",
-    description:
-      "Sinirlerin konumunu incelemek için aynı kaynak modelden alınan kemik bağlamı. Bu ayrı referans ana vücut modeliyle birleştirilmez.",
+    scope: "Sinirlerin kısmi seyri, fibular arterler, seçilmiş ayak bileği bağları ve aynı kaynaktan kemik bağlamı. Tam sinir veya damar ağı değildir; uzman incelemesi bekliyor.",
+    description: lowerLimb.descriptionTr,
     sourceName: "Z-Anatomy · alt ekstremite referansı",
-    placeholder: "Tibial, fibular, siyatik…",
+    placeholder: "Plantar sinir, ayak bileği bağı, metatars…",
   },
 } as const;
 
@@ -52,8 +50,22 @@ export function referenceDataset(dataset?: DatasetId) {
   return dataset && dataset !== "male-body" ? REFERENCE_DATASETS[dataset] : undefined;
 }
 export function referenceDescription(dataset: DatasetId, conceptId?: string): string | undefined {
-  if (dataset === "lower-limb-nerve-reference" && conceptId?.startsWith("atlas:"))
-    return "Kaynakta ayrı adlandırılmış sinir eğrisinin kapsamı. Ayrı distal dallar ve kök kimlikleri bu pakette yoktur; tam alt ekstremite sinir ağı değildir. Siyatik dal bağlantıları kaynakla desteklenir; anatomik uzman incelemesi bekliyor.";
+  if (dataset === "lower-limb-nerve-reference") {
+    const entry = lowerLimb.labels.find((label) => label.ids.includes(conceptId ?? ""));
+    const scope = entry?.componentRole === "nerve"
+      ? "Adlandırılmış sinirin kaynakta çizilmiş kısmi seyrini gösterir. İnce dallar, kökler ve tam innervasyon kapsamı bu modelden çıkarılamaz; anatomik uzman incelemesi bekliyor."
+      : entry?.componentRole === "artery"
+        ? "Fibular arterin kaynakta çizilmiş kısmi seyrini gösterir. Tam damar ağı ve besleme alanı bu modelden çıkarılamaz; anatomik uzman incelemesi bekliyor."
+        : entry?.componentRole === "ligament"
+          ? "Kaynakta ayrı adlandırılmış bağ yüzeyidir. Ayak bileğinin bütün bağları, eklem kapsülü ve tutunma bölgeleri bu seçimle karşılanmaz; anatomik uzman incelemesi bekliyor."
+          : entry?.componentRole === "bone_context"
+            ? "Aynı kaynak modelden alınmış ayrı kemik yüzeyidir. Eklem ayrıntıları ve bağ tutunmaları ayrıca incelenmelidir; anatomik uzman incelemesi bekliyor."
+            : undefined;
+    const note = entry?.la === null
+      ? "Dijite özgü Latince ad henüz doğrulanmadı; Latince modunda İngilizce gösterim adı korunur."
+      : undefined;
+    return [note, scope || lowerLimb.descriptionTr].filter(Boolean).join(" ");
+  }
   if (dataset === "inner-ear-reference" && conceptId?.endsWith("-cochlea"))
     return "Kokleanın dış biçimini gösteren kaynak yüzeyi. İç bölmeler, zarlar ve duyu hücreleri ayrı modellenmemiştir.";
   if (dataset === "inner-ear-reference" && conceptId?.endsWith("-temporal-bone"))
@@ -117,7 +129,7 @@ export function datasetLabel(
   if (dataset === "inner-ear-reference") return innerEarLabels[id]?.[language] ?? name;
   if (dataset === "lower-limb-nerve-reference") {
     const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
-    const term = entry?.[language] ?? name;
+    const term = entry?.[language] ?? entry?.en ?? name;
     if (entry?.side !== "left" && entry?.side !== "right") return term;
     if (language === "la") return `${term} (${entry.side === "left" ? "L" : "R"})`;
     return `${language === "tr" ? entry.side === "left" ? "Sol" : "Sağ" : entry.side === "left" ? "Left" : "Right"} ${term}`;

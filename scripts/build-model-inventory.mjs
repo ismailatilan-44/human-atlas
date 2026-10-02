@@ -157,7 +157,7 @@ for (const row of catalog.values()) {
       const label = lowerLimb.labels.find((l) => l.ids.includes(row.conceptId));
       const proximal = ['zanatomy:femur-l','zanatomy:femur-r','zanatomy:patella-l','zanatomy:patella-r','atlas:left-sciatic-nerve','atlas:right-sciatic-nerve'].includes(row.conceptId);
       const pelvic = ['zanatomy:hip-bone-l','zanatomy:hip-bone-r','zanatomy:sacrum'].includes(row.conceptId);
-      if (label) classify(row, pelvic ? 7 : proximal ? 10 : 11, label.componentRole === 'nerve' ? 2 : 0,
+      if (label) classify(row, pelvic ? 7 : proximal ? 10 : 11, ['nerve','artery'].includes(label.componentRole) ? 2 : 0,
         { manifest: row.sourceMemberships[0]?.manifest, metadata: 'data/anatomy/lower-limb-reference.json', conceptId: row.conceptId, scope: 'Explicit reference work queue; not full anatomical extent.' });
     } else if (systems.length === 1 && ['skeletal','reproductive','sensory'].includes(systems[0])) classify(row, row.datasetId === 'female-pelvis' ? 7 : 2, systems[0] === 'skeletal' ? 0 : 3, { manifest: row.sourceMemberships[0]?.manifest, manifestSystem: systems[0] });
   }

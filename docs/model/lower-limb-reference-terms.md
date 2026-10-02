@@ -1,3 +1,37 @@
+# Alt ekstremite referansı — 87 nesneli metadata genişlemesi
+
+2 Ekim 2026; başlangıç kaynak revision'ı `e879fc92e1bfa6226898d12cdca2863e365858e0`. Aşağıdaki 21 nesneli ilk teslim kaydı tarihî kanıt olarak korunmuştur. Güncel [metadata](../../data/anatomy/lower-limb-reference.json) **87 etiket / 12 ilişki** içerir: 16 adlandırılmış sinir nesnesi, iki fibular arter nesnesi, altı ayak bileği bağ nesnesi ve 63 kemik bağlamı. İlk 21 etiket ve dört ilişki aynı alan/değerlerle korunmuştur; 66 yeni nesne kaydı eklenmiştir. Bu sayılar tam alt ekstremite ağı, bağımsız spline/dal sayısı veya anatomik bölge kabulü değildir.
+
+## Yeni adlar ve Latin kapsamı
+
+Bütün 87 nesnenin Türkçe ve İngilizce adı, kaynak nesne adı ve dataset/side alanı vardır. Kaynak `finger of foot` kimlikleri değiştirilmez; İngilizce görünüm `toe` kullanır. Parmak/metatars numarası `digit`, numaranın sistemi `digitSystem`, falanks düzeyi `phalanxPosition` alanında tutulur. Taraf, numara ve bağlam rolü birbirine karıştırılmaz. Türkçe karşılıklar editoryaldir, uzman incelemesi bekliyor.
+
+**53 kayıtta** sayısal kimlikli sabit upstream TA2 satırına uyan Latince görünüm etiketi vardır. **34 kayıtta** özel Latince görünüm alanı `null` kalır: bilateral 14 ayak falanksı (28) ve bilateral ikinci–dördüncü metatarslar (6). Kaynak bunları `1510*1`, `1511*2`, `1512*1`, `1496*2` gibi yıldızlı genişletme kimlikleriyle verir; bu satırlar resmî bağımsız parmak TA2 kimliği sayılmaz. Örneğin dördüncü metatars satırında `Os quatum metatarsi` yazılıdır. Bu metin `sourceTableRow` altında kaynağın kendi yazımı olarak korunur; doğrulanmış görünüm terimi diye sunulmaz ve sessizce düzeltilmez.
+
+Bu 34 kayıtta genel terim ayrı `genericTerm` alanındadır: metatarsal bone TA2 1496 / `Os metatarsi` (CSV 1571); proximal phalanx of foot TA2 1510 / `Phalanx proximalis pedis` (1588); middle phalanx of foot TA2 1511 / `Phalanx media pedis` (1594); distal phalanx of foot TA2 1512 / `Phalanx distalis pedis` (1599). Genel terim, parmağa özgü doğrulanmış Latince etiket yerine otomatik geçirilmemelidir. `latinUnavailableReason` görünümün bu kapsam eksikliğini açıklamasına izin verir. Birinci ve beşinci metatarsların sayısal TA2 satırları (1500/1502) birebir doğrulanmıştır.
+
+## Yeni kaynaklı ilişkiler
+
+[TTUHSC anterior/lateral leg and foot anatomy tables](https://anatomy.ttuhscep.edu/musculoskeletal_system/leg_tables.html) 2 Ekim 2026'da yeniden okundu. Nerves tablosunda deep/superficial fibular satırlarının Source sütunu common fibular; medial/lateral plantar satırlarının Source sütunu tibial verir. Bu dört doğrudan kaynak ilişkisi iki tarafta sekiz `branch_of` kaydı olarak eklendi. İlk dört tibial/common fibular → sciatic ilişkisi aynen korunur. Bütün uçlar aynı dataset ve aynı taraftadır; yalnız tipik anatomi ilişkisi ifade edilir, örneğe özgü tüp sürekliliği veya innervasyon çıkarılmaz. Eğitim tablosu yeniden dağıtılmaz, yalnız seçilmiş kaynak bilgileri/locator saklanır. Yardımcı foot_tables URL'sinin araç erişimi başarısız oldu; dört ilişkiyi de sağlayan leg_tables kaynağı başarılıydı ve tek yeni ilişkinin kaynağıdır.
+
+Sural sinire tek ebeveyn atanmadı. Fibular arter için ana erkek atlasın ilişkileri aktarılmadı. Bu pakette damar besleme alanı, bağ tutunması, kemik komşuluğu veya yeni FMA eşlemesi üretilmedi.
+
+## Geometri kapsamının metadata karşılığı
+
+[Kaynak nesne eşlemesi](../../data/model-candidates/lower-limb-unbound-source-audit/new-object-mapping.json), [18 hedef nesne incelemesi](../../data/model-candidates/lower-limb-unbound-source-audit/evaluated-candidates.json) ve [48 yeni kemik bağlamı](../../data/model-candidates/lower-limb-unbound-source-audit/foot-context.json) geometri çalışanına aittir. Metadata yalnız bu kimlikleri, sourceObject değerlerini ve kayıtlı temsil sınırını devralır. Sinir/arter eğrileri kısmi kaynak gösterimidir; tüm damar veya sinir ağı olarak sunulmaz. Bağ nesneleri bütün eklemi veya doğrulanmış tutunma alanını temsil etmez.
+
+Medial plantar sinirin her tarafında **üç yazılmış spline** vardır: kontrol noktası sayıları 4, 1, 2. İkisi tüp geometrisi üretir; tek noktalı spline için ek yüzey üretilmez. Sural sinirin üç, fibular arterin beş spline'ı kaynak nesnesinin iç kapsamıdır; ayrı anatomik dal kimlikleri değildir. Yeni kaynak/metin kabulü ile geometri, uygulama ve anatomik uzman kabulü ayrı tutulur.
+
+## Doğrulama ve devir
+
+Son kontrol 2 Ekim 2026 08:59:48 UTC'de geçti. Güncel 87 manifest kavramı ve bütün sourceObject değerleri metadata ile birebir eşleşti (manifest SHA-256 `a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed`). Metadata SHA-256 `715dbb69409e6bea7824bb4e5a2a23be1cfaab387929b4be23b2baa5d6306b3e`. Kaydedilmiş başlangıç 08:52:17 UTC'den bu kontrole kadar 451 saniye; bunun öncesindeki okuma ve sonraki devir iletişimi ölçüme dahil değildir. Geometri çalışanının eşzamanlı foot-context kanıt düzeltmesinden sonra yalnız etkilenen hash yeniden alındı.
+
+Metadata için hedefli yerel Python kontrolleri: 87 benzersiz kimlik ve 12 ilişki; başlangıç 21 etiket/dört ilişkinin `e879fc9` içeriğiyle eşitliği; bütün kaynak/TR/EN isimleri; 53 Latince alanın sayısal TA2 satır/kimliğiyle eşitliği; 34 null alanın gerekçesi ve genel-terim kanıtı; ilişkilerin çözülen aynı taraf uçları ve kaynakları; sural ebeveyn atanmaması. İlk `inputSnapshots` hash'leri tarihî `e879fc9` girdileri olarak korunur; ana etiket dosyasının eşzamanlı bağımsız genişlemesi bu eski kanıtı yeniden yazdırmaz. Yeni geometri kaynak kanıtlarının hash'leri `expansionInputSnapshots` içindedir.
+
+Bu çalışan yalnız metadata ve bu terim kaydını günceller; ana labels/knowledge, hedef seed'i, uygulama ve yayın işlemleri entegrasyon sahibindedir. Geometrinin görsel kabulü, etkileşim akışı, dağıtım ve uzman kabulü bu rapordan çıkmaz. Sonraki eylem: entegrasyon sahibi 87 nesneli manifest eşitliğini, çok dilli aramayı, kapsam/null-Latin gösterimini ve ilişki→geri dönüş akışını paket kabulünde doğrular.
+
+---
+
 # Alt ekstremite sinir referansı — adlandırma ve ilişki kaydı
 
 2 Ekim 2026. Metadata çalışmasının başlangıç revision'ı `a0fd55413018ec839e493719369be4f051df53dc`, dalı `codex/publish-model-explorer`. [26 Eylül raporu](progress-report-2026-09-26.md) `caa938a` yayınını anlatır; güncel yerel HEAD ile aynı değildir. Bu kayıt yalnız metadata teslimini doğrular; canlı yayın veya geometri kabulü değildir.

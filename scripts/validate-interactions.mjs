@@ -141,7 +141,7 @@ try {
   lower = await loadAtlas(new AbortController().signal, 'lower-limb-nerve-reference');
 } finally { globalThis.fetch = originalFetch; }
 assert.deepEqual(lowerRequests, ['/models/lower-limb-nerve-reference/atlas.json']);
-assert.equal(lower.parts.length, 21);
+assert.equal(lower.parts.length, 87);
 assert.equal(lower.compatibleWithMainAtlas, false);
 assert.equal(lower.anchors.length, 0);
 const lowerConcepts = explorerConcepts(lower), lowerMap = new Map(lowerConcepts.map(c => [c.id, c]));
@@ -150,12 +150,22 @@ assert.deepEqual(tibial.elements, ['ZA-TIB-L']);
 assert.equal(datasetLabel(lower.datasetId, tibial.id, tibial.name, 'tr'), 'Sol Tibial sinir');
 assert.equal(datasetLabel(lower.datasetId, 'zanatomy:sacrum', 'Sacrum', 'la'), 'Os sacrum');
 const childEdges = relationshipsFor(tibial.id, lowerMap, lower.datasetId);
-assert.equal(childEdges.length, 1);
-assert.equal(childEdges[0].predicate, 'branch_of');
-assert.equal(childEdges[0].otherId, 'atlas:left-sciatic-nerve');
+assert.equal(childEdges.length, 3);
+assert(childEdges.every(r => r.predicate === 'branch_of'));
+assert(childEdges.some(r => r.otherId === 'atlas:left-sciatic-nerve'));
+assert.deepEqual(childEdges.filter(r => r.object === tibial.id).map(r => r.otherId).sort(),
+  ['atlas:left-lateral-plantar-nerve','atlas:left-medial-plantar-nerve']);
 const parentEdges = relationshipsFor('atlas:left-sciatic-nerve', lowerMap, lower.datasetId);
 assert.equal(parentEdges.length, 2);
 assert(parentEdges.every(r => r.predicate === 'branch_of' && lowerMap.has(r.otherId)));
+for (const side of ['left','right']) {
+  const plantar = lowerMap.get(`atlas:${side}-medial-plantar-nerve`);
+  assert.deepEqual(plantar.elements, [`ZA-MPL-${side[0].toUpperCase()}`]);
+  const links = relationshipsFor(plantar.id, lowerMap, lower.datasetId);
+  assert.equal(links.length, 1);
+  assert.equal(links[0].otherId, `atlas:${side}-tibial-nerve`);
+  assert.equal(lowerMap.get(`atlas:${side}-anterior-talofibular-ligament`).elements.length, 1);
+}
 assert(relationshipsFor('atlas:left-sciatic-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
 assert.deepEqual(relationshipsFor('atlas:left-sciatic-nerve', lowerMap, 'inner-ear-reference'), []);
 console.log('Lower-limb reference resolves its own branch geometry without male graph leakage.');

@@ -1,0 +1,3693 @@
+[
+  {
+    "name": "Articular capsule of interphalangeal joint of great toe.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsule of interphalangeal joint of great toe",
+    "baseVertices": 60,
+    "basePolygons": 48,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsule of interphalangeal joint of great toe.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsule of interphalangeal joint of great toe",
+    "baseVertices": 60,
+    "basePolygons": 48,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of distal interphalangeal joints of foot.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of distal interphalangeal joints of foot",
+    "baseVertices": 220,
+    "basePolygons": 178,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of distal interphalangeal joints of foot.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of distal interphalangeal joints of foot",
+    "baseVertices": 220,
+    "basePolygons": 178,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of distal interphalangeal joints.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of distal interphalangeal joints",
+    "baseVertices": 235,
+    "basePolygons": 188,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Left hand",
+      "Left upper limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of distal interphalangeal joints.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of distal interphalangeal joints",
+    "baseVertices": 235,
+    "basePolygons": 188,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of metacarpophalangeal joints.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of metacarpophalangeal joints",
+    "baseVertices": 244,
+    "basePolygons": 196,
+    "collections": [
+      "3: Joints",
+      "Left hand",
+      "Left upper limb",
+      "Metacarpophalangeal joints"
+    ]
+  },
+  {
+    "name": "Articular capsules of metacarpophalangeal joints.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of metacarpophalangeal joints",
+    "baseVertices": 244,
+    "basePolygons": 196,
+    "collections": [
+      "3: Joints",
+      "Metacarpophalangeal joints",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of metatarsophalangeal joints.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of metatarsophalangeal joints",
+    "baseVertices": 273,
+    "basePolygons": 219,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Metatarsophalangeal joints"
+    ]
+  },
+  {
+    "name": "Articular capsules of metatarsophalangeal joints.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of metatarsophalangeal joints",
+    "baseVertices": 273,
+    "basePolygons": 219,
+    "collections": [
+      "3: Joints",
+      "Metatarsophalangeal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of proximal interphalangeal joints of foot.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of proximal interphalangeal joints of foot",
+    "baseVertices": 226,
+    "basePolygons": 183,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of proximal interphalangeal joints of foot.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of proximal interphalangeal joints of foot",
+    "baseVertices": 226,
+    "basePolygons": 183,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of proximal interphalangeal joints.l",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of proximal interphalangeal joints",
+    "baseVertices": 215,
+    "basePolygons": 174,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Left hand",
+      "Left upper limb"
+    ]
+  },
+  {
+    "name": "Articular capsules of proximal interphalangeal joints.r",
+    "type": "MESH",
+    "dataBlock": "Articular capsules of proximal interphalangeal joints",
+    "baseVertices": 215,
+    "basePolygons": 174,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Articular surface for cuboid.i",
+    "type": "MESH",
+    "dataBlock": "Articular surface for cuboid.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Calcaneus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Articular surface for cuboid.j",
+    "type": "MESH",
+    "dataBlock": "Articular surface for cuboid.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Calcaneus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Articular surface for cuboid.s",
+    "type": "FONT",
+    "dataBlock": "Articular surface for cuboid.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Calcaneus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Articular surface for cuboid.t",
+    "type": "FONT",
+    "dataBlock": "Articular surface for cuboid.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Calcaneus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Base of metatarsal bone.i",
+    "type": "MESH",
+    "dataBlock": "Base of metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Metatarsal bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Base of metatarsal bone.j",
+    "type": "MESH",
+    "dataBlock": "Base of metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Base of metatarsal bone.s",
+    "type": "FONT",
+    "dataBlock": "Base of metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Metatarsal bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Base of metatarsal bone.t",
+    "type": "FONT",
+    "dataBlock": "Base of metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Base of phalanx of foot.i",
+    "type": "MESH",
+    "dataBlock": "Base of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Phalanx of foot",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Base of phalanx of foot.j",
+    "type": "MESH",
+    "dataBlock": "Base of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Base of phalanx of foot.s",
+    "type": "FONT",
+    "dataBlock": "Base of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Phalanx of foot",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Base of phalanx of foot.t",
+    "type": "FONT",
+    "dataBlock": "Base of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Base of phalanx of hand.i",
+    "type": "MESH",
+    "dataBlock": "Base of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Base of phalanx of hand.j",
+    "type": "MESH",
+    "dataBlock": "Base of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Base of phalanx of hand.s",
+    "type": "FONT",
+    "dataBlock": "Base of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Base of phalanx of hand.t",
+    "type": "FONT",
+    "dataBlock": "Base of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Body of metatarsal bone.i",
+    "type": "MESH",
+    "dataBlock": "Body of metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Metatarsal bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Body of metatarsal bone.j",
+    "type": "MESH",
+    "dataBlock": "Body of metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Body of metatarsal bone.s",
+    "type": "FONT",
+    "dataBlock": "Body of metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Metatarsal bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Body of metatarsal bone.t",
+    "type": "FONT",
+    "dataBlock": "Body of metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Body of phalanx of foot.i",
+    "type": "MESH",
+    "dataBlock": "Body of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Phalanx of foot",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Body of phalanx of foot.j",
+    "type": "MESH",
+    "dataBlock": "Body of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Body of phalanx of foot.s",
+    "type": "FONT",
+    "dataBlock": "Body of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Phalanx of foot",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Body of phalanx of foot.t",
+    "type": "FONT",
+    "dataBlock": "Body of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Body of phalanx of hand.i",
+    "type": "MESH",
+    "dataBlock": "Body of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Body of phalanx of hand.j",
+    "type": "MESH",
+    "dataBlock": "Body of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Body of phalanx of hand.s",
+    "type": "FONT",
+    "dataBlock": "Body of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Body of phalanx of hand.t",
+    "type": "FONT",
+    "dataBlock": "Body of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Calcaneocuboid ligament.l",
+    "type": "MESH",
+    "dataBlock": "Calcaneocuboid ligament",
+    "baseVertices": 9,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Bifurcate ligament",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Calcaneocuboid ligament.r",
+    "type": "MESH",
+    "dataBlock": "Calcaneocuboid ligament",
+    "baseVertices": 9,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Bifurcate ligament",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Calcaneonavicular ligament.l",
+    "type": "MESH",
+    "dataBlock": "Calcaneonavicular ligament",
+    "baseVertices": 9,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Bifurcate ligament",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Calcaneonavicular ligament.r",
+    "type": "MESH",
+    "dataBlock": "Calcaneonavicular ligament",
+    "baseVertices": 9,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Bifurcate ligament",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Collateral interphalangeal ligaments of foot.l",
+    "type": "MESH",
+    "dataBlock": "Collateral interphalangeal ligaments of foot",
+    "baseVertices": 238,
+    "basePolygons": 117,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Collateral interphalangeal ligaments of foot.r",
+    "type": "MESH",
+    "dataBlock": "Collateral interphalangeal ligaments of foot",
+    "baseVertices": 238,
+    "basePolygons": 117,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Collateral interphalangeal ligaments of hand.l",
+    "type": "MESH",
+    "dataBlock": "Collateral interphalangeal ligaments of hand",
+    "baseVertices": 188,
+    "basePolygons": 76,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Left hand",
+      "Left upper limb"
+    ]
+  },
+  {
+    "name": "Collateral interphalangeal ligaments of hand.r",
+    "type": "MESH",
+    "dataBlock": "Collateral interphalangeal ligaments of hand",
+    "baseVertices": 188,
+    "basePolygons": 76,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Collateral metacarpophalangeal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Collateral metacarpophalangeal ligaments",
+    "baseVertices": 100,
+    "basePolygons": 40,
+    "collections": [
+      "3: Joints",
+      "Left hand",
+      "Left upper limb",
+      "Metacarpophalangeal joints"
+    ]
+  },
+  {
+    "name": "Collateral metacarpophalangeal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Collateral metacarpophalangeal ligaments",
+    "baseVertices": 100,
+    "basePolygons": 40,
+    "collections": [
+      "3: Joints",
+      "Metacarpophalangeal joints",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Collateral metatarsophalangeal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Collateral metatarsophalangeal ligaments",
+    "baseVertices": 140,
+    "basePolygons": 72,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Metatarsophalangeal joints"
+    ]
+  },
+  {
+    "name": "Collateral metatarsophalangeal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Collateral metatarsophalangeal ligaments",
+    "baseVertices": 140,
+    "basePolygons": 72,
+    "collections": [
+      "3: Joints",
+      "Metatarsophalangeal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Cuboid bone.l",
+    "type": "MESH",
+    "dataBlock": "Cuboid bone",
+    "baseVertices": 501,
+    "basePolygons": 994,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Cuboid bone.r",
+    "type": "MESH",
+    "dataBlock": "Cuboid bone",
+    "baseVertices": 501,
+    "basePolygons": 994,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Cuneocuboid interosseous ligament.l",
+    "type": "MESH",
+    "dataBlock": "Cuneocuboid interosseous ligament",
+    "baseVertices": 12,
+    "basePolygons": 10,
+    "collections": [
+      "3: Joints",
+      "Cuneocuboid joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Cuneocuboid interosseous ligament.r",
+    "type": "MESH",
+    "dataBlock": "Cuneocuboid interosseous ligament",
+    "baseVertices": 12,
+    "basePolygons": 10,
+    "collections": [
+      "3: Joints",
+      "Cuneocuboid joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Cuneometatarsal interosseous ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Cuneometatarsal interosseous ligaments",
+    "baseVertices": 12,
+    "basePolygons": 3,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Tarsometatarsal joints"
+    ]
+  },
+  {
+    "name": "Cuneometatarsal interosseous ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Cuneometatarsal interosseous ligaments",
+    "baseVertices": 12,
+    "basePolygons": 3,
+    "collections": [
+      "3: Joints",
+      "Right foot",
+      "Right lower limb",
+      "Tarsometatarsal joints"
+    ]
+  },
+  {
+    "name": "Deep transverse metatarsal ligament.l",
+    "type": "MESH",
+    "dataBlock": "Deep transverse metatarsal ligament",
+    "baseVertices": 18,
+    "basePolygons": 5,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Metatarsophalangeal joints"
+    ]
+  },
+  {
+    "name": "Deep transverse metatarsal ligament.r",
+    "type": "MESH",
+    "dataBlock": "Deep transverse metatarsal ligament",
+    "baseVertices": 18,
+    "basePolygons": 5,
+    "collections": [
+      "3: Joints",
+      "Metatarsophalangeal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fifth finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fifth finger of foot",
+    "baseVertices": 120,
+    "basePolygons": 222,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fifth finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fifth finger of foot",
+    "baseVertices": 120,
+    "basePolygons": 222,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fifth finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fifth finger of hand.r",
+    "baseVertices": 98,
+    "basePolygons": 192,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fifth finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fifth finger of hand.r",
+    "baseVertices": 98,
+    "basePolygons": 192,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of first finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of first finger of foot",
+    "baseVertices": 235,
+    "basePolygons": 466,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Distal phalanx of first finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of first finger of foot",
+    "baseVertices": 235,
+    "basePolygons": 466,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of first finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of first finger of hand",
+    "baseVertices": 113,
+    "basePolygons": 222,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Distal phalanx of first finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of first finger of hand",
+    "baseVertices": 113,
+    "basePolygons": 222,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fourth finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fourth finger of foot",
+    "baseVertices": 141,
+    "basePolygons": 278,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fourth finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fourth finger of foot",
+    "baseVertices": 141,
+    "basePolygons": 278,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fourth finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fourth finger of hand",
+    "baseVertices": 69,
+    "basePolygons": 134,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Distal phalanx of fourth finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of fourth finger of hand",
+    "baseVertices": 69,
+    "basePolygons": 134,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of second finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of second finger of foot",
+    "baseVertices": 120,
+    "basePolygons": 236,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Distal phalanx of second finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of second finger of foot",
+    "baseVertices": 120,
+    "basePolygons": 236,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of second finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of second finger of hand",
+    "baseVertices": 127,
+    "basePolygons": 250,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Distal phalanx of second finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of second finger of hand",
+    "baseVertices": 127,
+    "basePolygons": 250,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of third finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of third finger of foot",
+    "baseVertices": 161,
+    "basePolygons": 318,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Distal phalanx of third finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of third finger of foot",
+    "baseVertices": 161,
+    "basePolygons": 318,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Distal phalanx of third finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of third finger of hand",
+    "baseVertices": 98,
+    "basePolygons": 192,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Distal phalanx of third finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Distal phalanx of third finger of hand",
+    "baseVertices": 98,
+    "basePolygons": 192,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Dorsal calcaneocuboid ligament.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal calcaneocuboid ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Calcaneocuboid joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal calcaneocuboid ligament.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal calcaneocuboid ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Calcaneocuboid joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal cuboideonavicular ligament.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal cuboideonavicular ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Cuboidonavicular joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal cuboideonavicular ligament.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal cuboideonavicular ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Cuboidonavicular joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal cuneocuboid ligament.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal cuneocuboid ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Cuneocuboid joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal cuneocuboid ligament.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal cuneocuboid ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Cuneocuboid joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal cuneonavicular ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal cuneonavicular ligaments",
+    "baseVertices": 18,
+    "basePolygons": 6,
+    "collections": [
+      "3: Joints",
+      "Cuneonavicular joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal cuneonavicular ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal cuneonavicular ligaments",
+    "baseVertices": 18,
+    "basePolygons": 6,
+    "collections": [
+      "3: Joints",
+      "Cuneonavicular joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal intercuneiform ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal intercuneiform ligaments",
+    "baseVertices": 8,
+    "basePolygons": 2,
+    "collections": [
+      "3: Joints",
+      "Intercuneiform joints",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal intercuneiform ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal intercuneiform ligaments",
+    "baseVertices": 8,
+    "basePolygons": 2,
+    "collections": [
+      "3: Joints",
+      "Intercuneiform joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal metatarsal arteries.l",
+    "type": "CURVE",
+    "dataBlock": "Dorsal metatarsal arteries",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Left foot",
+      "Left lower limb",
+      "Systemic arteries"
+    ]
+  },
+  {
+    "name": "Dorsal metatarsal arteries.r",
+    "type": "CURVE",
+    "dataBlock": "Dorsal metatarsal arteries",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Right foot",
+      "Right lower limb",
+      "Systemic arteries"
+    ]
+  },
+  {
+    "name": "Dorsal metatarsal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal metatarsal ligaments",
+    "baseVertices": 18,
+    "basePolygons": 5,
+    "collections": [
+      "3: Joints",
+      "Intermetatarsal joints",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal metatarsal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal metatarsal ligaments",
+    "baseVertices": 18,
+    "basePolygons": 5,
+    "collections": [
+      "3: Joints",
+      "Intermetatarsal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Dorsal metatarsal veins.l",
+    "type": "CURVE",
+    "dataBlock": "Dorsal metatarsal veins",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Left foot",
+      "Left lower limb",
+      "Systemic veins"
+    ]
+  },
+  {
+    "name": "Dorsal metatarsal veins.r",
+    "type": "CURVE",
+    "dataBlock": "Dorsal metatarsal veins",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Right foot",
+      "Right lower limb",
+      "Systemic veins"
+    ]
+  },
+  {
+    "name": "Dorsal tarsometatarsal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Dorsal tarsometatarsal ligaments",
+    "baseVertices": 39,
+    "basePolygons": 14,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Tarsometatarsal joints"
+    ]
+  },
+  {
+    "name": "Dorsal tarsometatarsal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Dorsal tarsometatarsal ligaments",
+    "baseVertices": 39,
+    "basePolygons": 14,
+    "collections": [
+      "3: Joints",
+      "Right foot",
+      "Right lower limb",
+      "Tarsometatarsal joints"
+    ]
+  },
+  {
+    "name": "Facet for calcaneonavicular part of bifurcate ligament.i",
+    "type": "MESH",
+    "dataBlock": "Facet for calcaneonavicular part of bifurcate ligament.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Facet for calcaneonavicular part of bifurcate ligament.j",
+    "type": "MESH",
+    "dataBlock": "Facet for calcaneonavicular part of bifurcate ligament.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Facet for calcaneonavicular part of bifurcate ligament.s",
+    "type": "FONT",
+    "dataBlock": "Facet for calcaneonavicular part of bifurcate ligament.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Facet for calcaneonavicular part of bifurcate ligament.t",
+    "type": "FONT",
+    "dataBlock": "Facet for calcaneonavicular part of bifurcate ligament.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Facet for plantar calcaneonavicular ligament.i",
+    "type": "MESH",
+    "dataBlock": "Facet for plantar calcaneonavicular ligament.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Facet for plantar calcaneonavicular ligament.j",
+    "type": "MESH",
+    "dataBlock": "Facet for plantar calcaneonavicular ligament.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Facet for plantar calcaneonavicular ligament.s",
+    "type": "FONT",
+    "dataBlock": "Facet for plantar calcaneonavicular ligament.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Facet for plantar calcaneonavicular ligament.t",
+    "type": "FONT",
+    "dataBlock": "Facet for plantar calcaneonavicular ligament.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Fifth metatarsal bone.i",
+    "type": "MESH",
+    "dataBlock": "Fifth metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Fifth metatarsal bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Fifth metatarsal bone.j",
+    "type": "MESH",
+    "dataBlock": "Fifth metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Fifth metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Fifth metatarsal bone.l",
+    "type": "MESH",
+    "dataBlock": "Fifth metatarsal bone",
+    "baseVertices": 449,
+    "basePolygons": 894,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Fifth metatarsal bone.r",
+    "type": "MESH",
+    "dataBlock": "Fifth metatarsal bone",
+    "baseVertices": 449,
+    "basePolygons": 894,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Fifth metatarsal bone.s",
+    "type": "FONT",
+    "dataBlock": "Fifth metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Fifth metatarsal bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Fifth metatarsal bone.t",
+    "type": "FONT",
+    "dataBlock": "Fifth metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Fifth metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "First metatarsal bone.i",
+    "type": "MESH",
+    "dataBlock": "First metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "First metatarsal bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "First metatarsal bone.j",
+    "type": "MESH",
+    "dataBlock": "First metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "First metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "First metatarsal bone.l",
+    "type": "MESH",
+    "dataBlock": "First metatarsal bone",
+    "baseVertices": 546,
+    "basePolygons": 1087,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "First metatarsal bone.r",
+    "type": "MESH",
+    "dataBlock": "First metatarsal bone",
+    "baseVertices": 546,
+    "basePolygons": 1087,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "First metatarsal bone.s",
+    "type": "FONT",
+    "dataBlock": "First metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "First metatarsal bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "First metatarsal bone.t",
+    "type": "FONT",
+    "dataBlock": "First metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "First metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Fourth metatarsal bone.l",
+    "type": "MESH",
+    "dataBlock": "Fourth metatarsal bone",
+    "baseVertices": 419,
+    "basePolygons": 732,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Fourth metatarsal bone.r",
+    "type": "MESH",
+    "dataBlock": "Fourth metatarsal bone",
+    "baseVertices": 419,
+    "basePolygons": 732,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Groove for tendon of fibularis longus muscle of cuboid bone.i",
+    "type": "MESH",
+    "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone-lin",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Groove for tendon of fibularis longus muscle of cuboid bone.j",
+    "type": "MESH",
+    "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone-lin",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Groove for tendon of fibularis longus muscle of cuboid bone.s",
+    "type": "FONT",
+    "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Groove for tendon of fibularis longus muscle of cuboid bone.t",
+    "type": "FONT",
+    "dataBlock": "Groove for tendon of fibularis longus muscle of cuboid bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Head of metatarsal bone.i",
+    "type": "MESH",
+    "dataBlock": "Head of metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Metatarsal bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Head of metatarsal bone.j",
+    "type": "MESH",
+    "dataBlock": "Head of metatarsal bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Head of metatarsal bone.s",
+    "type": "FONT",
+    "dataBlock": "Head of metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Metatarsal bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Head of metatarsal bone.t",
+    "type": "FONT",
+    "dataBlock": "Head of metatarsal bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Metatarsal bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Head of phalanx of foot.i",
+    "type": "MESH",
+    "dataBlock": "Head of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Head of phalanx of foot.j",
+    "type": "MESH",
+    "dataBlock": "Head of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Head of phalanx of foot.s",
+    "type": "FONT",
+    "dataBlock": "Head of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Head of phalanx of foot.t",
+    "type": "FONT",
+    "dataBlock": "Head of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Head of phalanx of hand.i",
+    "type": "MESH",
+    "dataBlock": "Head of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Head of phalanx of hand.j",
+    "type": "MESH",
+    "dataBlock": "Head of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Head of phalanx of hand.s",
+    "type": "FONT",
+    "dataBlock": "Head of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Head of phalanx of hand.t",
+    "type": "FONT",
+    "dataBlock": "Head of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Intercuneiform interosseous ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Intercuneiform interosseous ligaments",
+    "baseVertices": 8,
+    "basePolygons": 2,
+    "collections": [
+      "3: Joints",
+      "Intercuneiform joints",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Intercuneiform interosseous ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Intercuneiform interosseous ligaments",
+    "baseVertices": 8,
+    "basePolygons": 2,
+    "collections": [
+      "3: Joints",
+      "Intercuneiform joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Intermediate cuneiform bone.l",
+    "type": "MESH",
+    "dataBlock": "Intermediate cuneiform bone.r",
+    "baseVertices": 224,
+    "basePolygons": 444,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Intermediate cuneiform bone.r",
+    "type": "MESH",
+    "dataBlock": "Intermediate cuneiform bone.r",
+    "baseVertices": 224,
+    "basePolygons": 444,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Intermetatarsal joints.g",
+    "type": "FONT",
+    "dataBlock": "Intermetatarsal joints.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Intermetatarsal joints.j",
+    "type": "MESH",
+    "dataBlock": "Intermetatarsal joints.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Interphalangeal joints of foot.g",
+    "type": "FONT",
+    "dataBlock": "Interphalangeal joints of foot.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Interphalangeal joints of foot.j",
+    "type": "MESH",
+    "dataBlock": "Interphalangeal joints of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Interphalangeal joints of hand.g",
+    "type": "FONT",
+    "dataBlock": "Interphalangeal joints of hand.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "3: Joints"
+    ]
+  },
+  {
+    "name": "Lateral cuneiform bone.l",
+    "type": "MESH",
+    "dataBlock": "Lateral cuneiform bone.r",
+    "baseVertices": 321,
+    "basePolygons": 632,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Lateral cuneiform bone.r",
+    "type": "MESH",
+    "dataBlock": "Lateral cuneiform bone.r",
+    "baseVertices": 321,
+    "basePolygons": 632,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Medial cuneiform bone.l",
+    "type": "MESH",
+    "dataBlock": "Medial cuneiform bone.r",
+    "baseVertices": 498,
+    "basePolygons": 968,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Medial cuneiform bone.r",
+    "type": "MESH",
+    "dataBlock": "Medial cuneiform bone.r",
+    "baseVertices": 498,
+    "basePolygons": 968,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Metacarpophalangeal joints.g",
+    "type": "FONT",
+    "dataBlock": "Metacarpophalangeal joints.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "3: Joints"
+    ]
+  },
+  {
+    "name": "Metatarsal bones.g",
+    "type": "FONT",
+    "dataBlock": "Metatarsal bones.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Metatarsal bones.j",
+    "type": "MESH",
+    "dataBlock": "Metatarsal bones.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Metatarsal interosseous ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Metatarsal interosseous ligaments",
+    "baseVertices": 16,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Intermetatarsal joints",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Metatarsal interosseous ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Metatarsal interosseous ligaments",
+    "baseVertices": 16,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Intermetatarsal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Metatarsal region.l",
+    "type": "MESH",
+    "dataBlock": "Metatarsal region",
+    "baseVertices": 124,
+    "basePolygons": 102,
+    "collections": [
+      "9: Regions of human body",
+      "Left lower limb",
+      "Metatarsal region"
+    ]
+  },
+  {
+    "name": "Metatarsal region.r",
+    "type": "MESH",
+    "dataBlock": "Metatarsal region",
+    "baseVertices": 124,
+    "basePolygons": 102,
+    "collections": [
+      "9: Regions of human body",
+      "Metatarsal region",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Metatarsophalangeal joints.g",
+    "type": "FONT",
+    "dataBlock": "Metatarsophalangeal joints.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Metatarsophalangeal joints.j",
+    "type": "MESH",
+    "dataBlock": "Metatarsophalangeal joints.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fifth finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fifth finger of foot",
+    "baseVertices": 110,
+    "basePolygons": 216,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fifth finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fifth finger of foot",
+    "baseVertices": 110,
+    "basePolygons": 216,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fifth finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fifth finger of hand",
+    "baseVertices": 148,
+    "basePolygons": 292,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fifth finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fifth finger of hand",
+    "baseVertices": 148,
+    "basePolygons": 292,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fourth finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fourth finger of foot",
+    "baseVertices": 226,
+    "basePolygons": 404,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fourth finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fourth finger of foot",
+    "baseVertices": 226,
+    "basePolygons": 404,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fourth finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fourth finger of hand",
+    "baseVertices": 225,
+    "basePolygons": 446,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Middle phalanx of fourth finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of fourth finger of hand",
+    "baseVertices": 225,
+    "basePolygons": 446,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of second finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of second finger of foot",
+    "baseVertices": 193,
+    "basePolygons": 326,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Middle phalanx of second finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of second finger of foot",
+    "baseVertices": 193,
+    "basePolygons": 326,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of second finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of second finger of hand",
+    "baseVertices": 159,
+    "basePolygons": 314,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Middle phalanx of second finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of second finger of hand",
+    "baseVertices": 159,
+    "basePolygons": 314,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of third finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of third finger of foot",
+    "baseVertices": 202,
+    "basePolygons": 359,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Middle phalanx of third finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of third finger of foot",
+    "baseVertices": 202,
+    "basePolygons": 359,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Middle phalanx of third finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of third finger of hand",
+    "baseVertices": 182,
+    "basePolygons": 360,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Middle phalanx of third finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Middle phalanx of third finger of hand",
+    "baseVertices": 182,
+    "basePolygons": 360,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Navicular articular surface.i",
+    "type": "MESH",
+    "dataBlock": "Navicular articular surface.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Navicular articular surface.s",
+    "type": "FONT",
+    "dataBlock": "Navicular articular surface.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Navicular bone.l",
+    "type": "MESH",
+    "dataBlock": "Navicular bone",
+    "baseVertices": 368,
+    "basePolygons": 731,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Navicular bone.r",
+    "type": "MESH",
+    "dataBlock": "Navicular bone",
+    "baseVertices": 368,
+    "basePolygons": 731,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Palmar interphalangeal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Palmar interphalangeal ligaments",
+    "baseVertices": 81,
+    "basePolygons": 36,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Left hand",
+      "Left upper limb"
+    ]
+  },
+  {
+    "name": "Palmar interphalangeal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Palmar interphalangeal ligaments",
+    "baseVertices": 81,
+    "basePolygons": 36,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of hand",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Perforating branches of plantar metatarsal arteries.l",
+    "type": "CURVE",
+    "dataBlock": "Perforating branches of plantar metatarsal arteries",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Left foot",
+      "Left lower limb",
+      "Systemic arteries"
+    ]
+  },
+  {
+    "name": "Perforating branches of plantar metatarsal arteries.r",
+    "type": "CURVE",
+    "dataBlock": "Perforating branches of plantar metatarsal arteries",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Right foot",
+      "Right lower limb",
+      "Systemic arteries"
+    ]
+  },
+  {
+    "name": "Plantar calcaneocuboid ligament.l",
+    "type": "MESH",
+    "dataBlock": "Plantar calcaneocuboid ligament",
+    "baseVertices": 12,
+    "basePolygons": 6,
+    "collections": [
+      "3: Joints",
+      "Calcaneocuboid joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar calcaneocuboid ligament.r",
+    "type": "MESH",
+    "dataBlock": "Plantar calcaneocuboid ligament",
+    "baseVertices": 12,
+    "basePolygons": 6,
+    "collections": [
+      "3: Joints",
+      "Calcaneocuboid joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar cuneocuboid ligament.l",
+    "type": "MESH",
+    "dataBlock": "Plantar cuneocuboid ligament",
+    "baseVertices": 9,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Cuneocuboid joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar cuneocuboid ligament.r",
+    "type": "MESH",
+    "dataBlock": "Plantar cuneocuboid ligament",
+    "baseVertices": 9,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Cuneocuboid joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar cuneonavicular ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Plantar cuneonavicular ligaments",
+    "baseVertices": 16,
+    "basePolygons": 5,
+    "collections": [
+      "3: Joints",
+      "Cuneonavicular joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar cuneonavicular ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Plantar cuneonavicular ligaments",
+    "baseVertices": 16,
+    "basePolygons": 5,
+    "collections": [
+      "3: Joints",
+      "Cuneonavicular joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar intercuneiform ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Plantar intercuneiform ligaments",
+    "baseVertices": 8,
+    "basePolygons": 2,
+    "collections": [
+      "3: Joints",
+      "Intercuneiform joints",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar intercuneiform ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Plantar intercuneiform ligaments",
+    "baseVertices": 8,
+    "basePolygons": 2,
+    "collections": [
+      "3: Joints",
+      "Intercuneiform joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar interphalangeal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Plantar interphalangeal ligaments",
+    "baseVertices": 137,
+    "basePolygons": 74,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar interphalangeal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Plantar interphalangeal ligaments",
+    "baseVertices": 137,
+    "basePolygons": 74,
+    "collections": [
+      "3: Joints",
+      "Interphalangeal joints of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar metatarsal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Plantar metatarsal ligaments",
+    "baseVertices": 16,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Intermetatarsal joints",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar metatarsal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Plantar metatarsal ligaments",
+    "baseVertices": 16,
+    "basePolygons": 4,
+    "collections": [
+      "3: Joints",
+      "Intermetatarsal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar metatarsophalangeal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Plantar metatarsophalangeal ligaments",
+    "baseVertices": 75,
+    "basePolygons": 40,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Metatarsophalangeal joints"
+    ]
+  },
+  {
+    "name": "Plantar metatarsophalangeal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Plantar metatarsophalangeal ligaments",
+    "baseVertices": 75,
+    "basePolygons": 40,
+    "collections": [
+      "3: Joints",
+      "Metatarsophalangeal joints",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar tarsometatarsal ligaments.l",
+    "type": "MESH",
+    "dataBlock": "Plantar tarsometatarsal ligaments",
+    "baseVertices": 30,
+    "basePolygons": 10,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Tarsometatarsal joints"
+    ]
+  },
+  {
+    "name": "Plantar tarsometatarsal ligaments.r",
+    "type": "MESH",
+    "dataBlock": "Plantar tarsometatarsal ligaments",
+    "baseVertices": 30,
+    "basePolygons": 10,
+    "collections": [
+      "3: Joints",
+      "Right foot",
+      "Right lower limb",
+      "Tarsometatarsal joints"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fifth finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fifth finger of foot",
+    "baseVertices": 260,
+    "basePolygons": 516,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Second metatarsal bone.r",
+    "type": "MESH",
+    "dataBlock": "Second metatarsal bone",
+    "baseVertices": 347,
+    "basePolygons": 690,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Navicular articular surface.j",
+    "type": "MESH",
+    "dataBlock": "Navicular articular surface.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Navicular articular surface.t",
+    "type": "FONT",
+    "dataBlock": "Navicular articular surface.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of talus",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Phalanges of foot.g",
+    "type": "FONT",
+    "dataBlock": "Phalanges of foot.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Phalanges of foot.j",
+    "type": "MESH",
+    "dataBlock": "Phalanges of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Phalanges of hand.g",
+    "type": "FONT",
+    "dataBlock": "Phalanges of hand.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of upper limb",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Phalanges of hand.j",
+    "type": "MESH",
+    "dataBlock": "Phalanges of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bones of upper limb",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Plantar calcaneonavicular ligament.l",
+    "type": "MESH",
+    "dataBlock": "Plantar calcaneonavicular ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Talocalcaneonavicular joint"
+    ]
+  },
+  {
+    "name": "Plantar calcaneonavicular ligament.r",
+    "type": "MESH",
+    "dataBlock": "Plantar calcaneonavicular ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Right foot",
+      "Right lower limb",
+      "Talocalcaneonavicular joint"
+    ]
+  },
+  {
+    "name": "Plantar cuboideonavicular ligament.l",
+    "type": "MESH",
+    "dataBlock": "Plantar cuboideonavicular ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Cuboidonavicular joint",
+      "Left foot",
+      "Left lower limb"
+    ]
+  },
+  {
+    "name": "Plantar cuboideonavicular ligament.r",
+    "type": "MESH",
+    "dataBlock": "Plantar cuboideonavicular ligament",
+    "baseVertices": 4,
+    "basePolygons": 1,
+    "collections": [
+      "3: Joints",
+      "Cuboidonavicular joint",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Plantar metatarsal arteries.l",
+    "type": "CURVE",
+    "dataBlock": "Plantar metatarsal arteries",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Left foot",
+      "Left lower limb",
+      "Systemic arteries"
+    ]
+  },
+  {
+    "name": "Plantar metatarsal arteries.r",
+    "type": "CURVE",
+    "dataBlock": "Plantar metatarsal arteries",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Right foot",
+      "Right lower limb",
+      "Systemic arteries"
+    ]
+  },
+  {
+    "name": "Plantar metatarsal veins.l",
+    "type": "CURVE",
+    "dataBlock": "Plantar metatarsal veins",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Left foot",
+      "Left lower limb",
+      "Systemic veins"
+    ]
+  },
+  {
+    "name": "Plantar metatarsal veins.r",
+    "type": "CURVE",
+    "dataBlock": "Plantar metatarsal veins",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "5: Cardiovascular system",
+      "Right foot",
+      "Right lower limb",
+      "Systemic veins"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fifth finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fifth finger of foot",
+    "baseVertices": 260,
+    "basePolygons": 516,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fifth finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fifth finger of hand",
+    "baseVertices": 282,
+    "basePolygons": 560,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fifth finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fifth finger of hand",
+    "baseVertices": 282,
+    "basePolygons": 560,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of first finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of first finger of foot",
+    "baseVertices": 268,
+    "basePolygons": 517,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of first finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of first finger of foot",
+    "baseVertices": 268,
+    "basePolygons": 517,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of first finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of first finger of hand",
+    "baseVertices": 166,
+    "basePolygons": 328,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of first finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of first finger of hand",
+    "baseVertices": 166,
+    "basePolygons": 328,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fourth finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fourth finger of foot",
+    "baseVertices": 232,
+    "basePolygons": 460,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fourth finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fourth finger of foot",
+    "baseVertices": 232,
+    "basePolygons": 460,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fourth finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fourth finger of hand",
+    "baseVertices": 186,
+    "basePolygons": 368,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of fourth finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of fourth finger of hand",
+    "baseVertices": 186,
+    "basePolygons": 368,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of second finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of second finger of foot",
+    "baseVertices": 215,
+    "basePolygons": 424,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of second finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of second finger of foot",
+    "baseVertices": 215,
+    "basePolygons": 424,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of second finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of second finger of hand",
+    "baseVertices": 209,
+    "basePolygons": 414,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of second finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of second finger of hand",
+    "baseVertices": 209,
+    "basePolygons": 414,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of third finger of foot.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of third finger of foot",
+    "baseVertices": 232,
+    "basePolygons": 458,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of third finger of foot.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of third finger of foot",
+    "baseVertices": 232,
+    "basePolygons": 458,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of third finger of hand.l",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of third finger of hand",
+    "baseVertices": 222,
+    "basePolygons": 439,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Left upper limb",
+      "Right hand"
+    ]
+  },
+  {
+    "name": "Proximal phalanx of third finger of hand.r",
+    "type": "MESH",
+    "dataBlock": "Proximal phalanx of third finger of hand",
+    "baseVertices": 222,
+    "basePolygons": 439,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bonus collection",
+      "Right hand",
+      "Right upper limb"
+    ]
+  },
+  {
+    "name": "Second metatarsal bone.l",
+    "type": "MESH",
+    "dataBlock": "Second metatarsal bone",
+    "baseVertices": 347,
+    "basePolygons": 690,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Superficial transverse metatarsal ligament.l",
+    "type": "MESH",
+    "dataBlock": "Superficial transverse metatarsal ligament",
+    "baseVertices": 66,
+    "basePolygons": 55,
+    "collections": [
+      "4: Muscular system",
+      "Left lower limb",
+      "Muscles",
+      "Muscles of lower limb",
+      "Superficial muscles"
+    ]
+  },
+  {
+    "name": "Superficial transverse metatarsal ligament.r",
+    "type": "MESH",
+    "dataBlock": "Superficial transverse metatarsal ligament",
+    "baseVertices": 66,
+    "basePolygons": 55,
+    "collections": [
+      "4: Muscular system",
+      "Muscles",
+      "Muscles of lower limb",
+      "Right lower limb",
+      "Superficial muscles"
+    ]
+  },
+  {
+    "name": "Talonavicular ligament.l",
+    "type": "MESH",
+    "dataBlock": "Talonavicular ligament",
+    "baseVertices": 12,
+    "basePolygons": 6,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Talocalcaneonavicular joint"
+    ]
+  },
+  {
+    "name": "Talonavicular ligament.r",
+    "type": "MESH",
+    "dataBlock": "Talonavicular ligament",
+    "baseVertices": 12,
+    "basePolygons": 6,
+    "collections": [
+      "3: Joints",
+      "Right foot",
+      "Right lower limb",
+      "Talocalcaneonavicular joint"
+    ]
+  },
+  {
+    "name": "Tarsometatarsal joints.g",
+    "type": "FONT",
+    "dataBlock": "Tarsometatarsal joints.g",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Tarsometatarsal joints.j",
+    "type": "MESH",
+    "dataBlock": "Tarsometatarsal joints.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "3: Joints",
+      "Left foot"
+    ]
+  },
+  {
+    "name": "Third metatarsal bone.l",
+    "type": "MESH",
+    "dataBlock": "Third metatarsal bone",
+    "baseVertices": 409,
+    "basePolygons": 804,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Third metatarsal bone.r",
+    "type": "MESH",
+    "dataBlock": "Third metatarsal bone",
+    "baseVertices": 409,
+    "basePolygons": 804,
+    "collections": [
+      "1: Skeletal system",
+      "Appendicular skeleton",
+      "Bones of free lower limb",
+      "Bones of lower limb",
+      "Bonus collection",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Tibionavicular ligament.l",
+    "type": "MESH",
+    "dataBlock": "Tibionavicular ligament",
+    "baseVertices": 21,
+    "basePolygons": 10,
+    "collections": [
+      "3: Joints",
+      "Left foot",
+      "Left lower limb",
+      "Medial collateral ligament"
+    ]
+  },
+  {
+    "name": "Tibionavicular ligament.r",
+    "type": "MESH",
+    "dataBlock": "Tibionavicular ligament",
+    "baseVertices": 21,
+    "basePolygons": 10,
+    "collections": [
+      "3: Joints",
+      "Medial collateral ligament",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of foot.i",
+    "type": "MESH",
+    "dataBlock": "Trochlea of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of foot.j",
+    "type": "MESH",
+    "dataBlock": "Trochlea of phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of foot.s",
+    "type": "FONT",
+    "dataBlock": "Trochlea of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of foot.t",
+    "type": "FONT",
+    "dataBlock": "Trochlea of phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Head of phalanx of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of hand.i",
+    "type": "MESH",
+    "dataBlock": "Trochlea of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of hand.j",
+    "type": "MESH",
+    "dataBlock": "Trochlea of phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of hand.s",
+    "type": "FONT",
+    "dataBlock": "Trochlea of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Trochlea of phalanx of hand.t",
+    "type": "FONT",
+    "dataBlock": "Trochlea of phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Tuberosity of cuboid bone.i",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of cuboid bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Tuberosity of cuboid bone.j",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of cuboid bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Tuberosity of cuboid bone.s",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of cuboid bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Left lower limb",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Tuberosity of cuboid bone.t",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of cuboid bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Cuboid bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of foot.i",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of distal phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Phalanges of foot",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of foot.j",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of distal phalanx of foot.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Phalanges of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of foot.s",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of distal phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Phalanges of foot",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of foot.t",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of distal phalanx of foot.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Phalanges of foot",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of hand.i",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of distal phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of hand.j",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of distal phalanx of hand.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of hand.s",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of distal phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Tuberosity of distal phalanx of hand.t",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of distal phalanx of hand.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection"
+    ]
+  },
+  {
+    "name": "Tuberosity of navicular bone.i",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of navicular bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Navicular bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Tuberosity of navicular bone.j",
+    "type": "MESH",
+    "dataBlock": "Tuberosity of navicular bone.j",
+    "baseVertices": 2,
+    "basePolygons": 0,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Navicular bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  },
+  {
+    "name": "Tuberosity of navicular bone.s",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of navicular bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Left lower limb",
+      "Navicular bone",
+      "Right foot"
+    ]
+  },
+  {
+    "name": "Tuberosity of navicular bone.t",
+    "type": "FONT",
+    "dataBlock": "Tuberosity of navicular bone.t",
+    "baseVertices": null,
+    "basePolygons": null,
+    "collections": [
+      "1: Skeletal system",
+      "Bonus collection",
+      "Navicular bone",
+      "Right foot",
+      "Right lower limb"
+    ]
+  }
+]

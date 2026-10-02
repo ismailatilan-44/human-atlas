@@ -1,0 +1,5863 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "objects": [
+    {
+      "geometry": {
+        "sourceObject": "Cuboid bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Cuboid bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBCuboid bone.l\", name=\"M3\", address=0x75e3dbaf60>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBCuboid bone.l\", name=\"SheetGenerator\", address=0x75e3dbb020>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBCuboid bone.l\", name=\"BIMObjectProperties\", address=0x75e3dbb0e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.09583570808172226
+          ],
+          [
+            0.0,
+            0.9999990463256836,
+            -4.263256414560601e-14,
+            0.006868795026093721
+          ],
+          [
+            0.0,
+            2.8421692489745062e-14,
+            0.9999997019767761,
+            0.04272758215665817
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999987483027439,
+        "sourceWorldBounds": [
+          [
+            0.07952053099870682,
+            -0.010719501413404942,
+            0.028904268518090248
+          ],
+          [
+            0.11175450682640076,
+            0.023472556844353676,
+            0.05976192280650139
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.07952053099870682,
+            0.028904268518090248,
+            -0.023472556844353676
+          ],
+          [
+            0.11175450682640076,
+            0.05976192280650139,
+            0.010719501413404942
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.03223397582769394,
+          0.03085765428841114,
+          0.03419205825775862
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 501,
+        "evaluatedTriangles": 998,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 501,
+        "basePolygons": 994,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.0035102803817581e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            501
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "9a9ab9e928bfdc92a4538d392896a473aed0f811bfaf1e171a270fc2728873d4"
+      },
+      "proposedEnglishDisplayAlias": "Left cuboid bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Cuboid bone.r",
+          "type": "MESH",
+          "basePolygons": 994,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Cuboid bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Cuboid bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBCuboid bone.r\", name=\"M3\", address=0x75e3dbb920>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBCuboid bone.r\", name=\"SheetGenerator\", address=0x75e3dbb9e0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBCuboid bone.r\", name=\"BIMObjectProperties\", address=0x75e3dbbaa0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.09583570808172226
+          ],
+          [
+            0.0,
+            0.9999990463256836,
+            -4.263256414560601e-14,
+            0.006868795026093721
+          ],
+          [
+            0.0,
+            2.8421692489745062e-14,
+            0.9999997019767761,
+            0.04272758215665817
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999987483027439,
+        "sourceWorldBounds": [
+          [
+            -0.11175450682640076,
+            -0.010719501413404942,
+            0.028904268518090248
+          ],
+          [
+            -0.07952053099870682,
+            0.023472556844353676,
+            0.05976192280650139
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.11175450682640076,
+            0.028904268518090248,
+            -0.023472556844353676
+          ],
+          [
+            -0.07952053099870682,
+            0.05976192280650139,
+            0.010719501413404942
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.03223397582769394,
+          0.03085765428841114,
+          0.03419205825775862
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 501,
+        "evaluatedTriangles": 998,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 501,
+        "basePolygons": 994,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.0035102803817581e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            501
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "8cb9b84fb8b0a9eed7e890e0128d16048ea038a68351a601722e489e452807f5"
+      },
+      "proposedEnglishDisplayAlias": "Right cuboid bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Cuboid bone.l",
+          "type": "MESH",
+          "basePolygons": 994,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of fifth finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of fifth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of fifth finger of foot.l\", name=\"M3\", address=0x75e3e2aba0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of fifth finger of foot.l\", name=\"SheetGenerator\", address=0x75e3e2ac60>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of fifth finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e3e2ad20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999997615814209,
+            0.0,
+            0.0,
+            0.14270414412021637
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -4.2632553981210644e-14,
+            -0.09051455557346344
+          ],
+          [
+            0.0,
+            2.8421697571942746e-14,
+            0.999999463558197,
+            0.011891755275428295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999984502799641,
+        "sourceWorldBounds": [
+          [
+            0.13852769136428833,
+            -0.09651320427656174,
+            0.009203300811350346
+          ],
+          [
+            0.14641644060611725,
+            -0.0855850949883461,
+            0.014837618917226791
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.13852769136428833,
+            0.009203300811350346,
+            0.0855850949883461
+          ],
+          [
+            0.14641644060611725,
+            0.014837618917226791,
+            0.09651320427656174
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.007888749241828918,
+          0.005634318105876446,
+          0.010928109288215637
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 120,
+        "evaluatedTriangles": 236,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 120,
+        "basePolygons": 222,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.5978957439046095e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            120
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "4c629b8b83028f8a7c68d2596f9013913b4de092a78df7b87aec4f2f3c13f773"
+      },
+      "proposedEnglishDisplayAlias": "Left distal phalanx of fifth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of fifth finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 222,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of fifth finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of fifth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of fifth finger of foot.r\", name=\"M3\", address=0x75e3e2b560>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of fifth finger of foot.r\", name=\"SheetGenerator\", address=0x75e3e2b620>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of fifth finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e3e2b6e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999997615814209,
+            0.0,
+            0.0,
+            -0.14270414412021637
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -4.2632553981210644e-14,
+            -0.09051455557346344
+          ],
+          [
+            0.0,
+            2.8421697571942746e-14,
+            0.999999463558197,
+            0.011891755275428295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999984502799641,
+        "sourceWorldBounds": [
+          [
+            -0.14641644060611725,
+            -0.09651320427656174,
+            0.009203300811350346
+          ],
+          [
+            -0.13852769136428833,
+            -0.0855850949883461,
+            0.014837618917226791
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.14641644060611725,
+            0.009203300811350346,
+            0.0855850949883461
+          ],
+          [
+            -0.13852769136428833,
+            0.014837618917226791,
+            0.09651320427656174
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.007888749241828918,
+          0.005634318105876446,
+          0.010928109288215637
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 120,
+        "evaluatedTriangles": 236,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 120,
+        "basePolygons": 222,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.5978957439046095e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            120
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "389b64542cfc92f8562c077e3f6f152da580eefd4ed4af50bd245340979f4785"
+      },
+      "proposedEnglishDisplayAlias": "Right distal phalanx of fifth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of fifth finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 222,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of first finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of first finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of first finger of foot.l\", name=\"M3\", address=0x75e3e35160>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of first finger of foot.l\", name=\"SheetGenerator\", address=0x75e3e35220>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of first finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e3e352e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999998807907104,
+            0.0,
+            0.0,
+            0.08134625107049942
+          ],
+          [
+            0.0,
+            0.9999995827674866,
+            -4.263256075747422e-14,
+            -0.12093670666217804
+          ],
+          [
+            0.0,
+            2.8421707736338113e-14,
+            0.9999996423721313,
+            0.01403401792049408
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.99999910593057,
+        "sourceWorldBounds": [
+          [
+            0.06975451856851578,
+            -0.13462211191654205,
+            0.009948317892849445
+          ],
+          [
+            0.09042906016111374,
+            -0.10771144181489944,
+            0.02141735889017582
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.06975451856851578,
+            0.009948317892849445,
+            0.10771144181489944
+          ],
+          [
+            0.09042906016111374,
+            0.02141735889017582,
+            0.13462211191654205
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.02067454159259796,
+          0.011469040997326374,
+          0.02691067010164261
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 235,
+        "evaluatedTriangles": 466,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 235,
+        "basePolygons": 466,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.060195605325288e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            235
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "837378dc6d3b90044362f90fa153de35b298006c1ed97f4314c9d3e11bc3cce7"
+      },
+      "proposedEnglishDisplayAlias": "Left distal phalanx of first toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of first finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 466,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of first finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of first finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of first finger of foot.r\", name=\"M3\", address=0x75e3e35b20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of first finger of foot.r\", name=\"SheetGenerator\", address=0x75e3e35be0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of first finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e3e35ca0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999998807907104,
+            0.0,
+            0.0,
+            -0.08134625107049942
+          ],
+          [
+            0.0,
+            0.9999995827674866,
+            -4.263256075747422e-14,
+            -0.12093670666217804
+          ],
+          [
+            0.0,
+            2.8421707736338113e-14,
+            0.9999996423721313,
+            0.01403401792049408
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.99999910593057,
+        "sourceWorldBounds": [
+          [
+            -0.09042906016111374,
+            -0.13462211191654205,
+            0.009948317892849445
+          ],
+          [
+            -0.06975451856851578,
+            -0.10771144181489944,
+            0.02141735889017582
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.09042906016111374,
+            0.009948317892849445,
+            0.10771144181489944
+          ],
+          [
+            -0.06975451856851578,
+            0.02141735889017582,
+            0.13462211191654205
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.02067454159259796,
+          0.011469040997326374,
+          0.02691067010164261
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 235,
+        "evaluatedTriangles": 466,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 235,
+        "basePolygons": 466,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.060195605325288e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            235
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "be696e261dc85332ac94e0dbb3bafba19b536b553839f3850a10abfe3a3369b9"
+      },
+      "proposedEnglishDisplayAlias": "Right distal phalanx of first toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of first finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 466,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of fourth finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of fourth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of fourth finger of foot.l\", name=\"M3\", address=0x75e3e376e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of fourth finger of foot.l\", name=\"SheetGenerator\", address=0x75e3e377a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of fourth finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e3e37860>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999997019767761,
+            0.0,
+            0.0,
+            0.13242065906524658
+          ],
+          [
+            0.0,
+            0.9999991059303284,
+            -4.263256075747422e-14,
+            -0.10858065634965897
+          ],
+          [
+            0.0,
+            2.8421694183810957e-14,
+            0.9999996423721313,
+            0.012222472578287125
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999984502799286,
+        "sourceWorldBounds": [
+          [
+            0.12778301537036896,
+            -0.11540326476097107,
+            0.00923933181911707
+          ],
+          [
+            0.13657230138778687,
+            -0.10372728109359741,
+            0.01657186634838581
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.12778301537036896,
+            0.00923933181911707,
+            0.10372728109359741
+          ],
+          [
+            0.13657230138778687,
+            0.01657186634838581,
+            0.11540326476097107
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.008789286017417908,
+          0.007332534529268742,
+          0.011675983667373657
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 141,
+        "evaluatedTriangles": 278,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 141,
+        "basePolygons": 278,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.9296141886900603e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            141
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "5cdd37e68249c9dbf83e78fda342d62d33b71540ba277833423304072cdbd952"
+      },
+      "proposedEnglishDisplayAlias": "Left distal phalanx of fourth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of fourth finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 278,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of fourth finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of fourth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of fourth finger of foot.r\", name=\"M3\", address=0x75e3e380e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of fourth finger of foot.r\", name=\"SheetGenerator\", address=0x75e3e381a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of fourth finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e3e38260>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999997019767761,
+            0.0,
+            0.0,
+            -0.13242068886756897
+          ],
+          [
+            0.0,
+            0.9999991059303284,
+            -4.263256075747422e-14,
+            -0.10858065634965897
+          ],
+          [
+            0.0,
+            2.8421694183810957e-14,
+            0.9999996423721313,
+            0.012222472578287125
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999984502799286,
+        "sourceWorldBounds": [
+          [
+            -0.13657233119010925,
+            -0.11540326476097107,
+            0.00923933181911707
+          ],
+          [
+            -0.12778304517269135,
+            -0.10372728109359741,
+            0.01657186634838581
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.13657233119010925,
+            0.00923933181911707,
+            0.10372728109359741
+          ],
+          [
+            -0.12778304517269135,
+            0.01657186634838581,
+            0.11540326476097107
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.008789286017417908,
+          0.007332534529268742,
+          0.011675983667373657
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 141,
+        "evaluatedTriangles": 278,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 141,
+        "basePolygons": 278,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.9296141886900603e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            141
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "05f13cc6fe0b2c8f74a464da04e7446c59e34f65a9f91f49d4240df6da27cd5f"
+      },
+      "proposedEnglishDisplayAlias": "Right distal phalanx of fourth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of fourth finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 278,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of second finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of second finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of second finger of foot.l\", name=\"M3\", address=0x75e3e39ca0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of second finger of foot.l\", name=\"SheetGenerator\", address=0x75e3e39d60>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of second finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e3e39e20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0000003576278687,
+            0.0,
+            0.0,
+            0.10423606634140015
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263257092186959e-14,
+            -0.12940993905067444
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999998211860657,
+            0.01287590991705656
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999994635580052,
+        "sourceWorldBounds": [
+          [
+            0.09870919585227966,
+            -0.1373080015182495,
+            0.009463061578571796
+          ],
+          [
+            0.10889412462711334,
+            -0.12364142388105392,
+            0.017046475782990456
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.09870919585227966,
+            0.009463061578571796,
+            0.12364142388105392
+          ],
+          [
+            0.10889412462711334,
+            0.017046475782990456,
+            0.1373080015182495
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01018492877483368,
+          0.007583414204418659,
+          0.013666577637195587
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 120,
+        "evaluatedTriangles": 236,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 120,
+        "basePolygons": 236,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.8064700239780235e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            120
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "e3822cad2aabaa9d1769d9955b6cd9e5fcc875707f6c05cc0c4bf2591e622f7e"
+      },
+      "proposedEnglishDisplayAlias": "Left distal phalanx of second toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of second finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 236,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of second finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of second finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of second finger of foot.r\", name=\"M3\", address=0x75e3e3a660>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of second finger of foot.r\", name=\"SheetGenerator\", address=0x75e3e3a720>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of second finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e3e3a7e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0000003576278687,
+            0.0,
+            0.0,
+            -0.10423606634140015
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263257092186959e-14,
+            -0.12940993905067444
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999998211860657,
+            0.01287590991705656
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999994635580052,
+        "sourceWorldBounds": [
+          [
+            -0.10889412462711334,
+            -0.1373080015182495,
+            0.009463061578571796
+          ],
+          [
+            -0.09870919585227966,
+            -0.12364142388105392,
+            0.017046475782990456
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.10889412462711334,
+            0.009463061578571796,
+            0.12364142388105392
+          ],
+          [
+            -0.09870919585227966,
+            0.017046475782990456,
+            0.1373080015182495
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01018492877483368,
+          0.007583414204418659,
+          0.013666577637195587
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 120,
+        "evaluatedTriangles": 236,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 120,
+        "basePolygons": 236,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.8064700239780235e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            120
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ed5af478cd79b8f0b32125d42b283cd1b1c89094fca754c2098d631f38e81f71"
+      },
+      "proposedEnglishDisplayAlias": "Right distal phalanx of second toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of second finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 236,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of third finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of third finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of third finger of foot.l\", name=\"M3\", address=0x75e3e3c260>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of third finger of foot.l\", name=\"SheetGenerator\", address=0x75e3e3c320>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of third finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e3e3c3e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.11923842877149582
+          ],
+          [
+            0.0,
+            0.9999994039535522,
+            -4.263254381681528e-14,
+            -0.1232488751411438
+          ],
+          [
+            0.0,
+            2.842170265414043e-14,
+            0.9999992251396179,
+            0.012435142882168293
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.999998569489069,
+        "sourceWorldBounds": [
+          [
+            0.11437457799911499,
+            -0.13027484714984894,
+            0.009477684274315834
+          ],
+          [
+            0.12322283536195755,
+            -0.11827965080738068,
+            0.015641484409570694
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.11437457799911499,
+            0.009477684274315834,
+            0.11827965080738068
+          ],
+          [
+            0.12322283536195755,
+            0.015641484409570694,
+            0.13027484714984894
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.00884825736284256,
+          0.00616380013525486,
+          0.011995196342468262
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 161,
+        "evaluatedTriangles": 318,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 161,
+        "basePolygons": 318,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.6190884606884505e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            161
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "937f31059d752f2a64b2460bf0de61fb16064ca3831010ac3dc240185e1bf945"
+      },
+      "proposedEnglishDisplayAlias": "Left distal phalanx of third toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of third finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 318,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Distal phalanx of third finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Distal phalanx of third finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBDistal phalanx of third finger of foot.r\", name=\"M3\", address=0x75e3e3cc20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBDistal phalanx of third finger of foot.r\", name=\"SheetGenerator\", address=0x75e3e3cce0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBDistal phalanx of third finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e3e3cda0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.11923844367265701
+          ],
+          [
+            0.0,
+            0.9999994039535522,
+            -4.263254381681528e-14,
+            -0.1232488751411438
+          ],
+          [
+            0.0,
+            2.842170265414043e-14,
+            0.9999992251396179,
+            0.012435142882168293
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.999998569489069,
+        "sourceWorldBounds": [
+          [
+            -0.12322285026311874,
+            -0.13027484714984894,
+            0.009477684274315834
+          ],
+          [
+            -0.11437459290027618,
+            -0.11827965080738068,
+            0.015641484409570694
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.12322285026311874,
+            0.009477684274315834,
+            0.11827965080738068
+          ],
+          [
+            -0.11437459290027618,
+            0.015641484409570694,
+            0.13027484714984894
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.00884825736284256,
+          0.00616380013525486,
+          0.011995196342468262
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 161,
+        "evaluatedTriangles": 318,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 161,
+        "basePolygons": 318,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.6190884606884505e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            161
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "a8d6f242894ac192ed278cacd411086516e3a536ce0c31821e320d2ed95695db"
+      },
+      "proposedEnglishDisplayAlias": "Right distal phalanx of third toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Distal phalanx of third finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 318,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Fifth metatarsal bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Fifth metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFifth metatarsal bone.l\", name=\"M3\", address=0x75e3f86060>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFifth metatarsal bone.l\", name=\"SheetGenerator\", address=0x75e3f86120>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBFifth metatarsal bone.l\", name=\"BIMObjectProperties\", address=0x75e3f861e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999998211860657,
+            0.0,
+            0.0,
+            0.11902479827404022
+          ],
+          [
+            0.0,
+            0.9999991059303284,
+            -4.263255736934243e-14,
+            -0.023149363696575165
+          ],
+          [
+            0.0,
+            2.8421694183810957e-14,
+            0.9999995231628418,
+            0.02453026920557022
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999984502799073,
+        "sourceWorldBounds": [
+          [
+            0.10093510150909424,
+            -0.059694577008485794,
+            0.009887400083243847
+          ],
+          [
+            0.1379590630531311,
+            0.014038313180208206,
+            0.04105851799249649
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.10093510150909424,
+            0.009887400083243847,
+            -0.014038313180208206
+          ],
+          [
+            0.1379590630531311,
+            0.04105851799249649,
+            0.059694577008485794
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.037023961544036865,
+          0.031171117909252644,
+          0.073732890188694
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 449,
+        "evaluatedTriangles": 894,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 449,
+        "basePolygons": 894,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.7502355983888356e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            449
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "104cddfe3caaf340419129a4b625929409387553fcd5637379dae20b610ec94a"
+      },
+      "proposedEnglishDisplayAlias": "Left fifth metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Fifth metatarsal bone.i",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.j",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.r",
+          "type": "MESH",
+          "basePolygons": 894,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.s",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.t",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Fifth metatarsal bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Fifth metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFifth metatarsal bone.r\", name=\"M3\", address=0x75e3f86a20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFifth metatarsal bone.r\", name=\"SheetGenerator\", address=0x75e3f86ae0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBFifth metatarsal bone.r\", name=\"BIMObjectProperties\", address=0x75e3f86ba0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999998211860657,
+            0.0,
+            0.0,
+            -0.11902481317520142
+          ],
+          [
+            0.0,
+            0.9999991059303284,
+            -4.263255736934243e-14,
+            -0.023149363696575165
+          ],
+          [
+            0.0,
+            2.8421694183810957e-14,
+            0.9999995231628418,
+            0.02453026920557022
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999984502799073,
+        "sourceWorldBounds": [
+          [
+            -0.1379590779542923,
+            -0.059694577008485794,
+            0.009887400083243847
+          ],
+          [
+            -0.10093511641025543,
+            0.014038313180208206,
+            0.04105851799249649
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.1379590779542923,
+            0.009887400083243847,
+            -0.014038313180208206
+          ],
+          [
+            -0.10093511641025543,
+            0.04105851799249649,
+            0.059694577008485794
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.037023961544036865,
+          0.031171117909252644,
+          0.073732890188694
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 449,
+        "evaluatedTriangles": 894,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 449,
+        "basePolygons": 894,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.7502355983888356e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            449
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "bfe080bfb7fe747d52baf25bcafe46407d38f6bb54018d75fa06a0699061adf7"
+      },
+      "proposedEnglishDisplayAlias": "Right fifth metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Fifth metatarsal bone.i",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.j",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.l",
+          "type": "MESH",
+          "basePolygons": 894,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.s",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "Fifth metatarsal bone.t",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "First metatarsal bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "First metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFirst metatarsal bone.l\", name=\"M3\", address=0x75e3f8b920>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFirst metatarsal bone.l\", name=\"SheetGenerator\", address=0x75e3f8b9e0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBFirst metatarsal bone.l\", name=\"BIMObjectProperties\", address=0x75e3f8baa0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.07197359204292297
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.05069882050156593
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999994039535522,
+            0.03473325073719025
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999986886982803,
+        "sourceWorldBounds": [
+          [
+            0.060315269976854324,
+            -0.08440997451543808,
+            0.014639528468251228
+          ],
+          [
+            0.08216327428817749,
+            -0.020834030583500862,
+            0.05953400209546089
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.060315269976854324,
+            0.014639528468251228,
+            0.020834030583500862
+          ],
+          [
+            0.08216327428817749,
+            0.05953400209546089,
+            0.08440997451543808
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.021848004311323166,
+          0.04489447362720966,
+          0.06357594393193722
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 546,
+        "evaluatedTriangles": 1088,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 546,
+        "basePolygons": 1087,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.1073247730969385e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            546
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "b162133dd0ca3e109edfcced0a6fde7f49811190d54ef53c628e0897d1a55fef"
+      },
+      "proposedEnglishDisplayAlias": "Left first metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "First metatarsal bone.i",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.j",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.r",
+          "type": "MESH",
+          "basePolygons": 1087,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.s",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.t",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "First metatarsal bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "First metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFirst metatarsal bone.r\", name=\"M3\", address=0x75e3f8c320>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFirst metatarsal bone.r\", name=\"SheetGenerator\", address=0x75e3f8c3e0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBFirst metatarsal bone.r\", name=\"BIMObjectProperties\", address=0x75e3f8c4a0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.07197360694408417
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.05069882050156593
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999994039535522,
+            0.03473325073719025
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999986886982803,
+        "sourceWorldBounds": [
+          [
+            -0.08216328918933868,
+            -0.08440997451543808,
+            0.014639528468251228
+          ],
+          [
+            -0.06031528487801552,
+            -0.020834030583500862,
+            0.05953400209546089
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.08216328918933868,
+            0.014639528468251228,
+            0.020834030583500862
+          ],
+          [
+            -0.06031528487801552,
+            0.05953400209546089,
+            0.08440997451543808
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.021848004311323166,
+          0.04489447362720966,
+          0.06357594393193722
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 546,
+        "evaluatedTriangles": 1088,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 546,
+        "basePolygons": 1087,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 4.1073247730969385e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            546
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "90be9b62e729bd51fd8724e672307eabb14e3e846316970e63323d426e23e66a"
+      },
+      "proposedEnglishDisplayAlias": "Right first metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "First metatarsal bone.i",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.j",
+          "type": "MESH",
+          "basePolygons": 0,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.l",
+          "type": "MESH",
+          "basePolygons": 1087,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.s",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        },
+        {
+          "name": "First metatarsal bone.t",
+          "type": "FONT",
+          "basePolygons": null,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Fourth metatarsal bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Fourth metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFourth metatarsal bone.l\", name=\"M3\", address=0x75e3fe4260>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFourth metatarsal bone.l\", name=\"SheetGenerator\", address=0x75e3fe4320>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBFourth metatarsal bone.l\", name=\"BIMObjectProperties\", address=0x75e3fe43e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0000001192092896,
+            0.0,
+            0.0,
+            0.1074683666229248
+          ],
+          [
+            0.0,
+            0.9999991059303284,
+            -4.2632553981210644e-14,
+            -0.03187720105051994
+          ],
+          [
+            0.0,
+            2.8421694183810957e-14,
+            0.999999463558197,
+            0.031344614923000336
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.999998688698124,
+        "sourceWorldBounds": [
+          [
+            0.09434925019741058,
+            -0.07218465954065323,
+            0.01241118274629116
+          ],
+          [
+            0.12422113120555878,
+            -0.003665836527943611,
+            0.049382250756025314
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.09434925019741058,
+            0.01241118274629116,
+            0.003665836527943611
+          ],
+          [
+            0.12422113120555878,
+            0.049382250756025314,
+            0.07218465954065323
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.029871881008148193,
+          0.036971068009734154,
+          0.06851882301270962
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 419,
+        "evaluatedTriangles": 834,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 419,
+        "basePolygons": 732,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.019632158887753e-13,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            419
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d3ab7732aec54a12a52090a5a1be1371e63319805c870bdc6aed803cbce447e9"
+      },
+      "proposedEnglishDisplayAlias": "Left fourth metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Fourth metatarsal bone.r",
+          "type": "MESH",
+          "basePolygons": 732,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Fourth metatarsal bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Fourth metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFourth metatarsal bone.r\", name=\"M3\", address=0x75e3fe4c20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFourth metatarsal bone.r\", name=\"SheetGenerator\", address=0x75e3fe4ce0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBFourth metatarsal bone.r\", name=\"BIMObjectProperties\", address=0x75e3fe4da0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0000001192092896,
+            0.0,
+            0.0,
+            -0.1074683666229248
+          ],
+          [
+            0.0,
+            0.9999991059303284,
+            -4.2632553981210644e-14,
+            -0.03187720105051994
+          ],
+          [
+            0.0,
+            2.8421694183810957e-14,
+            0.999999463558197,
+            0.031344614923000336
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.999998688698124,
+        "sourceWorldBounds": [
+          [
+            -0.12422113120555878,
+            -0.07218465954065323,
+            0.01241118274629116
+          ],
+          [
+            -0.09434925019741058,
+            -0.003665836527943611,
+            0.049382250756025314
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.12422113120555878,
+            0.01241118274629116,
+            0.003665836527943611
+          ],
+          [
+            -0.09434925019741058,
+            0.049382250756025314,
+            0.07218465954065323
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.029871881008148193,
+          0.036971068009734154,
+          0.06851882301270962
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 419,
+        "evaluatedTriangles": 834,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 419,
+        "basePolygons": 732,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.019632158887753e-13,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            419
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "05e6a08b08d09a3428f574e0a0d0c17bac81edae4a453f6870c998d1bb4f9d0f"
+      },
+      "proposedEnglishDisplayAlias": "Right fourth metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Fourth metatarsal bone.l",
+          "type": "MESH",
+          "basePolygons": 732,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Intermediate cuneiform bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Intermediate cuneiform bone.r",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBIntermediate cuneiform bone.l\", name=\"M3\", address=0x75e41e79e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBIntermediate cuneiform bone.l\", name=\"SheetGenerator\", address=0x75e41e7aa0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBIntermediate cuneiform bone.l\", name=\"BIMObjectProperties\", address=0x75e41e7b60>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999995827674866,
+            0.0,
+            0.0,
+            0.08294042944908142
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.0111231729388237
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999993443489075,
+            0.05848214030265808
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999982714662785,
+        "sourceWorldBounds": [
+          [
+            0.07385104894638062,
+            -0.02274273708462715,
+            0.04667773097753525
+          ],
+          [
+            0.09337491542100906,
+            0.0002193935215473175,
+            0.07069876044988632
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.07385104894638062,
+            0.04667773097753525,
+            -0.0002193935215473175
+          ],
+          [
+            0.09337491542100906,
+            0.07069876044988632,
+            0.02274273708462715
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01952386647462845,
+          0.024021029472351074,
+          0.02296213060617447
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 224,
+        "evaluatedTriangles": 444,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 224,
+        "basePolygons": 444,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.976613280301791e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            224
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "e852d650e64092e44a305c1a95baa6a6c51bc97344e0d349821329a029fc5204"
+      },
+      "proposedEnglishDisplayAlias": "Left intermediate cuneiform bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Intermediate cuneiform bone.r",
+          "type": "MESH",
+          "basePolygons": 444,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Intermediate cuneiform bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Intermediate cuneiform bone.r",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBIntermediate cuneiform bone.r\", name=\"M3\", address=0x75e41e83e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBIntermediate cuneiform bone.r\", name=\"SheetGenerator\", address=0x75e41e84a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBIntermediate cuneiform bone.r\", name=\"BIMObjectProperties\", address=0x75e41e8560>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999995827674866,
+            0.0,
+            0.0,
+            -0.08294042944908142
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.0111231729388237
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999993443489075,
+            0.05848214030265808
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999982714662785,
+        "sourceWorldBounds": [
+          [
+            -0.09337491542100906,
+            -0.02274273708462715,
+            0.04667773097753525
+          ],
+          [
+            -0.07385104894638062,
+            0.0002193935215473175,
+            0.07069876044988632
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.09337491542100906,
+            0.04667773097753525,
+            -0.0002193935215473175
+          ],
+          [
+            -0.07385104894638062,
+            0.07069876044988632,
+            0.02274273708462715
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01952386647462845,
+          0.024021029472351074,
+          0.02296213060617447
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 224,
+        "evaluatedTriangles": 444,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 224,
+        "basePolygons": 444,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.976613280301791e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            224
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ff3838194d9efc6bba5fc653360e1a1da54462793b880ba0ecedb2d7aa2dadf9"
+      },
+      "proposedEnglishDisplayAlias": "Right intermediate cuneiform bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Intermediate cuneiform bone.l",
+          "type": "MESH",
+          "basePolygons": 444,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Lateral cuneiform bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Lateral cuneiform bone.r",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBLateral cuneiform bone.l\", name=\"M3\", address=0x75e42df020>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBLateral cuneiform bone.l\", name=\"SheetGenerator\", address=0x75e42df0e0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBLateral cuneiform bone.l\", name=\"BIMObjectProperties\", address=0x75e42df1a0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999995827674866,
+            0.0,
+            0.0,
+            0.09143959730863571
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.006218981929123402
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999993443489075,
+            0.0516832061111927
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999982714662785,
+        "sourceWorldBounds": [
+          [
+            0.08131526410579681,
+            -0.020269636064767838,
+            0.04022442176938057
+          ],
+          [
+            0.10554154217243195,
+            0.00620107538998127,
+            0.06708493083715439
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.08131526410579681,
+            0.04022442176938057,
+            -0.00620107538998127
+          ],
+          [
+            0.10554154217243195,
+            0.06708493083715439,
+            0.020269636064767838
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.024226278066635132,
+          0.02686050906777382,
+          0.026470711454749107
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 321,
+        "evaluatedTriangles": 638,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 321,
+        "basePolygons": 632,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.0216758583947146e-11,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            321
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "e0f65de98ff85cc026aeca8ece79f8f62ef0d61f20b77462c2d22678ae1fa6b6"
+      },
+      "proposedEnglishDisplayAlias": "Left lateral cuneiform bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Lateral cuneiform bone.r",
+          "type": "MESH",
+          "basePolygons": 632,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Lateral cuneiform bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Lateral cuneiform bone.r",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBLateral cuneiform bone.r\", name=\"M3\", address=0x75e42df9e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBLateral cuneiform bone.r\", name=\"SheetGenerator\", address=0x75e42dfaa0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBLateral cuneiform bone.r\", name=\"BIMObjectProperties\", address=0x75e42dfb60>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999995827674866,
+            0.0,
+            0.0,
+            -0.09143959730863571
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.006218981929123402
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999993443489075,
+            0.0516832061111927
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999982714662785,
+        "sourceWorldBounds": [
+          [
+            -0.10554154217243195,
+            -0.020269636064767838,
+            0.04022442176938057
+          ],
+          [
+            -0.08131526410579681,
+            0.00620107538998127,
+            0.06708493083715439
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.10554154217243195,
+            0.04022442176938057,
+            -0.00620107538998127
+          ],
+          [
+            -0.08131526410579681,
+            0.06708493083715439,
+            0.020269636064767838
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.024226278066635132,
+          0.02686050906777382,
+          0.026470711454749107
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 321,
+        "evaluatedTriangles": 638,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 321,
+        "basePolygons": 632,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.0216758583947146e-11,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            321
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "39b7503586b42b2812d2f4f523fe073bb407f1049467e57fa4b6356056cc5f96"
+      },
+      "proposedEnglishDisplayAlias": "Right lateral cuneiform bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Lateral cuneiform bone.l",
+          "type": "MESH",
+          "basePolygons": 632,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Medial cuneiform bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Medial cuneiform bone.r",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMedial cuneiform bone.l\", name=\"M3\", address=0x75e44d1a60>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMedial cuneiform bone.l\", name=\"SheetGenerator\", address=0x75e44d1b20>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMedial cuneiform bone.l\", name=\"BIMObjectProperties\", address=0x75e44d1be0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999995827674866,
+            0.0,
+            0.0,
+            0.0705353170633316
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.01686369627714157
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999993443489075,
+            0.051217351108789444
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999982714662785,
+        "sourceWorldBounds": [
+          [
+            0.0580701008439064,
+            -0.03196221962571144,
+            0.035434503108263016
+          ],
+          [
+            0.08315329253673553,
+            0.0009967498481273651,
+            0.06773670017719269
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.0580701008439064,
+            0.035434503108263016,
+            -0.0009967498481273651
+          ],
+          [
+            0.08315329253673553,
+            0.06773670017719269,
+            0.03196221962571144
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.025083191692829132,
+          0.03230219706892967,
+          0.032958969473838806
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 498,
+        "evaluatedTriangles": 992,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 498,
+        "basePolygons": 968,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.2107028807178074e-11,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            498
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d4cc0206b09230afc8e4bd3fe21ca81b675eb3d394c9b219f84ea3c89509cff6"
+      },
+      "proposedEnglishDisplayAlias": "Left medial cuneiform bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Medial cuneiform bone.r",
+          "type": "MESH",
+          "basePolygons": 968,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Medial cuneiform bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Medial cuneiform bone.r",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMedial cuneiform bone.r\", name=\"M3\", address=0x75e44d2420>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMedial cuneiform bone.r\", name=\"SheetGenerator\", address=0x75e44d24e0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMedial cuneiform bone.r\", name=\"BIMObjectProperties\", address=0x75e44d25a0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999995827674866,
+            0.0,
+            0.0,
+            -0.0705353170633316
+          ],
+          [
+            0.0,
+            0.9999993443489075,
+            -4.2632550593078855e-14,
+            -0.01686369627714157
+          ],
+          [
+            0.0,
+            2.8421700960074535e-14,
+            0.9999993443489075,
+            0.051217351108789444
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999982714662785,
+        "sourceWorldBounds": [
+          [
+            -0.08315329253673553,
+            -0.03196221962571144,
+            0.035434503108263016
+          ],
+          [
+            -0.0580701008439064,
+            0.0009967498481273651,
+            0.06773670017719269
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.08315329253673553,
+            0.035434503108263016,
+            -0.0009967498481273651
+          ],
+          [
+            -0.0580701008439064,
+            0.06773670017719269,
+            0.03196221962571144
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.025083191692829132,
+          0.03230219706892967,
+          0.032958969473838806
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 498,
+        "evaluatedTriangles": 992,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 498,
+        "basePolygons": 968,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.2107028807178074e-11,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            498
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "4b32dbf4b5a3d69e393ef3332785b5e12472be97516f667a92334672d2766b20"
+      },
+      "proposedEnglishDisplayAlias": "Right medial cuneiform bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Medial cuneiform bone.l",
+          "type": "MESH",
+          "basePolygons": 968,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of fifth finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of fifth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of fifth finger of foot.l\", name=\"M3\", address=0x75e4581ca0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of fifth finger of foot.l\", name=\"SheetGenerator\", address=0x75e4581d60>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of fifth finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e4581e20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.14056292176246643
+          ],
+          [
+            0.0,
+            0.9999994039535522,
+            -4.263257092186959e-14,
+            -0.08297192305326462
+          ],
+          [
+            0.0,
+            2.842170265414043e-14,
+            0.9999998211860657,
+            0.012270467355847359
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999992251397245,
+        "sourceWorldBounds": [
+          [
+            0.13682787120342255,
+            -0.08756434917449951,
+            0.009575770236551762
+          ],
+          [
+            0.14542387425899506,
+            -0.07977449893951416,
+            0.016178354620933533
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.13682787120342255,
+            0.009575770236551762,
+            0.07977449893951416
+          ],
+          [
+            0.14542387425899506,
+            0.016178354620933533,
+            0.08756434917449951
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.00859600305557251,
+          0.006602584384381771,
+          0.0077898502349853516
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 110,
+        "evaluatedTriangles": 216,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 110,
+        "basePolygons": 216,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1376718025789307e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            110
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "718e0e4a3505cd99ac577e10cbb9d6f39a3c9395744cd582bd69781ae69743cf"
+      },
+      "proposedEnglishDisplayAlias": "Left middle phalanx of fifth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of fifth finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 216,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of fifth finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of fifth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of fifth finger of foot.r\", name=\"M3\", address=0x75e4582660>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of fifth finger of foot.r\", name=\"SheetGenerator\", address=0x75e4582720>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of fifth finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e45827e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.14056292176246643
+          ],
+          [
+            0.0,
+            0.9999994039535522,
+            -4.263257092186959e-14,
+            -0.08297192305326462
+          ],
+          [
+            0.0,
+            2.842170265414043e-14,
+            0.9999998211860657,
+            0.012270467355847359
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999992251397245,
+        "sourceWorldBounds": [
+          [
+            -0.14542387425899506,
+            -0.08756434917449951,
+            0.009575770236551762
+          ],
+          [
+            -0.13682787120342255,
+            -0.07977449893951416,
+            0.016178354620933533
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.14542387425899506,
+            0.009575770236551762,
+            0.07977449893951416
+          ],
+          [
+            -0.13682787120342255,
+            0.016178354620933533,
+            0.08756434917449951
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.00859600305557251,
+          0.006602584384381771,
+          0.0077898502349853516
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 110,
+        "evaluatedTriangles": 216,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 110,
+        "basePolygons": 216,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1376718025789307e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            110
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "059d4c5ccf2d8be63b3c9702131fd9cb2ac34bb12bc00bf4325b1162ac6a3fff"
+      },
+      "proposedEnglishDisplayAlias": "Right middle phalanx of fifth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of fifth finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 216,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of fourth finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of fourth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of fourth finger of foot.l\", name=\"M3\", address=0x75e4584260>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of fourth finger of foot.l\", name=\"SheetGenerator\", address=0x75e4584320>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of fourth finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e45843e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.12967441976070404
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263257092186959e-14,
+            -0.09890463948249817
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999998211860657,
+            0.01346635166555643
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999990463258648,
+        "sourceWorldBounds": [
+          [
+            0.12432035803794861,
+            -0.10633720457553864,
+            0.009819218888878822
+          ],
+          [
+            0.13546094298362732,
+            -0.09228324890136719,
+            0.018155645579099655
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.12432035803794861,
+            0.009819218888878822,
+            0.09228324890136719
+          ],
+          [
+            0.13546094298362732,
+            0.018155645579099655,
+            0.10633720457553864
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.011140584945678711,
+          0.008336426690220833,
+          0.014053955674171448
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 226,
+        "evaluatedTriangles": 448,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 226,
+        "basePolygons": 404,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.825403585474478e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            226
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "11388f420b51bb4a3735a8ed18cd91629d715967e5328f966a28d54c8806c8f0"
+      },
+      "proposedEnglishDisplayAlias": "Left middle phalanx of fourth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of fourth finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 404,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of fourth finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of fourth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of fourth finger of foot.r\", name=\"M3\", address=0x75e4584c20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of fourth finger of foot.r\", name=\"SheetGenerator\", address=0x75e4584ce0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of fourth finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e4584da0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.12967444956302643
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263257092186959e-14,
+            -0.09890463948249817
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999998211860657,
+            0.01346635166555643
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999990463258648,
+        "sourceWorldBounds": [
+          [
+            -0.1354609727859497,
+            -0.10633720457553864,
+            0.009819218888878822
+          ],
+          [
+            -0.124320387840271,
+            -0.09228324890136719,
+            0.018155645579099655
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.1354609727859497,
+            0.009819218888878822,
+            0.09228324890136719
+          ],
+          [
+            -0.124320387840271,
+            0.018155645579099655,
+            0.10633720457553864
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.011140584945678711,
+          0.008336426690220833,
+          0.014053955674171448
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 226,
+        "evaluatedTriangles": 448,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 226,
+        "basePolygons": 404,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.825403585474478e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            226
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "a4523d46aadee10675fd53d7d03668f2e41e51b38d114407eb61bcc19b37930f"
+      },
+      "proposedEnglishDisplayAlias": "Right middle phalanx of fourth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of fourth finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 404,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of second finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of second finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of second finger of foot.l\", name=\"M3\", address=0x75e45867e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of second finger of foot.l\", name=\"SheetGenerator\", address=0x75e45868a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of second finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e4586960>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999999403953552,
+            0.0,
+            0.0,
+            0.10164932906627655
+          ],
+          [
+            0.0,
+            0.9999990463256836,
+            -4.263256414560601e-14,
+            -0.1179833635687828
+          ],
+          [
+            0.0,
+            2.8421692489745062e-14,
+            0.9999997019767761,
+            0.015295806340873241
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999986886981738,
+        "sourceWorldBounds": [
+          [
+            0.0948350578546524,
+            -0.12656980752944946,
+            0.011842462234199047
+          ],
+          [
+            0.10716063529253006,
+            -0.10894273221492767,
+            0.020926164463162422
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.0948350578546524,
+            0.011842462234199047,
+            0.10894273221492767
+          ],
+          [
+            0.10716063529253006,
+            0.020926164463162422,
+            0.12656980752944946
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.012325577437877655,
+          0.009083702228963375,
+          0.01762707531452179
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 193,
+        "evaluatedTriangles": 382,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 193,
+        "basePolygons": 326,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.279315753533546e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            193
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ea441c87646ecbf9b3ded058318f6218f31259f2ac8a262380ea0ddee8f910e1"
+      },
+      "proposedEnglishDisplayAlias": "Left middle phalanx of second toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of second finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 326,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of second finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of second finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of second finger of foot.r\", name=\"M3\", address=0x75e45871a0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of second finger of foot.r\", name=\"SheetGenerator\", address=0x75e4587260>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of second finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e4587320>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999999403953552,
+            0.0,
+            0.0,
+            -0.10164934396743774
+          ],
+          [
+            0.0,
+            0.9999990463256836,
+            -4.263256414560601e-14,
+            -0.1179833635687828
+          ],
+          [
+            0.0,
+            2.8421692489745062e-14,
+            0.9999997019767761,
+            0.015295806340873241
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999986886981738,
+        "sourceWorldBounds": [
+          [
+            -0.10716065019369125,
+            -0.12656980752944946,
+            0.011842462234199047
+          ],
+          [
+            -0.0948350727558136,
+            -0.10894273221492767,
+            0.020926164463162422
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.10716065019369125,
+            0.011842462234199047,
+            0.10894273221492767
+          ],
+          [
+            -0.0948350727558136,
+            0.020926164463162422,
+            0.12656980752944946
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.012325577437877655,
+          0.009083702228963375,
+          0.01762707531452179
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 193,
+        "evaluatedTriangles": 382,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 193,
+        "basePolygons": 326,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.279315753533546e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            193
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "9eef8d97bc05d8a4a0ee1c6e4d6646c96d73b78fb9ebda4ab42a1600efc0b12b"
+      },
+      "proposedEnglishDisplayAlias": "Right middle phalanx of second toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of second finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 326,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of third finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of third finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of third finger of foot.l\", name=\"M3\", address=0x75e4588da0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of third finger of foot.l\", name=\"SheetGenerator\", address=0x75e4588e60>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of third finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e4588f20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.000000238418579,
+            0.0,
+            0.0,
+            0.11618366837501526
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -4.263257092186959e-14,
+            -0.11136918514966965
+          ],
+          [
+            0.0,
+            2.8421716206667585e-14,
+            0.9999998211860657,
+            0.014351220801472664
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999999403953055,
+        "sourceWorldBounds": [
+          [
+            0.11054730415344238,
+            -0.12083685398101807,
+            0.01096551213413477
+          ],
+          [
+            0.12165475636720657,
+            -0.10339878499507904,
+            0.019265066832304
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.11054730415344238,
+            0.01096551213413477,
+            0.10339878499507904
+          ],
+          [
+            0.12165475636720657,
+            0.019265066832304,
+            0.12083685398101807
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01110745221376419,
+          0.008299554698169231,
+          0.017438068985939026
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 202,
+        "evaluatedTriangles": 400,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 202,
+        "basePolygons": 359,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.2058141672566717e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            202
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "0e48ea8e6200b9769011a6a5d6783bd55a0afd3413b93a6dd8d4f05c5e3f8e9a"
+      },
+      "proposedEnglishDisplayAlias": "Left middle phalanx of third toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of third finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 359,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Middle phalanx of third finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Middle phalanx of third finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBMiddle phalanx of third finger of foot.r\", name=\"M3\", address=0x75e4589760>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBMiddle phalanx of third finger of foot.r\", name=\"SheetGenerator\", address=0x75e4589820>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBMiddle phalanx of third finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e45898e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.000000238418579,
+            0.0,
+            0.0,
+            -0.11618366837501526
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -4.263257092186959e-14,
+            -0.11136918514966965
+          ],
+          [
+            0.0,
+            2.8421716206667585e-14,
+            0.9999998211860657,
+            0.014351220801472664
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999999403953055,
+        "sourceWorldBounds": [
+          [
+            -0.12165475636720657,
+            -0.12083685398101807,
+            0.01096551213413477
+          ],
+          [
+            -0.11054730415344238,
+            -0.10339878499507904,
+            0.019265066832304
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.12165475636720657,
+            0.01096551213413477,
+            0.10339878499507904
+          ],
+          [
+            -0.11054730415344238,
+            0.019265066832304,
+            0.12083685398101807
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01110745221376419,
+          0.008299554698169231,
+          0.017438068985939026
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 202,
+        "evaluatedTriangles": 400,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 202,
+        "basePolygons": 359,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.2058141672566717e-12,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            202
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "b19fd1ee9c88c23ae4696a3e1cbf5c8c91a65eed1a306bb15d94879c4dc600a4"
+      },
+      "proposedEnglishDisplayAlias": "Right middle phalanx of third toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Middle phalanx of third finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 359,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Navicular bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Navicular bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBNavicular bone.l\", name=\"M3\", address=0x75e45d5fa0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBNavicular bone.l\", name=\"SheetGenerator\", address=0x75e45d6060>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBNavicular bone.l\", name=\"BIMObjectProperties\", address=0x75e45d6120>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.07503192126750946
+          ],
+          [
+            0.0,
+            0.9999996423721313,
+            -4.263256414560601e-14,
+            0.0033239147160202265
+          ],
+          [
+            0.0,
+            2.842170943040401e-14,
+            0.9999997019767761,
+            0.06414856016635895
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.999999344349014,
+        "sourceWorldBounds": [
+          [
+            0.05268992483615875,
+            -0.008928481489419937,
+            0.04845930263400078
+          ],
+          [
+            0.09337539225816727,
+            0.015108274295926094,
+            0.07597574591636658
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.05268992483615875,
+            0.04845930263400078,
+            -0.015108274295926094
+          ],
+          [
+            0.09337539225816727,
+            0.07597574591636658,
+            0.008928481489419937
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.040685467422008514,
+          0.0275164432823658,
+          0.02403675578534603
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 368,
+        "evaluatedTriangles": 732,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 368,
+        "basePolygons": 731,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.598976380943454e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            368
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "4e2508620d0e869769f62e1a036e9304b5895b82edbca4ccb9cf0eca7434ff9a"
+      },
+      "proposedEnglishDisplayAlias": "Left navicular bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Navicular bone.r",
+          "type": "MESH",
+          "basePolygons": 731,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Navicular bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Navicular bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Tarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBNavicular bone.r\", name=\"M3\", address=0x75e45d6960>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBNavicular bone.r\", name=\"SheetGenerator\", address=0x75e45d6a20>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBNavicular bone.r\", name=\"BIMObjectProperties\", address=0x75e45d6ae0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.07503192126750946
+          ],
+          [
+            0.0,
+            0.9999996423721313,
+            -4.263256414560601e-14,
+            0.0033239147160202265
+          ],
+          [
+            0.0,
+            2.842170943040401e-14,
+            0.9999997019767761,
+            0.06414856016635895
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.999999344349014,
+        "sourceWorldBounds": [
+          [
+            -0.09337539225816727,
+            -0.008928481489419937,
+            0.04845930263400078
+          ],
+          [
+            -0.05268992483615875,
+            0.015108274295926094,
+            0.07597574591636658
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.09337539225816727,
+            0.04845930263400078,
+            -0.015108274295926094
+          ],
+          [
+            -0.05268992483615875,
+            0.07597574591636658,
+            0.008928481489419937
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.040685467422008514,
+          0.0275164432823658,
+          0.02403675578534603
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 368,
+        "evaluatedTriangles": 732,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 368,
+        "basePolygons": 731,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.598976380943454e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            368
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "863c02048a3cb3fd24786a93a0913e4f5f318795210bb594e8133252d9f525a4"
+      },
+      "proposedEnglishDisplayAlias": "Right navicular bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Navicular bone.l",
+          "type": "MESH",
+          "basePolygons": 731,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of fifth finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of fifth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of fifth finger of foot.l\", name=\"M3\", address=0x75e481f260>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of fifth finger of foot.l\", name=\"SheetGenerator\", address=0x75e481f320>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of fifth finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e481f3e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999998211860657,
+            0.0,
+            0.0,
+            0.13567203283309937
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263255736934243e-14,
+            -0.06735506653785706
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999995231628418,
+            0.013348150998353958
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999986290937244,
+        "sourceWorldBounds": [
+          [
+            0.12629695236682892,
+            -0.08179861307144165,
+            0.009700258262455463
+          ],
+          [
+            0.1446382850408554,
+            -0.05501706898212433,
+            0.020145636051893234
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.12629695236682892,
+            0.009700258262455463,
+            0.05501706898212433
+          ],
+          [
+            0.1446382850408554,
+            0.020145636051893234,
+            0.08179861307144165
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01834133267402649,
+          0.01044537778943777,
+          0.026781544089317322
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 260,
+        "evaluatedTriangles": 516,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 260,
+        "basePolygons": 516,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.2837138210972478e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            260
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "0ed2f38689788b5b82379269dd3f45a54782d41d6042570f28a6cb4738fb2de6"
+      },
+      "proposedEnglishDisplayAlias": "Left proximal phalanx of fifth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of fifth finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 516,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of fifth finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of fifth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of fifth finger of foot.r\", name=\"M3\", address=0x75e4999b20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of fifth finger of foot.r\", name=\"SheetGenerator\", address=0x75e4999be0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of fifth finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e4999ca0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999998211860657,
+            0.0,
+            0.0,
+            -0.13567203283309937
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263255736934243e-14,
+            -0.06735506653785706
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999995231628418,
+            0.013348150998353958
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999986290937244,
+        "sourceWorldBounds": [
+          [
+            -0.1446382850408554,
+            -0.08179861307144165,
+            0.009700258262455463
+          ],
+          [
+            -0.12629695236682892,
+            -0.05501706898212433,
+            0.020145636051893234
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.1446382850408554,
+            0.009700258262455463,
+            0.05501706898212433
+          ],
+          [
+            -0.12629695236682892,
+            0.020145636051893234,
+            0.08179861307144165
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01834133267402649,
+          0.01044537778943777,
+          0.026781544089317322
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 260,
+        "evaluatedTriangles": 516,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 260,
+        "basePolygons": 516,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.2837138210972478e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            260
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "aa6a6feced685a4fd3ea805bffc7697e81f0b34e1743846fa663bb9174472137"
+      },
+      "proposedEnglishDisplayAlias": "Right proximal phalanx of fifth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of fifth finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 516,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of first finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of first finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of first finger of foot.l\", name=\"M3\", address=0x75e499b6e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of first finger of foot.l\", name=\"SheetGenerator\", address=0x75e499b7a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of first finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e499b860>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.000000238418579,
+            0.0,
+            0.0,
+            0.07464782148599625
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -4.263257431000138e-14,
+            -0.09664790332317352
+          ],
+          [
+            0.0,
+            2.8421716206667585e-14,
+            0.9999999403953552,
+            0.01798761822283268
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -1.0000000596046092,
+        "sourceWorldBounds": [
+          [
+            0.06089169904589653,
+            -0.11444135755300522,
+            0.011326523497700691
+          ],
+          [
+            0.08703815191984177,
+            -0.07992057502269745,
+            0.0290583036839962
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.06089169904589653,
+            0.011326523497700691,
+            0.07992057502269745
+          ],
+          [
+            0.08703815191984177,
+            0.0290583036839962,
+            0.11444135755300522
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.026146452873945236,
+          0.01773178018629551,
+          0.03452078253030777
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 268,
+        "evaluatedTriangles": 532,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 268,
+        "basePolygons": 517,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.8727372896757344e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            268
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "a4219219844561d819ff4c70bb32394617aad534091f624601110556b5e5647b"
+      },
+      "proposedEnglishDisplayAlias": "Left proximal phalanx of first toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of first finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 517,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of first finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of first finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of first finger of foot.r\", name=\"M3\", address=0x75e499c0e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of first finger of foot.r\", name=\"SheetGenerator\", address=0x75e499c1a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of first finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e499c260>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.000000238418579,
+            0.0,
+            0.0,
+            -0.07464782148599625
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -4.263257431000138e-14,
+            -0.09664790332317352
+          ],
+          [
+            0.0,
+            2.8421716206667585e-14,
+            0.9999999403953552,
+            0.01798761822283268
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 1.0000000596046092,
+        "sourceWorldBounds": [
+          [
+            -0.08703815191984177,
+            -0.11444135755300522,
+            0.011326523497700691
+          ],
+          [
+            -0.06089169904589653,
+            -0.07992057502269745,
+            0.0290583036839962
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.08703815191984177,
+            0.011326523497700691,
+            0.07992057502269745
+          ],
+          [
+            -0.06089169904589653,
+            0.0290583036839962,
+            0.11444135755300522
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.026146452873945236,
+          0.01773178018629551,
+          0.03452078253030777
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 268,
+        "evaluatedTriangles": 532,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 268,
+        "basePolygons": 517,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.8727372896757344e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            268
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "bfe4bddf593929799e5c2946da31e6d83e953ca825368a7541125a95814dbf2e"
+      },
+      "proposedEnglishDisplayAlias": "Right proximal phalanx of first toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of first finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 517,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of fourth finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of fourth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of fourth finger of foot.l\", name=\"M3\", address=0x75e499dca0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of fourth finger of foot.l\", name=\"SheetGenerator\", address=0x75e499dd60>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of fourth finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e499de20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999998807907104,
+            0.0,
+            0.0,
+            0.12324198335409164
+          ],
+          [
+            0.0,
+            0.9999988675117493,
+            -4.263256414560601e-14,
+            -0.0799800232052803
+          ],
+          [
+            0.0,
+            2.842168740754738e-14,
+            0.9999997019767761,
+            0.016453374177217484
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999984502797439,
+        "sourceWorldBounds": [
+          [
+            0.11410622298717499,
+            -0.09445495158433914,
+            0.009965846315026283
+          ],
+          [
+            0.13220921158790588,
+            -0.06846056878566742,
+            0.023723261430859566
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.11410622298717499,
+            0.009965846315026283,
+            0.06846056878566742
+          ],
+          [
+            0.13220921158790588,
+            0.023723261430859566,
+            0.09445495158433914
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.018102988600730896,
+          0.013757415115833282,
+          0.025994382798671722
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 232,
+        "evaluatedTriangles": 460,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 232,
+        "basePolygons": 460,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.0171543041259796e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            232
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "233cfcee13f10a389269d92d7dee0e8bbd19a4845d167422507f4e010ddb069b"
+      },
+      "proposedEnglishDisplayAlias": "Left proximal phalanx of fourth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of fourth finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 460,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of fourth finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of fourth finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of fourth finger of foot.r\", name=\"M3\", address=0x75e499e660>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of fourth finger of foot.r\", name=\"SheetGenerator\", address=0x75e499e720>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of fourth finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e499e7e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999998807907104,
+            0.0,
+            0.0,
+            -0.12324198335409164
+          ],
+          [
+            0.0,
+            0.9999988675117493,
+            -4.263256414560601e-14,
+            -0.0799800232052803
+          ],
+          [
+            0.0,
+            2.842168740754738e-14,
+            0.9999997019767761,
+            0.016453374177217484
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999984502797439,
+        "sourceWorldBounds": [
+          [
+            -0.13220921158790588,
+            -0.09445495158433914,
+            0.009965846315026283
+          ],
+          [
+            -0.11410622298717499,
+            -0.06846056878566742,
+            0.023723261430859566
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.13220921158790588,
+            0.009965846315026283,
+            0.06846056878566742
+          ],
+          [
+            -0.11410622298717499,
+            0.023723261430859566,
+            0.09445495158433914
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.018102988600730896,
+          0.013757415115833282,
+          0.025994382798671722
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 232,
+        "evaluatedTriangles": 460,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 232,
+        "basePolygons": 460,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.0171543041259796e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            232
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "fc65ed2dcf2cc111f32e58a1574947ef102d745109d868461a6d07e35f5f6ec9"
+      },
+      "proposedEnglishDisplayAlias": "Right proximal phalanx of fourth toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of fourth finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 460,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of second finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of second finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of second finger of foot.l\", name=\"M3\", address=0x75e49a0260>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of second finger of foot.l\", name=\"SheetGenerator\", address=0x75e49a0320>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of second finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e49a03e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -0.9999998211860657,
+            0.0,
+            0.0,
+            0.09566135704517365
+          ],
+          [
+            0.0,
+            0.999998927116394,
+            -4.263255736934243e-14,
+            -0.0981375202536583
+          ],
+          [
+            0.0,
+            2.8421689101613273e-14,
+            0.9999995827674866,
+            0.01855841651558876
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999983310706604,
+        "sourceWorldBounds": [
+          [
+            0.08660420775413513,
+            -0.11182725429534912,
+            0.013031238690018654
+          ],
+          [
+            0.10446777194738388,
+            -0.0824456587433815,
+            0.025983773171901703
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.08660420775413513,
+            0.013031238690018654,
+            0.0824456587433815
+          ],
+          [
+            0.10446777194738388,
+            0.025983773171901703,
+            0.11182725429534912
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01786356419324875,
+          0.012952534481883049,
+          0.02938159555196762
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 215,
+        "evaluatedTriangles": 426,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 215,
+        "basePolygons": 424,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.492564294233787e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            215
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "be27e82f8fcaa79d8a329b2d8d5de8cf9aae842a61e028c1d5c74836450859af"
+      },
+      "proposedEnglishDisplayAlias": "Left proximal phalanx of second toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of second finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 424,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of second finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of second finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of second finger of foot.r\", name=\"M3\", address=0x75e49a0c20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of second finger of foot.r\", name=\"SheetGenerator\", address=0x75e49a0ce0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of second finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e49a0da0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            0.9999998211860657,
+            0.0,
+            0.0,
+            -0.09566137194633484
+          ],
+          [
+            0.0,
+            0.999998927116394,
+            -4.263255736934243e-14,
+            -0.0981375202536583
+          ],
+          [
+            0.0,
+            2.8421689101613273e-14,
+            0.9999995827674866,
+            0.01855841651558876
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999983310706604,
+        "sourceWorldBounds": [
+          [
+            -0.10446778684854507,
+            -0.11182725429534912,
+            0.013031238690018654
+          ],
+          [
+            -0.08660422265529633,
+            -0.0824456587433815,
+            0.025983773171901703
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.10446778684854507,
+            0.013031238690018654,
+            0.0824456587433815
+          ],
+          [
+            -0.08660422265529633,
+            0.025983773171901703,
+            0.11182725429534912
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01786356419324875,
+          0.012952534481883049,
+          0.02938159555196762
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 215,
+        "evaluatedTriangles": 426,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 215,
+        "basePolygons": 424,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.492564294233787e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            215
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "395cbf1ee4468802f5e95ee74ed5834def5f608979b79ac4f4206006042e6231"
+      },
+      "proposedEnglishDisplayAlias": "Right proximal phalanx of second toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of second finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 424,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of third finger of foot.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of third finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of third finger of foot.l\", name=\"M3\", address=0x75e49a27e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of third finger of foot.l\", name=\"SheetGenerator\", address=0x75e49a28a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of third finger of foot.l\", name=\"BIMObjectProperties\", address=0x75e49a2960>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.11096876114606857
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -4.263254381681528e-14,
+            -0.0892457440495491
+          ],
+          [
+            0.0,
+            2.8421697571942746e-14,
+            0.9999992251396179,
+            0.017005031928420067
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999984502798362,
+        "sourceWorldBounds": [
+          [
+            0.1024104580283165,
+            -0.10629672557115555,
+            0.012157040648162365
+          ],
+          [
+            0.1188027486205101,
+            -0.07608252763748169,
+            0.02413405105471611
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.1024104580283165,
+            0.012157040648162365,
+            0.07608252763748169
+          ],
+          [
+            0.1188027486205101,
+            0.02413405105471611,
+            0.10629672557115555
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.016392290592193604,
+          0.011977010406553745,
+          0.03021419793367386
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 232,
+        "evaluatedTriangles": 460,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 232,
+        "basePolygons": 458,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1199678198299453e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            232
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "f316c1336939bed6c6b81e1d0965306f03f9a6df473aedd3028d8d2592b3cfb7"
+      },
+      "proposedEnglishDisplayAlias": "Left proximal phalanx of third toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of third finger of foot.r",
+          "type": "MESH",
+          "basePolygons": 458,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Proximal phalanx of third finger of foot.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Proximal phalanx of third finger of foot",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Phalanges of foot.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBProximal phalanx of third finger of foot.r\", name=\"M3\", address=0x75e49a31a0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBProximal phalanx of third finger of foot.r\", name=\"SheetGenerator\", address=0x75e49a3260>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBProximal phalanx of third finger of foot.r\", name=\"BIMObjectProperties\", address=0x75e49a3320>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11096876114606857
+          ],
+          [
+            0.0,
+            0.9999992251396179,
+            -4.263254381681528e-14,
+            -0.0892457440495491
+          ],
+          [
+            0.0,
+            2.8421697571942746e-14,
+            0.9999992251396179,
+            0.017005031928420067
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999984502798362,
+        "sourceWorldBounds": [
+          [
+            -0.1188027486205101,
+            -0.10629672557115555,
+            0.012157040648162365
+          ],
+          [
+            -0.1024104580283165,
+            -0.07608252763748169,
+            0.02413405105471611
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.1188027486205101,
+            0.012157040648162365,
+            0.07608252763748169
+          ],
+          [
+            -0.1024104580283165,
+            0.02413405105471611,
+            0.10629672557115555
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.016392290592193604,
+          0.011977010406553745,
+          0.03021419793367386
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 232,
+        "evaluatedTriangles": 460,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 232,
+        "basePolygons": 458,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1199678198299453e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            232
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "64a1235aac740ea55f4efea8215e891f5520a7dca6102a8faf39f6ebdf646da7"
+      },
+      "proposedEnglishDisplayAlias": "Right proximal phalanx of third toe",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Proximal phalanx of third finger of foot.l",
+          "type": "MESH",
+          "basePolygons": 458,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Second metatarsal bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Second metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBSecond metatarsal bone.l\", name=\"M3\", address=0x75e4a7c860>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBSecond metatarsal bone.l\", name=\"SheetGenerator\", address=0x75e4a7c920>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBSecond metatarsal bone.l\", name=\"BIMObjectProperties\", address=0x75e4a7c9e0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08982803672552109
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263255736934243e-14,
+            -0.03963343799114227
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999995827674866,
+            0.0429828017950058
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999988675120477,
+        "sourceWorldBounds": [
+          [
+            0.08074896782636642,
+            -0.08515399694442749,
+            0.01352892629802227
+          ],
+          [
+            0.09813735634088516,
+            -0.01469726487994194,
+            0.06343986093997955
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.08074896782636642,
+            0.01352892629802227,
+            0.01469726487994194
+          ],
+          [
+            0.09813735634088516,
+            0.06343986093997955,
+            0.08515399694442749
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.017388388514518738,
+          0.04991093464195728,
+          0.07045673206448555
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 347,
+        "evaluatedTriangles": 690,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 347,
+        "basePolygons": 690,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.511341541629248e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            347
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "5e88846748c503e1c4bf4c816b5d27937031503ba8176f2f5c9682de47178ccf"
+      },
+      "proposedEnglishDisplayAlias": "Left second metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Second metatarsal bone.r",
+          "type": "MESH",
+          "basePolygons": 690,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Second metatarsal bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Second metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBSecond metatarsal bone.r\", name=\"M3\", address=0x75e48a24e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBSecond metatarsal bone.r\", name=\"SheetGenerator\", address=0x75e48a25a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBSecond metatarsal bone.r\", name=\"BIMObjectProperties\", address=0x75e48a2660>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08982803672552109
+          ],
+          [
+            0.0,
+            0.9999992847442627,
+            -4.263255736934243e-14,
+            -0.03963343799114227
+          ],
+          [
+            0.0,
+            2.842169926600864e-14,
+            0.9999995827674866,
+            0.0429828017950058
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999988675120477,
+        "sourceWorldBounds": [
+          [
+            -0.09813735634088516,
+            -0.08515399694442749,
+            0.01352892629802227
+          ],
+          [
+            -0.08074896782636642,
+            -0.01469726487994194,
+            0.06343986093997955
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.09813735634088516,
+            0.01352892629802227,
+            0.01469726487994194
+          ],
+          [
+            -0.08074896782636642,
+            0.06343986093997955,
+            0.08515399694442749
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.017388388514518738,
+          0.04991093464195728,
+          0.07045673206448555
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 347,
+        "evaluatedTriangles": 690,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 347,
+        "basePolygons": 690,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.511341541629248e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            347
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "43104a7ae008d0cab01e959302158279d20c9af644adb359bc91d26afc50e6ff"
+      },
+      "proposedEnglishDisplayAlias": "Right second metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Second metatarsal bone.l",
+          "type": "MESH",
+          "basePolygons": 690,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Third metatarsal bone.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Third metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Left lower limb",
+          "Right foot"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBThird metatarsal bone.l\", name=\"M3\", address=0x75e4ce4f20>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBThird metatarsal bone.l\", name=\"SheetGenerator\", address=0x75e4ce4fe0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBThird metatarsal bone.l\", name=\"BIMObjectProperties\", address=0x75e4ce50a0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.000000238418579,
+            0.0,
+            0.0,
+            0.10175421833992004
+          ],
+          [
+            0.0,
+            0.9999996423721313,
+            -4.263257092186959e-14,
+            -0.04699832201004028
+          ],
+          [
+            0.0,
+            2.842170943040401e-14,
+            0.9999998211860657,
+            0.033158302307128906
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": -0.9999997019767122,
+        "sourceWorldBounds": [
+          [
+            0.08914398401975632,
+            -0.08130751550197601,
+            0.013419046998023987
+          ],
+          [
+            0.11222227662801743,
+            -0.01355307549238205,
+            0.057861119508743286
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.08914398401975632,
+            0.013419046998023987,
+            0.01355307549238205
+          ],
+          [
+            0.11222227662801743,
+            0.057861119508743286,
+            0.08130751550197601
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.02307829260826111,
+          0.0444420725107193,
+          0.06775444000959396
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 409,
+        "evaluatedTriangles": 814,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 409,
+        "basePolygons": 804,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.198139039314665e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            409
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "f4b48c491fe87f9b54b85d8e46b48c2dba1134f298536640fdc2a6a4522bc68d"
+      },
+      "proposedEnglishDisplayAlias": "Left third metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Third metatarsal bone.r",
+          "type": "MESH",
+          "basePolygons": 804,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "sourceObject": "Third metatarsal bone.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Third metatarsal bone",
+        "dataBlockUsers": 2,
+        "collections": [
+          "1: Skeletal system",
+          "Appendicular skeleton",
+          "Bones of free lower limb",
+          "Bones of lower limb",
+          "Bonus collection",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Metatarsal bones.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBThird metatarsal bone.r\", name=\"M3\", address=0x75e4ce58e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBThird metatarsal bone.r\", name=\"SheetGenerator\", address=0x75e4ce59a0>",
+          "BIMObjectProperties": "<bpy id prop: owner=\"OBThird metatarsal bone.r\", name=\"BIMObjectProperties\", address=0x75e4ce5a60>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.000000238418579,
+            0.0,
+            0.0,
+            -0.10175421833992004
+          ],
+          [
+            0.0,
+            0.9999996423721313,
+            -4.263257092186959e-14,
+            -0.04699832201004028
+          ],
+          [
+            0.0,
+            2.842170943040401e-14,
+            0.9999998211860657,
+            0.033158302307128906
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0000001192092896
+          ]
+        ],
+        "determinant": 0.9999997019767122,
+        "sourceWorldBounds": [
+          [
+            -0.11222227662801743,
+            -0.08130751550197601,
+            0.013419046998023987
+          ],
+          [
+            -0.08914398401975632,
+            -0.01355307549238205,
+            0.057861119508743286
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.11222227662801743,
+            0.013419046998023987,
+            0.01355307549238205
+          ],
+          [
+            -0.08914398401975632,
+            0.057861119508743286,
+            0.08130751550197601
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.02307829260826111,
+          0.0444420725107193,
+          0.06775444000959396
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 409,
+        "evaluatedTriangles": 814,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 409,
+        "basePolygons": 804,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 7.198139039314665e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            409
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "98800aa55978bcd1ffd92a5e1f7bab49d6f364b39d3af64ac8b9b3ba0356f819"
+      },
+      "proposedEnglishDisplayAlias": "Right third metatarsal bone",
+      "aliasStatus": "Project display wording only; source object identity retained; no external ontology crosswalk asserted",
+      "purpose": "Same-source plantar/foot course context; not part of the 18 unbound targets",
+      "expertReview": "pending",
+      "relatedSourceObjects": [
+        {
+          "name": "Third metatarsal bone.l",
+          "type": "MESH",
+          "basePolygons": 804,
+          "relationship": "opposite-side or annotation companion; not an interchangeable geometry alias"
+        }
+      ]
+    }
+  ],
+  "count": 48,
+  "note": "48 additional source meshes: 10 tarsal, 10 metatarsal and 28 phalangeal objects. Existing talus/calcaneus context is not re-exported."
+}

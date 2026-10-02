@@ -11,11 +11,11 @@ The machine-readable [inventory](../../data/anatomy/model-inventory.json) pins a
 | male-body | 2290 | 3491 | 3535 |
 | female-pelvis | 27 | 31 | 31 |
 | inner-ear-reference | 6 | 6 | 6 |
-| lower-limb-nerve-reference | 21 | 21 | 21 |
+| lower-limb-nerve-reference | 87 | 87 | 87 |
 
-There are 3593 dataset-qualified catalog records and 2344 asset records. Catalog rows include source concepts, project/graph concepts and runtime selection variants, which overlap anatomically. They are not counts of distinct anatomical structures. 192 records have evidence-linked region/family planning assignments, including source-linked individual target proposals; 3401 remain explicitly unassigned and uninspected. No name-based absence or membership inference is made.
+There are 3659 dataset-qualified catalog records and 2410 asset records. Catalog rows include source concepts, project/graph concepts and runtime selection variants, which overlap anatomically. They are not counts of distinct anatomical structures. 258 records have evidence-linked region/family planning assignments, including source-linked individual target proposals; 3401 remain explicitly unassigned and uninspected. No name-based absence or membership inference is made.
 
-65 legacy pilot targets link to the catalog without becoming a whole-body denominator. 6 concepts have source-derived surface anchors and 2 retain unresolved/null anchors. Anchor context bones are not substituted for attachment surfaces. 1528 typed graph relations retain their evidence and direct/transitive qualifiers; their presence does not prove each family's required relationships are complete.
+65 legacy pilot targets link to the catalog without becoming a whole-body denominator. 6 concepts have source-derived surface anchors and 2 retain unresolved/null anchors. Anchor context bones are not substituted for attachment surfaces. 1536 typed graph relations retain their evidence and direct/transitive qualifiers; their presence does not prove each family's required relationships are complete.
 
 ## Pending scope matrix
 

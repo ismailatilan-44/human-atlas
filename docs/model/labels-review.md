@@ -75,3 +75,9 @@ Akciğer aktarımıyla 17 parankim etiketi (TR/EN), 17 bronkopulmoner segment et
 ## Pulmoner dallar — 22 Eylül
 
 FMA8620/FMA68677/FMA68683/FMA68201 için4TR/EN etiket eklendi;275 aktif kayıt. İki exact TA2 Latin karşılığı kullanıldı; anterior/posterior alt dallarında Latin doğrulanamadığı için null. BodyParts3D ID/ad satırları ve TA2 kaynakları [aday incelemesinde](../../data/model-candidates/pulmonary-branch-labels/REVIEW.md) kayıtlı. Yedi geçerli anterior segmental arter yüzeyi, posterior3+anterior4 alt dal birleşimidir; renal seviyedeki iki belirsiz kaynak yüzeyi bu adlarla gösterilmez. Türkçe çeviriler editoryal; uzman incelemesi bekler.
+
+## Alt ekstremite — 2 Ekim
+
+Ana atlasın 44 alt ekstremite hedef temsilinden 34'üne eksik TR/EN/LA etiket eklendi; toplam 309 kayıt. On mevcut kayıt korundu. Dokuz kemik, beş kas ve üç arter terimi iki tarafla açıldı. Tam TA2 terim/satır çifti, kaynak kavram adı/üyeliği, taraf ve doğrudan kaynak parça kimlikleri [aday kanıtta](../../data/model-candidates/lower-limb-main-labels/REVIEW.md) izlenir. Arter grubunun alt dal yüzeylerine gövde adı kopyalanmaz; anterior tibial seçimin dört ve posterior tibial seçimin beş parçalı kapsamı not edilir. Ana geometri veya FMA üyeliği değiştirilmedi. Türkçe çeviriler editoryal, uzman kabulü bekler.
+
+Bağımsız alt ekstremite referansının 87 TR/EN ve 53 kesin Latin etiketi ayrı dataset dosyasındadır; 34 dijite özgü Latin ad doğrulanmamıştır. Kaynak özel/yıldızlı satırları resmî per-digit TA2 kimliği yapılmadı. Latince modunda İngilizce gösterim ve görünür açıklama korunur. [Referans terim kaydı](lower-limb-reference-terms.md). Gerçek yerel arayüzde ASCII sol kayık kemiği araması, Latin tek-yüzey izolasyonu, plantar dal gezinmesi, 390×844 bağ bağlamı ve 320×568 çözümlenmemiş Latin gösterimi incelendi. Yayın revision'ı ve kabulü owning raporda ayrıca izlenir.

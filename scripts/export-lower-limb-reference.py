@@ -1,4 +1,4 @@
-"""Package 21 same-source lower-limb objects, with no atlas fitting.
+"""Package 87 same-source lower-limb objects, with no atlas fitting.
 
 Blender --background --disable-autoexec work/open-assets-review/Startup.blend \
   --python scripts/export-lower-limb-reference.py -- --render
@@ -15,7 +15,7 @@ import numpy as np
 from mathutils import Matrix, Vector
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / 'data/model-candidates/lower-limb-nerve-reference'
+WORK = ROOT / 'data/model-candidates/lower-limb-unbound-source-audit'
 OUT = ROOT / 'public/models/lower-limb-nerve-reference'
 EXPECTED_BLEND = '9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd'
 AXIS = np.array([[1., 0., 0.], [0., 0., -1.], [0., 1., 0.]])
@@ -61,7 +61,7 @@ def read_source(name):
             world = np.array([list(obj.matrix_world @ p.co.to_3d()) for p in points])
             reference = world @ AXIS
             splines.append(dict(index=index, type=spline.type, cyclic=spline.use_cyclic_u,
-                controlPointCount=len(points), sourceWorldControlPoints=world.tolist(),
+                controlPointCount=len(points), evaluatedRepresentation='tube' if len(points) >= 2 else 'authored-point-only-no-surface', sourceWorldControlPoints=world.tolist(),
                 referenceControlPoints=reference.tolist(), referenceEndpoints=[reference[0].tolist(), reference[-1].tolist()],
                 pointRadii=[float(p.radius) for p in points],
                 sourceWorldHandlesLeft=[list(obj.matrix_world @ p.handle_left) for p in spline.bezier_points],
@@ -81,6 +81,13 @@ for name in ['Tibia', 'Fibula', 'Patella', 'Talus', 'Calcaneus', 'Femur', 'Hip b
         specs.append((name + '.' + suffix, code + '-' + suffix.upper(), 'zanatomy:' + name.lower().replace(' ', '-') + '-' + suffix, 'bone', side, side.title() + ' ' + name.lower()))
 specs.append(('Sacrum', 'ZA-LLR-SACRUM', 'zanatomy:sacrum', 'bone', 'midline', 'Sacrum'))
 assert len(specs) == 21
+# Explicit reviewed identities, not a broad name-pattern export.
+for item in json.loads((WORK / 'new-object-mapping.json').read_text()):
+    source_name = item['sourceObject']
+    side = 'left' if source_name.endswith('.l') else 'right'
+    display_name = side.title() + ' ' + source_name[:-2].replace('finger of foot', 'toe').lower()
+    specs.append((source_name, item['partId'], item['conceptId'], item['role'], side, display_name))
+assert len(specs) == 87 and len({s[1] for s in specs}) == 87
 raw = [read_source(spec[0]) for spec in specs]
 blob = bytearray()
 parts, checks, extents = [], [], []
@@ -114,7 +121,7 @@ for row, (_, part_id, concept_id, role, side, name) in zip(raw, specs):
     used[np.unique(indices)] = True
     loose = ~used
     cancelled = used & (lengths == 0)
-    if role == 'nerve':
+    if role in {'nerve', 'artery'}:
         assert not np.any(cancelled), row['name']
     # Preserve inherited bone faces; cancellation is recorded, not silently repaired.
     for vertex in np.flatnonzero(cancelled):
@@ -129,12 +136,12 @@ for row, (_, part_id, concept_id, role, side, name) in zip(raw, specs):
     dots = np.sum(reconstructed[indices].mean(1) * unit, axis=1)
     edges = np.sort(np.concatenate([indices[:, [0, 1]], indices[:, [1, 2]], indices[:, [2, 0]]]), axis=1)
     _, edge_counts = np.unique(edges, axis=0, return_counts=True)
-    if role == 'nerve':
+    if role in {'nerve', 'artery'}:
         assert np.all(dots > 0) and not np.any(edge_counts > 2), row['name']
-        assert int(np.sum(edge_counts == 1)) == 24 * len(row['splines']), row['name']
+        assert int(np.sum(edge_counts == 1)) == 24 * sum(s['controlPointCount'] >= 2 and not s['cyclic'] for s in row['splines']), row['name']
     part = dict(id=part_id, datasetId=DATASET, conceptId=concept_id, name=name, side=side,
-        system='nervous' if role == 'nerve' else 'skeletal', componentRole=role,
-        role='primary' if role == 'nerve' else 'context', chunk=0,
+        system='nervous' if role == 'nerve' else 'arterial' if role == 'artery' else 'skeletal', componentRole=role,
+        role='context' if role == 'bone' else 'primary', chunk=0,
         positions=append(positions, '<f4'), normals=append(quantized, '<i2'), indices=append(indices, '<u4'),
         vertexCount=len(positions), indexCount=int(indices.size), bounds=[positions.min(0).tolist(), positions.max(0).tolist()],
         sourceObject=row['name'], sourceObjectType=row['metadata']['objectType'], sourceGeometry=row['metadata'],
@@ -147,10 +154,11 @@ for row, (_, part_id, concept_id, role, side, name) in zip(raw, specs):
         minDoubleTriangleArea=float(area2.min()), minFaceNormalDot=float(dots.min()),
         maxFloat32PositionErrorMeters=float(np.max(np.abs(reference - positions))),
         maxNormalLengthError=float(np.max(abs(np.linalg.norm(reconstructed, axis=1) - 1)))))
-    if role == 'nerve':
+    if role in {'nerve', 'artery'}:
         extents.append(dict(partId=part_id, sourceObject=row['name'], splines=row['splines'],
             referenceVerticalBoundsMeters=[float(positions[:, 1].min()), float(positions[:, 1].max())],
-            limitations='Complete named source curve, not complete regional innervation. Sciatic short splines have no independently verified root/branch identities; separate distal branch objects excluded.'))
+            pointOnlySplineIndices=[s['index'] for s in row['splines'] if s['controlPointCount'] < 2],
+            limitations='Complete named source curve, not complete regional innervation or circulation. Multiple authored splines are retained without independently verified branch identities; separate branch objects not listed in this package remain excluded.'))
 
 binary = bytes(blob)
 compressed = gzip.compress(binary, compresslevel=9, mtime=0)
@@ -178,10 +186,10 @@ for side in ['left', 'right']:
             endpointDistancesMeters=distances.tolist(), nearestEndpointDistanceMeters=float(distances.min()),
             meaning='Authored source endpoint proximity only; no anatomical precision or branch identity approval.'))
 
-manifest = dict(schemaVersion=1, version='Z-Anatomy independent lower-limb nerve reference 1', datasetId=DATASET,
+manifest = dict(schemaVersion=1, version='Z-Anatomy independent lower-limb neurovascular and ankle-foot reference 2', datasetId=DATASET,
     status='independent_source_reference', releaseStatus='packaged-reference-expert-review-pending', sex='male',
     compatibleWithMainAtlas=False, atlasRegistration=None,
-    scope='Six authored sciatic, tibial and common fibular nerve curves with fifteen same-source bone surfaces. Separate distal branches, roots and full lower-limb innervation excluded. Anatomical expert review pending.',
+    scope='Sixteen authored nerve curves, two fibular artery curves, six ankle ligament surfaces and sixty-three same-source bone surfaces. Selected named distal courses and foot context; complete innervation, circulation, root and joint-support detail remain outside this package. Anatomical expert review pending.',
     coordinates=dict(units='meters', axes='X left, Y superior, Z anterior', sourceAxes='X left, Y posterior, Z superior',
         displayRotationColumnVector=[[1,0,0,0],[0,0,1,0],[0,-1,0,0],[0,0,0,1]],
         sourceSceneUnits=dict(system=bpy.context.scene.unit_settings.system, scaleLength=bpy.context.scene.unit_settings.scale_length),
@@ -199,14 +207,23 @@ manifest = dict(schemaVersion=1, version='Z-Anatomy independent lower-limb nerve
     sourceExtent=extents, sourceJunctions=junctions,
     inheritedMeshDefects=[c for c in checks if c['nonpositiveInterpolatedFaceNormals'] or c['looseVertices'] or c['nonManifoldEdges'] or c['cancelledVertexNormals']],
     anatomicalExpertReview='pending', priorRejectedMainFrameAudit='docs/model/asset-registration-distal-leg-nerves.md')
+# Every previous 21-object array must remain byte-identical after extension.
+baseline = json.loads((WORK / 'baseline-21-array-hashes.json').read_text())
+by_id = {p['id']: p for p in parts}
+for old in baseline['parts']:
+    part = by_id[old['id']]
+    assert part['vertexCount'] == old['vertexCount'] and part['indexCount'] == old['indexCount']
+    for key, count, size in [('positions', part['vertexCount']*3, 4), ('normals', part['vertexCount']*3, 2), ('indices', part['indexCount'], 4)]:
+        assert hashlib.sha256(binary[part[key]:part[key]+count*size]).hexdigest() == old['arrays'][key], (part['id'], key)
 (OUT / 'anatomy.bin').write_bytes(binary)
 (OUT / 'anatomy.bin.gz').write_bytes(compressed)
 (OUT / 'atlas.json').write_text(json.dumps(manifest, indent=2) + '\n')
-report = dict(parts=len(parts), nerves=6, bones=15, vertices=sum(p['vertexCount'] for p in parts), triangles=manifest['triangles'],
+report = dict(parts=len(parts), nerves=16, arteries=2, ligaments=6, bones=63, vertices=sum(p['vertexCount'] for p in parts), triangles=manifest['triangles'],
     bytes=len(binary), gzipBytes=len(compressed), binarySha256=hashlib.sha256(binary).hexdigest(),
     gzipSha256=hashlib.sha256(compressed).hexdigest(), sourceSha256=EXPECTED_BLEND,
     manifestSha256=hashlib.sha256((OUT / 'atlas.json').read_bytes()).hexdigest(),
     checks=checks, sourceJunctions=junctions,
+    previous21ArrayPreservation='PASS: all 63 per-field SHA-256 values match baseline-21-array-hashes.json',
     validation='Finite decoded coordinates, bounds, index ranges, normal lengths, aligned offsets, gzip roundtrip; original evaluated source indices and world coordinates retained under one rotation.')
 (WORK / 'geometry-checks.json').write_text(json.dumps(report, indent=2) + '\n')
 print(json.dumps({k:v for k,v in report.items() if k not in ['checks', 'sourceJunctions']}, indent=2), flush=True)
@@ -243,7 +260,9 @@ if '--render' in sys.argv:
         return m
 
     materials = {'bone': material('Reference bones', (.76, .84, .87), .16),
-                 'nerve': material('Source nerve', (1, .67, .10), 1)}
+                 'nerve': material('Source nerve', (1, .67, .10), 1),
+                 'artery': material('Source artery', (.85, .12, .15), 1),
+                 'ligament': material('Source ligament', (.3, .8, .9), 1)}
     render_objects = []
     for panel, shift in [('source', -.29), ('decoded', .29)]:
         for row, part in zip(raw, parts):
@@ -283,13 +302,14 @@ if '--render' in sys.argv:
         camera.ortho_scale = scale
         camera_obj.location = center + Vector(direction)
         back = (camera_obj.location - center).normalized()
-        right = Vector((0, 1, 0)).cross(back).normalized()
+        up = Vector((0, 1, 0)) if abs(back.y) < .9 else Vector((0, 0, 1))
+        right = up.cross(back).normalized()
         camera_obj.rotation_euler = Matrix((right, back.cross(right), back)).transposed().to_euler()
         scene.render.filepath = str(WORK / filename)
         bpy.ops.render.render(write_still=True)
 
-    view((0, .55, 0), (0, .04, -1), 1.22, 'source-decoded-posterior.png')
-    view((0, .55, 0), (.18, .04, -1), 1.22, 'source-decoded-oblique.png')
+    # This revision concentrates render acceptance on ankle/foot additions.
+
     # Display offsets above are QA panel layout only, never package coordinates.
     for obj, panel, shift in render_objects:
         if panel == 'source':
@@ -297,5 +317,24 @@ if '--render' in sys.argv:
         else:
             obj.location.x = -shift
     scene.render.resolution_x, scene.render.resolution_y = 1200, 1200
-    view((0, .54, 0), (.14, .02, -1), .44, 'decoded-knee-close.png')
-    view((0, .11, 0), (.18, .04, -1), .36, 'decoded-ankle-close.png')
+
+
+
+    # QA panel layout only; source left, decoded right. Package geometry never moves.
+    for obj, panel, shift in render_objects:
+        part = next(p for p in parts if obj.name == panel + '-' + p['id'])
+        obj.hide_render = part['side'] != 'left' or part['bounds'][0][1] > .55
+        obj.location.x = (-.15 if panel == 'source' else .15) - shift
+    view((.09, .27, .05), (0, .03, 1), .65, 'source-decoded-foot-anterior.png')
+    for obj, panel, shift in render_objects:
+        part = next(p for p in parts if obj.name == panel + '-' + p['id'])
+        foot_bone = part['componentRole'] == 'bone' and part['bounds'][1][1] < .17
+        plantar = part['id'] in {'ZA-MPL-L', 'ZA-LPL-L'}
+        obj.hide_render = part['side'] != 'left' or not (foot_bone or plantar)
+        obj.location.x = (-.13 if panel == 'source' else .13) - shift
+    view((.095, .055, .06), (0, -1, .1), .48, 'source-decoded-foot-plantar.png')
+    for obj, panel, shift in render_objects:
+        part = next(p for p in parts if obj.name == panel + '-' + p['id'])
+        obj.hide_render = part['side'] != 'left' or panel == 'source' or part['componentRole'] not in {'bone', 'ligament'}
+        obj.location.x = -shift
+    view((.09, .095, .01), (1, .03, .12), .22, 'decoded-ankle-ligaments-lateral.png')

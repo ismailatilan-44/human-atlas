@@ -1,0 +1,398 @@
+[
+  {
+    "sourceObject": "Deep fibular nerve.l",
+    "partId": "ZA-DFIB-L",
+    "conceptId": "atlas:left-deep-fibular-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Deep fibular nerve.r",
+    "partId": "ZA-DFIB-R",
+    "conceptId": "atlas:right-deep-fibular-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Superficial fibular nerve.l",
+    "partId": "ZA-SFIB-L",
+    "conceptId": "atlas:left-superficial-fibular-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Superficial fibular nerve.r",
+    "partId": "ZA-SFIB-R",
+    "conceptId": "atlas:right-superficial-fibular-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Sural nerve.l",
+    "partId": "ZA-SUR-L",
+    "conceptId": "atlas:left-sural-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Sural nerve.r",
+    "partId": "ZA-SUR-R",
+    "conceptId": "atlas:right-sural-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Medial plantar nerve.l",
+    "partId": "ZA-MPL-L",
+    "conceptId": "atlas:left-medial-plantar-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Medial plantar nerve.r",
+    "partId": "ZA-MPL-R",
+    "conceptId": "atlas:right-medial-plantar-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Lateral plantar nerve.l",
+    "partId": "ZA-LPL-L",
+    "conceptId": "atlas:left-lateral-plantar-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Lateral plantar nerve.r",
+    "partId": "ZA-LPL-R",
+    "conceptId": "atlas:right-lateral-plantar-nerve",
+    "role": "nerve"
+  },
+  {
+    "sourceObject": "Fibular artery.l",
+    "partId": "ZA-FIBART-L",
+    "conceptId": "atlas:left-fibular-artery",
+    "role": "artery"
+  },
+  {
+    "sourceObject": "Fibular artery.r",
+    "partId": "ZA-FIBART-R",
+    "conceptId": "atlas:right-fibular-artery",
+    "role": "artery"
+  },
+  {
+    "sourceObject": "Anterior talofibular ligament.l",
+    "partId": "ZA-ATFL-L",
+    "conceptId": "atlas:left-anterior-talofibular-ligament",
+    "role": "ligament"
+  },
+  {
+    "sourceObject": "Anterior talofibular ligament.r",
+    "partId": "ZA-ATFL-R",
+    "conceptId": "atlas:right-anterior-talofibular-ligament",
+    "role": "ligament"
+  },
+  {
+    "sourceObject": "Posterior talofibular ligament.l",
+    "partId": "ZA-PTFL-L",
+    "conceptId": "atlas:left-posterior-talofibular-ligament",
+    "role": "ligament"
+  },
+  {
+    "sourceObject": "Posterior talofibular ligament.r",
+    "partId": "ZA-PTFL-R",
+    "conceptId": "atlas:right-posterior-talofibular-ligament",
+    "role": "ligament"
+  },
+  {
+    "sourceObject": "Calcaneofibular ligament.l",
+    "partId": "ZA-CFL-L",
+    "conceptId": "atlas:left-calcaneofibular-ligament",
+    "role": "ligament"
+  },
+  {
+    "sourceObject": "Calcaneofibular ligament.r",
+    "partId": "ZA-CFL-R",
+    "conceptId": "atlas:right-calcaneofibular-ligament",
+    "role": "ligament"
+  },
+  {
+    "sourceObject": "Cuboid bone.l",
+    "partId": "ZA-LLR-CUBOID-BONE-L",
+    "conceptId": "zanatomy:cuboid-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Cuboid bone.r",
+    "partId": "ZA-LLR-CUBOID-BONE-R",
+    "conceptId": "zanatomy:cuboid-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of fifth finger of foot.l",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:distal-phalanx-of-fifth-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of fifth finger of foot.r",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:distal-phalanx-of-fifth-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of first finger of foot.l",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:distal-phalanx-of-first-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of first finger of foot.r",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:distal-phalanx-of-first-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of fourth finger of foot.l",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:distal-phalanx-of-fourth-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of fourth finger of foot.r",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:distal-phalanx-of-fourth-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of second finger of foot.l",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:distal-phalanx-of-second-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of second finger of foot.r",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:distal-phalanx-of-second-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of third finger of foot.l",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:distal-phalanx-of-third-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Distal phalanx of third finger of foot.r",
+    "partId": "ZA-LLR-DISTAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:distal-phalanx-of-third-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Fifth metatarsal bone.l",
+    "partId": "ZA-LLR-FIFTH-METATARSAL-BONE-L",
+    "conceptId": "zanatomy:fifth-metatarsal-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Fifth metatarsal bone.r",
+    "partId": "ZA-LLR-FIFTH-METATARSAL-BONE-R",
+    "conceptId": "zanatomy:fifth-metatarsal-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "First metatarsal bone.l",
+    "partId": "ZA-LLR-FIRST-METATARSAL-BONE-L",
+    "conceptId": "zanatomy:first-metatarsal-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "First metatarsal bone.r",
+    "partId": "ZA-LLR-FIRST-METATARSAL-BONE-R",
+    "conceptId": "zanatomy:first-metatarsal-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Fourth metatarsal bone.l",
+    "partId": "ZA-LLR-FOURTH-METATARSAL-BONE-L",
+    "conceptId": "zanatomy:fourth-metatarsal-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Fourth metatarsal bone.r",
+    "partId": "ZA-LLR-FOURTH-METATARSAL-BONE-R",
+    "conceptId": "zanatomy:fourth-metatarsal-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Intermediate cuneiform bone.l",
+    "partId": "ZA-LLR-INTERMEDIATE-CUNEIFORM-BONE-L",
+    "conceptId": "zanatomy:intermediate-cuneiform-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Intermediate cuneiform bone.r",
+    "partId": "ZA-LLR-INTERMEDIATE-CUNEIFORM-BONE-R",
+    "conceptId": "zanatomy:intermediate-cuneiform-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Lateral cuneiform bone.l",
+    "partId": "ZA-LLR-LATERAL-CUNEIFORM-BONE-L",
+    "conceptId": "zanatomy:lateral-cuneiform-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Lateral cuneiform bone.r",
+    "partId": "ZA-LLR-LATERAL-CUNEIFORM-BONE-R",
+    "conceptId": "zanatomy:lateral-cuneiform-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Medial cuneiform bone.l",
+    "partId": "ZA-LLR-MEDIAL-CUNEIFORM-BONE-L",
+    "conceptId": "zanatomy:medial-cuneiform-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Medial cuneiform bone.r",
+    "partId": "ZA-LLR-MEDIAL-CUNEIFORM-BONE-R",
+    "conceptId": "zanatomy:medial-cuneiform-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of fifth finger of foot.l",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-FIFTH-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of fifth finger of foot.r",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-FIFTH-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of fourth finger of foot.l",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-FOURTH-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of fourth finger of foot.r",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-FOURTH-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of second finger of foot.l",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-SECOND-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:middle-phalanx-of-second-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of second finger of foot.r",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-SECOND-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:middle-phalanx-of-second-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of third finger of foot.l",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-THIRD-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:middle-phalanx-of-third-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Middle phalanx of third finger of foot.r",
+    "partId": "ZA-LLR-MIDDLE-PHALANX-OF-THIRD-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:middle-phalanx-of-third-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Navicular bone.l",
+    "partId": "ZA-LLR-NAVICULAR-BONE-L",
+    "conceptId": "zanatomy:navicular-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Navicular bone.r",
+    "partId": "ZA-LLR-NAVICULAR-BONE-R",
+    "conceptId": "zanatomy:navicular-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of fifth finger of foot.l",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of fifth finger of foot.r",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-FIFTH-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of first finger of foot.l",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of first finger of foot.r",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-FIRST-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of fourth finger of foot.l",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of fourth finger of foot.r",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-FOURTH-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of second finger of foot.l",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:proximal-phalanx-of-second-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of second finger of foot.r",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-SECOND-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:proximal-phalanx-of-second-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of third finger of foot.l",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-L",
+    "conceptId": "zanatomy:proximal-phalanx-of-third-finger-of-foot-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Proximal phalanx of third finger of foot.r",
+    "partId": "ZA-LLR-PROXIMAL-PHALANX-OF-THIRD-FINGER-OF-FOOT-R",
+    "conceptId": "zanatomy:proximal-phalanx-of-third-finger-of-foot-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Second metatarsal bone.l",
+    "partId": "ZA-LLR-SECOND-METATARSAL-BONE-L",
+    "conceptId": "zanatomy:second-metatarsal-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Second metatarsal bone.r",
+    "partId": "ZA-LLR-SECOND-METATARSAL-BONE-R",
+    "conceptId": "zanatomy:second-metatarsal-bone-r",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Third metatarsal bone.l",
+    "partId": "ZA-LLR-THIRD-METATARSAL-BONE-L",
+    "conceptId": "zanatomy:third-metatarsal-bone-l",
+    "role": "bone"
+  },
+  {
+    "sourceObject": "Third metatarsal bone.r",
+    "partId": "ZA-LLR-THIRD-METATARSAL-BONE-R",
+    "conceptId": "zanatomy:third-metatarsal-bone-r",
+    "role": "bone"
+  }
+]

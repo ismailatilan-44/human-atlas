@@ -1,0 +1,10 @@
+#
+# Compatibility version : 4.3
+# File ID : FJ2093
+# Representation ID : BP29771
+# Build-up logic : FMA 3.0 part_of
+# Concept ID : FMA43923
+# English name : Left peroneal artery
+# Bounds(mm): (68.404100,-64.645000,-38.604100)-(101.232500,-44.021400,289.767100)
+# Volume(cm3): 4.699500
+#

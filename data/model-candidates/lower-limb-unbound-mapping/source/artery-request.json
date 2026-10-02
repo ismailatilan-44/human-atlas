@@ -1,0 +1,30 @@
+{
+  "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "method": "POST",
+  "fields": {
+    "ids": [
+      "FJ2093",
+      "FJ2197"
+    ],
+    "rep_id": [
+      "BP29005",
+      "BP29050"
+    ],
+    "type": "art_file",
+    "all_downloads": 1,
+    "filename": "artery-source"
+  },
+  "versionBasis": "Pinned FMA2Obj4.3; request representation IDs from discovery catalog, subject to returned header verification",
+  "transport": "Successful retry used existing reference-downloader.py session initialization, viewer Referer/User-Agent and session cookies; cookies removed afterward",
+  "failedAttempt": "Initial urllib POST without viewer session returned HTML; retained artery-download-response.txt, not treated as source geometry",
+  "returnedHeaders": {
+    "FJ2093": {
+      "representationId": "BP29771",
+      "conceptId": "FMA43923"
+    },
+    "FJ2197": {
+      "representationId": "BP29774",
+      "conceptId": "FMA43922"
+    }
+  }
+}

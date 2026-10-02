@@ -1,0 +1,1602 @@
+{
+  "schemaVersion": 1,
+  "inputSnapshots": [
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "data/model-candidates/lower-limb-main-labels/target-snapshot.json",
+      "sha256": "bab054549b3a504cd6f165f1d1ddb051bc72f4686e23f32b9831af49c6810fd6"
+    },
+    {
+      "path": "data/model-candidates/lower-limb-main-labels/build-proposal.py",
+      "sha256": "1f5478ab66d3fba3b32ce2b08a1e9763707fe6d1242deb138fdacda370bb3a48"
+    }
+  ],
+  "formalOntologyCrosswalk": false,
+  "records": {
+    "FMA24481": {
+      "targetId": "lower-limb-v1:ta2:1427:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24481",
+        "name": "left fibula",
+        "elements": [
+          "FJ3260"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3260",
+          "name": "Left fibula",
+          "conceptId": "FMA24481",
+          "bounds": [
+            [
+              0.08452899999999999,
+              0.052920600000000005,
+              -0.051466000000000005
+            ],
+            [
+              0.120108,
+              0.43724219999999997,
+              -0.021880999999999998
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1427,
+        "en": "Fibula",
+        "la": "Fibula",
+        "locator": "CSV line 1502; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24480": {
+      "targetId": "lower-limb-v1:ta2:1427:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24480",
+        "name": "right fibula",
+        "elements": [
+          "FJ3366"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3366",
+          "name": "Right fibula",
+          "conceptId": "FMA24480",
+          "bounds": [
+            [
+              -0.12016500000000001,
+              0.052831300000000005,
+              -0.051512600000000006
+            ],
+            [
+              -0.0843445,
+              0.43726119999999996,
+              -0.021831199999999995
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1427,
+        "en": "Fibula",
+        "la": "Fibula",
+        "locator": "CSV line 1502; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24487": {
+      "targetId": "lower-limb-v1:ta2:1390:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24487",
+        "name": "left patella",
+        "elements": [
+          "FJ3275"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3275",
+          "name": "Left patella",
+          "conceptId": "FMA24487",
+          "bounds": [
+            [
+              0.0605925,
+              0.4396082,
+              0.000900999999999999
+            ],
+            [
+              0.10222400000000001,
+              0.47887419999999997,
+              0.022751000000000007
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1390,
+        "en": "Patella",
+        "la": "Patella",
+        "locator": "CSV line 1465; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24486": {
+      "targetId": "lower-limb-v1:ta2:1390:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24486",
+        "name": "right patella",
+        "elements": [
+          "FJ3381"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3381",
+          "name": "Right patella",
+          "conceptId": "FMA24486",
+          "bounds": [
+            [
+              -0.102288,
+              0.43959719999999997,
+              0.0009920000000000068
+            ],
+            [
+              -0.0606208,
+              0.4789072,
+              0.022726999999999997
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1390,
+        "en": "Patella",
+        "la": "Patella",
+        "locator": "CSV line 1465; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24483": {
+      "targetId": "lower-limb-v1:ta2:1448:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24483",
+        "name": "left talus",
+        "elements": [
+          "FJ3280"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3280",
+          "name": "Left talus",
+          "conceptId": "FMA24483",
+          "bounds": [
+            [
+              0.049635399999999996,
+              0.04680560000000001,
+              -0.051186
+            ],
+            [
+              0.09017839999999999,
+              0.08120931,
+              0.0056770000000000015
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1448,
+        "en": "Talus",
+        "la": "Os tali",
+        "locator": "CSV line 1523; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24482": {
+      "targetId": "lower-limb-v1:ta2:1448:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24482",
+        "name": "right talus",
+        "elements": [
+          "FJ3385"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3385",
+          "name": "Right talus",
+          "conceptId": "FMA24482",
+          "bounds": [
+            [
+              -0.0901136,
+              0.04695510000000001,
+              -0.05124600000000001
+            ],
+            [
+              -0.0496273,
+              0.08122213,
+              0.0055690000000000045
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1448,
+        "en": "Talus",
+        "la": "Os tali",
+        "locator": "CSV line 1523; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24498": {
+      "targetId": "lower-limb-v1:ta2:1468:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24498",
+        "name": "left calcaneus",
+        "elements": [
+          "FJ3256"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3256",
+          "name": "Left calcaneus",
+          "conceptId": "FMA24498",
+          "bounds": [
+            [
+              0.04501,
+              0.009694000000000008,
+              -0.0757932
+            ],
+            [
+              0.100768,
+              0.05904000000000001,
+              -0.005858199999999994
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1468,
+        "en": "Calcaneus",
+        "la": "Calcaneus",
+        "locator": "CSV line 1543; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24497": {
+      "targetId": "lower-limb-v1:ta2:1468:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24497",
+        "name": "right calcaneus",
+        "elements": [
+          "FJ3360"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3360",
+          "name": "Right calcaneus",
+          "conceptId": "FMA24497",
+          "bounds": [
+            [
+              -0.10078100000000001,
+              0.009620500000000004,
+              -0.0759949
+            ],
+            [
+              -0.0448758,
+              0.05895650000000001,
+              -0.0058515000000000095
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1468,
+        "en": "Calcaneus",
+        "la": "Calcaneus",
+        "locator": "CSV line 1543; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24501": {
+      "targetId": "lower-limb-v1:ta2:1484:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24501",
+        "name": "navicular bone of left foot",
+        "elements": [
+          "FJ3307"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3307",
+          "name": "Navicular bone of left foot",
+          "conceptId": "FMA24501",
+          "bounds": [
+            [
+              0.057929600000000005,
+              0.047137000000000005,
+              -0.005724000000000007
+            ],
+            [
+              0.0966438,
+              0.07181409000000001,
+              0.02109699999999999
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1484,
+        "en": "Navicular bone",
+        "la": "Os naviculare",
+        "locator": "CSV line 1559; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24500": {
+      "targetId": "lower-limb-v1:ta2:1484:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24500",
+        "name": "navicular bone of right foot",
+        "elements": [
+          "FJ3308"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3308",
+          "name": "Navicular bone of right foot",
+          "conceptId": "FMA24500",
+          "bounds": [
+            [
+              -0.096754,
+              0.047334900000000006,
+              -0.005671000000000009
+            ],
+            [
+              -0.0581896,
+              0.0719554,
+              0.020992999999999998
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1484,
+        "en": "Navicular bone",
+        "la": "Os naviculare",
+        "locator": "CSV line 1559; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24529": {
+      "targetId": "lower-limb-v1:ta2:1489:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24529",
+        "name": "left cuboid bone",
+        "elements": [
+          "FJ3258"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3258",
+          "name": "Left cuboid bone",
+          "conceptId": "FMA24529",
+          "bounds": [
+            [
+              0.08196500000000001,
+              0.026588900000000006,
+              -0.016837000000000005
+            ],
+            [
+              0.115134,
+              0.05625820000000001,
+              0.016685000000000005
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1489,
+        "en": "Cuboid bone",
+        "la": "Os cuboideum",
+        "locator": "CSV line 1564; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24528": {
+      "targetId": "lower-limb-v1:ta2:1489:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24528",
+        "name": "right cuboid bone",
+        "elements": [
+          "FJ3364"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3364",
+          "name": "Right cuboid bone",
+          "conceptId": "FMA24528",
+          "bounds": [
+            [
+              -0.11508499999999999,
+              0.026989600000000002,
+              -0.016267300000000012
+            ],
+            [
+              -0.08236650000000001,
+              0.0560229,
+              0.01676799999999999
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1489,
+        "en": "Cuboid bone",
+        "la": "Os cuboideum",
+        "locator": "CSV line 1564; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24522": {
+      "targetId": "lower-limb-v1:ta2:1486:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24522",
+        "name": "left medial cuneiform bone",
+        "elements": [
+          "FJ3271"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3271",
+          "name": "Left medial cuneiform bone",
+          "conceptId": "FMA24522",
+          "bounds": [
+            [
+              0.06604259999999999,
+              0.032966800000000004,
+              0.012061000000000002
+            ],
+            [
+              0.0941094,
+              0.0639191,
+              0.040519
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1486,
+        "en": "Medial cuneiform bone",
+        "la": "Os cuneiforme mediale",
+        "locator": "CSV line 1561; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24521": {
+      "targetId": "lower-limb-v1:ta2:1486:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24521",
+        "name": "right medial cuneiform bone",
+        "elements": [
+          "FJ3377"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3377",
+          "name": "Right medial cuneiform bone",
+          "conceptId": "FMA24521",
+          "bounds": [
+            [
+              -0.0941276,
+              0.032838,
+              0.011981999999999993
+            ],
+            [
+              -0.0660044,
+              0.06388160000000001,
+              0.040507000000000015
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1486,
+        "en": "Medial cuneiform bone",
+        "la": "Os cuneiforme mediale",
+        "locator": "CSV line 1561; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24524": {
+      "targetId": "lower-limb-v1:ta2:1487:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24524",
+        "name": "left intermediate cuneiform bone",
+        "elements": [
+          "FJ3264"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3264",
+          "name": "Left intermediate cuneiform bone",
+          "conceptId": "FMA24524",
+          "bounds": [
+            [
+              0.08201359999999999,
+              0.0436824,
+              0.009632000000000002
+            ],
+            [
+              0.101955,
+              0.06680080000000001,
+              0.030329999999999996
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1487,
+        "en": "Intermediate cuneiform bone",
+        "la": "Os cuneiforme intermedium",
+        "locator": "CSV line 1562; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24523": {
+      "targetId": "lower-limb-v1:ta2:1487:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24523",
+        "name": "right intermediate cuneiform bone",
+        "elements": [
+          "FJ3370"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3370",
+          "name": "Right intermediate cuneiform bone",
+          "conceptId": "FMA24523",
+          "bounds": [
+            [
+              -0.102007,
+              0.04367460000000001,
+              0.009584999999999996
+            ],
+            [
+              -0.0818595,
+              0.0667258,
+              0.030533999999999978
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1487,
+        "en": "Intermediate cuneiform bone",
+        "la": "Os cuneiforme intermedium",
+        "locator": "CSV line 1562; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24526": {
+      "targetId": "lower-limb-v1:ta2:1488:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA24526",
+        "name": "left lateral cuneiform bone",
+        "elements": [
+          "FJ3267"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3267",
+          "name": "Left lateral cuneiform bone",
+          "conceptId": "FMA24526",
+          "bounds": [
+            [
+              0.087226,
+              0.037484100000000006,
+              0.000897999999999996
+            ],
+            [
+              0.11288500000000001,
+              0.0632958,
+              0.025146
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1488,
+        "en": "Lateral cuneiform bone",
+        "la": "Os cuneiforme laterale",
+        "locator": "CSV line 1563; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA24525": {
+      "targetId": "lower-limb-v1:ta2:1488:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA24525",
+        "name": "right lateral cuneiform bone",
+        "elements": [
+          "FJ3373"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ3373",
+          "name": "Right lateral cuneiform bone",
+          "conceptId": "FMA24525",
+          "bounds": [
+            [
+              -0.112875,
+              0.037546800000000005,
+              0.0008379999999999915
+            ],
+            [
+              -0.0871983,
+              0.063255,
+              0.025232000000000004
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 1488,
+        "en": "Lateral cuneiform bone",
+        "la": "Os cuneiforme laterale",
+        "locator": "CSV line 1563; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA22549": {
+      "targetId": "lower-limb-v1:ta2:2645:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA22549",
+        "name": "left extensor digitorum longus",
+        "elements": [
+          "FJ1406M"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1406M",
+          "name": "Left extensor digitorum longus",
+          "conceptId": "FMA22549",
+          "bounds": [
+            [
+              0.08934829999999999,
+              0.011048600000000006,
+              -0.0416822
+            ],
+            [
+              0.166069,
+              0.4374672,
+              0.123662
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2645,
+        "en": "Extensor digitorum longus",
+        "la": "Extensor longus digitorum",
+        "locator": "CSV line 2743; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA22548": {
+      "targetId": "lower-limb-v1:ta2:2645:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA22548",
+        "name": "right extensor digitorum longus",
+        "elements": [
+          "FJ1406"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1406",
+          "name": "Right extensor digitorum longus",
+          "conceptId": "FMA22548",
+          "bounds": [
+            [
+              -0.166069,
+              0.011048600000000006,
+              -0.0416822
+            ],
+            [
+              -0.08934829999999999,
+              0.4374672,
+              0.123662
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2645,
+        "en": "Extensor digitorum longus",
+        "la": "Extensor longus digitorum",
+        "locator": "CSV line 2743; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA22547": {
+      "targetId": "lower-limb-v1:ta2:2650:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA22547",
+        "name": "left extensor hallucis longus",
+        "elements": [
+          "FJ1408M"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1408M",
+          "name": "Left extensor hallucis longus",
+          "conceptId": "FMA22547",
+          "bounds": [
+            [
+              0.0799472,
+              0.021470500000000003,
+              -0.03438240000000001
+            ],
+            [
+              0.107598,
+              0.2939442,
+              0.10947499999999999
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2650,
+        "en": "Extensor hallucis longus",
+        "la": "Extensor longus hallucis",
+        "locator": "CSV line 2748; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA22546": {
+      "targetId": "lower-limb-v1:ta2:2650:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA22546",
+        "name": "right extensor hallucis longus",
+        "elements": [
+          "FJ1408"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1408",
+          "name": "Right extensor hallucis longus",
+          "conceptId": "FMA22546",
+          "bounds": [
+            [
+              -0.107598,
+              0.021470500000000003,
+              -0.03438240000000001
+            ],
+            [
+              -0.0799472,
+              0.2939442,
+              0.10947499999999999
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2650,
+        "en": "Extensor hallucis longus",
+        "la": "Extensor longus hallucis",
+        "locator": "CSV line 2748; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA65017": {
+      "targetId": "lower-limb-v1:ta2:2667:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA65017",
+        "name": "left flexor digitorum longus",
+        "elements": [
+          "FJ1414M"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1414M",
+          "name": "Left flexor digitorum longus",
+          "conceptId": "FMA65017",
+          "bounds": [
+            [
+              0.0393682,
+              0.006129399999999993,
+              -0.04391980000000001
+            ],
+            [
+              0.165771,
+              0.36926319999999996,
+              0.126454
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2667,
+        "en": "Flexor digitorum longus",
+        "la": "Musculus flexor digitorum longus",
+        "locator": "CSV line 2765; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA65016": {
+      "targetId": "lower-limb-v1:ta2:2667:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA65016",
+        "name": "right flexor digitorum longus",
+        "elements": [
+          "FJ1414"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1414",
+          "name": "Right flexor digitorum longus",
+          "conceptId": "FMA65016",
+          "bounds": [
+            [
+              -0.165771,
+              0.006129399999999993,
+              -0.04391980000000001
+            ],
+            [
+              -0.0393682,
+              0.36926319999999996,
+              0.126454
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2667,
+        "en": "Flexor digitorum longus",
+        "la": "Musculus flexor digitorum longus",
+        "locator": "CSV line 2765; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA65015": {
+      "targetId": "lower-limb-v1:ta2:2668:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA65015",
+        "name": "left flexor hallucis longus",
+        "elements": [
+          "FJ1415M"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1415M",
+          "name": "Left flexor hallucis longus",
+          "conceptId": "FMA65015",
+          "bounds": [
+            [
+              0.0521983,
+              0.006916800000000001,
+              -0.05512160000000001
+            ],
+            [
+              0.117846,
+              0.3297182,
+              0.122611
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2668,
+        "en": "Flexor hallucis longus",
+        "la": "Flexor longus hallucis",
+        "locator": "CSV line 2766; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA65014": {
+      "targetId": "lower-limb-v1:ta2:2668:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA65014",
+        "name": "right flexor hallucis longus",
+        "elements": [
+          "FJ1415"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1415",
+          "name": "Right flexor hallucis longus",
+          "conceptId": "FMA65014",
+          "bounds": [
+            [
+              -0.117846,
+              0.006916800000000001,
+              -0.05512160000000001
+            ],
+            [
+              -0.0521983,
+              0.3297182,
+              0.122611
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2668,
+        "en": "Flexor hallucis longus",
+        "la": "Flexor longus hallucis",
+        "locator": "CSV line 2766; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA22559": {
+      "targetId": "lower-limb-v1:ta2:2660:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA22559",
+        "name": "left soleus",
+        "elements": [
+          "FJ1437M"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1437M",
+          "name": "Left soleus",
+          "conceptId": "FMA22559",
+          "bounds": [
+            [
+              0.035600099999999996,
+              0.11057520000000001,
+              -0.06780140000000001
+            ],
+            [
+              0.115785,
+              0.4367282,
+              -0.008881100000000003
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2660,
+        "en": "Soleus muscle",
+        "la": "Musculus soleus",
+        "locator": "CSV line 2758; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA22558": {
+      "targetId": "lower-limb-v1:ta2:2660:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA22558",
+        "name": "right soleus",
+        "elements": [
+          "FJ1437"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ1437",
+          "name": "Right soleus",
+          "conceptId": "FMA22558",
+          "bounds": [
+            [
+              -0.115785,
+              0.11057520000000001,
+              -0.06780140000000001
+            ],
+            [
+              -0.035600099999999996,
+              0.4367282,
+              -0.008881100000000003
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 2660,
+        "en": "Soleus muscle",
+        "la": "Musculus soleus",
+        "locator": "CSV line 2758; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA43897": {
+      "targetId": "lower-limb-v1:ta2:4708:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA43897",
+        "name": "left anterior tibial artery",
+        "elements": [
+          "FJ2065",
+          "FJ2067",
+          "FJ2073",
+          "FJ2081"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ2065",
+          "name": "Left anterior tibial artery",
+          "conceptId": "FMA43897",
+          "bounds": [
+            [
+              0.0681334,
+              0.08243265000000001,
+              -0.0298915
+            ],
+            [
+              0.105556,
+              0.3999312,
+              -0.0018951999999999997
+            ]
+          ]
+        },
+        {
+          "id": "FJ2067",
+          "name": "Left arcuate artery",
+          "conceptId": "FMA69495",
+          "bounds": [
+            [
+              0.08666549999999999,
+              0.035372100000000004,
+              -0.000918000000000016
+            ],
+            [
+              0.117089,
+              0.0630755,
+              0.037244
+            ]
+          ]
+        },
+        {
+          "id": "FJ2073",
+          "name": "Left dorsalis pedis artery",
+          "conceptId": "FMA43917",
+          "bounds": [
+            [
+              0.0677954,
+              0.0541678,
+              -0.0116845
+            ],
+            [
+              0.09185370000000001,
+              0.08608299000000001,
+              0.048472000000000015
+            ]
+          ]
+        },
+        {
+          "id": "FJ2081",
+          "name": "Left lateral tarsal artery",
+          "conceptId": "FMA69491",
+          "bounds": [
+            [
+              0.07193680000000001,
+              0.03534260000000001,
+              -0.006998800000000013
+            ],
+            [
+              0.116696,
+              0.0801946,
+              0.0014139999999999986
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 4708,
+        "en": "Anterior tibial artery",
+        "la": "Arteria tibialis anterior",
+        "locator": "CSV line 4794; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA43896": {
+      "targetId": "lower-limb-v1:ta2:4708:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA43896",
+        "name": "right anterior tibial artery",
+        "elements": [
+          "FJ2055",
+          "FJ2130",
+          "FJ2133",
+          "FJ2163"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ2055",
+          "name": "Right dorsalis pedis artery",
+          "conceptId": "FMA43916",
+          "bounds": [
+            [
+              -0.09188740000000001,
+              0.05416000000000001,
+              -0.011688299999999999
+            ],
+            [
+              -0.0677837,
+              0.08608669000000001,
+              0.048480999999999996
+            ]
+          ]
+        },
+        {
+          "id": "FJ2130",
+          "name": "Right anterior tibial artery",
+          "conceptId": "FMA43896",
+          "bounds": [
+            [
+              -0.10555500000000001,
+              0.08243031,
+              -0.029894199999999996
+            ],
+            [
+              -0.0681382,
+              0.3999322,
+              -0.0018934000000000034
+            ]
+          ]
+        },
+        {
+          "id": "FJ2133",
+          "name": "Right arcuate artery",
+          "conceptId": "FMA69494",
+          "bounds": [
+            [
+              -0.117065,
+              0.035373600000000005,
+              -0.0009394000000000069
+            ],
+            [
+              -0.0866754,
+              0.06303850000000001,
+              0.037265999999999994
+            ]
+          ]
+        },
+        {
+          "id": "FJ2163",
+          "name": "Right lateral tarsal artery",
+          "conceptId": "FMA69490",
+          "bounds": [
+            [
+              -0.11669700000000001,
+              0.035338600000000005,
+              -0.0070046
+            ],
+            [
+              -0.0719337,
+              0.08018823,
+              0.0014119999999999966
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 4708,
+        "en": "Anterior tibial artery",
+        "la": "Arteria tibialis anterior",
+        "locator": "CSV line 4794; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA43899": {
+      "targetId": "lower-limb-v1:ta2:4721:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA43899",
+        "name": "left posterior tibial artery",
+        "elements": [
+          "FJ2079",
+          "FJ2082",
+          "FJ2085",
+          "FJ2087",
+          "FJ2089"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ2079",
+          "name": "Left lateral plantar artery",
+          "conceptId": "FMA43932",
+          "bounds": [
+            [
+              0.0668541,
+              0.018252700000000004,
+              -0.014416799999999994
+            ],
+            [
+              0.113586,
+              0.0387479,
+              0.003266000000000005
+            ]
+          ]
+        },
+        {
+          "id": "FJ2082",
+          "name": "Left medial plantar artery",
+          "conceptId": "FMA43930",
+          "bounds": [
+            [
+              0.0668152,
+              0.034181600000000006,
+              -0.013605999999999993
+            ],
+            [
+              0.07542560000000001,
+              0.0410559,
+              0.026233000000000006
+            ]
+          ]
+        },
+        {
+          "id": "FJ2085",
+          "name": "Left plantar arch",
+          "conceptId": "FMA43944",
+          "bounds": [
+            [
+              0.068746,
+              0.018254600000000003,
+              0.0014979999999999993
+            ],
+            [
+              0.113583,
+              0.0413245,
+              0.030901999999999985
+            ]
+          ]
+        },
+        {
+          "id": "FJ2087",
+          "name": "Left posterior tibial artery",
+          "conceptId": "FMA43899",
+          "bounds": [
+            [
+              0.0444748,
+              0.036771000000000005,
+              -0.0496506
+            ],
+            [
+              0.0911314,
+              0.3678762,
+              -0.013230500000000006
+            ]
+          ]
+        },
+        {
+          "id": "FJ2089",
+          "name": "Left superficial medial plantar artery",
+          "conceptId": "FMA43938",
+          "bounds": [
+            [
+              0.0687289,
+              0.0153026,
+              0.024477999999999986
+            ],
+            [
+              0.0830221,
+              0.035949600000000005,
+              0.07985300000000001
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 4721,
+        "en": "Posterior tibial artery",
+        "la": "Arteria tibialis posterior",
+        "locator": "CSV line 4807; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA43898": {
+      "targetId": "lower-limb-v1:ta2:4721:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA43898",
+        "name": "right posterior tibial artery",
+        "elements": [
+          "FJ2159",
+          "FJ2164",
+          "FJ2169",
+          "FJ2172",
+          "FJ2179"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ2159",
+          "name": "Right lateral plantar artery",
+          "conceptId": "FMA43931",
+          "bounds": [
+            [
+              -0.113589,
+              0.018246700000000005,
+              -0.014414800000000005
+            ],
+            [
+              -0.0668642,
+              0.038767300000000005,
+              0.003266000000000005
+            ]
+          ]
+        },
+        {
+          "id": "FJ2164",
+          "name": "Right medial plantar artery",
+          "conceptId": "FMA43929",
+          "bounds": [
+            [
+              -0.07541840000000001,
+              0.0342021,
+              -0.01362640000000001
+            ],
+            [
+              -0.0668151,
+              0.0410635,
+              0.02624499999999999
+            ]
+          ]
+        },
+        {
+          "id": "FJ2169",
+          "name": "Right plantar arch",
+          "conceptId": "FMA43943",
+          "bounds": [
+            [
+              -0.113595,
+              0.018257000000000002,
+              0.0015059999999999935
+            ],
+            [
+              -0.0687454,
+              0.0413115,
+              0.030918
+            ]
+          ]
+        },
+        {
+          "id": "FJ2172",
+          "name": "Right posterior tibial artery",
+          "conceptId": "FMA43898",
+          "bounds": [
+            [
+              -0.0911327,
+              0.036779900000000004,
+              -0.04965250000000001
+            ],
+            [
+              -0.0444784,
+              0.3678772,
+              -0.013224800000000009
+            ]
+          ]
+        },
+        {
+          "id": "FJ2179",
+          "name": "Right superficial medial plantar artery",
+          "conceptId": "FMA43937",
+          "bounds": [
+            [
+              -0.0830237,
+              0.015291800000000008,
+              0.024483000000000005
+            ],
+            [
+              -0.0687414,
+              0.03595260000000001,
+              0.079873
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 4721,
+        "en": "Posterior tibial artery",
+        "la": "Arteria tibialis posterior",
+        "locator": "CSV line 4807; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA77381": {
+      "targetId": "lower-limb-v1:ta2:4699:left",
+      "side": "left",
+      "sourceConcept": {
+        "id": "FMA77381",
+        "name": "left popliteal artery",
+        "elements": [
+          "FJ2086"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ2086",
+          "name": "Left popliteal artery",
+          "conceptId": "FMA77381",
+          "bounds": [
+            [
+              0.055858,
+              0.3613862,
+              -0.04730310000000001
+            ],
+            [
+              0.0958421,
+              0.5588862,
+              -0.004214700000000002
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 4699,
+        "en": "Popliteal artery",
+        "la": "Arteria poplitea",
+        "locator": "CSV line 4785; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    },
+    "FMA77380": {
+      "targetId": "lower-limb-v1:ta2:4699:right",
+      "side": "right",
+      "sourceConcept": {
+        "id": "FMA77380",
+        "name": "right popliteal artery",
+        "elements": [
+          "FJ2170"
+        ]
+      },
+      "sourceParts": [
+        {
+          "id": "FJ2170",
+          "name": "Right popliteal artery",
+          "conceptId": "FMA77380",
+          "bounds": [
+            [
+              -0.0958418,
+              0.3613862,
+              -0.0473046
+            ],
+            [
+              -0.0558564,
+              0.5588892000000001,
+              -0.0042129000000000055
+            ]
+          ]
+        }
+      ],
+      "terminology": {
+        "ta2TableId": 4699,
+        "en": "Popliteal artery",
+        "la": "Arteria poplitea",
+        "locator": "CSV line 4785; English/Latin columns",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "translationStatus": "Turkish editorial; anatomical expert review pending",
+      "geometryStatus": "Existing source membership preserved; target anatomical/detail acceptance pending"
+    }
+  }
+}

@@ -1,5 +1,7 @@
 # Independent lower-limb nerve reference — 2 October 2026
 
+**Historical 21-object release record:** this package was first published at source `09879bf`. The current package has 87 objects; its [expansion audit](../../data/model-candidates/lower-limb-unbound-source-audit/REVIEW.md) preserves all 21 decoded geometry arrays and owns current geometry checks. The tables/hashes below describe the initial version. Reproduce that version with the exporter at `09879bf`; the current exporter command builds the expanded package.
+
 The browser-ready package contains **21 selectable source objects: six nerve curves and fifteen context bones**, retained in one source coordinate frame. It exposes the bilateral sciatic → tibial/common fibular source continuation with pelvis-to-ankle bone context. It is a bounded regional reference, not complete lower-limb anatomy or expert anatomical acceptance.
 
 ## Scope, identity and coordinates
