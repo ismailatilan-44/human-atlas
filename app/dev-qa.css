@@ -10,3 +10,5 @@
 .dev-qa li { margin:8px 0; overflow-wrap:anywhere; }
 .dev-qa summary { cursor:pointer; padding:6px 0; }
 @media(max-width:600px) { .dev-qa { top:90px; } .dev-qa-body { max-height:28vh; } }
+.dev-qa button:not([data-slot]):hover { color:#fff; background:#365572; }
+.dev-qa .dev-qa-toggle:not([data-slot]) { color:#f4b942; }
