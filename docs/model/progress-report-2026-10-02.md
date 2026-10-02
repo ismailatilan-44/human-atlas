@@ -4,6 +4,8 @@ Hedef, tıp öğrencisinin bütün vücudu yapı ve alt yapı düzeyinde seçip 
 
 Bu raporun ilk durum fotoğrafı `a0fd554` teslimine aittir. Gün içindeki sonraki model teslimi aşağıdaki ek kayıtta ayrı izlenir; ilk fotoğraftaki aday/yayın durumları tarihî kanıt olarak korunur.
 
+**Son doğrulanmış ürün teslimi:** `09879bf300d38eae14054fcdd55ea4fdc121d1fc`, canlıda 2 Ekim 2026. Bağımsız alt ekstremite referansı 21 nesne, 21 TR/EN/LA etiket ve dört dal bağlantısıyla yayımlandı. Ana model 2.290 parça; dört referans toplamı 2.344 paketli parça. 66 önerilen alt ekstremite hedefinin 48'inde kaynak bağı var, 18'i henüz bağlanmamış. Bütün hedef açık; ayrıntılı yayın kanıtı son ek kayıttadır.
+
 ## Gerçek durum ve yayın
 
 Bu çalışma turu `codex/publish-model-explorer` dalında `547c1161068f0b8e863f06c91997325214b577eb` kaynak başlangıcından yürüdü. Başlangıçta `.agents/` ve `AGENTS.md` kullanıcıya ait izlenmeyen dosyalardı; yeni çıktılardan ayrı korundu. 2 Ekim uzak kontrolünde fork `main` ve geliştirme dalı aynı kaynak revision'ındaydı; `gh-pages` revision'ı `21a902f675be0d281883a5ac1e9be21c938eeb1c` idi.
@@ -84,6 +86,16 @@ Yerel kontrol: TypeScript; etkileşim validator'ında referansa bağımsız yük
 
 Gerçek Chromium UI: 1440×1000 Türkçe arama → sol tibial seçim → odak → aynı taraf siyatik → ortak fibular dal → izolasyon ve kaynak bağlantısı görüldü. 390×844 mobilde dal/izolasyon/Latince ad/geri dönüş; 320×568'de seçili sinir kadrajı incelendi. İlk mobil kadraj kamera araçlarıyla çakıştı; ölçülen araç sınırı fit hesabına dahil edildi. Kısa portre ekranında panel açıkken kamera preset araçları gizlenerek model alanı ayrıldı; orbit/zoom etkileşimi devam eder. Bu düzeltme nedeniyle ilgili yerel kontroller tekrarlandı. Fiziksel cihaz performansı ve uzman incelemesi bekler.
 
-Yerel görseller: [masaüstü tibial odak](../../output/playwright/lower-limb-desktop-tibial-focus.png), [390×844 düzeltilmiş kadraj](../../output/playwright/lower-limb-mobile-fibular-fixed.png), [320×568 düzeltilmiş kadraj](../../output/playwright/lower-limb-small-mobile-fixed.png). Bu kayıt henüz canlı sürüm kabulü değildir; yayın revision'ı ve gerçek adresteki kontrol sonucu teslim sonunda ayrıca eklenecek.
+Yerel görseller: [masaüstü tibial odak](../../output/playwright/lower-limb-desktop-tibial-focus.png), [390×844 düzeltilmiş kadraj](../../output/playwright/lower-limb-mobile-fibular-fixed.png), [320×568 düzeltilmiş kadraj](../../output/playwright/lower-limb-small-mobile-fixed.png). Bu yerel fotoğraf canlı sürüm kabulünden önce kaydedildi; yayın sonucu sonraki ek kayıtta tutulur. İngilizce sağ ortak fibular → sağ siyatik akışında ebeveynin iki aynı taraf dalı görüldü. Ana modele dönüş 2.290 parçayı yükledi, seçimi ve geri geçmişini temizledi.
 
 Süre tahmini değişmedi: tam tek tek hedef paydası ve ölçülmüş paket üretim hızı hâlâ yok. Bu turun toplam aktif üretim süresi ölçülmedi; önemli yeniden çalışma nedeni mobil kadraj çakışmasıdır. Sıradaki paket, henüz bağlanmamış distal sinir dalları ve ayak bileği destek hedeflerinin gerçek kaynak alt nesnelerini denetlemektir.
+
+## Aynı teslimin yayın kabulü — 2 Ekim 2026
+
+Kaynak `09879bf300d38eae14054fcdd55ea4fdc121d1fc`, fork `main` ve `codex/publish-model-explorer` dallarına force kullanmadan gönderildi. Statik dal `1a13ccf4136780b8c9b4b9a4ab8dbb0d40024f6f`; [Pages #36984762689](https://github.com/ismailatilan-44/human-atlas/actions/runs/36984762689) başarılı. Canlı `release.json` kaynak SHA ile eşleşti. `npm run deploy:pages` içindeki üretim build ve mevcut explorer-catalog güncellik kontrolü geçti. Üretim JS gzip 337,62 KB; büyük JS paketi uyarısı sürüyor. Bu teslimde uzman incelemesi veya fiziksel cihaz performansı kapanmadı.
+
+Gerçek [canlı adreste](https://ismailatilan-44.github.io/human-atlas/) Chromium 390×844 akışı: ayrı referans 21 parçayla yüklendi; ASCII `sag tibial` tek doğru taraf sonucu verdi; tibial → sağ siyatik → sağ ortak fibular düğme geçişleri çalıştı. Son dal izolasyonda ve Latince `(R)` adıyla incelendi; sinir geometri alanında araçların altında/panelin üstünde görünür. [Canlı ekran kanıtı](../../output/playwright/lower-limb-live-mobile-fibular.png). Bu gezinmeden sonra tarayıcı konsolunda hata veya uyarı yoktu. Yerel masaüstü/iki mobil kabul yukarıda ayrı kayıttadır; canlıda bu tur yalnız 390×844 akışı tekrarlandı.
+
+Entegrasyon sahibi root; kaynak geometri ve metadata alt görevleri tamamlandı, entegrasyon sahipliği devredildi. Rapor hazırlanırken bu alt görevlerde çalışan ajan kalmadı. Kullanıcının izlenmeyen `.agents/` ve `AGENTS.md` dosyaları, eski render log'u ve geçici tarayıcı çıktıları teslimden ayrı korundu. Sürekli/periyodik rapor otomasyonu kurulmadı; anlamlı her teslimde bu kayıt sonuç, revision, kabul, engel, tahmin değişikliği ve sonraki adımla güncellenir.
+
+**Sıradaki tek somut eylem:** 18 bağlanmamış alt ekstremite hedefinin gerçek kaynak nesnelerini denetlemek; önce distal sinir dalları ve ayak bileği bağları, ardından fibular arter. Kaynakta yokluk, anatomik tamlık veya ana gövde uyumu isim/parça sayısından çıkarılmayacak. Ders katmanı model hedefinden sonra kalır. Senden şu an kurulum veya kod işlemi beklenmiyor; kapsamlı anatomik kabul yetkin değerlendiriciye ihtiyaç duyuyor. Kesin bitiş tarihi için tüm tek tek hedef listesi ve birkaç bölgesel paketin ölçülmüş üretim hızı hâlâ eksik.
