@@ -1,0 +1,57 @@
+> User decision (2 October 2026): actual physical phone/tablet and anatomist acceptance is explicitly deferred. These gates do not block this software release. The cases below are a prepared handoff, not completed acceptance.
+
+# Study release: physical-device and anatomy review packet
+
+Prepared 2 October 2026 from software baseline `b877954fdc85243c48cd302c5d2cfec727bd9a6b`. The earlier [nine-bone study acceptance](regional-study-v1.md) is historical evidence; its in-memory behavior is not the new persistence contract. Root `AGENTS.md` and all six repository skills are tracked at this baseline. This packet follows [regional acceptance](../../.agents/skills/anatomy-regional-acceptance/SKILL.md) and the [source → producer → check routing](agent-workflow.md).
+
+**Status: prepared, not executed on physical hardware or by an anatomist.** Desktop Chrome at a mobile viewport does not establish either acceptance. Software checks, the deployed source revision and browser observations belong in the [delivery handoff](progress-report-2026-10-02.md); no result is implied by a test case below.
+
+## Exact release record to accompany every result
+
+Record the live URL, `release.json` revision, date/time with UTC offset, module ID/content version and tested item IDs. For devices also record model, OS/browser version, viewport and device-pixel ratio, network conditions, cache state, battery/thermal condition and whether low-power mode is enabled. For expert review record reviewer name, relevant qualification, decision per item, evidence locator and any required change. A newer release or content version needs a new result or an explicit reviewer statement of unchanged scope.
+
+## Physical phone and tablet cases
+
+Run on one real phone and one real tablet supplied by the user or reviewer. Use their installed supported browser; record Safari/Chrome differences when both are available. No installation, device purchase, account or remote access is requested. Run portrait and landscape; separately exercise 320×568 and 390×844 CSS layouts on desktop Chrome without describing them as physical-device tests.
+
+| Case | Exact action | Expected observation and evidence |
+| --- | --- | --- |
+| D1: load and select | Cold-load the main atlas; search `SİNİR` and `sinir`, then `Kalp`; select heart, focus, isolate, follow left atrium and use Back. | Matching Turkish search behavior, visible selected geometry, correct source identity and return context. Record load-to-interactive time, screenshot and any console error. Repeat once warm-cache. |
+| D2: real multitouch | Open right talus in the lower-limb reference. Orbit with one finger for 10 seconds, pinch inward/outward and pan with two fingers five times; lift one finger first, then the other. Repeat during recall. | No accidental selection/answer, stuck gesture or page zoom that makes controls unreachable. Study target stays fixed while the camera moves. Record a short screen capture and any misfire. |
+| D3: small-screen input | Enter recall; open the software keyboard and search `asik`. Scroll choices/feedback, close the keyboard, rotate the device and submit once. | Target remains visible; choices and next/exit controls remain reachable without horizontal page scroll. No hidden target name/source before submission; double tap produces one event. |
+| D4: return and saved scene | Before study select and isolate left talus, change language and label/visibility state, orbit, save the scene. Enter right-side study, exit, use Back, reload and reopen the saved scene. | Dataset/concept, camera, visibility, labels and language return correctly. Back continues the existing explorer history; the saved scene is not confused with a different reference body's same-named bone. |
+| D5: learner persistence | In right-ankle study make one wrong answer, one skip and seven correct first answers; retry the two misses correctly. Reload during recall and again after finish; reopen history/review. | First-attempt result remains 7/9; eventual recognition can reach 9/9 without rewriting it. Skips/hints remain distinguishable. Resuming/reloading does not count another answer or another scheduled review. |
+| D6: interruption | Background for two minutes, lock/unlock, return, then close/reopen the tab. If an actual WebGL context-loss message occurs, reload as directed. | No silent progress loss or duplicate score. Record whether the context was lost; do not claim a successful context-loss test when no loss occurred. Recoverable saved/session data survives reload within browser storage limits. |
+| D7: regional boundaries | Complete inspection → recall → wrong answer → correction → retry → finish in left ankle and right upper-limb bones. Switch through main, lower and upper references between runs. | Correct side and source frame; no blended bodies, stale selection or old module answers. Finish restores the originating explorer scene. Source exclusions remain visible. |
+| D8: storage/review controls | Save two scenes, delete only one, reload and reopen the remaining scene. Submit a due review, use Undo once, reload, then answer again. | Targeted deletion only; one effective review event after undo/re-answer; due time and progress are consistent. Record browser storage restrictions rather than interpreting them as content loss. |
+
+Storage corruption, missing content version, stale concept IDs, clock rollback/forward, timezone/DST and duplicate/undo edge cases require isolated software fixtures in the automated tests. Do not change a person's device clock or corrupt their real learning storage to execute this packet. A browser that rejects storage should show a recoverable limitation rather than claim persistence.
+
+### Measurement budget and recording
+
+These are provisional release targets, not observed measurements or universal hardware guarantees. On a recorded stable Wi-Fi connection, target cold-load-to-interactive ≤15 seconds and warm-load ≤5 seconds; scene focus/answer feedback ≤250 ms after input; during a 10-second continuous orbit target median frame interval ≤33.3 ms and p95 ≤50 ms. Use three runs per device and report all runs plus median, cache/network conditions and instrumentation. Main-atlas geometry transfer is measured separately from each regional reference. Distinguish real renderer/frame instrumentation from requestAnimationFrame timing proxies, and a screen recording from an instrumented timing measurement.
+
+Record compressed transfer bytes, renderer/triangle counts where instrumentation exposes them, long tasks and peak memory where the platform exposes reliable values. Mark unavailable metrics `not measured`; do not substitute desktop memory for phone memory. A five-minute orbit/study/switch loop must not crash, reload involuntarily or steadily lose responsiveness. Thermal throttling, cache variability and unsupported memory APIs stay in the result. Budget misses produce a concrete issue with device/run evidence, not an anatomically accepted release or a claim that all devices passed.
+
+## Anatomist or qualified anatomy educator cases
+
+The bounded catalog contains 23 source-model identification items across three modules. It does not test clinical inference or complete any regional coverage cell. Authoritative content and evidence locators are the versioned module JSON and existing reference labels/manifests, not a new translated label set in this document. See [additional module scope](study-regions-v2.md).
+
+| Module | Exact concepts (prefix `zanatomy:`) | Source/evidence and focused questions |
+| --- | --- | --- |
+| `right-ankle-v1` | `talus-r`, `calcaneus-r`, `navicular-bone-r`, `cuboid-bone-r`, `medial-cuneiform-bone-r`, `intermediate-cuneiform-bone-r`, `lateral-cuneiform-bone-r`, `tibia-r`, `fibula-r` | [Module](../../data/study/right-ankle-v1.json), [lower reference review](lower-limb-nerve-reference-review.md). Verify identity, right side, three cuneiform distinctions and recognition from the actual initial camera. Does whole tibia/fibula geometry support the stated ankle-region identification goal without implying ankle-only surfaces? |
+| `left-ankle-v1` | `talus-l`, `calcaneus-l`, `navicular-bone-l`, `cuboid-bone-l`, `medial-cuneiform-bone-l`, `intermediate-cuneiform-bone-l`, `lateral-cuneiform-bone-l`, `tibia-l`, `fibula-l` | [Module](../../data/study/left-ankle-v1.json), same lower source frame. Verify side independently rather than approving by right-side symmetry; assess cuneiform distinction and whether orientation/context is sufficient. |
+| `right-upper-limb-bones-v1` | `clavicle-r`, `scapula-r`, `humerus-r`, `radius-r`, `ulna-r` | [Module](../../data/study/right-upper-limb-bones-v1.json), [upper reference review](upper-limb-nerve-reference-review.md). Check right-side identification and radius/ulna distinction in source context; assess visibility of the whole selected structure and suitability of the camera. Do not approve humeral attachment locations through whole-humerus recognition. |
+
+For **each item**, search/select it in its own reference, inspect source ID and TR/EN/available Latin labels, orbit and isolate, restore context, then run the corresponding original prompt, one deliberately incorrect answer, correction, retry and finish. Inspect evidence and separate component attribution. Record `accept / revise / cannot assess` separately for (1) source identity/side, (2) displayed terminology, (3) prompt/answer/correction meaning, (4) camera/context sufficient for recognition and (5) educational suitability. Include the item ID, screenshot and specific correction for each failure. Finishing the software quiz is not expert review.
+
+Known source boundaries to inspect explicitly: lower reference fibula unused vertices and a small calcaneal normal defect; upper scapula two degenerate triangles and humerus four boundary/two nonmanifold edges. No geometry is repaired by the lesson. Ask whether any visible artifact misleads this limited recognition task; defer an affected item if it does. Exclude unresolved humeral landmarks, scored attachments/articulations/innervation, partial nerve-course claims, digit-specific unresolved terms, compound sesamoid/lumbrical/interosseous identities and rejected intersesamoid geometry. Do not infer a missing relation from apparent surface contact. The independent reference coordinate frames remain separate from the main male body.
+
+Review the scheduler wording separately: first attempt, eventual recognition and future due review must not claim anatomical competence, durable mastery or validated retention. The scheduling policy is a learning aid; this packet does not establish educational efficacy.
+
+## Human inputs still needed
+
+1. A person with access to a physical phone and tablet to run D1–D8 and return the device/release record, three-run measurements, observed failures and screenshots/capture. Neither device nor hardware results have been supplied here.
+2. A named anatomist or qualified anatomy educator to review the 23 item IDs above against the exact released content and return item-level decisions/evidence. No expert reviewer or acceptance has been supplied here.
+
+No hiring, outreach or payment has been performed. These two external acceptance gates remain blocked pending those inputs; software implementation, CI, desktop WebGL QA and deployment can proceed independently. Preserve this prepared packet and append real result links to the delivery handoff rather than changing its status to passed from automated tests alone.
