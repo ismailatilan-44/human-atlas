@@ -412,7 +412,7 @@ export default function AnatomyScene({
     };
     const move = (e: PointerEvent) => {
       tap.move(e.pointerId, e.clientX, e.clientY);
-      if (e.buttons || amount < 0.5 || e.pointerType === "touch") {
+      if (latest.current.concealLabels || e.buttons || amount < 0.5 || e.pointerType === "touch") {
         hover.hidden = true;
         return;
       }
@@ -593,6 +593,7 @@ export default function AnatomyScene({
       }
       if (moving && !s.isolate)
         fit(amount > 0.5 ? "front" : s.view, Math.max(0, (amount - 0.3) / 0.7));
+      if (s.concealLabels) hover.hidden = true;
       const inspecting = s.isolate || s.focused;
       const inspectorRect = s.inspectorOpen
         ? document.querySelector(".detail-sheet")?.getBoundingClientRect()

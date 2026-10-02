@@ -183,6 +183,7 @@ export interface CameraPose {
   } | null;
 }
 export interface SceneState {
+  concealLabels?: boolean;
   inspectorOpen?: boolean;
   anchor?: AtlasAnchor & { label: string };
   explode: number;

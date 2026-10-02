@@ -57,6 +57,10 @@ All 127 objects have dataset-scoped Turkish/English labels; 110 have sourced exa
 - Isolate a selected structure and read its details.
 - Use compact controls and detail panels on mobile.
 
+## Regional study (local)
+
+Choose **Alt ekstremite referansı** and **9 kemik · Çalışmaya başla** to inspect nine right ankle-region source bones, identify the highlighted bone, receive corrective feedback and retry misses. The summary separates first-attempt correctness from eventual success. Names, source IDs, evidence and separate attribution come from the existing reference; this is a bounded recognition exercise, not regional completeness or expert acceptance. Progress is in memory; restart clears it, exit restores the previous explorer view, and refresh ends it. See [acceptance and source selection](docs/model/regional-study-v1.md). Validate with `node --test scripts/study-session.test.mjs`.
+
 ## Run locally
 
 Requires Node.js 22.13 or newer. No API keys or accounts are needed.

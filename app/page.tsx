@@ -1,3 +1,5 @@
+import StudyPanel from "./study-panel";
+import studyPack from "../data/study/right-ankle-v1.json";
 import { matchesAnatomyQuery } from "./search";
 import {
   REFERENCE_DATASETS,
@@ -68,6 +70,8 @@ const initial: SceneState = {
   ghost: false,
 };
 export default function Home() {
+  const [studying, setStudying] = useState(false);
+  const studyReturn = useRef<(() => void) | null>(null);
   const detailTitle = useRef<HTMLHeadingElement>(null);
   const camera = useRef<CameraPose | null>(null);
   const history = useRef<
@@ -120,7 +124,7 @@ export default function Home() {
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
       if (
-        e.key === "/" &&
+        !studying && e.key === "/" &&
         !(e.target instanceof HTMLInputElement) &&
         !(e.target instanceof HTMLTextAreaElement)
       ) {
@@ -131,7 +135,7 @@ export default function Home() {
     };
     window.addEventListener("keydown", key);
     return () => window.removeEventListener("keydown", key);
-  }, []);
+  }, [studying]);
   const parts = useMemo(() => new Map(atlas?.parts.map((p) => [p.id, p])), [atlas]);
   const concepts = useMemo(() => (atlas ? explorerConcepts(atlas) : []), [atlas]);
   const conceptMap = useMemo(() => new Map(concepts.map((c) => [c.id, c])), [concepts]);
@@ -223,11 +227,11 @@ export default function Home() {
   const chooseLatest = useRef(choose);
   chooseLatest.current = choose;
   useEffect(() => {
-    if (!atlas) return;
+    if (!atlas || studying) return;
     return registerAtlasTools({ ...atlas, concepts }, (c) =>
       flushSync(() => chooseLatest.current(c)),
     );
-  }, [atlas, concepts]);
+  }, [atlas, concepts, studying]);
   const choosePart = (id: string) => {
     const p = parts.get(id);
     if (!p) return;
@@ -267,6 +271,15 @@ export default function Home() {
     setDetails(false);
     setPanel((p) => (p === next ? null : next));
   };
+  const startSession = () => {
+    const saved = { state, chosen, details, panel, camera: camera.current, history: [...history.current] };
+    studyReturn.current = () => {
+      setState({ ...saved.state, rotate: false, restoreCamera: saved.camera ?? undefined });
+      setChosen(saved.chosen); setDetails(saved.details); setPanel(saved.panel);
+      history.current = saved.history; setHistorySize(saved.history.length);
+    };
+    setPanel(null); setDetails(false); setStudying(true);
+  };
   return (
     <main className={`studio ${reference ? "regional-reference" : ""}`}>
       {atlas && (
@@ -276,12 +289,13 @@ export default function Home() {
           state={{
             ...state,
             anchor: state.anchor && chosen ? { ...state.anchor, label: label(chosen) } : undefined,
-            inspectorOpen: details && !!chosen,
+            inspectorOpen: studying || (details && !!chosen),
+            concealLabels: studying,
           }}
           onCameraChange={(pose) => {
             camera.current = pose;
           }}
-          onSelect={choosePart}
+          onSelect={studying ? () => {} : choosePart}
           onProgress={(n) => {
             setProgress(n);
             if (n === 100) setError("");
@@ -290,6 +304,14 @@ export default function Home() {
         />
       )}
       <div className="vignette" />
+      {studying ? <StudyPanel concepts={conceptMap} reveal={(id, isolated) => {
+        const c = conceptMap.get(id);
+        if (!c) return;
+        choose(c);
+        setDetails(false);
+        setState(s => ({ ...s, ghost: true, isolate: isolated, anchor: undefined, visible: ["skeletal"], hidden: [] }));
+      }} exit={() => { studyReturn.current?.(); setStudying(false); }} /> : <>
+      {dataset === studyPack.datasetId && progress === 100 && studyPack.items.every(it => conceptMap.get(it.conceptId)?.elements.length === 1) && <button className="study-entry" onClick={startSession}>9 kemik · Çalışmaya başla</button>}
       <header className="identity">
         <div className="eyebrow">
           <span className="status-dot" /> INTERACTIVE ANATOMY
@@ -1093,6 +1115,7 @@ export default function Home() {
           </div>
         </SheetContent>
       </Sheet>
+      </>}
     </main>
   );
 }
