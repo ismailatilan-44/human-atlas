@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "observedTaskStartUtc": "2026-10-02T12:57:57+00:00",
+  "completedAt": "2026-10-02T13:04:41.282719+00:00",
+  "elapsedWallSeconds": 404.283,
+  "measurementScope": "Observed wall-clock task interval; not independent focused-labor measurement",
+  "ownership": "Only data/model-candidates/upper-limb-bp3d43-cord-metadata-v1 written; root sole active integrator",
+  "actualOutputs": {
+    "leftCordLabels": 2,
+    "sourceConcepts": 2,
+    "directRelationCandidates": 3,
+    "separatelyDeferredContributionFacts": 2,
+    "rootEntities": 0,
+    "rightMirrors": 0
+  },
+  "checksRun": [
+    "python3 data/model-candidates/upper-limb-bp3d43-cord-metadata-v1/build.py",
+    "python3 data/model-candidates/upper-limb-bp3d43-cord-metadata-v1/build.py --check"
+  ],
+  "rework": [
+    {
+      "issue": "Median is formed through two named contributions/roots; direct branch_of would flatten the stated anatomy",
+      "resolution": "Two qualified contribution facts isolated in deferredRelations; direct edge set remains3"
+    }
+  ],
+  "remainingWorkerMinutes": 0,
+  "remainingGates": [
+    "Root geometry acceptance",
+    "Dataset/runtime label and relation projection",
+    "Optional contribution predicate review",
+    "Product journey and expert acceptance"
+  ]
+}

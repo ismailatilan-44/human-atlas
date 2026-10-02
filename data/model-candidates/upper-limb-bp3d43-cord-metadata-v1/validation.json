@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "labels": 2,
+  "newSourceConceptIds": 2,
+  "existingIdentityConflicts": 0,
+  "actualSourceFjBpFmaPairsVerified": 2,
+  "directAnatomicalRelations": 3,
+  "separatelyDeferredContributionFacts": 2,
+  "rightSideObjects": 0,
+  "rootEntitiesAdded": 0,
+  "innervationAdded": 0,
+  "geometryAccepted": false,
+  "applicationChecksRun": false,
+  "anatomicalExpertReview": "pending"
+}

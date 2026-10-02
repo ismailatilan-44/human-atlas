@@ -1,0 +1,46 @@
+{
+  "pairs": [
+    {
+      "sourceA": "FJ4274",
+      "sourceB": "FJ4275",
+      "minVertexAToSurfaceBMm": 0.0040859947912395,
+      "minVertexBToSurfaceAMm": 0.001361072063446045,
+      "meaning": "Geometric sampled proximity only; not proof of anatomical continuity or a branch relationship"
+    },
+    {
+      "sourceA": "FJ4275",
+      "sourceB": "FJ4258",
+      "minVertexAToSurfaceBMm": 0.009661033749580383,
+      "minVertexBToSurfaceAMm": 0.0023238740395754576,
+      "meaning": "Geometric sampled proximity only; not proof of anatomical continuity or a branch relationship"
+    },
+    {
+      "sourceA": "FJ4274",
+      "sourceB": "FJ4240",
+      "minVertexAToSurfaceBMm": 7.861517906188965,
+      "minVertexBToSurfaceAMm": 7.845035076141357,
+      "meaning": "Geometric sampled proximity only; not proof of anatomical continuity or a branch relationship"
+    },
+    {
+      "sourceA": "FJ4274",
+      "sourceB": "FJ4172",
+      "minVertexAToSurfaceBMm": 330.95513916015625,
+      "minVertexBToSurfaceAMm": 330.95513916015625,
+      "meaning": "Geometric sampled proximity only; not proof of anatomical continuity or a branch relationship"
+    },
+    {
+      "sourceA": "FJ4172",
+      "sourceB": "FJ4240",
+      "minVertexAToSurfaceBMm": 0.17362956702709198,
+      "minVertexBToSurfaceAMm": 0.004296053666621447,
+      "meaning": "Geometric sampled proximity only; not proof of anatomical continuity or a branch relationship"
+    },
+    {
+      "sourceA": "FJ4171",
+      "sourceB": "FJ4243",
+      "minVertexAToSurfaceBMm": 0.11530236154794693,
+      "minVertexBToSurfaceAMm": 0.00037641997914761305,
+      "meaning": "Geometric sampled proximity only; not proof of anatomical continuity or a branch relationship"
+    }
+  ]
+}

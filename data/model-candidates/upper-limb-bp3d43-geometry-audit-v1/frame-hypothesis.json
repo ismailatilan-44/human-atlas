@@ -1,0 +1,32 @@
+{
+  "sourceManifest": "public/models/extensions/thyroid-bp3d43.json",
+  "sourceManifestSha256": "1aeb6cb43a240baf4436767b6339f9ae99a2384f8bafaee44914c39f07de799b",
+  "historicalReport": "docs/model/asset-registration-thyroid-bp3d43.md",
+  "matrixColumnVector": [
+    [
+      0.001,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0.001,
+      0.0781112
+    ],
+    [
+      0,
+      -0.001,
+      0,
+      -0.1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "method": "Existing native4.3 conversion reused unchanged, not an estimated fit. Independent nine source bones measured anew for current upper-limb decision."
+}

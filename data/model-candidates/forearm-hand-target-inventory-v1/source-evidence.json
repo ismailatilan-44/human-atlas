@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "e005d53a9cb22cda52c39fb318248a83ba113fe8",
+  "status": "candidate_planning_only",
+  "sources": [
+    {
+      "id": "zanatomy-ta2-pinned",
+      "title": "Pinned Z-Anatomy-distributed TA2 table; numeric and nonnumeric IDs kept distinct",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv"
+    },
+    {
+      "id": "bp3d-retained-tables",
+      "title": "Retained official BodyParts3D naming and membership tables",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html"
+    },
+    {
+      "id": "ttuhsc-hand",
+      "title": "Texas Tech University Health Sciences Center El Paso anatomy tables — hand",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/hand_tables.html",
+      "retrievedOn": "2026-10-02",
+      "locators": [
+        "Joints and Associated Structures of the Hand",
+        "Muscles of the Hand / lumbrical, dorsal interosseous, palmar interosseous"
+      ],
+      "use": "Bounded selected requirements; no relationship or model acceptance claim"
+    }
+  ],
+  "scopeRow": "| Önkol, el bileği ve el | Bütün kemikler, eklemler, bağlar ve retinakulumlar | Dış/iç kaslar, tendonlar, kılıflar ve palmar fasya | Median/ulnar/radial yollar ve parmak dalları; damar/lenf | Kompartımanlar ve kanallar | D1–D2; önkol seçilmiş ilişkileri ve kısmi median geometri var. Elin kemik grubu, tam el işlevsel ağı anlamına gelmez. |",
+  "sourceSnapshots": [
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "public/models/extensions/upper-arm-nerves.json",
+      "sha256": "30429144b67b169ea459f0e44617a9d0a0c5e2c55148b12d9eb02ff994eb5f07"
+    },
+    {
+      "path": "public/models/extensions/median-nerves.json",
+      "sha256": "3b1aa0f7a953edb72caa51c5c329b0de9a06146901463c4126e4f1085267dd00"
+    },
+    {
+      "path": "public/models/extensions/knee-structures.json",
+      "sha256": "0ec4057d9928b4d0b3102af9dafcefdc29eb020c13fd2ed013641928cb26c082"
+    },
+    {
+      "path": "public/models/extensions/sciatic-nerves.json",
+      "sha256": "c1ed2a84d350067078f794aa41e088b05ccd89772d06b4fd30312338972152a3"
+    },
+    {
+      "path": "public/models/extensions/thyroid-bp3d43.json",
+      "sha256": "1aeb6cb43a240baf4436767b6339f9ae99a2384f8bafaee44914c39f07de799b"
+    },
+    {
+      "path": "public/models/extensions/spinal-cord-bp3d43.json",
+      "sha256": "5aa8298fd162c654b570046c653b49e8107cccce01a8d2ab288dc95672c47184"
+    },
+    {
+      "path": "public/models/extensions/brachial-plexus.json",
+      "sha256": "3d838137b4c3e9d84bf82be99fcf9fa62ae4f9c2de24587b2bafb02d26f1ff4c"
+    },
+    {
+      "path": "public/models/extensions/lung-bp3d43.json",
+      "sha256": "2c2bb3a6bc1c82133015f9ddd21f600cb2eeaaf82dd7a345d62f35193191009c"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/atlas.json",
+      "sha256": "5b977867fb49394bb7cc04ea5166fb82620daa9fac26e0f6fceaf1e44276eb44"
+    },
+    {
+      "path": "data/model-candidates/coverage-labels/bp3d-isa-parts-list-e.txt",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "path": "data/model-candidates/concept-selection-review/isa_element_parts.txt",
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    {
+      "path": "data/model-candidates/concept-selection-review/partof_parts_list_e.txt",
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+    },
+    {
+      "path": "data/model-candidates/concept-selection-review/partof_element_parts.txt",
+      "sha256": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "data/anatomy/knowledge.json",
+      "sha256": "49d89115bc897b7c84a781d2a043424dc9b78b080f769003589aab281922216d"
+    },
+    {
+      "path": "data/anatomy/model-inventory.json",
+      "sha256": "e1792dfd41872f8687b84b7cddd669b21a75cf25d204bc7f6d9c872199c45130"
+    },
+    {
+      "path": "docs/model/model-scope-and-acceptance.md",
+      "sha256": "069a063136199b3d282eed5da7385a29d33e79ce8cf207a9555b21d585dff781"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-nerve-metadata-v1/source-evidence.json",
+      "sha256": "b3b70fab9a0b6eda6c980da75f5718797078c225664f97c453f8e420177e70a8"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/ATTRIBUTION.md",
+      "sha256": "dc5b11db691ded2118204c9fb25866adbaca74234c3d7c2e151c1a0174318acd"
+    },
+    {
+      "path": "public/ATTRIBUTION.md",
+      "sha256": "40e5a3d5ce2a9bc942972daafa2da63c9ee8135216858dccf358d3dd85bde501"
+    }
+  ],
+  "sourceObservations": {
+    "ttuhscHand": {
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/hand_tables.html",
+      "retrievedOn": "2026-10-02",
+      "observations": [
+        "Thenar, hypothenar, central and adductor-interosseous compartments are individually listed.",
+        "Dorsal interosseous row describes four muscles; palmar row allows three or four.",
+        "Lumbrical row associates muscles with digits 2–5."
+      ],
+      "use": "Bounded requirement naming only; no imported relationships or asserted exact ordinal mapping"
+    }
+  },
+  "checks": {
+    "positiveMainBodyObservations": 160,
+    "positiveIndependentReferenceObservations": 50,
+    "individualIntrinsicTargetsWithoutDirectBinding": 22,
+    "relatedWholeMusclePartTargets": 8
+  },
+  "limitations": [
+    "No formal FMA/TA2 equivalence asserted",
+    "Name and member evidence is not expert identity acceptance",
+    "Unmatched target is not a source-wide absence claim",
+    "Nonnumeric asterisk IDs retain raw original Latin but no verified Latin display",
+    "Raw suspicious Latin rows 2486/4644/4646 retained with display withheld",
+    "All four families have named requirements and explicit unexpanded scope"
+  ]
+}

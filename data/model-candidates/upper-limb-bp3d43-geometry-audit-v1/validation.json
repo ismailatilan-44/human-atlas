@@ -1,0 +1,21 @@
+{
+  "parts": 26,
+  "concepts": 24,
+  "all26SourceFilesUnchanged": true,
+  "finiteDecodedPositions": true,
+  "indexAndBoundsChecks": true,
+  "offsetAlignment": true,
+  "normalizedAuthoredNormals": true,
+  "uniqueIds": true,
+  "returnedConceptParity": true,
+  "gzipRoundTrip": true,
+  "twoNumericalExportsFiveFilesIdentical": true,
+  "maxDecodedNormalLengthError": 2.489235621061514e-05,
+  "fileSha256": {
+    "atlas.json": "620a443a9bf345d597e3f13cfa6563e19402589247938713c197afdfe546d2a0",
+    "anatomy.bin": "d67509db4368cdcc7f39b853f23bcd6dbc5864699b6a8d3bf197c0c3ac839f0a",
+    "anatomy.bin.gz": "7a70e6be103f5a183f1325817a8f13c29fe3c66aa4bddb5fefeafaddfd19b36e",
+    "ATTRIBUTION.md": "44c523a8a5d335967f94f6eab7f6e5ccba6872185ead3e868bac1ddd035508df",
+    "UPSTREAM-LICENSE.html": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+  }
+}

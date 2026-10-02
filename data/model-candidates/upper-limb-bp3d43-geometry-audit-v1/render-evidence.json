@@ -1,0 +1,70 @@
+{
+  "views": [
+    {
+      "file": "source-decoded-overview.png",
+      "mode": "all",
+      "panelOrder": "source43 left,decoded right",
+      "center": [
+        0.12999999523162842,
+        1.159999966621399,
+        0.0
+      ],
+      "direction": [
+        0.148275226354599,
+        0.02965504303574562,
+        0.9885014295578003
+      ],
+      "orthoScale": 1.12
+    },
+    {
+      "file": "source-decoded-cords-close.png",
+      "mode": "cords",
+      "panelOrder": "source43 left,decoded right",
+      "center": [
+        0.0729999989271164,
+        1.4249999523162842,
+        -0.014999999664723873
+      ],
+      "direction": [
+        0.40927696228027344,
+        0.07276034355163574,
+        0.9095043540000916
+      ],
+      "orthoScale": 0.17
+    },
+    {
+      "file": "source-decoded-collateral-fragments.png",
+      "mode": "fragments",
+      "panelOrder": "source43 left,decoded right",
+      "center": [
+        0.10499999672174454,
+        1.315000057220459,
+        0.03500000014901161
+      ],
+      "direction": [
+        -0.2418084591627121,
+        0.07737870514392853,
+        0.9672338366508484
+      ],
+      "orthoScale": 0.58
+    },
+    {
+      "file": "source-main-bones-overlay.png",
+      "mode": "main",
+      "panelOrder": "native-transformed source43 ivory,main40 cyan",
+      "center": [
+        0.09000000357627869,
+        1.2999999523162842,
+        -0.004999999888241291
+      ],
+      "direction": [
+        0.1955154836177826,
+        0.07820618897676468,
+        0.9775773882865906
+      ],
+      "orthoScale": 0.65
+    }
+  ],
+  "normalShading": "Source authored OBJ normals versus actual decoded Int16 candidate normals; proper common rotation; no smoothing repair",
+  "limits": "Panel offsets render-only. Morphology and continuous nerve/plexus anatomy unaccepted; blue structures are spinal trunks, not isolated plexus roots."
+}

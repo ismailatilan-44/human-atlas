@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "bp3d43-live",
+      "title": "BodyParts3D official live source",
+      "url": "https://lifesciencedb.jp/bp3d/",
+      "creator": "Database Center for Life Science (DBCLS)",
+      "version": "Data4.3 / Objects4.3 / FMA3.0",
+      "license": "CC BY-SA 2.1 Japan",
+      "licenseUrl": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+      "sourceReferenceBody": "Source body; demographic/specimen detail not established in this bounded intake",
+      "rightsStatus": {
+        "privateInspection": "permitted under captured public source license",
+        "adaptation": "attribution/share-alike obligations retained",
+        "distribution": "not activated; require source attribution/license retained and separate technical/expert acceptance"
+      },
+      "coordinateUnits": "OBJ source header states mm; no transform applied",
+      "access": "Public normal selected-download endpoint;no authentication or access restriction bypass",
+      "retrievedOn": "2026-10-02"
+    },
+    {
+      "id": "bp3d43-left-cord-objects",
+      "title": "Official BP3D4.3 returned left cord objects",
+      "url": "https://lifesciencedb.jp/bp3d/",
+      "version": "Data4.3 / Objects4.3 / FMA3.0",
+      "use": "Two original OBJ headers and official is_a file-membership rows only; no branch relation inferred from membership",
+      "paths": [
+        "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+        "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj"
+      ]
+    },
+    {
+      "id": "zanatomy-ta2-pinned",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "use": "Exact numeric unsided cord terms; Turkish editorial translation; no fabricated sided Latin"
+    },
+    {
+      "id": "umich-bluelink-brachial-plexus",
+      "title": "University of Michigan BlueLink — Brachial Plexus LabLink",
+      "url": "https://sites.google.com/a/umich.edu/bluelink/curricula/m1-foundational-anatomy/sequence-7-neuroanatomy/brachial-plexus-subclavian-vessels-scalene-muscles/lablink",
+      "retrievedOn": "2026-10-02",
+      "use": "Selected anatomical component/branch/contribution facts with step locators only; no page prose, donor images or multimedia redistributed"
+    },
+    {
+      "id": "ttuhsc-axilla-shoulder-tables",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/axilla_tables.html",
+      "retrievedOn": "2026-10-02",
+      "use": "Musculocutaneous branch parent corroboration; row/column locators only"
+    }
+  ],
+  "inputSnapshots": [
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/proposal.json",
+      "sha256": "84e377567ebd7f5c1073122fa85e768ab927db567aaa2e74b5bf9012a3e30bde"
+    },
+    {
+      "path": "data/anatomy/knowledge.json",
+      "sha256": "49d89115bc897b7c84a781d2a043424dc9b78b080f769003589aab281922216d"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "a13a0d18270ccbd9dda230c426d8b07b44671273c8ad91540c82101ab4fe5963"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/FMA2Obj.txt",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d"
+    }
+  ],
+  "objects": [
+    {
+      "conceptId": "FMA45239",
+      "sourceObjectPath": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sourceObjectSha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445",
+      "sourcePartId": "FJ4274",
+      "sourceRepresentationId": "BP29122",
+      "candidateExportPartId": "BP43-FJ4274",
+      "candidateManifest": "data/model-candidates/upper-limb-bp3d43-geometry-audit-v1/atlas.json",
+      "sourceHeader": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4274",
+        "Representation ID": "BP29122",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA45239",
+        "English name": "Lateral cord of left brachial nerve plexus",
+        "Bounds(mm)": "(64.087000,-89.235500,1335.820800)-(90.394600,-78.346700,1362.618500)",
+        "Volume(cm3)": "0.319600"
+      },
+      "returnedMembership": [
+        {
+          "conceptId": "FMA45239",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4274"
+          ],
+          "line": 1446
+        }
+      ],
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA45239",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "labelTerm": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6415,
+        "en": "Lateral cord of brachial plexus",
+        "la": "Fasciculus lateralis plexus brachialis",
+        "csvLine": 6498,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "mappingScope": "Returned lateralized FMA concept ID is source identity; TA2 is an exact unsided terminology correspondence, not a new formal ontology crosswalk.",
+      "sourceExtent": {
+        "vertices": 209,
+        "polygons": 348,
+        "trianglesIfFanTriangulated": 348,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            64.1839,
+            -89.2355,
+            1335.88
+          ],
+          [
+            90.3946,
+            -78.3825,
+            1362.62
+          ]
+        ],
+        "indexConnectedComponents": 5,
+        "componentVertices": [
+          183,
+          15,
+          4,
+          4,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "extentLimit": "Raw index components are not named anatomical branches. Geometry owner separately audits exact-position connectivity, source defects, native frame and continuity."
+    },
+    {
+      "conceptId": "FMA45241",
+      "sourceObjectPath": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sourceObjectSha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d",
+      "sourcePartId": "FJ4275",
+      "sourceRepresentationId": "BP29196",
+      "candidateExportPartId": "BP43-FJ4275",
+      "candidateManifest": "data/model-candidates/upper-limb-bp3d43-geometry-audit-v1/atlas.json",
+      "sourceHeader": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4275",
+        "Representation ID": "BP29196",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA45241",
+        "English name": "Medial cord of left brachial nerve plexus",
+        "Bounds(mm)": "(53.209600,-91.088100,1330.279400)-(89.828400,-81.233500,1352.596600)",
+        "Volume(cm3)": "0.397100"
+      },
+      "returnedMembership": [
+        {
+          "conceptId": "FMA45241",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4275"
+          ],
+          "line": 1447
+        }
+      ],
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA45241",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "labelTerm": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6417,
+        "en": "Medial cord of brachial plexus",
+        "la": "Fasciculus medialis plexus brachialis",
+        "csvLine": 6500,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "mappingScope": "Returned lateralized FMA concept ID is source identity; TA2 is an exact unsided terminology correspondence, not a new formal ontology crosswalk.",
+      "sourceExtent": {
+        "vertices": 913,
+        "polygons": 1708,
+        "trianglesIfFanTriangulated": 1708,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            53.2156,
+            -91.0736,
+            1330.28
+          ],
+          [
+            89.8253,
+            -81.2422,
+            1352.59
+          ]
+        ],
+        "indexConnectedComponents": 11,
+        "componentVertices": [
+          844,
+          42,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "extentLimit": "Raw index components are not named anatomical branches. Geometry owner separately audits exact-position connectivity, source defects, native frame and continuity."
+    }
+  ],
+  "existingGraphEndpointSnapshot": [
+    {
+      "id": "atlas:left-musculocutaneous-nerve",
+      "name": "Left musculocutaneous nerve",
+      "kind": "nerve",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "ZA-MCN-L"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-upper-arm-nerves",
+          "locator": "/models/extensions/upper-arm-nerves.json / concepts / atlas:left-musculocutaneous-nerve; registration"
+        }
+      ]
+    },
+    {
+      "id": "atlas:left-median-nerve",
+      "name": "Left median nerve",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "ZA-MED-L"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-median-nerves",
+          "locator": "/models/extensions/median-nerves.json / concepts / atlas:left-median-nerve; registration"
+        }
+      ]
+    },
+    {
+      "id": "atlas:left-brachial-plexus",
+      "name": "Left brachial plexus",
+      "kind": "source_concept",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "ZA-BP-SUP-TRUNK-L",
+        "ZA-BP-MID-TRUNK-L",
+        "ZA-BP-INF-TRUNK-L",
+        "ZA-BP-SUP-ANT-DIV-L",
+        "ZA-BP-MID-ANT-DIV-L",
+        "ZA-BP-INF-ANT-DIV-L",
+        "ZA-BP-SUP-POST-DIV-L",
+        "ZA-BP-MID-POST-DIV-L",
+        "ZA-BP-INF-POST-DIV-L",
+        "ZA-BP-POST-CORD-L"
+      ],
+      "representationStatus": "registered_geometry",
+      "evidence": [
+        {
+          "sourceId": "extension-brachial-plexus",
+          "locator": "/models/extensions/brachial-plexus.json / concepts / atlas:left-brachial-plexus; registration"
+        }
+      ]
+    }
+  ],
+  "identityConflicts": [],
+  "labelConflicts": [],
+  "identityDecision": "Retain actual returned FMA45239/FMA45241 with their FJ/BP pairs. No existing canonical concept conflict. Catalog FMA11195 does not override returned source identity.",
+  "notInferred": [
+    "complete cord extent",
+    "C5–T1 ventral root contributions",
+    "right-sided counterpart",
+    "branch names from component count",
+    "geometric contact or shared-source connectivity",
+    "new innervation"
+  ]
+}

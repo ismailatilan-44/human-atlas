@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate_only_geometry_gate_pending",
+  "scope": "Only two left BP3D4.3 cord objects; other neural/root/right-side objects excluded",
+  "datasetId": null,
+  "datasetDecision": "root_may_activate_only_after_separate_geometry_acceptance",
+  "labels": [
+    {
+      "ids": [
+        "FMA45239"
+      ],
+      "datasetId": null,
+      "datasetDecision": "root_geometry_acceptance_required",
+      "tr": "Brakiyal pleksusun lateral kordonu",
+      "en": "Lateral cord of brachial plexus",
+      "la": "Fasciculus lateralis plexus brachialis",
+      "side": "left",
+      "aliases": [
+        "Lateral cord of left brachial nerve plexus"
+      ],
+      "ta2TableId": 6415,
+      "sourcePartId": "FJ4274",
+      "sourceRepresentationId": "BP29122",
+      "geometryPartIds": [
+        "BP43-FJ4274"
+      ],
+      "scopeNoteTr": "Sol taraftaki özgün BP3D 4.3 kordon nesnesinin kaynak kapsamıdır; tam pleksus, kök katkıları veya dalların tamamı değildir. Anatomik uzman incelemesi bekler.",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1446"
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6415; CSV line6498; exact unsided English/Latin pair"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending"
+    },
+    {
+      "ids": [
+        "FMA45241"
+      ],
+      "datasetId": null,
+      "datasetDecision": "root_geometry_acceptance_required",
+      "tr": "Brakiyal pleksusun medial kordonu",
+      "en": "Medial cord of brachial plexus",
+      "la": "Fasciculus medialis plexus brachialis",
+      "side": "left",
+      "aliases": [
+        "Medial cord of left brachial nerve plexus"
+      ],
+      "ta2TableId": 6417,
+      "sourcePartId": "FJ4275",
+      "sourceRepresentationId": "BP29196",
+      "geometryPartIds": [
+        "BP43-FJ4275"
+      ],
+      "scopeNoteTr": "Sol taraftaki özgün BP3D 4.3 kordon nesnesinin kaynak kapsamıdır; tam pleksus, kök katkıları veya dalların tamamı değildir. Anatomik uzman incelemesi bekler.",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1447"
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6417; CSV line6500; exact unsided English/Latin pair"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending"
+    }
+  ],
+  "entities": [
+    {
+      "id": "FMA45239",
+      "name": "Lateral cord of left brachial nerve plexus",
+      "kind": "nerve",
+      "side": "left",
+      "geometryPartIds": [
+        "BP43-FJ4274"
+      ],
+      "representationStatus": "candidate_geometry_unaccepted",
+      "anatomicalCoverage": "non_exhaustive",
+      "expertReview": "pending",
+      "sourcePartId": "FJ4274",
+      "sourceRepresentationId": "BP29122",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1446"
+        }
+      ]
+    },
+    {
+      "id": "FMA45241",
+      "name": "Medial cord of left brachial nerve plexus",
+      "kind": "nerve",
+      "side": "left",
+      "geometryPartIds": [
+        "BP43-FJ4275"
+      ],
+      "representationStatus": "candidate_geometry_unaccepted",
+      "anatomicalCoverage": "non_exhaustive",
+      "expertReview": "pending",
+      "sourcePartId": "FJ4275",
+      "sourceRepresentationId": "BP29196",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1447"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "FMA45239|part_of|atlas:left-brachial-plexus",
+      "subject": "FMA45239",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "LEFT SIDE: divisions, cords and terminal branches; step9 identifying the medial/lateral/posterior cords of the brachial plexus"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Anatomical cord-to-plexus component relationship, not Blender collection or mesh selection membership",
+        "laterality": "Left is explicit in source OBJ header and university left-side lab section",
+        "geometry": "Does not extend or silently rewrite the existing ten-piece partial Z-Anatomy plexus selection",
+        "scope": "Typical anatomy; no complete plexus or full cord course assertion"
+      }
+    },
+    {
+      "id": "FMA45241|part_of|atlas:left-brachial-plexus",
+      "subject": "FMA45241",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "LEFT SIDE: divisions, cords and terminal branches; step9 identifying the medial/lateral/posterior cords of the brachial plexus"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Anatomical cord-to-plexus component relationship, not Blender collection or mesh selection membership",
+        "laterality": "Left is explicit in source OBJ header and university left-side lab section",
+        "geometry": "Does not extend or silently rewrite the existing ten-piece partial Z-Anatomy plexus selection",
+        "scope": "Typical anatomy; no complete plexus or full cord course assertion"
+      }
+    },
+    {
+      "id": "atlas:left-musculocutaneous-nerve|branch_of|FMA45239",
+      "subject": "atlas:left-musculocutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "FMA45239",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "step14 / Musculocutaneous nerve / Note: terminal branch of lateral cord"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / musculocutaneous row / Source; lateral cord row / Branches"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named terminal branch → anatomical parent cord",
+        "laterality": "Same-side application to exact left source/canonical endpoints",
+        "geometry": "No claim of physical joining between independently sourced BP3D and Z-Anatomy meshes",
+        "scope": "No new motor territory or complete branch network inference"
+      }
+    }
+  ],
+  "deferredRelations": [
+    {
+      "id": "FMA45239|contributes_to|atlas:left-median-nerve",
+      "subject": "FMA45239",
+      "predicate": "contributes_to",
+      "object": "atlas:left-median-nerve",
+      "status": "deferred_new_semantics_requires_root_review",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "step12 / Median nerve / Note: formation from the lateral and medial contributions/roots from their respective cords"
+        }
+      ],
+      "qualifiers": {
+        "viaStructure": "lateral root of median nerve",
+        "viaStructureGeometry": "not_proposed",
+        "semantics": "Cord contributes through its named median-nerve root; not a direct branch_of or innervates claim",
+        "laterality": "Left source identities only",
+        "rootLevelClaim": false,
+        "geometry": "No root mesh, bridging segment, endpoint contact or fascicular path asserted"
+      },
+      "integrationGate": "Requires explicit contribution predicate and visible via-root qualifier; otherwise retain as evidence only."
+    },
+    {
+      "id": "FMA45241|contributes_to|atlas:left-median-nerve",
+      "subject": "FMA45241",
+      "predicate": "contributes_to",
+      "object": "atlas:left-median-nerve",
+      "status": "deferred_new_semantics_requires_root_review",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "step12 / Median nerve / Note: formation from the lateral and medial contributions/roots from their respective cords"
+        }
+      ],
+      "qualifiers": {
+        "viaStructure": "medial root of median nerve",
+        "viaStructureGeometry": "not_proposed",
+        "semantics": "Cord contributes through its named median-nerve root; not a direct branch_of or innervates claim",
+        "laterality": "Left source identities only",
+        "rootLevelClaim": false,
+        "geometry": "No root mesh, bridging segment, endpoint contact or fascicular path asserted"
+      },
+      "integrationGate": "Requires explicit contribution predicate and visible via-root qualifier; otherwise retain as evidence only."
+    }
+  ],
+  "proposedPredicateIfNeeded": {
+    "id": "contributes_to",
+    "direction": "cord → median nerve via named root",
+    "transitive": false,
+    "outgoingLabelTr": "Katkı verdiği sinir",
+    "incomingLabelTr": "Katkı veren kordon",
+    "requiredVisibleQualifier": "viaStructure"
+  },
+  "activationGates": [
+    "Geometry/native-frame/continuity review by geometry owner and root",
+    "Retain separate BP3D4.3 CC BY-SA2.1 Japan attribution",
+    "Preserve partial scope of existing plexus selection",
+    "No root contribution targets closed; no right mirroring or other neural file activation"
+  ]
+}

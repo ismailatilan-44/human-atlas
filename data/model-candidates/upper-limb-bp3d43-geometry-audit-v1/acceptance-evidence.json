@@ -1,0 +1,166 @@
+{
+  "baselineRevision": "88ef99654046b62e09ab65de96adfee8acae83c2",
+  "environment": "macOS Blender5.2.0LTS background --disable-autoexec; OBJ read without source writes",
+  "packageFileSha256": {
+    "atlas.json": "620a443a9bf345d597e3f13cfa6563e19402589247938713c197afdfe546d2a0",
+    "anatomy.bin": "d67509db4368cdcc7f39b853f23bcd6dbc5864699b6a8d3bf197c0c3ac839f0a",
+    "anatomy.bin.gz": "7a70e6be103f5a183f1325817a8f13c29fe3c66aa4bddb5fefeafaddfd19b36e",
+    "ATTRIBUTION.md": "44c523a8a5d335967f94f6eab7f6e5ccba6872185ead3e868bac1ddd035508df",
+    "UPSTREAM-LICENSE.html": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+  },
+  "auditFileSha256": {
+    "build.py": "d26a8b82586160711ca070131c8884da37e5a5f81d952cc3b0fd664067ac1b72",
+    "render.py": "60b2af7d8ba7d413ba0ad163465720357d216bd39c101a3bc1eb8298bc467d55",
+    "validate.py": "500664477059b30ff7ada2d41298098e1f043f52fa07ae49caadb18c569b719c",
+    "frozen-intake.json": "84e377567ebd7f5c1073122fa85e768ab927db567aaa2e74b5bf9012a3e30bde",
+    "frame-hypothesis.json": "ae13b50408a397ecd01c8fa47fdcce0b9f371f14fbaf17e269849669b84382b1",
+    "geometry-audit.json": "ff72ff61c4fe11037e7d75167315ef1b6813c3fbfe1d874f6442a8ad76b27095",
+    "geometry-checks.json": "120e8dd00d73fbd360b232cade5e0badebf82408877d6ae93652d84440d09b31",
+    "registration-checks.json": "d76b62cd8767cd6c02358f5d4761294a3ff42c5c6a94cdead7985334efcaf99c",
+    "source-proximity.json": "eb1fba406e0b4cdf648eea58a2df75a44811eefea7d9a9ee8d895c959ac75caf",
+    "render-evidence.json": "8b0ff0f952202a5ac0fd2b162690a29689e7dac4a42d0a5571b8330470e54b36"
+  },
+  "openedRenderFileSha256": {
+    "source-decoded-collateral-fragments.png": "642775b060953cd7bebd5399670ba8c7ab458ba8014f3f0818c1de4f2278b177",
+    "source-main-bones-overlay.png": "aece31eec6467a05225b176333fb6ca0fe94a08a7762c91e488bb4f613d9d6a7",
+    "source-decoded-cords-close.png": "bc1b71ae4b1cc908ea25a56ddf7d9f94be0133d077ac0643ab647d9d362824a0",
+    "source-decoded-overview.png": "ef5c1001549b35359c41a95118b564742d54e895f363692c5c00372102727890"
+  },
+  "validation": {
+    "parts": 26,
+    "concepts": 24,
+    "all26SourceFilesUnchanged": true,
+    "finiteDecodedPositions": true,
+    "indexAndBoundsChecks": true,
+    "offsetAlignment": true,
+    "normalizedAuthoredNormals": true,
+    "uniqueIds": true,
+    "returnedConceptParity": true,
+    "gzipRoundTrip": true,
+    "twoNumericalExportsFiveFilesIdentical": true,
+    "maxDecodedNormalLengthError": 2.489235621061514e-05,
+    "fileSha256": {
+      "atlas.json": "620a443a9bf345d597e3f13cfa6563e19402589247938713c197afdfe546d2a0",
+      "anatomy.bin": "d67509db4368cdcc7f39b853f23bcd6dbc5864699b6a8d3bf197c0c3ac839f0a",
+      "anatomy.bin.gz": "7a70e6be103f5a183f1325817a8f13c29fe3c66aa4bddb5fefeafaddfd19b36e",
+      "ATTRIBUTION.md": "44c523a8a5d335967f94f6eab7f6e5ccba6872185ead3e868bac1ddd035508df",
+      "UPSTREAM-LICENSE.html": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+    }
+  },
+  "decision": "Two named LEFT cord source components technically viable for bounded integration review. Native frame verified against nine bones without fit; main/runtime/expert acceptance remains root-owned.",
+  "limits": [
+    "No right mirror or right-side evidence",
+    "Spinal nerve trunks are not isolated plexus root contributions",
+    "No continuity to main registered or independent Z-Anatomy nerve packages accepted",
+    "Substantial medial-pectoral and second-intercostobrachial splits retained",
+    "Tiny medial-cord/radial source artifacts retained; no healing",
+    "Only nine upper regional bones tested; no distal forearm/carpal course acceptance",
+    "Source demographics not established; sex unknown"
+  ],
+  "originalSourceFiles": [
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4171_BP29488_FMA37074_Left axillary nerve.obj",
+      "sha256": "ba5be7fa0836ccfa72b016da504ab8ff04498c053d3ca4f5cf6b7ff18940418d"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4172_BP29806_FMA37071_Left radial nerve.obj",
+      "sha256": "a6cd726af7026964e340fdae14c1dc22a8c8fbe0ed8996c937709e83a4cef909"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4185_BP29040_FMA65908_Left second intercostobrachial nerve.obj",
+      "sha256": "9f467fa539885021336d9800ba581f7dea01aba5478d34d940ca6fd7e07f26f9"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4222_BP29235_FMA79667_Trunk of left long thoracic nerve.obj",
+      "sha256": "4fb3e702f359607165b89d30d4d94c6883d64e9f878583db223fb5187a9062ae"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4223_BP29528_FMA65295_Left medial pectoral nerve.obj",
+      "sha256": "3ba80e21c2805f78aa0c8067342c5a644b08745515e2b928f4abd33d2bee32ae"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4240_BP29806_FMA37071_Left radial nerve.obj",
+      "sha256": "b7bbc22a41bcfc72af2c1a9b6fedd888e372d784887ef4d7400f079e678f698d"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4242_BP29426_FMA65306_Left superior subscapular nerve.obj",
+      "sha256": "b73b9361cbfbc1acee0ef817cb279f9d80f1ea7c006cbacffd0673dd5e63343a"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4243_BP29488_FMA37074_Left axillary nerve.obj",
+      "sha256": "1744a5584078ab48f0a1fd4e4c06efefd304c61208eda1f2792d17d745179d12"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4245_BP29808_FMA7023_Trunk of left first thoracic nerve.obj",
+      "sha256": "730268434b74e1ae81dc620a8b841836a9212fbff2cbd201f0a3a1fde4439034"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4256_BP29546_FMA65292_Left thoracodorsal nerve.obj",
+      "sha256": "97fbf447a823d44529a6f69a382395cad552bda6200a9ffa53d06c9f7b3724c2"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4258_BP29812_FMA37321_Left ulnar nerve.obj",
+      "sha256": "e83c41c5d566d299f56e4e68ae45022fa7b41a649e4a2a6e4de1cc6ba17ad38f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4264_BP29324_FMA24105_Trunk of left fifth cervical nerve.obj",
+      "sha256": "c45e251cfc015a3fd9834805a55e29fb3123485d3bc321af2b1442fa975d9c00"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4265_BP29315_FMA7011_Trunk of left sixth cervical nerve.obj",
+      "sha256": "4f8c708b7a866609078ce513432b060fd9bf04f2b899aef52ebaf9c8af13a200"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4266_BP29366_FMA7013_Trunk of left seventh cervical nerve.obj",
+      "sha256": "d22ca0d722f811e9fba1cc51accfbd50d0e8805070b6fe0616cf9700e57e529a"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4267_BP29406_FMA7015_Trunk of left eighth cervical nerve.obj",
+      "sha256": "6e3be4f8b771cd9d2226869e18f2c8e99155319063c44ec1c6869bb930674002"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3158_BP23701_FMA9165_First thoracic vertebra.obj",
+      "sha256": "decdbc71af9e3ed2ec870ec51cb13074293ad95365e11d51a0429fcde4e7be86"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3167_BP23524_FMA12523_Fifth cervical vertebra.obj",
+      "sha256": "b5e0cb9386110c82189b036d56d8be640a29c7f56fa88cf922bce80c93a33825"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3170_BP24077_FMA12524_Sixth cervical vertebra.obj",
+      "sha256": "ca1c7507951b7a16bbd4286492391af0a4f60c8f07fb59a876f6526853ce9f60"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3172_BP23626_FMA12525_Seventh cervical vertebra.obj",
+      "sha256": "20df76505e5d21ad9eac99e1dd241576a4411a3fa0d2c1d3dda7aa69a9f79f32"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3228_BP22221_FMA7987_Left first rib.obj",
+      "sha256": "6a19fc2a31580adbe8186e7df47dce050ee28ecd1ac61c0f4f594e764a3c794f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3229_BP22527_FMA8012_Left second rib.obj",
+      "sha256": "6451db218e0d23b4f32350cb1704c5c6f4cc891826d25109368c685cd4ebd62a"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3237_BP23283_FMA13323_Left clavicle.obj",
+      "sha256": "a7eda265732db6c87ab0fb8c8f78a274882ceca59510991b0e7b32078c08152f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3262_BP24066_FMA23131_Left humerus.obj",
+      "sha256": "c9512362bc5bb07b29292a5444eda8be7f6f6a0959f59213a695bc6323aa0010"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/context-objs/FJ3279_BP23279_FMA13396_Left scapula.obj",
+      "sha256": "87cebf8702718e03dd10afbee87a50abce47139802ff305c749b33f40d451fda"
+    }
+  ]
+}

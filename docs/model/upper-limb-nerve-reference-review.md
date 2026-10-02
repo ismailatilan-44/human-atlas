@@ -20,9 +20,15 @@ Adlandırılmış kaynak seyri tam sinir ağı değildir. Bilateral ulnar eğril
 
 Yerel `/human-atlas/` üretim önizlemesinde1440×1000: ASCII sol supraskapular araması, tek doğru taraf, kaynak başlığı, üst gövde→Geri, Latin etiket, izolasyon; görünen sinir yüzeyine doğrudan tıklamada seçim ve127 parça bağlamına dönüş.390×844: İngilizce sağ deep-radial→radial→Geri, TTUHSC kaynak açılımı ve izolasyon.320×568: aynı seçim/izolasyon kadrajı ve null Latin C3 gösterimi; ana modele dönüşte2.290 parça, seçim/geçmiş/kamera temizliği. Küçük ekran panel içerikleri kaydırılarak okunur; ince kaynak sinir eğrisi büyütülmeden korunur. Canlı yayın kanıtı [teslim raporuna](progress-report-2026-10-02.md) ayrıca eklenir.
 
-`python3 scripts/package-upper-limb-reference.py --check` frozen geometri/metadata kanıtlarını,127 unique kavram/parçayı, kaynak nesne/taraf kapsamını,110/17 Latin durumunu,26 kendi-dataset ilişki ucunu ve public dosyaların tam içeriğini kontrol eder. `python3 scripts/build-upper-limb-reference-targets.py --check` [v2 hedef projeksiyonunu](upper-limb-targets-v2.md) kontrol eder; önceki bütün temsiller korunur. `node scripts/build-model-inventory.mjs --check` tüm508 gereksinimi ve yeni dataset kaynak/etiket/ilişkilerini uzlaştırır.
+`python3 scripts/package-upper-limb-reference.py --check` frozen geometri/metadata kanıtlarını,127 unique kavram/parçayı, kaynak nesne/taraf kapsamını,110/17 Latin durumunu,26 kendi-dataset ilişki ucunu ve public dosyaların tam içeriğini kontrol eder. `python3 scripts/build-upper-limb-reference-targets.py --check` [v2 hedef projeksiyonunu](upper-limb-targets-v2.md) kontrol eder; önceki bütün temsiller korunur. `node scripts/build-model-inventory.mjs --check` tüm1.010 gereksinimi ve yeni dataset kaynak/etiket/ilişkilerini uzlaştırır.
 
 `npm run check`, mevcut beş anatomy-knowledge testi, yeni dataset sınırını da içeren etkileşim doğrulayıcısı ve üretim build'i geçti. Geometri değişmediği için Blender render/export tekrarlanmadı; aktarım SHA eşliği ve önceki source/decoded görseller geçerli kalır. Büyük JS bundle uyarısı sürer. Ortam: macOS, Node24.18.1, Python3.9.6, headed Chromium; kaynak audit Blender5.2LTS. Fiziksel telefon ve anatomist değerlendirmesi yapılmadı.
+
+## Canlı kabul — 2 Ekim 2026
+
+Kaynak `e005d53a9cb22cda52c39fb318248a83ba113fe8`, statik dal `ee885b354bd5a97022c2b59c167ab480bab5f26f`; [Pages #37032342416](https://github.com/ismailatilan-44/human-atlas/actions/runs/37032342416) başarılı. Canlı release.json ve127 manifest/binary/gzip'i yerel public paketle eşleşti.390×844 gerçek Chromium'da Türkçe ASCII sağ deep-radial→sağ radial→Geri→Latin/TTUHSC kaynak/izolasyon görüldü; iki canlı ekran açıldı, konsol0 hata/uyarı. Canlıda1440/320 boyutları tekrar edilmedi; yerel kabul ayrı kalır. Saat, hash, [canlı kaynak](../../output/playwright/upper-limb-live-mobile-source-la.png) ve [izolasyon](../../output/playwright/upper-limb-live-mobile-isolated-la.png) kanıtı [eylem raporundadır](progress-report-2026-10-02.md). Fiziksel cihaz ve uzman kabulü açık.
+
+Sonraki önkol hedef envanteri502 gereksinim ekler; paket geometrisi/runtime/etiket/ilişki kümesi e005d53 sonrasında değişmedi.508 gereksinimlik yerel ürün kabul fotoğrafı tarihî kayıttır; güncel genel iş envanteri1.010 gereksinim taşır.
 
 ## Atıf ve sahiplik
 

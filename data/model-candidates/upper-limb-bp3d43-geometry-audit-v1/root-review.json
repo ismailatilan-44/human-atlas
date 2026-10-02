@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "root technical integration owner; not anatomical expert",
+  "capturedAtUtc": "2026-10-02T16:21:35.107941+00:00",
+  "baselineRevision": "e005d53a9cb22cda52c39fb318248a83ba113fe8",
+  "handoffEvidenceSha256": "46dd0bc3431cab911533e14b6a95af7dd9422a219104bf837c825891a3218b0b",
+  "openedImages": {
+    "source-decoded-collateral-fragments.png": "642775b060953cd7bebd5399670ba8c7ab458ba8014f3f0818c1de4f2278b177",
+    "source-main-bones-overlay.png": "aece31eec6467a05225b176333fb6ca0fe94a08a7762c91e488bb4f613d9d6a7",
+    "source-decoded-cords-close.png": "bc1b71ae4b1cc908ea25a56ddf7d9f94be0133d077ac0643ab647d9d362824a0",
+    "source-decoded-overview.png": "ef5c1001549b35359c41a95118b564742d54e895f363692c5c00372102727890"
+  },
+  "sourcePackageUnchanged": true,
+  "observations": [
+    "Source/decoded four opened views show preserved source extent and shading",
+    "Native43 versus main40 nine-bone overlay corroborates existing quantitative holdout measurements",
+    "Both left cords are short capped source segments; no complete continuous plexus is established",
+    "Substantial collateral fragments and tiny medial-cord source artifact are retained"
+  ],
+  "decision": "two_left_source_cord_components_ready_for_bounded_active_integration;runtime_and_expert_gates_pending",
+  "excluded": [
+    "Other15 neural files",
+    "Right counterparts or mirroring",
+    "Isolated C5–T1 contributions",
+    "Bridging geometry, contact or whole-plexus acceptance"
+  ],
+  "currentChecks": {
+    "allPackageAuditRenderHashes": "passed",
+    "sourceDecodedBufferValidation": "passed via read-only check.py",
+    "freshSecondExportComparison": null,
+    "metadataFrozenCheck": "passed;2 labels,3 direct relations,2 separately deferred contributions"
+  },
+  "validationMaintenance": {
+    "checkCommand": "python3 data/model-candidates/upper-limb-bp3d43-geometry-audit-v1/check.py",
+    "checkScriptSha256": "16eb70ffff970bc2a8b682949db71c3159e3d08057e6bb7f81ea58d3216ea849",
+    "historicalValidatorRetained": "500664477059b30ff7ada2d41298098e1f043f52fa07ae49caadb18c569b719c",
+    "issue": "Calling historical validate.py without --compare overwrote validation.json with comparison=false; the second-export fixture is no longer on disk",
+    "resolution": "Restored historical recorded validation from its identical embedded handoff evidence; added a read-only checker with null for unrequested comparison. Original exporter/validator and all recorded package hashes remain unchanged."
+  },
+  "productAcceptance": "not run; neither cord active yet"
+}

@@ -1,0 +1,28 @@
+{
+  "measuredImplementationStartedAt": "2026-10-02T16:13:21.367314+00:00",
+  "initialReadingAndPlanningSeconds": null,
+  "initialReadingAndPlanningNote": "Not timed; duration below will cover implementation and validation only.",
+  "failures": [],
+  "measuredImplementationEndedAt": "2026-10-02T16:21:30.335655+00:00",
+  "measuredImplementationAndValidationSeconds": 488.97,
+  "wallClockTaskSeconds": null,
+  "waitingReason": "No external wait; initial source reading duration unknown",
+  "rework": [
+    {
+      "reason": "Bounded name audit found short carpal labels in main manifest",
+      "action": "Added explicit source-preserving naming variants; positive observations increased from 194 to 210; no additional requirement or acceptance claim"
+    },
+    {
+      "reason": "Pinned Latin rows 2486/4644/4646 contain suspicious duplicate/truncated wording",
+      "action": "Preserved raw text and withheld candidate Latin display; primary verification stays open"
+    }
+  ],
+  "unexpectedFailures": [],
+  "expectedNegativeFixtureFailures": 1,
+  "reviewFindings": [
+    "Compound intrinsic muscle groups are not individual members",
+    "Whole muscles cannot inherit geometry/relations from their named source heads",
+    "Separate source frames remain dataset-scoped"
+  ],
+  "reopening": false
+}

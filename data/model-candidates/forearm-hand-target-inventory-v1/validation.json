@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "validatedAt": "2026-10-02T16:21:30.320077+00:00",
+  "sourceRevision": "e005d53a9cb22cda52c39fb318248a83ba113fe8",
+  "environment": {
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "python": "3.9.6"
+  },
+  "artifacts": [
+    {
+      "path": "build.py",
+      "sha256": "7eb78023070ed747fc0da49759d38f65e6acb8253a8ebba2935cf0eb9290ccb3"
+    },
+    {
+      "path": "capture.py",
+      "sha256": "3ccea5d2d0a7886f02e199f5122279fca5375a698cd0ff4a6f6f6f5d1fdcce82"
+    },
+    {
+      "path": "frozen-inputs.json",
+      "sha256": "b978eb23da5956c5ca60381622366d16d9509f0b151ad5058e9811636b9ff372"
+    },
+    {
+      "path": "proposal.json",
+      "sha256": "1a35ebb696ebceb7f0dcf8706d6a55259c4edd5e2b76657f0a6d8120f54ce912"
+    },
+    {
+      "path": "source-evidence.json",
+      "sha256": "594216fa48bfb4bc311db5196ab73accab06c159dc6b6d7201b6427b77000fa2"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "2d22b7ea4f4a229d4d8b1a241687dc493f64fb4a04e730387fdedc504c5a439f"
+    }
+  ],
+  "checks": [
+    {
+      "name": "deterministic frozen projection and identity/group/membership invariants",
+      "result": "PASS",
+      "stdout": "{\"result\": \"PASS\", \"check\": \"deterministic frozen-input projection and identity/side/group/membership invariants\", \"targets\": 502, \"unsidedRequirements\": 251, \"families\": {\"skeletal-support\": 162, \"muscle-tendon-fascia\": 176, \"neurovascular-lymph\": 140, \"organs-cavities-internal\": 24}, \"detailLevels\": {\"D1\": 162, \"D2\": 340}, \"targetKinds\": {\"named_structure\": 280, \"named_group\": 60, \"named_part_or_head\": 36, \"individual_digit_bone\": 36, \"individual_subdivision_requirement\": 90}, \"bindingStatusCounts\": {\"observed_manifest_membership\": 188, \"no_positive_binding_in_bounded_source_audit;not_absence\": 314}, \"positiveObservations\": 210, \"datasetObservations\": {\"male-body\": 160, \"upper-limb-nerve-reference\": 50}, \"relatedGroupOnlyTargets\": 22, \"expertAccepted\": 0, \"newGeometry\": 0, \"newLabels\": 0, \"newRelationships\": 0}"
+    },
+    {
+      "name": "isolated reproduction without repository graph/manifests/CSV",
+      "result": "PASS",
+      "filesPresent": [
+        "build.py",
+        "frozen-inputs.json",
+        "proposal.json"
+      ]
+    },
+    {
+      "name": "negative group-to-individual binding fixture",
+      "result": "PASS; deliberately invalid fixture rejected",
+      "expectedFailure": true,
+      "exitCode": 1,
+      "failureKind": "AssertionError"
+    }
+  ],
+  "summary": {
+    "targets": 502,
+    "unsidedRequirements": 251,
+    "families": {
+      "skeletal-support": 162,
+      "muscle-tendon-fascia": 176,
+      "neurovascular-lymph": 140,
+      "organs-cavities-internal": 24
+    },
+    "detailLevels": {
+      "D1": 162,
+      "D2": 340
+    },
+    "targetKinds": {
+      "named_structure": 280,
+      "named_group": 60,
+      "named_part_or_head": 36,
+      "individual_digit_bone": 36,
+      "individual_subdivision_requirement": 90
+    },
+    "bindingStatusCounts": {
+      "observed_manifest_membership": 188,
+      "no_positive_binding_in_bounded_source_audit;not_absence": 314
+    },
+    "positiveObservations": 210,
+    "datasetObservations": {
+      "male-body": 160,
+      "upper-limb-nerve-reference": 50
+    },
+    "relatedGroupOnlyTargets": 22,
+    "expertAccepted": 0,
+    "newGeometry": 0,
+    "newLabels": 0,
+    "newRelationships": 0
+  },
+  "notRun": [
+    "app TypeScript/build/test gates (candidate-only change)",
+    "source geometry render/export",
+    "browser interaction",
+    "deployed revision verification",
+    "anatomical expert review"
+  ],
+  "acceptance": "Planning reproducibility passed; all model/anatomy/release criteria remain open"
+}

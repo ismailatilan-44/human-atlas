@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-10-02T12:51:10.455233+00:00",
+  "scope": "From candidate initialization; initial instruction/intake reads excluded",
+  "finishedAt": "2026-10-02T13:04:19.670607+00:00",
+  "elapsedSeconds": 789.215374,
+  "finalBuildSeconds": 1.0691839170031017,
+  "rework": "No failed geometry/export check; reused explicit display-Y-up camera and source-authored normal pipeline. Raw index-component fragmentation refined through nonmutating exact-position diagnostics.",
+  "waiting": "Initial source/instruction reads and pre-task scheduling excluded/unknown"
+}

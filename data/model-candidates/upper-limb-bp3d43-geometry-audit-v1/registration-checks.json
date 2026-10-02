@@ -1,0 +1,131 @@
+{
+  "method": "Existing native4.3 thyroid mm-to-m axis/translation hypothesis; nine independent bones tested; no fit",
+  "matrixColumnVector": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0781112
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      -0.1
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "targetManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+  "measurements": [
+    {
+      "sourceId": "FJ3158",
+      "name": "First thoracic vertebra",
+      "targetId": "FJ3158",
+      "targetConceptId": "FMA9165",
+      "rmsMm": 0.024024118943386574,
+      "p95Mm": 0.055763007549103336,
+      "maxMm": 0.1572062319610268,
+      "vertices43": 1078,
+      "vertices40": 915
+    },
+    {
+      "sourceId": "FJ3167",
+      "name": "Fifth cervical vertebra",
+      "targetId": "FJ3167",
+      "targetConceptId": "FMA12523",
+      "rmsMm": 0.01474054539868442,
+      "p95Mm": 0.0,
+      "maxMm": 0.16015292203519493,
+      "vertices43": 1539,
+      "vertices40": 1396
+    },
+    {
+      "sourceId": "FJ3170",
+      "name": "Sixth cervical vertebra",
+      "targetId": "FJ3170",
+      "targetConceptId": "FMA12524",
+      "rmsMm": 0.021761292984806297,
+      "p95Mm": 0.049750732432585126,
+      "maxMm": 0.1785239583114162,
+      "vertices43": 1498,
+      "vertices40": 1257
+    },
+    {
+      "sourceId": "FJ3172",
+      "name": "Seventh cervical vertebra",
+      "targetId": "FJ3172",
+      "targetConceptId": "FMA12525",
+      "rmsMm": 0.019974880792031458,
+      "p95Mm": 0.026953167434839997,
+      "maxMm": 0.16430311370640993,
+      "vertices43": 1324,
+      "vertices40": 1162
+    },
+    {
+      "sourceId": "FJ3228",
+      "name": "Left first rib",
+      "targetId": "FJ3228",
+      "targetConceptId": "FMA7987",
+      "rmsMm": 0.05749198355857948,
+      "p95Mm": 0.1196851721033454,
+      "maxMm": 0.20282577315811068,
+      "vertices43": 1641,
+      "vertices40": 507
+    },
+    {
+      "sourceId": "FJ3229",
+      "name": "Left second rib",
+      "targetId": "FJ3229",
+      "targetConceptId": "FMA8012",
+      "rmsMm": 0.07047773960062254,
+      "p95Mm": 0.14453873518505125,
+      "maxMm": 0.2797697379719466,
+      "vertices43": 2862,
+      "vertices40": 656
+    },
+    {
+      "sourceId": "FJ3237",
+      "name": "Left clavicle",
+      "targetId": "FJ3237",
+      "targetConceptId": "FMA13323",
+      "rmsMm": 0.0762834758055397,
+      "p95Mm": 0.21787234145449474,
+      "maxMm": 0.3809222544077784,
+      "vertices43": 602,
+      "vertices40": 426
+    },
+    {
+      "sourceId": "FJ3262",
+      "name": "Left humerus",
+      "targetId": "FJ3262",
+      "targetConceptId": "FMA23131",
+      "rmsMm": 0.24109582241216493,
+      "p95Mm": 0.5194366327486931,
+      "maxMm": 0.8268056553788483,
+      "vertices43": 2073,
+      "vertices40": 586
+    },
+    {
+      "sourceId": "FJ3279",
+      "name": "Left scapula",
+      "targetId": "FJ3279",
+      "targetConceptId": "FMA13396",
+      "rmsMm": 0.047246255197067995,
+      "p95Mm": 0.09470794029766692,
+      "maxMm": 0.18897719564847648,
+      "vertices43": 14068,
+      "vertices40": 3097
+    }
+  ]
+}
