@@ -2,6 +2,27 @@
 
 Hedef, tıp öğrencisinin bütün vücudu yapı ve alt yapı düzeyinde seçip kaynaklı adları, bağlamı ve ilişkileri üzerinden inceleyebilmesidir. Model önce, ders/quiz katmanı sonra gelir. Hedef henüz tamamlanmadı. [Kapsam sözleşmesi](model-scope-and-acceptance.md) bu hedefi ve bölgesel kabul koşullarını taşır.
 
+## Üst ekstremite referansı — yerel üretim kabulü
+
+Bu devam turunun başlangıcı `0d9459acdb20a1461f5c6b6165828a6ba0b36bc1`, dal `codex/publish-model-explorer`; başlangıçta fork main/geliştirme SHA'ları aynı doğrulandı. Önceki127 referans çalışması devralındı; kullanıcı dosyaları ve aday/log'lar korundu. Root entegrasyon ve kapanış sahibidir. Bu bölüm yeni ürünün yerel kabulüdür; canlı yayın ayrı kapanır.
+
+| Eylem | Kullanılabilir sonuç ve kanıt | Açık sınır |
+| --- | --- | --- |
+|127 referans nesnesini ürünleştirmek |54 yeni sinir/grup eğrisi,24 aynı-kaynak sinir,49 bağlam kemiği; source-frame korunur, candidate binary/gzip aynen public'e aktarılır | Ana gövdeye fit/temas/devamlılık kabulü yok |
+| Etiket/ilişki aktarımı |127 TR/EN,110 kaynaklı Latin,17 null;26 doğrudan kaynaklı dal bağlantısı kendi dataset'inde çalışır | Kas uçları ana grafikten taşınmaz; gruplar numaralı dal değildir |
+| Gerçek öğrenci akışı | Üretim1440 masaüstü: sol supraskapular→üst gövde→Geri/Latin/izolasyon, yüzeye doğrudan tıklama;390 sağ deep-radial→radial→Geri/kaynak/izolasyon;320 kadraj ve C3 Latin-null açıklaması | Fiziksel telefon ve anatomik uzman incelemesi yapılmadı |
+| Referans değişimi |320'de ana gövde2.290 parçaya döndü; seçim/geçmiş temizlendi, default kamera kontrolleri döndü; üretim konsolu0 mesaj/0 hata/0 uyarı | Son canlı kabul ayrıca gerekli |
+| Hedef v2 etkinleştirmek |352 kimlik, tüm önceki temsil/terim/ilişki gereksinimleri korunur;80 ek referans bağı,272 hedef değişmedi;132→178 mesh gözlemi |166 bağsız hedef,2 null humeral konum ve14 kök/kord gereksinimi açık; uzman kabulü0 |
+| Genel envanter uzlaştırmak |5 dataset:2.587 parça,3.836 katalog,1.674 ilişki;590 sınıflandırılmış/3.246 denetlenmemiş;508 gereksinim208 bekleyen hücreye bağlanır |47 yeni kaynak nesnesi mevcut352 hedefe zorla bağlanmadı; tamlık yüzdesi değildir |
+
+[Ürün incelemesi](upper-limb-nerve-reference-review.md) ve [hash/ekran kabul kaydı](upper-limb-reference-product-acceptance.json) public paketle kullanılan runtime/bundle ve açılan altı üretim ekranını bağlar. Önceki3.709 katalog kimliği, kaynak üyeliği, seçim/etiket/anchor kayıtları,2.460 asset ve1.648 ilişki baseline'a karşı aynen korundu. Ana knowledge/labels, extension registry ve üst hedef v1 byte-identical kaldı. Önkol/boyun kemiklerinin yanlış iç-kulak sınıfına düşmesini önlemek için reference sınıflandırma fallback'i yalnız önceki kadın/ear datasetlerine sınırlandı; üst referansta yalnız80 kesin hedef eşlemesi sınıflanır.
+
+Kontroller: `npm run check`, mevcut beş anatomy-knowledge testi, `node scripts/validate-interactions.mjs`, public paket `--check`, hedefv2 üretici/`--check`, frozen bağ adayı `--check`, genel envanter üretim/`--check` ve `/human-atlas/` üretim build'i geçti. Üst referans doğrulayıcısı127 kendi kavramı, taraflı arama, kaynaklı ebeveyn ve ana motor grafiğinden ayrılığı denetler. Geometri değişmediği için Blender export/render tekrarlanmadı; kaynak/decoded kanıtı ve binary SHA eşliği korunur. JS gzip380,12 KB; büyük chunk uyarısı açık. Ortam macOS/Node24.18.1/Python3.9.6/headed Chromium.
+
+Önceki geliştirme320 denemesi ve dil locator hatası başarı sayılmadı; immutable üretim önizlemesindeki yeni320 akışı geçti. Kaynak eğrisi kesilmeden gösterilir;320'deki kısa görünür model ve kaydırılan panel fiziksel cihaz performansı değildir. Bu tur yeni geniş test altyapısı kurulmadı. Saat/ölçüm kapanışı canlı doğrulamadan sonra eklenir; odaklı emek ve ayrı bekleme süreleri bilinmiyor.
+
+**Sıradaki tek eylem:** kaynak commit'ini göndermek, Pages ile yayınlamak ve canlı release.json/geometri hash'i ile yeni referans gezinmesini doğrulamak. Ardından iki sol BP3D4.3 kordunun root geometri/ürün entegrasyonu. Bütün model, kalan bölgelerin tekil hedef açılımı ve uzman kabulü açık; ders katmanı sonraki fazda kalır.
+
 Bu raporun ilk durum fotoğrafı `a0fd554` teslimine aittir. Gün içindeki sonraki model teslimi aşağıdaki ek kayıtta ayrı izlenir; ilk fotoğraftaki aday/yayın durumları tarihî kanıt olarak korunur.
 
 **Son doğrulanmış ürün teslimi:** `363ad7ea5558e2338d4bbe478754af1129a40e95`, 2 Ekim 2026, 15:13:41 TRT canlı kabulü. Ana model 2.290 parça /401 bölgesel etiket; bağımsız alt ekstremite 137 nesne /137 TR-EN /101 kesin Latin ad /112 ilişki. Dört dataset toplamı 2.460 paketli parça. 156 önerilen alt ekstremite hedefinden 154'ü aktif ürüne bağlı, iki intersesamoid yalnız adaydır; liste eksiksiz değildir, uzman hedef kabulü sıfırdır. Canlı release.json ve137 manifest sayısı bu rapor güncellemesinde yeniden okundu; yeni canlı UI kabulü veya ürün yayını yapılmadı.

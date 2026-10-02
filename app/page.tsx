@@ -764,7 +764,7 @@ export default function Home() {
                   Genel sistem bilgisi · yapıya özel açıklama değildir
                 </span>
               )}
-            {chosen && (!reference || dataset === "lower-limb-nerve-reference") && (
+            {chosen && (!reference || dataset === "lower-limb-nerve-reference" || dataset === "upper-limb-nerve-reference") && (
               <section className="relationship-list" aria-label="Anatomik bağlantılar">
                 <h3>
                   Anatomik bağlantılar <span>{relations.length}</span>

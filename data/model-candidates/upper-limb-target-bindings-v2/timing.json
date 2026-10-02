@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "taskWorkStartObservedUtc": "2026-10-02T12:50:01+00:00",
+  "snapshotCapturedAt": "2026-10-02T12:54:10.885457+00:00",
+  "completedAt": "2026-10-02T12:55:44.999170+00:00",
+  "taskElapsedSeconds": 343.999,
+  "snapshotToCompletionSeconds": 94.114,
+  "measurementScope": "Wall-clock observed task interval, not CPU time or independently measured focused labor",
+  "ownership": "Only data/model-candidates/upper-limb-target-bindings-v2 written",
+  "outputs": {
+    "requirements": 352,
+    "addedBindings": 80,
+    "unchangedTargets": 272,
+    "newlyGeometryObserved": 46,
+    "stillNoPositiveBinding": 166,
+    "unresolvedHumeralReferenceTargets": 2,
+    "expertAccepted": 0
+  },
+  "rework": [],
+  "checksRun": [
+    "python3 data/model-candidates/upper-limb-target-bindings-v2/build.py",
+    "python3 data/model-candidates/upper-limb-target-bindings-v2/build.py --check"
+  ],
+  "remainingWorkerMinutes": 0,
+  "rootGates": [
+    "Review versioned binding evidence",
+    "Confirm runtime manifest parity and product journey",
+    "Activate v2 and publish only through root acceptance workflow"
+  ]
+}

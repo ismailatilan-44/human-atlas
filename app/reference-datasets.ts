@@ -6,6 +6,7 @@ import {
   femalePelvisSearchTerms,
 } from "./female-pelvis-labels";
 import lowerLimb from "../data/anatomy/lower-limb-reference.json";
+import upperLimb from "../data/anatomy/upper-limb-reference.json";
 
 export const REFERENCE_DATASETS = {
   "female-pelvis": {
@@ -44,12 +45,28 @@ export const REFERENCE_DATASETS = {
     sourceName: "Z-Anatomy · alt ekstremite referansı",
     placeholder: "Retinakulum, plantar bağ, ayak kası…",
   },
+  "upper-limb-nerve-reference": {
+    title: "Üst ekstremite sinir referansı",
+    heading: "Üst Ekstremite Sinir Atlası",
+    identity: "Üst ekstremite · Z-Anatomy",
+    sex: "male",
+    manifest: "/models/upper-limb-nerve-reference/atlas.json",
+    scope: "Adlandırılmış sinir seyirleri, kas dalı grupları ve aynı kaynaktan kemik bağlamı. Kökler, medial/lateral kordlar ve bütün el dalları bu referansta ayrı modellenmemiştir; uzman incelemesi bekliyor.",
+    description: upperLimb.descriptionTr,
+    sourceName: "Z-Anatomy · üst ekstremite sinir referansı",
+    placeholder: "Ulnar, radial, supraskapular…",
+  },
 } as const;
 
 export function referenceDataset(dataset?: DatasetId) {
   return dataset && dataset !== "male-body" ? REFERENCE_DATASETS[dataset] : undefined;
 }
 export function referenceDescription(dataset: DatasetId, conceptId?: string): string | undefined {
+  if (dataset === "upper-limb-nerve-reference") {
+    const entry = upperLimb.labels.find((label) => label.ids.includes(conceptId ?? ""));
+    return [entry?.la === null ? "Latince ad henüz doğrulanmadı; İngilizce gösterim adı korunur." : undefined,
+      entry?.scopeNoteTr, upperLimb.descriptionTr].filter(Boolean).join(" ");
+  }
   if (dataset === "lower-limb-nerve-reference") {
     const entry = lowerLimb.labels.find((label) => label.ids.includes(conceptId ?? ""));
     const authoredNote = entry && "representationNoteTr" in entry ? entry.representationNoteTr : undefined;
@@ -86,7 +103,7 @@ export function defaultDatasetScene(
 ): Pick<SceneState, "visible" | "selected" | "ghost"> {
   const dataset = atlasDataset(atlas);
   const selectionSystem = dataset === "inner-ear-reference" ? "sensory"
-    : dataset === "lower-limb-nerve-reference" ? "nervous" : undefined;
+    : dataset === "lower-limb-nerve-reference" || dataset === "upper-limb-nerve-reference" ? "nervous" : undefined;
   return {
     visible: [...new Set(atlas.parts.map((p) => p.system))].filter((id) =>
       DEFAULT_VISIBLE.includes(id),
@@ -128,8 +145,9 @@ export function datasetLabel(
 ): string {
   if (dataset === "female-pelvis") return femalePelvisLabel(id, name, language);
   if (dataset === "inner-ear-reference") return innerEarLabels[id]?.[language] ?? name;
-  if (dataset === "lower-limb-nerve-reference") {
-    const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
+  if (dataset === "lower-limb-nerve-reference" || dataset === "upper-limb-nerve-reference") {
+    const entries = dataset === "upper-limb-nerve-reference" ? upperLimb.labels : lowerLimb.labels;
+    const entry = entries.find((label) => label.ids.includes(id));
     const term = entry?.[language] ?? entry?.en ?? name;
     if (entry?.side !== "left" && entry?.side !== "right") return term;
     if (language === "la") return `${term} (${entry.side === "left" ? "L" : "R"})`;
@@ -139,8 +157,9 @@ export function datasetLabel(
 }
 export function datasetSearchTerms(dataset: DatasetId, id: string, name: string): string[] {
   if (dataset === "female-pelvis") return femalePelvisSearchTerms(id, name);
-  if (dataset === "lower-limb-nerve-reference") {
-    const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
+  if (dataset === "lower-limb-nerve-reference" || dataset === "upper-limb-nerve-reference") {
+    const entries = dataset === "upper-limb-nerve-reference" ? upperLimb.labels : lowerLimb.labels;
+    const entry = entries.find((label) => label.ids.includes(id));
     const compactTurkish = entry?.side === "left" || entry?.side === "right"
       ? `${entry.side === "left" ? "Sol" : "Sağ"} ${entry.tr.replace(/^(Ayağın |Ayak bileği )/, "")}`
       : entry?.tr;

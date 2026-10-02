@@ -266,6 +266,33 @@ assert.deepEqual(findLower.execute({query:'sag plantar aponevroz'}).map(r => r.i
 assert(relationshipsFor('atlas:left-sciatic-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
 assert.deepEqual(relationshipsFor('atlas:left-sciatic-nerve', lowerMap, 'inner-ear-reference'), []);
 console.log('Lower-limb reference resolves its own branch geometry without male graph leakage.');
+const upperRequests = [];
+let upper;
+try {
+  globalThis.fetch = async (url) => {
+    upperRequests.push(String(url));
+    return new Response(await readFile(new URL('../public' + url, import.meta.url)));
+  };
+  upper = await loadAtlas(new AbortController().signal, 'upper-limb-nerve-reference');
+} finally { globalThis.fetch = originalFetch; }
+assert.deepEqual(upperRequests, ['/models/upper-limb-nerve-reference/atlas.json']);
+assert.equal(upper.parts.length, 127);
+assert.equal(upper.compatibleWithMainAtlas, false);
+assert.equal(upper.anchors.length, 0);
+const upperConcepts = explorerConcepts(upper), upperMap = new Map(upperConcepts.map(c => [c.id, c]));
+assert.equal(upperConcepts.length, 127, 'Reference must not borrow main-only muscle entities');
+const [findUpper] = atlasTools({...upper, concepts:upperConcepts}, () => {});
+assert.deepEqual(findUpper.execute({query:'sag ulnar sinir'}).map(r => r.id), ['atlas:right-ulnar-nerve', 'atlas:right-muscular-branches-of-ulnar-nerve']);
+assert.deepEqual(findUpper.execute({query:'sol supraskapular'}).map(r => r.id), ['atlas:left-suprascapular-nerve']);
+const supraEdges = relationshipsFor('atlas:left-suprascapular-nerve', upperMap, upper.datasetId);
+assert.equal(supraEdges.length, 1);
+assert.equal(supraEdges[0].otherId, 'atlas:left-brachial-plexus-superior-trunk');
+assert.equal(supraEdges[0].predicate, 'branch_of');
+assert(relationshipsFor('atlas:left-suprascapular-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
+assert.deepEqual(relationshipsFor('atlas:left-suprascapular-nerve', upperMap, 'inner-ear-reference'), []);
+assert.match(referenceDescription(upper.datasetId, 'zanatomy:vertebra-c3'), /Latince ad henüz doğrulanmadı/);
+assert.match(referenceDescription(upper.datasetId, 'atlas:left-muscular-branches-of-radial-nerve'), /[Gg]rup/);
+console.log('Upper-limb reference search and cited parent routes stay in its own127 structures.');
 const tap=new PointerTap();
 tap.down(1,10,10,5);assert.equal(tap.up(1,12,11),true);
 tap.down(1,10,10,5);tap.move(1,40,10);assert.equal(tap.up(1,10,10),false);

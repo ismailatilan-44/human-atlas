@@ -2,12 +2,15 @@ import graph from "../data/anatomy/explorer.json";
 import { atlasDataset, referenceDataset, referenceConcepts } from "./reference-datasets";
 import type { Atlas, Concept, DatasetId } from "./anatomy";
 import lowerLimb from "../data/anatomy/lower-limb-reference.json";
+import upperLimb from "../data/anatomy/upper-limb-reference.json";
 
 export const knowledgeEntities = new Map(graph.entities.map((entity) => [entity.id, entity]));
 export const knowledgeSources = new Map(graph.sources.map((source) => [source.id, source]));
 const lowerLimbSources = new Map(lowerLimb.sources.map((source) => [source.id, source]));
+const upperLimbSources = new Map(upperLimb.sources.map((source) => [source.id, source]));
 export function knowledgeSource(id: string, dataset: DatasetId = "male-body") {
-  return dataset === "lower-limb-nerve-reference" ? lowerLimbSources.get(id) : knowledgeSources.get(id);
+  return dataset === "upper-limb-nerve-reference" ? upperLimbSources.get(id)
+    : dataset === "lower-limb-nerve-reference" ? lowerLimbSources.get(id) : knowledgeSources.get(id);
 }
 export const relationshipNames: Record<string, [string, string]> = {
   attaches_to: ["Bağlandığı kemik", "Bağlanan yapı"],
@@ -41,7 +44,7 @@ type ExplorerRelation = {
   viaDivision?: string | null; attachmentNoteTr?: string | null;
 };
 export function relationshipsFor(id: string, concepts?: Map<string, Concept>, dataset: DatasetId = "male-body") {
-  const relations: ExplorerRelation[] = dataset === "lower-limb-nerve-reference"
+  const relations: ExplorerRelation[] = dataset === "upper-limb-nerve-reference" ? upperLimb.relations : dataset === "lower-limb-nerve-reference"
     ? lowerLimb.relations : dataset === "male-body" ? graph.relations : [];
   return relations
     .filter((r) => r.subject === id || r.object === id)

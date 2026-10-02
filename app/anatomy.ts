@@ -153,7 +153,8 @@ export type DatasetId =
   | "male-body"
   | "female-pelvis"
   | "inner-ear-reference"
-  | "lower-limb-nerve-reference";
+  | "lower-limb-nerve-reference"
+  | "upper-limb-nerve-reference";
 export interface Atlas {
   datasetId?: DatasetId;
   title?: string;

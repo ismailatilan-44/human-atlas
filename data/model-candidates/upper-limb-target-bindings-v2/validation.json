@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "requirements": 352,
+  "idsRetained": 352,
+  "unchangedTargets": 272,
+  "additiveOnlyTargets": 80,
+  "priorRepresentationObjectsPreserved": true,
+  "termEvidencePreservedForAllTargets": true,
+  "expertAcceptanceUnchanged": true,
+  "exactTermSideScopeGates": 80,
+  "protectedUnboundTargets": 14,
+  "sourceObjectsNotForcedIntoTargetScope": 47,
+  "runtimeChecksRun": false
+}

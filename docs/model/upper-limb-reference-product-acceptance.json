@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "upper-limb-nerve-reference",
+  "status": "local_production_product_flow_accepted;expert_review_pending",
+  "capturedAtUtc": "2026-10-02T16:04:15.123008+00:00",
+  "baselineRevision": "0d9459acdb20a1461f5c6b6165828a6ba0b36bc1",
+  "environment": {
+    "os": "macOS",
+    "node": "24.18.1",
+    "python": "3.9.6",
+    "browser": "headed Chromium via Playwright CLI",
+    "url": "http://127.0.0.1:4183/human-atlas/",
+    "command": "npm run build -- --base=/human-atlas/"
+  },
+  "inputSnapshots": [
+    {
+      "path": "public/models/upper-limb-nerve-reference/atlas.json",
+      "sha256": "5b977867fb49394bb7cc04ea5166fb82620daa9fac26e0f6fceaf1e44276eb44"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/anatomy.bin",
+      "sha256": "3355121fe3725b885c47f7f0412598ac87e82f83d5022e82e99496a98d949547"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/anatomy.bin.gz",
+      "sha256": "20f1090a1b6a64cb17730a624a593f9069e4af8cfc0a3f797886c535210fde28"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/ATTRIBUTION.md",
+      "sha256": "dc5b11db691ded2118204c9fb25866adbaca74234c3d7c2e151c1a0174318acd"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/UPSTREAM-LICENSE.txt",
+      "sha256": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+    },
+    {
+      "path": "data/anatomy/upper-limb-reference.json",
+      "sha256": "13e9f2c2ee50f66a647078a5c1b8576209b1f537a34f256622b67cd2010cd7bf"
+    },
+    {
+      "path": "output/playwright/upper-limb-production-desktop-context.png",
+      "sha256": "dd0d90f5a030ecb17a01f808689ffe06f06f21262781eac7908540720ddcf8e4"
+    },
+    {
+      "path": "output/playwright/upper-limb-production-desktop-isolated-la.png",
+      "sha256": "fe6a4a9a6e2a50e45703a8180e18ad86ff764a5f0d7af4e10eeb05702398e1eb"
+    },
+    {
+      "path": "output/playwright/upper-limb-production-mobile-source.png",
+      "sha256": "1dd478560bf96a266e34bf58a95602c2fd94bb5727143a25fe90174f641c6603"
+    },
+    {
+      "path": "output/playwright/upper-limb-production-mobile-isolated.png",
+      "sha256": "de22b6f2486180f97179f57e32be7c1c5c7c856384533c80d92998fe36207426"
+    },
+    {
+      "path": "output/playwright/upper-limb-production-small-isolated.png",
+      "sha256": "fdc8b15f7da470ac84e57fc33f6181c533414117e0e43ac1903e947719c19068"
+    },
+    {
+      "path": "output/playwright/upper-limb-production-small-latin-null.png",
+      "sha256": "dc5c995010e3aba55eed4f0be8597981cdceb950332f9cfa0ac8a39df7f3b995"
+    }
+  ],
+  "runtimeInputsAtAcceptance": [
+    {
+      "path": "app/agent-tools.ts",
+      "sha256": "25454fe0958a927dff22c0d1154c52da2955ca011d3295b12aeb33d19e0f9ccb"
+    },
+    {
+      "path": "app/anatomy.ts",
+      "sha256": "e46039a1891445cc266d8617356f42aeb16c61cce4b389e8a00183f123226572"
+    },
+    {
+      "path": "app/asset-url.ts",
+      "sha256": "8d98c38f0f79cea519e6000d0add8e4e965d3c54ff45141f3b6c0d55c7acaef6"
+    },
+    {
+      "path": "app/atlas-metadata.ts",
+      "sha256": "a28ef27256e40d98f9d86a92cdd8185164a4ef6e06c7c250c7fcbd0daad93b4e"
+    },
+    {
+      "path": "app/coverage-panel.tsx",
+      "sha256": "a3fcd87e779005ae054e700a9ecc72411f52b3cbc7fc02d48da2112490f5f609"
+    },
+    {
+      "path": "app/explosion-layout.ts",
+      "sha256": "d27298d58ea20ddfdb572f969b2af76e4c5e87a8a0db7da8f8a817cd7a5ba44f"
+    },
+    {
+      "path": "app/female-pelvis-labels.ts",
+      "sha256": "d6f5868602dc7cce5634f9a599cba96be7f7cb3749a33e9a3be52b6e9d709a29"
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "fd64a4180fce5061a594d53393c78085bcd8d754c439abcd3fa1ea70782df96e"
+    },
+    {
+      "path": "app/inspection-camera.ts",
+      "sha256": "0e2e65933cb7ab5784f550e3cf355e0b060329457fe4c19ea156c8e07bfb2a4f"
+    },
+    {
+      "path": "app/knowledge.ts",
+      "sha256": "adce09d162e251d788ef7fec17b53da9a6a8500c8303396d329f3da89071cad8"
+    },
+    {
+      "path": "app/load-atlas.ts",
+      "sha256": "aa24188b36e61f896ab9c07e41ffb5f1a93b80a1444f8f688f4406628f9bd1f4"
+    },
+    {
+      "path": "app/model-download.ts",
+      "sha256": "fd545770aee813a8095f9769816c1503ec0132271002cc6e68bee420eee19be3"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "1756732d32f7d82591f688e6ee0ee74c9864e448c98949db9c6793f3fe64c485"
+    },
+    {
+      "path": "app/pointer-tap.ts",
+      "sha256": "6d019965f659271a549d50fdfe56e5501069da4fcdb77b330b8d7b1b805dd46d"
+    },
+    {
+      "path": "app/reference-datasets.ts",
+      "sha256": "86713d0fde1d7b0abca3bbf350276f8dd8d749ae42218f9b68e744fd99b9762a"
+    },
+    {
+      "path": "app/reviewed-selections.ts",
+      "sha256": "0c56a78030b7f257da3e21b9e4516a0cda57d674ebeb790a5f056fb1d0f17ed5"
+    },
+    {
+      "path": "app/scene.tsx",
+      "sha256": "af4e7a6861d4b44a55b22c697f6fbaa81355cff01fad26667c984f901e0907b6"
+    }
+  ],
+  "productionBundlesAtAcceptance": [
+    {
+      "path": "dist/assets/index-BOgrOqaW.css",
+      "sha256": "06f617176c7bfc00fd144318df852a806124cef9c6e1e927a10035fee79de0d1"
+    },
+    {
+      "path": "dist/assets/index-CdpXUHZk.js",
+      "sha256": "2feb6d1bb86f00b262a10b010008a0474b87b50cb3c2297621753521755f416a"
+    }
+  ],
+  "openedScreenshots": [
+    "output/playwright/upper-limb-production-desktop-context.png",
+    "output/playwright/upper-limb-production-desktop-isolated-la.png",
+    "output/playwright/upper-limb-production-mobile-source.png",
+    "output/playwright/upper-limb-production-mobile-isolated.png",
+    "output/playwright/upper-limb-production-small-isolated.png",
+    "output/playwright/upper-limb-production-small-latin-null.png"
+  ],
+  "flows": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "result": "passed",
+      "observed": "TR ASCII left suprascapular; cited superior-trunk parent and return; LA Nervus suprascapularis (L); isolation; direct click at observed surface (771,466) reselected source part and returned to127-piece context"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "result": "passed",
+      "observed": "EN right deep branch of radial; cited radial parent and return; source title visible; isolated source extent fits above panel"
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "result": "passed",
+      "observed": "Same selected source curve remains visible without clipping; LA C3 exact term explicitly unresolved with English fallback; male switch restores2290 pieces, clears selection/history, default camera"
+    }
+  ],
+  "console": {
+    "messages": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "checks": {
+    "typescript": "passed",
+    "anatomyKnowledgeTests": "5/5 passed",
+    "interactionValidator": "passed, including own127 concept/search/parent boundary",
+    "productionBuild": "passed; large JS chunk warning remains"
+  },
+  "scope": "Representative product flow acceptance of the pinned package; runtime hashes record historical environment, not per-target anatomy acceptance",
+  "expertReview": "pending",
+  "deployment": "not claimed; tracked separately in delivery report",
+  "physicalDevicePerformance": "not tested",
+  "historicalDevelopmentFailures": "320 dev reference reset and TR/EN locator mismatch retained separately; resolved production path verified"
+}
