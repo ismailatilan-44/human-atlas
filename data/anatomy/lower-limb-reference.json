@@ -1,0 +1,966 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "lower-limb-nerve-reference",
+  "scope": "Six independently named authored nerve curves (bilateral sciatic, tibial and common fibular nerves) and 15 matched-source bone context objects; partial lower-limb nerve reference",
+  "descriptionTr": "Bilateral siyatik, tibial ve ortak fibular sinirlerin altı kaynak eğrisi; aynı kaynaktan 15 kemik bağlamı. Tam alt ekstremite sinir ağı değildir. Anatomik uzman incelemesi bekliyor.",
+  "representationNoteTr": "Sinir gövdeleri kaynakta yazılmış eğrilerin kapsamını korur. Kökler, ayrı distal dallar, kas innervasyonu ve tam alt ekstremite ağı bu pakette gösterilmez. Kemikler bağlam içindir.",
+  "counts": {
+    "labels": 21,
+    "authoredNerveObjects": 6,
+    "boneContextObjects": 15,
+    "branchOfRelations": 4
+  },
+  "review": {
+    "terminology": "21 labels verified against the pinned TA2 table; Turkish editorial",
+    "relationshipEvidence": "Four source-supported terminal branch facts, copied from the existing candidate with same-side endpoints",
+    "expertReview": "pending",
+    "geometry": "Not assessed by this metadata task; see the owning reference package review",
+    "mainAtlasRegistration": "Existing rejected distal registration is not accepted by this separate dataset metadata",
+    "integrationAndRelease": "Owned by the parent integration task; this file alone is not acceptance evidence"
+  },
+  "lateralityPolicy": "Keep unsided terminology text verbatim; side is separate. UI may append L/R or localized side labels without claiming a verified Latin side compound.",
+  "labels": [
+    {
+      "ids": [
+        "atlas:left-tibial-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Tibial nerve.l",
+      "sourceEnglish": "Tibial nerve",
+      "tr": "Tibial sinir",
+      "en": "Tibial nerve",
+      "la": "Nervus tibialis",
+      "side": "left",
+      "aliases": [
+        "Tibial nerve.l",
+        "n. tibialis"
+      ],
+      "ta2TableId": 6582,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir eğrisinin kapsamı gösterilir. Kökler ve ayrı distal dallar bu pakette yer almaz; bu seçim tam alt ekstremite sinir ağı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6582; CSV line 6665; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Tibial nerve.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-tibial-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Tibial nerve.r",
+      "sourceEnglish": "Tibial nerve",
+      "tr": "Tibial sinir",
+      "en": "Tibial nerve",
+      "la": "Nervus tibialis",
+      "side": "right",
+      "aliases": [
+        "Tibial nerve.r",
+        "n. tibialis"
+      ],
+      "ta2TableId": 6582,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir eğrisinin kapsamı gösterilir. Kökler ve ayrı distal dallar bu pakette yer almaz; bu seçim tam alt ekstremite sinir ağı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6582; CSV line 6665; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Tibial nerve.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-common-fibular-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Common fibular nerve.l",
+      "sourceEnglish": "Common fibular nerve",
+      "tr": "Ortak fibular sinir",
+      "en": "Common fibular nerve",
+      "la": "Nervus fibularis communis",
+      "side": "left",
+      "aliases": [
+        "Common fibular nerve.l",
+        "common peroneal nerve",
+        "ortak peroneal sinir",
+        "n. fibularis communis"
+      ],
+      "ta2TableId": 6571,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir eğrisinin kapsamı gösterilir. Kökler ve ayrı distal dallar bu pakette yer almaz; bu seçim tam alt ekstremite sinir ağı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6571; CSV line 6654; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Common fibular nerve.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-common-fibular-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Common fibular nerve.r",
+      "sourceEnglish": "Common fibular nerve",
+      "tr": "Ortak fibular sinir",
+      "en": "Common fibular nerve",
+      "la": "Nervus fibularis communis",
+      "side": "right",
+      "aliases": [
+        "Common fibular nerve.r",
+        "common peroneal nerve",
+        "ortak peroneal sinir",
+        "n. fibularis communis"
+      ],
+      "ta2TableId": 6571,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir eğrisinin kapsamı gösterilir. Kökler ve ayrı distal dallar bu pakette yer almaz; bu seçim tam alt ekstremite sinir ağı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6571; CSV line 6654; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Common fibular nerve.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-sciatic-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Sciatic nerve.l",
+      "sourceEnglish": "Sciatic nerve",
+      "tr": "Siyatik sinir",
+      "en": "Sciatic nerve",
+      "la": "Nervus ischiadicus",
+      "side": "left",
+      "aliases": [
+        "Sciatic nerve.l",
+        "siyatik",
+        "sciatic",
+        "ischiadicus"
+      ],
+      "ta2TableId": 6569,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış siyatik sinir eğrisinin pelvis–uyluk kapsamı gösterilir. Tibial ve ortak fibular sinirler ayrı seçimlerdir. Kökler, ayrı distal dallar ve tam alt ekstremite sinir ağı bu seçimde yer almaz; anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6569; CSV line 6652; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Sciatic nerve.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-sciatic-nerve"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Sciatic nerve.r",
+      "sourceEnglish": "Sciatic nerve",
+      "tr": "Siyatik sinir",
+      "en": "Sciatic nerve",
+      "la": "Nervus ischiadicus",
+      "side": "right",
+      "aliases": [
+        "Sciatic nerve.r",
+        "siyatik",
+        "sciatic",
+        "ischiadicus"
+      ],
+      "ta2TableId": 6569,
+      "componentRole": "nerve",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış siyatik sinir eğrisinin pelvis–uyluk kapsamı gösterilir. Tibial ve ortak fibular sinirler ayrı seçimlerdir. Kökler, ayrı distal dallar ve tam alt ekstremite sinir ağı bu seçimde yer almaz; anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6569; CSV line 6652; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Sciatic nerve.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:tibia-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Tibia.l",
+      "sourceEnglish": "Tibia",
+      "tr": "Kaval kemiği",
+      "en": "Tibia",
+      "la": "Tibia",
+      "side": "left",
+      "aliases": [
+        "Tibia.l",
+        "tibia"
+      ],
+      "ta2TableId": 1397,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1397; CSV line 1472; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Tibia.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:tibia-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Tibia.r",
+      "sourceEnglish": "Tibia",
+      "tr": "Kaval kemiği",
+      "en": "Tibia",
+      "la": "Tibia",
+      "side": "right",
+      "aliases": [
+        "Tibia.r",
+        "tibia"
+      ],
+      "ta2TableId": 1397,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1397; CSV line 1472; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Tibia.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:fibula-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fibula.l",
+      "sourceEnglish": "Fibula",
+      "tr": "Kamış kemiği",
+      "en": "Fibula",
+      "la": "Fibula",
+      "side": "left",
+      "aliases": [
+        "Fibula.l",
+        "fibula"
+      ],
+      "ta2TableId": 1427,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1427; CSV line 1502; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fibula.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:fibula-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Fibula.r",
+      "sourceEnglish": "Fibula",
+      "tr": "Kamış kemiği",
+      "en": "Fibula",
+      "la": "Fibula",
+      "side": "right",
+      "aliases": [
+        "Fibula.r",
+        "fibula"
+      ],
+      "ta2TableId": 1427,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1427; CSV line 1502; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fibula.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:patella-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Patella.l",
+      "sourceEnglish": "Patella",
+      "tr": "Diz kapağı kemiği",
+      "en": "Patella",
+      "la": "Patella",
+      "side": "left",
+      "aliases": [
+        "Patella.l",
+        "patella"
+      ],
+      "ta2TableId": 1390,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1390; CSV line 1465; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Patella.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:patella-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Patella.r",
+      "sourceEnglish": "Patella",
+      "tr": "Diz kapağı kemiği",
+      "en": "Patella",
+      "la": "Patella",
+      "side": "right",
+      "aliases": [
+        "Patella.r",
+        "patella"
+      ],
+      "ta2TableId": 1390,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1390; CSV line 1465; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Patella.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:talus-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Talus.l",
+      "sourceEnglish": "Talus",
+      "tr": "Aşık kemiği",
+      "en": "Talus",
+      "la": "Os tali",
+      "side": "left",
+      "aliases": [
+        "Talus.l",
+        "talus"
+      ],
+      "ta2TableId": 1448,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1448; CSV line 1523; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Talus.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:talus-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Talus.r",
+      "sourceEnglish": "Talus",
+      "tr": "Aşık kemiği",
+      "en": "Talus",
+      "la": "Os tali",
+      "side": "right",
+      "aliases": [
+        "Talus.r",
+        "talus"
+      ],
+      "ta2TableId": 1448,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1448; CSV line 1523; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Talus.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:calcaneus-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Calcaneus.l",
+      "sourceEnglish": "Calcaneus",
+      "tr": "Topuk kemiği",
+      "en": "Calcaneus",
+      "la": "Calcaneus",
+      "side": "left",
+      "aliases": [
+        "Calcaneus.l",
+        "kalkaneus",
+        "calcaneus"
+      ],
+      "ta2TableId": 1468,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1468; CSV line 1543; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Calcaneus.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:calcaneus-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Calcaneus.r",
+      "sourceEnglish": "Calcaneus",
+      "tr": "Topuk kemiği",
+      "en": "Calcaneus",
+      "la": "Calcaneus",
+      "side": "right",
+      "aliases": [
+        "Calcaneus.r",
+        "kalkaneus",
+        "calcaneus"
+      ],
+      "ta2TableId": 1468,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1468; CSV line 1543; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Calcaneus.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:femur-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Femur.l",
+      "sourceEnglish": "Femur",
+      "tr": "Uyluk kemiği",
+      "en": "Femur",
+      "la": "Os femoris",
+      "side": "left",
+      "aliases": [
+        "Femur.l",
+        "femur"
+      ],
+      "ta2TableId": 1360,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1360; CSV line 1435; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Femur.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:femur-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Femur.r",
+      "sourceEnglish": "Femur",
+      "tr": "Uyluk kemiği",
+      "en": "Femur",
+      "la": "Os femoris",
+      "side": "right",
+      "aliases": [
+        "Femur.r",
+        "femur"
+      ],
+      "ta2TableId": 1360,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1360; CSV line 1435; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Femur.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:hip-bone-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Hip bone.l",
+      "sourceEnglish": "Hip bone",
+      "tr": "Kalça kemiği",
+      "en": "Hip bone",
+      "la": "Os coxae",
+      "side": "left",
+      "aliases": [
+        "Hip bone.l",
+        "os coxae"
+      ],
+      "ta2TableId": 1307,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1307; CSV line 1382; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Hip bone.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:hip-bone-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Hip bone.r",
+      "sourceEnglish": "Hip bone",
+      "tr": "Kalça kemiği",
+      "en": "Hip bone",
+      "la": "Os coxae",
+      "side": "right",
+      "aliases": [
+        "Hip bone.r",
+        "os coxae"
+      ],
+      "ta2TableId": 1307,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1307; CSV line 1382; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Hip bone.r",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "zanatomy:sacrum"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceObject": "Sacrum",
+      "sourceEnglish": "Sacrum",
+      "tr": "Sakrum",
+      "en": "Sacrum",
+      "la": "Os sacrum",
+      "side": "midline",
+      "aliases": [
+        "Sacrum",
+        "sağrı kemiği",
+        "os sacrum"
+      ],
+      "ta2TableId": 1071,
+      "componentRole": "bone_context",
+      "terminologyStatus": "verified_against_pinned_table",
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı Z-Anatomy kaynağından kemik bağlamı. Bu seçim bağımsız bir eklem, bağ veya sinir ilişkisi kanıtı değildir. Anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1071; CSV line 1109; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Sacrum",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "atlas:left-tibial-nerve|branch_of|atlas:left-sciatic-nerve",
+      "subject": "atlas:left-tibial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; tibial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .l identifies left; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      },
+      "datasetId": "lower-limb-nerve-reference"
+    },
+    {
+      "id": "atlas:left-common-fibular-nerve|branch_of|atlas:left-sciatic-nerve",
+      "subject": "atlas:left-common-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; fibular, common row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .l identifies left; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      },
+      "datasetId": "lower-limb-nerve-reference"
+    },
+    {
+      "id": "atlas:right-tibial-nerve|branch_of|atlas:right-sciatic-nerve",
+      "subject": "atlas:right-tibial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; tibial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .r identifies right; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      },
+      "datasetId": "lower-limb-nerve-reference"
+    },
+    {
+      "id": "atlas:right-common-fibular-nerve|branch_of|atlas:right-sciatic-nerve",
+      "subject": "atlas:right-common-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; fibular, common row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .r identifies right; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      },
+      "datasetId": "lower-limb-nerve-reference"
+    }
+  ],
+  "predicate": {
+    "id": "branch_of",
+    "direction": "named branch → parent nerve",
+    "outgoingLabelTr": "Dalı olduğu sinir",
+    "incomingLabelTr": "Sinirin dalları",
+    "inverse": "has_branch",
+    "transitive": false,
+    "note": "Do not normalize to part_of; these are sourced anatomical terminal branches, not display collection membership. Existing sciatic viaDivision motor relationships remain parent-level functional summaries."
+  },
+  "sources": [
+    {
+      "id": "zanatomy-ta2-pinned",
+      "title": "Pinned Z-Anatomy TA2 terminology table",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "revision": "23d42ff2acf149e4cc0af666b3f80af2ed19909a",
+      "localPath": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+      "use": "Exact unsided English/Latin pairs only; no connectivity, specimen identity or Latin laterality inferred",
+      "selectedTerms": [
+        {
+          "upstreamTableId": 6582,
+          "english": "Tibial nerve",
+          "latin": "Nervus tibialis",
+          "csvLine": 6665
+        },
+        {
+          "upstreamTableId": 6571,
+          "english": "Common fibular nerve",
+          "latin": "Nervus fibularis communis",
+          "csvLine": 6654
+        },
+        {
+          "upstreamTableId": 6569,
+          "english": "Sciatic nerve",
+          "latin": "Nervus ischiadicus",
+          "csvLine": 6652
+        },
+        {
+          "upstreamTableId": 1397,
+          "english": "Tibia",
+          "latin": "Tibia",
+          "csvLine": 1472
+        },
+        {
+          "upstreamTableId": 1427,
+          "english": "Fibula",
+          "latin": "Fibula",
+          "csvLine": 1502
+        },
+        {
+          "upstreamTableId": 1390,
+          "english": "Patella",
+          "latin": "Patella",
+          "csvLine": 1465
+        },
+        {
+          "upstreamTableId": 1448,
+          "english": "Talus",
+          "latin": "Os tali",
+          "csvLine": 1523
+        },
+        {
+          "upstreamTableId": 1468,
+          "english": "Calcaneus",
+          "latin": "Calcaneus",
+          "csvLine": 1543
+        },
+        {
+          "upstreamTableId": 1360,
+          "english": "Femur",
+          "latin": "Os femoris",
+          "csvLine": 1435
+        },
+        {
+          "upstreamTableId": 1307,
+          "english": "Hip bone",
+          "latin": "Os coxae",
+          "csvLine": 1382
+        },
+        {
+          "upstreamTableId": 1071,
+          "english": "Sacrum",
+          "latin": "Os sacrum",
+          "csvLine": 1109
+        }
+      ]
+    },
+    {
+      "id": "ttuhsc-posterior-thigh-tables",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/gluteal_tables.html",
+      "retrievedOn": "2026-10-02",
+      "locator": "Nerves table; sciatic, fibular common and tibial rows",
+      "verifiedFact": "The two named nerves are terminal branches of sciatic; each has sciatic as its source.",
+      "use": "Selected relationship facts only; source table is not redistributed",
+      "title": "TTUHSC posterior thigh and gluteal anatomy tables"
+    },
+    {
+      "id": "zanatomy-lower-limb-source",
+      "title": "Z-Anatomy source object identities",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+      "member": "Z-Anatomy/Startup.blend",
+      "sourceArtifactSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "identityRecords": [
+        "data/model-candidates/distal-leg-nerves/source-reference.json",
+        "public/models/extensions/sciatic-nerves.json",
+        "scripts/export-sciatic-nerves.py"
+      ],
+      "use": "Object names and source side suffixes; source curves and matched-source bone context; export/geometry verification owned by the package review",
+      "licensing": "Preserve final geometry component attribution and upstream exceptions; terminology metadata does not replace component licenses"
+    }
+  ],
+  "inputSnapshots": [
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "data/model-candidates/distal-leg-nerve-metadata/proposal.json",
+      "sha256": "a50a9dfca1d3521eb5aa289e50106c53dfbc7843b8251a45129ea63d11eb8c8d"
+    },
+    {
+      "path": "data/model-candidates/distal-leg-nerve-metadata/source-evidence.json",
+      "sha256": "13a27edba6e0fe1f3125f5b0b61974aaaac2c973d84b6437ab75e1669b18cbf7"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "0c136ef9136d1576601608e492884f2a45bbf3b37cee44f14b9af42cf1ada0cf"
+    },
+    {
+      "path": "data/anatomy/sciatic.json",
+      "sha256": "addd1e7818e39e3753662f5caed50b300f5f408e530aec714b48a574ee14a197"
+    }
+  ],
+  "notAsserted": [
+    "Complete lower-limb nerve network",
+    "Roots or segment levels",
+    "Distal branch surfaces or drawn branch geometry",
+    "Muscle innervation or skin territories",
+    "Bone adjacency or joint relationships",
+    "Specimen-validated connectivity, fused nerve surfaces or named terminal endpoint landmarks",
+    "New FMA mappings",
+    "Registration into the male BodyParts3D atlas",
+    "Anatomical expert approval"
+  ]
+}

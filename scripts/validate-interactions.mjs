@@ -5,11 +5,12 @@ import {PointerTap} from '../app/pointer-tap.ts';
 import {createServer} from 'vite';
 // Use the app's bundler for its TypeScript and JSON dependency imports.
 const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
-let atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel;
+let atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel, relationshipsFor, datasetLabel;
 try {
   ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts'));
   ({mergeAtlas, loadAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
-  ({explorerConcepts} = await loader.ssrLoadModule('/app/knowledge.ts'));
+  ({explorerConcepts, relationshipsFor} = await loader.ssrLoadModule('/app/knowledge.ts'));
+  ({datasetLabel} = await loader.ssrLoadModule('/app/reference-datasets.ts'));
   ({prepareAtlas, anatomyLabel} = await loader.ssrLoadModule('/app/atlas-metadata.ts'));
 }
 finally { await loader.close(); }
@@ -130,6 +131,34 @@ const [findEar, inspectEar] = atlasTools({...ear, concepts:earConcepts}, () => {
 assert.equal(findEar.execute({query:'cochlea'}).length, 2);
 assert.throws(() => inspectEar.execute({id:ovaries[0].id}));
 console.log('Inner-ear reference exposes only its own six structures.');
+const lowerRequests = [];
+let lower;
+try {
+  globalThis.fetch = async (url) => {
+    lowerRequests.push(String(url));
+    return new Response(await readFile(new URL('../public' + url, import.meta.url)));
+  };
+  lower = await loadAtlas(new AbortController().signal, 'lower-limb-nerve-reference');
+} finally { globalThis.fetch = originalFetch; }
+assert.deepEqual(lowerRequests, ['/models/lower-limb-nerve-reference/atlas.json']);
+assert.equal(lower.parts.length, 21);
+assert.equal(lower.compatibleWithMainAtlas, false);
+assert.equal(lower.anchors.length, 0);
+const lowerConcepts = explorerConcepts(lower), lowerMap = new Map(lowerConcepts.map(c => [c.id, c]));
+const tibial = lowerMap.get('atlas:left-tibial-nerve');
+assert.deepEqual(tibial.elements, ['ZA-TIB-L']);
+assert.equal(datasetLabel(lower.datasetId, tibial.id, tibial.name, 'tr'), 'Sol Tibial sinir');
+assert.equal(datasetLabel(lower.datasetId, 'zanatomy:sacrum', 'Sacrum', 'la'), 'Os sacrum');
+const childEdges = relationshipsFor(tibial.id, lowerMap, lower.datasetId);
+assert.equal(childEdges.length, 1);
+assert.equal(childEdges[0].predicate, 'branch_of');
+assert.equal(childEdges[0].otherId, 'atlas:left-sciatic-nerve');
+const parentEdges = relationshipsFor('atlas:left-sciatic-nerve', lowerMap, lower.datasetId);
+assert.equal(parentEdges.length, 2);
+assert(parentEdges.every(r => r.predicate === 'branch_of' && lowerMap.has(r.otherId)));
+assert(relationshipsFor('atlas:left-sciatic-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
+assert.deepEqual(relationshipsFor('atlas:left-sciatic-nerve', lowerMap, 'inner-ear-reference'), []);
+console.log('Lower-limb reference resolves its own branch geometry without male graph leakage.');
 const tap=new PointerTap();
 tap.down(1,10,10,5);assert.equal(tap.up(1,12,11),true);
 tap.down(1,10,10,5);tap.move(1,40,10);assert.equal(tap.up(1,10,10),false);

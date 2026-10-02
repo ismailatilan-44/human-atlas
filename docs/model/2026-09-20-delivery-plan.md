@@ -4,7 +4,7 @@
 
 Güncel canlı sürüm: `caa938a` — ana atlas 2.290 parça, ayrı kadın pelvis 27 ve iç kulak 6 parça; 275 etiket kaydı. 2 Ekim'de canlı `release.json` aynı kaynak sürümünü döndürdü. Akciğer kaynak seçimi düzeltmesi ve dört pulmoner damar etiketi önceki yayın kabulünde doğrulandı. [2 Ekim eylem/süre raporu](progress-report-2026-10-02.md), [yeniden üretilebilir envanter](model-inventory.md) ve [kapsam-bitiş planı](model-scope-and-acceptance.md) güncel takibi verir. [26 Eylül raporu](progress-report-2026-09-26.md) ile aşağıdaki sürüm kayıtları tarihî kanıttır.
 
-P1'in kaynak kataloğu ve hedef matrisi üretildi: üç dataset için 3.572 kavram/seçim kaydı, 2.323 parça ve 208 bekleyen bölge/aile/ayrıntı hücresi. Yapıların tek tek hedefe açılması ve anatomik kabulü henüz tamamlanmadı. P2'de dört tibial/common-fibular sinir eğrisi ile dört etiket/ilişki adayı çıkarıldı; alt bacak/ayak bileği uyum incelemesi ana atlasa kaydı kabul etmedi. Bu adaylar aktif registry, etiket ve grafiğe eklenmedi; bu tur yeni ürün yayını yapılmadı.
+2 Ekim sonraki yerel teslimi: dört dataset için 3.593 kavram/seçim kaydı, 2.344 parça ve 208 bekleyen bölge/aile/ayrıntı hücresi. Alt ekstremitede 66 tek tek hedef açıldı; 48'inde gözlenen kaynak bağı var, 18'i bağlanmamış. Liste eksiksiz değildir ve anatomik kabulü bekler. Ana gövdeyle distal uyumu reddedilen sinirler, aynı kaynak siyatik ve kemik bağlamıyla bağımsız 21 nesneli referans olarak entegre edildi. 21 TR/EN/LA etiket ve dört dal ilişkisi bu referans içinde çalışır. Masaüstü ve iki mobil boyutta arama/seçim/ilişki/izolasyon akışı kontrol edildi; yayın kabulü henüz yapılmadı. Ana gövdeye başarısız yerleşim kararı korunur.
 
 ## Hedef
 

@@ -1,0 +1,310 @@
+{
+  "parts": 21,
+  "nerves": 6,
+  "bones": 15,
+  "vertices": 29108,
+  "triangles": 57864,
+  "bytes": 1218328,
+  "gzipBytes": 714473,
+  "binarySha256": "66374fc7903125278ccc3285b7cfae836db19d8d129edefc8759b9e6ab457b92",
+  "gzipSha256": "594789b7fa352d0149fc150e5519340b0d21f23dcaf5c90d79b0a630a1c1095e",
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "manifestSha256": "2230e2d1b3d92d0dafed463c5c3038580bbff5dc765448a7c2e44820d4913c22",
+  "checks": [
+    {
+      "partId": "ZA-TIB-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 5.612072624322146e-07,
+      "minFaceNormalDot": 0.9639762267806911,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2703047043215463e-05
+    },
+    {
+      "partId": "ZA-TIB-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 5.612072624322146e-07,
+      "minFaceNormalDot": 0.9639762455786287,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.0467737922413853e-05
+    },
+    {
+      "partId": "ZA-CFIB-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 1.9681092742229286e-07,
+      "minFaceNormalDot": 0.9617393407498442,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.137725765849474e-05
+    },
+    {
+      "partId": "ZA-CFIB-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 1.9680875632796302e-07,
+      "minFaceNormalDot": 0.9617424659661788,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.137725765849474e-05
+    },
+    {
+      "partId": "ZA-SCI-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 72,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 2.735110151012358e-07,
+      "minFaceNormalDot": 0.9620615757404203,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2330536625925212e-05
+    },
+    {
+      "partId": "ZA-SCI-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 72,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 2.7354702084739987e-07,
+      "minFaceNormalDot": 0.9620710092409827,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2077195798275717e-05
+    },
+    {
+      "partId": "ZA-DLN-TIBIA-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 2.0520307823543577e-10,
+      "minFaceNormalDot": 0.8727875773314594,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.3318208995259937e-05
+    },
+    {
+      "partId": "ZA-DLN-TIBIA-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 2.0520307823543577e-10,
+      "minFaceNormalDot": 0.8727875773314594,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.3318208995259937e-05
+    },
+    {
+      "partId": "ZA-DLN-FIBULA-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 19,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 7.397478925451322e-08,
+      "minFaceNormalDot": 0.8843978092244144,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 1.994988049913715e-05
+    },
+    {
+      "partId": "ZA-DLN-FIBULA-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 19,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 7.397478925451322e-08,
+      "minFaceNormalDot": 0.8843978092244144,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 1.994988049913715e-05
+    },
+    {
+      "partId": "ZA-DLN-PATELLA-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 3.8624263660572266e-07,
+      "minFaceNormalDot": 0.8872529306072057,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.194493700935496e-05
+    },
+    {
+      "partId": "ZA-DLN-PATELLA-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 3.8624263660572266e-07,
+      "minFaceNormalDot": 0.8872529306072057,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.194493700935496e-05
+    },
+    {
+      "partId": "ZA-DLN-TALUS-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 1.1119167867423957e-07,
+      "minFaceNormalDot": 0.7926498413791925,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2440869654305473e-05
+    },
+    {
+      "partId": "ZA-DLN-TALUS-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 1.1119167867423957e-07,
+      "minFaceNormalDot": 0.7926498413791925,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2440869654305473e-05
+    },
+    {
+      "partId": "ZA-DLN-CALCANEUS-L",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 8.310064860343351e-12,
+      "minFaceNormalDot": -0.5739917251172486,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2848804602793038e-05
+    },
+    {
+      "partId": "ZA-DLN-CALCANEUS-R",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 8.310064860343351e-12,
+      "minFaceNormalDot": -0.5739917251172486,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2848804602793038e-05
+    },
+    {
+      "partId": "ZA-LLR-FEMUR-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 3.5942250040160974e-08,
+      "minFaceNormalDot": 0.32497843771818785,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2606651457035554e-05
+    },
+    {
+      "partId": "ZA-LLR-FEMUR-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 3.5942250040160974e-08,
+      "minFaceNormalDot": 0.32497843771818785,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.2606651457035554e-05
+    },
+    {
+      "partId": "ZA-LLR-HIP-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 1.1411320703494327e-11,
+      "minFaceNormalDot": 0.37717970243173304,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.352357334767241e-05
+    },
+    {
+      "partId": "ZA-LLR-HIP-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "minDoubleTriangleArea": 1.1411320703494327e-11,
+      "minFaceNormalDot": 0.37717970243173304,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.352357334767241e-05
+    },
+    {
+      "partId": "ZA-LLR-SACRUM",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "looseVertices": 21,
+      "cancelledVertexNormals": 1,
+      "boundaryEdges": 13,
+      "nonManifoldEdges": 4,
+      "minDoubleTriangleArea": 2.4798296749395377e-10,
+      "minFaceNormalDot": -0.3333333333333333,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "maxNormalLengthError": 2.3383485128092296e-05
+    }
+  ],
+  "sourceJunctions": [
+    {
+      "sciaticPartId": "ZA-SCI-L",
+      "distalPartId": "ZA-TIB-L",
+      "endpointDistancesMeters": [
+        1.7912410617129963e-07,
+        0.4829562617749745
+      ],
+      "nearestEndpointDistanceMeters": 1.7912410617129963e-07,
+      "meaning": "Authored source endpoint proximity only; no anatomical precision or branch identity approval."
+    },
+    {
+      "sciaticPartId": "ZA-SCI-L",
+      "distalPartId": "ZA-CFIB-L",
+      "endpointDistancesMeters": [
+        1.7912410617129963e-07,
+        0.16169312117894352
+      ],
+      "nearestEndpointDistanceMeters": 1.7912410617129963e-07,
+      "meaning": "Authored source endpoint proximity only; no anatomical precision or branch identity approval."
+    },
+    {
+      "sciaticPartId": "ZA-SCI-R",
+      "distalPartId": "ZA-TIB-R",
+      "endpointDistancesMeters": [
+        1.1996360263306362e-07,
+        0.4829563195637645
+      ],
+      "nearestEndpointDistanceMeters": 1.1996360263306362e-07,
+      "meaning": "Authored source endpoint proximity only; no anatomical precision or branch identity approval."
+    },
+    {
+      "sciaticPartId": "ZA-SCI-R",
+      "distalPartId": "ZA-CFIB-R",
+      "endpointDistancesMeters": [
+        1.1967404487884797e-07,
+        0.1616931805009074
+      ],
+      "nearestEndpointDistanceMeters": 1.1967404487884797e-07,
+      "meaning": "Authored source endpoint proximity only; no anatomical precision or branch identity approval."
+    }
+  ],
+  "validation": "Finite decoded coordinates, bounds, index ranges, normal lengths, aligned offsets, gzip roundtrip; original evaluated source indices and world coordinates retained under one rotation."
+}

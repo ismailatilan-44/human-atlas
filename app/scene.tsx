@@ -596,6 +596,9 @@ export default function AnatomyScene({
       const inspectorRect = s.inspectorOpen
         ? document.querySelector(".detail-sheet")?.getBoundingClientRect()
         : undefined;
+      const viewControls = inspecting ? document.querySelector(".view-controls") : null;
+      const viewControlsBottom = viewControls && getComputedStyle(viewControls).visibility !== "hidden"
+        ? viewControls.getBoundingClientRect().bottom : 0;
       const isolateKey = inspecting
         ? (s.anchor?.conceptId ?? s.selected.join(",")) +
           ":" +
@@ -611,7 +614,9 @@ export default function AnatomyScene({
           ":" +
           Math.round(inspectorRect?.top ?? 0) +
           ":" +
-          Math.round(inspectorRect?.left ?? 0)
+          Math.round(inspectorRect?.left ?? 0) +
+          ":" +
+          Math.round(viewControlsBottom)
         : "";
       if (isolateKey !== lastIsolate || (inspecting && moving)) {
         if (inspecting) {
@@ -647,7 +652,7 @@ export default function AnatomyScene({
               } else if (mobile) {
                 const sheet = inspectorRect,
                   header = document.querySelector(".identity")?.getBoundingClientRect();
-                top = Math.max((header?.bottom ?? 94) + 16, 174);
+                top = Math.max((header?.bottom ?? 94) + 16, viewControlsBottom + 16, 174);
                 bottom = (sheet?.top ?? h * 0.54 - 12) - 16;
               } else {
                 right = (inspectorRect?.left ?? w - 350) - 20;

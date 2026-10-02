@@ -5,6 +5,7 @@ import {
   femalePelvisLabel,
   femalePelvisSearchTerms,
 } from "./female-pelvis-labels";
+import lowerLimb from "../data/anatomy/lower-limb-reference.json";
 
 export const REFERENCE_DATASETS = {
   "female-pelvis": {
@@ -32,12 +33,27 @@ export const REFERENCE_DATASETS = {
     sourceName: "Z-Anatomy · iç kulak referansı",
     placeholder: "Koklea, vestibül, temporal…",
   },
+  "lower-limb-nerve-reference": {
+    title: "Alt ekstremite sinir referansı",
+    heading: "Alt Ekstremite Atlası",
+    identity: "Alt ekstremite · Z-Anatomy",
+    sex: "male",
+    manifest: "/models/lower-limb-nerve-reference/atlas.json",
+    scope:
+      "İki taraflı siyatik, tibial ve ortak fibular sinirler; aynı kaynaktan kemik bağlamı. Tam sinir ağı değildir; uzman incelemesi bekliyor.",
+    description:
+      "Sinirlerin konumunu incelemek için aynı kaynak modelden alınan kemik bağlamı. Bu ayrı referans ana vücut modeliyle birleştirilmez.",
+    sourceName: "Z-Anatomy · alt ekstremite referansı",
+    placeholder: "Tibial, fibular, siyatik…",
+  },
 } as const;
 
 export function referenceDataset(dataset?: DatasetId) {
   return dataset && dataset !== "male-body" ? REFERENCE_DATASETS[dataset] : undefined;
 }
 export function referenceDescription(dataset: DatasetId, conceptId?: string): string | undefined {
+  if (dataset === "lower-limb-nerve-reference" && conceptId?.startsWith("atlas:"))
+    return "Kaynakta ayrı adlandırılmış sinir eğrisinin kapsamı. Ayrı distal dallar ve kök kimlikleri bu pakette yoktur; tam alt ekstremite sinir ağı değildir. Siyatik dal bağlantıları kaynakla desteklenir; anatomik uzman incelemesi bekliyor.";
   if (dataset === "inner-ear-reference" && conceptId?.endsWith("-cochlea"))
     return "Kokleanın dış biçimini gösteren kaynak yüzeyi. İç bölmeler, zarlar ve duyu hücreleri ayrı modellenmemiştir.";
   if (dataset === "inner-ear-reference" && conceptId?.endsWith("-temporal-bone"))
@@ -55,13 +71,15 @@ export function referenceConcepts(atlas: Atlas) {
 export function defaultDatasetScene(
   atlas: Atlas,
 ): Pick<SceneState, "visible" | "selected" | "ghost"> {
-  const innerEar = atlasDataset(atlas) === "inner-ear-reference";
+  const dataset = atlasDataset(atlas);
+  const selectionSystem = dataset === "inner-ear-reference" ? "sensory"
+    : dataset === "lower-limb-nerve-reference" ? "nervous" : undefined;
   return {
     visible: [...new Set(atlas.parts.map((p) => p.system))].filter((id) =>
       DEFAULT_VISIBLE.includes(id),
     ),
-    selected: innerEar ? atlas.parts.filter((p) => p.system === "sensory").map((p) => p.id) : [],
-    ghost: innerEar,
+    selected: selectionSystem ? atlas.parts.filter((p) => p.system === selectionSystem).map((p) => p.id) : [],
+    ghost: !!selectionSystem,
   };
 }
 
@@ -97,10 +115,24 @@ export function datasetLabel(
 ): string {
   if (dataset === "female-pelvis") return femalePelvisLabel(id, name, language);
   if (dataset === "inner-ear-reference") return innerEarLabels[id]?.[language] ?? name;
+  if (dataset === "lower-limb-nerve-reference") {
+    const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
+    const term = entry?.[language] ?? name;
+    if (entry?.side !== "left" && entry?.side !== "right") return term;
+    if (language === "la") return `${term} (${entry.side === "left" ? "L" : "R"})`;
+    return `${language === "tr" ? entry.side === "left" ? "Sol" : "Sağ" : entry.side === "left" ? "Left" : "Right"} ${term}`;
+  }
   return anatomyLabel(id, name, language);
 }
 export function datasetSearchTerms(dataset: DatasetId, id: string, name: string): string[] {
   if (dataset === "female-pelvis") return femalePelvisSearchTerms(id, name);
+  if (dataset === "lower-limb-nerve-reference") {
+    const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
+    const terms = [id, name, ...["tr", "en", "la"].map((language) =>
+      datasetLabel(dataset, id, name, language as AnatomyLanguage)), ...(entry?.aliases ?? [])];
+    return [...new Set(terms.flatMap((term) => [term, term.normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "").replace(/ı/g, "i")]))];
+  }
   if (dataset !== "inner-ear-reference") return anatomySearchTerms(id, name);
   const terms = [id, name, ...Object.values(innerEarLabels[id] ?? {})];
   return [

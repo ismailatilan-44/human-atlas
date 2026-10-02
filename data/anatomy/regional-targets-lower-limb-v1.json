@@ -1,0 +1,2944 @@
+{
+  "schemaVersion": 1,
+  "scopeVersion": "lower-limb-target-seed-v1",
+  "complete": false,
+  "generatedBy": "python3 scripts/build-lower-limb-targets.py",
+  "scope": "Non-exhaustive individually identified knee/leg/ankle/foot D1 and selected D2 requirements",
+  "countingPolicy": "Bilateral project targets, not independent anatomy counts or a whole-body completion denominator",
+  "inputSnapshots": [
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "public/models/lower-limb-nerve-reference/atlas.json",
+      "sha256": "2230e2d1b3d92d0dafed463c5c3038580bbff5dc765448a7c2e44820d4913c22"
+    },
+    {
+      "path": "scripts/build-lower-limb-targets.py",
+      "sha256": "18eb94c7f32f956263310d304ebef6d5579a04a1fea419402e4c72c0753d5a77"
+    }
+  ],
+  "summary": {
+    "targets": 66,
+    "terms": 33,
+    "withObservedRepresentation": 48,
+    "unbound": 18,
+    "anatomicallyAccepted": 0
+  },
+  "targets": [
+    {
+      "id": "lower-limb-v1:ta2:1397:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1397,
+        "en": "Tibia",
+        "la": "Tibia",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1472; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24478",
+          "sourceName": "left tibia",
+          "partIds": [
+            "FJ3282"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24478",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:tibia-l",
+          "sourceName": "Left tibia",
+          "partIds": [
+            "ZA-DLN-TIBIA-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:tibia-l",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1397:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1397,
+        "en": "Tibia",
+        "la": "Tibia",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1472; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24477",
+          "sourceName": "right tibia",
+          "partIds": [
+            "FJ3387"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24477",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:tibia-r",
+          "sourceName": "Right tibia",
+          "partIds": [
+            "ZA-DLN-TIBIA-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:tibia-r",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1427:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1427,
+        "en": "Fibula",
+        "la": "Fibula",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1502; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24481",
+          "sourceName": "left fibula",
+          "partIds": [
+            "FJ3260"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24481",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:fibula-l",
+          "sourceName": "Left fibula",
+          "partIds": [
+            "ZA-DLN-FIBULA-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:fibula-l",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1427:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1427,
+        "en": "Fibula",
+        "la": "Fibula",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1502; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24480",
+          "sourceName": "right fibula",
+          "partIds": [
+            "FJ3366"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24480",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:fibula-r",
+          "sourceName": "Right fibula",
+          "partIds": [
+            "ZA-DLN-FIBULA-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:fibula-r",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1390:left",
+      "regionId": "hip-thigh-knee",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1390,
+        "en": "Patella",
+        "la": "Patella",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1465; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24487",
+          "sourceName": "left patella",
+          "partIds": [
+            "FJ3275"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24487",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:patella-l",
+          "sourceName": "Left patella",
+          "partIds": [
+            "ZA-DLN-PATELLA-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:patella-l",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1390:right",
+      "regionId": "hip-thigh-knee",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1390,
+        "en": "Patella",
+        "la": "Patella",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1465; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24486",
+          "sourceName": "right patella",
+          "partIds": [
+            "FJ3381"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24486",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:patella-r",
+          "sourceName": "Right patella",
+          "partIds": [
+            "ZA-DLN-PATELLA-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:patella-r",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1448:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1448,
+        "en": "Talus",
+        "la": "Os tali",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1523; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24483",
+          "sourceName": "left talus",
+          "partIds": [
+            "FJ3280"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24483",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:talus-l",
+          "sourceName": "Left talus",
+          "partIds": [
+            "ZA-DLN-TALUS-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:talus-l",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1448:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1448,
+        "en": "Talus",
+        "la": "Os tali",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1523; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24482",
+          "sourceName": "right talus",
+          "partIds": [
+            "FJ3385"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24482",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:talus-r",
+          "sourceName": "Right talus",
+          "partIds": [
+            "ZA-DLN-TALUS-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:talus-r",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1468:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1468,
+        "en": "Calcaneus",
+        "la": "Calcaneus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1543; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24498",
+          "sourceName": "left calcaneus",
+          "partIds": [
+            "FJ3256"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24498",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:calcaneus-l",
+          "sourceName": "Left calcaneus",
+          "partIds": [
+            "ZA-DLN-CALCANEUS-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:calcaneus-l",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1468:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1468,
+        "en": "Calcaneus",
+        "la": "Calcaneus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1543; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24497",
+          "sourceName": "right calcaneus",
+          "partIds": [
+            "FJ3360"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24497",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        },
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "zanatomy:calcaneus-r",
+          "sourceName": "Right calcaneus",
+          "partIds": [
+            "ZA-DLN-CALCANEUS-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/zanatomy:calcaneus-r",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1484:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1484,
+        "en": "Navicular bone",
+        "la": "Os naviculare",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1559; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24501",
+          "sourceName": "navicular bone of left foot",
+          "partIds": [
+            "FJ3307"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24501",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1484:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1484,
+        "en": "Navicular bone",
+        "la": "Os naviculare",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1559; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24500",
+          "sourceName": "navicular bone of right foot",
+          "partIds": [
+            "FJ3308"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24500",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1489:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1489,
+        "en": "Cuboid bone",
+        "la": "Os cuboideum",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1564; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24529",
+          "sourceName": "left cuboid bone",
+          "partIds": [
+            "FJ3258"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24529",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1489:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1489,
+        "en": "Cuboid bone",
+        "la": "Os cuboideum",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1564; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24528",
+          "sourceName": "right cuboid bone",
+          "partIds": [
+            "FJ3364"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24528",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1486:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1486,
+        "en": "Medial cuneiform bone",
+        "la": "Os cuneiforme mediale",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1561; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24522",
+          "sourceName": "left medial cuneiform bone",
+          "partIds": [
+            "FJ3271"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24522",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1486:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1486,
+        "en": "Medial cuneiform bone",
+        "la": "Os cuneiforme mediale",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1561; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24521",
+          "sourceName": "right medial cuneiform bone",
+          "partIds": [
+            "FJ3377"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24521",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1487:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1487,
+        "en": "Intermediate cuneiform bone",
+        "la": "Os cuneiforme intermedium",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1562; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24524",
+          "sourceName": "left intermediate cuneiform bone",
+          "partIds": [
+            "FJ3264"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24524",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1487:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1487,
+        "en": "Intermediate cuneiform bone",
+        "la": "Os cuneiforme intermedium",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1562; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24523",
+          "sourceName": "right intermediate cuneiform bone",
+          "partIds": [
+            "FJ3370"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24523",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1488:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1488,
+        "en": "Lateral cuneiform bone",
+        "la": "Os cuneiforme laterale",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1563; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24526",
+          "sourceName": "left lateral cuneiform bone",
+          "partIds": [
+            "FJ3267"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24526",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1488:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1488,
+        "en": "Lateral cuneiform bone",
+        "la": "Os cuneiforme laterale",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 1563; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA24525",
+          "sourceName": "right lateral cuneiform bone",
+          "partIds": [
+            "FJ3373"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA24525",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2644:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2644,
+        "en": "Tibialis anterior muscle",
+        "la": "Musculus tibialis anterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2742; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22545",
+          "sourceName": "left tibialis anterior",
+          "partIds": [
+            "FJ1439M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22545",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2644:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2644,
+        "en": "Tibialis anterior muscle",
+        "la": "Musculus tibialis anterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2742; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22544",
+          "sourceName": "right tibialis anterior",
+          "partIds": [
+            "FJ1439"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22544",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2645:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2645,
+        "en": "Extensor digitorum longus",
+        "la": "Extensor longus digitorum",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2743; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22549",
+          "sourceName": "left extensor digitorum longus",
+          "partIds": [
+            "FJ1406M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22549",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2645:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2645,
+        "en": "Extensor digitorum longus",
+        "la": "Extensor longus digitorum",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2743; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22548",
+          "sourceName": "right extensor digitorum longus",
+          "partIds": [
+            "FJ1406"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22548",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2650:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2650,
+        "en": "Extensor hallucis longus",
+        "la": "Extensor longus hallucis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2748; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22547",
+          "sourceName": "left extensor hallucis longus",
+          "partIds": [
+            "FJ1408M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22547",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2650:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2650,
+        "en": "Extensor hallucis longus",
+        "la": "Extensor longus hallucis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2748; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22546",
+          "sourceName": "right extensor hallucis longus",
+          "partIds": [
+            "FJ1408"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22546",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2652:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2652,
+        "en": "Fibularis longus muscle",
+        "la": "Musculus fibularis longus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2750; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22553",
+          "sourceName": "left fibularis longus",
+          "partIds": [
+            "FJ1410M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22553",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2652:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2652,
+        "en": "Fibularis longus muscle",
+        "la": "Musculus fibularis longus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2750; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22552",
+          "sourceName": "right fibularis longus",
+          "partIds": [
+            "FJ1410"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22552",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2653:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2653,
+        "en": "Fibularis brevis muscle",
+        "la": "Musculus fibularis brevis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2751; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22555",
+          "sourceName": "left fibularis brevis",
+          "partIds": [
+            "FJ1409M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22555",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2653:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2653,
+        "en": "Fibularis brevis muscle",
+        "la": "Musculus fibularis brevis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2751; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22554",
+          "sourceName": "right fibularis brevis",
+          "partIds": [
+            "FJ1409"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22554",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2666:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2666,
+        "en": "Tibialis posterior muscle",
+        "la": "Musculus tibialis posterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2764; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA65019",
+          "sourceName": "left tibialis posterior",
+          "partIds": [
+            "FJ1440M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA65019",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2666:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2666,
+        "en": "Tibialis posterior muscle",
+        "la": "Musculus tibialis posterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2764; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA65018",
+          "sourceName": "right tibialis posterior",
+          "partIds": [
+            "FJ1440"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA65018",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2667:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2667,
+        "en": "Flexor digitorum longus",
+        "la": "Musculus flexor digitorum longus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2765; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA65017",
+          "sourceName": "left flexor digitorum longus",
+          "partIds": [
+            "FJ1414M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA65017",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2667:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2667,
+        "en": "Flexor digitorum longus",
+        "la": "Musculus flexor digitorum longus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2765; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA65016",
+          "sourceName": "right flexor digitorum longus",
+          "partIds": [
+            "FJ1414"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA65016",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2668:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2668,
+        "en": "Flexor hallucis longus",
+        "la": "Flexor longus hallucis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2766; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA65015",
+          "sourceName": "left flexor hallucis longus",
+          "partIds": [
+            "FJ1415M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA65015",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2668:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2668,
+        "en": "Flexor hallucis longus",
+        "la": "Flexor longus hallucis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2766; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA65014",
+          "sourceName": "right flexor hallucis longus",
+          "partIds": [
+            "FJ1415"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA65014",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2660:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2660,
+        "en": "Soleus muscle",
+        "la": "Musculus soleus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2758; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22559",
+          "sourceName": "left soleus",
+          "partIds": [
+            "FJ1437M"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22559",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:2660:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "muscle-tendon-fascia",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 2660,
+        "en": "Soleus muscle",
+        "la": "Musculus soleus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2758; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA22558",
+          "sourceName": "right soleus",
+          "partIds": [
+            "FJ1437"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA22558",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "originates_at",
+        "inserts_at",
+        "motor innervation"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6582:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6582,
+        "en": "Tibial nerve",
+        "la": "Nervus tibialis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6665; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "atlas:left-tibial-nerve",
+          "sourceName": "Left tibial nerve",
+          "partIds": [
+            "ZA-TIB-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/atlas:left-tibial-nerve",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6582:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6582,
+        "en": "Tibial nerve",
+        "la": "Nervus tibialis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6665; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "atlas:right-tibial-nerve",
+          "sourceName": "Right tibial nerve",
+          "partIds": [
+            "ZA-TIB-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/atlas:right-tibial-nerve",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6571:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6571,
+        "en": "Common fibular nerve",
+        "la": "Nervus fibularis communis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6654; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "atlas:left-common-fibular-nerve",
+          "sourceName": "Left common fibular nerve",
+          "partIds": [
+            "ZA-CFIB-L"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/atlas:left-common-fibular-nerve",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6571:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6571,
+        "en": "Common fibular nerve",
+        "la": "Nervus fibularis communis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6654; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "lower-limb-nerve-reference",
+          "conceptId": "atlas:right-common-fibular-nerve",
+          "sourceName": "Right common fibular nerve",
+          "partIds": [
+            "ZA-CFIB-R"
+          ],
+          "sourceManifest": "public/models/lower-limb-nerve-reference/atlas.json",
+          "locator": "concepts/atlas:right-common-fibular-nerve",
+          "identityReview": "preserved_named_source_object; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6579:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6579,
+        "en": "Deep fibular nerve",
+        "la": "Nervus fibularis profundus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6662; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6579:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6579,
+        "en": "Deep fibular nerve",
+        "la": "Nervus fibularis profundus",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6662; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6574:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6574,
+        "en": "Superficial fibular nerve",
+        "la": "Nervus fibularis superficialis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6657; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6574:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6574,
+        "en": "Superficial fibular nerve",
+        "la": "Nervus fibularis superficialis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6657; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6586:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6586,
+        "en": "Sural nerve",
+        "la": "Nervus suralis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6669; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6586:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6586,
+        "en": "Sural nerve",
+        "la": "Nervus suralis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6669; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6590:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6590,
+        "en": "Medial plantar nerve",
+        "la": "Nervus plantaris medialis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6673; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6590:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6590,
+        "en": "Medial plantar nerve",
+        "la": "Nervus plantaris medialis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6673; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6593:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6593,
+        "en": "Lateral plantar nerve",
+        "la": "Nervus plantaris lateralis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6676; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:6593:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 6593,
+        "en": "Lateral plantar nerve",
+        "la": "Nervus plantaris lateralis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 6676; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4708:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4708,
+        "en": "Anterior tibial artery",
+        "la": "Arteria tibialis anterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4794; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA43897",
+          "sourceName": "left anterior tibial artery",
+          "partIds": [
+            "FJ2065",
+            "FJ2067",
+            "FJ2073",
+            "FJ2081"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA43897",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4708:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4708,
+        "en": "Anterior tibial artery",
+        "la": "Arteria tibialis anterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4794; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA43896",
+          "sourceName": "right anterior tibial artery",
+          "partIds": [
+            "FJ2055",
+            "FJ2130",
+            "FJ2133",
+            "FJ2163"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA43896",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4721:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4721,
+        "en": "Posterior tibial artery",
+        "la": "Arteria tibialis posterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4807; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA43899",
+          "sourceName": "left posterior tibial artery",
+          "partIds": [
+            "FJ2079",
+            "FJ2082",
+            "FJ2085",
+            "FJ2087",
+            "FJ2089"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA43899",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4721:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4721,
+        "en": "Posterior tibial artery",
+        "la": "Arteria tibialis posterior",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4807; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA43898",
+          "sourceName": "right posterior tibial artery",
+          "partIds": [
+            "FJ2159",
+            "FJ2164",
+            "FJ2169",
+            "FJ2172",
+            "FJ2179"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA43898",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4727:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4727,
+        "en": "Fibular artery",
+        "la": "Arteria fibularis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4813; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4727:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4727,
+        "en": "Fibular artery",
+        "la": "Arteria fibularis",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4813; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4699:left",
+      "regionId": "hip-thigh-knee",
+      "familyId": "neurovascular-lymph",
+      "side": "left",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4699,
+        "en": "Popliteal artery",
+        "la": "Arteria poplitea",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4785; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA77381",
+          "sourceName": "left popliteal artery",
+          "partIds": [
+            "FJ2086"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA77381",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:4699:right",
+      "regionId": "hip-thigh-knee",
+      "familyId": "neurovascular-lymph",
+      "side": "right",
+      "requiredDetail": "D1",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 4699,
+        "en": "Popliteal artery",
+        "la": "Arteria poplitea",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 4785; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [
+        {
+          "datasetId": "male-body",
+          "conceptId": "FMA77380",
+          "sourceName": "right popliteal artery",
+          "partIds": [
+            "FJ2170"
+          ],
+          "sourceManifest": "public/models/atlas.json",
+          "locator": "concepts/FMA77380",
+          "identityReview": "exact_source_label_candidate; expert_pending"
+        }
+      ],
+      "representationReview": "observed_source_binding; detail_and_visual_review_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "named source/branch hierarchy",
+        "verified targets or territories",
+        "cross-region continuity"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1919:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1919,
+        "en": "Anterior talofibular ligament",
+        "la": "Ligamentum talofibulare anterius",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2018; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1919:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1919,
+        "en": "Anterior talofibular ligament",
+        "la": "Ligamentum talofibulare anterius",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2018; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1920:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1920,
+        "en": "Posterior talofibular ligament",
+        "la": "Ligamentum talofibulare posterius",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2019; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1920:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1920,
+        "en": "Posterior talofibular ligament",
+        "la": "Ligamentum talofibulare posterius",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2019; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1921:left",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "left",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1921,
+        "en": "Calcaneofibular ligament",
+        "la": "Ligamentum calcaneofibulare",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2020; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    },
+    {
+      "id": "lower-limb-v1:ta2:1921:right",
+      "regionId": "leg-ankle-foot",
+      "familyId": "skeletal-support",
+      "side": "right",
+      "requiredDetail": "D2",
+      "requirementStatus": "project_proposed; curriculum_and_expert_acceptance_pending",
+      "terminology": {
+        "ta2TableId": 1921,
+        "en": "Calcaneofibular ligament",
+        "la": "Ligamentum calcaneofibulare",
+        "sourcePath": "work/open-assets-review/TA2.csv",
+        "locator": "CSV line 2020; English/Latin columns",
+        "scope": "Unsided term; laterality is an explicit project target field, not a lateralized TA2 identifier",
+        "fmaCrosswalk": "not_asserted"
+      },
+      "representations": [],
+      "representationReview": "unbound_after_exact_label_seed_audit; broader_source_and_subobject_audit_pending",
+      "absenceClaim": false,
+      "requiredRelationships": [
+        "joint/support context where applicable"
+      ],
+      "technicalAcceptance": "pending_target_level_reconciliation",
+      "expertReview": "pending",
+      "openCriteria": [
+        "required scope and laterality acceptance",
+        "independent geometry and detail review",
+        "labels and required relationships",
+        "context and product journey",
+        "named anatomical expert review"
+      ]
+    }
+  ],
+  "unexpandedRequirements": [
+    "metatarsals and phalanges",
+    "intrinsic foot muscles and gastrocnemius heads",
+    "tendons, fascia and retinacula",
+    "complete joints, supports and bursae",
+    "venous and lymphatic paths",
+    "cutaneous/muscular/digital nerve branches and territories",
+    "D0 context acceptance",
+    "D3 targets",
+    "all other regions of the full model-scope-v1 contract"
+  ],
+  "caveats": [
+    "Exact source-label correspondence is an inspection candidate, not a formal TA2/FMA crosswalk.",
+    "Unbound means this bounded seed did not bind geometry; it is not absence in all sources.",
+    "Active source concept membership can include multiple pieces; independent detail is not assumed.",
+    "No region/family cell is closed and no anatomical acceptance is declared."
+  ]
+}

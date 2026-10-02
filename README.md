@@ -28,6 +28,12 @@ A second regional reference contains six Z-Anatomy surfaces: two cochleae, two c
 
 The source canal labels are not independent surfaces. Internal membranes, sensory cells and detailed cochlear compartments are not modeled. Turkish/English/Latin search and the shared selection controls work independently of the male atlas.
 
+## Separate lower-limb nerve reference
+
+The reference selector also opens 21 Z-Anatomy source objects: six bilateral sciatic, tibial and common fibular nerve curves with 15 bones from their own pelvis-to-ankle context. A single display-axis rotation preserves the shared source frame. The distal package's fit to the main male body was rejected; these objects load as an independent reference.
+
+All 21 structures have dataset-scoped Turkish/English/Latin labels. Four sourced `branch_of` links support same-side tibial/common-fibular → sciatic navigation. Separate distal branches, muscles, vessels and the full foot skeleton are outside this package; anatomical expert review remains pending. See [source and geometry review](docs/model/lower-limb-nerve-reference-review.md), [term review](docs/model/lower-limb-reference-terms.md), and [component attribution](public/models/lower-limb-nerve-reference/ATTRIBUTION.md).
+
 ## Explore
 
 - Orbit, zoom, and select structures directly on the body.
@@ -61,6 +67,8 @@ npm run build
 Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, isolation, rotation, and 390×844, 320×568, and 844×390 layouts. Phone controls stay clear of the exploded inventory, and isolated structures fit the space above or beside the detail panel. Physical-device performance and real multitouch hardware have not been tested.
 
 For the offline source catalog and pending scope matrix, run `node scripts/build-model-inventory.mjs --check`. After changes to its recorded inputs, regenerate with `node scripts/build-model-inventory.mjs`. This inventory checks source/selection links; it does not inspect anatomical geometry or establish regional completeness.
+
+The [individual lower-limb target seed](docs/model/lower-limb-targets-v1.md) opens 66 proposed bilateral D1/selected-D2 targets without closing regional scope. Reproduce it with `python3 scripts/build-lower-limb-targets.py`, or verify it with `--check`; the pinned local TA2 table from source intake is required.
 
 ## Anatomy data
 

@@ -2,6 +2,8 @@
 
 Hedef, tıp öğrencisinin bütün vücudu yapı ve alt yapı düzeyinde seçip kaynaklı adları, bağlamı ve ilişkileri üzerinden inceleyebilmesidir. Model önce, ders/quiz katmanı sonra gelir. Hedef henüz tamamlanmadı. [Kapsam sözleşmesi](model-scope-and-acceptance.md) bu hedefi ve bölgesel kabul koşullarını taşır.
 
+Bu raporun ilk durum fotoğrafı `a0fd554` teslimine aittir. Gün içindeki sonraki model teslimi aşağıdaki ek kayıtta ayrı izlenir; ilk fotoğraftaki aday/yayın durumları tarihî kanıt olarak korunur.
+
 ## Gerçek durum ve yayın
 
 Bu çalışma turu `codex/publish-model-explorer` dalında `547c1161068f0b8e863f06c91997325214b577eb` kaynak başlangıcından yürüdü. Başlangıçta `.agents/` ve `AGENTS.md` kullanıcıya ait izlenmeyen dosyalardı; yeni çıktılardan ayrı korundu. 2 Ekim uzak kontrolünde fork `main` ve geliştirme dalı aynı kaynak revision'ındaydı; `gh-pages` revision'ı `21a902f675be0d281883a5ac1e9be21c938eeb1c` idi.
@@ -69,3 +71,19 @@ Bu aralıklar toplanacak ardışık süreler değildir; farklı teslim seviyeler
 Her anlamlı teslimde bu kayıt düzeniyle sonuç, kaydedilen kaynak revision'ı, kabul kanıtı, açık kusur, süre tahminindeki değişiklik ve sıradaki tek somut adım raporlanır. Sürekli çalışan geliştirme veya periyodik rapor otomasyonu kurulmuş değildir. Kullanıcıdan şu an teknik bir işlem beklenmiyor; hedef ayrıntısını netleştirmek için ileride ders kapsamı, anatomik kabul için yetkin değerlendirici gerekecek.
 
 **Sıradaki somut adım:** P1'de alt ekstremite yapı/ayrıntı hedeflerini kaynak kimliklerine açmak; reddedilen distal yerleşim için gerekli temsil ve kaynak alternatifini bu hedeflere bağlamak.
+
+## Aynı gün sonraki model teslimi — yerel kabul
+
+Başlangıç revision'ı `a0fd554`. Bağımsız [alt ekstremite sinir referansı](lower-limb-nerve-reference-review.md) arayüze eklendi: 21 seçilebilir kaynak nesnesi, altı sinir eğrisi/15 kemik, 21 ayrı TR/EN/LA etiket ve dört aynı taraflı dal ilişkisi. Dört distal sinire aynı kaynaktan iki siyatik sinir ve proksimal kemik bağlamı eklendi. Kaynak boyunca komşuluk tek ortak eksen dönüşümüyle korunur; başarısız ana-gövde yerleşimi hâlâ kabul edilmez. Ana sahne 2.290 parça ve ana etiket dosyası 275 kayıt olarak kalır.
+
+[Bireysel hedef başlangıcı](lower-limb-targets-v1.md) 33 kesin TA2 teriminden 66 sağ/sol D1/seçilmiş D2 gereksinimi açar. 48 hedefte gözlenen kaynak parça bağı vardır; 18'i bağlanmamıştır. Bunlar proje önerileridir ve sıfır anatomik uzman kabulü taşır. Metatars/parmak kemikleri, iç kaslar, tendon/fasya/retinakulum, ven/lenf, ince dallar ve D3 dahil açılmamış hedefler görünür kalır. Genel P1 veya bir bölge tamamlandı sayılmaz.
+
+Yeni katalog dört dataset için 3.593 kavram/seçim ve 2.344 parça kaydı içerir. Dataset ile ayrılmış 1.528 ilişki, ana 1.524 ve yeni referansın dört dal bağlantısından oluşur. 192 kayıt mevcut kanıt/hedef önerisiyle planlama kuyruğuna bağlı, 3.401 kayıt bu eşleme açısından denetlenmemiştir. Hedef matrisi hâlâ 208 bekleyen hücredir.
+
+Yerel kontrol: TypeScript; etkileşim validator'ında referansa bağımsız yükleme, kaynak kimliği ve dal uçları, ana-gövde innervasyonlarının referansa taşınmaması; envanter ve hedef dosyalarının üretim/güncellik kontrolleri geçti. Blender iki export'ta aynı binary/gzip/manifest SHA üretti; önceki 14 nesnenin dizileri değişmedi. Gerekli ilk geometri ve terim kontrol kanıtları kendi kayıtlarında tutulur.
+
+Gerçek Chromium UI: 1440×1000 Türkçe arama → sol tibial seçim → odak → aynı taraf siyatik → ortak fibular dal → izolasyon ve kaynak bağlantısı görüldü. 390×844 mobilde dal/izolasyon/Latince ad/geri dönüş; 320×568'de seçili sinir kadrajı incelendi. İlk mobil kadraj kamera araçlarıyla çakıştı; ölçülen araç sınırı fit hesabına dahil edildi. Kısa portre ekranında panel açıkken kamera preset araçları gizlenerek model alanı ayrıldı; orbit/zoom etkileşimi devam eder. Bu düzeltme nedeniyle ilgili yerel kontroller tekrarlandı. Fiziksel cihaz performansı ve uzman incelemesi bekler.
+
+Yerel görseller: [masaüstü tibial odak](../../output/playwright/lower-limb-desktop-tibial-focus.png), [390×844 düzeltilmiş kadraj](../../output/playwright/lower-limb-mobile-fibular-fixed.png), [320×568 düzeltilmiş kadraj](../../output/playwright/lower-limb-small-mobile-fixed.png). Bu kayıt henüz canlı sürüm kabulü değildir; yayın revision'ı ve gerçek adresteki kontrol sonucu teslim sonunda ayrıca eklenecek.
+
+Süre tahmini değişmedi: tam tek tek hedef paydası ve ölçülmüş paket üretim hızı hâlâ yok. Bu turun toplam aktif üretim süresi ölçülmedi; önemli yeniden çalışma nedeni mobil kadraj çakışmasıdır. Sıradaki paket, henüz bağlanmamış distal sinir dalları ve ayak bileği destek hedeflerinin gerçek kaynak alt nesnelerini denetlemektir.

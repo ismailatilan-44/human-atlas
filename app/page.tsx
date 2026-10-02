@@ -13,7 +13,7 @@ import { flushSync } from "react-dom";
 import { registerAtlasTools } from "./agent-tools";
 import { getRepresentationNote } from "./atlas-metadata";
 import { selectionVariant } from "./reviewed-selections";
-import { explorerConcepts, relationshipsFor, knowledgeSources } from "./knowledge";
+import { explorerConcepts, relationshipsFor, knowledgeSource } from "./knowledge";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Activity,
@@ -136,8 +136,8 @@ export default function Home() {
   const concepts = useMemo(() => (atlas ? explorerConcepts(atlas) : []), [atlas]);
   const conceptMap = useMemo(() => new Map(concepts.map((c) => [c.id, c])), [concepts]);
   const relations = useMemo(
-    () => (chosen && !reference ? relationshipsFor(chosen.id, conceptMap) : []),
-    [chosen, conceptMap, reference],
+    () => (chosen ? relationshipsFor(chosen.id, conceptMap, dataset) : []),
+    [chosen, conceptMap, dataset],
   );
   const anchorMap = useMemo(() => new Map(atlas?.anchors?.map((a) => [a.conceptId, a])), [atlas]);
   const variant = chosen && !reference ? selectionVariant(chosen.id) : undefined;
@@ -550,7 +550,9 @@ export default function Home() {
           <p className="search-note">
             {query
               ? "En çok 80 sonuç. Türkçe, Latince veya İngilizce adla arayabilirsiniz."
-              : "Bir yapı seçin. Türkçe ve Latince adlandırma omuz–kol örneğiyle genişliyor."}
+              : reference
+                ? "Bu referanstaki yapıları Türkçe, İngilizce, Latince veya kaynak adıyla arayın."
+                : "Bir yapı seçin. Çok dilli adlandırma seçilmiş bölgelerde mevcuttur."}
           </p>
         </section>
       )}
@@ -762,7 +764,7 @@ export default function Home() {
                   Genel sistem bilgisi · yapıya özel açıklama değildir
                 </span>
               )}
-            {chosen && !reference && (
+            {chosen && (!reference || dataset === "lower-limb-nerve-reference") && (
               <section className="relationship-list" aria-label="Anatomik bağlantılar">
                 <h3>
                   Anatomik bağlantılar <span>{relations.length}</span>
@@ -799,7 +801,7 @@ export default function Home() {
                         <details>
                           <summary>Kaynak</summary>
                           {relation.evidence.map((e, i) => {
-                            const source = knowledgeSources.get(e.sourceId);
+                            const source = knowledgeSource(e.sourceId, dataset);
                             return source ? (
                               <a key={i} href={source.url} target="_blank" rel="noreferrer">
                                 {source.title}

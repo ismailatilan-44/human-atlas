@@ -2,6 +2,8 @@
 
 22 Eylül 2026 tarihli yerel envanter incelemesi; yayın durumu 26 Eylül'de güncellendi. Bu belge kapsam ve kabul planıdır; mevcut modelin eksiksizliğini veya anatomik uzman onayını ilan etmez. Akciğer kaynak üyelik düzeltmesi `b1a7090` ile yayımlandı; dört pulmoner etiket `caa938a` sürümünde canlıdır. Son paket için Pages `36210534954` başarılı, canlı arama ve seçim doğrulandı.
 
+2 Ekim yerel ilerlemesi: [yeniden üretilebilir katalog](model-inventory.md) ayrı alt ekstremite sinir referansını da izler. [66 bireysel alt ekstremite hedefi](lower-limb-targets-v1.md) kaynak kimliklerine açıldı; liste eksiksiz değildir ve hiçbir kapsam hücresini kapatmaz. [21 nesneli referans](lower-limb-nerve-reference-review.md) kendi kaynak bağlamını korur; ana gövdeye başarısız distal yerleşim kabul edilmiş sayılmaz. Yerel ürün/yayın ve uzman kabulü kendi teslim kaydında ayrıca izlenir.
+
 ## Ürün hedefi ve 65 hedefin yeri
 
 Hedef, öğrencinin **bütün vücudu bölge ve yapı düzeyinde inceleyebildiği; bir yapıyı seçip doğru adını, parçalarını, komşu bağlamını ve kaynaklı ilişkilerini izleyebildiği model ürünüdür**. Omuz–kol örneği, ilk çalışan yayın veya 65 satırlık kontrol listesi bu hedefin yerine geçmez. Yeni paketler organ, ekstremite, sinir ağı ve iç yapı kapsamını sistematik olarak genişletir. Ders, quiz ve anlatım katmanı daha sonra bu yapı kimliklerine ve sahnelere bağlanır; modeldeki açıklığı ders metniyle kapatmış sayılmaz.
@@ -23,6 +25,7 @@ Aşağıdaki sayılar geometri/kayıt envanteridir; anatomik yapı sayısı veya
 | Tutunma işaretleri | [Landmark raporu](landmark-registration.md): altı kaynak yüzey referans noktası, iki doğrulanmamış humeral hedef | Referans noktası ayrı segmentlenmiş yüzey değildir. Humeral hedefler için gerçek footprint/işaret bulunmamıştır; bu iki konum null kalır. |
 | Kadın pelvis referansı | [Manifest](../../public/models/female-pelvis/atlas.json), [kaynak raporu](female-pelvis-source-review.md): 27 parça/31 kavram | Uterus, bilateral ovaryum ve kemik bağlamı içeren ayrı referanstır; tüm kadın vücudu veya tüm pelvis değildir. Manifestteki tarihî aday durumu ile ürün teslim durumu ayrıca uzlaştırılmalıdır. |
 | İç kulak referansı | [Manifest](../../public/models/inner-ear-reference/atlas.json), [rapor](inner-ear-reference-review.md): altı parça/altı kavram | Bilateral koklea, birleşik vestibüler yüzeyler ve temporal kemikler; membran ve duyu hücresi modeli değildir. Ana atlasa yerleştirilmiş sayılmaz. |
+| Alt ekstremite sinir referansı | [Manifest](../../public/models/lower-limb-nerve-reference/atlas.json): 21 parça/kavram; ayrı 21 etiket ve dört kaynaklı dal ilişkisi | Altı sinir nesnesi ve 15 kemik bağlamı; tam alt ekstremite modeli değildir. Ana sahnenin 2.290 toplamını artırmaz; uzman kabulü bekler. |
 
 Kısmi durumlar somuttur: median sinirlerin ayrı distal/musküler dalları bu pakette temsil edilmez; siyatik paketi pelvis–uyluk aralığında kalır; brakiyal pleksus 20 trunk/division/posterior-cord parçasıyla sınırlıdır. [Pleksus raporu](asset-registration-brachial-plexus.md), kök kimliği sorununu ve bölgesel uyum hatalarını açık tutar. [Omurilik paketi](spinal-cord-source-review.md) uzunlamasına sinir dokusunu ve mevcut merkezi kanalı karşılar; kökler, zarlar ve gri/beyaz madde ayrıntıları bu paketin kazanımı değildir. Bunlar genel atlasın tamamında yokluk iddiası olarak genişletilmez.
 
