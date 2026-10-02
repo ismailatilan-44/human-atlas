@@ -27,3 +27,8 @@ Open: complete foot joint network, cuneiform-to-individual-metatarsal mappings, 
 ## Root integration — local acceptance
 
 Root integration applied the 60 proposed edges unchanged. The final producer check passed with 48 symmetric articulation and 12 directed attachment records alongside the preserved 12 nerve branches. TypeScript, interaction/inventory checks and desktop/mobile bone/ligament navigation passed. No geometry/footprint or expert acceptance was added. Source revision and publication are recorded separately in the [owning action report](../../../docs/model/progress-report-2026-10-02.md); the preceding delegated/source audit remains historical evidence.
+
+
+## Root publication acceptance
+
+Published source `0dd4bb19a8bfbacd4e25bd2edc272ce25c6efdac`, static `2c2409c4e641ecdd02f8e039f06a0c21e54c2cc1`, successful Pages run #36994436788; live release.json matched. Bounded live Chromium 390×844 selection/relationship/source journeys passed with zero console errors/warnings. The whole-foot mobile group remains visually small after automatic focus; detailed-study camera acceptance, physical-device performance, geometry detail and expert acceptance remain open. Exact local/live flows and timing are recorded in the owning action report.
