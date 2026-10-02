@@ -8,6 +8,8 @@ Güncel canlı ürün sürümü: `0dd4bb19a8bfbacd4e25bd2edc272ce25c6efdac` — 
 
 ## Hedef
 
+**2 Ekim, 13:45 TRT ara durum:** sonraki ayak yumuşak doku paketi kaynak incelemesini geçti: 30 kas nesnesi +2 sesamoid grubu, toplam 119 nesneli aday referans; 32 referans/38 ana model etiketi ve 20 ilişki önerisi hazır. 124 ayak/ayak bileği destek nesnesi yalnız envantere alındı. Mobil ayak kadrajı yerelde düzeltildi. Bu işler commit edilmiş aktif ürün veya yeni canlı yayın değildir; bütün model hedefi açık. Entegrasyon sahibi root; sıradaki tek teslim, aday paketin uygulama → masaüstü/mobil kullanım → yayın kabulüdür. Ölçüm ve sınırlar [güncel ara raporda](progress-report-2026-10-02.md#ara-durum--ayak-kasları-sesamoidler-ve-mobil-kadraj) kayıtlıdır.
+
 Tıp öğrencileri için anatomik yapıları seçilebilir, adlandırılmış, ilişkileri izlenebilir ve bölge düzeyinde incelenebilir bir model deneyimi. Human Atlas başlangıç tabanıdır; kullanılabilir parçalar yeniden modellenmez. Eksikler doğrulanmış açık kaynaklardan tamamlanır. Önce model, sonra ders akışının yapı kimliklerine ve kayıtlı sahnelere bağlanması. Ders/quiz/AI model tesliminin ön koşulu değildir.
 
 Omuz–kol ilk entegrasyon örneğiydi; proje bu bölgeyle sınırlı değildir. 65 hedef grubu ilk bölgesel kontrol listesidir, bütün insan anatomisinin eksiksizlik ölçüsü değildir. İlk çalışan yayını vermek, kalan model kapsamını tamamlamakla aynı şey sayılmaz.
