@@ -1,0 +1,66 @@
+{
+  "reference": "male-body",
+  "loadedReference": "male-body",
+  "sourceVersion": "atlas-content-b877954-2026-10-02:af0d031d",
+  "conceptId": null,
+  "camera": {
+    "position": [
+      2.52973420127361,
+      1.2836687202183334,
+      7.227812003638887
+    ],
+    "target": [
+      0,
+      0.85,
+      0
+    ],
+    "viewOffset": null
+  },
+  "visibility": {
+    "systems": [
+      "skeletal",
+      "sensory",
+      "nervous",
+      "connective",
+      "muscular",
+      "arterial",
+      "endocrine",
+      "venous",
+      "digestive",
+      "cardiac",
+      "respiratory",
+      "lymphatic",
+      "reproductive",
+      "urinary"
+    ],
+    "hidden": [],
+    "selected": [],
+    "isolate": false,
+    "ghost": false
+  },
+  "language": "tr",
+  "viewMode": "three-quarter",
+  "progress": 100,
+  "error": "",
+  "explorerHistory": 0,
+  "pending": {
+    "pack": null,
+    "scene": null,
+    "returning": false
+  },
+  "study": {
+    "health": "readable",
+    "observed": "stored",
+    "storedPhase": null,
+    "sceneCount": 0,
+    "phase": "inactive",
+    "module": null,
+    "retry": false,
+    "firstAttempt": {},
+    "eventualCorrect": [],
+    "undo": false,
+    "completedRounds": 0,
+    "reviewEvents": 0,
+    "reviewSchedule": {}
+  }
+}

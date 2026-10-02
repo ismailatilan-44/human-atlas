@@ -1,0 +1,63 @@
+{
+  "reference": "upper-limb-nerve-reference",
+  "loadedReference": "upper-limb-nerve-reference",
+  "sourceVersion": "atlas-content-b877954-2026-10-02:a5693288",
+  "conceptId": "zanatomy:clavicle-r",
+  "camera": {
+    "position": [
+      0.029681228371585447,
+      1.439293399530401,
+      0.32042066085090254
+    ],
+    "target": [
+      -0.08277258276939392,
+      1.4071637392044067,
+      -0.0008759424090385438
+    ],
+    "viewOffset": {
+      "enabled": true,
+      "fullWidth": 1710,
+      "fullHeight": 951,
+      "offsetX": 70,
+      "offsetY": 30,
+      "width": 1710,
+      "height": 951
+    }
+  },
+  "visibility": {
+    "systems": [
+      "skeletal"
+    ],
+    "hidden": [],
+    "selected": [
+      "ZA-ULNR-CONTEXT-CLAVICLE-R"
+    ],
+    "isolate": false,
+    "ghost": true
+  },
+  "language": "tr",
+  "viewMode": "three-quarter",
+  "progress": 100,
+  "error": "",
+  "explorerHistory": 9,
+  "pending": {
+    "pack": null,
+    "scene": null,
+    "returning": false
+  },
+  "study": {
+    "health": "saved",
+    "observed": "live",
+    "storedPhase": "recall",
+    "sceneCount": 0,
+    "phase": "recall",
+    "module": "right-upper-limb-bones-v1",
+    "retry": false,
+    "firstAttempt": {},
+    "eventualCorrect": [],
+    "undo": false,
+    "completedRounds": 0,
+    "reviewEvents": 0,
+    "reviewSchedule": {}
+  }
+}

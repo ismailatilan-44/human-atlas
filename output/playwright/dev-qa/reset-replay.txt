@@ -1,0 +1,60 @@
+DEV ONLY · QA sandbox −
+
+No real learner storage. Local development only.
+
+Scenario
+Right ankle / wrong → undo
+Left ankle / wrong → undo
+Upper limb / wrong → undo
+Saved scene / reference restore
+Rapid reference return regression
+WebGL loss / study safety
+Dismiss pending module / delayed load
+Exploded camera restore
+Due schedule / clock and focus
+Start scenario
+Replay scenario
+Snapshot
+Reload + resume
+Reset sandbox
+
+PASS: Left ankle / wrong → undo. Replay runs the same bounded visible flow.
+
+Readable state snapshot
+Event sequence · expected / actual
+1. OBSERVE · scenario start
+Expected: Left ankle / wrong → undo
+Actual: {"scenario":"left"}
+2. PASS · inspect visible source
+Expected: zanatomy:talus-l
+Actual: "zanatomy:talus-l"
+3. PASS · inspect visible source
+Expected: zanatomy:calcaneus-l
+Actual: "zanatomy:calcaneus-l"
+4. PASS · inspect visible source
+Expected: zanatomy:navicular-bone-l
+Actual: "zanatomy:navicular-bone-l"
+5. PASS · inspect visible source
+Expected: zanatomy:cuboid-bone-l
+Actual: "zanatomy:cuboid-bone-l"
+6. PASS · inspect visible source
+Expected: zanatomy:medial-cuneiform-bone-l
+Actual: "zanatomy:medial-cuneiform-bone-l"
+7. PASS · inspect visible source
+Expected: zanatomy:intermediate-cuneiform-bone-l
+Actual: "zanatomy:intermediate-cuneiform-bone-l"
+8. PASS · inspect visible source
+Expected: zanatomy:lateral-cuneiform-bone-l
+Actual: "zanatomy:lateral-cuneiform-bone-l"
+9. PASS · inspect visible source
+Expected: zanatomy:tibia-l
+Actual: "zanatomy:tibia-l"
+10. PASS · inspect visible source
+Expected: zanatomy:fibula-l
+Actual: "zanatomy:fibula-l"
+11. PASS · wrong visible answer
+Expected: feedback / first wrong / undo / review due
+Actual: {"phase":"feedback","first":{"0":"wrong"},"undo":true,"cards":{"left-ankle-v1:talus":{"due":1790972644512,"last":1790972044512,"streak":0,"reviews":1}}}
+12. PASS · undo
+Expected: exact pre-answer history restored (session/cards/events/undo)
+Actual: {}

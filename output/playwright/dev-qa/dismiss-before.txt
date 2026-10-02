@@ -1,0 +1,64 @@
+DEV ONLY · QA sandbox −
+
+No real learner storage. Local development only.
+
+Scenario
+Right ankle / wrong → undo
+Left ankle / wrong → undo
+Upper limb / wrong → undo
+Saved scene / reference restore
+Rapid reference return regression
+WebGL loss / study safety
+Dismiss pending module / delayed load
+Start scenario
+Replay scenario
+Snapshot
+Reload + resume
+Reset sandbox
+
+Error: Dismissed module launched after delayed load
+
+Readable state snapshot
+Event sequence · expected / actual
+1. OBSERVE · scenario start
+Expected: Upper limb / wrong → undo
+Actual: {"scenario":"upper"}
+2. PASS · inspect visible source
+Expected: zanatomy:clavicle-r
+Actual: "zanatomy:clavicle-r"
+3. PASS · inspect visible source
+Expected: zanatomy:scapula-r
+Actual: "zanatomy:scapula-r"
+4. PASS · inspect visible source
+Expected: zanatomy:humerus-r
+Actual: "zanatomy:humerus-r"
+5. PASS · inspect visible source
+Expected: zanatomy:radius-r
+Actual: "zanatomy:radius-r"
+6. PASS · inspect visible source
+Expected: zanatomy:ulna-r
+Actual: "zanatomy:ulna-r"
+7. PASS · wrong visible answer
+Expected: feedback / first wrong / undo / review due
+Actual: {"phase":"feedback","first":{"0":"wrong"},"undo":true,"cards":{"right-upper-limb-bones-v1:clavicle":{"due":1790971711565,"last":1790971111565,"streak":0,"reviews":1}}}
+8. PASS · undo
+Expected: recall and restored first-attempt record
+Actual: {}
+9. OBSERVE · scenario start
+Expected: WebGL loss / study safety
+Actual: {"scenario":"context-loss"}
+10. FAIL · WebGL context loss observation
+Expected: visible alert and zero enabled answer buttons
+Actual: {"alert":null,"activeAnswers":5}
+11. FAIL · scenario failure
+Expected: all assertions pass
+Actual: "Error: Study remains answerable without visible rendering failure"
+12. OBSERVE · scenario start
+Expected: Dismiss pending module / delayed load
+Actual: {"scenario":"dismiss"}
+13. FAIL · dismiss pending module
+Expected: picker closed; no study or queued pack
+Actual: {"studying":true,"pending":{"pack":null,"scene":null,"returning":false}}
+14. FAIL · scenario failure
+Expected: all assertions pass
+Actual: "Error: Dismissed module launched after delayed load"
