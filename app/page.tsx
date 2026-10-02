@@ -310,6 +310,10 @@ export default function Home() {
     if (dataset === pack.datasetId && atlas?.datasetId === pack.datasetId && progress === 100) startSession(pack);
     else { setPendingPack(pack); setDataset(pack.datasetId); }
   };
+  const changeReference = (next: DatasetId) => {
+    setPendingPack(null); setPendingScene(null); setReturnSnapshot(null);
+    launchSnapshot.current = null; setDataset(next);
+  };
   useEffect(() => {
     if (!returnSnapshot || atlas?.datasetId !== returnSnapshot.dataset || progress !== 100) return;
     applySnapshot(returnSnapshot); setReturnSnapshot(null);
@@ -402,7 +406,7 @@ export default function Home() {
           value={dataset}
           onChange={(e) => {
             setAtlas(null);
-            setDataset(e.target.value as DatasetId);
+            changeReference(e.target.value as DatasetId);
           }}
         >
           <option value="male-body">Erkek vücut</option>
@@ -1047,7 +1051,7 @@ export default function Home() {
           onOpenReference={(next: DatasetId) => {
             setCoverageOpen(false);
             setAtlas(null);
-            setDataset(next);
+            changeReference(next);
           }}
           concepts={conceptMap}
           onChoose={(c) => {
