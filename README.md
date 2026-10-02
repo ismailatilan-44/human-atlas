@@ -66,6 +66,8 @@ Open http://localhost:3016. To build the static site, run `npm run build`; the o
 
 ## Validate
 
+Agent and isolated-worktree setup, authored/generated ownership, and check selection are documented in [source → producer → check routing](docs/model/agent-workflow.md). `npm run check` runs TypeScript only; build success is not a test-suite or 3D acceptance result.
+
 ```sh
 npm run check
 node --test scripts/anatomy-knowledge.test.mjs

@@ -1,6 +1,8 @@
 # Kaynaklı anatomi bağlantıları
 
-9 Eylül 2026. Human Atlas temel model olarak korunur. Bu paket mevcut parça kimliklerini, kaynaklı anatomik ilişkileri ve ek asset adaylarını bir araya getirir. Ders/quiz içeriği içermez. Viewer henüz bu veriyi kullanmıyor; harici geometri sahneye eklenmedi.
+Bu dizin aktif viewer'ın kaynaklı anatomi verilerini içerir. Viewer `explorer.json` üzerinden ilişkileri kullanır; kayıtlı harici geometri ana sahnede, bağımsız referanslar kendi datasetlerinde çalışır. Güncel kapsam için [README](../../README.md), üretim ve kontrol sırası için [ajan iş akışı](../../docs/model/agent-workflow.md) okunmalıdır. Ders/quiz içeriği içermez.
+
+Aşağıdaki pilot sayıları, temsil durumları ve genişletme sırası **9 Eylül 2026 tarihli ilk alımın tarihî kaydıdır**; bugünkü ürün durumunu veya bekleyen iş listesini belirtmez. Güncel kaynaklar `sources.json`, bölgesel modüller ve aktif manifestlerden üretilir; `knowledge.json` ve `explorer.json` elle düzenlenmez.
 
 ## İlk kapsam
 
@@ -62,4 +64,4 @@ Oluşturucu çevrimdışı çalışır. Kaynak dosyası hash'i değişirse sessi
 2. Omuz–kol kapsamını brakiyal pleksus, diğer ana sinirler, rotator manşet ve ilişkileriyle genişletmek.
 3. Aynı kayıt yapısını dirsek/el, kalça/diz/ayak, baş-boyun, gövde ve pelvis bölgelerinde uygulamak; her bölgeye kapsam listesi eklemek.
 4. Gereken her yapı için sırasıyla mevcut atlası, doğrudan indirilebilir kaynak/veri tablolarını, API'leri ve gerekli durumda sayfa kazımasını kullanmak. Otomatik aday eşleşmelerini incelenmiş ilişki veya hazır geometri diye işaretlememek.
-5. Viewer'da seçili yapıdan bağlantılı yapılara gezinme ve etiket görüntüleme eklemek. Bu arayüz işi henüz uygulanmadı.
+5. Viewer'da seçili yapıdan bağlantılı yapılara gezinme ve etiket görüntüleme eklemek. Bu adım pilot tarihinde bekliyordu; güncel üründe uygulanmıştır.
