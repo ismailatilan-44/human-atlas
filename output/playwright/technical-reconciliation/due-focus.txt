@@ -1,0 +1,9 @@
+### Result
+{
+  "due": "<button>Zamanı gelenleri çalış · 5</button>",
+  "journal": "DEV ONLY · QA sandbox −\n\nNo real learner storage. Local development only.\n\nScenario\nRight ankle / wrong → undo\nLeft ankle / wrong → undo\nUpper limb / wrong → undo\nSaved scene / reference restore\nRapid reference return regression\nWebGL loss / study safety\nDismiss pending module / delayed load\nExploded camera restore\nDue schedule / clock and focus\nStart scenario\nReplay scenario\nSnapshot\nReload + resume\nReset sandbox\n\nPASS: Due schedule / clock and focus. Replay runs the same bounded visible flow.\n\nReadable state snapshot\nEvent sequence · expected / actual\n1. OBSERVE · scenario start\nExpected: Due schedule / clock and focus\nActual: {\"scenario\":\"due\"}\n2. PASS · clock +11 minutes / focus\nExpected: 5 due items; review button enabled\nActual: {\"label\":\"Zamanı gelenleri çalış · 5\",\"disabled\":false}"
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({due: [...document.querySelectorAll("button")].find(b=>b.textContent.startsWith("Zamanı gelenleri"))?.outerHTML, journal: document.querySelector("[aria-label=\\"DEV ONLY visual QA\\"]")?.innerText})');
+```

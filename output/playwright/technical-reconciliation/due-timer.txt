@@ -1,0 +1,6 @@
+### Result
+{"initialDisabled":true,"final":"Zamanı gelenleri çalış · 5","historyUnchanged":true}
+### Ran Playwright code
+```js
+await (async page => { const before = await page.evaluate(() => { const key=Object.keys(localStorage).find(k=>k.startsWith("atlas-devqa-sandbox:human-atlas.study.v1:")); const raw=localStorage.getItem(key); const h=JSON.parse(raw); const due=Object.values(h.cards)[0].due; localStorage.setItem("atlas-devqa-sandbox:clock",String(due-Date.now()-2000)); window.dispatchEvent(new Event("focus")); return {key,raw}; }); await page.waitForTimeout(100); const initial=await page.getByRole("button",{name:/Zamanı gelenleri çalış/}).isDisabled(); await page.waitForTimeout(2300); const final=await page.getByRole("button",{name:/Zamanı gelenleri çalış/}).textContent(); const unchanged=await page.evaluate(({key,raw})=>localStorage.getItem(key)===raw,before); return {initialDisabled:initial,final,historyUnchanged:unchanged}; })(page);
+```
