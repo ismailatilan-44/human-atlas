@@ -1,9 +1,11 @@
+import StudyPanel from "./study-panel";
+import studyPack from "../data/study/right-ankle-v1.json";
+import { matchesAnatomyQuery } from "./search";
 import {
   REFERENCE_DATASETS,
   referenceDataset,
   referenceDescription,
   datasetLabel,
-  datasetSearchTerms,
   defaultDatasetScene,
 } from "./reference-datasets";
 import { assetUrl } from "./asset-url";
@@ -13,7 +15,7 @@ import { flushSync } from "react-dom";
 import { registerAtlasTools } from "./agent-tools";
 import { getRepresentationNote } from "./atlas-metadata";
 import { selectionVariant } from "./reviewed-selections";
-import { explorerConcepts, relationshipsFor, knowledgeSource } from "./knowledge";
+import { explorerConcepts, relationshipsFor, knowledgeSource, representationFor, relationshipScopeNotes } from "./knowledge";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Activity,
@@ -68,6 +70,8 @@ const initial: SceneState = {
   ghost: false,
 };
 export default function Home() {
+  const [studying, setStudying] = useState(false);
+  const studyReturn = useRef<(() => void) | null>(null);
   const detailTitle = useRef<HTMLHeadingElement>(null);
   const camera = useRef<CameraPose | null>(null);
   const history = useRef<
@@ -120,7 +124,7 @@ export default function Home() {
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
       if (
-        e.key === "/" &&
+        !studying && e.key === "/" &&
         !(e.target instanceof HTMLInputElement) &&
         !(e.target instanceof HTMLTextAreaElement)
       ) {
@@ -131,7 +135,7 @@ export default function Home() {
     };
     window.addEventListener("keydown", key);
     return () => window.removeEventListener("keydown", key);
-  }, []);
+  }, [studying]);
   const parts = useMemo(() => new Map(atlas?.parts.map((p) => [p.id, p])), [atlas]);
   const concepts = useMemo(() => (atlas ? explorerConcepts(atlas) : []), [atlas]);
   const conceptMap = useMemo(() => new Map(concepts.map((c) => [c.id, c])), [concepts]);
@@ -181,7 +185,7 @@ export default function Home() {
     ).length ?? 0;
   const results = useMemo(() => {
     if (!atlas) return [];
-    const term = query.toLowerCase().trim();
+    const term = query.trim();
     if (!term && reference) return concepts;
     if (!term)
       return [
@@ -197,14 +201,7 @@ export default function Home() {
         .map((name) => atlas.concepts.find((c) => c.name.toLowerCase() === name))
         .filter((x): x is Concept => !!x);
     return concepts
-      .filter(
-        (c) =>
-          datasetSearchTerms(dataset, c.id, c.name).some(
-            (name) =>
-              name.toLocaleLowerCase("tr").includes(term.toLocaleLowerCase("tr")) ||
-              name.toLowerCase().includes(term),
-          ) || c.id.toLowerCase().includes(term),
-      )
+      .filter((c) => matchesAnatomyQuery(dataset, c, term))
       .sort((a, b) => a.name.length - b.name.length)
       .slice(0, 80);
   }, [atlas, concepts, query, dataset, reference]);
@@ -230,11 +227,11 @@ export default function Home() {
   const chooseLatest = useRef(choose);
   chooseLatest.current = choose;
   useEffect(() => {
-    if (!atlas) return;
+    if (!atlas || studying) return;
     return registerAtlasTools({ ...atlas, concepts }, (c) =>
       flushSync(() => chooseLatest.current(c)),
     );
-  }, [atlas, concepts]);
+  }, [atlas, concepts, studying]);
   const choosePart = (id: string) => {
     const p = parts.get(id);
     if (!p) return;
@@ -274,6 +271,15 @@ export default function Home() {
     setDetails(false);
     setPanel((p) => (p === next ? null : next));
   };
+  const startSession = () => {
+    const saved = { state, chosen, details, panel, camera: camera.current, history: [...history.current] };
+    studyReturn.current = () => {
+      setState({ ...saved.state, rotate: false, restoreCamera: saved.camera ?? undefined });
+      setChosen(saved.chosen); setDetails(saved.details); setPanel(saved.panel);
+      history.current = saved.history; setHistorySize(saved.history.length);
+    };
+    setPanel(null); setDetails(false); setStudying(true);
+  };
   return (
     <main className={`studio ${reference ? "regional-reference" : ""}`}>
       {atlas && (
@@ -283,12 +289,13 @@ export default function Home() {
           state={{
             ...state,
             anchor: state.anchor && chosen ? { ...state.anchor, label: label(chosen) } : undefined,
-            inspectorOpen: details && !!chosen,
+            inspectorOpen: studying || (details && !!chosen),
+            concealLabels: studying,
           }}
           onCameraChange={(pose) => {
             camera.current = pose;
           }}
-          onSelect={choosePart}
+          onSelect={studying ? () => {} : choosePart}
           onProgress={(n) => {
             setProgress(n);
             if (n === 100) setError("");
@@ -297,6 +304,14 @@ export default function Home() {
         />
       )}
       <div className="vignette" />
+      {studying ? <StudyPanel concepts={conceptMap} reveal={(id, isolated) => {
+        const c = conceptMap.get(id);
+        if (!c) return;
+        choose(c);
+        setDetails(false);
+        setState(s => ({ ...s, ghost: true, isolate: isolated, anchor: undefined, visible: ["skeletal"], hidden: [] }));
+      }} exit={() => { studyReturn.current?.(); setStudying(false); }} /> : <>
+      {dataset === studyPack.datasetId && progress === 100 && studyPack.items.every(it => conceptMap.get(it.conceptId)?.elements.length === 1) && <button className="study-entry" onClick={startSession}>9 kemik · Çalışmaya başla</button>}
       <header className="identity">
         <div className="eyebrow">
           <span className="status-dot" /> INTERACTIVE ANATOMY
@@ -735,6 +750,13 @@ export default function Home() {
                 Tutunma yüzeyinden alınmış referans noktasıdır; yapının sınırlarını göstermez.
               </p>
             )}
+            {chosen && !reference && representationFor(chosen.id)?.representationLimits && (
+              <details className="context-note">
+                <summary>Referans noktasının kaynak sınırları</summary>
+                {representationFor(chosen.id)?.representationLimits?.map((note: string) => <p key={note}>{note}</p>)}
+                <p>Kaynak yüzeyinden alınan tek noktadır; tam yüzey veya uzman kabulü değildir.</p>
+              </details>
+            )}
             {variantConcept && variant && (
               <Button variant="outline" onClick={() => choose(variantConcept, true)}>
                 {variant.source ? "Ham kaynak seçimini göster" : "İncelenmiş seçime dön"}
@@ -808,6 +830,7 @@ export default function Home() {
                               </a>
                             ) : null;
                           })}
+                          {relationshipScopeNotes(relation.qualifiers).map(note => <p key={note}>{note}</p>)}
                           <p>Kaynakla destekleniyor; uzman incelemesi bekliyor.</p>
                         </details>
                       </div>
@@ -1092,6 +1115,7 @@ export default function Home() {
           </div>
         </SheetContent>
       </Sheet>
+      </>}
     </main>
   );
 }

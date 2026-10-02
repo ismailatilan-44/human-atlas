@@ -130,3 +130,28 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 /* Short portrait screens need the space between the identity and inspector for the model. */
 @media(max-width:767px) and (max-height:700px){body:has(.detail-sheet) .view-controls{display:none}}
 @media(max-height:600px) and (orientation:landscape){.identity{top:18px}.identity h1{font-size:22px}.dataset-select{max-width:230px}.view-controls{top:76px}.search-panel{top:128px}}
+
+/* Bounded study uses the same detail-sheet camera exclusion as exploration. */
+.study-entry { position: absolute; z-index: 15; top: 110px; left: 24px; background: #fff; border: 1px solid #a8b6b0; border-radius: 9px; padding: 10px; font-size: 13px; }
+.study-top { position: absolute; top: 16px; left: 16px; right: 16px; display: flex; justify-content: space-between; gap: 8px; z-index: 15; font-size: 13px; }
+.study-panel { display: block !important; padding: 18px; overflow-y: auto; }
+.study-panel h2 { font-size: 19px; font-weight: 650; margin-bottom: 8px; }
+.study-panel h3 { font-size: 18px; font-weight: 600; }
+.study-panel p { margin: 8px 0; font-size: 13px; }
+.study-panel button, .study-top button { padding: 8px 10px; border: 1px solid #aab9b2; border-radius: 7px; background: white; margin: 3px; font-size: 13px; min-height: 40px; }
+.study-panel input { width: 100%; padding: 9px; border: 1px solid #aab9b2; border-radius: 7px; }
+.study-answers { display: grid; grid-template-columns: 1fr 1fr; margin: 6px 0; }
+.study-answers button { text-align: left; font-size: 12px; }
+.study-panel details { font-size: 12px; overflow-wrap: anywhere; }
+.study-panel a { text-decoration: underline; }
+.study-panel li { font-size: 12px; margin: 5px 0; }
+.study-limit { color: #56665f; }
+@media (max-width: 767px) {
+  .study-entry { top: 102px; left: 12px; font-size: 12px; padding: 6px; }
+  .study-panel { max-height: 49dvh !important; padding: 12px; }
+  .study-top { font-size: 11px; left: 10px; top: 10px; }
+}
+.study-panel.detail-sheet { position: absolute; z-index: 20; right: 24px; top: 80px; bottom: 24px; width: 340px; background: #fffffff5; border: 1px solid #d4ded8; border-radius: 14px; overflow-y: auto !important; }
+.study-entry { top: auto; bottom: 130px; left: 30px; }
+@media (max-width: 767px) { .study-entry { top: auto; bottom: 155px; left: 12px; } }
+.studio .study-entry { background: #fff; border: 1px solid #a8b6b0; border-radius: 9px; padding: 9px 12px; box-shadow: 0 2px 8px #24334412; }

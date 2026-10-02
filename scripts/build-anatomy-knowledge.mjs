@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = name => fs.readFileSync(path.join(root, name), 'utf8');
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
-const predicates = new Set(['part_of', 'originates_at', 'inserts_at', 'innervates', 'supplies', 'passes_through', 'attaches_to']);
+const predicates = new Set(['part_of', 'originates_at', 'inserts_at', 'innervates', 'supplies', 'passes_through', 'attaches_to', 'branch_of']);
 const sideOf = name => /\bleft\b/i.test(name) && !/\bright\b/i.test(name) ? 'left' : /\bright\b/i.test(name) && !/\bleft\b/i.test(name) ? 'right' : null;
 
 export function validateKnowledge(graph) {
@@ -72,7 +72,7 @@ export function buildKnowledge() {
     assert.equal(hash(fs.readFileSync(path.join(root, source.path))), source.sha256, `Changed source ${source.id}; re-review and update fingerprint`);
   }
   const atlas = JSON.parse(read('public/models/atlas.json'));
-  const modules = ['upper-arm', 'forearm', 'knee', 'sciatic', 'thyroid', 'spinal-cord', 'brachial-plexus', 'rotator-cuff', 'skull-bones', 'lung-parenchyma', 'foot-muscles', 'foot-supports']
+  const modules = ['upper-arm', 'forearm', 'knee', 'sciatic', 'thyroid', 'spinal-cord', 'brachial-plexus', 'rotator-cuff', 'skull-bones', 'lung-parenchyma', 'foot-muscles', 'foot-supports', 'left-cords']
     .map(name => JSON.parse(read(`data/anatomy/${name}.json`)));
   const pilot = modules[0];
   const entities = atlas.concepts.map(c => ({
@@ -130,6 +130,29 @@ export function buildKnowledge() {
         if (binding) Object.assign(binding, registered);
         else assetBindings.push(registered);
       }
+    }
+  }
+  // Canonical representation is derived from the same registered points as the scene.
+  for (const url of registry.landmarks) {
+    const manifest = JSON.parse(read(`public${url}`));
+    for (const anchor of manifest.anchors) {
+      const entity = entityMap.get(anchor.conceptId);
+      assert(entity && entity.geometryPartIds.length === 0, 'Reference point must not become a mesh');
+      assert(anchor.position.length === 3 && anchor.position.every(Number.isFinite));
+      assert(anchor.contextPartIds.every(id => geometryPartIds.includes(id)));
+      Object.assign(entity, {
+        representationStatus: 'anchored_reference',
+        referencePoint: { position: anchor.position, contextPartIds: anchor.contextPartIds,
+          representation: anchor.representation, sourceObject: anchor.sourceObject,
+          sourceId: anchor.source.id, manifest: url },
+        representationLimits: anchor.limitations, expertReview: 'pending',
+        evidence: [...(entity.evidence ?? []), ...anchor.evidence],
+      });
+    }
+    for (const unresolved of manifest.unresolved) {
+      const entity = entityMap.get(unresolved.conceptId);
+      assert(entity && !entity.geometryPartIds.length && unresolved.position === null);
+      assert(entity.representationStatus === 'landmark_unanchored');
     }
   }
   const lines = read('data/anatomy/vendor/bodyparts3d/partof_inclusion_relation_list.txt').trim().split(/\r?\n/);

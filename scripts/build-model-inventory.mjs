@@ -31,7 +31,7 @@ const lowerLimb = await json('data/anatomy/lower-limb-reference.json');
 const upperLimb = await json('data/anatomy/upper-limb-reference.json');
 const lowerTargetsPath = 'data/anatomy/regional-targets-lower-limb-v4.json';
 const lowerTargets = await json(lowerTargetsPath);
-const upperTargetsPath = 'data/anatomy/regional-targets-upper-limb-v2.json';
+const upperTargetsPath = 'data/anatomy/regional-targets-upper-limb-v3.json';
 const upperTargets = await json(upperTargetsPath);
 const forearmTargetsPath = 'data/anatomy/regional-targets-forearm-hand-v1.json';
 const forearmTargets = await json(forearmTargetsPath);
@@ -40,7 +40,7 @@ const individualTargets = targetInventories.flatMap(({ path, data }) => data.tar
 assert.equal(new Set(individualTargets.map((target) => target.id)).size, individualTargets.length, 'Duplicate requirement identity');
 
 const registry = await json('public/models/extensions/index.json');
-const loader = await createServer({ root, configFile: false, optimizeDeps: { noDiscovery: true }, server: { middlewareMode: true }, appType: 'custom' });
+const loader = await createServer({ root, configFile: false, optimizeDeps: { noDiscovery: true }, server: { middlewareMode: true, hmr: false }, appType: 'custom' });
 let mergeAtlas, prepareAtlas, explorerConcepts, datasetLabel, referenceConcepts, getRepresentationNote, selectionReviewNote, REFERENCE_DATASETS;
 try {
   ({ mergeAtlas } = await loader.ssrLoadModule('/app/load-atlas.ts'));

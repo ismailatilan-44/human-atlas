@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "coverage": {
     "structural": "BodyParts3D source PART-OF snapshot",
-    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred; Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions; Bilateral rotator cuff origin/insertion regions and muscle-level innervation; bone-level context with named regions, no spatial attachment anchors; 22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.; 17 direct source parenchyma-to-segment relations, existing segment/lobe/lung paths, and two separate project display-selection groups; Selected bilateral abductor hallucis and extensor hallucis brevis origins/insertions; whole-bone context and named regions, not footprints or complete foot network; Selected bilateral long plantar ligament attachment bone/region facts; not a complete endpoint set, source-specimen geometry or footprint acceptance",
+    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred; Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions; Bilateral rotator cuff origin/insertion regions and muscle-level innervation; bone-level context with named regions, no spatial attachment anchors; 22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.; 17 direct source parenchyma-to-segment relations, existing segment/lobe/lung paths, and two separate project display-selection groups; Selected bilateral abductor hallucis and extensor hallucis brevis origins/insertions; whole-bone context and named regions, not footprints or complete foot network; Selected bilateral long plantar ligament attachment bone/region facts; not a complete endpoint set, source-specimen geometry or footprint acceptance; Two left source cords only; expert pending",
     "complete": false
   },
   "sources": [
@@ -840,6 +840,50 @@
       "verifiedOn": "2026-10-02",
       "verificationMethod": "Primary webpage or indexed primary abstract read via web",
       "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "bp3d43-live",
+      "title": "BodyParts3D official live source",
+      "url": "https://lifesciencedb.jp/bp3d/",
+      "creator": "Database Center for Life Science (DBCLS)",
+      "version": "Data4.3 / Objects4.3 / FMA3.0",
+      "license": "CC BY-SA 2.1 Japan",
+      "licenseUrl": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+      "sourceReferenceBody": "Source body; demographic/specimen detail not established in this bounded intake",
+      "rightsStatus": {
+        "privateInspection": "permitted under captured public source license",
+        "adaptation": "attribution/share-alike obligations retained",
+        "distribution": "not activated; require source attribution/license retained and separate technical/expert acceptance"
+      },
+      "coordinateUnits": "OBJ source header states mm; no transform applied",
+      "access": "Public normal selected-download endpoint;no authentication or access restriction bypass",
+      "retrievedOn": "2026-10-02"
+    },
+    {
+      "id": "bp3d43-left-cord-objects",
+      "title": "Official BP3D4.3 returned left cord objects",
+      "url": "https://lifesciencedb.jp/bp3d/",
+      "version": "Data4.3 / Objects4.3 / FMA3.0",
+      "use": "Two original OBJ headers and official is_a file-membership rows only; no branch relation inferred from membership",
+      "paths": [
+        "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+        "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj"
+      ]
+    },
+    {
+      "id": "umich-bluelink-brachial-plexus",
+      "title": "University of Michigan BlueLink — Brachial Plexus LabLink",
+      "url": "https://sites.google.com/a/umich.edu/bluelink/curricula/m1-foundational-anatomy/sequence-7-neuroanatomy/brachial-plexus-subclavian-vessels-scalene-muscles/lablink",
+      "retrievedOn": "2026-10-02",
+      "use": "Selected anatomical component/branch/contribution facts with step locators only; no page prose, donor images or multimedia redistributed"
+    },
+    {
+      "id": "atlas-left-cords-registration",
+      "title": "Two left BP3D4.3 cords: local source registration",
+      "url": "https://lifesciencedb.jp/bp3d/",
+      "path": "public/models/extensions/left-cords-bp3d43.json",
+      "sha256": "0ee1bb2cc29c491724a1d88f65dd2ed62483f4450460ffa4edc5b0d4c155b846"
     }
   ],
   "geometryPartIds": [
@@ -3132,7 +3176,9 @@
     "BP43-FJ6609",
     "BP43-FJ6610",
     "BP43-FJ6611",
-    "BP43-FJ6612"
+    "BP43-FJ6612",
+    "BP43-FJ4274",
+    "BP43-FJ4275"
   ],
   "entities": [
     {
@@ -101091,9 +101137,39 @@
       "side": "left",
       "kind": "landmark",
       "geometryPartIds": [],
-      "representationStatus": "landmark_unanchored",
+      "representationStatus": "anchored_reference",
       "expertReview": "pending",
-      "anatomicalCoverage": "non_exhaustive"
+      "anatomicalCoverage": "non_exhaustive",
+      "referencePoint": {
+        "position": [
+          0.13459472536072575,
+          1.3986121507546874,
+          -0.0018257371550266638
+        ],
+        "contextPartIds": [
+          "FJ3279"
+        ],
+        "representation": "attachment_surface_reference_point",
+        "sourceObject": "Coracobrachialis muscle.ol",
+        "sourceId": "zanatomy",
+        "manifest": "/models/extensions/upper-arm-landmarks.json"
+      },
+      "representationLimits": [
+        "Coracobrachialis origin surface; representative point for the shared coracoid origin region, not the whole process",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Coracobrachialis muscle.ol"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:left-coracoid-process"
+        }
+      ]
     },
     {
       "id": "atlas:left-supraglenoid-tubercle",
@@ -101101,9 +101177,39 @@
       "side": "left",
       "kind": "landmark",
       "geometryPartIds": [],
-      "representationStatus": "landmark_unanchored",
+      "representationStatus": "anchored_reference",
       "expertReview": "pending",
-      "anatomicalCoverage": "non_exhaustive"
+      "anatomicalCoverage": "non_exhaustive",
+      "referencePoint": {
+        "position": [
+          0.13937074256478796,
+          1.4055664907314005,
+          -0.03314911234550305
+        ],
+        "contextPartIds": [
+          "FJ3279"
+        ],
+        "representation": "attachment_surface_reference_point",
+        "sourceObject": "Long head of biceps brachii.ol",
+        "sourceId": "zanatomy",
+        "manifest": "/models/extensions/upper-arm-landmarks.json"
+      },
+      "representationLimits": [
+        "Long-head biceps origin surface; representative attachment-region point, not a segmented tubercle",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Long head of biceps brachii.ol"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:left-supraglenoid-tubercle"
+        }
+      ]
     },
     {
       "id": "atlas:left-radial-tuberosity",
@@ -101111,9 +101217,39 @@
       "side": "left",
       "kind": "landmark",
       "geometryPartIds": [],
-      "representationStatus": "landmark_unanchored",
+      "representationStatus": "anchored_reference",
       "expertReview": "pending",
-      "anatomicalCoverage": "non_exhaustive"
+      "anatomicalCoverage": "non_exhaustive",
+      "referencePoint": {
+        "position": [
+          0.22623619366727565,
+          1.0832921528930979,
+          -0.0161311590142868
+        ],
+        "contextPartIds": [
+          "FJ3277"
+        ],
+        "representation": "attachment_surface_reference_point",
+        "sourceObject": "Biceps brachii muscle.el",
+        "sourceId": "zanatomy",
+        "manifest": "/models/extensions/upper-arm-landmarks.json"
+      },
+      "representationLimits": [
+        "Biceps distal insertion surface; representative attachment-region point, not the full radial tuberosity",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Biceps brachii muscle.el"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:left-radial-tuberosity"
+        }
+      ]
     },
     {
       "id": "atlas:left-humerus-medial-midshaft",
@@ -101162,9 +101298,39 @@
       "side": "right",
       "kind": "landmark",
       "geometryPartIds": [],
-      "representationStatus": "landmark_unanchored",
+      "representationStatus": "anchored_reference",
       "expertReview": "pending",
-      "anatomicalCoverage": "non_exhaustive"
+      "anatomicalCoverage": "non_exhaustive",
+      "referencePoint": {
+        "position": [
+          -0.13455884448058877,
+          1.3986480834241009,
+          -0.00189119555177935
+        ],
+        "contextPartIds": [
+          "FJ3384"
+        ],
+        "representation": "attachment_surface_reference_point",
+        "sourceObject": "Coracobrachialis muscle.or",
+        "sourceId": "zanatomy",
+        "manifest": "/models/extensions/upper-arm-landmarks.json"
+      },
+      "representationLimits": [
+        "Coracobrachialis origin surface; representative point for the shared coracoid origin region, not the whole process",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Coracobrachialis muscle.or"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:right-coracoid-process"
+        }
+      ]
     },
     {
       "id": "atlas:right-supraglenoid-tubercle",
@@ -101172,9 +101338,39 @@
       "side": "right",
       "kind": "landmark",
       "geometryPartIds": [],
-      "representationStatus": "landmark_unanchored",
+      "representationStatus": "anchored_reference",
       "expertReview": "pending",
-      "anatomicalCoverage": "non_exhaustive"
+      "anatomicalCoverage": "non_exhaustive",
+      "referencePoint": {
+        "position": [
+          -0.13931776835991772,
+          1.4056036963391072,
+          -0.03321688964873288
+        ],
+        "contextPartIds": [
+          "FJ3384"
+        ],
+        "representation": "attachment_surface_reference_point",
+        "sourceObject": "Long head of biceps brachii.or",
+        "sourceId": "zanatomy",
+        "manifest": "/models/extensions/upper-arm-landmarks.json"
+      },
+      "representationLimits": [
+        "Long-head biceps origin surface; representative attachment-region point, not a segmented tubercle",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Long head of biceps brachii.or"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:right-supraglenoid-tubercle"
+        }
+      ]
     },
     {
       "id": "atlas:right-radial-tuberosity",
@@ -101182,9 +101378,39 @@
       "side": "right",
       "kind": "landmark",
       "geometryPartIds": [],
-      "representationStatus": "landmark_unanchored",
+      "representationStatus": "anchored_reference",
       "expertReview": "pending",
-      "anatomicalCoverage": "non_exhaustive"
+      "anatomicalCoverage": "non_exhaustive",
+      "referencePoint": {
+        "position": [
+          -0.2262775469067792,
+          1.0833525646002682,
+          -0.0162412107738975
+        ],
+        "contextPartIds": [
+          "FJ3349"
+        ],
+        "representation": "attachment_surface_reference_point",
+        "sourceObject": "Biceps brachii muscle.er",
+        "sourceId": "zanatomy",
+        "manifest": "/models/extensions/upper-arm-landmarks.json"
+      },
+      "representationLimits": [
+        "Biceps distal insertion surface; representative attachment-region point, not the full radial tuberosity",
+        "Not snapped to the target bone: source registration residual is retained and measured.",
+        "Uses the authored base attachment surface before Solidify/Subdivision display modifiers.",
+        "Source authored attachment region and technical registration are not expert anatomical validation."
+      ],
+      "evidence": [
+        {
+          "sourceId": "zanatomy",
+          "locator": "Startup.blend / Biceps brachii muscle.er"
+        },
+        {
+          "sourceId": "atlas-upper-arm-knowledge",
+          "locator": "data/anatomy/upper-arm.json / origin or insertion relation targeting atlas:right-radial-tuberosity"
+        }
+      ]
     },
     {
       "id": "atlas:right-humerus-medial-midshaft",
@@ -101495,6 +101721,56 @@
         }
       ],
       "provenanceKind": "project_derived_selection_group"
+    },
+    {
+      "id": "FMA45239",
+      "name": "Lateral cord of left brachial nerve plexus",
+      "kind": "nerve",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ4274"
+      ],
+      "representationStatus": "registered_geometry",
+      "sourcePartId": "FJ4274",
+      "sourceRepresentationId": "BP29122",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1446"
+        },
+        {
+          "sourceId": "atlas-left-cords-registration",
+          "locator": "/models/extensions/left-cords-bp3d43.json / concepts / FMA45239; registration"
+        }
+      ],
+      "geometryNote": "Short source segment; complete course and cross-source continuity not asserted; expert review pending."
+    },
+    {
+      "id": "FMA45241",
+      "name": "Medial cord of left brachial nerve plexus",
+      "kind": "nerve",
+      "side": "left",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "geometryPartIds": [
+        "BP43-FJ4275"
+      ],
+      "representationStatus": "registered_geometry",
+      "sourcePartId": "FJ4275",
+      "sourceRepresentationId": "BP29196",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1447"
+        },
+        {
+          "sourceId": "atlas-left-cords-registration",
+          "locator": "/models/extensions/left-cords-bp3d43.json / concepts / FMA45241; registration"
+        }
+      ],
+      "geometryNote": "Short source segment; complete course and cross-source continuity not asserted; expert review pending."
     },
     {
       "id": "atlas:left-median-nerve",
@@ -129777,6 +130053,70 @@
           }
         ]
       }
+    },
+    {
+      "id": "FMA45239|part_of|atlas:left-brachial-plexus",
+      "subject": "FMA45239",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "LEFT SIDE: divisions, cords and terminal branches; step9 identifying the medial/lateral/posterior cords of the brachial plexus"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Anatomical cord-to-plexus component relationship, not Blender collection or mesh selection membership",
+        "laterality": "Left is explicit in source OBJ header and university left-side lab section",
+        "geometry": "Does not extend or silently rewrite the existing ten-piece partial Z-Anatomy plexus selection",
+        "scope": "Typical anatomy; no complete plexus or full cord course assertion"
+      }
+    },
+    {
+      "id": "FMA45241|part_of|atlas:left-brachial-plexus",
+      "subject": "FMA45241",
+      "predicate": "part_of",
+      "object": "atlas:left-brachial-plexus",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "LEFT SIDE: divisions, cords and terminal branches; step9 identifying the medial/lateral/posterior cords of the brachial plexus"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Anatomical cord-to-plexus component relationship, not Blender collection or mesh selection membership",
+        "laterality": "Left is explicit in source OBJ header and university left-side lab section",
+        "geometry": "Does not extend or silently rewrite the existing ten-piece partial Z-Anatomy plexus selection",
+        "scope": "Typical anatomy; no complete plexus or full cord course assertion"
+      }
+    },
+    {
+      "id": "atlas:left-musculocutaneous-nerve|branch_of|FMA45239",
+      "subject": "atlas:left-musculocutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "FMA45239",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "umich-bluelink-brachial-plexus",
+          "locator": "step14 / Musculocutaneous nerve / Note: terminal branch of lateral cord"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / musculocutaneous row / Source; lateral cord row / Branches"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named terminal branch → anatomical parent cord",
+        "laterality": "Same-side application to exact left source/canonical endpoints",
+        "geometry": "No claim of physical joining between independently sourced BP3D and Z-Anatomy meshes",
+        "scope": "No new motor territory or complete branch network inference"
+      }
     }
   ],
   "assetBindings": [
@@ -133153,6 +133493,46 @@
         {
           "sourceId": "extension-lung-bp3d43",
           "locator": "/models/extensions/lung-bp3d43.json / concepts / FMA7363; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA45239",
+      "sourceId": "bp3d43-live",
+      "objectName": "FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ4274"
+      ],
+      "registrationSourceId": "atlas-left-cords-registration",
+      "evidence": [
+        {
+          "sourceId": "atlas-left-cords-registration",
+          "locator": "/models/extensions/left-cords-bp3d43.json / concepts / FMA45239; registration"
+        }
+      ]
+    },
+    {
+      "entityId": "FMA45241",
+      "sourceId": "bp3d43-live",
+      "objectName": "FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "objectType": "OBJ",
+      "mappingMethod": "extension manifest canonical concept and source object mapping",
+      "status": "registered_geometry",
+      "transformStatus": "registered",
+      "geometryEquality": "not_asserted",
+      "geometryPartIds": [
+        "BP43-FJ4275"
+      ],
+      "registrationSourceId": "atlas-left-cords-registration",
+      "evidence": [
+        {
+          "sourceId": "atlas-left-cords-registration",
+          "locator": "/models/extensions/left-cords-bp3d43.json / concepts / FMA45241; registration"
         }
       ]
     }

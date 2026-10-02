@@ -8697,6 +8697,72 @@
           "locator": "line 5709"
         }
       ]
+    },
+    {
+      "ids": [
+        "FMA45239"
+      ],
+      "datasetId": "male-body",
+      "tr": "Brakiyal pleksusun lateral kordonu",
+      "en": "Lateral cord of brachial plexus",
+      "la": "Fasciculus lateralis plexus brachialis",
+      "side": "left",
+      "aliases": [
+        "Lateral cord of left brachial nerve plexus"
+      ],
+      "ta2TableId": 6415,
+      "sourcePartId": "FJ4274",
+      "sourceRepresentationId": "BP29122",
+      "geometryPartIds": [
+        "BP43-FJ4274"
+      ],
+      "scopeNoteTr": "Sol taraftaki özgün BP3D 4.3 kordon nesnesinin kaynak kapsamıdır; tam pleksus, kök katkıları veya dalların tamamı değildir. Anatomik uzman incelemesi bekler.",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1446"
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6415; CSV line6498; exact unsided English/Latin pair"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "representationNoteTr": "Sol taraftaki özgün BP3D 4.3 kordon nesnesinin kaynak kapsamıdır; tam pleksus, kök katkıları veya dalların tamamı değildir. Anatomik uzman incelemesi bekler. Kısa kaynak segmentidir; diğer kaynak sinirleriyle fiziksel birleşme iddiası yoktur."
+    },
+    {
+      "ids": [
+        "FMA45241"
+      ],
+      "datasetId": "male-body",
+      "tr": "Brakiyal pleksusun medial kordonu",
+      "en": "Medial cord of brachial plexus",
+      "la": "Fasciculus medialis plexus brachialis",
+      "side": "left",
+      "aliases": [
+        "Medial cord of left brachial nerve plexus"
+      ],
+      "ta2TableId": 6417,
+      "sourcePartId": "FJ4275",
+      "sourceRepresentationId": "BP29196",
+      "geometryPartIds": [
+        "BP43-FJ4275"
+      ],
+      "scopeNoteTr": "Sol taraftaki özgün BP3D 4.3 kordon nesnesinin kaynak kapsamıdır; tam pleksus, kök katkıları veya dalların tamamı değildir. Anatomik uzman incelemesi bekler.",
+      "evidence": [
+        {
+          "sourceId": "bp3d43-left-cord-objects",
+          "locator": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj / header lines2–7; FMA2Obj.txt line1447"
+        },
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6417; CSV line6500; exact unsided English/Latin pair"
+        }
+      ],
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "representationNoteTr": "Sol taraftaki özgün BP3D 4.3 kordon nesnesinin kaynak kapsamıdır; tam pleksus, kök katkıları veya dalların tamamı değildir. Anatomik uzman incelemesi bekler. Kısa kaynak segmentidir; diğer kaynak sinirleriyle fiziksel birleşme iddiası yoktur. Kaynaktaki çok küçük ayrı parça ve yüzey kusurları korunmuştur."
     }
   ]
 }

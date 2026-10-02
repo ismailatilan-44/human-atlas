@@ -1,4 +1,6 @@
-import { atlasDataset, referenceConcepts, datasetSearchTerms } from "./reference-datasets";
+import { representationFor } from "./knowledge";
+import { matchesAnatomyQuery } from "./search";
+import { atlasDataset, referenceConcepts } from "./reference-datasets";
 import type { Atlas, Concept } from "./anatomy";
 type Tool = {
   name: string;
@@ -30,13 +32,9 @@ export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): T
         const data = record(input);
         if (typeof data.query !== "string" || !data.query.trim())
           throw new Error("A nonempty query is required.");
-        const q = data.query.toLowerCase().trim();
+        const q = data.query;
         return concepts
-          .filter((c) =>
-            datasetSearchTerms(dataset, c.id, c.name).some((term) =>
-              term.toLowerCase().includes(q),
-            ),
-          )
+          .filter((c) => matchesAnatomyQuery(dataset, c, q))
           .slice(0, 30)
           .map((c) => ({ id: c.id, name: c.name, pieces: c.elements.length }));
       },
@@ -57,7 +55,7 @@ export function atlasTools(atlas: Atlas, inspect: (concept: Concept) => void): T
         const concept = concepts.find((c) => c.id === data.id);
         if (!concept) throw new Error("That structure is not present in this atlas.");
         inspect(concept);
-        return { id: concept.id, name: concept.name, selectedPieces: concept.elements.length };
+        return { id: concept.id, name: concept.name, selectedPieces: concept.elements.length, representation: representationFor(concept.id, dataset) };
       },
     },
   ];
