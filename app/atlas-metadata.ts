@@ -103,7 +103,10 @@ export function getRepresentationNote(conceptId: string): string | undefined {
   }
   const label = LABELS_BY_ID.get(conceptId);
   const note = label && "representationNoteTr" in label ? label.representationNoteTr : undefined;
-  return [note, selectionReviewNote(conceptId)].filter(Boolean).join(" ") || undefined;
+  const latinNote = label && "latinUnavailableReason" in label && label.latinUnavailableReason
+    ? "Latince ad henüz doğrulanmadı; Latince görünümde İngilizce ad korunur."
+    : undefined;
+  return [latinNote, note, selectionReviewNote(conceptId)].filter(Boolean).join(" ") || undefined;
 }
 
 const LABELS_BY_ID = new Map(
@@ -124,6 +127,7 @@ export function anatomyLabel(id: string, fallback: string, language: AnatomyLang
   // A missing Latin term must not remove a reviewed source-group qualifier.
   const label =
     entry?.[language] ||
+    (entry && "latinUnavailableReason" in entry && entry.latinUnavailableReason ? entry.en : undefined) ||
     (entry && "sourceGroupLabel" in entry && entry.sourceGroupLabel ? entry.en : undefined);
   if (!entry || !label) return fallback;
   if (!entry.side) return label;

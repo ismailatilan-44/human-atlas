@@ -11,6 +11,7 @@ export function knowledgeSource(id: string, dataset: DatasetId = "male-body") {
 }
 export const relationshipNames: Record<string, [string, string]> = {
   attaches_to: ["Bağlandığı kemik", "Bağlanan yapı"],
+  articulates_with: ["Eklem yaptığı kemik", "Eklem yaptığı kemik"],
   part_of: ["Parçası olduğu yapı", "İçerdiği yapılar"],
   originates_at: ["Başlangıç yeri", "Buradan başlayan kas"],
   inserts_at: ["Tutunma yeri", "Buraya tutunan kas"],

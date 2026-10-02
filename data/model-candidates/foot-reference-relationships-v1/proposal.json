@@ -1,0 +1,1508 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "lower-limb-nerve-reference",
+  "discoveryRevision": "41723bdf937ce50976c118230b0a29441700d4a2",
+  "inputSnapshots": [
+    {
+      "path": "public/models/lower-limb-nerve-reference/atlas.json",
+      "sha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed"
+    },
+    {
+      "path": "scripts/build-foot-reference-relationships.py",
+      "sha256": "091a49c5eadfcb0da128c64daf59e8b6e4ec86d9b2828458b342f7eb34ab9b15"
+    }
+  ],
+  "summary": {
+    "articulationFactsPerSide": 24,
+    "articulationRelations": 48,
+    "attachmentRelations": 12,
+    "totalNewRelations": 60,
+    "expertAccepted": 0
+  },
+  "predicates": [
+    {
+      "id": "articulates_with",
+      "symmetric": true,
+      "transitive": false,
+      "meaning": "Named bones participate in a sourced anatomical articulation; no surface, capsule, cartilage or contact measurement implied"
+    },
+    {
+      "id": "attaches_to",
+      "symmetric": false,
+      "transitive": false,
+      "meaning": "Ligament attaches to named bone/region; bone geometry is not an attachment footprint"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ttuhsc-foot-osteology",
+      "title": "TTUHSC anatomy tables — foot osteology",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/leg_tables.html",
+      "retrievedOn": "2026-10-02",
+      "locator": "Osteology table; selected bone and structure rows",
+      "use": "Selected bone-level articulation facts; no source prose or images redistributed; no specimen contact or joint segmentation inferred"
+    },
+    {
+      "id": "golano-ankle-ligaments-2010",
+      "title": "Golanó et al. — Anatomy of the ankle ligaments (2010)",
+      "url": "https://doi.org/10.1007/s00167-010-1100-x",
+      "inspectedUrl": "https://diposit.ub.edu/bitstreams/2e6e7803-acea-4dc4-8832-b63ced732f00/download",
+      "doi": "10.1007/s00167-010-1100-x",
+      "retrievedOn": "2026-10-02",
+      "locator": "Lateral collateral ligaments; journal pages 559–560, PDF pages 3–4",
+      "use": "Selected attachment bone/region facts; no article figures, measurements or text redistributed; no model footprint or fascicle validation"
+    }
+  ],
+  "relations": [
+    {
+      "id": "zanatomy:talus-l|articulates_with|zanatomy:tibia-l",
+      "subject": "zanatomy:talus-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:tibia-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:talus-l|articulates_with|zanatomy:fibula-l",
+      "subject": "zanatomy:talus-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:fibula-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:talus-l|articulates_with|zanatomy:calcaneus-l",
+      "subject": "zanatomy:talus-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:calcaneus-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus/body and subtalar joint rows"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:talus-l|articulates_with|zanatomy:navicular-bone-l",
+      "subject": "zanatomy:talus-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:navicular-bone-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus/head and navicular rows"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:navicular-bone-l|articulates_with|zanatomy:medial-cuneiform-bone-l",
+      "subject": "zanatomy:navicular-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:medial-cuneiform-bone-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; navicular row, Notes; medial cuneiform row"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:navicular-bone-l|articulates_with|zanatomy:intermediate-cuneiform-bone-l",
+      "subject": "zanatomy:navicular-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:intermediate-cuneiform-bone-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; navicular row, Notes; middle cuneiform row"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:navicular-bone-l|articulates_with|zanatomy:lateral-cuneiform-bone-l",
+      "subject": "zanatomy:navicular-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:lateral-cuneiform-bone-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; navicular row, Notes; lateral cuneiform row"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:cuboid-bone-l|articulates_with|zanatomy:calcaneus-l",
+      "subject": "zanatomy:cuboid-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:calcaneus-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; cuboid row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:cuboid-bone-l|articulates_with|zanatomy:fourth-metatarsal-bone-l",
+      "subject": "zanatomy:cuboid-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:fourth-metatarsal-bone-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; cuboid row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:cuboid-bone-l|articulates_with|zanatomy:fifth-metatarsal-bone-l",
+      "subject": "zanatomy:cuboid-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:fifth-metatarsal-bone-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; cuboid row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:first-metatarsal-bone-l|articulates_with|zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "subject": "zanatomy:first-metatarsal-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l|articulates_with|zanatomy:distal-phalanx-of-first-finger-of-foot-l",
+      "subject": "zanatomy:proximal-phalanx-of-first-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-first-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:second-metatarsal-bone-l|articulates_with|zanatomy:proximal-phalanx-of-second-finger-of-foot-l",
+      "subject": "zanatomy:second-metatarsal-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-second-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-second-finger-of-foot-l|articulates_with|zanatomy:middle-phalanx-of-second-finger-of-foot-l",
+      "subject": "zanatomy:proximal-phalanx-of-second-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-second-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-second-finger-of-foot-l|articulates_with|zanatomy:distal-phalanx-of-second-finger-of-foot-l",
+      "subject": "zanatomy:middle-phalanx-of-second-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-second-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:third-metatarsal-bone-l|articulates_with|zanatomy:proximal-phalanx-of-third-finger-of-foot-l",
+      "subject": "zanatomy:third-metatarsal-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-third-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-third-finger-of-foot-l|articulates_with|zanatomy:middle-phalanx-of-third-finger-of-foot-l",
+      "subject": "zanatomy:proximal-phalanx-of-third-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-third-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-third-finger-of-foot-l|articulates_with|zanatomy:distal-phalanx-of-third-finger-of-foot-l",
+      "subject": "zanatomy:middle-phalanx-of-third-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-third-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:fourth-metatarsal-bone-l|articulates_with|zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l",
+      "subject": "zanatomy:fourth-metatarsal-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l|articulates_with|zanatomy:middle-phalanx-of-fourth-finger-of-foot-l",
+      "subject": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-l|articulates_with|zanatomy:distal-phalanx-of-fourth-finger-of-foot-l",
+      "subject": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-fourth-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:fifth-metatarsal-bone-l|articulates_with|zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l",
+      "subject": "zanatomy:fifth-metatarsal-bone-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l|articulates_with|zanatomy:middle-phalanx-of-fifth-finger-of-foot-l",
+      "subject": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-l|articulates_with|zanatomy:distal-phalanx-of-fifth-finger-of-foot-l",
+      "subject": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-l",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-fifth-finger-of-foot-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "left",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "atlas:left-anterior-talofibular-ligament|attaches_to|zanatomy:fibula-l",
+      "subject": "atlas:left-anterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Fibulanın lateral malleolünün ön kenarı; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Anterior talofibular ligament section, p559"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "left",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:left-anterior-talofibular-ligament|attaches_to|zanatomy:talus-l",
+      "subject": "atlas:left-anterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:talus-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Talus gövdesinin lateral eklem yüzeyi önündeki bölge; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Anterior talofibular ligament section, p559"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "left",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:left-posterior-talofibular-ligament|attaches_to|zanatomy:fibula-l",
+      "subject": "atlas:left-posterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Lateral malleolün medial yüzündeki malleolar fossa; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Posterior talofibular ligament section, p560"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "left",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:left-posterior-talofibular-ligament|attaches_to|zanatomy:talus-l",
+      "subject": "atlas:left-posterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:talus-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Talusun posterolateral bölgesi; lif kapsamı ve varyasyonlar bu modelde doğrulanmadı.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Posterior talofibular ligament section, p560–561"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "left",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:left-calcaneofibular-ligament|attaches_to|zanatomy:fibula-l",
+      "subject": "atlas:left-calcaneofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Fibulanın lateral malleolünün ön bölgesi; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Calcaneofibular ligament section, p560"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "left",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:left-calcaneofibular-ligament|attaches_to|zanatomy:calcaneus-l",
+      "subject": "atlas:left-calcaneofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Kalkaneusun lateral yüzünün arka bölgesi; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Calcaneofibular ligament section, p560"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "left",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "zanatomy:talus-r|articulates_with|zanatomy:tibia-r",
+      "subject": "zanatomy:talus-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:tibia-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:talus-r|articulates_with|zanatomy:fibula-r",
+      "subject": "zanatomy:talus-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:fibula-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:talus-r|articulates_with|zanatomy:calcaneus-r",
+      "subject": "zanatomy:talus-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:calcaneus-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus/body and subtalar joint rows"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:talus-r|articulates_with|zanatomy:navicular-bone-r",
+      "subject": "zanatomy:talus-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:navicular-bone-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; talus/head and navicular rows"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:navicular-bone-r|articulates_with|zanatomy:medial-cuneiform-bone-r",
+      "subject": "zanatomy:navicular-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:medial-cuneiform-bone-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; navicular row, Notes; medial cuneiform row"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:navicular-bone-r|articulates_with|zanatomy:intermediate-cuneiform-bone-r",
+      "subject": "zanatomy:navicular-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:intermediate-cuneiform-bone-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; navicular row, Notes; middle cuneiform row"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:navicular-bone-r|articulates_with|zanatomy:lateral-cuneiform-bone-r",
+      "subject": "zanatomy:navicular-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:lateral-cuneiform-bone-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; navicular row, Notes; lateral cuneiform row"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:cuboid-bone-r|articulates_with|zanatomy:calcaneus-r",
+      "subject": "zanatomy:cuboid-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:calcaneus-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; cuboid row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:cuboid-bone-r|articulates_with|zanatomy:fourth-metatarsal-bone-r",
+      "subject": "zanatomy:cuboid-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:fourth-metatarsal-bone-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; cuboid row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:cuboid-bone-r|articulates_with|zanatomy:fifth-metatarsal-bone-r",
+      "subject": "zanatomy:cuboid-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:fifth-metatarsal-bone-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; cuboid row, Notes"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:first-metatarsal-bone-r|articulates_with|zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "subject": "zanatomy:first-metatarsal-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r|articulates_with|zanatomy:distal-phalanx-of-first-finger-of-foot-r",
+      "subject": "zanatomy:proximal-phalanx-of-first-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-first-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:second-metatarsal-bone-r|articulates_with|zanatomy:proximal-phalanx-of-second-finger-of-foot-r",
+      "subject": "zanatomy:second-metatarsal-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-second-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-second-finger-of-foot-r|articulates_with|zanatomy:middle-phalanx-of-second-finger-of-foot-r",
+      "subject": "zanatomy:proximal-phalanx-of-second-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-second-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-second-finger-of-foot-r|articulates_with|zanatomy:distal-phalanx-of-second-finger-of-foot-r",
+      "subject": "zanatomy:middle-phalanx-of-second-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-second-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:third-metatarsal-bone-r|articulates_with|zanatomy:proximal-phalanx-of-third-finger-of-foot-r",
+      "subject": "zanatomy:third-metatarsal-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-third-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-third-finger-of-foot-r|articulates_with|zanatomy:middle-phalanx-of-third-finger-of-foot-r",
+      "subject": "zanatomy:proximal-phalanx-of-third-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-third-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-third-finger-of-foot-r|articulates_with|zanatomy:distal-phalanx-of-third-finger-of-foot-r",
+      "subject": "zanatomy:middle-phalanx-of-third-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-third-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:fourth-metatarsal-bone-r|articulates_with|zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r",
+      "subject": "zanatomy:fourth-metatarsal-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r|articulates_with|zanatomy:middle-phalanx-of-fourth-finger-of-foot-r",
+      "subject": "zanatomy:proximal-phalanx-of-fourth-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-r|articulates_with|zanatomy:distal-phalanx-of-fourth-finger-of-foot-r",
+      "subject": "zanatomy:middle-phalanx-of-fourth-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-fourth-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:fifth-metatarsal-bone-r|articulates_with|zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r",
+      "subject": "zanatomy:fifth-metatarsal-bone-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; metatarsals/head and phalanx/base rows; corresponding digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r|articulates_with|zanatomy:middle-phalanx-of-fifth-finger-of-foot-r",
+      "subject": "zanatomy:proximal-phalanx-of-fifth-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-r|articulates_with|zanatomy:distal-phalanx-of-fifth-finger-of-foot-r",
+      "subject": "zanatomy:middle-phalanx-of-fifth-finger-of-foot-r",
+      "predicate": "articulates_with",
+      "object": "zanatomy:distal-phalanx-of-fifth-finger-of-foot-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-foot-osteology",
+          "locator": "Osteology table; phalanx rows, Notes and base/head; next segment within the same digit"
+        }
+      ],
+      "qualifiers": {
+        "symmetric": true,
+        "transitive": false,
+        "scope": "Typical bone-level anatomy, not specimen validation",
+        "laterality": "right",
+        "geometryContactMeasured": false,
+        "jointGeometryClaim": false,
+        "sourceMapping": "Preserved named same-side source objects; expert correspondence pending"
+      }
+    },
+    {
+      "id": "atlas:right-anterior-talofibular-ligament|attaches_to|zanatomy:fibula-r",
+      "subject": "atlas:right-anterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Fibulanın lateral malleolünün ön kenarı; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Anterior talofibular ligament section, p559"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "right",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:right-anterior-talofibular-ligament|attaches_to|zanatomy:talus-r",
+      "subject": "atlas:right-anterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:talus-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Talus gövdesinin lateral eklem yüzeyi önündeki bölge; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Anterior talofibular ligament section, p559"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "right",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:right-posterior-talofibular-ligament|attaches_to|zanatomy:fibula-r",
+      "subject": "atlas:right-posterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Lateral malleolün medial yüzündeki malleolar fossa; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Posterior talofibular ligament section, p560"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "right",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:right-posterior-talofibular-ligament|attaches_to|zanatomy:talus-r",
+      "subject": "atlas:right-posterior-talofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:talus-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Talusun posterolateral bölgesi; lif kapsamı ve varyasyonlar bu modelde doğrulanmadı.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Posterior talofibular ligament section, p560–561"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "right",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:right-calcaneofibular-ligament|attaches_to|zanatomy:fibula-r",
+      "subject": "atlas:right-calcaneofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Fibulanın lateral malleolünün ön bölgesi; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Calcaneofibular ligament section, p560"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "right",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    },
+    {
+      "id": "atlas:right-calcaneofibular-ligament|attaches_to|zanatomy:calcaneus-r",
+      "subject": "atlas:right-calcaneofibular-ligament",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "datasetId": "lower-limb-nerve-reference",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "attachmentNoteTr": "Kalkaneusun lateral yüzünün arka bölgesi; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.",
+      "evidence": [
+        {
+          "sourceId": "golano-ankle-ligaments-2010",
+          "locator": "Calcaneofibular ligament section, p560"
+        }
+      ],
+      "qualifiers": {
+        "scope": "Typical named attachment bone/region, not specimen validation",
+        "laterality": "right",
+        "footprintSegmented": false,
+        "coordinatesAsserted": false,
+        "fasciclesVerified": false,
+        "anatomicalVariation": "Not modeled or accepted by this bounded package"
+      }
+    }
+  ],
+  "excludedClaims": [
+    "Complete foot joint network",
+    "Cuneiform-to-metatarsal digit mapping from generic wording",
+    "Articular cartilage/capsule or ligament fascicles",
+    "Segmented attachment footprints or coordinates",
+    "Measured model contact or specimen connectivity",
+    "Automatic transitive articulation",
+    "Cross-dataset or cross-side relationships",
+    "Named anatomical expert acceptance"
+  ]
+}

@@ -165,6 +165,21 @@ for (const side of ['left','right']) {
   assert.equal(links.length, 1);
   assert.equal(links[0].otherId, `atlas:${side}-tibial-nerve`);
   assert.equal(lowerMap.get(`atlas:${side}-anterior-talofibular-ligament`).elements.length, 1);
+  const suffix = side[0];
+  const metatarsalId = `zanatomy:second-metatarsal-bone-${suffix}`;
+  const proximalId = `zanatomy:proximal-phalanx-of-second-finger-of-foot-${suffix}`;
+  const forward = relationshipsFor(metatarsalId, lowerMap, lower.datasetId);
+  const inverse = relationshipsFor(proximalId, lowerMap, lower.datasetId);
+  assert(forward.some(r => r.predicate === 'articulates_with' && r.otherId === proximalId));
+  assert(inverse.some(r => r.predicate === 'articulates_with' && r.otherId === metatarsalId));
+  assert(forward.every(r => r.label === 'Eklem yaptığı kemik'));
+  const hallux = relationshipsFor(`zanatomy:proximal-phalanx-of-first-finger-of-foot-${suffix}`, lowerMap, lower.datasetId);
+  assert.equal(hallux.filter(r => r.predicate === 'articulates_with').length, 2);
+  assert(hallux.every(r => !r.otherId.includes('middle-phalanx')));
+  const ligament = relationshipsFor(`atlas:${side}-calcaneofibular-ligament`, lowerMap, lower.datasetId);
+  assert.equal(ligament.length, 2);
+  assert(ligament.every(r => r.predicate === 'attaches_to' && r.attachmentNoteTr));
+  assert.deepEqual(ligament.map(r => r.otherId).sort(), [`zanatomy:calcaneus-${suffix}`,`zanatomy:fibula-${suffix}`]);
 }
 assert(relationshipsFor('atlas:left-sciatic-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
 assert.deepEqual(relationshipsFor('atlas:left-sciatic-nerve', lowerMap, 'inner-ear-reference'), []);

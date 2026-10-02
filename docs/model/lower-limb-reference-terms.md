@@ -77,3 +77,8 @@ Kaynak `Z-Anatomy/Startup.blend` SHA-256: `9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f
 Bu alt görevde TypeScript/build, geometri decode/görsel inceleme, uygulama arama→seçim→odak/bağlam→ilişki→geri dönüş veya canlı yayın kontrolü yapılmadı. Entegrasyon sahibi bunları paket kabulü sırasında doğrular ve ana teslim kaydına işler. Geometriyi kabul edilmiş sayan durum eklenmedi; önceki başarısız ana-atlas kaydı ayrı kalır. Uzman anatomik kabulü açık kalır.
 
 Sonraki eylem: entegrasyon sahibi bu metadata ile 21 nesneli export manifestinin kimliklerini birebir karşılaştırıp dataset içinde arama, aynı taraf ilişkisi ve geri dönüş akışını doğrular. Bu metadata çalışanı commit/push/yayın yapmadı. Süre ve bekleme ölçümleri bu alt görev için kaydedilmedi (bilinmiyor).
+
+
+## Sonraki genişleme ve ayak ilişkileri — 2 Ekim
+
+Yukarıdaki 21 nesneli metadata görevi tarihî kayıttır. Aktif referans şimdi 87 nesne/87 TR-EN/53 exact Latin etiket içerir; 34 digit-specific Latin null ve açıklanmış İngilizce fallback korunur. Mevcut 12 aynı taraflı sinir dalına 48 simetrik, geçişli olmayan kemik eklem ilişkisi ve 12 yönlü bağ–kemik tutunması eklenmiştir: toplam 72. Yeni etiket veya geometri bu ilişki paketinde değiştirilmez. [Kaynak ve locator kanıtı](../../data/model-candidates/foot-reference-relationships-v1/REVIEW.md); bu anatomi bilgisi mesh temasını, eklem yüzeyini veya tutunma koordinatını kanıtlamaz. Ana gövde ilişkileri taşınmaz. Entegrasyon/yayın/gerçek tarayıcı kabulü [owning raporda](progress-report-2026-10-02.md) izlenir; uzman incelemesi hâlâ açıktır.

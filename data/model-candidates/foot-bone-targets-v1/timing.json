@@ -1,0 +1,24 @@
+{
+  "startUtc": "2026-10-02T09:40:39.850666+00:00",
+  "endUtc": "2026-10-02T09:48:07.506054+00:00",
+  "elapsedSeconds": 447.655,
+  "measurementScope": "First explicit timestamp through report generation;initial state read and final handoff excluded",
+  "waiting": "No external wait;offline source audit",
+  "rework": [
+    {
+      "cause": "Parent toe/foot-proper concepts belong to PART-OF source tables;initial ISA-only parent assertion failed",
+      "resolution": "Separated ISA individual and PART-OF parent authority in deterministic builder;subsequent assertions passed"
+    }
+  ],
+  "followups": [
+    {
+      "startUtc": "2026-10-02T09:56:55.868635+00:00",
+      "endUtc": "2026-10-02T09:58:50.361162+00:00",
+      "elapsedSeconds": 114.493,
+      "scope": "Two existing foot parent labels and12existing parent-path evidence records; candidate-only update",
+      "reason": "Root local UI acceptance found immediate left/right foot parent English fallback",
+      "rework": "No source-validation failure; preserved root idempotent label-equality/conflict guard and activation ownership status",
+      "checks": "Deterministic builder and --check passed;14parents/52labels/38individual+12existingparentedges; exact Foot/Pes TA2 166 line168 and26source parts each"
+    }
+  ]
+}
