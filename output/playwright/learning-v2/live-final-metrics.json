@@ -1,0 +1,32 @@
+{
+  "sourceRevision": "efc2bf43e54e9f0ab943f28a97dc138eb289ec8a",
+  "url": "https://ismailatilan-44.github.io/human-atlas/?qa=1",
+  "environment": "Mac Chrome, viewport override; warm reference",
+  "metrics": {
+    "datasetId": "lower-limb-nerve-reference",
+    "frames": 5461,
+    "firstModelFrameMs": 123,
+    "drawCalls": 12,
+    "triangles": 526326,
+    "pixelRatio": 1,
+    "renderCpuP95Ms": 0.6,
+    "activeFrameIntervalP95Ms": 17.3,
+    "sampleCount": 180,
+    "contextLost": false,
+    "viewport": "390x844"
+  },
+  "logs": [
+    {
+      "level": "error",
+      "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:3655:9156\n    at Lc (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:92220)\n    at jl (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:110030)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:109268)\n    at kl (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:109632)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:109330)\n    at kl (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:109400)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:109330)\n    at kl (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:109450)\n    at Uu (https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js:8:120055)",
+      "timestamp": "2026-10-02T19:39:51.916Z",
+      "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-DfYOeX-7.js"
+    },
+    {
+      "level": "error",
+      "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:3655:9156\n    at Lc (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:92220)\n    at jl (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:110030)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:109268)\n    at kl (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:109632)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:109330)\n    at kl (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:109400)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:109330)\n    at kl (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:109450)\n    at Uu (https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js:8:120055)",
+      "timestamp": "2026-10-02T19:46:49.941Z",
+      "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-D7lCiz4L.js"
+    }
+  ]
+}
