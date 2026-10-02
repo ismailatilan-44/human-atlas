@@ -20,6 +20,7 @@ export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics
   const [persistence, setPersistence] = useState<StudyDiagnostics['persistence']>('pending');
   const [query, setQuery] = useState('');
   const [revision, setRevision] = useState(0);
+  const [, refreshClock] = useState(0);
   const revealRef = useRef(reveal); revealRef.current = reveal;
   const heading = useRef<HTMLHeadingElement>(null);
   const session = history.session;
@@ -28,6 +29,27 @@ export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics
   const name = (id: string, lang = language) => datasetLabel(pack.datasetId, id, concepts.get(id)?.name ?? id, lang);
   const due = dueItems(history, pack, studyNow());
   const mastered = Object.values(history.cards).filter(c => c.streak >= 3).length;
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+    const refresh = () => {
+      clearTimeout(timer);
+      refreshClock(value => value + 1);
+      const now = studyNow();
+      const upcoming = pack.items.map(it => history.cards[it.id]?.due)
+        .filter((at): at is number => at !== undefined && at > now);
+      // Wake at the next due boundary; cap the wait to notice wall-clock changes.
+      timer = setTimeout(refresh, Math.min(60000, ...upcoming.map(at => at - now)));
+    };
+    const visible = () => { if (document.visibilityState === 'visible') refresh(); };
+    refresh();
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', visible);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('focus', refresh);
+      document.removeEventListener('visibilitychange', visible);
+    };
+  }, [history.cards, pack]);
   useEffect(() => {
     try {
       const saved = saveStudy(learningStorage(), pack, history);
@@ -63,7 +85,11 @@ export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics
   const restart = (reviewOnly = false) => {
     if (blocked) return;
     const session = startStudy(pack.items.length);
-    if (reviewOnly) { if (!due.length) return; session.queue = due; session.phase = 'recall'; }
+    if (reviewOnly) {
+      const currentDue = dueItems(history, pack, studyNow());
+      if (!currentDue.length) return;
+      session.queue = currentDue; session.phase = 'recall';
+    }
     setHistory(h => ({ ...h, undo: undefined, session, isolated: false, sessionId: newHistory(pack, session, studyNow()).sessionId })); setRevision(v => v + 1);
   };
   const firstCorrect = Object.values(session.first).filter(v => v === 'correct').length;
