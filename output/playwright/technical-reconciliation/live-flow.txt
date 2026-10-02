@@ -1,0 +1,115 @@
+### Open tabs
+- 0: [Human Atlas](https://ismailatilan-44.github.io/human-atlas/)
+- 1: [Human Atlas](http://127.0.0.1:3016/?devqa=1)
+- 2: (current) [Human Atlas](https://ismailatilan-44.github.io/human-atlas/?devqa=1&verify=cf05a4e)
+### Page
+- Page URL: https://ismailatilan-44.github.io/human-atlas/?devqa=1&verify=cf05a4e
+- Page Title: Human Atlas
+### Snapshot
+```yaml
+- main [ref=e3]:
+  - generic "Interactive human anatomy. Drag to orbit, pinch or scroll to zoom, and tap a structure to inspect it." [ref=e638]
+  - generic:
+    - heading "Alt Ekstremite Atlası 3D" [level=1]:
+      - text: Alt Ekstremite Atlası
+      - generic: 3D
+    - generic: 137 modeled pieces Alt ekstremite · Z-Anatomy
+    - combobox "Anatomi referansı" [ref=e641]:
+      - option "Erkek vücut"
+      - option "Kadın pelvis referansı"
+      - option "İç kulak referansı"
+      - option "Alt ekstremite referansı" [selected]
+      - option "Üst ekstremite sinir referansı"
+  - navigation "Explorer panels" [ref=e642]:
+    - combobox "Anatomik ad dili" [ref=e643]:
+      - option "TR" [selected]
+      - option "EN"
+      - option "LA"
+    - button "Önceki görünüme dön" [active] [ref=e644] [cursor=pointer]: ← Geri
+    - button "Search anatomy" [ref=e645] [cursor=pointer]
+    - button "About this atlas" [ref=e646] [cursor=pointer]
+  - navigation "Camera controls" [ref=e660]:
+    - button "three-quarter view" [pressed] [ref=e661] [cursor=pointer]:
+      - generic [ref=e32]: ¾
+    - button "front view" [ref=e662] [cursor=pointer]:
+      - generic [ref=e34]: F
+    - button "side view" [ref=e663] [cursor=pointer]:
+      - generic [ref=e36]: S
+    - button "back view" [ref=e664] [cursor=pointer]:
+      - generic [ref=e38]: B
+    - button "Rotate body" [ref=e665] [cursor=pointer]
+    - button "Reset view and layers" [ref=e666] [cursor=pointer]
+  - dialog [ref=e920]:
+    - generic [ref=e674]:
+      - generic [ref=e675]:
+        - button "Sahneyi kaydet" [ref=e676] [cursor=pointer]
+        - button "Çalışma" [ref=e677] [cursor=pointer]
+      - heading "Sol Aşık kemiği" [level=2] [ref=e921]
+    - generic [ref=e922]:
+      - paragraph [ref=e923]: Aynı kaynak modelden alınmış ayrı kemik yüzeyidir. Eklem ayrıntıları ve bağ tutunmaları ayrıca incelenmelidir; anatomik uzman incelemesi bekliyor.
+      - region "Anatomik bağlantılar" [ref=e924]:
+        - heading "Anatomik bağlantılar 6" [level=3] [ref=e925]:
+          - text: Anatomik bağlantılar
+          - generic [ref=e926]: "6"
+        - generic [ref=e927]:
+          - button "Bağlanan yapı Sol Ön talofibular bağ Talus gövdesinin lateral eklem yüzeyi önündeki bölge; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi." [ref=e928] [cursor=pointer]:
+            - generic [ref=e929]:
+              - generic [ref=e930]: Bağlanan yapı
+              - strong [ref=e931]: Sol Ön talofibular bağ
+              - emphasis [ref=e932]: Talus gövdesinin lateral eklem yüzeyi önündeki bölge; modelde ayrı tutunma yüzeyi/koordinatı işaretlenmedi.
+          - group [ref=e933]:
+            - generic "Kaynak" [ref=e934] [cursor=pointer]
+        - generic [ref=e935]:
+          - button "Eklem yaptığı kemik Sol Topuk kemiği" [ref=e936] [cursor=pointer]:
+            - generic [ref=e937]:
+              - generic [ref=e938]: Eklem yaptığı kemik
+              - strong [ref=e939]: Sol Topuk kemiği
+          - group [ref=e940]:
+            - generic "Kaynak" [ref=e941] [cursor=pointer]
+        - generic [ref=e942]:
+          - button "Eklem yaptığı kemik Sol Kamış kemiği" [ref=e943] [cursor=pointer]:
+            - generic [ref=e944]:
+              - generic [ref=e945]: Eklem yaptığı kemik
+              - strong [ref=e946]: Sol Kamış kemiği
+          - group [ref=e947]:
+            - generic "Kaynak" [ref=e948] [cursor=pointer]
+        - generic [ref=e949]:
+          - button "Eklem yaptığı kemik Sol Naviküler kemik" [ref=e950] [cursor=pointer]:
+            - generic [ref=e951]:
+              - generic [ref=e952]: Eklem yaptığı kemik
+              - strong [ref=e953]: Sol Naviküler kemik
+          - group [ref=e954]:
+            - generic "Kaynak" [ref=e955] [cursor=pointer]
+        - generic [ref=e956]:
+          - button "Bağlanan yapı Sol Arka talofibular bağ Talusun posterolateral bölgesi; lif kapsamı ve varyasyonlar bu modelde doğrulanmadı." [ref=e957] [cursor=pointer]:
+            - generic [ref=e958]:
+              - generic [ref=e959]: Bağlanan yapı
+              - strong [ref=e960]: Sol Arka talofibular bağ
+              - emphasis [ref=e961]: Talusun posterolateral bölgesi; lif kapsamı ve varyasyonlar bu modelde doğrulanmadı.
+          - group [ref=e962]:
+            - generic "Kaynak" [ref=e963] [cursor=pointer]
+        - generic [ref=e964]:
+          - button "Eklem yaptığı kemik Sol Kaval kemiği" [ref=e965] [cursor=pointer]:
+            - generic [ref=e966]:
+              - generic [ref=e967]: Eklem yaptığı kemik
+              - strong [ref=e968]: Sol Kaval kemiği
+          - group [ref=e969]:
+            - generic "Kaynak" [ref=e970] [cursor=pointer]
+      - generic [ref=e971]:
+        - generic [ref=e972]:
+          - text: Yapı kimliği
+          - strong [ref=e973]: zanatomy:talus-l
+        - generic [ref=e974]:
+          - text: Seçili parça
+          - strong [ref=e975]: "1"
+      - link "Model kaynağı" [ref=e976] [cursor=pointer]:
+        - /url: https://github.com/Z-Anatomy/Models-of-human-anatomy
+    - generic [ref=e739]:
+      - generic [ref=e740]:
+        - button "Odaklan" [ref=e741] [cursor=pointer]
+        - button "Çevreyi göster" [pressed] [ref=e742] [cursor=pointer]
+        - button "Parçayı gizle" [ref=e743] [cursor=pointer]
+      - button "Çevreyi göster" [ref=e980] [cursor=pointer]
+      - button "Seçimi temizle" [ref=e745] [cursor=pointer]
+    - button "Close" [ref=e746] [cursor=pointer]
+```
