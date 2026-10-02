@@ -1,0 +1,36 @@
+name: Atlas code checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Read-only checks are independent of the existing gh-pages publication path.
+permissions:
+  contents: read
+
+concurrency:
+  group: atlas-code-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out the tested revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Use the pinned Node runtime
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22.23.2
+          cache: npm
+      - name: Install the committed dependency graph
+        run: npm ci --no-audit --no-fund
+      - name: Types, tests, current data, geometry, interactions and production build
+        run: npm run check:ci
+      - name: Checks must not rewrite tracked source or generated data
+        run: git diff --exit-code

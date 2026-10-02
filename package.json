@@ -10,6 +10,7 @@
     "build": "vite build",
     "build:vercel": "vite build",
     "check": "tsc --noEmit",
+    "check:ci": "node scripts/check-ci.mjs",
     "prebuild": "node scripts/build-explorer-catalog.mjs --check",
     "deploy:pages": "node scripts/publish-pages.mjs"
   },

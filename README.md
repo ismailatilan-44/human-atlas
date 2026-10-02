@@ -16,9 +16,9 @@ Lung exploration now retains the original bronchovascular pieces while adding se
 
 The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md), and [BodyParts3D 4.3 thyroid attribution](public/models/extensions/THYROID-BP3D43-ATTRIBUTION.md), and [spinal cord attribution](public/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md). The [brachial-plexus attribution](public/models/extensions/BRACHIAL-PLEXUS-ATTRIBUTION.md) records its missing roots/cords and regional registration limits. Extension licenses must not be replaced by the base atlas license.
 
-## Local P1–P3 changes (not deployed)
+## P1–P3 changes
 
-The local branch adds shared Turkish/ASCII UI and agent search, canonical source-point metadata and visible source constraints, and exactly two BP3D4.3 left cord surfaces with two labels and three relationships. Main atlas: 2,292 parts. The existing ten-piece plexus selection is preserved; right cords, root contributions and expert acceptance remain open. See [local verification and release limits](docs/model/left-cords-local-acceptance.md), [upper targets v3](docs/model/upper-limb-targets-v3.md) and [component attribution](public/models/extensions/LEFT-CORDS-BP3D43-ATTRIBUTION.md). This is a local result; the working published explorer above remains on the previous release.
+The local branch adds shared Turkish/ASCII UI and agent search, canonical source-point metadata and visible source constraints, and exactly two BP3D4.3 left cord surfaces with two labels and three relationships. Main atlas: 2,292 parts. The existing ten-piece plexus selection is preserved; right cords, root contributions and expert acceptance remain open. See [local verification and release limits](docs/model/left-cords-local-acceptance.md), [upper targets v3](docs/model/upper-limb-targets-v3.md) and [component attribution](public/models/extensions/LEFT-CORDS-BP3D43-ATTRIBUTION.md). Source and exact deployed revision are recorded separately in the latest delivery handoff.
 
 ## Separate female pelvis reference
 
@@ -57,9 +57,13 @@ All 127 objects have dataset-scoped Turkish/English labels; 110 have sourced exa
 - Isolate a selected structure and read its details.
 - Use compact controls and detail panels on mobile.
 
-## Regional study (local)
+## Saved scenes and regional study
 
-Choose **Alt ekstremite referansı** and **9 kemik · Çalışmaya başla** to inspect nine right ankle-region source bones, identify the highlighted bone, receive corrective feedback and retry misses. The summary separates first-attempt correctness from eventual success. Names, source IDs, evidence and separate attribution come from the existing reference; this is a bounded recognition exercise, not regional completeness or expert acceptance. Progress is in memory; restart clears it, exit restores the previous explorer view, and refresh ends it. See [acceptance and source selection](docs/model/regional-study-v1.md). Validate with `node --test scripts/study-session.test.mjs`.
+**Çalışma ve tekrar** opens three bounded source-model recognition modules: nine right ankle bones, nine left ankle bones and five right upper-limb bones. Inspection, recall, source correction, retry and finish reuse the existing renderer and Back flow. Original IDs and separate licenses are preserved; no new geometry or relationship claims are added. See [module scope and bindings](docs/model/study-regions-v2.md).
+
+Study progress resumes by reopening the module after reload. First-attempt correctness, eventual recognition and spaced-review progress remain separate. The transparent bounded UTC scheduler uses 1/3/7/14/30-day correct intervals, 10-minute wrong/hint retry, unchanged skip dates and atomic undo; early practice cannot increase an interval. It is not FSRS or a validated mastery model. History is local to this browser, with 50 completed rounds and 500 recent review events retained; no account/backend is used.
+
+**Kayıtlı sahneler** saves up to 12 explorer views including reference, source-content fingerprint, selected concept/parts, camera, visibility and language. Saved views reopen across reference switches and reloads. Unknown/stale versions or IDs are rejected; backup recovery and storage failures are visible. Browser data deletion removes these local records. Review [device/anatomist acceptance packet](docs/model/learning-review-packet.md); those human acceptance gates remain pending.
 
 ## Run locally
 
@@ -77,6 +81,9 @@ Open http://localhost:3016. To build the static site, run `npm run build`; the o
 Agent and isolated-worktree setup, authored/generated ownership, and check selection are documented in [source → producer → check routing](docs/model/agent-workflow.md). `npm run check` runs TypeScript only; build success is not a test-suite or 3D acceptance result.
 
 ```sh
+npm run check:ci # frozen-input checks, all tests, types, validators, build and transfer budget
+
+# Individual checks
 npm run check
 node --test scripts/anatomy-knowledge.test.mjs
 node scripts/validate-atlas.mjs
@@ -84,7 +91,9 @@ node scripts/validate-interactions.mjs
 npm run build
 ```
 
-Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, isolation, rotation, and 390×844, 320×568, and 844×390 layouts. Phone controls stay clear of the exploded inventory, and isolated structures fit the space above or beside the detail panel. Physical-device performance and real multitouch hardware have not been tested.
+The read-only [code workflow](.github/workflows/code-checks.yml) pins Node and action revisions and uses `npm ci` with the checked-in lockfile. It is separate from the existing gh-pages publication. It does not execute historical source activation scripts or grant publishing permissions.
+
+Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, isolation, rotation, and 390×844, 320×568, and 844×390 layouts. Phone controls stay clear of the exploded inventory, and isolated structures fit the space above or beside the detail panel. Physical-device performance and real multitouch hardware have not been tested. Opt-in `?qa=1` reports actual WebGL diagnostics; [measurement semantics and budgets](docs/model/performance-qa.md) distinguish CPU submission from GPU/device performance.
 
 For the offline source catalog and pending scope matrix, run `node scripts/build-model-inventory.mjs --check`. After changes to its recorded inputs, regenerate with `node scripts/build-model-inventory.mjs`. This inventory checks source/selection links; it does not inspect anatomical geometry or establish regional completeness.
 

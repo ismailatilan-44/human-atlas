@@ -155,3 +155,12 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
 .study-entry { top: auto; bottom: 130px; left: 30px; }
 @media (max-width: 767px) { .study-entry { top: auto; bottom: 155px; left: 12px; } }
 .studio .study-entry { background: #fff; border: 1px solid #a8b6b0; border-radius: 9px; padding: 9px 12px; box-shadow: 0 2px 8px #24334412; }
+.study-entry { display: flex; gap: 8px; max-width: calc(100vw - 24px); }
+.study-entry button { min-height: 40px; padding: 3px 7px; border-radius: 5px; }
+.study-entry button:hover { background: #edf3f0; }
+.scene-notice { position: absolute; left: 12px; bottom: 215px; z-index: 80; max-width: min(420px, calc(100vw - 24px)); background: #fff; border: 1px solid #aab9b2; border-radius: 8px; padding: 12px; font-size: 13px; }
+.scene-notice button { padding: 6px 12px; }
+.detail-learning-actions { display: flex; gap: 8px; font-size: 11px; }
+.detail-learning-actions button { min-height: 32px; padding: 4px 7px; border: 1px solid #aab9b2 !important; border-radius: 6px; }
+@media (max-width:767px) { body:has([role="dialog"].detail-sheet) .study-entry { display: none; } }
+@media (max-width: 767px) { .study-top strong { max-width: 55%; } .study-entry { gap: 2px; } .studio .study-entry { padding: 3px 6px; } }

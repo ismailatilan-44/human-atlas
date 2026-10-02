@@ -1,0 +1,6 @@
+.saved-scenes-panel { position: absolute; z-index: 60; top: 72px; right: 16px; width: min(380px, calc(100vw - 32px)); max-height: calc(100dvh - 88px); padding: 20px; overflow-y: auto; overscroll-behavior: contain; background: #fffffff7; border: 1px solid #cbd5cf; border-radius: 14px; box-shadow: 0 8px 35px #24334420; font-size: 13px; }
+.saved-scenes-panel h2 { font-size: 19px; font-weight: 650; }
+.saved-scenes-panel button { min-height: 44px; border: 1px solid #aab9b2; border-radius: 7px; padding: 8px 10px; background: white; text-align: left; }
+.saved-scenes-panel button:disabled { opacity: .5; }
+.saved-scenes-panel button:focus-visible, .saved-scenes-panel input:focus-visible { outline: 2px solid #246e64; outline-offset: 2px; }
+@media(max-width:767px) { .saved-scenes-panel { top: 60px; max-height: calc(100dvh - 76px); padding: 16px; } }

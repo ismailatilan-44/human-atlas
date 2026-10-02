@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "left-ankle-v1",
+  "version": "1",
+  "datasetId": "lower-limb-nerve-reference",
+  "title": "Sol ayak bileği çevresi · 9 kemik",
+  "labelSource": "data/anatomy/lower-limb-reference.json",
+  "attribution": "/models/lower-limb-nerve-reference/ATTRIBUTION.md",
+  "expertReview": "pending",
+  "scope": "Kaynak modelde ayrı seçilebilir 9 kemiğin adını ve tarafını tanıma. Eklem, tutunma veya sinir ilişkileri değerlendirilmez; tam bölge veya uzman onaylı sınav değildir.",
+  "learningGoals": [
+    "Vurgulanan kaynak yüzeyini adı ve tarafıyla eşleştir.",
+    "Yapıyı yalnız görünümde ve aynı kaynak kemik bağlamında tanı.",
+    "Yanlış veya atlanan yanıtı kaynak adı ve kanıtıyla düzelt."
+  ],
+  "sourceInputs": [
+    {
+      "path": "data/anatomy/lower-limb-reference.json",
+      "sha256": "c0f9d85a6afa81dec5a4c0206b174ece2c02954d8e801e2d16789d82284b323f"
+    },
+    {
+      "path": "public/models/lower-limb-nerve-reference/atlas.json",
+      "sha256": "1b6f34756b214406c381eb98bf99b850afe60a458e7b39324329dd3c5d887068"
+    }
+  ],
+  "items": [
+    {
+      "id": "left-ankle-v1:talus",
+      "conceptId": "zanatomy:talus-l",
+      "sourceObject": "Talus.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1448; CSV line 1523; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Talus.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ],
+      "geometryPartId": "ZA-DLN-TALUS-L"
+    },
+    {
+      "id": "left-ankle-v1:calcaneus",
+      "conceptId": "zanatomy:calcaneus-l",
+      "sourceObject": "Calcaneus.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1468; CSV line 1543; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Calcaneus.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ],
+      "geometryPartId": "ZA-DLN-CALCANEUS-L"
+    },
+    {
+      "id": "left-ankle-v1:navicular-bone",
+      "conceptId": "zanatomy:navicular-bone-l",
+      "sourceObject": "Navicular bone.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1484; CSV line 1559; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Navicular bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "geometryPartId": "ZA-LLR-NAVICULAR-BONE-L"
+    },
+    {
+      "id": "left-ankle-v1:cuboid-bone",
+      "conceptId": "zanatomy:cuboid-bone-l",
+      "sourceObject": "Cuboid bone.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1489; CSV line 1564; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Cuboid bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "geometryPartId": "ZA-LLR-CUBOID-BONE-L"
+    },
+    {
+      "id": "left-ankle-v1:medial-cuneiform-bone",
+      "conceptId": "zanatomy:medial-cuneiform-bone-l",
+      "sourceObject": "Medial cuneiform bone.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1486; CSV line 1561; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Medial cuneiform bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "geometryPartId": "ZA-LLR-MEDIAL-CUNEIFORM-BONE-L"
+    },
+    {
+      "id": "left-ankle-v1:intermediate-cuneiform-bone",
+      "conceptId": "zanatomy:intermediate-cuneiform-bone-l",
+      "sourceObject": "Intermediate cuneiform bone.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1487; CSV line 1562; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Intermediate cuneiform bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "geometryPartId": "ZA-LLR-INTERMEDIATE-CUNEIFORM-BONE-L"
+    },
+    {
+      "id": "left-ankle-v1:lateral-cuneiform-bone",
+      "conceptId": "zanatomy:lateral-cuneiform-bone-l",
+      "sourceObject": "Lateral cuneiform bone.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "Source table row 1488; CSV line 1563; English and Latin columns",
+          "scope": "Exact numeric TA2 table term"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Lateral cuneiform bone.l",
+          "scope": "Source object identity and side; package geometry review separate"
+        }
+      ],
+      "geometryPartId": "ZA-LLR-LATERAL-CUNEIFORM-BONE-L"
+    },
+    {
+      "id": "left-ankle-v1:tibia",
+      "conceptId": "zanatomy:tibia-l",
+      "sourceObject": "Tibia.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1397; CSV line 1472; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Tibia.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ],
+      "geometryPartId": "ZA-DLN-TIBIA-L"
+    },
+    {
+      "id": "left-ankle-v1:fibula",
+      "conceptId": "zanatomy:fibula-l",
+      "sourceObject": "Fibula.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1427; CSV line 1502; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fibula.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ],
+      "geometryPartId": "ZA-DLN-FIBULA-L"
+    }
+  ]
+}

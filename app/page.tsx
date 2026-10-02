@@ -1,5 +1,7 @@
 import StudyPanel from "./study-panel";
-import studyPack from "../data/study/right-ankle-v1.json";
+import { studyPacks, type StudyPack } from "./study-packs";
+import SavedScenesPanel from "./saved-scenes-panel";
+import { validateScene, type SavedScene } from "./saved-scenes";
 import { matchesAnatomyQuery } from "./search";
 import {
   REFERENCE_DATASETS,
@@ -11,7 +13,7 @@ import {
 import { assetUrl } from "./asset-url";
 import CoveragePanel from "./coverage-panel";
 import { loadAtlas } from "./load-atlas";
-import { flushSync } from "react-dom";
+import { flushSync, createPortal } from "react-dom";
 import { registerAtlasTools } from "./agent-tools";
 import { getRepresentationNote } from "./atlas-metadata";
 import { selectionVariant } from "./reviewed-selections";
@@ -69,9 +71,23 @@ const initial: SceneState = {
   focused: false,
   ghost: false,
 };
+type ExplorerSnapshot = { dataset: DatasetId; state: SceneState; chosen: Concept | null; details: boolean;
+  panel: "layers" | "search" | null; language: "tr" | "en" | "la"; camera: CameraPose | null;
+  history: { state: SceneState; chosen: Concept | null; details: boolean; camera: CameraPose | null }[] };
 export default function Home() {
   const [studying, setStudying] = useState(false);
+  const [activePack, setActivePack] = useState<StudyPack>(studyPacks[0]);
+  const [learningOpen, setLearningOpen] = useState(false);
+  const [scenesOpen, setScenesOpen] = useState(false);
+  const [pendingScene, setPendingScene] = useState<SavedScene | null>(null);
+  const [sceneNotice, setSceneNotice] = useState('');
+  const [pendingPack, setPendingPack] = useState<StudyPack | null>(null);
+  const [lastPack, setLastPack] = useState(() => {
+    try { return localStorage.getItem('atlas.last-study-pack') ?? ''; } catch { return ''; }
+  });
   const studyReturn = useRef<(() => void) | null>(null);
+  const launchSnapshot = useRef<ExplorerSnapshot | null>(null);
+  const [returnSnapshot, setReturnSnapshot] = useState<ExplorerSnapshot | null>(null);
   const detailTitle = useRef<HTMLHeadingElement>(null);
   const camera = useRef<CameraPose | null>(null);
   const history = useRef<
@@ -117,7 +133,7 @@ export default function Home() {
         }
       })
       .catch((e) => {
-        if (e.name !== "AbortError") setError(e.message);
+        if (e.name !== "AbortError") { setError(e.message); setPendingPack(null); setPendingScene(null); }
       });
     return () => abort.abort();
   }, [dataset]);
@@ -271,15 +287,57 @@ export default function Home() {
     setDetails(false);
     setPanel((p) => (p === next ? null : next));
   };
-  const startSession = () => {
-    const saved = { state, chosen, details, panel, camera: camera.current, history: [...history.current] };
+  const snapshot = (): ExplorerSnapshot => ({ dataset, state, chosen, details, panel, language, camera: camera.current, history: [...history.current] });
+  const applySnapshot = (saved: ExplorerSnapshot) => {
+    setState({ ...saved.state, rotate: false, restoreCamera: saved.camera ?? undefined });
+    setChosen(saved.chosen); setDetails(saved.details); setPanel(saved.panel); setLanguage(saved.language);
+    history.current = saved.history; setHistorySize(saved.history.length);
+  };
+  const startSession = (pack: StudyPack) => {
+    const saved = launchSnapshot.current ?? snapshot();
+    launchSnapshot.current = null;
     studyReturn.current = () => {
-      setState({ ...saved.state, rotate: false, restoreCamera: saved.camera ?? undefined });
-      setChosen(saved.chosen); setDetails(saved.details); setPanel(saved.panel);
-      history.current = saved.history; setHistorySize(saved.history.length);
+      if (saved.dataset !== pack.datasetId) { setReturnSnapshot(saved); setDataset(saved.dataset); }
+      else applySnapshot(saved);
     };
+    setActivePack(pack); setLearningOpen(false);
+    setLastPack(pack.id);
+    try { localStorage.setItem('atlas.last-study-pack', pack.id); } catch { /* Panel reports durable storage availability. */ }
     setPanel(null); setDetails(false); setStudying(true);
   };
+  const requestStudy = (pack: StudyPack) => {
+    launchSnapshot.current ??= snapshot();
+    if (dataset === pack.datasetId && atlas?.datasetId === pack.datasetId && progress === 100) startSession(pack);
+    else { setPendingPack(pack); setDataset(pack.datasetId); }
+  };
+  useEffect(() => {
+    if (!returnSnapshot || atlas?.datasetId !== returnSnapshot.dataset || progress !== 100) return;
+    applySnapshot(returnSnapshot); setReturnSnapshot(null);
+  }, [returnSnapshot, atlas, progress]);
+  const restoreScene = (scene: SavedScene) => {
+    if (!atlas || dataset !== scene.dataset || atlas.datasetId !== scene.dataset || progress !== 100) { setPendingScene(scene); setDataset(scene.dataset); return; }
+    const invalid = validateScene(scene, atlas, conceptMap);
+    if (invalid) { setSceneNotice(invalid); return; }
+    remember();
+    const restored = scene.chosenId ? conceptMap.get(scene.chosenId) ?? null : null;
+    const anchor = atlas.anchors?.find(a => a.conceptId === scene.chosenId);
+    setState(s => ({ ...scene.state, rotate: false, reset: s.reset + 1,
+      restoreCamera: scene.camera ?? undefined,
+      anchor: anchor && restored ? { ...anchor, label: datasetLabel(dataset, restored.id, restored.name, scene.language) } : undefined }));
+    setChosen(restored); setDetails(scene.details); setLanguage(scene.language);
+    setScenesOpen(false); setLearningOpen(false); setPanel(null); setSceneNotice('Sahne geri yüklendi.');
+  };
+  useEffect(() => {
+    if (!pendingScene || !atlas || atlas.datasetId !== pendingScene.dataset || dataset !== pendingScene.dataset || progress !== 100) return;
+    restoreScene(pendingScene); setPendingScene(null);
+  }, [pendingScene, atlas, dataset, progress, conceptMap]);
+  useEffect(() => {
+    if (!pendingPack || dataset !== pendingPack.datasetId || !atlas || atlas.datasetId !== pendingPack.datasetId || progress !== 100) return;
+    if (!pendingPack.items.every(it => conceptMap.get(it.conceptId)?.elements.length === 1)) {
+      setError('Çalışma kaynağı bu sürümle eşleşmiyor.'); setPendingPack(null); return;
+    }
+    startSession(pendingPack); setPendingPack(null);
+  }, [pendingPack, dataset, atlas, progress, conceptMap]);
   return (
     <main className={`studio ${reference ? "regional-reference" : ""}`}>
       {atlas && (
@@ -300,18 +358,30 @@ export default function Home() {
             setProgress(n);
             if (n === 100) setError("");
           }}
-          onError={setError}
+          onError={(message) => { setError(message); setPendingPack(null); setPendingScene(null); setReturnSnapshot(null); launchSnapshot.current = null; }}
         />
       )}
       <div className="vignette" />
-      {studying ? <StudyPanel concepts={conceptMap} reveal={(id, isolated) => {
+      {studying ? <StudyPanel key={activePack.id} pack={activePack} language={language} concepts={conceptMap} reveal={(id, isolated) => {
         const c = conceptMap.get(id);
         if (!c) return;
         choose(c);
         setDetails(false);
         setState(s => ({ ...s, ghost: true, isolate: isolated, anchor: undefined, visible: ["skeletal"], hidden: [] }));
       }} exit={() => { studyReturn.current?.(); setStudying(false); }} /> : <>
-      {dataset === studyPack.datasetId && progress === 100 && studyPack.items.every(it => conceptMap.get(it.conceptId)?.elements.length === 1) && <button className="study-entry" onClick={startSession}>9 kemik · Çalışmaya başla</button>}
+      <div className="study-entry"><button onClick={() => { launchSnapshot.current = learningOpen ? null : snapshot(); setLearningOpen(v => !v); setScenesOpen(false); setDetails(false); setPanel(null); }}>Çalışma ve tekrar</button><button disabled={!atlas || progress !== 100} onClick={() => { setScenesOpen(v => !v); setLearningOpen(false); setSceneNotice(''); }}>Kayıtlı sahneler</button></div>
+      {sceneNotice && createPortal(<div className="scene-notice" role="status">{sceneNotice}<button aria-label="Bildirimi kapat" onClick={() => setSceneNotice('')}>×</button></div>, document.body)}
+      {scenesOpen && atlas && progress === 100 && <SavedScenesPanel atlas={atlas} dataset={dataset} state={state} camera={() => camera.current} chosenId={chosen?.id ?? null} details={details} language={language} onRestore={restoreScene} onClose={() => setScenesOpen(false)} />}
+      {learningOpen && <section className="detail-sheet study-panel" aria-label="Çalışma modülleri">
+        <button onClick={() => { setLearningOpen(false); setPendingPack(null); launchSnapshot.current = null; }}>Kapat</button>
+        <h2>Kaynak modelle çalış</h2>
+        <p>İncele, hatırla, düzelt ve zamanı gelen soruları tekrar et. İlerleme bu tarayıcıda saklanır.</p>
+        {studyPacks.map(pack => <div key={pack.id}>
+          <h3>{pack.title}</h3><p>{pack.scope}</p>
+          <button disabled={!!pendingPack} onClick={() => requestStudy(pack)}>{lastPack === pack.id ? 'Devam et' : 'Çalışmaya başla'} · {pack.items.length} yapı</button>
+        </div>)}
+        {pendingPack && <p role="status">Referans yükleniyor…</p>}
+      </section>}
       <header className="identity">
         <div className="eyebrow">
           <span className="status-dot" /> INTERACTIVE ANATOMY
@@ -734,6 +804,10 @@ export default function Home() {
           showCloseButton={true}
         >
           <div className="detail-header">
+            <div className="detail-learning-actions">
+              <button onClick={() => { setScenesOpen(true); setLearningOpen(false); setSceneNotice(''); }}>Sahneyi kaydet</button>
+              <button onClick={() => { launchSnapshot.current = snapshot(); setLearningOpen(true); setDetails(false); }}>Çalışma</button>
+            </div>
             <div className="detail-accent" style={{ background: system?.color }} />
             <div className="eyebrow">
               {new Set(selectedParts.map((p) => p.system)).size > 1

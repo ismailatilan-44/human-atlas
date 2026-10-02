@@ -8,6 +8,7 @@ import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js
 import { createExplosionLayout } from "./explosion-layout";
 import { decodeModelResponse } from "./model-download";
 import { PointerTap } from "./pointer-tap";
+import { createPerformanceReport } from "./performance-report";
 import { inspectionDistance } from "./inspection-camera";
 import { SYSTEMS, type Atlas, type SceneState, type CameraPose } from "./anatomy";
 interface Props {
@@ -35,6 +36,7 @@ export default function AnatomyScene({
   cameraChanged.current = onCameraChange;
   useEffect(() => {
     const el = host.current!;
+    const loadStarted = performance.now();
     let disposed = false,
       frame = 0,
       dirty = true,
@@ -66,6 +68,7 @@ export default function AnatomyScene({
     renderer.toneMapping = T.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1.12;
     el.appendChild(renderer.domElement);
+    const performanceReport = createPerformanceReport(el, atlasDataset(atlas), loadStarted);
     renderer.domElement.setAttribute(
       "aria-label",
       "Interactive human anatomy. Drag to orbit, pinch or scroll to zoom, and tap a structure to inspect it.",
@@ -725,7 +728,9 @@ export default function AnatomyScene({
       controls.update();
       if (controls.autoRotate) dirty = true;
       if (dirty) {
+        const renderStarted = performanceReport ? performance.now() : 0;
         renderer.render(scene, camera);
+        performanceReport?.rendered(renderer, performance.now() - renderStarted, ready);
         anchorLabel.hidden = !s.anchor || amount > 0.01;
         if (s.anchor && amount <= 0.01) {
           projected.fromArray(s.anchor.position).project(camera);
@@ -787,11 +792,13 @@ export default function AnatomyScene({
     animate();
     const contextLost = (e: Event) => {
       e.preventDefault();
+      performanceReport?.contextLost();
       onError("The 3D session was paused by your device. Reload to continue.");
     };
     renderer.domElement.addEventListener("webglcontextlost", contextLost);
     return () => {
       disposed = true;
+      performanceReport?.dispose();
       abort.abort();
       cancelAnimationFrame(frame);
       observer.disconnect();

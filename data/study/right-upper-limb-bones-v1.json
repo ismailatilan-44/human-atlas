@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "right-upper-limb-bones-v1",
+  "version": "1",
+  "datasetId": "upper-limb-nerve-reference",
+  "title": "Sağ üst ekstremite · 5 kemik",
+  "labelSource": "data/anatomy/upper-limb-reference.json",
+  "attribution": "/models/upper-limb-nerve-reference/ATTRIBUTION.md",
+  "expertReview": "pending",
+  "scope": "Kaynak modelde ayrı seçilebilir 5 kemiğin adını ve tarafını tanıma. Eklem, tutunma veya sinir ilişkileri değerlendirilmez; tam bölge veya uzman onaylı sınav değildir.",
+  "learningGoals": [
+    "Vurgulanan kaynak yüzeyini adı ve tarafıyla eşleştir.",
+    "Yapıyı yalnız görünümde ve aynı kaynak kemik bağlamında tanı.",
+    "Yanlış veya atlanan yanıtı kaynak adı ve kanıtıyla düzelt."
+  ],
+  "sourceInputs": [
+    {
+      "path": "data/anatomy/upper-limb-reference.json",
+      "sha256": "a2f9519dc52ebdbcb661d01afe677eddd3b932522d730492911fb474497b55f1"
+    },
+    {
+      "path": "public/models/upper-limb-nerve-reference/atlas.json",
+      "sha256": "35a4dd8355335f060e2abd4fa412e200c45472eb484ec9bc3a9ce6019f3cec3c"
+    }
+  ],
+  "items": [
+    {
+      "id": "right-upper-limb-bones-v1:clavicle",
+      "conceptId": "zanatomy:clavicle-r",
+      "sourceObject": "Clavicle.r",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1225; row 1168; English/Latin pair"
+        }
+      ],
+      "geometryPartId": "ZA-ULNR-CONTEXT-CLAVICLE-R"
+    },
+    {
+      "id": "right-upper-limb-bones-v1:scapula",
+      "conceptId": "zanatomy:scapula-r",
+      "sourceObject": "Scapula.r",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1200; row 1143; English/Latin pair"
+        }
+      ],
+      "geometryPartId": "ZA-ULNR-CONTEXT-SCAPULA-R"
+    },
+    {
+      "id": "right-upper-limb-bones-v1:humerus",
+      "conceptId": "zanatomy:humerus-r",
+      "sourceObject": "Humerus.r",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1237; row 1180; English/Latin pair"
+        }
+      ],
+      "geometryPartId": "ZA-ULNR-CONTEXT-HUMERUS-R"
+    },
+    {
+      "id": "right-upper-limb-bones-v1:radius",
+      "conceptId": "zanatomy:radius-r",
+      "sourceObject": "Radius.r",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1267; row 1210; English/Latin pair"
+        }
+      ],
+      "geometryPartId": "ZA-ULNR-CONTEXT-RADIUS-R"
+    },
+    {
+      "id": "right-upper-limb-bones-v1:ulna",
+      "conceptId": "zanatomy:ulna-r",
+      "sourceObject": "Ulna.r",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1287; row 1230; English/Latin pair"
+        }
+      ],
+      "geometryPartId": "ZA-ULNR-CONTEXT-ULNA-R"
+    }
+  ]
+}
