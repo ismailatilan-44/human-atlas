@@ -12,3 +12,5 @@ For each candidate record the source URL, creator, release/version, access date,
 Record use status separately for private inspection, adaptation, and inclusion in a distributed product. Private access and redistribution are distinct; do not infer either right from the other's availability. When rights or origins are unclear, retain the candidate as unresolved rather than silently promoting it into a release asset. Follow the user's current authorization for acquisition and analysis, and document material source-specific access conditions before using restricted material.
 
 Finish with a compact intake record and the next verification needed: geometry audit, terminology mapping, imaging review, or rights clarification.
+
+Use the repository's [source-use routing](../../../docs/model/agent-workflow.md#source-use-for-anatomy-and-learning-decisions) for material source choices and the small decision entry in the owning intake record. For skull candidates, consult the relevant [source options](../../../docs/model/skull-research/source-options.md); dated research does not replace current per-component rights or frame verification.

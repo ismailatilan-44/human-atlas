@@ -22,6 +22,32 @@ Run commands from the repository root using the README's Node version. Regenerat
 
 The build's `prebuild` checks the explorer projection, not whether the knowledge graph was freshly derived from its authored inputs. A successful TypeScript check or Pages deployment is not proof that anatomy tests ran. The read-only `.github/workflows/code-checks.yml` runs `npm run check:ci` on pinned Node/actions and the npm lockfile. It discovers all `scripts/*.test.mjs`, checks current projections, atlas/interactions, builds, and enforces the JS transfer budget. Pages publishing remains separate; report actual CI and deployment run evidence separately.
 
+## Source-use for anatomy and learning decisions
+
+Start from the approved task and its owning source records, not every available reference. For skull work, use the [research index](skull-research/README.md) to select the relevant route:
+
+| Decision | Read first | Continue through existing ownership/checks |
+| --- | --- | --- |
+| Bone identity, group membership, fine-feature claim | [Current inventory and limits](skull-research/current-inventory.md) | Owning anatomy/label/coverage record; knowledge tests and relevant validators above. Whole-bone membership does not prove a landmark or canal. |
+| Acquire, adapt or register an asset | [Source options and component terms](skull-research/source-options.md) | Source-intake skill, then asset-audit or imaging workflow as needed; owning intake/attribution/registration record and package checks. |
+| Learning objective or answer content | [Learning content and cautions](skull-research/learning-content.md) | Owning target/content record; terminology review where needed; study checks only when study data/state changes. |
+| Separation, reveal, cutting, assembly or motion | [Interaction evidence and limits](skull-research/interactions-and-pedagogy.md) | Benchmark/regional-acceptance skills as applicable; viewer/state routing above and actual browser journey below. Research priorities remain proposals. |
+
+For other regions use their corresponding versioned records. Recheck the relevant live source/version when a decision depends on changed external terms or a newer release. A dated source claim is not a current license verification. Keep direct-source license statements separate from downstream component exceptions; preserve specimen identity, object/concept IDs, units/axes and shared coordinate conversions. Do not silently merge reference bodies or substitute viewer-code/metadata rights for geometry rights.
+
+Use the [decision-record template](source-decision-template.md) for material choices affecting anatomical claims, source/rights/frame, or learning behavior. Put the completed entry in the existing owning review or design record; no separate ledger is required. One entry can cover a coherent package. Link only evidence relevant to the choice, record why it was chosen or why research advice was not followed, and retain unknowns. Routine styling and mechanical edits do not need this record. Updating a decision must preserve the superseded rationale where it explains current constraints.
+
+### Lightweight review before acceptance
+
+Use a fresh independent reviewer for a material anatomy/source/mechanism package; guidance-only changes can use a short navigation dry run. Review the relevant changed claims and source links, not the entire research library:
+
+- Trace the decision to a source/version and locator. Separate observed geometry or behavior, source statements, inference, proposals and untested assumptions. Source-backed is **not expert-verified**; identity, placement, passage and clinical acceptance remain distinct.
+- Check applicable component licenses, direct-source exceptions, attribution and reference-frame constraints against the proposed use. State unresolved rights or frame evidence instead of assuming compatibility.
+- Confirm the actual behavior matches the selected learning goal and represented anatomy. A whole-bone hide is not a calvarial cut, a clip is not CT, and an educational explosion is not physiological movement. Apply these examples only where relevant.
+- Select the smallest checks from the ownership table. For visible changes, exercise the relevant search → selection → focus/context → relationship → return journey, including state restoration, laterality and target screen sizes where affected. Use [existing development visual QA](development-qa.md) for its supported state/replay scenarios and the browser evidence route below; do not assume it already contains skull lessons. Record actual rendered behavior, expected/actual results, source revision and limitations. A build, DOM control, or fixture PASS alone is not visual/anatomical acceptance.
+
+Record review findings and checks in the owning record/PR and delivery handoff. Documentation-only changes need relevant source/link/whitespace checks, not a new model test suite or fabricated browser run. No new completeness percentage, compulsory source count, generic harness, or accuracy guarantee follows from this workflow.
+
 ## Frozen activation versus reusable validation
 
 Read a historical integration script before selecting it as a check. `scripts/integrate-foot-supports.py` activates a frozen proposal: it rejects changed records with the same identity and asserts global counts (including exactly 401 main labels). Its `--check` verifies that activation snapshot; it is not a universal validator for later label edits/additions. Do not overwrite a reviewed new record with the historical proposal or relax source evidence merely to make that script pass. For later edits use the owning current records, knowledge tests, runtime validators and inventory checks; retain/reconcile historical evidence explicitly. The same distinction applies to frozen candidate builders and later target versions.
