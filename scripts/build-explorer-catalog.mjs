@@ -9,10 +9,13 @@ const baseIds = new Set(read("public/models/atlas.json").concepts.map((c) => c.i
 const catalog = {
   entities: graph.entities
     .filter((e) => !baseIds.has(e.id))
-    .map(({ id, name, geometryPartIds }) => ({ id, name, geometryPartIds })),
+    .map(({ id, name, geometryPartIds, representationStatus, referencePoint, representationLimits, expertReview, anatomicalCoverage, geometryNote, evidence }) => ({
+      id, name, geometryPartIds, representationStatus, referencePoint, representationLimits,
+      expertReview, anatomicalCoverage, geometryNote, evidence,
+    })),
   sources: graph.sources.map(({ id, title, url }) => ({ id, title, url })),
   relations: graph.relations.map(
-    ({ id, subject, predicate, object, status, evidence, qualifiers }) => {
+    ({ id, subject, predicate, object, status, expertReview, evidence, qualifiers }) => {
       assert(
         !qualifiers?.requiresLandmarkDisplay || qualifiers.attachmentNoteTr,
         `Missing visible attachment region for ${id}`,
@@ -23,6 +26,8 @@ const catalog = {
         predicate,
         object,
         status,
+        expertReview,
+        qualifiers: qualifiers ?? {},
         viaDivision: qualifiers?.viaDivision ?? null,
         attachmentNoteTr: qualifiers?.attachmentNoteTr ?? null,
         evidence: evidence.map(({ sourceId, locator }) => ({ sourceId, locator })),

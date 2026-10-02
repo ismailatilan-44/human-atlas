@@ -6,9 +6,11 @@ import {inspectionDistance} from '../app/inspection-camera.ts';
 import {Box3, Vector3, PerspectiveCamera} from 'three';
 import {createServer} from 'vite';
 // Use the app's bundler for its TypeScript and JSON dependency imports.
-const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true}, appType:'custom'});
-let atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel, relationshipsFor, datasetLabel, referenceDescription;
+const loader = await createServer({configFile:false, optimizeDeps:{noDiscovery:true}, server:{middlewareMode:true,hmr:false}, appType:'custom'});
+let matchesAnatomyQuery, representationFor, atlasTools, mergeAtlas, loadAtlas, explorerConcepts, prepareAtlas, anatomyLabel, relationshipsFor, datasetLabel, referenceDescription;
 try {
+  ({matchesAnatomyQuery} = await loader.ssrLoadModule('/app/search.ts'));
+  ({representationFor} = await loader.ssrLoadModule('/app/knowledge.ts'));
   ({atlasTools} = await loader.ssrLoadModule('/app/agent-tools.ts'));
   ({mergeAtlas, loadAtlas} = await loader.ssrLoadModule('/app/load-atlas.ts'));
   ({explorerConcepts, relationshipsFor} = await loader.ssrLoadModule('/app/knowledge.ts'));
@@ -116,6 +118,27 @@ for (const file of ['atlas.json']) {
   assert.equal(concepts.find(c => c.id === 'FMA46565').elements.length, 43, 'Source skull group must remain intact');
   const [findEnriched, inspectEnriched] = atlasTools({...atlas, concepts}, c => {selected=c;});
   assert(findEnriched.execute({query:'karaciger'}).some(c => c.id === 'FMA7197'));
+  for (const [lower, upper] of [['sinir','SİNİR'],['biseps','BİSEPS'],['karaciger','KARACİĞER'],['sol','SOL'],['fma45239','FMA45239']]) {
+    const ui = q => concepts.filter(c => matchesAnatomyQuery('male-body',c,q)).map(c=>c.id);
+    assert(ui(lower).length > 0);
+    assert.deepEqual(ui(lower),ui(upper));
+    assert.deepEqual(findEnriched.execute({query:lower}),findEnriched.execute({query:upper}));
+  }
+  const landmarks=JSON.parse(await readFile(new URL('../public/models/extensions/upper-arm-landmarks.json',import.meta.url)));
+  for(const anchor of landmarks.anchors) {
+    const representation=representationFor(anchor.conceptId);
+    assert.equal(representation.representationStatus,'anchored_reference');
+    assert.deepEqual(representation.referencePoint.position,anchor.position);
+    assert.equal(representation.geometryPartIds.length,0);
+    assert.deepEqual(inspectEnriched.execute({id:anchor.conceptId}).representation,representation);
+  }
+  for(const point of landmarks.unresolved) assert.equal(representationFor(point.conceptId).representationStatus,'landmark_unanchored');
+  for(const id of ['FMA45239','FMA45241']) {
+    assert.equal(concepts.find(c=>c.id===id).elements.length,1);
+    assert(relationshipsFor(id).every(r=>r.qualifiers.geometry && r.qualifiers.scope));
+    assert.equal(representationFor(id).representationStatus,'registered_geometry');
+  }
+  assert.equal(concepts.find(c=>c.id==='atlas:left-brachial-plexus').elements.length,10);
   inspectEnriched.execute({id:'atlas:left-suprascapular-nerve'});
   assert.equal(selected.elements.length, 0, 'An unmodeled nerve must not inherit other geometry');
   console.log(`${file} with ${atlas.parts.length} registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.`);

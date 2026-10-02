@@ -1,0 +1,16 @@
+{
+  "baselineRevision": "2fadd79c8229d3f2b0069b6191c2000b21f6d4c2",
+  "reason": "Only package producer inputSnapshots changed; source geometry, concepts, labels and relations remain identical. Historical acceptance is preserved, not re-dated.",
+  "files": [
+    {
+      "path": "public/models/upper-limb-nerve-reference/atlas.json",
+      "historicalSha256": "5b977867fb49394bb7cc04ea5166fb82620daa9fac26e0f6fceaf1e44276eb44",
+      "semanticSha256": "7406e395fa1279789f9ab6b7ce6f984957dc476afbe7292384f87d9a43ab2f1c"
+    },
+    {
+      "path": "data/anatomy/upper-limb-reference.json",
+      "historicalSha256": "13e9f2c2ee50f66a647078a5c1b8576209b1f537a34f256622b67cd2010cd7bf",
+      "semanticSha256": "bc4d7214118f027d2f2a0ecce73bcfbb0d2b230f07ba874644685fb818b8a371"
+    }
+  ]
+}

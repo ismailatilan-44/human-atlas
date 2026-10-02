@@ -1,9 +1,9 @@
+import { matchesAnatomyQuery } from "./search";
 import {
   REFERENCE_DATASETS,
   referenceDataset,
   referenceDescription,
   datasetLabel,
-  datasetSearchTerms,
   defaultDatasetScene,
 } from "./reference-datasets";
 import { assetUrl } from "./asset-url";
@@ -13,7 +13,7 @@ import { flushSync } from "react-dom";
 import { registerAtlasTools } from "./agent-tools";
 import { getRepresentationNote } from "./atlas-metadata";
 import { selectionVariant } from "./reviewed-selections";
-import { explorerConcepts, relationshipsFor, knowledgeSource } from "./knowledge";
+import { explorerConcepts, relationshipsFor, knowledgeSource, representationFor, relationshipScopeNotes } from "./knowledge";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Activity,
@@ -181,7 +181,7 @@ export default function Home() {
     ).length ?? 0;
   const results = useMemo(() => {
     if (!atlas) return [];
-    const term = query.toLowerCase().trim();
+    const term = query.trim();
     if (!term && reference) return concepts;
     if (!term)
       return [
@@ -197,14 +197,7 @@ export default function Home() {
         .map((name) => atlas.concepts.find((c) => c.name.toLowerCase() === name))
         .filter((x): x is Concept => !!x);
     return concepts
-      .filter(
-        (c) =>
-          datasetSearchTerms(dataset, c.id, c.name).some(
-            (name) =>
-              name.toLocaleLowerCase("tr").includes(term.toLocaleLowerCase("tr")) ||
-              name.toLowerCase().includes(term),
-          ) || c.id.toLowerCase().includes(term),
-      )
+      .filter((c) => matchesAnatomyQuery(dataset, c, term))
       .sort((a, b) => a.name.length - b.name.length)
       .slice(0, 80);
   }, [atlas, concepts, query, dataset, reference]);
@@ -735,6 +728,13 @@ export default function Home() {
                 Tutunma yüzeyinden alınmış referans noktasıdır; yapının sınırlarını göstermez.
               </p>
             )}
+            {chosen && !reference && representationFor(chosen.id)?.representationLimits && (
+              <details className="context-note">
+                <summary>Referans noktasının kaynak sınırları</summary>
+                {representationFor(chosen.id)?.representationLimits?.map((note: string) => <p key={note}>{note}</p>)}
+                <p>Kaynak yüzeyinden alınan tek noktadır; tam yüzey veya uzman kabulü değildir.</p>
+              </details>
+            )}
             {variantConcept && variant && (
               <Button variant="outline" onClick={() => choose(variantConcept, true)}>
                 {variant.source ? "Ham kaynak seçimini göster" : "İncelenmiş seçime dön"}
@@ -808,6 +808,7 @@ export default function Home() {
                               </a>
                             ) : null;
                           })}
+                          {relationshipScopeNotes(relation.qualifiers).map(note => <p key={note}>{note}</p>)}
                           <p>Kaynakla destekleniyor; uzman incelemesi bekliyor.</p>
                         </details>
                       </div>

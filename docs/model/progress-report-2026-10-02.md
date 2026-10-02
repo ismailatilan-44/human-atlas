@@ -2,6 +2,12 @@
 
 Hedef, tıp öğrencisinin bütün vücudu yapı ve alt yapı düzeyinde seçip kaynaklı adları, bağlamı ve ilişkileri üzerinden inceleyebilmesidir. Model önce, ders/quiz katmanı sonra gelir. Hedef henüz tamamlanmadı. [Kapsam sözleşmesi](model-scope-and-acceptance.md) bu hedefi ve bölgesel kabul koşullarını taşır.
 
+## P1–P3 local implementation — not published
+
+The first three steps of the plan below are implemented in an isolated local checkout. Shared Turkish/ASCII search passed real production-browser comparisons (15 `sinir/SİNİR`, 8 `biseps/BİSEPS`); six source points now have canonical anchored metadata and two nulls stay unresolved; two source-preserved left BP3D4.3 cords have labels, three relationships and two target bindings. Main model has 2,292 parts. TypeScript, knowledge/atlas/interaction checks, relevant producer freshness and production build passed; desktop/390/320 source→selection→isolation/context→relationship→return paths were observed. [Full local acceptance, hashes and limitations](left-cords-local-acceptance.md).
+
+No push/merge/deploy, physical-device test or anatomical expert acceptance. The previous e005d53 live revision remains the recorded published state. The plan's live acceptance gates remain pending publication authorization; P4–P7 have not been started in this task.
+
 ## Eksikleri kapatma planı — 2 Ekim 2026
 
 **Teslim:** kullanıcının plan talebiyle [mevcut teslim planına P1–P7 sırası](2026-09-20-delivery-plan.md#eksikleri-kapatma-planı--2-ekim-2026-yan-sohbet-denetimi-sonrası), gözlenebilir öğrenci sonucu, her paketin kabul kanıtı, bağımlılık ve düşük güvenli süre tahminleri eklendi. Taban `91c4b53cde777281932127b4065f95d26770dd23`, dal `codex/publish-model-explorer`; fork main/geliştirme uzak SHA'ları yeniden aynı doğrulandı. Root plan ve kapanış sahibidir; bu tur yalnız mevcut plan ve rapor değişti.

@@ -1,0 +1,687 @@
+{
+  "version": "BP3D4.3 two left cords v1",
+  "status": "registered_source_reference;expert_review_pending",
+  "sex": "unknown",
+  "parts": [
+    {
+      "id": "BP43-FJ4274",
+      "sourceId": "FJ4274",
+      "sourceRepresentationId": "BP29122",
+      "sourceConceptId": "FMA45239",
+      "conceptId": "FMA45239",
+      "datasetId": "male-body",
+      "name": "Lateral cord of left brachial nerve plexus",
+      "side": "left",
+      "system": "nervous",
+      "componentRole": "cord",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 2508,
+      "indices": 3764,
+      "vertexCount": 209,
+      "indexCount": 1044,
+      "bounds": [
+        [
+          0.06418389827013016,
+          1.4139912128448486,
+          -0.021617500111460686
+        ],
+        [
+          0.09039460122585297,
+          1.440731167793274,
+          -0.010764500126242638
+        ]
+      ],
+      "sourceObject": "FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sourceObjectType": "OBJ",
+      "sourcePath": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sourceSha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445",
+      "sourceHeader": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4274",
+        "Representation ID": "BP29122",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA45239",
+        "English name": "Lateral cord of left brachial nerve plexus",
+        "Bounds(mm)": "(64.087000,-89.235500,1335.820800)-(90.394600,-78.346700,1362.618500)",
+        "Volume(cm3)": "0.319600"
+      },
+      "sourceScope": "Whole retained source OBJ component; not complete nerve/root/cord anatomy acceptance",
+      "normalMethod": "Authored source vertex normals, common proper rotation, unit normalization and Int16 quantization; no vertex welding or face edits",
+      "expertReview": "pending",
+      "quality": {
+        "rawTopology": {
+          "boundaryEdges": 62,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "looseVertices": 0,
+          "components": 5,
+          "componentRecords": [
+            {
+              "vertices": 183,
+              "triangles": 330,
+              "surfaceAreaMm2": 392.8224091251635,
+              "boundsMm": [
+                [
+                  64.1839,
+                  -89.2355,
+                  1335.88
+                ],
+                [
+                  90.3946,
+                  -78.3825,
+                  1362.62
+                ]
+              ]
+            },
+            {
+              "vertices": 15,
+              "triangles": 13,
+              "surfaceAreaMm2": 9.219058815754984,
+              "boundsMm": [
+                [
+                  64.1839,
+                  -81.2467,
+                  1359.37
+                ],
+                [
+                  66.7042,
+                  -78.3825,
+                  1362.62
+                ]
+              ]
+            },
+            {
+              "vertices": 4,
+              "triangles": 2,
+              "surfaceAreaMm2": 0.21687751999915,
+              "boundsMm": [
+                [
+                  90.1582,
+                  -88.7545,
+                  1338.26
+                ],
+                [
+                  90.3946,
+                  -87.3545,
+                  1338.64
+                ]
+              ]
+            },
+            {
+              "vertices": 4,
+              "triangles": 2,
+              "surfaceAreaMm2": 0.19982989972589627,
+              "boundsMm": [
+                [
+                  64.7042,
+                  -81.3717,
+                  1360.86
+                ],
+                [
+                  65.5932,
+                  -81.1545,
+                  1362.06
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 0.11698003295541798,
+              "boundsMm": [
+                [
+                  65.5932,
+                  -81.1655,
+                  1362.06
+                ],
+                [
+                  66.3042,
+                  -80.5545,
+                  1362.62
+                ]
+              ]
+            }
+          ],
+          "totalSurfaceAreaMm2": 402.5751553935989
+        },
+        "exactPositionWeldDiagnostic": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "looseVertices": 0,
+          "components": 1,
+          "componentRecords": [
+            {
+              "vertices": 176,
+              "triangles": 348,
+              "surfaceAreaMm2": 402.5751553935989,
+              "boundsMm": [
+                [
+                  64.1839,
+                  -89.2355,
+                  1335.88
+                ],
+                [
+                  90.3946,
+                  -78.3825,
+                  1362.62
+                ]
+              ],
+              "minimumSampledDistanceToLargestComponentMm": 0.0,
+              "surfaceAreaFraction": 1.0
+            }
+          ],
+          "totalSurfaceAreaMm2": 402.5751553935989
+        },
+        "rawVertices": 209,
+        "uniquePositions": 176,
+        "normalLengthSourceMaxError": 7.315947675445855e-07,
+        "nonpositiveSourceNormalFaceAgreement": 0,
+        "maxQuantizedNormalLengthError": 2.239992594466056e-05,
+        "maxFloat32PositionErrorMeters": 5.949859627207843e-08
+      },
+      "representation": "source_anatomical_surface"
+    },
+    {
+      "id": "BP43-FJ4275",
+      "sourceId": "FJ4275",
+      "sourceRepresentationId": "BP29196",
+      "sourceConceptId": "FMA45241",
+      "conceptId": "FMA45241",
+      "datasetId": "male-body",
+      "name": "Medial cord of left brachial nerve plexus",
+      "side": "left",
+      "system": "nervous",
+      "componentRole": "cord",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 7940,
+      "normals": 18896,
+      "indices": 24376,
+      "vertexCount": 913,
+      "indexCount": 5124,
+      "bounds": [
+        [
+          0.05321560055017471,
+          1.4083912372589111,
+          -0.01875779964029789
+        ],
+        [
+          0.08982530236244202,
+          1.4307012557983398,
+          -0.008926399983465672
+        ]
+      ],
+      "sourceObject": "FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sourceObjectType": "OBJ",
+      "sourcePath": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sourceSha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d",
+      "sourceHeader": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4275",
+        "Representation ID": "BP29196",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA45241",
+        "English name": "Medial cord of left brachial nerve plexus",
+        "Bounds(mm)": "(53.209600,-91.088100,1330.279400)-(89.828400,-81.233500,1352.596600)",
+        "Volume(cm3)": "0.397100"
+      },
+      "sourceScope": "Whole retained source OBJ component; not complete nerve/root/cord anatomy acceptance",
+      "normalMethod": "Authored source vertex normals, common proper rotation, unit normalization and Int16 quantization; no vertex welding or face edits",
+      "expertReview": "pending",
+      "quality": {
+        "rawTopology": {
+          "boundaryEdges": 98,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "looseVertices": 0,
+          "components": 11,
+          "componentRecords": [
+            {
+              "vertices": 844,
+              "triangles": 1648,
+              "surfaceAreaMm2": 502.9740575725863,
+              "boundsMm": [
+                [
+                  53.2156,
+                  -91.0736,
+                  1330.28
+                ],
+                [
+                  89.8253,
+                  -81.2422,
+                  1352.59
+                ]
+              ]
+            },
+            {
+              "vertices": 42,
+              "triangles": 51,
+              "surfaceAreaMm2": 7.77456908000765,
+              "boundsMm": [
+                [
+                  87.0787,
+                  -89.0835,
+                  1335.85
+                ],
+                [
+                  89.8253,
+                  -86.1563,
+                  1338.16
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 0.005276320382268916,
+              "boundsMm": [
+                [
+                  89.4836,
+                  -88.6545,
+                  1337.96
+                ],
+                [
+                  89.5165,
+                  -88.5545,
+                  1338.06
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 3.1999999999850843e-07,
+              "boundsMm": [
+                [
+                  78.2034,
+                  -87.3553,
+                  1337.86
+                ],
+                [
+                  78.2042,
+                  -87.3545,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 3.1999999999850843e-07,
+              "boundsMm": [
+                [
+                  78.2034,
+                  -87.3553,
+                  1337.86
+                ],
+                [
+                  78.2042,
+                  -87.3545,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 3.1999999999850843e-07,
+              "boundsMm": [
+                [
+                  78.2042,
+                  -87.3553,
+                  1337.86
+                ],
+                [
+                  78.205,
+                  -87.3545,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 3.1999999999850843e-07,
+              "boundsMm": [
+                [
+                  78.2042,
+                  -87.3553,
+                  1337.86
+                ],
+                [
+                  78.205,
+                  -87.3545,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 2.799999999972738e-07,
+              "boundsMm": [
+                [
+                  78.2034,
+                  -87.3545,
+                  1337.86
+                ],
+                [
+                  78.2042,
+                  -87.3538,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 2.799999999972738e-07,
+              "boundsMm": [
+                [
+                  78.2034,
+                  -87.3545,
+                  1337.86
+                ],
+                [
+                  78.2042,
+                  -87.3538,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 2.799999999972738e-07,
+              "boundsMm": [
+                [
+                  78.2042,
+                  -87.3545,
+                  1337.86
+                ],
+                [
+                  78.205,
+                  -87.3538,
+                  1337.86
+                ]
+              ]
+            },
+            {
+              "vertices": 3,
+              "triangles": 1,
+              "surfaceAreaMm2": 2.799999999972738e-07,
+              "boundsMm": [
+                [
+                  78.2042,
+                  -87.3545,
+                  1337.86
+                ],
+                [
+                  78.205,
+                  -87.3538,
+                  1337.86
+                ]
+              ]
+            }
+          ],
+          "totalSurfaceAreaMm2": 510.75390537297625
+        },
+        "exactPositionWeldDiagnostic": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 4,
+          "zeroAreaTriangles": 0,
+          "looseVertices": 0,
+          "components": 2,
+          "componentRecords": [
+            {
+              "vertices": 852,
+              "triangles": 1700,
+              "surfaceAreaMm2": 510.7539029729762,
+              "boundsMm": [
+                [
+                  53.2156,
+                  -91.0736,
+                  1330.28
+                ],
+                [
+                  89.8253,
+                  -81.2422,
+                  1352.59
+                ]
+              ],
+              "minimumSampledDistanceToLargestComponentMm": 0.0,
+              "surfaceAreaFraction": 0.9999999953010638
+            },
+            {
+              "vertices": 5,
+              "triangles": 8,
+              "surfaceAreaMm2": 2.3999999999831287e-06,
+              "boundsMm": [
+                [
+                  78.2034,
+                  -87.3553,
+                  1337.86
+                ],
+                [
+                  78.205,
+                  -87.3538,
+                  1337.86
+                ]
+              ],
+              "minimumSampledDistanceToLargestComponentMm": 0.5601503252983093,
+              "surfaceAreaFraction": 4.6989361701121736e-09
+            }
+          ],
+          "totalSurfaceAreaMm2": 510.75390537297625
+        },
+        "rawVertices": 913,
+        "uniquePositions": 857,
+        "normalLengthSourceMaxError": 7.842861924345357e-07,
+        "nonpositiveSourceNormalFaceAgreement": 0,
+        "maxQuantizedNormalLengthError": 2.2241122208832564e-05,
+        "maxFloat32PositionErrorMeters": 5.959625237750288e-08
+      },
+      "representation": "source_anatomical_surface"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "FMA45239",
+      "name": "Lateral cord of left brachial nerve plexus",
+      "elements": [
+        "BP43-FJ4274"
+      ]
+    },
+    {
+      "id": "FMA45241",
+      "name": "Medial cord of left brachial nerve plexus",
+      "elements": [
+        "BP43-FJ4275"
+      ]
+    }
+  ],
+  "triangles": 2056,
+  "chunks": [
+    {
+      "url": "/models/extensions/left-cords-bp3d43.bin",
+      "bytes": 44872,
+      "gzip": "/models/extensions/left-cords-bp3d43.bin.gz",
+      "gzipBytes": 25595,
+      "sha256": "3884338fb9a4b3ad7257d0576d5ec423aecade3a3f0096955f0ed9ee9e3e9180"
+    }
+  ],
+  "source": {
+    "id": "bp3d43-live",
+    "title": "BodyParts3D official live source",
+    "url": "https://lifesciencedb.jp/bp3d/",
+    "creator": "Database Center for Life Science (DBCLS)",
+    "version": "Data4.3 / Objects4.3 / FMA3.0",
+    "license": "CC BY-SA 2.1 Japan",
+    "licenseUrl": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+    "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+    "sourceReferenceBody": "Source body; demographic/specimen detail not established in this bounded intake",
+    "rightsStatus": {
+      "privateInspection": "permitted under captured public source license",
+      "adaptation": "attribution/share-alike obligations retained",
+      "distribution": "not activated; require source attribution/license retained and separate technical/expert acceptance"
+    },
+    "coordinateUnits": "OBJ source header states mm; no transform applied",
+    "access": "Public normal selected-download endpoint;no authentication or access restriction bypass",
+    "retrievedOn": "2026-10-02",
+    "intakeSha256": "84e377567ebd7f5c1073122fa85e768ab927db567aaa2e74b5bf9012a3e30bde",
+    "attribution": "/models/extensions/LEFT-CORDS-BP3D43-ATTRIBUTION.md"
+  },
+  "registration": {
+    "method": "Existing BP3D native frame; nine independent bone holdouts; no fitting or per-object change",
+    "matrixColumnVector": [
+      [
+        0.001,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.001,
+        0.0781112
+      ],
+      [
+        0.0,
+        -0.001,
+        0.0,
+        -0.1
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "targetManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+    "measurements": [
+      {
+        "sourceId": "FJ3158",
+        "name": "First thoracic vertebra",
+        "targetId": "FJ3158",
+        "targetConceptId": "FMA9165",
+        "rmsMm": 0.024024118943386574,
+        "p95Mm": 0.055763007549103336,
+        "maxMm": 0.1572062319610268,
+        "vertices43": 1078,
+        "vertices40": 915
+      },
+      {
+        "sourceId": "FJ3167",
+        "name": "Fifth cervical vertebra",
+        "targetId": "FJ3167",
+        "targetConceptId": "FMA12523",
+        "rmsMm": 0.01474054539868442,
+        "p95Mm": 0.0,
+        "maxMm": 0.16015292203519493,
+        "vertices43": 1539,
+        "vertices40": 1396
+      },
+      {
+        "sourceId": "FJ3170",
+        "name": "Sixth cervical vertebra",
+        "targetId": "FJ3170",
+        "targetConceptId": "FMA12524",
+        "rmsMm": 0.021761292984806297,
+        "p95Mm": 0.049750732432585126,
+        "maxMm": 0.1785239583114162,
+        "vertices43": 1498,
+        "vertices40": 1257
+      },
+      {
+        "sourceId": "FJ3172",
+        "name": "Seventh cervical vertebra",
+        "targetId": "FJ3172",
+        "targetConceptId": "FMA12525",
+        "rmsMm": 0.019974880792031458,
+        "p95Mm": 0.026953167434839997,
+        "maxMm": 0.16430311370640993,
+        "vertices43": 1324,
+        "vertices40": 1162
+      },
+      {
+        "sourceId": "FJ3228",
+        "name": "Left first rib",
+        "targetId": "FJ3228",
+        "targetConceptId": "FMA7987",
+        "rmsMm": 0.05749198355857948,
+        "p95Mm": 0.1196851721033454,
+        "maxMm": 0.20282577315811068,
+        "vertices43": 1641,
+        "vertices40": 507
+      },
+      {
+        "sourceId": "FJ3229",
+        "name": "Left second rib",
+        "targetId": "FJ3229",
+        "targetConceptId": "FMA8012",
+        "rmsMm": 0.07047773960062254,
+        "p95Mm": 0.14453873518505125,
+        "maxMm": 0.2797697379719466,
+        "vertices43": 2862,
+        "vertices40": 656
+      },
+      {
+        "sourceId": "FJ3237",
+        "name": "Left clavicle",
+        "targetId": "FJ3237",
+        "targetConceptId": "FMA13323",
+        "rmsMm": 0.0762834758055397,
+        "p95Mm": 0.21787234145449474,
+        "maxMm": 0.3809222544077784,
+        "vertices43": 602,
+        "vertices40": 426
+      },
+      {
+        "sourceId": "FJ3262",
+        "name": "Left humerus",
+        "targetId": "FJ3262",
+        "targetConceptId": "FMA23131",
+        "rmsMm": 0.24109582241216493,
+        "p95Mm": 0.5194366327486931,
+        "maxMm": 0.8268056553788483,
+        "vertices43": 2073,
+        "vertices40": 586
+      },
+      {
+        "sourceId": "FJ3279",
+        "name": "Left scapula",
+        "targetId": "FJ3279",
+        "targetConceptId": "FMA13396",
+        "rmsMm": 0.047246255197067995,
+        "p95Mm": 0.09470794029766692,
+        "maxMm": 0.18897719564847648,
+        "vertices43": 14068,
+        "vertices40": 3097
+      }
+    ]
+  },
+  "limitations": [
+    "Only short left lateral/medial source cord surfaces; no complete course, right side or C5–T1 contribution.",
+    "Medial source speck and nonmanifold diagnostics preserved; no repair.",
+    "Cross-source physical nerve continuity and anatomical expert acceptance pending."
+  ],
+  "inputSnapshots": [
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-geometry-audit-v1/atlas.json",
+      "sha256": "620a443a9bf345d597e3f13cfa6563e19402589247938713c197afdfe546d2a0"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-geometry-audit-v1/anatomy.bin",
+      "sha256": "d67509db4368cdcc7f39b853f23bcd6dbc5864699b6a8d3bf197c0c3ac839f0a"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-cord-metadata-v1/proposal.json",
+      "sha256": "3dfd450290a4554098a956a888edeba80f6277fbbe822f30a4c8eb3fdb51805b"
+    }
+  ]
+}

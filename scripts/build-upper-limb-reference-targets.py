@@ -21,8 +21,19 @@ assert sha(BASELINE) == candidate['versionEvidence']['baselineSha256']
 for entry in candidate['versionEvidence']['inputs']:
     assert sha(entry['path']) == entry['sha256'], entry['path']
 assert acceptance['status'] == 'local_production_product_flow_accepted;expert_review_pending'
+# Preserve the dated UI acceptance. A producer-only repack may refresh input hashes,
+# but all non-provenance fields must match its independently pinned old payload.
+repack = {e['path']: e for e in read('data/anatomy/upper-limb-reference-repack-evidence.json')['files']}
 for entry in acceptance['inputSnapshots']:
-    assert sha(entry['path']) == entry['sha256'], entry['path']
+    if entry['path'] in repack:
+        proof = repack[entry['path']]
+        assert proof['historicalSha256'] == entry['sha256']
+        payload = read(entry['path'])
+        payload.pop('inputSnapshots', None)
+        payload.pop('packageInputSnapshots', None)
+        assert hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode()).hexdigest() == proof['semanticSha256']
+    else:
+        assert sha(entry['path']) == entry['sha256'], entry['path']
 assert acceptance['datasetId'] == manifest['datasetId'] == metadata['datasetId'] == 'upper-limb-nerve-reference'
 assert not manifest['compatibleWithMainAtlas'] and manifest['registration'] is None
 concepts = {c['id']: c for c in manifest['concepts']}

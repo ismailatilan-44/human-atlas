@@ -20,8 +20,29 @@ term_evidence = read(f'{METADATA}/source-evidence.json')
 for group in ['packageFileSha256', 'auditFileSha256', 'openedRenderFileSha256']:
     for filename, expected in evidence[group].items():
         assert sha(f'{SOURCE}/{filename}') == expected, filename
-for snapshot in read(f'{METADATA}/frozen-inputs.json')['inputSnapshots']:
-    assert sha(snapshot['path']) == snapshot['sha256'], snapshot['path']
+frozen = read(f'{METADATA}/frozen-inputs.json')
+# Hashes remain historical evidence. Relevant current identities are checked below;
+# unrelated main labels/relations are allowed to evolve without invalidating geometry.
+mutable_inputs = {'data/anatomy/knowledge.json', 'data/anatomy/labels.json',
+                  'data/anatomy/brachial-plexus.json'}
+for snapshot in frozen['inputSnapshots']:
+    if snapshot['path'] not in mutable_inputs:
+        assert sha(snapshot['path']) == snapshot['sha256'], snapshot['path']
+current_entities = {e['id']: e for e in read('data/anatomy/knowledge.json')['entities']}
+current_relations = {r['id']: r for r in read('data/anatomy/knowledge.json')['relations']}
+current_labels = {i: e for e in (read('data/anatomy/labels.json')['entries'] + read('data/anatomy/brachial-plexus.json')['labels']) for i in e['ids']}
+for entity in frozen['existingEntities']:
+    current = current_entities[entity['id']]
+    assert current['side'] == entity['side'] and current['name'] == entity['name'], entity['id']
+for relation in frozen['existingRelations']:
+    current = current_relations[relation['id']]
+    for field in ['subject', 'predicate', 'object', 'evidence', 'qualifiers']:
+        assert current.get(field) == relation.get(field), (relation['id'], field)
+for label in frozen['existingLabels'] + frozen['contextExistingLabels']:
+    for concept_id in label['ids']:
+        current = current_labels[concept_id]
+        for field in ['tr', 'en', 'la', 'side']:
+            assert current.get(field) == label.get(field), (concept_id, field)
 assert manifest['datasetId'] == proposal['datasetId'] == 'upper-limb-nerve-reference'
 assert not manifest['compatibleWithMainAtlas'] and manifest['registration'] is None
 assert len(manifest['parts']) == len(manifest['concepts']) == len(proposal['labels']) == 127

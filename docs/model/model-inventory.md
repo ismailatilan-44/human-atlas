@@ -8,15 +8,15 @@ The machine-readable [inventory](../../data/anatomy/model-inventory.json) pins a
 
 | Dataset | Packaged assets | Unique manifest concepts | Catalog records |
 |---|---:|---:|---:|
-| male-body | 2290 | 3491 | 3535 |
+| male-body | 2292 | 3493 | 3537 |
 | female-pelvis | 27 | 31 | 31 |
 | inner-ear-reference | 6 | 6 | 6 |
 | lower-limb-nerve-reference | 137 | 137 | 137 |
 | upper-limb-nerve-reference | 127 | 127 | 127 |
 
-There are 3836 dataset-qualified catalog records and 2587 asset records. Catalog rows include source concepts, project/graph concepts and runtime selection variants, which overlap anatomically. They are not counts of distinct anatomical structures. 762 records have evidence-linked region/family planning assignments, including source-linked individual target proposals; 3074 remain explicitly unassigned and uninspected. No name-based absence or membership inference is made.
+There are 3838 dataset-qualified catalog records and 2589 asset records. Catalog rows include source concepts, project/graph concepts and runtime selection variants, which overlap anatomically. They are not counts of distinct anatomical structures. 764 records have evidence-linked region/family planning assignments, including source-linked individual target proposals; 3074 remain explicitly unassigned and uninspected. No name-based absence or membership inference is made.
 
-65 legacy pilot targets link to the catalog without becoming a whole-body denominator. 6 concepts have source-derived surface anchors and 2 retain unresolved/null anchors. Anchor context bones are not substituted for attachment surfaces. 1674 typed graph relations retain their evidence and direct/transitive qualifiers; their presence does not prove each family's required relationships are complete.
+65 legacy pilot targets link to the catalog without becoming a whole-body denominator. 6 concepts have source-derived surface anchors and 2 retain unresolved/null anchors. Anchor context bones are not substituted for attachment surfaces. 1677 typed graph relations retain their evidence and direct/transitive qualifiers; their presence does not prove each family's required relationships are complete.
 
 ## Pending scope matrix
 
