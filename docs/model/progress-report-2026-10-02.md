@@ -2,6 +2,18 @@
 
 Hedef, tıp öğrencisinin bütün vücudu yapı ve alt yapı düzeyinde seçip kaynaklı adları, bağlamı ve ilişkileri üzerinden inceleyebilmesidir. Model önce, ders/quiz katmanı sonra gelir. Hedef henüz tamamlanmadı. [Kapsam sözleşmesi](model-scope-and-acceptance.md) bu hedefi ve bölgesel kabul koşullarını taşır.
 
+## Eksikleri kapatma planı — 2 Ekim 2026
+
+**Teslim:** kullanıcının plan talebiyle [mevcut teslim planına P1–P7 sırası](2026-09-20-delivery-plan.md#eksikleri-kapatma-planı--2-ekim-2026-yan-sohbet-denetimi-sonrası), gözlenebilir öğrenci sonucu, her paketin kabul kanıtı, bağımlılık ve düşük güvenli süre tahminleri eklendi. Taban `91c4b53cde777281932127b4065f95d26770dd23`, dal `codex/publish-model-explorer`; fork main/geliştirme uzak SHA'ları yeniden aynı doğrulandı. Root plan ve kapanış sahibidir; bu tur yalnız mevcut plan ve rapor değişti.
+
+**Öncelik kararı:** P1 Türkçe/ASCII ortak arama → P2 altı referans noktasının canonical durumu/kaynak sınırları → P3 hazır iki sol kordun kaynak kapsamıyla canlı aktarımı. P4 kalan on bölgenin hedef açılımıdır; her bölge hazır olduğunda P5'te küçük tam model paketi yayımlanabilir. CI/gerçek cihaz/uzman kabulü P6 olarak teslimlere eşlik eder; P7 ders katmanı model kabulünü izler. İlk P1–P3 tahmini 7–17 aktif teknik saat; hedef açılımı 2–4 çalışma haftası, tüm bölgelerde güçlü D1/seçilmiş D2 için önceki 6–12 ay aralığı düşük güvenle korunur. Haftada 30–40 aktif saat varsayımıdır; uzman beklemesi ve yaygın D3 hariç, kesin takvim değildir. Envanter ve üç farklı bölge paketinin ölçümü sonrası yeniden tahmin yapılır.
+
+**Yeni somut risk:** üst referans paket üreticisi tarihî frozen graph/labels hash'lerini güncel değişebilir dosyalarla doğruluyor. Anchor/kord graph değişikliği eski referans değişmeden kontrolü bozabilir. P2, tarihî kanıtı koruyup güncel entegrasyonu ilgili kimlik/bağlar üzerinden denetleyecek üretici düzeltmesini içerir. Bu kod gözlemidir; bu tur veri değiştirilerek hata yeniden üretilmedi. Kamera iddiası da plan içinde sınırlandırılmış yeniden üretim işi olarak kaldı.
+
+**Kabul ve açık işler:** planın çıktısı önceliklendirilmiş, mevcut kapsam sözleşmesine bağlı teslim sırasıdır. Başarılı planlama, ürün düzeltmesi veya bölgesel uzman kabulü sayılmaz. Uygulama/asset/target girdileri ve ayrı med-study-app değiştirilmedi; canlı kabul edilmiş revision e005d53 olarak kalır. Bu tur yeni app test/build/CI/deploy yapılmadı. macOS/Python3.9.6 altında eklenen beş yerel dosya bağlantısı ve teslim tablosunun sütun kontrolü geçti; `git diff --check` geçti. Kullanıcı dosyaları/log'lar ve tarihî teslim kanıtları korunur. **Sıradaki tek eylem P1 arama düzeltmesidir.** Teknik kullanıcı işi beklenmiyor; gerçek cihaz ve anatomist erişimi gerektiğinde somut paketle bildirilecek.
+
+**Ölçüm:** planlama/okuma/ilk kontrol penceresi 20:10:23→20:20:05 TRT, 9 dakika42 saniye duvar süresi; son kapanış notu, Git push ve uzak doğrulama hariç. Aktif emek dökümü bilinmiyor. Yeni dış engel veya başarısız ürün kontrolü yok; mevcut riskler uygulanacak teslimlere bağlandı.
+
 ## Yan sohbetler, hedef ve mevcut ürün karşılaştırması — 2 Ekim, 20:00 TRT
 
 İnceleme tabanı `5cff015c3485c64d209e7be334fd5d40436b612f`, dal `codex/publish-model-explorer`; fork main/geliştirme uzak SHA'ları aynı. Canlı `release.json` yeniden okunarak `e005d53a9cb22cda52c39fb318248a83ba113fe8` doğrulandı; statik dal ee885b3 değişmedi. Kullanıcı dosyaları/log'lar ve ayrı med-study-app çalışma ağacındaki değişiklikler korundu. Bu inceleme uygulama/geometri değiştirmez.

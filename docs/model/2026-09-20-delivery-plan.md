@@ -6,11 +6,62 @@
 
 **Güncel iş kapsamı:** [352 üst hedef v2](upper-limb-targets-v2.md), [156 alt hedef v4](lower-limb-targets-v4.md) ve yeni [502 önkol–bilek–el hedefi](forearm-hand-targets-v1.md): toplam 1.010 gereksinim. Yeni seed'de 188 hedef için210 pozitif kaynak gözlemi,314 hedefte pozitif bağ yok;22 tekil intrinsik kas hedefi birleşik gruplarla kapatılmadı. Genel envanter762 katalog kaydını bölgesel işe bağlar,3.074 kayıt bu açıdan denetlenmemiştir.13 bölge/208 hücre ve uzman kabulü açık. Bu kaynak envanteri teslimi geometri/runtime değiştirmez; canlı ürün revision'ı e005d53 olarak kalır. [Eylem ve süre raporu](progress-report-2026-10-02.md), [envanter](model-inventory.md) ve [kapsam sözleşmesi](model-scope-and-acceptance.md) güncel takibi taşır.
 
-**Sıradaki ürün işi:** teknik kaynak incelemesi tamamlanan iki sol BP3D4.3 medial/lateral kordunu kaynak kapsamıyla ana atlasa almak, etiket/ilişki ve gerçek masaüstü/mobil/canlı kabulünü kapatmak. Adaylar henüz aktif değildir; sağ kordlar, ayrı kök katkıları ve bütün pleksus devamlılığı kabul edilmedi. Ardından önkol–elde tekil intrinsik kaslar ve bilek destekleri denetlenir. Ders katmanı modelden sonra gelir.
+**Sıradaki ürün işi:** canlıda yeniden üretilen Türkçe büyük harf aramasını UI ve agent için ortak normalizasyonla düzeltmek; ardından altı referans işaretinin temsil durumunu ve kaynak sınırlarının runtime aktarımını uzlaştırmak. Hazır iki sol BP3D4.3 kordunun aktarımı bunu izler. Aşağıdaki eksik kapatma planı güncel öncelik sırasıdır; ders katmanı modelden sonra gelir.
 
 **Ölçüm ve tahmin:**127 referans entegrasyon penceresi15:48:59→19:23:39 TRT,3h34m40s duvar süresi; aktif emek/bekleme dökümü bilinmiyor. Önkol aday üretim/doğrulaması8m09s; ön okuma bilinmiyor, paralel süreler toplanmaz. Önceki düşük güvenli bütün model planı30–40 aktif saat/hafta varsayımıyla hedef açılımı2–4 hafta, öncelikli paketler2–4 ay, bütün bölgelerde güçlü D1/seçilmiş D2 deneyimi6–12 ay. Kesin takvim veya sürekli arka plan çalışma taahhüdü değildir; aralıklar toplanmaz, uzman beklemesi hariçtir. Yaygın D3 için güvenilir tarih yok. Çalışan alt ajan kalmadı; root entegrasyon/kapanış sahibidir. Her anlamlı teslimde mevcut rapor güncellenir, periyodik otomasyon kurulmadı.
 
 Önkol envanteri/aday kanıtı ve eylem raporu kaynak teslimi `e2b92772ebe241dadc8cc42748134df7862d9ce1`, fork main/geliştirme dalına gönderilip uzak SHA ile doğrulandı. Canlı ürün e005d53 olarak kalır; bu sonraki kaynak teslimi runtime/geometri değiştirmez.
+
+## Eksikleri kapatma planı — 2 Ekim 2026, yan sohbet denetimi sonrası
+
+**Karar ve taban:** kaynak `91c4b53cde777281932127b4065f95d26770dd23`, dal `codex/publish-model-explorer`; fork main/geliştirme dalı aynı uzak SHA ile doğrulandı. Canlı ürünün son kabul edilmiş revision'ı e005d53'tür. [Son denetim](progress-report-2026-10-02.md#yan-sohbetler-hedef-ve-mevcut-ürün-karşılaştırması--2-ekim-2000-trt) arama hatasını canlıda, temsil/kaynak aktarımı boşluklarını kodda tespit etti. Bu plan bunların uygulandığı veya herhangi bir bölgenin tamamlandığı anlamına gelmez.
+
+**Gözlenebilir sonuç:** öğrenci, sürümlü kapsam içindeki yapıyı Türkçe/İngilizce adıyla bulur; doğru taraf ve dataset'te seçer, izole eder, anatomik bağlamına döner, kaynaklı ilişkisini izler. Yapının bağımsız yüzey, eğri, grup veya referans noktası olduğu ve kaynak sınırı görünürdür. Model bitişi [bölgesel kapsam sözleşmesine](model-scope-and-acceptance.md) bağlıdır; bütün vücut hedefi korunur.
+
+| Teslim | Yapılacak iş ve çıktı | Bitiş kanıtı / bağımlılık | İlk süre tahmini |
+| --- | --- | --- | --- |
+| P1 — arama | UI ve WebMCP/agent aynı TR/ASCII normalizasyonunu kullanır; Türkçe büyük harf, diakritik, kaynak ID ve taraf araması korunur | `sinir/SİNİR` ve `biseps/BİSEPS` her yolun kendi sonuç sınırı içinde aynı kimlikleri verir. Mevcut etkileşim doğrulayıcısına bu hatayı yakalayan küçük kontrol; üretim önizlemesi ve canlı mobil arama kabulü | 1–3 aktif teknik saat; ilk iş |
+| P2 — temsil ve kaynak sözleşmesi | Altı kayıtlı anchor knowledge→explorer→arayüz boyunca referans noktası olarak tutarlı tanımlanır; iki null humeral konum çözümsüz kalır. Temsil, kapsam, varyasyon ve eksik ilişki uçları için gerekli küçük metadata sözleşmesi taşınır | Kaynaklı altı nokta, iki null ve yüzey/grup örnekleriyle veri/UI kabulü; kaynak/teknik/uzman durumları ayrı. Mevcut ilişkiler, kimlikler ve geometri korunur. Aşağıdaki frozen-input üretici riski bu teslimde giderilir | 4–8 aktif teknik saat; P1 sonrası |
+| P3 — hazır iki sol kord | [İncelenmiş BP3D4.3 adayından](../../data/model-candidates/upper-limb-bp3d43-geometry-audit-v1/REVIEW.md) yalnız sol lateral/medial kord parçaları aktif registry'ye alınır; iki üç dilli etiket, üç doğrudan kaynaklı ilişki ve ilgili hedef bağları eklenir | Kaynak frame'i ve geometri hash'leri, graph uçları/target bağları, masaüstü/390/320 üretim akışı; ardından canlı SHA/paket eşliği. Kısa kaynak segmenti kapsamı görünür; sağ kordlar, kök katkıları ve bütün pleksus devamlılığı ayrı açık hedeflerdir. P2 üretici düzeltmesi gerekli | 2–6 aktif teknik saat; aday hazır, ürün kabulü açık |
+| P4 — bütün bölgelerin eksik listesi | Kalan 10 bölgeye tekil D1/seçilmiş D2 hedefleri açılır; mevcut üç seed de kapsam açısından gözden geçirilir. Her hedef mevcut katalog/asset/ilişkiyle eşlenir veya araştırma kuyruğuna girer | 13 bölgenin her ailesinde uygulanabilir hedefler, zorunlu ayrıntı/ilişki, kaynak ve açık durum kayıtlı; toplamlar yeniden üretilebilir. D0/D3, kadın anatomisi, yaş/varyasyon ve süreklilik işleri açık paketleriyle korunur. Yeni hedef listesi uzman veya geometri kabulü sayılmaz | 2–4 çalışma haftası; 30–40 aktif saat/hafta varsayımı, düşük güven |
+| P5 — bölgesel model teslimleri | P4'ün bölge bazındaki listeleri geldikçe kullanılabilir assetleri ürünleştir; gerçek boşlukta alternatif kaynak al. Her paket geometri, etiket, gerekli ilişki, koordinat/kaynak bilgisi ve öğrenci akışını birlikte teslim eder | Her paket için K0–K7 durumu, açık hedef listesi, kaynak/public hash'leri, görsel ve canlı kabul. Anatomik uzman kabulü ayrı kaydedilir. Aynı kaynaktaki bağlam korunur; ana gövdeye taşınacak farklı kaynak bölgesel kayıt ölçümünden geçer | İlk öncelikli paketler 2–4 ay; tüm bölgelerde güçlü D1/seçilmiş D2 için önceki 6–12 ay yalnız düşük güvenli planlama aralığı |
+| P6 — teslim boyunca kalite | Küçük kod CI kapısı, fiziksel cihaz ölçümü ve anatomik inceleme paketleri. Mevcut kamera iddiasının tam akışı yeniden denenir; kanıt varsa owning kamera yolu düzeltilir. Eski anatomy README güncel kayda yönlendirilir | Kod CI gerçekten çalışmış workflow/run ile, cihaz kabulü cihaz/OS/build/ölçümle, uzman kabulü kişi/tarih/hedef/düzeyle kanıtlanır. Kamera denemesi başarısız/passed/reproduced olarak açık kaydedilir. P1 ile başlar, her P5 paketinde sürer | İlk CI/doküman/reprodüksiyon 2–4 aktif saat; cihaz/uzman takvimi ve olası performans düzeltmesi henüz bilinmiyor |
+| P7 — modelden ders akışına | Model fazının kabulünden sonra tek bölge için ders→kayıtlı sahne→yapı seçimi→kısa ölçme→kaydedilmiş sonuç yolculuğu. Atlas bağlantısı sabit kavram ID + dataset + model sürümü üzerinden kurulur | Ders yeniden açılınca sahne/hedef ve öğrenci sonucu korunur. Ayrı med-study-app'in sonuç/kalıcılık/açıklama semantiği ve native kabulü önce kendi deposunda kapanır. Öğrenme kütüphaneleri pilotun ölçülen ihtiyacına göre seçilir | Henüz güvenilir tahmin yok; model ve ayrı uygulama hazır olunca pilot kapsamı üzerinden verilir |
+
+### P2'nin somut üretici riski
+
+`scripts/package-upper-limb-reference.py`, adayın tarihî `frozen-inputs.json` kaydındaki knowledge/labels hash'lerini bugünkü değişebilir dosyalarla karşılaştırıyor. Bu yüzden anchor veya kord graph değişikliği, 127 nesnelik referans değişmese de paket kontrolünü bozabilir. Üretici, tarihî gözlemleri immutable aday kanıtından; güncel entegrasyonu yalnız ilgili aktif kimlik/bağlardan doğrulayacak biçimde düzeltilir. Eski hash'ler ve kabul kayıtları korunur. Üretici değişikliğiyle gereken manifest/kanıt güncellenir; binary geometri değişmediğinde hash eşliği mevcut görsel kanıtın yeniden kullanılmasını gerekçelendirir. Alakasız yeni graph ilişkisinin eski paketi bozmadığı mevcut kontrol içinde doğrulanır.
+
+### P4 ve P5'in bölgesel sırası
+
+P4'te her bölgenin ilk hedef listesi biter bitmez o listenin küçük ürün paketi P5'e geçebilir; bütün envanterin bitmesi hazır paketin yayınına engel değildir. Önkol/el kaynak işi sürerken sıradaki bütün-vücut bölgesinin hedef listesi açılır. Bir bölgenin ince ayrıntısı, diğer bölgelerin temel yapılarını görünmez bırakacak şekilde sürekli öncelik almaz.
+
+1. **Önkol–el ve mevcut alt ekstremite açıkları:** 314 pozitif bağı bulunmamış el hedefini ailelere ayır; 22 tekil intrinsik kası kaynakta bağımsız nesne olarak denetle. Bilek destekleri/tendonlar ve adlandırılmış sinir-damar dalları sıradaki paketlerdir. Alt ekstremitedeki Latin belirsizlikleri, birleşik gruplar ve reddedilen iki intersesamoid adayı kendi açık kayıtlarında izlenir.
+2. **Kalça–uyluk–diz; toraks duvarı/mediasten ve kalp–akciğer:** mevcut geometriyi hedeflere bağla; eklem destekleri, damar/sinir yolları ve organ iç yapısını ayrı gereksinimlerle tamamla. Akciğer yüzey paketinin varlığı, kalp iç yapısı veya tam bronş/damar ağının kabulü yerine geçmez.
+3. **Kafatası–yüz/boyun; abdomen–retroperiton ve pelvis–perine:** kemik/organ bağlamından başlayıp geçit, kas/fasya, zar/boşluk, sinir-damar ve destekleri aç. Kadın pelvis referansının dışındaki kadın yapıları sürümlü hedefleriyle devam eder.
+4. **Merkezi sinir sistemi ve duyu yapıları:** alt bölüm, zar, kök/çıkış, göz/kulak ayrıntısını kaynak çözünürlüğüne göre ayrı ölçeklerde teslim et. Bölge envanteri P4'te açılır; bu sıra temel CNS/duyu yapılarını envanterden ertelemez.
+5. **Yüzey ve bölgeler arası süreklilik:** her bölgesel pakette geçişleri izleyip ayrıca kapat; D3, yaş/gelişim ve varyasyon referanslarını hedef/source adaylarıyla sürüm kuyruğunda tut. Bu paketlerin üretim tarihi kaynak ve uzman incelemesi sonrası belirlenir.
+
+Bu sıra, P4'te gözlenen kaynak hazır oluşu ve büyük temel boşluklara göre güncellenebilir; her değişiklik hedef/kabul kaydında gerekçesiyle görünür. Öncelik kararı tüm vücut kapsamını küçültmez.
+
+### Kaynak ve koordinat kararları
+
+Mevcut Human Atlas, indirilen BP3D, Z-Anatomy ve HRA varlıkları ilk yeniden kullanım hattıdır. Her açık hedef için önce mevcut nesne/alt nesne ve ad/kimlik eşleşmesi denetlenir; sonra alternatif mesh/eğri kaynağı alınır. İndirme veya kazıma gerçek dosya, kaynak sürümü, lisans, nesne kimliği ve terim kanıtını korur. Kaynak grubu, hedefin istediği bağımsız parça sayısına çoğaltılmaz. İncelenen mesh kaynakları gereken yapıyı sağlamazsa görüntüden segmentasyon/özel model üretimi, açık hedef ve uzman değerlendirmesiyle ayrı iş olur.
+
+Bağımsız üst/alt referanslar kullanılabilir kaynak deneyimidir; tek gövde üzerinde süreklilik kabulü açık kalır. Ana gövde entegrasyonu için bölgesel kemik/komşuluk dayanakları, bağımsız kontrol noktaları ve hedef boyutuna uygun önceden tanımlı hata değerlendirmesi gerekir. Kayıt başarısızsa özgün source-frame'de ayrı referans sunulur ve gövde entegrasyonu açık hedef olarak kalır. Kaynak objeler ve lisanslar korunur; özel yer değiştirme veya aynalama anatomik kabul yerine geçmez.
+
+### Her teslimin kontrolü ve kapanışı
+
+- Değişen yüzeye göre README'deki küçük ilgili kapılar seçilir: TypeScript, knowledge testleri, atlas/interaction doğrulaması, ilgili paket/target üretici `--check`, inventory güncelliği ve ürün build'i. Veri girdisi değiştiğinde ilgili katalog/target/inventory yeniden üretilir. Yeni kontrol mevcut doğrulayıcıya gerçek hata veya üretici riski için eklenir.
+- User-facing değişiklikte üretim arayüzünde arama→seçim→odak→izolasyon/bağlam→ilişki→Geri ve ilgili dataset geçişi görülür; değişen akışa göre masaüstü, 390 ve 320 kanıtı alınır. Yayında kaynak SHA, `release.json` ve değişen paketler eşleştirilir.
+- CI için önce mevcut workflow yazma kapasitesi doğrulanır; tarihî OAuth reddi bugünün kesin engeli sayılmaz. İlk kapı lockfile ile `npm ci`, check, knowledge/interaction ve build'dir. Model paketi kontrolleri CI'da gerçekten bulunan pinned girdilerle çalışır; yerel ham Blender/terim dosyasına bağımlı adım çalıştırılmış gibi sunulmaz. CI erişim engeli ayrı kayıtla izlenir, diğer teknik model teslimleri sürer.
+- Fiziksel cihazlarda ilk açılış, seçim/izolasyon, multitouch, uzun oturum ve dataset değiştirme ölçülür; cihaz/OS/build ve yüklenen veri kaydedilir. Temsilî mevcut yayın başlangıç ölçümüdür; kabul sınırları optimizasyon öncesi kaydedilir. Bölgesel yükleme veya motor değişikliği ölçülen darboğaza göre seçilir. Emülasyon fiziksel kabul yerine geçmez.
+- Anatomi uzmanına hedef/düzey, kaynak/çıktı karşılaştırması, gerekli ilişki ve açık kusurları olan küçük bölge paketi verilir. Ret veya düzeltme isteği aynı hedefte yeniden çalışma açar; teknik kabul ile uzman kabulü ayrı kalır.
+- Root entegrasyon/kapanış sahibidir. Her anlamlı teslimde [mevcut rapor](progress-report-2026-10-02.md) revision, outcome, yerel/CI/canlı/insan kanıtı, duvar süresi, bilinen bekleme/yeniden çalışma, açık kriter ve bir sonraki tek eylemle güncellenir. Yeni periyodik otomasyon bu planın parçası değildir.
+
+**Takvim güveni:** P1–P3 toplam ilk tahmini 7–17 aktif teknik saattir; P6'nın başlangıç işleri ve dış beklemeler ayrıca izlenir. Bu, yaklaşık 1–3 çalışma günlük ilk ürün dalgasını planlamak içindir. 30–40 aktif saat/hafta varsayımı sürekli arka plan çalışma garantisi değildir. P4 tamamlanıp en az üç farklı bölge paketinin üretim/yeniden çalışma süresi ölçüldüğünde bütün-model aralığı yeniden hesaplanır. Mevcut 6–12 ay tahmini uzman beklemesini ve yaygın D3 üretimini içermez; bundan kesin bitiş tarihi çıkarılamaz. Aşamaların takvim aralıkları toplanmaz.
+
+**Kullanıcıdan gereken:** bugün teknik kurulum veya onay gerekmiyor. Fiziksel cihaz kanıtı ve anatomik uzman incelemesi için gerçek cihaz/değerlendirici erişimi gerektiği anda somut inceleme paketiyle bildirilir. Ders sırası P7'nin girdisidir. **Sıradaki tek eylem P1 arama düzeltmesidir; bu tur plan teslimidir.**
 
 ## Önceki durum fotoğrafları — 2 Ekim, 19:23 canlı kabulünden önce
 
@@ -68,7 +119,9 @@ Masaüstü, 390×844 ve 320×568 örnek akışları incelendi. Son `/human-atlas
 
 BodyParts3D 4.0 temel geometri BY 4.0; yeni canlı 4.3 tiroid/omurilik BY-SA 2.1 Japan; Z-Anatomy parçaları kendi atıf/köken kayıtlarıyla ayrıdır. Tek lisans altında hepsi temizlendi varsayımı yapılmaz. Kaynak yüzey kusurları ve kapsam sınırları ilgili kayıt raporlarında korunur.
 
-## Kalan teslim sırası
+## Tarihî teslim sırası — ilk model paketleri
+
+Aşağıdaki tablo önceki paket planını korur; güncel eksik kapatma sırası P1–P7 tablosundadır.
 
 | İş | Bitiş ölçütü | Güncel durum |
 | --- | --- | --- |
