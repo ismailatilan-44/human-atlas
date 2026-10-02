@@ -1,0 +1,203 @@
+{
+  "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "method": "POST",
+  "fields": {
+    "ids": "[\"FJ4245\", \"FJ4264\", \"FJ4265\", \"FJ4266\", \"FJ4267\", \"FJ4274\", \"FJ4275\", \"FJ4258\", \"FJ4172\", \"FJ4240\", \"FJ4171\", \"FJ4243\", \"FJ4185\", \"FJ4222\", \"FJ4223\", \"FJ4242\", \"FJ4256\"]",
+    "rep_id": "[\"BP29286\", \"BP29324\", \"BP29315\", \"BP29366\", \"BP29406\", \"BP29122\", \"BP29196\", \"BP29523\", \"BP29538\", \"BP29538\", \"BP29488\", \"BP29488\", \"BP29040\", \"BP29235\", \"BP29528\", \"BP29426\", \"BP29546\"]",
+    "filename": "upper-limb-bp3d43-intake-v1",
+    "type": "art_file",
+    "all_downloads": "1"
+  },
+  "requestedIds": [
+    "FJ4245",
+    "FJ4264",
+    "FJ4265",
+    "FJ4266",
+    "FJ4267",
+    "FJ4274",
+    "FJ4275",
+    "FJ4258",
+    "FJ4172",
+    "FJ4240",
+    "FJ4171",
+    "FJ4243",
+    "FJ4185",
+    "FJ4222",
+    "FJ4223",
+    "FJ4242",
+    "FJ4256"
+  ],
+  "catalogRows": [
+    {
+      "fj_id": "FJ4245",
+      "bp_id": "BP29286",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left first thoracic nerve",
+      "faces": "344",
+      "verts": "256",
+      "bytes": "24327",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4264",
+      "bp_id": "BP29324",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left fifth cervical nerve",
+      "faces": "1926",
+      "verts": "1005",
+      "bytes": "115363",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4265",
+      "bp_id": "BP29315",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left sixth cervical nerve",
+      "faces": "1106",
+      "verts": "621",
+      "bytes": "68404",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4266",
+      "bp_id": "BP29366",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left seventh cervical nerve",
+      "faces": "956",
+      "verts": "525",
+      "bytes": "58244",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4267",
+      "bp_id": "BP29406",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left eighth cervical nerve",
+      "faces": "970",
+      "verts": "559",
+      "bytes": "60680",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4274",
+      "bp_id": "BP29122",
+      "fma_id": "FMA11195",
+      "name": "Lateral cord of left brachial nerve plexus",
+      "faces": "348",
+      "verts": "209",
+      "bytes": "21771",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4275",
+      "bp_id": "BP29196",
+      "fma_id": "FMA11195",
+      "name": "Medial cord of left brachial nerve plexus",
+      "faces": "1708",
+      "verts": "913",
+      "bytes": "103364",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4258",
+      "bp_id": "BP29523",
+      "fma_id": "FMA37319",
+      "name": "Left ulnar nerve",
+      "faces": "4406",
+      "verts": "2242",
+      "bytes": "276297",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4172",
+      "bp_id": "BP29538",
+      "fma_id": "FMA37069",
+      "name": "Left radial nerve",
+      "faces": "576",
+      "verts": "327",
+      "bytes": "35574",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4240",
+      "bp_id": "BP29538",
+      "fma_id": "FMA37069",
+      "name": "Left radial nerve",
+      "faces": "4474",
+      "verts": "2280",
+      "bytes": "281192",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4171",
+      "bp_id": "BP29488",
+      "fma_id": "FMA37072",
+      "name": "Left axillary nerve",
+      "faces": "654",
+      "verts": "481",
+      "bytes": "46757",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4243",
+      "bp_id": "BP29488",
+      "fma_id": "FMA37072",
+      "name": "Left axillary nerve",
+      "faces": "360",
+      "verts": "310",
+      "bytes": "27986",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4185",
+      "bp_id": "BP29040",
+      "fma_id": "FMA10977",
+      "name": "Left second intercostobrachial nerve",
+      "faces": "1568",
+      "verts": "1388",
+      "bytes": "128467",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4222",
+      "bp_id": "BP29235",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left long thoracic nerve",
+      "faces": "1560",
+      "verts": "930",
+      "bytes": "99937",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4223",
+      "bp_id": "BP29528",
+      "fma_id": "FMA55665",
+      "name": "Left medial pectoral nerve",
+      "faces": "2300",
+      "verts": "1871",
+      "bytes": "182549",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4242",
+      "bp_id": "BP29426",
+      "fma_id": "FMA55665",
+      "name": "Left superior subscapular nerve",
+      "faces": "916",
+      "verts": "730",
+      "bytes": "69024",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ4256",
+      "bp_id": "BP29546",
+      "fma_id": "FMA55665",
+      "name": "Left thoracodorsal nerve",
+      "faces": "2068",
+      "verts": "1472",
+      "bytes": "149894",
+      "mtime": "1779787488"
+    }
+  ],
+  "scope": "17 small source objects; no broad model download or active integration"
+}

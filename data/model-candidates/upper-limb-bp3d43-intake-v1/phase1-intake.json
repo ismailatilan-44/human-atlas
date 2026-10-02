@@ -1,0 +1,2929 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bounded P3 BodyParts3D4.3 alternative-source intake; no active integration",
+  "sourceRevision": "0ac477f2a686991bcb4f4d2a72267c9243547433",
+  "reviewedOn": "2026-10-02",
+  "status": "candidate_only;root_owns_decision",
+  "sources": [
+    {
+      "id": "bp3d43-live",
+      "title": "BodyParts3D official live source",
+      "url": "https://lifesciencedb.jp/bp3d/",
+      "creator": "Database Center for Life Science (DBCLS)",
+      "version": "Data4.3 / Objects4.3 / FMA3.0",
+      "license": "CC BY-SA 2.1 Japan",
+      "licenseUrl": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+      "sourceReferenceBody": "Source body; demographic/specimen detail not established in this bounded intake",
+      "rightsStatus": {
+        "privateInspection": "permitted under captured public source license",
+        "adaptation": "attribution/share-alike obligations retained",
+        "distribution": "not activated; require source attribution/license retained and separate technical/expert acceptance"
+      },
+      "coordinateUnits": "OBJ source header states mm; no transform applied",
+      "access": "Public normal selected-download endpoint;no authentication or access restriction bypass",
+      "retrievedOn": "2026-10-02"
+    }
+  ],
+  "summary": {
+    "downloadedNeuralObjects": 17,
+    "namedCordObjects": 2,
+    "spinalNerveTrunkContextObjects": 5,
+    "otherNeuralObjects": 10,
+    "downloadedContextBones": 0,
+    "catalogOnlyObjects": 10,
+    "catalogConceptDiscrepancies": 17,
+    "catalogRepDiscrepancies": 4,
+    "activeMainSameFjParts": 0,
+    "anatomicallyAccepted": 0,
+    "registered": 0
+  },
+  "acquisitionPhases": [
+    {
+      "phase": 1,
+      "scope": "17 selected nerve/cord/spinal-trunk objects",
+      "status": "official OBJ availability and version membership verified"
+    },
+    {
+      "phase": 2,
+      "scope": "Bounded same-source bone context for subsequent frame audit",
+      "status": "pending independent acquisition"
+    }
+  ],
+  "objects": [
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4171_BP29488_FMA37074_Left axillary nerve.obj",
+      "sha256": "ba5be7fa0836ccfa72b016da504ab8ff04498c053d3ca4f5cf6b7ff18940418d",
+      "bytes": 46757,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4171",
+        "Representation ID": "BP29488",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA37074",
+        "English name": "Left axillary nerve",
+        "Bounds(mm)": "(120.358900,-65.112400,1262.462900)-(196.355700,-54.431100,1317.002100)",
+        "Volume(cm3)": "0.344800"
+      },
+      "sourcePartId": "FJ4171",
+      "returnedRepresentationId": "BP29488",
+      "returnedConceptId": "FMA37074",
+      "sourceName": "Left axillary nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 481,
+        "polygons": 654,
+        "trianglesIfFanTriangulated": 654,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            120.413,
+            -65.056,
+            1262.46
+          ],
+          [
+            196.356,
+            -54.4469,
+            1317.0
+          ]
+        ],
+        "connectedComponents": 10,
+        "componentVertices": [
+          450,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA37074",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4171",
+            "FJ4243"
+          ],
+          "line": 1107
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4171",
+        "bp_id": "BP29488",
+        "fma_id": "FMA37072",
+        "name": "Left axillary nerve",
+        "faces": "654",
+        "verts": "481",
+        "bytes": "46757",
+        "mtime": "1779787488",
+        "csvLine": 2345
+      },
+      "requestedRepresentationId": "BP29488",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA37072",
+        "returnedFmaId": "FMA37074",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:axillary-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_nerve_component_candidate",
+        "activeTargetRepresentations": [
+          {
+            "datasetId": "male-body",
+            "conceptId": "atlas:left-axillary-nerve",
+            "sourceName": "Left axillary nerve",
+            "sourceManifest": null,
+            "partIds": [],
+            "observedParts": [],
+            "sourceConcept": null,
+            "graphEntity": {
+              "id": "atlas:left-axillary-nerve",
+              "name": "Left axillary nerve",
+              "side": "left",
+              "kind": "nerve",
+              "geometryPartIds": [],
+              "representationStatus": "missing_geometry",
+              "expertReview": "pending",
+              "anatomicalCoverage": "non_exhaustive",
+              "evidence": [
+                {
+                  "sourceId": "ttuhsc-axilla-shoulder-tables",
+                  "locator": "Nerves / axillary row / Motor"
+                },
+                {
+                  "sourceId": "zanatomy-ta2-terminology",
+                  "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+                }
+              ],
+              "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+            },
+            "status": "existing_concept_without_mesh",
+            "selectionScope": "no_mesh_binding",
+            "detailAcceptance": "unreviewed; membership and nonzero geometry do not establish required anatomical detail"
+          }
+        ],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6440,
+        "en": "Axillary nerve",
+        "la": "Nervus axillaris",
+        "csvLine": 6523,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4172_BP29806_FMA37071_Left radial nerve.obj",
+      "sha256": "a6cd726af7026964e340fdae14c1dc22a8c8fbe0ed8996c937709e83a4cef909",
+      "bytes": 35574,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4172",
+        "Representation ID": "BP29806",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA37071",
+        "English name": "Left radial nerve",
+        "Bounds(mm)": "(226.883900,-70.143600,933.380200)-(243.352600,-45.687400,1042.517700)",
+        "Volume(cm3)": "0.287100"
+      },
+      "sourcePartId": "FJ4172",
+      "returnedRepresentationId": "BP29806",
+      "returnedConceptId": "FMA37071",
+      "sourceName": "Left radial nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 327,
+        "polygons": 576,
+        "trianglesIfFanTriangulated": 576,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            226.904,
+            -70.1259,
+            933.38
+          ],
+          [
+            243.321,
+            -45.7219,
+            1042.48
+          ]
+        ],
+        "connectedComponents": 6,
+        "componentVertices": [
+          309,
+          4,
+          4,
+          4,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA37071",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4172",
+            "FJ4240"
+          ],
+          "line": 1105
+        },
+        {
+          "conceptId": "FMA37071",
+          "relationship": "part_of",
+          "partIds": [
+            "FJ4172",
+            "FJ4240",
+            "FJ4268",
+            "FJ4270",
+            "FJ4271"
+          ],
+          "line": 4471
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4172",
+        "bp_id": "BP29538",
+        "fma_id": "FMA37069",
+        "name": "Left radial nerve",
+        "faces": "576",
+        "verts": "327",
+        "bytes": "35574",
+        "mtime": "1779787488",
+        "csvLine": 2346
+      },
+      "requestedRepresentationId": "BP29538",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA37069",
+        "returnedFmaId": "FMA37071",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": true,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:radial-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_nerve_component_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6431,
+        "en": "Radial nerve",
+        "la": "Nervus radialis",
+        "csvLine": 6514,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4185_BP29040_FMA65908_Left second intercostobrachial nerve.obj",
+      "sha256": "9f467fa539885021336d9800ba581f7dea01aba5478d34d940ca6fd7e07f26f9",
+      "bytes": 128467,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4185",
+        "Representation ID": "BP29040",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA65908",
+        "English name": "Left second intercostobrachial nerve",
+        "Bounds(mm)": "(68.175400,-90.375500,1184.674300)-(188.225400,-48.009900,1331.452400)",
+        "Volume(cm3)": "0.571100"
+      },
+      "sourcePartId": "FJ4185",
+      "returnedRepresentationId": "BP29040",
+      "returnedConceptId": "FMA65908",
+      "sourceName": "Left second intercostobrachial nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 1388,
+        "polygons": 1568,
+        "trianglesIfFanTriangulated": 1568,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            68.2066,
+            -90.3637,
+            1184.67
+          ],
+          [
+            188.225,
+            -48.0414,
+            1331.42
+          ]
+        ],
+        "connectedComponents": 81,
+        "componentVertices": [
+          396,
+          348,
+          178,
+          33,
+          25,
+          23,
+          18,
+          17,
+          14,
+          14,
+          13,
+          13,
+          10,
+          10,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA65908",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4185"
+          ],
+          "line": 2799
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4185",
+        "bp_id": "BP29040",
+        "fma_id": "FMA10977",
+        "name": "Left second intercostobrachial nerve",
+        "faces": "1568",
+        "verts": "1388",
+        "bytes": "128467",
+        "mtime": "1779787488",
+        "csvLine": 2350
+      },
+      "requestedRepresentationId": "BP29040",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA10977",
+        "returnedFmaId": "FMA65908",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:intercostobrachial-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "specifically_second_intercostobrachial_component",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6476,
+        "en": "Intercostobrachial nerve",
+        "la": "Nervus intercostobrachialis",
+        "csvLine": 6559,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4222_BP29235_FMA79667_Trunk of left long thoracic nerve.obj",
+      "sha256": "4fb3e702f359607165b89d30d4d94c6883d64e9f878583db223fb5187a9062ae",
+      "bytes": 99937,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4222",
+        "Representation ID": "BP29235",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA79667",
+        "English name": "Trunk of left long thoracic nerve",
+        "Bounds(mm)": "(26.248900,-140.171000,1110.576200)-(135.689600,-72.264800,1401.551300)",
+        "Volume(cm3)": "0.771800"
+      },
+      "sourcePartId": "FJ4222",
+      "returnedRepresentationId": "BP29235",
+      "returnedConceptId": "FMA79667",
+      "sourceName": "Trunk of left long thoracic nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 930,
+        "polygons": 1560,
+        "trianglesIfFanTriangulated": 1560,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            26.2794,
+            -140.15,
+            1110.58
+          ],
+          [
+            135.69,
+            -72.3284,
+            1401.52
+          ]
+        ],
+        "connectedComponents": 8,
+        "componentVertices": [
+          893,
+          10,
+          9,
+          5,
+          4,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA79667",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4222"
+          ],
+          "line": 3569
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4222",
+        "bp_id": "BP29235",
+        "fma_id": "FMA11195",
+        "name": "Trunk of left long thoracic nerve",
+        "faces": "1560",
+        "verts": "930",
+        "bytes": "99937",
+        "mtime": "1779787488",
+        "csvLine": 2355
+      },
+      "requestedRepresentationId": "BP29235",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA79667",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:long-thoracic-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_trunk_not_whole_nerve_guarantee",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6410,
+        "en": "Long thoracic nerve",
+        "la": "Nervus thoracicus longus",
+        "csvLine": 6493,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4223_BP29528_FMA65295_Left medial pectoral nerve.obj",
+      "sha256": "3ba80e21c2805f78aa0c8067342c5a644b08745515e2b928f4abd33d2bee32ae",
+      "bytes": 182549,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4223",
+        "Representation ID": "BP29528",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA65295",
+        "English name": "Left medial pectoral nerve",
+        "Bounds(mm)": "(29.907900,-203.911500,1158.169300)-(120.592200,-94.970900,1317.717800)",
+        "Volume(cm3)": "0.562000"
+      },
+      "sourcePartId": "FJ4223",
+      "returnedRepresentationId": "BP29528",
+      "returnedConceptId": "FMA65295",
+      "sourceName": "Left medial pectoral nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 1871,
+        "polygons": 2300,
+        "trianglesIfFanTriangulated": 2300,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            29.9079,
+            -203.911,
+            1158.17
+          ],
+          [
+            120.57,
+            -95.0096,
+            1317.69
+          ]
+        ],
+        "connectedComponents": 76,
+        "componentVertices": [
+          708,
+          595,
+          80,
+          39,
+          32,
+          23,
+          22,
+          19,
+          19,
+          16,
+          11,
+          11,
+          10,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA65295",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4223"
+          ],
+          "line": 2763
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4223",
+        "bp_id": "BP29528",
+        "fma_id": "FMA55665",
+        "name": "Left medial pectoral nerve",
+        "faces": "2300",
+        "verts": "1871",
+        "bytes": "182549",
+        "mtime": "1779787488",
+        "csvLine": 2356
+      },
+      "requestedRepresentationId": "BP29528",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA55665",
+        "returnedFmaId": "FMA65295",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:medial-pectoral-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_collateral_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6444,
+        "en": "Medial pectoral nerve",
+        "la": "Nervus pectoralis medialis",
+        "csvLine": 6527,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4240_BP29806_FMA37071_Left radial nerve.obj",
+      "sha256": "b7bbc22a41bcfc72af2c1a9b6fedd888e372d784887ef4d7400f079e678f698d",
+      "bytes": 281192,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4240",
+        "Representation ID": "BP29806",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA37071",
+        "English name": "Left radial nerve",
+        "Bounds(mm)": "(85.104200,-107.031100,786.295800)-(277.990100,-53.090500,1333.370800)",
+        "Volume(cm3)": "3.947600"
+      },
+      "sourcePartId": "FJ4240",
+      "returnedRepresentationId": "BP29806",
+      "returnedConceptId": "FMA37071",
+      "sourceName": "Left radial nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 2280,
+        "polygons": 4474,
+        "trianglesIfFanTriangulated": 4474,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            85.1042,
+            -107.016,
+            786.306
+          ],
+          [
+            277.984,
+            -53.1027,
+            1333.37
+          ]
+        ],
+        "connectedComponents": 7,
+        "componentVertices": [
+          2237,
+          27,
+          4,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA37071",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4172",
+            "FJ4240"
+          ],
+          "line": 1105
+        },
+        {
+          "conceptId": "FMA37071",
+          "relationship": "part_of",
+          "partIds": [
+            "FJ4172",
+            "FJ4240",
+            "FJ4268",
+            "FJ4270",
+            "FJ4271"
+          ],
+          "line": 4471
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4240",
+        "bp_id": "BP29538",
+        "fma_id": "FMA37069",
+        "name": "Left radial nerve",
+        "faces": "4474",
+        "verts": "2280",
+        "bytes": "281192",
+        "mtime": "1779787488",
+        "csvLine": 2360
+      },
+      "requestedRepresentationId": "BP29538",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA37069",
+        "returnedFmaId": "FMA37071",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": true,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:radial-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_nerve_component_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6431,
+        "en": "Radial nerve",
+        "la": "Nervus radialis",
+        "csvLine": 6514,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4242_BP29426_FMA65306_Left superior subscapular nerve.obj",
+      "sha256": "b73b9361cbfbc1acee0ef817cb279f9d80f1ea7c006cbacffd0673dd5e63343a",
+      "bytes": 69024,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4242",
+        "Representation ID": "BP29426",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA65306",
+        "English name": "Left superior subscapular nerve",
+        "Bounds(mm)": "(88.755000,-77.323400,1222.842700)-(142.079400,-37.663600,1330.116000)",
+        "Volume(cm3)": "0.357600"
+      },
+      "sourcePartId": "FJ4242",
+      "returnedRepresentationId": "BP29426",
+      "returnedConceptId": "FMA65306",
+      "sourceName": "Left superior subscapular nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 730,
+        "polygons": 916,
+        "trianglesIfFanTriangulated": 916,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            88.7713,
+            -77.3066,
+            1222.84
+          ],
+          [
+            142.079,
+            -37.6636,
+            1330.08
+          ]
+        ],
+        "connectedComponents": 31,
+        "componentVertices": [
+          579,
+          19,
+          15,
+          11,
+          10,
+          8,
+          6,
+          6,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA65306",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4242"
+          ],
+          "line": 2765
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4242",
+        "bp_id": "BP29426",
+        "fma_id": "FMA55665",
+        "name": "Left superior subscapular nerve",
+        "faces": "916",
+        "verts": "730",
+        "bytes": "69024",
+        "mtime": "1779787488",
+        "csvLine": 2362
+      },
+      "requestedRepresentationId": "BP29426",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA55665",
+        "returnedFmaId": "FMA65306",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:superior-subscapular-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_collateral_candidate",
+        "activeTargetRepresentations": [
+          {
+            "datasetId": "male-body",
+            "conceptId": "atlas:left-upper-subscapular-nerve",
+            "sourceName": "Left upper subscapular nerve",
+            "sourceManifest": null,
+            "partIds": [],
+            "observedParts": [],
+            "sourceConcept": null,
+            "graphEntity": {
+              "id": "atlas:left-upper-subscapular-nerve",
+              "name": "Left upper subscapular nerve",
+              "side": "left",
+              "kind": "nerve",
+              "geometryPartIds": [],
+              "representationStatus": "missing_geometry",
+              "expertReview": "pending",
+              "anatomicalCoverage": "non_exhaustive",
+              "evidence": [
+                {
+                  "sourceId": "ttuhsc-axilla-shoulder-tables",
+                  "locator": "Nerves / upper subscapular row / Motor"
+                },
+                {
+                  "sourceId": "zanatomy-ta2-terminology",
+                  "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+                }
+              ],
+              "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+            },
+            "status": "existing_concept_without_mesh",
+            "selectionScope": "no_mesh_binding",
+            "detailAcceptance": "unreviewed; membership and nonzero geometry do not establish required anatomical detail"
+          }
+        ],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6428,
+        "en": "Superior subscapular nerve",
+        "la": "Nervus subscapularis superior",
+        "csvLine": 6511,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4243_BP29488_FMA37074_Left axillary nerve.obj",
+      "sha256": "1744a5584078ab48f0a1fd4e4c06efefd304c61208eda1f2792d17d745179d12",
+      "bytes": 27986,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4243",
+        "Representation ID": "BP29488",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA37074",
+        "English name": "Left axillary nerve",
+        "Bounds(mm)": "(177.980700,-79.837400,1229.958300)-(221.362000,-59.931100,1277.786400)",
+        "Volume(cm3)": "0.120100"
+      },
+      "sourcePartId": "FJ4243",
+      "returnedRepresentationId": "BP29488",
+      "returnedConceptId": "FMA37074",
+      "sourceName": "Left axillary nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 310,
+        "polygons": 360,
+        "trianglesIfFanTriangulated": 360,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            178.018,
+            -79.8374,
+            1229.96
+          ],
+          [
+            221.362,
+            -60.0929,
+            1277.76
+          ]
+        ],
+        "connectedComponents": 18,
+        "componentVertices": [
+          210,
+          17,
+          12,
+          10,
+          8,
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA37074",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4171",
+            "FJ4243"
+          ],
+          "line": 1107
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4243",
+        "bp_id": "BP29488",
+        "fma_id": "FMA37072",
+        "name": "Left axillary nerve",
+        "faces": "360",
+        "verts": "310",
+        "bytes": "27986",
+        "mtime": "1779787488",
+        "csvLine": 2363
+      },
+      "requestedRepresentationId": "BP29488",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA37072",
+        "returnedFmaId": "FMA37074",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:axillary-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_nerve_component_candidate",
+        "activeTargetRepresentations": [
+          {
+            "datasetId": "male-body",
+            "conceptId": "atlas:left-axillary-nerve",
+            "sourceName": "Left axillary nerve",
+            "sourceManifest": null,
+            "partIds": [],
+            "observedParts": [],
+            "sourceConcept": null,
+            "graphEntity": {
+              "id": "atlas:left-axillary-nerve",
+              "name": "Left axillary nerve",
+              "side": "left",
+              "kind": "nerve",
+              "geometryPartIds": [],
+              "representationStatus": "missing_geometry",
+              "expertReview": "pending",
+              "anatomicalCoverage": "non_exhaustive",
+              "evidence": [
+                {
+                  "sourceId": "ttuhsc-axilla-shoulder-tables",
+                  "locator": "Nerves / axillary row / Motor"
+                },
+                {
+                  "sourceId": "zanatomy-ta2-terminology",
+                  "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+                }
+              ],
+              "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+            },
+            "status": "existing_concept_without_mesh",
+            "selectionScope": "no_mesh_binding",
+            "detailAcceptance": "unreviewed; membership and nonzero geometry do not establish required anatomical detail"
+          }
+        ],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6440,
+        "en": "Axillary nerve",
+        "la": "Nervus axillaris",
+        "csvLine": 6523,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4245_BP29808_FMA7023_Trunk of left first thoracic nerve.obj",
+      "sha256": "730268434b74e1ae81dc620a8b841836a9212fbff2cbd201f0a3a1fde4439034",
+      "bytes": 24327,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4245",
+        "Representation ID": "BP29808",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA7023",
+        "English name": "Trunk of left first thoracic nerve",
+        "Bounds(mm)": "(1.122900,-66.532800,1358.699700)-(25.791600,-56.976600,1364.318500)",
+        "Volume(cm3)": "0.152600"
+      },
+      "sourcePartId": "FJ4245",
+      "returnedRepresentationId": "BP29808",
+      "returnedConceptId": "FMA7023",
+      "sourceName": "Trunk of left first thoracic nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 256,
+        "polygons": 344,
+        "trianglesIfFanTriangulated": 344,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            1.13987,
+            -66.5328,
+            1358.87
+          ],
+          [
+            25.76,
+            -57.0011,
+            1364.27
+          ]
+        ],
+        "connectedComponents": 5,
+        "componentVertices": [
+          241,
+          5,
+          4,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA7023",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4245"
+          ],
+          "line": 3072
+        },
+        {
+          "conceptId": "FMA7023",
+          "relationship": "part_of",
+          "partIds": [
+            "FJ4245"
+          ],
+          "line": 5145
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4245",
+        "bp_id": "BP29286",
+        "fma_id": "FMA11195",
+        "name": "Trunk of left first thoracic nerve",
+        "faces": "344",
+        "verts": "256",
+        "bytes": "24327",
+        "mtime": "1779787488",
+        "csvLine": 2365
+      },
+      "requestedRepresentationId": "BP29286",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA7023",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": true,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:t1-root-contribution-to-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "spinal_nerve_trunk_context_only",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "exactNumericTerm": null,
+        "la": null,
+        "unresolvedReason": "Individual root identity is not established by the exported root-like source bundle; do not assign C5-T1 from topology",
+        "genericTerm": {
+          "numericId": 6397,
+          "en": "Roots of brachial plexus",
+          "la": "Radices plexus brachialis",
+          "csvLine": 6480
+        }
+      },
+      "rootIdentityLimit": "Explicit C5/C6/C7/C8/T1 whole nerve-trunk name does not isolate a ventral ramus or prove this mesh is only the brachial-plexus root contribution. Exact root Latin and root-contribution binding remain withheld."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4256_BP29546_FMA65292_Left thoracodorsal nerve.obj",
+      "sha256": "97fbf447a823d44529a6f69a382395cad552bda6200a9ffa53d06c9f7b3724c2",
+      "bytes": 149894,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4256",
+        "Representation ID": "BP29546",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA65292",
+        "English name": "Left thoracodorsal nerve",
+        "Bounds(mm)": "(39.063600,-66.820300,1068.344400)-(132.207300,-14.912400,1308.438100)",
+        "Volume(cm3)": "0.897600"
+      },
+      "sourcePartId": "FJ4256",
+      "returnedRepresentationId": "BP29546",
+      "returnedConceptId": "FMA65292",
+      "sourceName": "Left thoracodorsal nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 1472,
+        "polygons": 2068,
+        "trianglesIfFanTriangulated": 2068,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            39.0636,
+            -66.8001,
+            1068.34
+          ],
+          [
+            132.157,
+            -14.9294,
+            1308.42
+          ]
+        ],
+        "connectedComponents": 36,
+        "componentVertices": [
+          1319,
+          12,
+          8,
+          7,
+          7,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA65292",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4256"
+          ],
+          "line": 2761
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4256",
+        "bp_id": "BP29546",
+        "fma_id": "FMA55665",
+        "name": "Left thoracodorsal nerve",
+        "faces": "2068",
+        "verts": "1472",
+        "bytes": "149894",
+        "mtime": "1779787488",
+        "csvLine": 2367
+      },
+      "requestedRepresentationId": "BP29546",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA55665",
+        "returnedFmaId": "FMA65292",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:thoracodorsal-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_collateral_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6430,
+        "en": "Thoracodorsal nerve",
+        "la": "Nervus thoracodorsalis",
+        "csvLine": 6513,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4258_BP29812_FMA37321_Left ulnar nerve.obj",
+      "sha256": "e83c41c5d566d299f56e4e68ae45022fa7b41a649e4a2a6e4de1cc6ba17ad38f",
+      "bytes": 276297,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4258",
+        "Representation ID": "BP29812",
+        "Build-up logic": "FMA 3.0 part_of",
+        "Concept ID": "FMA37321",
+        "English name": "Left ulnar nerve",
+        "Bounds(mm)": "(82.389600,-132.740500,786.045800)-(247.568200,-54.721700,1333.656700)",
+        "Volume(cm3)": "3.909700"
+      },
+      "sourcePartId": "FJ4258",
+      "returnedRepresentationId": "BP29812",
+      "returnedConceptId": "FMA37321",
+      "sourceName": "Left ulnar nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 2242,
+        "polygons": 4406,
+        "trianglesIfFanTriangulated": 4406,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            82.3896,
+            -132.719,
+            786.053
+          ],
+          [
+            247.559,
+            -54.7286,
+            1333.66
+          ]
+        ],
+        "connectedComponents": 3,
+        "componentVertices": [
+          2216,
+          23,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA37321",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4258"
+          ],
+          "line": 1116
+        },
+        {
+          "conceptId": "FMA37321",
+          "relationship": "part_of",
+          "partIds": [
+            "FJ4258"
+          ],
+          "line": 4472
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4258",
+        "bp_id": "BP29523",
+        "fma_id": "FMA37319",
+        "name": "Left ulnar nerve",
+        "faces": "4406",
+        "verts": "2242",
+        "bytes": "276297",
+        "mtime": "1779787488",
+        "csvLine": 2369
+      },
+      "requestedRepresentationId": "BP29523",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA37319",
+        "returnedFmaId": "FMA37321",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": true,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:ulnar-nerve-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_nerve_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6449,
+        "en": "Ulnar nerve",
+        "la": "Nervus ulnaris",
+        "csvLine": 6532,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4264_BP29324_FMA24105_Trunk of left fifth cervical nerve.obj",
+      "sha256": "c45e251cfc015a3fd9834805a55e29fb3123485d3bc321af2b1442fa975d9c00",
+      "bytes": 115363,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4264",
+        "Representation ID": "BP29324",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA24105",
+        "English name": "Trunk of left fifth cervical nerve",
+        "Bounds(mm)": "(0.987900,-89.426300,1378.930300)-(40.027000,-64.704400,1418.689700)",
+        "Volume(cm3)": "0.309800"
+      },
+      "sourcePartId": "FJ4264",
+      "returnedRepresentationId": "BP29324",
+      "returnedConceptId": "FMA24105",
+      "sourceName": "Trunk of left fifth cervical nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 1005,
+        "polygons": 1926,
+        "trianglesIfFanTriangulated": 1926,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            1.00194,
+            -89.4075,
+            1378.94
+          ],
+          [
+            40.0215,
+            -64.7209,
+            1418.67
+          ]
+        ],
+        "connectedComponents": 2,
+        "componentVertices": [
+          1002,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA24105",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4264"
+          ],
+          "line": 819
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4264",
+        "bp_id": "BP29324",
+        "fma_id": "FMA11195",
+        "name": "Trunk of left fifth cervical nerve",
+        "faces": "1926",
+        "verts": "1005",
+        "bytes": "115363",
+        "mtime": "1779787488",
+        "csvLine": 2374
+      },
+      "requestedRepresentationId": "BP29324",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA24105",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:c5-root-contribution-to-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "spinal_nerve_trunk_context_only",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "exactNumericTerm": null,
+        "la": null,
+        "unresolvedReason": "Individual root identity is not established by the exported root-like source bundle; do not assign C5-T1 from topology",
+        "genericTerm": {
+          "numericId": 6397,
+          "en": "Roots of brachial plexus",
+          "la": "Radices plexus brachialis",
+          "csvLine": 6480
+        }
+      },
+      "rootIdentityLimit": "Explicit C5/C6/C7/C8/T1 whole nerve-trunk name does not isolate a ventral ramus or prove this mesh is only the brachial-plexus root contribution. Exact root Latin and root-contribution binding remain withheld."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4265_BP29315_FMA7011_Trunk of left sixth cervical nerve.obj",
+      "sha256": "4f8c708b7a866609078ce513432b060fd9bf04f2b899aef52ebaf9c8af13a200",
+      "bytes": 68404,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4265",
+        "Representation ID": "BP29315",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA7011",
+        "English name": "Trunk of left sixth cervical nerve",
+        "Bounds(mm)": "(0.712400,-83.462700,1371.702400)-(41.777200,-65.322100,1401.175000)",
+        "Volume(cm3)": "0.594300"
+      },
+      "sourcePartId": "FJ4265",
+      "returnedRepresentationId": "BP29315",
+      "returnedConceptId": "FMA7011",
+      "sourceName": "Trunk of left sixth cervical nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 621,
+        "polygons": 1106,
+        "trianglesIfFanTriangulated": 1106,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            0.727536,
+            -83.4331,
+            1371.74
+          ],
+          [
+            41.7447,
+            -65.3433,
+            1401.15
+          ]
+        ],
+        "connectedComponents": 9,
+        "componentVertices": [
+          593,
+          7,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA7011",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4265"
+          ],
+          "line": 3066
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4265",
+        "bp_id": "BP29315",
+        "fma_id": "FMA11195",
+        "name": "Trunk of left sixth cervical nerve",
+        "faces": "1106",
+        "verts": "621",
+        "bytes": "68404",
+        "mtime": "1779787488",
+        "csvLine": 2375
+      },
+      "requestedRepresentationId": "BP29315",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA7011",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:c6-root-contribution-to-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "spinal_nerve_trunk_context_only",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "exactNumericTerm": null,
+        "la": null,
+        "unresolvedReason": "Individual root identity is not established by the exported root-like source bundle; do not assign C5-T1 from topology",
+        "genericTerm": {
+          "numericId": 6397,
+          "en": "Roots of brachial plexus",
+          "la": "Radices plexus brachialis",
+          "csvLine": 6480
+        }
+      },
+      "rootIdentityLimit": "Explicit C5/C6/C7/C8/T1 whole nerve-trunk name does not isolate a ventral ramus or prove this mesh is only the brachial-plexus root contribution. Exact root Latin and root-contribution binding remain withheld."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4266_BP29366_FMA7013_Trunk of left seventh cervical nerve.obj",
+      "sha256": "d22ca0d722f811e9fba1cc51accfbd50d0e8805070b6fe0616cf9700e57e529a",
+      "bytes": 58244,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4266",
+        "Representation ID": "BP29366",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA7013",
+        "English name": "Trunk of left seventh cervical nerve",
+        "Bounds(mm)": "(0.654200,-76.679200,1361.632100)-(42.353000,-63.406500,1391.224400)",
+        "Volume(cm3)": "0.516400"
+      },
+      "sourcePartId": "FJ4266",
+      "returnedRepresentationId": "BP29366",
+      "returnedConceptId": "FMA7013",
+      "sourceName": "Trunk of left seventh cervical nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 525,
+        "polygons": 956,
+        "trianglesIfFanTriangulated": 956,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            0.678468,
+            -76.6737,
+            1361.65
+          ],
+          [
+            42.344,
+            -63.447,
+            1391.19
+          ]
+        ],
+        "connectedComponents": 3,
+        "componentVertices": [
+          519,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA7013",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4266"
+          ],
+          "line": 3067
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4266",
+        "bp_id": "BP29366",
+        "fma_id": "FMA11195",
+        "name": "Trunk of left seventh cervical nerve",
+        "faces": "956",
+        "verts": "525",
+        "bytes": "58244",
+        "mtime": "1779787488",
+        "csvLine": 2376
+      },
+      "requestedRepresentationId": "BP29366",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA7013",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:c7-root-contribution-to-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "spinal_nerve_trunk_context_only",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "exactNumericTerm": null,
+        "la": null,
+        "unresolvedReason": "Individual root identity is not established by the exported root-like source bundle; do not assign C5-T1 from topology",
+        "genericTerm": {
+          "numericId": 6397,
+          "en": "Roots of brachial plexus",
+          "la": "Radices plexus brachialis",
+          "csvLine": 6480
+        }
+      },
+      "rootIdentityLimit": "Explicit C5/C6/C7/C8/T1 whole nerve-trunk name does not isolate a ventral ramus or prove this mesh is only the brachial-plexus root contribution. Exact root Latin and root-contribution binding remain withheld."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4267_BP29406_FMA7015_Trunk of left eighth cervical nerve.obj",
+      "sha256": "6e3be4f8b771cd9d2226869e18f2c8e99155319063c44ec1c6869bb930674002",
+      "bytes": 60680,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4267",
+        "Representation ID": "BP29406",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA7015",
+        "English name": "Trunk of left eighth cervical nerve",
+        "Bounds(mm)": "(1.285000,-80.344800,1353.320400)-(46.413900,-60.296300,1377.371900)",
+        "Volume(cm3)": "0.513700"
+      },
+      "sourcePartId": "FJ4267",
+      "returnedRepresentationId": "BP29406",
+      "returnedConceptId": "FMA7015",
+      "sourceName": "Trunk of left eighth cervical nerve",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 559,
+        "polygons": 970,
+        "trianglesIfFanTriangulated": 970,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            1.31186,
+            -80.3352,
+            1353.34
+          ],
+          [
+            46.4018,
+            -60.3573,
+            1377.35
+          ]
+        ],
+        "connectedComponents": 7,
+        "componentVertices": [
+          537,
+          5,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA7015",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4267"
+          ],
+          "line": 3068
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4267",
+        "bp_id": "BP29406",
+        "fma_id": "FMA11195",
+        "name": "Trunk of left eighth cervical nerve",
+        "faces": "970",
+        "verts": "559",
+        "bytes": "60680",
+        "mtime": "1779787488",
+        "csvLine": 2377
+      },
+      "requestedRepresentationId": "BP29406",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA7015",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:c8-root-contribution-to-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "spinal_nerve_trunk_context_only",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "exactNumericTerm": null,
+        "la": null,
+        "unresolvedReason": "Individual root identity is not established by the exported root-like source bundle; do not assign C5-T1 from topology",
+        "genericTerm": {
+          "numericId": 6397,
+          "en": "Roots of brachial plexus",
+          "la": "Radices plexus brachialis",
+          "csvLine": 6480
+        }
+      },
+      "rootIdentityLimit": "Explicit C5/C6/C7/C8/T1 whole nerve-trunk name does not isolate a ventral ramus or prove this mesh is only the brachial-plexus root contribution. Exact root Latin and root-contribution binding remain withheld."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445",
+      "bytes": 21771,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4274",
+        "Representation ID": "BP29122",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA45239",
+        "English name": "Lateral cord of left brachial nerve plexus",
+        "Bounds(mm)": "(64.087000,-89.235500,1335.820800)-(90.394600,-78.346700,1362.618500)",
+        "Volume(cm3)": "0.319600"
+      },
+      "sourcePartId": "FJ4274",
+      "returnedRepresentationId": "BP29122",
+      "returnedConceptId": "FMA45239",
+      "sourceName": "Lateral cord of left brachial nerve plexus",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 209,
+        "polygons": 348,
+        "trianglesIfFanTriangulated": 348,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            64.1839,
+            -89.2355,
+            1335.88
+          ],
+          [
+            90.3946,
+            -78.3825,
+            1362.62
+          ]
+        ],
+        "connectedComponents": 5,
+        "componentVertices": [
+          183,
+          15,
+          4,
+          4,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA45239",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4274"
+          ],
+          "line": 1446
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4274",
+        "bp_id": "BP29122",
+        "fma_id": "FMA11195",
+        "name": "Lateral cord of left brachial nerve plexus",
+        "faces": "348",
+        "verts": "209",
+        "bytes": "21771",
+        "mtime": "1779787488",
+        "csvLine": 2384
+      },
+      "requestedRepresentationId": "BP29122",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA45239",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:lateral-cord-of-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_cord_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6415,
+        "en": "Lateral cord of brachial plexus",
+        "la": "Fasciculus lateralis plexus brachialis",
+        "csvLine": 6498,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d",
+      "bytes": 103364,
+      "header": {
+        "Compatibility version": "4.3",
+        "File ID": "FJ4275",
+        "Representation ID": "BP29196",
+        "Build-up logic": "FMA 3.0 is_a",
+        "Concept ID": "FMA45241",
+        "English name": "Medial cord of left brachial nerve plexus",
+        "Bounds(mm)": "(53.209600,-91.088100,1330.279400)-(89.828400,-81.233500,1352.596600)",
+        "Volume(cm3)": "0.397100"
+      },
+      "sourcePartId": "FJ4275",
+      "returnedRepresentationId": "BP29196",
+      "returnedConceptId": "FMA45241",
+      "sourceName": "Medial cord of left brachial nerve plexus",
+      "version": "BodyParts3D4.3;objects4.3;FMA3.0",
+      "coordinateUnits": "mm as declared by OBJ Bounds(mm) header; no rotation/scale/registration applied",
+      "observedMesh": {
+        "vertices": 913,
+        "polygons": 1708,
+        "trianglesIfFanTriangulated": 1708,
+        "finiteVertices": true,
+        "indicesInRange": true,
+        "boundsMm": [
+          [
+            53.2156,
+            -91.0736,
+            1330.28
+          ],
+          [
+            89.8253,
+            -81.2422,
+            1352.59
+          ]
+        ],
+        "connectedComponents": 11,
+        "componentVertices": [
+          844,
+          42,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "looseVertices": 0,
+        "checkScope": "File parsing/counts/bounds/connectivity only; mesh quality, anatomical extent and registration unaccepted"
+      },
+      "officialReturnedConceptMembership": [
+        {
+          "conceptId": "FMA45241",
+          "relationship": "is_a",
+          "partIds": [
+            "FJ4275"
+          ],
+          "line": 1447
+        }
+      ],
+      "main40Comparison": {
+        "sameFjPresent": false,
+        "part": null,
+        "scope": "Shared FJ alone would not establish geometry/version equivalence"
+      },
+      "review": {
+        "anatomy": "pending",
+        "geometryAudit": "pending",
+        "registration": "pending",
+        "labels": "not_proposed",
+        "relationships": "not_proposed"
+      },
+      "catalogEvidence": {
+        "fj_id": "FJ4275",
+        "bp_id": "BP29196",
+        "fma_id": "FMA11195",
+        "name": "Medial cord of left brachial nerve plexus",
+        "faces": "1708",
+        "verts": "913",
+        "bytes": "103364",
+        "mtime": "1779787488",
+        "csvLine": 2385
+      },
+      "requestedRepresentationId": "BP29196",
+      "catalogDiscrepancy": {
+        "catalogFmaId": "FMA11195",
+        "returnedFmaId": "FMA45241",
+        "conceptIdDiffers": true,
+        "representationIdDiffers": false,
+        "rule": "Returned official OBJ header and explicit source-version membership govern candidate identity; never replace with generic catalog FMA11195/FMA55665"
+      },
+      "targetCorrespondence": {
+        "targetId": "upper-limb-target-v1:medial-cord-of-brachial-plexus-l",
+        "targetDataset": "male-body requirement;source candidate unregistered",
+        "candidateDataset": "bodyparts3d-4.3-source-unregistered",
+        "sourceSide": "left_explicit_in_header",
+        "status": "named_cord_candidate",
+        "activeTargetRepresentations": [],
+        "scope": "Source-object identity only; no source-to-main geometric equivalence or complete-target binding"
+      },
+      "termEvidence": {
+        "sourceId": "zanatomy-ta2-pinned",
+        "numericId": 6417,
+        "en": "Medial cord of brachial plexus",
+        "la": "Fasciculus medialis plexus brachialis",
+        "csvLine": 6500,
+        "scope": "Exact unsided numeric term; no formal FMA crosswalk or side-declension assertion"
+      },
+      "termCorrespondenceLimit": "Numeric terminology is target scope evidence, not a formal source-FMA crosswalk or anatomical extent acceptance."
+    }
+  ],
+  "contextObjects": [],
+  "catalogOnlyObservations": [
+    {
+      "fj_id": "FJ4241",
+      "bp_id": "BP29108",
+      "fma_id": "FMA11195",
+      "name": "Trunk of left subclavian nerve",
+      "faces": "488",
+      "verts": "415",
+      "bytes": "38077",
+      "mtime": "1779787488",
+      "csvLine": 2361,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4268",
+      "bp_id": "BP29006",
+      "fma_id": "FMA11195",
+      "name": "Medial dorsal digital branch of left radial nerve to left middle finger",
+      "faces": "782",
+      "verts": "587",
+      "bytes": "56793",
+      "mtime": "1779787488",
+      "csvLine": 2378,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4269",
+      "bp_id": "BP29221",
+      "fma_id": "FMA11195",
+      "name": "First dorsal digital branch of radial nerve",
+      "faces": "644",
+      "verts": "418",
+      "bytes": "42712",
+      "mtime": "1779787488",
+      "csvLine": 2379,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4270",
+      "bp_id": "BP28976",
+      "fma_id": "FMA11195",
+      "name": "First dorsal digital branch of left radial nerve",
+      "faces": "1314",
+      "verts": "1020",
+      "bytes": "97984",
+      "mtime": "1779787488",
+      "csvLine": 2380,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4271",
+      "bp_id": "BP28986",
+      "fma_id": "FMA11195",
+      "name": "Dorsal digital branch of left radial nerve to medial side of left index finger",
+      "faces": "466",
+      "verts": "390",
+      "bytes": "35917",
+      "mtime": "1779787488",
+      "csvLine": 2381,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4273",
+      "bp_id": "BP29300",
+      "fma_id": "FMA11195",
+      "name": "Inferior trunk of left brachial nerve plexus",
+      "faces": "330",
+      "verts": "258",
+      "bytes": "24250",
+      "mtime": "1779787488",
+      "csvLine": 2383,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4276",
+      "bp_id": "BP29380",
+      "fma_id": "FMA11195",
+      "name": "Middle trunk of left brachial nerve plexus",
+      "faces": "350",
+      "verts": "227",
+      "bytes": "22974",
+      "mtime": "1779787488",
+      "csvLine": 2386,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4278",
+      "bp_id": "BP29259",
+      "fma_id": "FMA11195",
+      "name": "Lateral dorsal digital branch of radial nerve to index finger",
+      "faces": "604",
+      "verts": "383",
+      "bytes": "39534",
+      "mtime": "1779787488",
+      "csvLine": 2387,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4280",
+      "bp_id": "BP29303",
+      "fma_id": "FMA11195",
+      "name": "Posterior cord of left brachial nerve plexus",
+      "faces": "1130",
+      "verts": "567",
+      "bytes": "65939",
+      "mtime": "1779787488",
+      "csvLine": 2389,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    },
+    {
+      "fj_id": "FJ4290",
+      "bp_id": "BP29296",
+      "fma_id": "FMA11195",
+      "name": "Superior trunk of left brachial nerve plexus",
+      "faces": "428",
+      "verts": "256",
+      "bytes": "26889",
+      "mtime": "1779787488",
+      "csvLine": 2398,
+      "status": "retained_catalog_entry_only;file_not_acquired_or_checked",
+      "versionMembershipObserved": true
+    }
+  ],
+  "boundedTargetQueries": [
+    {
+      "targetId": "upper-limb-target-v1:lateral-cord-of-brachial-plexus-l",
+      "name": "Lateral cord of brachial plexus",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4274"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:lateral-cord-of-brachial-plexus-r",
+      "name": "Lateral cord of brachial plexus",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-cord-of-brachial-plexus-l",
+      "name": "Medial cord of brachial plexus",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4275"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-cord-of-brachial-plexus-r",
+      "name": "Medial cord of brachial plexus",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:ulnar-nerve-l",
+      "name": "Ulnar nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4258"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:ulnar-nerve-r",
+      "name": "Ulnar nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:radial-nerve-l",
+      "name": "Radial nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4172",
+        "FJ4240"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:radial-nerve-r",
+      "name": "Radial nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:axillary-nerve-l",
+      "name": "Axillary nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4171",
+        "FJ4243"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:axillary-nerve-r",
+      "name": "Axillary nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:dorsal-scapular-nerve-l",
+      "name": "Dorsal scapular nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:dorsal-scapular-nerve-r",
+      "name": "Dorsal scapular nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:long-thoracic-nerve-l",
+      "name": "Long thoracic nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4222"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:long-thoracic-nerve-r",
+      "name": "Long thoracic nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:suprascapular-nerve-l",
+      "name": "Suprascapular nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:suprascapular-nerve-r",
+      "name": "Suprascapular nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:lateral-pectoral-nerve-l",
+      "name": "Lateral pectoral nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:lateral-pectoral-nerve-r",
+      "name": "Lateral pectoral nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-pectoral-nerve-l",
+      "name": "Medial pectoral nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4223"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-pectoral-nerve-r",
+      "name": "Medial pectoral nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:superior-subscapular-nerve-l",
+      "name": "Superior subscapular nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4242"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:superior-subscapular-nerve-r",
+      "name": "Superior subscapular nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:inferior-subscapular-nerve-l",
+      "name": "Inferior subscapular nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:inferior-subscapular-nerve-r",
+      "name": "Inferior subscapular nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "existing_concept_without_geometry"
+    },
+    {
+      "targetId": "upper-limb-target-v1:thoracodorsal-nerve-l",
+      "name": "Thoracodorsal nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4256"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:thoracodorsal-nerve-r",
+      "name": "Thoracodorsal nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:intercostobrachial-nerve-l",
+      "name": "Intercostobrachial nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [
+        "FJ4185"
+      ],
+      "status": "source_object_candidates_require_audit",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:intercostobrachial-nerve-r",
+      "name": "Intercostobrachial nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:lateral-antebrachial-cutaneous-nerve-l",
+      "name": "Lateral antebrachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:lateral-antebrachial-cutaneous-nerve-r",
+      "name": "Lateral antebrachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-antebrachial-cutaneous-nerve-l",
+      "name": "Medial antebrachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-antebrachial-cutaneous-nerve-r",
+      "name": "Medial antebrachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-brachial-cutaneous-nerve-l",
+      "name": "Medial brachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:medial-brachial-cutaneous-nerve-r",
+      "name": "Medial brachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:superior-lateral-brachial-cutaneous-nerve-l",
+      "name": "Superior lateral brachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:superior-lateral-brachial-cutaneous-nerve-r",
+      "name": "Superior lateral brachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:inferior-lateral-brachial-cutaneous-nerve-l",
+      "name": "Inferior lateral brachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:inferior-lateral-brachial-cutaneous-nerve-r",
+      "name": "Inferior lateral brachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:posterior-brachial-cutaneous-nerve-l",
+      "name": "Posterior brachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:posterior-brachial-cutaneous-nerve-r",
+      "name": "Posterior brachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:posterior-antebrachial-cutaneous-nerve-l",
+      "name": "Posterior antebrachial cutaneous nerve",
+      "side": "left",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    },
+    {
+      "targetId": "upper-limb-target-v1:posterior-antebrachial-cutaneous-nerve-r",
+      "name": "Posterior antebrachial cutaneous nerve",
+      "side": "right",
+      "downloadedCandidatePartIds": [],
+      "status": "no_positive_downloaded_binding_in_bounded_intake;not_absence",
+      "activeTargetBindingStatus": "no_positive_binding_in_bounded_active_source_audit;not_absence"
+    }
+  ],
+  "decision": {
+    "cords": "Improved LEFT identity evidence: separate named official files FJ4274/FMA45239 and FJ4275/FMA45241 with singleton is_a memberships; geometry/frame/extent still pending",
+    "roots": "Improved individual spinal-level trunk naming, but no demonstrated isolated ventral-ramus C5–T1 plexus contribution. Do not accept these as resolved plexus roots.",
+    "rightSide": "No right-side candidate acquired or positively identified by this bounded catalog audit; not a source-wide or anatomical absence claim",
+    "next": "Audit named left cord/terminal component geometry with same-source regional bones; independently assess source-to-main registration and anatomical extent; roots remain distinct unresolved work"
+  },
+  "inputSnapshots": [
+    {
+      "path": "work/thyroid-alternative/bp3d-v43-manifest.csv",
+      "sha256": "376cf368d8679a02bd60455b4cc8853f8367cd4043745372e6df1f231d08e27f"
+    },
+    {
+      "path": "work/thyroid-alternative/FMA2Obj.txt",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/FMA2Obj.txt",
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/license.html",
+      "sha256": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/request.json",
+      "sha256": "dfabe7d4fba2e9c653c96f301be7f7d0a5a3e214760f256c8d225a31a1a79f77"
+    },
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-target-inventory-v1/proposal.json",
+      "sha256": "e266310ea2b4208cceb508be9794d9787be48b920b0a9e53fe2c44a0b0a88226"
+    },
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "public/models/extensions/brachial-plexus.json",
+      "sha256": "3d838137b4c3e9d84bf82be99fcf9fa62ae4f9c2de24587b2bafb02d26f1ff4c"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/source-fetch.json",
+      "sha256": "9109878623cfc96d948111867800842fcb2468a74d52715a46e4777bc4402b44"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/source-objects.zip",
+      "sha256": "76c0d76b5b5be593ec44f40defdeb15ebb00f4a7bad68bc9eb6aa6959df81f3c"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4171_BP29488_FMA37074_Left axillary nerve.obj",
+      "sha256": "ba5be7fa0836ccfa72b016da504ab8ff04498c053d3ca4f5cf6b7ff18940418d"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4172_BP29806_FMA37071_Left radial nerve.obj",
+      "sha256": "a6cd726af7026964e340fdae14c1dc22a8c8fbe0ed8996c937709e83a4cef909"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4185_BP29040_FMA65908_Left second intercostobrachial nerve.obj",
+      "sha256": "9f467fa539885021336d9800ba581f7dea01aba5478d34d940ca6fd7e07f26f9"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4222_BP29235_FMA79667_Trunk of left long thoracic nerve.obj",
+      "sha256": "4fb3e702f359607165b89d30d4d94c6883d64e9f878583db223fb5187a9062ae"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4223_BP29528_FMA65295_Left medial pectoral nerve.obj",
+      "sha256": "3ba80e21c2805f78aa0c8067342c5a644b08745515e2b928f4abd33d2bee32ae"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4240_BP29806_FMA37071_Left radial nerve.obj",
+      "sha256": "b7bbc22a41bcfc72af2c1a9b6fedd888e372d784887ef4d7400f079e678f698d"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4242_BP29426_FMA65306_Left superior subscapular nerve.obj",
+      "sha256": "b73b9361cbfbc1acee0ef817cb279f9d80f1ea7c006cbacffd0673dd5e63343a"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4243_BP29488_FMA37074_Left axillary nerve.obj",
+      "sha256": "1744a5584078ab48f0a1fd4e4c06efefd304c61208eda1f2792d17d745179d12"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4245_BP29808_FMA7023_Trunk of left first thoracic nerve.obj",
+      "sha256": "730268434b74e1ae81dc620a8b841836a9212fbff2cbd201f0a3a1fde4439034"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4256_BP29546_FMA65292_Left thoracodorsal nerve.obj",
+      "sha256": "97fbf447a823d44529a6f69a382395cad552bda6200a9ffa53d06c9f7b3724c2"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4258_BP29812_FMA37321_Left ulnar nerve.obj",
+      "sha256": "e83c41c5d566d299f56e4e68ae45022fa7b41a649e4a2a6e4de1cc6ba17ad38f"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4264_BP29324_FMA24105_Trunk of left fifth cervical nerve.obj",
+      "sha256": "c45e251cfc015a3fd9834805a55e29fb3123485d3bc321af2b1442fa975d9c00"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4265_BP29315_FMA7011_Trunk of left sixth cervical nerve.obj",
+      "sha256": "4f8c708b7a866609078ce513432b060fd9bf04f2b899aef52ebaf9c8af13a200"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4266_BP29366_FMA7013_Trunk of left seventh cervical nerve.obj",
+      "sha256": "d22ca0d722f811e9fba1cc51accfbd50d0e8805070b6fe0616cf9700e57e529a"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4267_BP29406_FMA7015_Trunk of left eighth cervical nerve.obj",
+      "sha256": "6e3be4f8b771cd9d2226869e18f2c8e99155319063c44ec1c6869bb930674002"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "sha256": "b386c72f814da56f26b3fa8647e53d76b75f20008a7b6678d50d644c0358f445"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj",
+      "sha256": "dafa39b78d7491f619aa9aa09e676da0560dd86357cc4d118e7ab4ce7cc89e7d"
+    },
+    {
+      "path": "data/model-candidates/upper-limb-bp3d43-intake-v1/build.py",
+      "sha256": "52af4e6dfde69c5e2fd0cd96dc82a34ea3089d7e06ab87902c7405a3c8b4f8e7"
+    }
+  ],
+  "limits": [
+    "Do not activate candidate identifiers as main IDs",
+    "Do not equate generic catalog FMA parent with returned object identity",
+    "Two radial and two axillary files preserve component attribution; neither duplicate names nor shared BP imply interchangeable geometry",
+    "Catalog rows alone do not prove a mesh exists or its anatomical extent; only downloaded OBJ files have basic availability checks",
+    "Fine branches, whole nerve course, bilateral completeness and root connectivity remain unaccepted",
+    "No coordinates are fitted, mirrored or borrowed across sources",
+    "Source-side header and finite coordinates do not establish patient anatomy or registration",
+    "No new labels or anatomical relations proposed"
+  ]
+}

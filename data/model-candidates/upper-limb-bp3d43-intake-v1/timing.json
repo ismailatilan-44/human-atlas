@@ -1,0 +1,29 @@
+{
+  "firstMeasuredAuditAt": "2026-10-02T12:18:52.399503+00:00",
+  "completedAt": "2026-10-02T12:31:09.134703+00:00",
+  "elapsedSeconds": 736.735,
+  "measurement": "Wall clock since first recorded source audit; preceding initial repo/read time unmeasured",
+  "phases": [
+    {
+      "phase": 1,
+      "outputs": "17 neural OBJ availability/identity intake; frozen phase1-intake.json"
+    },
+    {
+      "phase": 2,
+      "trigger": "Root authorized same-source context after phase1",
+      "outputs": "6 fresh context downloads +3 retained official OBJ members"
+    }
+  ],
+  "rework": [
+    {
+      "reason": "Retained catalog FMA IDs were generic/unsided for all17 objects; official response headers and mapping used instead",
+      "duration": "not separately measured"
+    },
+    {
+      "reason": "Four returned BP IDs differ from request catalog; exact discrepancy preserved",
+      "duration": "not separately measured"
+    }
+  ],
+  "waiting": "Two bounded official download calls; no access blocker",
+  "ownership": "Only upper-limb-bp3d43-intake-v1; root integration and geometry/expert acceptance separate"
+}

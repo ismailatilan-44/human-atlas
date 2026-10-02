@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "scope": "candidate metadata validation only",
+  "labels": 127,
+  "primaryNerveLabels": 54,
+  "contextNerveLabels": 24,
+  "contextBoneLabels": 49,
+  "selectedBranchRelations": 26,
+  "existingMainOnlyMotorRelationsPreserved": 10,
+  "existingMeshlessCanonicalIdsRetained": 8,
+  "reconciledSubscapularIds": 4,
+  "primaryCorrectedLatinLabels": 2,
+  "numericPinnedLatinLabels": 108,
+  "unresolvedExactNumberedLatin": 17,
+  "sourceGroupLabels": 8,
+  "primaryObjectsWithSinglePointRemnant": 2,
+  "planningTargetMatches": 46,
+  "mainGeometryAccepted": false,
+  "separateReferenceDecision": "selected_by_root; runtime_acceptance_pending",
+  "applicationChecksRun": false,
+  "sourceExpertReview": "pending"
+}

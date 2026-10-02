@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+    "method": "POST",
+    "path": "context-source.zip",
+    "retrievedAt": "2026-10-02T12:26:17.305653+00:00",
+    "status": 200,
+    "bytes": 832505,
+    "sha256": "4f9d885640888f610028c030d24e393437007e9b338c5944c20202732abe75e1"
+  },
+  {
+    "method": "reuse_retained_official_source_zip",
+    "sourcePath": "work/thyroid-alternative/thyroid-bp3d43-references.zip",
+    "sourceSha256": "33b77f86496421dcc0f75390db43a7883289ee47fe2314b05de287ccd8bf6d95",
+    "originalRetrievalDate": "2026-09-22 per retained thyroid source review",
+    "inspectedOn": "2026-10-02",
+    "members": [
+      {
+        "member": "thyroid_bp3d43_references/FJ3172_BP23626_FMA12525_Seventh cervical vertebra.obj",
+        "sha256": "20df76505e5d21ad9eac99e1dd241576a4411a3fa0d2c1d3dda7aa69a9f79f32"
+      },
+      {
+        "member": "thyroid_bp3d43_references/FJ3170_BP24077_FMA12524_Sixth cervical vertebra.obj",
+        "sha256": "ca1c7507951b7a16bbd4286492391af0a4f60c8f07fb59a876f6526853ce9f60"
+      },
+      {
+        "member": "thyroid_bp3d43_references/FJ3167_BP23524_FMA12523_Fifth cervical vertebra.obj",
+        "sha256": "b5e0cb9386110c82189b036d56d8be640a29c7f56fa88cf922bce80c93a33825"
+      }
+    ],
+    "versionBasis": "Each OBJ compatibility4.3 header + fresh official FMA2Obj membership; not a new HTTP download"
+  }
+]

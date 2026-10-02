@@ -1,0 +1,8205 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "blender": "5.2.0 LTS",
+  "objects": [
+    {
+      "name": "(Communicating branch of median nerve with ulnar nerve).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.2467857152223587,
+          -0.028841618448495865,
+          0.8545451760292053
+        ],
+        [
+          0.25672993063926697,
+          -0.027509106323122978,
+          0.8674297332763672
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "(Communicating branch of median nerve with ulnar nerve).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.25672993063926697,
+          -0.02884146384894848,
+          0.8545451760292053
+        ],
+        [
+          -0.2467857152223587,
+          -0.02750895358622074,
+          0.8674297332763672
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Abducens nerve (VI).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        16,
+        3
+      ],
+      "bounds": [
+        [
+          0.0015197601169347763,
+          -0.04638122022151947,
+          1.5756754875183105
+        ],
+        [
+          0.032412316650152206,
+          0.01594344899058342,
+          1.600419521331787
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Abducens nerve (VI).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        16,
+        3
+      ],
+      "bounds": [
+        [
+          -0.032412316650152206,
+          -0.04638122394680977,
+          1.5756754875183105
+        ],
+        [
+          -0.0015197601169347763,
+          0.015943452715873718,
+          1.600419521331787
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Accessory nerve (XI).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Accessory nerve (XI)",
+        "Cervical nerves",
+        "Cranial nerves",
+        "Head",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 6,
+      "pointsPerSpline": [
+        26,
+        4,
+        16,
+        7,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.003004070371389389,
+          -0.01196978148072958,
+          1.290157675743103
+        ],
+        [
+          0.059202395379543304,
+          0.11181515455245972,
+          1.5693966150283813
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Accessory nerve (XI).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Accessory nerve (XI)",
+        "Cervical nerves",
+        "Cranial nerves",
+        "Head",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 6,
+      "pointsPerSpline": [
+        26,
+        4,
+        16,
+        7,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.059202395379543304,
+          -0.011969804763793945,
+          1.2901575565338135
+        ],
+        [
+          -0.003004070371389389,
+          0.11181508004665375,
+          1.5693966150283813
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Accessory nucleus of oculomotor nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Head",
+        "Oculomotor complex"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Accessory nucleus of oculomotor nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Head",
+        "Oculomotor complex"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Anterior branch of medial antebrachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Medial antebrachial cutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          0.1892206072807312,
+          -0.020493585616350174,
+          0.9293911457061768
+        ],
+        [
+          0.2354310303926468,
+          0.01736740954220295,
+          1.1640632152557373
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior branch of medial antebrachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Medial antebrachial cutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          -0.23543106019496918,
+          -0.020493710413575172,
+          0.9293911457061768
+        ],
+        [
+          -0.1892206370830536,
+          0.01736736111342907,
+          1.1640632152557373
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior branch of obturator nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Anterior branch of obturator nerve",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Obturator nerve",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          0.019539063796401024,
+          -0.03850829228758812,
+          0.5576379299163818
+        ],
+        [
+          0.045856524258852005,
+          0.013389565981924534,
+          0.8616093993186951
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior branch of obturator nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Anterior branch of obturator nerve",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Obturator nerve",
+        "Peripheral nervous system",
+        "Right lower limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.0458565317094326,
+          -0.038508340716362,
+          0.5576379299163818
+        ],
+        [
+          -0.01953907124698162,
+          0.013389430940151215,
+          0.8616093397140503
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior cutaneous branches of femoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Femoral nerve",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          0.04985632374882698,
+          -0.04128386452794075,
+          0.5007883906364441
+        ],
+        [
+          0.06288991868495941,
+          -0.02418428659439087,
+          0.8617046475410461
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior cutaneous branches of femoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Femoral nerve",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          -0.06288991868495941,
+          -0.041283898055553436,
+          0.5007883906364441
+        ],
+        [
+          -0.04985633119940758,
+          -0.024184439331293106,
+          0.8617047071456909
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of inferior trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.08340232819318771,
+          0.010084045119583607,
+          1.3990635871887207
+        ],
+        [
+          0.10092057287693024,
+          0.016340021044015884,
+          1.4167382717132568
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of inferior trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.10092057287693024,
+          0.010084133595228195,
+          1.399063229560852
+        ],
+        [
+          -0.08340232819318771,
+          0.016340117901563644,
+          1.4167379140853882
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of mandibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.022925082594156265,
+          -0.022060882300138474,
+          1.5639493465423584
+        ],
+        [
+          0.02989121526479721,
+          -0.015015246346592903,
+          1.5768479108810425
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of mandibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.02989121526479721,
+          -0.022060882300138474,
+          1.5639493465423584
+        ],
+        [
+          -0.022925082594156265,
+          -0.015015246346592903,
+          1.5768479108810425
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of middle trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Middle trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.08407841622829437,
+          0.014362855814397335,
+          1.3992500305175781
+        ],
+        [
+          0.11052899062633514,
+          0.023317305371165276,
+          1.419275164604187
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of middle trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Middle trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.11052896082401276,
+          0.014362890273332596,
+          1.3992500305175781
+        ],
+        [
+          -0.08407838642597198,
+          0.02331734634935856,
+          1.419275164604187
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of superior trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Superior trunk of brachial plexus"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.08764591068029404,
+          0.014465715736150742,
+          1.3994743824005127
+        ],
+        [
+          0.11026713997125626,
+          0.027373138815164566,
+          1.4183776378631592
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior division of superior trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Superior trunk of brachial plexus"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.11026713252067566,
+          0.014465807005763054,
+          1.399474024772644
+        ],
+        [
+          -0.08764590322971344,
+          0.027373241260647774,
+          1.4183772802352905
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior interosseous nerve of forearm.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          0.21473988890647888,
+          -0.013190146535634995,
+          0.8840973377227783
+        ],
+        [
+          0.25308242440223694,
+          0.0210696030408144,
+          1.093549132347107
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior interosseous nerve of forearm.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          -0.25308242440223694,
+          -0.013190009631216526,
+          0.8840972781181335
+        ],
+        [
+          -0.21473988890647888,
+          0.021069660782814026,
+          1.093549132347107
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior rami of lumbar nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Anterior rami of lumbar nerves",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Anterior rami of lumbar nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Anterior rami of lumbar nerves"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Anterior root of posterior femoral cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        2,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.016562361270189285,
+          0.020394569262862206,
+          0.897540271282196
+        ],
+        [
+          0.04046114906668663,
+          0.06071044132113457,
+          0.9783430099487305
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior root of posterior femoral cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        2,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.04046114906668663,
+          0.020394569262862206,
+          0.897540271282196
+        ],
+        [
+          -0.016562361270189285,
+          0.06071044132113457,
+          0.9783430099487305
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior root of spinal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Central nervous system",
+        "Meninges",
+        "Nerves",
+        "Spinal dura",
+        "Trunk"
+      ],
+      "splines": 21,
+      "pointsPerSpline": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.0008397120982408524,
+          0.007002722471952438,
+          1.0682034492492676
+        ],
+        [
+          0.025272883474826813,
+          0.0727345272898674,
+          1.5353140830993652
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Anterior root of spinal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Central nervous system",
+        "Meninges",
+        "Nerves",
+        "Spinal dura",
+        "Trunk"
+      ],
+      "splines": 21,
+      "pointsPerSpline": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.025272883474826813,
+          0.007002722471952438,
+          1.0682034492492676
+        ],
+        [
+          -0.0008397120982408524,
+          0.0727345272898674,
+          1.5353140830993652
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Axillary nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Axillary nerve",
+        "Infraclavicular part of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.11052893847227097,
+          0.01436288096010685,
+          1.3507418632507324
+        ],
+        [
+          0.16329964995384216,
+          0.03720489516854286,
+          1.3992503881454468
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Axillary nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Axillary nerve",
+        "Infraclavicular part of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.16329967975616455,
+          0.014362890273332596,
+          1.3507418632507324
+        ],
+        [
+          -0.11052896827459335,
+          0.037204887717962265,
+          1.3992503881454468
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brachial plexus",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Brachial plexus.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brachial plexus"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Branches of lateral cord of brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of lateral cord of brachial plexus",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Branches of lateral cord of brachial plexus.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of lateral cord of brachial plexus"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Branches of medial cord of brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of medial cord of brachial plexus",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Branches of medial cord of brachial plexus.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of medial cord of brachial plexus"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Branches of posterior cord of brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of posterior cord of brachial plexus",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Branches of posterior cord of brachial plexus.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of posterior cord of brachial plexus"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Buccal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        7,
+        4
+      ],
+      "bounds": [
+        [
+          0.02989121526479721,
+          -0.06275629997253418,
+          1.5286887884140015
+        ],
+        [
+          0.03343447670340538,
+          -0.022060876712203026,
+          1.5639492273330688
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Buccal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        7,
+        4
+      ],
+      "bounds": [
+        [
+          -0.03343447670340538,
+          -0.06275629997253418,
+          1.5286887884140015
+        ],
+        [
+          -0.02989121526479721,
+          -0.022060876712203026,
+          1.5639492273330688
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Cervical nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cervical nerves",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Cervical nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cervical nerves"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Cochlear nerve",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cochlear nerve",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "vertices": 881,
+      "polygons": 879
+    },
+    {
+      "name": "Cochlear nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Vestibulocochlear nerve (VIII)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          0.01964344084262848,
+          -0.0009592464193701744,
+          1.5800124406814575
+        ],
+        [
+          0.03830808401107788,
+          0.004938229918479919,
+          1.5815706253051758
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        8
+      ],
+      "bounds": [
+        [
+          0.07654891908168793,
+          0.03978976979851723,
+          0.3853034973144531
+        ],
+        [
+          0.12272316217422485,
+          0.06098593771457672,
+          0.5401193499565125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        8
+      ],
+      "bounds": [
+        [
+          -0.12272317707538605,
+          0.039789725095033646,
+          0.3853034973144531
+        ],
+        [
+          -0.07654893398284912,
+          0.060985859483480453,
+          0.5401193499565125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common palmar digital branches of median nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        5,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.2634942829608917,
+          -0.044215887784957886,
+          0.777241587638855
+        ],
+        [
+          0.2994237244129181,
+          -0.034298766404390335,
+          0.8360272645950317
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common palmar digital branches of median nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        5,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.2994237244129181,
+          -0.04421569034457207,
+          0.777241587638855
+        ],
+        [
+          -0.2634942829608917,
+          -0.0342986024916172,
+          0.8360272645950317
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common palmar digital branches of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Superficial branch of ulnar nerve",
+        "Ulnar nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.24830719828605652,
+          -0.04421558603644371,
+          0.7772417664527893
+        ],
+        [
+          0.2660432457923889,
+          -0.03485105559229851,
+          0.8433014750480652
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common palmar digital branches of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Superficial branch of ulnar nerve",
+        "Ulnar nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.2660432755947113,
+          -0.04421570524573326,
+          0.7772417664527893
+        ],
+        [
+          -0.2483072280883789,
+          -0.03485115244984627,
+          0.8433014750480652
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common plantar digital branches of lateral plantar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        2,
+        3
+      ],
+      "bounds": [
+        [
+          0.09542810916900635,
+          -0.06716583669185638,
+          0.013654320500791073
+        ],
+        [
+          0.13346782326698303,
+          -0.0033257685136049986,
+          0.022505803033709526
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common plantar digital branches of lateral plantar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        2,
+        3
+      ],
+      "bounds": [
+        [
+          -0.13346783816814423,
+          -0.0671660453081131,
+          0.01365435030311346
+        ],
+        [
+          -0.09542812407016754,
+          -0.00332598015666008,
+          0.02250581793487072
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common plantar digital branches of medial plantar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.060146935284137726,
+          -0.07576487958431244,
+          0.014348944649100304
+        ],
+        [
+          0.09792012721300125,
+          -0.024148957803845406,
+          0.03051290288567543
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Cranial nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Cranial nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Deep branch of radial nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep branch of radial nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        8
+      ],
+      "bounds": [
+        [
+          0.23368477821350098,
+          -0.012466875836253166,
+          0.8454943299293518
+        ],
+        [
+          0.2660057544708252,
+          0.030588505789637566,
+          1.0916868448257446
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Deep branch of radial nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep branch of radial nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        8
+      ],
+      "bounds": [
+        [
+          -0.2660057544708252,
+          -0.012467006221413612,
+          0.8454943299293518
+        ],
+        [
+          -0.23368477821350098,
+          0.030588438734412193,
+          1.0916868448257446
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Deep branch of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          0.24844492971897125,
+          -0.03374282270669937,
+          0.830873966217041
+        ],
+        [
+          0.2853540778160095,
+          -0.027806436643004417,
+          0.8497374653816223
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Deep branch of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          -0.2853541076183319,
+          -0.03374292701482773,
+          0.830873966217041
+        ],
+        [
+          -0.24844495952129364,
+          -0.027806539088487625,
+          0.8497374653816223
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Deep fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        16
+      ],
+      "bounds": [
+        [
+          0.06965118646621704,
+          -0.056090470403432846,
+          0.04385102540254593
+        ],
+        [
+          0.12272316217422485,
+          0.04647650942206383,
+          0.3853034973144531
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Deep fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        16
+      ],
+      "bounds": [
+        [
+          -0.12272317707538605,
+          -0.05609067901968956,
+          0.043851062655448914
+        ],
+        [
+          -0.06965120136737823,
+          0.046476416289806366,
+          0.3853034973144531
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal branch of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Dorsal branch of ulnar nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        3,
+        4
+      ],
+      "bounds": [
+        [
+          0.23072874546051025,
+          -0.036187220364809036,
+          0.7820082306861877
+        ],
+        [
+          0.24685655534267426,
+          -0.013192590326070786,
+          0.8831346035003662
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal branch of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Dorsal branch of ulnar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        3,
+        4
+      ],
+      "bounds": [
+        [
+          -0.24685658514499664,
+          -0.03618733957409859,
+          0.7820082306861877
+        ],
+        [
+          -0.23072877526283264,
+          -0.01319268997758627,
+          0.8831346035003662
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of deep fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        7,
+        6
+      ],
+      "bounds": [
+        [
+          0.07664806395769119,
+          -0.12666182219982147,
+          0.01496380940079689
+        ],
+        [
+          0.09720158576965332,
+          -0.05609046667814255,
+          0.04385104402899742
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of deep fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        7,
+        6
+      ],
+      "bounds": [
+        [
+          -0.09720160067081451,
+          -0.12666204571723938,
+          0.014963865280151367
+        ],
+        [
+          -0.07664807885885239,
+          -0.05609067156910896,
+          0.04385107755661011
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of radial nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Superficial branch of radial nerve"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        6,
+        9,
+        8,
+        8,
+        9,
+        8,
+        6
+      ],
+      "bounds": [
+        [
+          0.26205387711524963,
+          -0.09003826230764389,
+          0.7019956707954407
+        ],
+        [
+          0.3335435092449188,
+          -0.013165459968149662,
+          0.8334689736366272
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of radial nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb",
+        "Superficial branch of radial nerve"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        6,
+        9,
+        8,
+        8,
+        9,
+        8,
+        6
+      ],
+      "bounds": [
+        [
+          -0.3335435092449188,
+          -0.09003844112157822,
+          0.7019956707954407
+        ],
+        [
+          -0.26205387711524963,
+          -0.01316559687256813,
+          0.8334689140319824
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of superficial fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        8,
+        3,
+        6,
+        6,
+        3,
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          0.06155688688158989,
+          -0.12457706779241562,
+          0.014192938804626465
+        ],
+        [
+          0.1368889957666397,
+          -0.04047788679599762,
+          0.03805297613143921
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of superficial fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        8,
+        3,
+        6,
+        6,
+        3,
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          -0.1368889957666397,
+          -0.12457706779241562,
+          0.014192938804626465
+        ],
+        [
+          -0.06155688688158989,
+          -0.04047788679599762,
+          0.03805297613143921
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Dorsal branch of ulnar nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        6,
+        6,
+        8
+      ],
+      "bounds": [
+        [
+          0.22550028562545776,
+          -0.08880890160799026,
+          0.7136918306350708
+        ],
+        [
+          0.25420013070106506,
+          -0.030195115134119987,
+          0.7835249900817871
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal digital branches of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Dorsal branch of ulnar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        6,
+        6,
+        8
+      ],
+      "bounds": [
+        [
+          -0.25420016050338745,
+          -0.0888090431690216,
+          0.7136918306350708
+        ],
+        [
+          -0.22550031542778015,
+          -0.03019523434340954,
+          0.7835249900817871
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal scapular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Dorsal scapular nerve",
+        "Left upper limb",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Supraclavicular branches of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          0.025922628119587898,
+          0.011318891309201717,
+          1.30424964427948
+        ],
+        [
+          0.05804114416241646,
+          0.10809192806482315,
+          1.4828623533248901
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Dorsal scapular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Dorsal scapular nerve",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Supraclavicular branches of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          -0.05804111436009407,
+          0.011318918317556381,
+          1.30424964427948
+        ],
+        [
+          -0.02592259831726551,
+          0.10809189826250076,
+          1.4828623533248901
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Facial nerve (VII).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Facial nerve (VII)",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 12,
+      "pointsPerSpline": [
+        27,
+        3,
+        8,
+        18,
+        5,
+        11,
+        3,
+        11,
+        5,
+        6,
+        6,
+        3
+      ],
+      "bounds": [
+        [
+          0.00036430731415748596,
+          -0.0866352841258049,
+          1.5083117485046387
+        ],
+        [
+          0.06520681828260422,
+          0.016922472044825554,
+          1.6243466138839722
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Facial nerve (VII).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Facial nerve (VII)",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 12,
+      "pointsPerSpline": [
+        27,
+        3,
+        8,
+        18,
+        5,
+        11,
+        3,
+        11,
+        5,
+        6,
+        6,
+        3
+      ],
+      "bounds": [
+        [
+          -0.06520681828260422,
+          -0.0866352990269661,
+          1.5083117485046387
+        ],
+        [
+          -0.00036430731415748596,
+          0.016922477632761,
+          1.6243466138839722
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Femoral branch of genitofemoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of anterior part of lumbar plexus",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        8,
+        3
+      ],
+      "bounds": [
+        [
+          0.03566892072558403,
+          -0.05419311672449112,
+          0.7983660101890564
+        ],
+        [
+          0.05612867698073387,
+          -0.020031874999403954,
+          1.0153496265411377
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Femoral branch of genitofemoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of anterior part of lumbar plexus",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        8,
+        3
+      ],
+      "bounds": [
+        [
+          -0.05612868443131447,
+          -0.0541931688785553,
+          0.7983660697937012
+        ],
+        [
+          -0.03566892817616463,
+          -0.020031871274113655,
+          1.0153496265411377
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Femoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of posterior part of lumbar plexus",
+        "Femoral nerve",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        9,
+        4,
+        4
+      ],
+      "bounds": [
+        [
+          0.011629946529865265,
+          -0.041795775294303894,
+          0.6284186840057373
+        ],
+        [
+          0.08706602454185486,
+          0.02881818264722824,
+          1.100531816482544
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Femoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of posterior part of lumbar plexus",
+        "Femoral nerve",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Trunk"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        9,
+        4,
+        4
+      ],
+      "bounds": [
+        [
+          -0.08706602454185486,
+          -0.04179588705301285,
+          0.6284187436103821
+        ],
+        [
+          -0.011629953980445862,
+          0.028818227350711823,
+          1.100531816482544
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Genital branch of genitofemoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of anterior part of lumbar plexus",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          0.017009858042001724,
+          -0.05305235832929611,
+          0.7591864466667175
+        ],
+        [
+          0.04435941204428673,
+          -0.020031874999403954,
+          1.0153496265411377
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Genital branch of genitofemoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of anterior part of lumbar plexus",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.044359419494867325,
+          -0.05305241048336029,
+          0.7591864466667175
+        ],
+        [
+          -0.01700986549258232,
+          -0.020031869411468506,
+          1.0153495073318481
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Genitofemoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of anterior part of lumbar plexus",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        3,
+        2
+      ],
+      "bounds": [
+        [
+          0.014302268624305725,
+          -0.020031876862049103,
+          1.0153496265411377
+        ],
+        [
+          0.041182633489370346,
+          0.024728922173380852,
+          1.0932611227035522
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Genitofemoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of anterior part of lumbar plexus",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        3,
+        2
+      ],
+      "bounds": [
+        [
+          -0.04118264093995094,
+          -0.020031871274113655,
+          1.0153496265411377
+        ],
+        [
+          -0.014302276074886322,
+          0.02472895383834839,
+          1.0932611227035522
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glossopharyngeal nerve (IX).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Glossopharyngeal nerve (IX)",
+        "Head",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        23,
+        8,
+        4,
+        5,
+        5,
+        5,
+        3
+      ],
+      "bounds": [
+        [
+          0.0017451904714107513,
+          -0.03369322791695595,
+          1.4297268390655518
+        ],
+        [
+          0.0403788760304451,
+          0.020829103887081146,
+          1.5770998001098633
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glossopharyngeal nerve (IX).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Glossopharyngeal nerve (IX)",
+        "Head",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        23,
+        8,
+        4,
+        5,
+        5,
+        5,
+        3
+      ],
+      "bounds": [
+        [
+          -0.0403788760304451,
+          -0.03369324281811714,
+          1.4297268390655518
+        ],
+        [
+          -0.0017451904714107513,
+          0.020829113200306892,
+          1.5770998001098633
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Groove for spinal nerve.j",
+      "type": "MESH",
+      "collections": [
+        "1: Skeletal system",
+        "Cervical vertebra"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Groove for spinal nerve.t",
+      "type": "FONT",
+      "collections": [
+        "1: Skeletal system",
+        "Cervical vertebra"
+      ]
+    },
+    {
+      "name": "Groove for ulnar nerve.i",
+      "type": "MESH",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Groove for ulnar nerve.j",
+      "type": "MESH",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Groove for ulnar nerve.s",
+      "type": "FONT",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ]
+    },
+    {
+      "name": "Groove for ulnar nerve.t",
+      "type": "FONT",
+      "collections": [
+        "1: Skeletal system",
+        "Bonus collection"
+      ]
+    },
+    {
+      "name": "Hypoglossal nerve (XII).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Hypoglossal nerve (XII)",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 8,
+      "pointsPerSpline": [
+        24,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "bounds": [
+        [
+          0.0016109496355056763,
+          -0.054556723684072495,
+          1.5094739198684692
+        ],
+        [
+          0.02728947624564171,
+          0.02098057046532631,
+          1.5736771821975708
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Hypoglossal nerve (XII).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Hypoglossal nerve (XII)",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 8,
+      "pointsPerSpline": [
+        24,
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "bounds": [
+        [
+          -0.02728947624564171,
+          -0.05455673485994339,
+          1.5094739198684692
+        ],
+        [
+          -0.0016109496355056763,
+          0.020980577915906906,
+          1.5736771821975708
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Ilio-inguinal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Abdomen",
+        "Ilio-inguinal nerve",
+        "Left lower limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        14
+      ],
+      "bounds": [
+        [
+          0.03136865794658661,
+          -0.05333869159221649,
+          0.8455882668495178
+        ],
+        [
+          0.12196214497089386,
+          0.04292994737625122,
+          1.1197571754455566
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Ilio-inguinal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Abdomen",
+        "Ilio-inguinal nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        14
+      ],
+      "bounds": [
+        [
+          -0.12196220457553864,
+          -0.05333869159221649,
+          0.8455882668495178
+        ],
+        [
+          -0.031368717551231384,
+          0.04292997345328331,
+          1.1197571754455566
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Iliohypogastric nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Abdomen",
+        "Iliohypogastric nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        6,
+        2
+      ],
+      "bounds": [
+        [
+          0.014134027063846588,
+          -0.013749593868851662,
+          1.0056058168411255
+        ],
+        [
+          0.11541752517223358,
+          0.043005090206861496,
+          1.1322638988494873
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Iliohypogastric nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Abdomen",
+        "Iliohypogastric nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        6,
+        2
+      ],
+      "bounds": [
+        [
+          -0.11541758477687836,
+          -0.013749616220593452,
+          1.0056058168411255
+        ],
+        [
+          -0.014134086668491364,
+          0.0430050827562809,
+          1.1322638988494873
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior alveolar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 12,
+      "pointsPerSpline": [
+        7,
+        6,
+        7,
+        7,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        2
+      ],
+      "bounds": [
+        [
+          0.002079952508211136,
+          -0.08469990640878677,
+          1.5011343955993652
+        ],
+        [
+          0.036557890474796295,
+          -0.01930641196668148,
+          1.5457242727279663
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior alveolar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 12,
+      "pointsPerSpline": [
+        7,
+        6,
+        7,
+        7,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        2
+      ],
+      "bounds": [
+        [
+          -0.036557890474796295,
+          -0.08469990640878677,
+          1.5011343955993652
+        ],
+        [
+          -0.002079952508211136,
+          -0.01930641196668148,
+          1.5457242727279663
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior lateral brachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.21145209670066833,
+          0.02509954944252968,
+          1.177918553352356
+        ],
+        [
+          0.24094362556934357,
+          0.046490322798490524,
+          1.2249958515167236
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior lateral brachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.24094362556934357,
+          0.025099530816078186,
+          1.177918553352356
+        ],
+        [
+          -0.21145209670066833,
+          0.046490319073200226,
+          1.2249958515167236
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior subscapular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          0.0945267453789711,
+          0.0258716382086277,
+          1.2893174886703491
+        ],
+        [
+          0.11742482334375381,
+          0.09061730653047562,
+          1.3832945823669434
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior subscapular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          -0.11742483079433441,
+          0.0258716382086277,
+          1.2893174886703491
+        ],
+        [
+          -0.0945267528295517,
+          0.09061730653047562,
+          1.3832945823669434
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.055152636021375656,
+          0.011565168388187885,
+          1.4167085886001587
+        ],
+        [
+          0.08341792225837708,
+          0.016292503103613853,
+          1.435844898223877
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Inferior trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.08341789245605469,
+          0.011565212160348892,
+          1.4167085886001587
+        ],
+        [
+          -0.05515260621905327,
+          0.016292542219161987,
+          1.435844898223877
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Infrapatellar branch of saphenous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.053677037358284,
+          -0.009293170645833015,
+          0.34734025597572327
+        ],
+        [
+          0.08791004121303558,
+          0.020557833835482597,
+          0.35850539803504944
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Infrapatellar branch of saphenous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.08791005611419678,
+          -0.009293370880186558,
+          0.34734025597572327
+        ],
+        [
+          -0.05367705225944519,
+          0.02055763639509678,
+          0.35850539803504944
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Intercostal nerves.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Intercostal nerves",
+        "Nerves",
+        "Peripheral nervous system",
+        "Thorax",
+        "Trunk"
+      ],
+      "splines": 11,
+      "pointsPerSpline": [
+        15,
+        18,
+        18,
+        17,
+        17,
+        18,
+        20,
+        20,
+        19,
+        16,
+        12
+      ],
+      "bounds": [
+        [
+          0.012307867407798767,
+          -0.10454833507537842,
+          0.9820715188980103
+        ],
+        [
+          0.136087566614151,
+          0.0893092229962349,
+          1.4348515272140503
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Intercostal nerves.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Intercostal nerves",
+        "Nerves",
+        "Peripheral nervous system",
+        "Thorax",
+        "Trunk"
+      ],
+      "splines": 11,
+      "pointsPerSpline": [
+        15,
+        18,
+        18,
+        17,
+        17,
+        18,
+        20,
+        20,
+        19,
+        16,
+        12
+      ],
+      "bounds": [
+        [
+          -0.136087566614151,
+          -0.10454834252595901,
+          0.9820715188980103
+        ],
+        [
+          -0.012307867407798767,
+          0.08930923789739609,
+          1.4348515272140503
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Intermediate dorsal cutaneous nerve of foot.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        6,
+        5
+      ],
+      "bounds": [
+        [
+          0.10491187125444412,
+          -0.05269540473818779,
+          0.029490681365132332
+        ],
+        [
+          0.12113891541957855,
+          0.031712885946035385,
+          0.09490876644849777
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Intermediate dorsal cutaneous nerve of foot.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        6,
+        5
+      ],
+      "bounds": [
+        [
+          -0.12113893032073975,
+          -0.052695613354444504,
+          0.02949070930480957
+        ],
+        [
+          -0.10491188615560532,
+          0.031712695956230164,
+          0.09490877389907837
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral antebrachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Musculocutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          0.22318291664123535,
+          -0.006840255111455917,
+          0.9301033616065979
+        ],
+        [
+          0.27538320422172546,
+          0.016867266967892647,
+          1.0918389558792114
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral antebrachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Musculocutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.27538323402404785,
+          -0.006840344984084368,
+          0.9301033616065979
+        ],
+        [
+          -0.22318294644355774,
+          0.016867196187376976,
+          1.0918389558792114
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral femoral cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of posterior part of lumbar plexus",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        9,
+        6,
+        4
+      ],
+      "bounds": [
+        [
+          0.05080064386129379,
+          -0.05815061181783676,
+          0.5546093583106995
+        ],
+        [
+          0.15716107189655304,
+          0.05636055767536163,
+          1.079179286956787
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral femoral cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of posterior part of lumbar plexus",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Trunk"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        9,
+        6,
+        4
+      ],
+      "bounds": [
+        [
+          -0.15716107189655304,
+          -0.05815056338906288,
+          0.5546093583106995
+        ],
+        [
+          -0.05080064386129379,
+          0.05636052414774895,
+          1.0791791677474976
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral pectoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral pectoral nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        10,
+        8,
+        4,
+        5,
+        3
+      ],
+      "bounds": [
+        [
+          0.03552766889333725,
+          -0.12435044348239899,
+          1.226929783821106
+        ],
+        [
+          0.13912463188171387,
+          0.014362853951752186,
+          1.3992503881454468
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral pectoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral pectoral nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Trunk"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        10,
+        8,
+        4,
+        5,
+        3
+      ],
+      "bounds": [
+        [
+          -0.13912464678287506,
+          -0.12435045838356018,
+          1.226929783821106
+        ],
+        [
+          -0.035527683794498444,
+          0.0143628790974617,
+          1.3992502689361572
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral plantar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.05792833864688873,
+          -0.003325764322653413,
+          0.022505803033709526
+        ],
+        [
+          0.09542810916900635,
+          0.054879602044820786,
+          0.05775797739624977
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lateral plantar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.09542812407016754,
+          -0.0033259764313697815,
+          0.02250581979751587
+        ],
+        [
+          -0.05792835354804993,
+          0.05487940087914467,
+          0.05775797367095947
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lingual nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          0.008081571198999882,
+          -0.06156269460916519,
+          1.5194450616836548
+        ],
+        [
+          0.030501171946525574,
+          -0.015941789373755455,
+          1.5702940225601196
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lingual nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          -0.030501171946525574,
+          -0.06156269460916519,
+          1.5194450616836548
+        ],
+        [
+          -0.008081571198999882,
+          -0.015941789373755455,
+          1.5702940225601196
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Long thoracic nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Long thoracic nerve",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Supraclavicular branches of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        14,
+        2
+      ],
+      "bounds": [
+        [
+          0.02323412150144577,
+          -0.004970921669155359,
+          1.1950889825820923
+        ],
+        [
+          0.1431170105934143,
+          0.054416172206401825,
+          1.4821521043777466
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Long thoracic nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Long thoracic nerve",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Supraclavicular branches of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        14,
+        2
+      ],
+      "bounds": [
+        [
+          -0.14311698079109192,
+          -0.004970908164978027,
+          1.1950889825820923
+        ],
+        [
+          -0.023234091699123383,
+          0.05441611632704735,
+          1.4821521043777466
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lumbar nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar nerves",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Lumbar nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar nerves"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Mandibular nerve.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Mandibular nerve.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Maxillary nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        16,
+        4,
+        5,
+        4,
+        3
+      ],
+      "bounds": [
+        [
+          0.011213366873562336,
+          -0.07913526147603989,
+          1.5439430475234985
+        ],
+        [
+          0.03314521536231041,
+          -0.0021973836701363325,
+          1.599741816520691
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Maxillary nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        16,
+        4,
+        5,
+        4,
+        3
+      ],
+      "bounds": [
+        [
+          -0.03314521536231041,
+          -0.07913526892662048,
+          1.5439430475234985
+        ],
+        [
+          -0.011213366873562336,
+          -0.002197377383708954,
+          1.599741816520691
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial antebrachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Medial antebrachial cutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          0.12929050624370575,
+          0.004032297059893608,
+          1.1640632152557373
+        ],
+        [
+          0.1892205774784088,
+          0.019217457622289658,
+          1.3672404289245605
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial antebrachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Medial antebrachial cutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.1892206072807312,
+          0.004032304976135492,
+          1.1640632152557373
+        ],
+        [
+          -0.12929053604602814,
+          0.01921742781996727,
+          1.3672404289245605
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial brachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of medial cord of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          0.10092053562402725,
+          0.005692359991371632,
+          1.1966341733932495
+        ],
+        [
+          0.17118455469608307,
+          0.05335650593042374,
+          1.3990634679794312
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial brachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Branches of medial cord of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.17118458449840546,
+          0.005692354403436184,
+          1.19663405418396
+        ],
+        [
+          -0.10092056542634964,
+          0.05335645750164986,
+          1.3990634679794312
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial crural cutaneous branches of saphenous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.025228234007954597,
+          -0.051805440336465836,
+          0.7613306045532227
+        ],
+        [
+          0.06288990378379822,
+          -0.03228989988565445,
+          0.8617050647735596
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial crural cutaneous branches of saphenous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.0628899335861206,
+          -0.051805488765239716,
+          0.7613306045532227
+        ],
+        [
+          -0.025228256359696388,
+          -0.03228996321558952,
+          0.8617050647735596
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial dorsal cutaneous nerve of foot.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        5,
+        4,
+        6,
+        3
+      ],
+      "bounds": [
+        [
+          0.06155687943100929,
+          -0.08197300881147385,
+          0.027294475585222244
+        ],
+        [
+          0.10545925050973892,
+          0.031712885946035385,
+          0.09490876644849777
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial dorsal cutaneous nerve of foot.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        5,
+        4,
+        6,
+        3
+      ],
+      "bounds": [
+        [
+          -0.10545926541090012,
+          -0.08197322487831116,
+          0.027294516563415527
+        ],
+        [
+          -0.061556894332170486,
+          0.031712695956230164,
+          0.09490877389907837
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial pectoral nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          0.05917130410671234,
+          -0.04888281226158142,
+          1.3390392065048218
+        ],
+        [
+          0.10326146334409714,
+          0.011565263383090496,
+          1.431246280670166
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial pectoral nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Trunk"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        4
+      ],
+      "bounds": [
+        [
+          -0.10326149314641953,
+          -0.04888281226158142,
+          1.3390392065048218
+        ],
+        [
+          -0.05917133390903473,
+          0.011565263383090496,
+          1.431246280670166
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial plantar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        4,
+        1,
+        2
+      ],
+      "bounds": [
+        [
+          0.05792833864688873,
+          -0.02450467087328434,
+          0.026193536818027496
+        ],
+        [
+          0.07655319571495056,
+          0.054879602044820786,
+          0.05775797739624977
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial plantar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        4,
+        1,
+        2
+      ],
+      "bounds": [
+        [
+          -0.07655321061611176,
+          -0.024504881352186203,
+          0.026193559169769287
+        ],
+        [
+          -0.05792835354804993,
+          0.05487940087914467,
+          0.05775797367095947
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial sural cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.07081430405378342,
+          0.03978976979851723,
+          0.41018903255462646
+        ],
+        [
+          0.07654891908168793,
+          0.09047022461891174,
+          0.5401193499565125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Medial sural cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.07654893398284912,
+          0.039789725095033646,
+          0.4101890027523041
+        ],
+        [
+          -0.07081431895494461,
+          0.09047014266252518,
+          0.5401193499565125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Median nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        1,
+        19
+      ],
+      "bounds": [
+        [
+          0.041761741042137146,
+          -0.03429876267910004,
+          0.8360272645950317
+        ],
+        [
+          0.2634942829608917,
+          0.026030663400888443,
+          1.4653595685958862
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Median nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        1,
+        19
+      ],
+      "bounds": [
+        [
+          -0.2634942829608917,
+          -0.034298598766326904,
+          0.8360272645950317
+        ],
+        [
+          -0.041761741042137146,
+          0.026030516251921654,
+          1.4653595685958862
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Meningeal branch of maxillary nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        14,
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          0.022925086319446564,
+          -0.027489103376865387,
+          1.557729721069336
+        ],
+        [
+          0.07612275332212448,
+          0.024292627349495888,
+          1.6643950939178467
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Meningeal branch of maxillary nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        14,
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          -0.07612275332212448,
+          -0.02748909406363964,
+          1.557729721069336
+        ],
+        [
+          -0.022925086319446564,
+          0.024292651563882828,
+          1.6643950939178467
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Mental nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        4,
+        4,
+        4
+      ],
+      "bounds": [
+        [
+          0.01755381003022194,
+          -0.0725809708237648,
+          1.503610372543335
+        ],
+        [
+          0.021604567766189575,
+          -0.06732279062271118,
+          1.5154937505722046
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Mental nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        4,
+        4,
+        4
+      ],
+      "bounds": [
+        [
+          -0.021604567766189575,
+          -0.0725809708237648,
+          1.503610372543335
+        ],
+        [
+          -0.01755381003022194,
+          -0.06732279062271118,
+          1.5154937505722046
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Middle trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Middle trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.052204348146915436,
+          0.023317301645874977,
+          1.419275164604187
+        ],
+        [
+          0.08407840877771378,
+          0.02582828514277935,
+          1.4417901039123535
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Middle trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Middle trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.08407837897539139,
+          0.02331734076142311,
+          1.419275164604187
+        ],
+        [
+          -0.05220431834459305,
+          0.02582833170890808,
+          1.4417901039123535
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Motor nucleus of facial nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Grey matter of pontine tegmentum",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Motor nucleus of facial nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Grey matter of pontine tegmentum",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Motor root of trigeminal nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "vertices": 114,
+      "polygons": 128
+    },
+    {
+      "name": "Motor root of trigeminal nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "vertices": 114,
+      "polygons": 128
+    },
+    {
+      "name": "Muscular branches of axillary nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Axillary nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.16329966485500336,
+          0.018811890855431557,
+          1.3489266633987427
+        ],
+        [
+          0.1957874596118927,
+          0.03933396190404892,
+          1.3695147037506104
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of axillary nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Axillary nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.1957874894142151,
+          0.018811890855431557,
+          1.3489266633987427
+        ],
+        [
+          -0.16329969465732574,
+          0.03933395445346832,
+          1.3695147037506104
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of deep fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          0.08364826440811157,
+          0.011061636731028557,
+          0.050637830048799515
+        ],
+        [
+          0.1048826351761818,
+          0.014055639505386353,
+          0.07967465370893478
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of deep fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep fibular nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          -0.10488265007734299,
+          0.01106143370270729,
+          0.05063784122467041
+        ],
+        [
+          -0.08364827930927277,
+          0.014055445790290833,
+          0.07967466115951538
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of median nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.21178527176380157,
+          -0.008080128580331802,
+          1.0090914964675903
+        ],
+        [
+          0.23187704384326935,
+          0.014488887041807175,
+          1.0657038688659668
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of median nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.23187704384326935,
+          -0.008080062456429005,
+          1.0090914964675903
+        ],
+        [
+          -0.21178527176380157,
+          0.014488931745290756,
+          1.0657038688659668
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of radial nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.20244817435741425,
+          0.020008685067296028,
+          1.0927047729492188
+        ],
+        [
+          0.2642876207828522,
+          0.05942300334572792,
+          1.1597251892089844
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of radial nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.2642876207828522,
+          0.02000865340232849,
+          1.0927047729492188
+        ],
+        [
+          -0.20244817435741425,
+          0.05942297726869583,
+          1.1597251892089844
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.18945680558681488,
+          0.00974708516150713,
+          0.9960557222366333
+        ],
+        [
+          0.22035335004329681,
+          0.03503601253032684,
+          1.0493532419204712
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Muscular branches of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.2203533798456192,
+          0.009747035801410675,
+          0.9960557222366333
+        ],
+        [
+          -0.18945683538913727,
+          0.03503597900271416,
+          1.0493532419204712
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Musculocutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Musculocutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          0.17544089257717133,
+          0.008534309454262257,
+          1.0918389558792114
+        ],
+        [
+          0.22318288683891296,
+          0.027348577976226807,
+          1.3104207515716553
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Musculocutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Musculocutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        6
+      ],
+      "bounds": [
+        [
+          -0.22318291664123535,
+          0.008534311316907406,
+          1.0918389558792114
+        ],
+        [
+          -0.1754409223794937,
+          0.027348535135388374,
+          1.3104207515716553
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nerve to mylohyoid muscle.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        8,
+        6
+      ],
+      "bounds": [
+        [
+          0.011249957606196404,
+          -0.05437341332435608,
+          1.5027680397033691
+        ],
+        [
+          0.03599649667739868,
+          -0.01930641196668148,
+          1.5457242727279663
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nerve to mylohyoid muscle.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        8,
+        6
+      ],
+      "bounds": [
+        [
+          -0.03599649667739868,
+          -0.05437341332435608,
+          1.5027680397033691
+        ],
+        [
+          -0.011249957606196404,
+          -0.01930641196668148,
+          1.5457242727279663
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nerve to piriformis muscle.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        2
+      ],
+      "bounds": [
+        [
+          0.016562361270189285,
+          0.03843194991350174,
+          0.8893091678619385
+        ],
+        [
+          0.06874581426382065,
+          0.06071044132113457,
+          0.9324549436569214
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nerve to piriformis muscle.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        2
+      ],
+      "bounds": [
+        [
+          -0.06874581426382065,
+          0.03843194991350174,
+          0.8893091678619385
+        ],
+        [
+          -0.016562361270189285,
+          0.06071044132113457,
+          0.9324549436569214
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nerve to quadratus femoris muscle.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Central nervous system",
+        "Left lower limb",
+        "Meninges",
+        "Nerves",
+        "Spinal dura",
+        "Trunk"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        3,
+        9,
+        3,
+        4
+      ],
+      "bounds": [
+        [
+          0.019798532128334045,
+          0.005242824554443359,
+          0.8124598264694214
+        ],
+        [
+          0.0892939642071724,
+          0.04233396053314209,
+          1.0085535049438477
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nerve to quadratus femoris muscle.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Central nervous system",
+        "Meninges",
+        "Nerves",
+        "Right lower limb",
+        "Spinal dura",
+        "Trunk"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        3,
+        9,
+        3,
+        4
+      ],
+      "bounds": [
+        [
+          -0.08929390460252762,
+          0.005242824554443359,
+          0.8124598264694214
+        ],
+        [
+          -0.01979847252368927,
+          0.04233396053314209,
+          1.0085535049438477
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Nucleus of abducens nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Grey matter of pontine tegmentum",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of abducens nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Grey matter of pontine tegmentum",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of accessory nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Anterior horn of spinal cord",
+        "Central nervous system",
+        "Head"
+      ],
+      "vertices": 58,
+      "polygons": 56
+    },
+    {
+      "name": "Nucleus of accessory nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Anterior horn of spinal cord",
+        "Central nervous system",
+        "Head"
+      ],
+      "vertices": 58,
+      "polygons": 56
+    },
+    {
+      "name": "Nucleus of hypoglossal nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of hypoglossal nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of oculomotor nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Head",
+        "Oculomotor complex"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of oculomotor nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Brain",
+        "Brainstem",
+        "Central nervous system",
+        "Head",
+        "Oculomotor complex"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of trochlear nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Nucleus of trochlear nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Obturator nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Obturator nerve",
+        "Peripheral nervous system",
+        "Trunk"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        2,
+        8,
+        5
+      ],
+      "bounds": [
+        [
+          0.01661616563796997,
+          -0.014940398745238781,
+          0.8616093397140503
+        ],
+        [
+          0.05951068177819252,
+          0.021807393059134483,
+          1.0791796445846558
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Obturator nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Obturator nerve",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Trunk"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        2,
+        8,
+        5
+      ],
+      "bounds": [
+        [
+          -0.05951068922877312,
+          -0.014940435066819191,
+          0.8616093993186951
+        ],
+        [
+          -0.016616173088550568,
+          0.021807420998811722,
+          1.0791796445846558
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Oculomotor nerve (III).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Oculomotor nerve (III)",
+        "Peripheral nervous system"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        15,
+        3,
+        8,
+        3,
+        2,
+        4,
+        2
+      ],
+      "bounds": [
+        [
+          0.0006257724016904831,
+          -0.07166602462530136,
+          1.5745272636413574
+        ],
+        [
+          0.038908813148736954,
+          0.009406033903360367,
+          1.6083048582077026
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Oculomotor nerve (III).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Oculomotor nerve (III)",
+        "Peripheral nervous system"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        15,
+        3,
+        8,
+        3,
+        2,
+        4,
+        2
+      ],
+      "bounds": [
+        [
+          -0.038908813148736954,
+          -0.07166602462530136,
+          1.5745272636413574
+        ],
+        [
+          -0.0006257724016904831,
+          0.009406030178070068,
+          1.6083048582077026
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Olfactory nerve (I).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Olfactory nerve (I)",
+        "Peripheral nervous system"
+      ],
+      "splines": 23,
+      "pointsPerSpline": [
+        4,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          -8.847564458847046e-09,
+          -0.0688958540558815,
+          1.5962053537368774
+        ],
+        [
+          0.022321483120322227,
+          -0.020125756040215492,
+          1.612128734588623
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Olfactory nerve (I).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Olfactory nerve (I)",
+        "Peripheral nervous system"
+      ],
+      "splines": 23,
+      "pointsPerSpline": [
+        4,
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          -0.022321483120322227,
+          -0.0688958540558815,
+          1.596205234527588
+        ],
+        [
+          8.847564458847046e-09,
+          -0.020125756040215492,
+          1.612128734588623
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Ophthalmic nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        15,
+        4,
+        2,
+        5,
+        2
+      ],
+      "bounds": [
+        [
+          0.010128721594810486,
+          -0.08790634572505951,
+          1.5973758697509766
+        ],
+        [
+          0.0390075258910656,
+          -0.0021973878610879183,
+          1.6329948902130127
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Ophthalmic nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        15,
+        4,
+        2,
+        5,
+        2
+      ],
+      "bounds": [
+        [
+          -0.0390075258910656,
+          -0.08790633082389832,
+          1.597375750541687
+        ],
+        [
+          -0.010128721594810486,
+          -0.002197377383708954,
+          1.6329948902130127
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Optic nerve (II).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Optic nerve (II)",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -9.313225746154785e-09,
+          -0.061250489205121994,
+          1.5934349298477173
+        ],
+        [
+          0.029919913038611412,
+          -0.020406916737556458,
+          1.608031153678894
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Optic nerve (II).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Optic nerve (II)",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.029919913038611412,
+          -0.061250485479831696,
+          1.5934349298477173
+        ],
+        [
+          9.313225746154785e-09,
+          -0.020406918600201607,
+          1.608031153678894
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Palmar branch of median nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.2405533492565155,
+          -0.04566439613699913,
+          0.8400426506996155
+        ],
+        [
+          0.2772654891014099,
+          -0.011958842165768147,
+          0.9384711980819702
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Palmar branch of median nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.2772654891014099,
+          -0.045664235949516296,
+          0.8400426506996155
+        ],
+        [
+          -0.2405533492565155,
+          -0.011958735063672066,
+          0.9384711980819702
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Palmar branch of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.21456587314605713,
+          -0.0437629409134388,
+          0.8180594444274902
+        ],
+        [
+          0.26382577419281006,
+          0.0042825620621442795,
+          0.9443596005439758
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Palmar branch of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.26382580399513245,
+          -0.04376304894685745,
+          0.8180594444274902
+        ],
+        [
+          -0.21456590294837952,
+          0.004282495006918907,
+          0.9443596005439758
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior antebrachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          0.23987574875354767,
+          0.007189121562987566,
+          0.8854618668556213
+        ],
+        [
+          0.2546471059322357,
+          0.05554111674427986,
+          1.116162896156311
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior antebrachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          -0.2546471059322357,
+          0.007189007475972176,
+          0.8854618668556213
+        ],
+        [
+          -0.23987574875354767,
+          0.05554105341434479,
+          1.116162896156311
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior branch of medial antebrachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Medial antebrachial cutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        9
+      ],
+      "bounds": [
+        [
+          0.18271835148334503,
+          0.012593336403369904,
+          0.9373542666435242
+        ],
+        [
+          0.22647513449192047,
+          0.037577200680971146,
+          1.1640632152557373
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior branch of medial antebrachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Medial antebrachial cutaneous nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        9
+      ],
+      "bounds": [
+        [
+          -0.22647516429424286,
+          0.012593215331435204,
+          0.9373542666435242
+        ],
+        [
+          -0.18271838128566742,
+          0.03757711872458458,
+          1.1640632152557373
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior branch of obturator nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Obturator nerve",
+        "Peripheral nervous system",
+        "Posterior branch of obturator nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.04016396775841713,
+          -0.022399945184588432,
+          0.702888548374176
+        ],
+        [
+          0.05585966631770134,
+          -0.011234489269554615,
+          0.8616093993186951
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior branch of obturator nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Obturator nerve",
+        "Peripheral nervous system",
+        "Posterior branch of obturator nerve",
+        "Right lower limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.05585967376828194,
+          -0.022399991750717163,
+          0.702888548374176
+        ],
+        [
+          -0.040163975208997726,
+          -0.01123456284403801,
+          0.8616093993186951
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior cord of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          0.10066518187522888,
+          0.025735925883054733,
+          1.3790631294250488
+        ],
+        [
+          0.12163206934928894,
+          0.026325106620788574,
+          1.3994524478912354
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior cord of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        3
+      ],
+      "bounds": [
+        [
+          -0.12163203954696655,
+          0.025735924020409584,
+          1.3790631294250488
+        ],
+        [
+          -0.1006651520729065,
+          0.026325108483433723,
+          1.3994524478912354
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of inferior trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.08341791480779648,
+          0.013982458040118217,
+          1.399962067604065
+        ],
+        [
+          0.11043517291545868,
+          0.016292497515678406,
+          1.4167085886001587
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of inferior trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Inferior trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.11043515801429749,
+          0.01398254930973053,
+          1.3999617099761963
+        ],
+        [
+          -0.08341790735721588,
+          0.016292596235871315,
+          1.41670823097229
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of mandibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          0.022925082594156265,
+          -0.019474931061267853,
+          1.5457242727279663
+        ],
+        [
+          0.03599649667739868,
+          -0.015015246346592903,
+          1.5768479108810425
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of mandibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          -0.03599649667739868,
+          -0.019474931061267853,
+          1.5457242727279663
+        ],
+        [
+          -0.022925082594156265,
+          -0.015015246346592903,
+          1.5768479108810425
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of middle trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Middle trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.08407840132713318,
+          0.023317303508520126,
+          1.399452567100525
+        ],
+        [
+          0.10066516697406769,
+          0.026325099170207977,
+          1.4192754030227661
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of middle trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Middle trunk of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.1006651371717453,
+          0.02331734448671341,
+          1.399452567100525
+        ],
+        [
+          -0.08407837152481079,
+          0.026325132697820663,
+          1.4192754030227661
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of superior trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Superior trunk of brachial plexus"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.08764586597681046,
+          0.026325099170207977,
+          1.3994524478912354
+        ],
+        [
+          0.10066518932580948,
+          0.02737315744161606,
+          1.4183776378631592
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior division of superior trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Superior trunk of brachial plexus"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.10066515952348709,
+          0.026325134560465813,
+          1.3994524478912354
+        ],
+        [
+          -0.08764583617448807,
+          0.027373196557164192,
+          1.4183776378631592
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior femoral cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        8,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.07229892909526825,
+          0.020394569262862206,
+          0.651005744934082
+        ],
+        [
+          -0.03125854581594467,
+          0.09467339515686035,
+          0.947814404964447
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior interosseous nerve of forearm.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep branch of radial nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          0.23887889087200165,
+          -0.006957223638892174,
+          0.8958462476730347
+        ],
+        [
+          0.2525595724582672,
+          0.030588500201702118,
+          1.062986135482788
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior interosseous nerve of forearm.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Deep branch of radial nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        7
+      ],
+      "bounds": [
+        [
+          -0.2525595724582672,
+          -0.006957337260246277,
+          0.8958463072776794
+        ],
+        [
+          -0.23887889087200165,
+          0.030588440597057343,
+          1.062986135482788
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior rami of lumbar nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system",
+        "Posterior rami of lumbar nerves"
+      ]
+    },
+    {
+      "name": "Posterior rami of lumbar nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Posterior rami of lumbar nerves"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Posterior root of posterior femoral cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Nerves"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        4,
+        10
+      ],
+      "bounds": [
+        [
+          0.011662364937365055,
+          0.03399142250418663,
+          0.8856102228164673
+        ],
+        [
+          0.04424647241830826,
+          0.07718853652477264,
+          0.9783428907394409
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior root of posterior femoral cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Right lower limb"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        4,
+        10
+      ],
+      "bounds": [
+        [
+          -0.04424641281366348,
+          0.03399142250418663,
+          0.8856102228164673
+        ],
+        [
+          -0.01166230533272028,
+          0.07718853652477264,
+          0.9783428907394409
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior root of spinal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Central nervous system",
+        "Meninges",
+        "Nerves",
+        "Spinal dura",
+        "Trunk"
+      ],
+      "splines": 21,
+      "pointsPerSpline": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.0008397120982408524,
+          0.015698231756687164,
+          1.0682035684585571
+        ],
+        [
+          0.017299668863415718,
+          0.07473335415124893,
+          1.5353142023086548
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior root of spinal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Central nervous system",
+        "Meninges",
+        "Nerves",
+        "Spinal dura",
+        "Trunk"
+      ],
+      "splines": 21,
+      "pointsPerSpline": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.017299668863415718,
+          0.015698231756687164,
+          1.0682035684585571
+        ],
+        [
+          -0.0008397120982408524,
+          0.07473335415124893,
+          1.5353142023086548
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper palmar digital branches of median nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common palmar digital branches of median nerve",
+        "Left upper limb",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        7,
+        5,
+        5,
+        7,
+        7,
+        6,
+        8
+      ],
+      "bounds": [
+        [
+          0.2620803415775299,
+          -0.09620663523674011,
+          0.7019956707954407
+        ],
+        [
+          0.32870009541511536,
+          -0.03593038395047188,
+          0.8276381492614746
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper palmar digital branches of median nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common palmar digital branches of median nerve",
+        "Median nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        7,
+        5,
+        5,
+        7,
+        7,
+        6,
+        8
+      ],
+      "bounds": [
+        [
+          -0.32870009541511536,
+          -0.09620640426874161,
+          0.7019955515861511
+        ],
+        [
+          -0.2620803415775299,
+          -0.03593021258711815,
+          0.8276380896568298
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper palmar digital branches of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common palmar digital branches of ulnar nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        6,
+        10,
+        7
+      ],
+      "bounds": [
+        [
+          0.22519534826278687,
+          -0.09355511516332626,
+          0.7129071354866028
+        ],
+        [
+          0.25495967268943787,
+          -0.03173675015568733,
+          0.8433013558387756
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper palmar digital branches of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Common palmar digital branches of ulnar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        6,
+        10,
+        7
+      ],
+      "bounds": [
+        [
+          -0.25495970249176025,
+          -0.0935552567243576,
+          0.7129071354866028
+        ],
+        [
+          -0.22519537806510925,
+          -0.03173684701323509,
+          0.8433013558387756
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper plantar digital branches of lateral plantar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        5,
+        7,
+        6,
+        7,
+        6
+      ],
+      "bounds": [
+        [
+          0.10930947959423065,
+          -0.11862622201442719,
+          0.007339075207710266
+        ],
+        [
+          0.14572960138320923,
+          -0.04742593690752983,
+          0.021520337089896202
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper plantar digital branches of lateral plantar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lateral plantar nerve",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        5,
+        7,
+        6,
+        7,
+        6
+      ],
+      "bounds": [
+        [
+          -0.14572960138320923,
+          -0.11862644553184509,
+          0.007339118979871273
+        ],
+        [
+          -0.10930947959423065,
+          -0.04742615297436714,
+          0.021520372480154037
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper plantar digital branches of medial plantar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        5,
+        4,
+        6,
+        6,
+        6
+      ],
+      "bounds": [
+        [
+          0.060146935284137726,
+          -0.12997563183307648,
+          0.009366574697196484
+        ],
+        [
+          0.11406548321247101,
+          -0.06383077800273895,
+          0.019572103396058083
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Proper plantar digital branches of medial plantar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        5,
+        4,
+        6,
+        6,
+        6
+      ],
+      "bounds": [
+        [
+          -0.1140654981136322,
+          -0.12997585535049438,
+          0.009366631507873535
+        ],
+        [
+          -0.06014695018529892,
+          -0.06383099406957626,
+          0.019572138786315918
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Radial nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        9
+      ],
+      "bounds": [
+        [
+          0.12163206189870834,
+          0.016497481614351273,
+          1.0916868448257446
+        ],
+        [
+          0.24325081706047058,
+          0.04649030417203903,
+          1.3790630102157593
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Radial nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        9
+      ],
+      "bounds": [
+        [
+          -0.24325081706047058,
+          0.016497431322932243,
+          1.0916869640350342
+        ],
+        [
+          -0.12163206189870834,
+          0.046490296721458435,
+          1.3790630102157593
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Posterior femoral cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        8,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.03125854581594467,
+          0.020394569262862206,
+          0.651005744934082
+        ],
+        [
+          0.07229892909526825,
+          0.09467339515686035,
+          0.947814404964447
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Common plantar digital branches of medial plantar nerve",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Medial plantar nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        3,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.09792014211416245,
+          -0.07576509565114975,
+          0.014348982833325863
+        ],
+        [
+          -0.06014695018529892,
+          -0.02414916642010212,
+          0.03051292523741722
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Saphenous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        9,
+        7,
+        6,
+        5
+      ],
+      "bounds": [
+        [
+          0.03294083848595619,
+          -0.04712095856666565,
+          0.10420870035886765
+        ],
+        [
+          0.07247021049261093,
+          0.10410986095666885,
+          0.8617050647735596
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Saphenous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbar plexus",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        9,
+        7,
+        6,
+        5
+      ],
+      "bounds": [
+        [
+          -0.07247022539377213,
+          -0.04712096229195595,
+          0.10420820116996765
+        ],
+        [
+          -0.032940853387117386,
+          0.10410968959331512,
+          0.8617046475410461
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sciatic nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        12,
+        4,
+        4
+      ],
+      "bounds": [
+        [
+          0.016562361270189285,
+          0.01821986958384514,
+          0.5401191711425781
+        ],
+        [
+          0.07732699066400528,
+          0.06356161087751389,
+          0.9779477715492249
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sciatic nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        12,
+        4,
+        4
+      ],
+      "bounds": [
+        [
+          -0.07732699066400528,
+          0.018219949677586555,
+          0.5401192307472229
+        ],
+        [
+          -0.016562361270189285,
+          0.06356167793273926,
+          0.9779477715492249
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Spinal nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Spinal nerves"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Infraclavicular part of brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Infraclavicular part of brachial plexus.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Posterior nucleus of vagus nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Posterior nucleus of vagus nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head"
+      ],
+      "vertices": 26,
+      "polygons": 24
+    },
+    {
+      "name": "Pudendal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Pelvis"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        10,
+        1,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.009121410548686981,
+          -0.02279934287071228,
+          0.8151600360870361
+        ],
+        [
+          0.027959488332271576,
+          0.08158904314041138,
+          0.9294825196266174
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Pudendal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Pelvis"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        10,
+        1,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.0279594287276268,
+          -0.02279934287071228,
+          0.8151600360870361
+        ],
+        [
+          -0.009121350944042206,
+          0.08158904314041138,
+          0.9294825196266174
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Roots of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Supraclavicular part of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 10,
+      "pointsPerSpline": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "bounds": [
+        [
+          0.013352027162909508,
+          -0.04421548917889595,
+          0.7772418260574341
+        ],
+        [
+          0.2660432457923889,
+          0.034660596400499344,
+          1.5043705701828003
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Roots of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Supraclavicular part of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 10,
+      "pointsPerSpline": [
+        4,
+        3,
+        3,
+        4,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "bounds": [
+        [
+          -0.26604321599006653,
+          -0.044215720146894455,
+          0.7772418260574341
+        ],
+        [
+          -0.01335199736058712,
+          0.03466058149933815,
+          1.5043705701828003
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Roots of nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system"
+      ]
+    },
+    {
+      "name": "Roots of nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Sensory root of trigeminal nerve.l",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Peripheral nervous system",
+        "Sensory root of trigeminal nerve",
+        "Trigeminal nerve (V)"
+      ],
+      "vertices": 338,
+      "polygons": 352
+    },
+    {
+      "name": "Sensory root of trigeminal nerve.r",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Peripheral nervous system",
+        "Sensory root of trigeminal nerve",
+        "Trigeminal nerve (V)"
+      ],
+      "vertices": 338,
+      "polygons": 352
+    },
+    {
+      "name": "Spinal nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system",
+        "Spinal nerves"
+      ]
+    },
+    {
+      "name": "Subclavian nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Subclavian nerve",
+        "Supraclavicular branches of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          0.05422770977020264,
+          -0.02839052304625511,
+          1.3964953422546387
+        ],
+        [
+          0.06625793874263763,
+          0.012983111664652824,
+          1.4533026218414307
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Subclavian nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Subclavian nerve",
+        "Supraclavicular branches of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          -0.06625790894031525,
+          -0.028390534222126007,
+          1.3964953422546387
+        ],
+        [
+          -0.05422767996788025,
+          0.012983119115233421,
+          1.4533026218414307
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superficial branch of radial nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Superficial branch of radial nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        11,
+        3,
+        3,
+        2
+      ],
+      "bounds": [
+        [
+          0.23368477821350098,
+          -0.04549132287502289,
+          0.8236066102981567
+        ],
+        [
+          0.30186229944229126,
+          0.016497503966093063,
+          1.0916868448257446
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superficial branch of radial nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Radial nerve",
+        "Right upper limb",
+        "Superficial branch of radial nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        11,
+        3,
+        3,
+        2
+      ],
+      "bounds": [
+        [
+          -0.30186229944229126,
+          -0.04549145698547363,
+          0.8236066102981567
+        ],
+        [
+          -0.23368477821350098,
+          0.016497453674674034,
+          1.0916868448257446
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superficial branch of ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Superficial branch of ulnar nerve",
+        "Ulnar nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          0.23685984313488007,
+          -0.03485105559229851,
+          0.8433014750480652
+        ],
+        [
+          0.24917690455913544,
+          -0.018918495625257492,
+          0.8831346035003662
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superficial branch of ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Superficial branch of ulnar nerve",
+        "Ulnar nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        4
+      ],
+      "bounds": [
+        [
+          -0.24917693436145782,
+          -0.034851156175136566,
+          0.8433014750480652
+        ],
+        [
+          -0.23685987293720245,
+          -0.018918581306934357,
+          0.8831346035003662
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superficial fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        12
+      ],
+      "bounds": [
+        [
+          0.10342355072498322,
+          0.03171288222074509,
+          0.09490875899791718
+        ],
+        [
+          0.12272316217422485,
+          0.04647650942206383,
+          0.3853035271167755
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superficial fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Superficial fibular nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        12
+      ],
+      "bounds": [
+        [
+          -0.12272317707538605,
+          0.031712695956230164,
+          0.09490875899791718
+        ],
+        [
+          -0.10342356562614441,
+          0.046476416289806366,
+          0.3853034973144531
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior gluteal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        8,
+        2,
+        5
+      ],
+      "bounds": [
+        [
+          0.029908182099461555,
+          0.022912735119462013,
+          0.9051456451416016
+        ],
+        [
+          0.11735101044178009,
+          0.04077468067407608,
+          0.9648781418800354
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior gluteal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        8,
+        2,
+        5
+      ],
+      "bounds": [
+        [
+          -0.11735101044178009,
+          0.02291271649301052,
+          0.9051456451416016
+        ],
+        [
+          -0.029908182099461555,
+          0.040774665772914886,
+          0.9648781418800354
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior lateral brachial cutaneous nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Axillary nerve",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        8
+      ],
+      "bounds": [
+        [
+          0.1637318879365921,
+          0.0366976335644722,
+          1.3091466426849365
+        ],
+        [
+          0.22932696342468262,
+          0.09020844101905823,
+          1.3641726970672607
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior lateral brachial cutaneous nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Axillary nerve",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        8
+      ],
+      "bounds": [
+        [
+          -0.229326993227005,
+          0.0366976261138916,
+          1.3091466426849365
+        ],
+        [
+          -0.1637319177389145,
+          0.09020841866731644,
+          1.3641726970672607
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior subscapular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.08005482703447342,
+          0.02603059634566307,
+          1.3524805307388306
+        ],
+        [
+          0.11114859580993652,
+          0.08798081427812576,
+          1.3892576694488525
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior subscapular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.11114859580993652,
+          0.026030592620372772,
+          1.3524805307388306
+        ],
+        [
+          -0.08005482703447342,
+          0.08798081427812576,
+          1.3892576694488525
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior trunk of brachial plexus.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Superior trunk of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          0.054227713495492935,
+          0.012983069755136967,
+          1.4183776378631592
+        ],
+        [
+          0.08764585852622986,
+          0.02737315185368061,
+          1.4533027410507202
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Superior trunk of brachial plexus.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Superior trunk of brachial plexus",
+        "Trunk"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        2
+      ],
+      "bounds": [
+        [
+          -0.08764582872390747,
+          0.01298312097787857,
+          1.4183776378631592
+        ],
+        [
+          -0.05422768369317055,
+          0.027373190969228745,
+          1.4533027410507202
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Supraclavicular branches of brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system",
+        "Supraclavicular part of brachial plexus"
+      ]
+    },
+    {
+      "name": "Supraclavicular part of brachial plexus.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system",
+        "Supraclavicular part of brachial plexus"
+      ]
+    },
+    {
+      "name": "Supraclavicular part of brachial plexus.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Supraclavicular part of brachial plexus"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Suprascapular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Supraclavicular branches of brachial plexus",
+        "Suprascapular nerve",
+        "Trunk"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        8,
+        4,
+        4,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          0.05422770977020264,
+          0.012983102351427078,
+          1.3165122270584106
+        ],
+        [
+          0.14277514815330505,
+          0.09102487564086914,
+          1.4533027410507202
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Suprascapular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Supraclavicular branches of brachial plexus",
+        "Suprascapular nerve",
+        "Trunk"
+      ],
+      "splines": 5,
+      "pointsPerSpline": [
+        8,
+        4,
+        4,
+        3,
+        3
+      ],
+      "bounds": [
+        [
+          -0.14277511835098267,
+          0.012983128428459167,
+          1.3165122270584106
+        ],
+        [
+          -0.05422767996788025,
+          0.09102485328912735,
+          1.4533027410507202
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sural communicating branch of common fibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          0.07849875092506409,
+          0.05456727370619774,
+          0.3519204556941986
+        ],
+        [
+          0.11384370177984238,
+          0.10128473490476608,
+          0.3953174948692322
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sural communicating branch of common fibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        5
+      ],
+      "bounds": [
+        [
+          -0.11384371668100357,
+          0.054567184299230576,
+          0.3519204556941986
+        ],
+        [
+          -0.07849876582622528,
+          0.10128462314605713,
+          0.3953174948692322
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sural nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        10,
+        4,
+        3
+      ],
+      "bounds": [
+        [
+          0.07081430405378342,
+          -0.07921737432479858,
+          0.013465650379657745
+        ],
+        [
+          0.14431647956371307,
+          0.10128473490476608,
+          0.41018903255462646
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sural nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Saphenous nerve",
+        "Sciatic nerve"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        10,
+        4,
+        3
+      ],
+      "bounds": [
+        [
+          -0.14431649446487427,
+          -0.0792175903916359,
+          0.01346568763256073
+        ],
+        [
+          -0.07081431895494461,
+          0.10128463059663773,
+          0.4101890027523041
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sympathetic nerves.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sympathetic trunk",
+        "Trunk"
+      ],
+      "splines": 19,
+      "pointsPerSpline": [
+        5,
+        9,
+        7,
+        8,
+        8,
+        6,
+        6,
+        6,
+        4,
+        5,
+        6,
+        9,
+        7,
+        5,
+        5,
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          0.005194689147174358,
+          -0.003919623792171478,
+          1.1611254215240479
+        ],
+        [
+          0.024204883724451065,
+          0.09135984629392624,
+          1.4892548322677612
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Sympathetic nerves.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sympathetic trunk",
+        "Trunk"
+      ],
+      "splines": 19,
+      "pointsPerSpline": [
+        5,
+        9,
+        7,
+        8,
+        8,
+        6,
+        6,
+        6,
+        4,
+        5,
+        6,
+        9,
+        7,
+        5,
+        5,
+        2,
+        2,
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          -0.024204883724451065,
+          -0.003919575363397598,
+          1.1611254215240479
+        ],
+        [
+          -0.005194689147174358,
+          0.09135983139276505,
+          1.4892548322677612
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Thoracic nerves.g",
+      "type": "FONT",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Peripheral nervous system",
+        "Thoracic nerves"
+      ]
+    },
+    {
+      "name": "Thoracic nerves.j",
+      "type": "MESH",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Thoracic nerves"
+      ],
+      "vertices": 2,
+      "polygons": 0
+    },
+    {
+      "name": "Thoracodorsal nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        9,
+        6,
+        4
+      ],
+      "bounds": [
+        [
+          -0.14938005805015564,
+          0.025736004114151,
+          1.2187317609786987
+        ],
+        [
+          -0.08889181911945343,
+          0.10378998517990112,
+          1.3790630102157593
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Thoracodorsal nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Infraclavicular part of brachial plexus",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 3,
+      "pointsPerSpline": [
+        9,
+        6,
+        4
+      ],
+      "bounds": [
+        [
+          0.08889178931713104,
+          0.025736004114151,
+          1.2187317609786987
+        ],
+        [
+          0.14938002824783325,
+          0.10378998517990112,
+          1.3790630102157593
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Tibial nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left lower limb",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Sciatic nerve",
+        "Tibial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          0.05792833864688873,
+          0.03978976979851723,
+          0.05775797739624977
+        ],
+        [
+          0.09536707401275635,
+          0.06283681839704514,
+          0.5401193499565125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Tibial nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Lumbosacral plexus",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right lower limb",
+        "Sciatic nerve",
+        "Tibial nerve"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        10
+      ],
+      "bounds": [
+        [
+          -0.09536708891391754,
+          0.039789728820323944,
+          0.05775797367095947
+        ],
+        [
+          -0.05792835354804993,
+          0.06283674389123917,
+          0.5401193499565125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Trigeminal nerve (V).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          0.004722468554973602,
+          -0.015015245415270329,
+          1.576847791671753
+        ],
+        [
+          0.022925082594156265,
+          0.016172930598258972,
+          1.599741816520691
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Trigeminal nerve (V).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trigeminal nerve (V)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        5
+      ],
+      "bounds": [
+        [
+          -0.022925082594156265,
+          -0.015015244483947754,
+          1.576847791671753
+        ],
+        [
+          -0.004722468554973602,
+          0.01617293804883957,
+          1.599741816520691
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Trochlear nerve (IV).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        14
+      ],
+      "bounds": [
+        [
+          -0.0012656822800636292,
+          -0.05781784653663635,
+          1.5967539548873901
+        ],
+        [
+          0.030141610652208328,
+          0.015335825271904469,
+          1.6067373752593994
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Trochlear nerve (IV).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system"
+      ],
+      "splines": 1,
+      "pointsPerSpline": [
+        14
+      ],
+      "bounds": [
+        [
+          -0.030141610652208328,
+          -0.05781785026192665,
+          1.5967539548873901
+        ],
+        [
+          0.0012656822800636292,
+          0.015335826203227043,
+          1.6067373752593994
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Ulnar nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Left upper limb",
+        "Nerves",
+        "Peripheral nervous system",
+        "Ulnar nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        1,
+        12
+      ],
+      "bounds": [
+        [
+          0.10092052817344666,
+          -0.018918512389063835,
+          0.8831346035003662
+        ],
+        [
+          0.23685982823371887,
+          0.043572086840867996,
+          1.3990633487701416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Ulnar nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Nerves",
+        "Peripheral nervous system",
+        "Right upper limb",
+        "Ulnar nerve"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        1,
+        12
+      ],
+      "bounds": [
+        [
+          -0.23685985803604126,
+          -0.01891859993338585,
+          0.8831346035003662
+        ],
+        [
+          -0.10092055797576904,
+          0.043572068214416504,
+          1.3990633487701416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Vagus nerve (X).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk",
+        "Vagus nerve (X)"
+      ],
+      "splines": 7,
+      "pointsPerSpline": [
+        5,
+        8,
+        30,
+        4,
+        4,
+        4,
+        2
+      ],
+      "bounds": [
+        [
+          0.0016582012176513672,
+          -0.03104163333773613,
+          1.346629023551941
+        ],
+        [
+          0.028073031455278397,
+          0.042463336139917374,
+          1.5752397775650024
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Vagus nerve (X).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Neck",
+        "Nerves",
+        "Peripheral nervous system",
+        "Trunk",
+        "Vagus nerve (X)"
+      ],
+      "splines": 21,
+      "pointsPerSpline": [
+        5,
+        8,
+        52,
+        4,
+        4,
+        3,
+        3,
+        6,
+        3,
+        8,
+        7,
+        4,
+        20,
+        9,
+        9,
+        10,
+        10,
+        4,
+        4,
+        4,
+        2
+      ],
+      "bounds": [
+        [
+          -0.028073031455278397,
+          -0.04253986105322838,
+          1.1049326658248901
+        ],
+        [
+          0.06927299499511719,
+          0.04458644241094589,
+          1.5752397775650024
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Vestibular nerve.l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Vestibular nerve"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        8,
+        7,
+        2,
+        3
+      ],
+      "bounds": [
+        [
+          0.01964344084262848,
+          0.002970525762066245,
+          1.5793930292129517
+        ],
+        [
+          0.04052926227450371,
+          0.005618407856673002,
+          1.5834455490112305
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Vestibular nerve.r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Vestibulocochlear nerve (VIII)"
+      ],
+      "splines": 4,
+      "pointsPerSpline": [
+        8,
+        7,
+        2,
+        3
+      ],
+      "bounds": [
+        [
+          -0.04052926227450371,
+          0.0029705259948968887,
+          1.5793930292129517
+        ],
+        [
+          -0.01964344084262848,
+          0.005618408787995577,
+          1.5834455490112305
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Vestibulocochlear nerve (VIII).l",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Vestibulocochlear nerve (VIII)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        3
+      ],
+      "bounds": [
+        [
+          0.007345277816057205,
+          0.004938229918479919,
+          1.5768146514892578
+        ],
+        [
+          0.02111988142132759,
+          0.015958895906805992,
+          1.5815706253051758
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Vestibulocochlear nerve (VIII).r",
+      "type": "CURVE",
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Cranial nerves",
+        "Head",
+        "Nerves",
+        "Peripheral nervous system",
+        "Vestibulocochlear nerve (VIII)"
+      ],
+      "splines": 2,
+      "pointsPerSpline": [
+        5,
+        3
+      ],
+      "bounds": [
+        [
+          -0.02111988142132759,
+          0.004938230384141207,
+          1.5768146514892578
+        ],
+        [
+          -0.007345277816057205,
+          0.015958895906805992,
+          1.5815706253051758
+        ]
+      ],
+      "modifiers": []
+    }
+  ],
+  "cordCollections": [
+    "Anterior horn of spinal cord",
+    "Arteries of spinal cord",
+    "Branches of lateral cord of brachial plexus",
+    "Branches of medial cord of brachial plexus",
+    "Branches of posterior cord of brachial plexus",
+    "Central structures of spinal cord",
+    "Grey matter of spinal cord",
+    "Intermediate zone of spinal cord",
+    "Lateral horn of spinal cord",
+    "Posterior horn of spinal cord",
+    "Spinal cord",
+    "White matter of spinal cord"
+  ],
+  "seconds": 2.6042709999965155
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "measurementWindowStart": "2026-10-02T12:25:12.242556+00:00",
+  "completedAt": "2026-10-02T12:41:14.047711+00:00",
+  "measuredElapsedSeconds": 961.805,
+  "measurementScope": "First immutable metadata snapshot through completed 127-object handoff; earlier README/skills/source reading was not timed, so this is not total labor time.",
+  "owner": "metadata worker; sole writes under data/model-candidates/upper-limb-nerve-metadata-v1",
+  "actualOutputs": {
+    "labels": 127,
+    "exactLatin": 110,
+    "unresolvedLatin": 17,
+    "branchRelations": 26
+  },
+  "rework": [
+    {
+      "cause": "Canonical subscapular source-name slugs would duplicate existing upper/lower concepts",
+      "resolution": "Reported before immutable mapping; geometry owner reconciled4IDs"
+    },
+    {
+      "cause": "Pinned TA2 row6442 Latin names wrong region",
+      "resolution": "Verified distinct IFAA primary term; retained source defect"
+    },
+    {
+      "cause": "Root expanded54primary labels to127source-reference objects",
+      "resolution": "Added73dataset-scoped context labels;17specific Latin fields explicitly unresolved"
+    },
+    {
+      "cause": "Geometry source JSON included runtime pointer strings",
+      "resolution": "Refreshed owned frozen evaluated audit to final deterministic serializer; IDs and geometry unchanged"
+    },
+    {
+      "cause": "Two authoring tool payloads failed before writing due string delimiters",
+      "resolution": "Retried valid patches; deterministic producer passed"
+    }
+  ],
+  "checksRun": [
+    "python3 data/model-candidates/upper-limb-nerve-metadata-v1/build.py",
+    "python3 data/model-candidates/upper-limb-nerve-metadata-v1/build.py --check"
+  ],
+  "remainingGates": [
+    "Root runtime projection into independent reference",
+    "Search-selection-context-relationship-return acceptance",
+    "Root active target-version observational update",
+    "Publication if authorized and anatomical expert review"
+  ],
+  "remainingMetadataActiveMinutesEstimate": 0
+}

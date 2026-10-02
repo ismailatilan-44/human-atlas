@@ -1,0 +1,117 @@
+{
+  "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+  "method": "POST",
+  "fields": {
+    "ids": "[\"FJ3158\", \"FJ3228\", \"FJ3229\", \"FJ3237\", \"FJ3262\", \"FJ3279\"]",
+    "rep_id": "[\"BP23701\", \"BP21704\", \"BP22527\", \"BP23283\", \"BP24066\", \"BP23279\"]",
+    "filename": "upper-limb-bp3d43-context-v1",
+    "type": "art_file",
+    "all_downloads": "1"
+  },
+  "requestedIds": [
+    "FJ3158",
+    "FJ3228",
+    "FJ3229",
+    "FJ3237",
+    "FJ3262",
+    "FJ3279"
+  ],
+  "reusedIds": [
+    "FJ3167",
+    "FJ3170",
+    "FJ3172"
+  ],
+  "catalogRows": [
+    {
+      "fj_id": "FJ3158",
+      "bp_id": "BP23701",
+      "fma_id": "FMA5018",
+      "name": "First thoracic vertebra",
+      "faces": "1700",
+      "verts": "1078",
+      "bytes": "113811",
+      "mtime": "1779787487"
+    },
+    {
+      "fj_id": "FJ3228",
+      "bp_id": "BP21704",
+      "fma_id": "FMA5018",
+      "name": "Left first rib",
+      "faces": "3276",
+      "verts": "1641",
+      "bytes": "200486",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ3229",
+      "bp_id": "BP22527",
+      "fma_id": "FMA5018",
+      "name": "Left second rib",
+      "faces": "5594",
+      "verts": "2862",
+      "bytes": "354866",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ3237",
+      "bp_id": "BP23283",
+      "fma_id": "FMA13321",
+      "name": "Left clavicle",
+      "faces": "1176",
+      "verts": "602",
+      "bytes": "69345",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ3262",
+      "bp_id": "BP24066",
+      "fma_id": "FMA13303",
+      "name": "Left humerus",
+      "faces": "3844",
+      "verts": "2073",
+      "bytes": "247065",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ3279",
+      "bp_id": "BP23279",
+      "fma_id": "FMA13394",
+      "name": "Left scapula",
+      "faces": "28106",
+      "verts": "14068",
+      "bytes": "1865374",
+      "mtime": "1779787488"
+    },
+    {
+      "fj_id": "FJ3167",
+      "bp_id": "BP23524",
+      "fma_id": "FMA12523",
+      "name": "Fifth cervical vertebra",
+      "faces": "2196",
+      "verts": "1539",
+      "bytes": "158493",
+      "mtime": "1779787487"
+    },
+    {
+      "fj_id": "FJ3170",
+      "bp_id": "BP23576",
+      "fma_id": "FMA12524",
+      "name": "Sixth cervical vertebra",
+      "faces": "2374",
+      "verts": "1498",
+      "bytes": "161671",
+      "mtime": "1779787487"
+    },
+    {
+      "fj_id": "FJ3172",
+      "bp_id": "BP23626",
+      "fma_id": "FMA12525",
+      "name": "Seventh cervical vertebra",
+      "faces": "1820",
+      "verts": "1324",
+      "bytes": "132995",
+      "mtime": "1779787488"
+    }
+  ],
+  "scope": "Left scapula/clavicle/humerus, first/second ribs and C5/C6/C7/T1 vertebrae. There is no C8 vertebra; spinal nerve C8 is a separate object. Duplicate-name clavicle/humerus companion components are not silently substituted or equated."
+}

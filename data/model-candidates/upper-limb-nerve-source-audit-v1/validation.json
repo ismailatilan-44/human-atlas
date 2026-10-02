@@ -1,0 +1,20 @@
+{
+  "parts": 127,
+  "uniquePartConceptIds": true,
+  "exactMapping": true,
+  "finitePositions": true,
+  "indexBounds": true,
+  "float32Bounds": true,
+  "offsetAlignment": true,
+  "gzipRoundTrip": true,
+  "maxNormalLengthError": 2.556389771468659e-05,
+  "all54IsolatedSplineTotalsMatch": true,
+  "deterministicPackageFiveFiles": true,
+  "fileSha256": {
+    "atlas.json": "299f9eb315dc6ecbb4bdcbd388884595aeed0395a5cdb6d27be20b5e1c5642d0",
+    "anatomy.bin": "3355121fe3725b885c47f7f0412598ac87e82f83d5022e82e99496a98d949547",
+    "anatomy.bin.gz": "20f1090a1b6a64cb17730a624a593f9069e4af8cfc0a3f797886c535210fde28",
+    "ATTRIBUTION.md": "58a2568084cb095f444c31faa324944bc8950a82cfcfc5b66ef98adce9e5cea9",
+    "UPSTREAM-LICENSE.txt": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+  }
+}

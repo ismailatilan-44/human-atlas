@@ -1,0 +1,1428 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "method": "Each copied source spline converted in isolation with original curve settings; temporary objects discarded; no source save or inferred anatomical spline identity",
+  "objects": [
+    {
+      "sourceObject": "Ulnar nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 1,
+          "vertices": 0,
+          "triangles": 0,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 12,
+          "vertices": 1596,
+          "triangles": 3168,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": [
+        0
+      ]
+    },
+    {
+      "sourceObject": "Ulnar nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 1,
+          "vertices": 0,
+          "triangles": 0,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 12,
+          "vertices": 1596,
+          "triangles": 3168,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": [
+        0
+      ]
+    },
+    {
+      "sourceObject": "Radial nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 9,
+          "vertices": 1164,
+          "triangles": 2304,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Radial nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 9,
+          "vertices": 1164,
+          "triangles": 2304,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Axillary nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Axillary nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Medial brachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Medial brachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Superior lateral brachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Superior lateral brachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Medial antebrachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Medial antebrachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Lateral antebrachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Lateral antebrachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Posterior antebrachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 10,
+          "vertices": 1308,
+          "triangles": 2592,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Posterior antebrachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 10,
+          "vertices": 1308,
+          "triangles": 2592,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 6,
+          "vertices": 732,
+          "triangles": 1440,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 6,
+          "vertices": 732,
+          "triangles": 1440,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 9,
+          "vertices": 1164,
+          "triangles": 2304,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 9,
+          "vertices": 1164,
+          "triangles": 2304,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Lateral pectoral nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 10,
+          "vertices": 1308,
+          "triangles": 2592,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 4,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 5,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Lateral pectoral nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 10,
+          "vertices": 1308,
+          "triangles": 2592,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 4,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 5,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Medial pectoral nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Medial pectoral nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Dorsal scapular nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 10,
+          "vertices": 1308,
+          "triangles": 2592,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Dorsal scapular nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 10,
+          "vertices": 1308,
+          "triangles": 2592,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Long thoracic nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 14,
+          "vertices": 1884,
+          "triangles": 3744,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Long thoracic nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 14,
+          "vertices": 1884,
+          "triangles": 3744,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Thoracodorsal nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 9,
+          "vertices": 1164,
+          "triangles": 2304,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 6,
+          "vertices": 732,
+          "triangles": 1440,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 3,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Thoracodorsal nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 9,
+          "vertices": 1164,
+          "triangles": 2304,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 6,
+          "vertices": 732,
+          "triangles": 1440,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 3,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Suprascapular nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 4,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 5,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Suprascapular nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 4,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 5,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Superior subscapular nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Superior subscapular nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Inferior subscapular nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Inferior subscapular nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of axillary nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of axillary nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 5,
+          "vertices": 588,
+          "triangles": 1152,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of median nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 4,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of median nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 4,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of radial nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 4,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 5,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of radial nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 4,
+          "vertices": 444,
+          "triangles": 864,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 4,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 5,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of ulnar nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Muscular branches of ulnar nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 2,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Anterior interosseous nerve of forearm.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 6,
+          "vertices": 732,
+          "triangles": 1440,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Anterior interosseous nerve of forearm.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 6,
+          "vertices": 732,
+          "triangles": 1440,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Posterior interosseous nerve of forearm.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Posterior interosseous nerve of forearm.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 7,
+          "vertices": 876,
+          "triangles": 1728,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Deep branch of radial nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Deep branch of radial nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 8,
+          "vertices": 1020,
+          "triangles": 2016,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 1,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Superficial branch of radial nerve.l",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 11,
+          "vertices": 1452,
+          "triangles": 2880,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 4,
+      "geometryFreeSplines": []
+    },
+    {
+      "sourceObject": "Superficial branch of radial nerve.r",
+      "splines": [
+        {
+          "index": 0,
+          "type": "BEZIER",
+          "controlPoints": 11,
+          "vertices": 1452,
+          "triangles": 2880,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 1,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 2,
+          "type": "BEZIER",
+          "controlPoints": 3,
+          "vertices": 300,
+          "triangles": 576,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        },
+        {
+          "index": 3,
+          "type": "BEZIER",
+          "controlPoints": 2,
+          "vertices": 156,
+          "triangles": 288,
+          "cyclic": false,
+          "fillCaps": false,
+          "anatomicalSubidentity": null
+        }
+      ],
+      "generatedTubeSplines": 4,
+      "geometryFreeSplines": []
+    }
+  ]
+}

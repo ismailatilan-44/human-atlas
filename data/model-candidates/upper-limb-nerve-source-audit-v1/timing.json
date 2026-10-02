@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-10-02T12:18:27.149995+00:00",
+  "scope": "Elapsed from discovery setup; initial instruction/state reads excluded",
+  "finishedAt": "2026-10-02T12:38:38.434582+00:00",
+  "elapsedSeconds": 1211.284587,
+  "finalExportSeconds": 4.8661148749961285,
+  "rework": "Missing helper hashlib import; corrected camera display-Y-up; canonical subscapular IDs reconciled; nondeterministic source custom-property repr replaced with stable values, two final numerical reruns passed",
+  "waiting": "Pre-task scheduling and initial instruction reading excluded/unknown"
+}

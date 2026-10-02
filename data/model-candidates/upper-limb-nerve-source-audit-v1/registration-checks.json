@@ -1,0 +1,1500 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceRegistrationManifestSha256": "30429144b67b169ea459f0e44617a9d0a0c5e2c55148b12d9eb02ff994eb5f07",
+  "mainManifestSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+  "matrixColumnVector": [
+    [
+      0.9671866243240652,
+      0.00023528145636534935,
+      0.00012901103675774293,
+      -0.00016226786293687626
+    ],
+    [
+      -0.00012912181418719748,
+      0.00045542301809920784,
+      0.9671865457035801,
+      0.055526909678332625
+    ],
+    [
+      0.00023522068024667758,
+      -0.9671865257048943,
+      0.0004554544112290538,
+      0.0018153935748660074
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "newFit": false,
+  "method": "Bidirectional all-vertex to opposite triangle surface distances, vertex-weighted; geometry correspondence by exact bone identity. Source viewport evaluated; old similarity matrix only. Not clinical error bounds or nerve-path validation.",
+  "measurements": [
+    {
+      "sourceObject": "Clavicle.l",
+      "targetPartId": "FJ3237",
+      "targetConceptId": "FMA13323",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.76064835804745,
+      "meanMm": 3.6320277063565847,
+      "p95Mm": 10.1626580581069,
+      "maxMm": 12.855032458901405
+    },
+    {
+      "sourceObject": "Clavicle.r",
+      "targetPartId": "FJ3362",
+      "targetConceptId": "FMA13322",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.66386139516367,
+      "meanMm": 3.4981339434947634,
+      "p95Mm": 10.446348227560515,
+      "maxMm": 12.929840013384819
+    },
+    {
+      "sourceObject": "Scapula.l",
+      "targetPartId": "FJ3279",
+      "targetConceptId": "FMA13396",
+      "role": "original-fit-reference",
+      "rmsMm": 1.8445470366869667,
+      "meanMm": 1.3352874545793962,
+      "p95Mm": 4.248919757083054,
+      "maxMm": 7.607561536133289
+    },
+    {
+      "sourceObject": "Scapula.r",
+      "targetPartId": "FJ3384",
+      "targetConceptId": "FMA13395",
+      "role": "original-fit-reference",
+      "rmsMm": 1.8462417860132962,
+      "meanMm": 1.3313196044816669,
+      "p95Mm": 4.306412651203573,
+      "maxMm": 7.663448341190815
+    },
+    {
+      "sourceObject": "Humerus.l",
+      "targetPartId": "FJ3262",
+      "targetConceptId": "FMA23131",
+      "role": "original-fit-reference",
+      "rmsMm": 0.6358254797489186,
+      "meanMm": 0.5298282632206329,
+      "p95Mm": 1.15943884011358,
+      "maxMm": 1.7846665577962995
+    },
+    {
+      "sourceObject": "Humerus.r",
+      "targetPartId": "FJ3368",
+      "targetConceptId": "FMA23130",
+      "role": "original-fit-reference",
+      "rmsMm": 0.6151462515026326,
+      "meanMm": 0.5174706901631286,
+      "p95Mm": 1.083114673383534,
+      "maxMm": 1.7051850445568562
+    },
+    {
+      "sourceObject": "Radius.l",
+      "targetPartId": "FJ3277",
+      "targetConceptId": "FMA23465",
+      "role": "original-fit-reference",
+      "rmsMm": 0.6441079743729888,
+      "meanMm": 0.5414723273698763,
+      "p95Mm": 1.2070524273440244,
+      "maxMm": 1.8929149955511093
+    },
+    {
+      "sourceObject": "Radius.r",
+      "targetPartId": "FJ3349",
+      "targetConceptId": "FMA23464",
+      "role": "original-fit-reference",
+      "rmsMm": 0.6084766457188691,
+      "meanMm": 0.46976950269090934,
+      "p95Mm": 1.0256506619043646,
+      "maxMm": 4.036545753479004
+    },
+    {
+      "sourceObject": "Ulna.l",
+      "targetPartId": "FJ3286",
+      "targetConceptId": "FMA23468",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.4996932932397725,
+      "meanMm": 0.39690131201952095,
+      "p95Mm": 1.02832147385925,
+      "maxMm": 1.6734662931412458
+    },
+    {
+      "sourceObject": "Ulna.r",
+      "targetPartId": "FJ3391",
+      "targetConceptId": "FMA23467",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.42555234013245674,
+      "meanMm": 0.34952575701681243,
+      "p95Mm": 0.763607630506158,
+      "maxMm": 1.596567570231855
+    },
+    {
+      "sourceObject": "First rib.l",
+      "targetPartId": "FJ3228",
+      "targetConceptId": "FMA7987",
+      "role": "independent-regional-holdout",
+      "rmsMm": 8.432730739548933,
+      "meanMm": 8.043546479833273,
+      "p95Mm": 11.397076211869717,
+      "maxMm": 12.034031562507153
+    },
+    {
+      "sourceObject": "First rib.r",
+      "targetPartId": "FJ3334",
+      "targetConceptId": "FMA7857",
+      "role": "independent-regional-holdout",
+      "rmsMm": 8.313095620818682,
+      "meanMm": 7.905506472349051,
+      "p95Mm": 11.277846526354551,
+      "maxMm": 12.1145723387599
+    },
+    {
+      "sourceObject": "Second rib.l",
+      "targetPartId": "FJ3229",
+      "targetConceptId": "FMA8012",
+      "role": "independent-regional-holdout",
+      "rmsMm": 5.8390281693749575,
+      "meanMm": 5.040658830288729,
+      "p95Mm": 9.431101428344844,
+      "maxMm": 11.428093537688255
+    },
+    {
+      "sourceObject": "Second rib.r",
+      "targetPartId": "FJ3336",
+      "targetConceptId": "FMA7882",
+      "role": "independent-regional-holdout",
+      "rmsMm": 5.773941253547907,
+      "meanMm": 4.946716086702331,
+      "p95Mm": 9.317853860557078,
+      "maxMm": 11.2910782918334
+    },
+    {
+      "sourceObject": "Third rib.l",
+      "targetPartId": "FJ3230",
+      "targetConceptId": "FMA8039",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.315062911263298,
+      "meanMm": 5.06168795331091,
+      "p95Mm": 12.096349662169814,
+      "maxMm": 13.48357368260622
+    },
+    {
+      "sourceObject": "Third rib.r",
+      "targetPartId": "FJ3338",
+      "targetConceptId": "FMA7909",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.130205299610761,
+      "meanMm": 4.889889941139588,
+      "p95Mm": 11.700698686763642,
+      "maxMm": 13.25425785034895
+    },
+    {
+      "sourceObject": "Fourth rib.l",
+      "targetPartId": "FJ3231",
+      "targetConceptId": "FMA8148",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.876954478057988,
+      "meanMm": 5.988837334693904,
+      "p95Mm": 11.753883678466082,
+      "maxMm": 13.03933933377266
+    },
+    {
+      "sourceObject": "Fourth rib.r",
+      "targetPartId": "FJ3340",
+      "targetConceptId": "FMA7957",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.440940678898634,
+      "meanMm": 5.488826641503055,
+      "p95Mm": 11.3823764026165,
+      "maxMm": 12.760702520608902
+    },
+    {
+      "sourceObject": "Fifth rib.l",
+      "targetPartId": "FJ3232",
+      "targetConceptId": "FMA8093",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.3178831486639755,
+      "meanMm": 5.122230497693769,
+      "p95Mm": 11.120510473847391,
+      "maxMm": 11.788355186581612
+    },
+    {
+      "sourceObject": "Fifth rib.r",
+      "targetPartId": "FJ3342",
+      "targetConceptId": "FMA8066",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.102998528066311,
+      "meanMm": 4.900494740666131,
+      "p95Mm": 10.925721470266579,
+      "maxMm": 11.51418685913086
+    },
+    {
+      "sourceObject": "Sixth rib.l",
+      "targetPartId": "FJ3233",
+      "targetConceptId": "FMA8202",
+      "role": "independent-regional-holdout",
+      "rmsMm": 7.413897353153154,
+      "meanMm": 6.092340549949342,
+      "p95Mm": 12.650238536298275,
+      "maxMm": 13.104112818837166
+    },
+    {
+      "sourceObject": "Sixth rib.r",
+      "targetPartId": "FJ3344",
+      "targetConceptId": "FMA8175",
+      "role": "independent-regional-holdout",
+      "rmsMm": 7.301033733089139,
+      "meanMm": 5.8924476451037595,
+      "p95Mm": 12.622390501201153,
+      "maxMm": 12.978170067071915
+    },
+    {
+      "sourceObject": "Seventh rib.l",
+      "targetPartId": "FJ3234",
+      "targetConceptId": "FMA8256",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.9268985388070465,
+      "meanMm": 5.680692619374268,
+      "p95Mm": 12.24542618729174,
+      "maxMm": 12.963204644620419
+    },
+    {
+      "sourceObject": "Seventh rib.r",
+      "targetPartId": "FJ3346",
+      "targetConceptId": "FMA8229",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.649070284493669,
+      "meanMm": 5.3944788941637905,
+      "p95Mm": 12.04985580407083,
+      "maxMm": 12.849872000515461
+    },
+    {
+      "sourceObject": "Eighth rib.l",
+      "targetPartId": "FJ3235",
+      "targetConceptId": "FMA8310",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.484571542609216,
+      "meanMm": 5.074881799223978,
+      "p95Mm": 12.207312323153019,
+      "maxMm": 12.949272990226746
+    },
+    {
+      "sourceObject": "Eighth rib.r",
+      "targetPartId": "FJ3347",
+      "targetConceptId": "FMA8283",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.297447055558903,
+      "meanMm": 4.945442337368494,
+      "p95Mm": 11.93649582564831,
+      "maxMm": 12.902675196528435
+    },
+    {
+      "sourceObject": "Vertebra C3",
+      "targetPartId": "FJ3161",
+      "targetConceptId": "FMA12521",
+      "role": "independent-regional-holdout",
+      "rmsMm": 7.892795239956205,
+      "meanMm": 6.4085902717741305,
+      "p95Mm": 14.226369513198732,
+      "maxMm": 16.171617433428764
+    },
+    {
+      "sourceObject": "Vertebra C4",
+      "targetPartId": "FJ3164",
+      "targetConceptId": "FMA12522",
+      "role": "independent-regional-holdout",
+      "rmsMm": 6.5996392260497645,
+      "meanMm": 5.161323959406073,
+      "p95Mm": 12.622295645996928,
+      "maxMm": 14.039055444300175
+    },
+    {
+      "sourceObject": "Vertebra C5",
+      "targetPartId": "FJ3167",
+      "targetConceptId": "FMA12523",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.800218293522794,
+      "meanMm": 3.698474646306238,
+      "p95Mm": 9.64349559508264,
+      "maxMm": 11.823903769254684
+    },
+    {
+      "sourceObject": "Vertebra C6",
+      "targetPartId": "FJ3170",
+      "targetConceptId": "FMA12524",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.499047173938789,
+      "meanMm": 3.7398094827107164,
+      "p95Mm": 8.01112800836563,
+      "maxMm": 9.498092345893383
+    },
+    {
+      "sourceObject": "Vertebra C7",
+      "targetPartId": "FJ3172",
+      "targetConceptId": "FMA12525",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.358563979965068,
+      "meanMm": 3.6884713650069654,
+      "p95Mm": 7.6445088488981074,
+      "maxMm": 9.71862394362688
+    },
+    {
+      "sourceObject": "Vertebra T1",
+      "targetPartId": "FJ3158",
+      "targetConceptId": "FMA9165",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.309052600374515,
+      "meanMm": 3.578731744531761,
+      "p95Mm": 7.560737687163055,
+      "maxMm": 8.228059858083725
+    },
+    {
+      "sourceObject": "Vertebra T2",
+      "targetPartId": "FJ3160",
+      "targetConceptId": "FMA9187",
+      "role": "independent-regional-holdout",
+      "rmsMm": 4.459329176841179,
+      "meanMm": 3.5707209961509636,
+      "p95Mm": 8.172840112820268,
+      "maxMm": 8.762016892433167
+    },
+    {
+      "sourceObject": "Scaphoid bone.l",
+      "targetPartId": "FJ3278",
+      "targetConceptId": "FMA24436",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.5402594178571125,
+      "meanMm": 0.460578393269715,
+      "p95Mm": 0.9864634601399301,
+      "maxMm": 1.2619595509022474
+    },
+    {
+      "sourceObject": "Scaphoid bone.r",
+      "targetPartId": "FJ3383",
+      "targetConceptId": "FMA24435",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.3890019516602185,
+      "meanMm": 0.3361001211399059,
+      "p95Mm": 0.6546724151121452,
+      "maxMm": 0.8894297061488032
+    },
+    {
+      "sourceObject": "Lunate bone.l",
+      "targetPartId": "FJ3268",
+      "targetConceptId": "FMA24438",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.5183285362408371,
+      "meanMm": 0.44893787086756326,
+      "p95Mm": 0.8581076865084469,
+      "maxMm": 1.2291050516068935
+    },
+    {
+      "sourceObject": "Lunate bone.r",
+      "targetPartId": "FJ3374",
+      "targetConceptId": "FMA24437",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.37429079989373176,
+      "meanMm": 0.3304196084203201,
+      "p95Mm": 0.5784087348729372,
+      "maxMm": 0.722785945981741
+    },
+    {
+      "sourceObject": "Triquetrum bone.l",
+      "targetPartId": "FJ3285",
+      "targetConceptId": "FMA24440",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.40995420851094416,
+      "meanMm": 0.33684744336479344,
+      "p95Mm": 0.7842029677703976,
+      "maxMm": 1.1485960567370057
+    },
+    {
+      "sourceObject": "Triquetrum bone.r",
+      "targetPartId": "FJ3390",
+      "targetConceptId": "FMA24439",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.3042037232619161,
+      "meanMm": 0.2544415108852062,
+      "p95Mm": 0.543174974154681,
+      "maxMm": 0.8853979525156319
+    },
+    {
+      "sourceObject": "Pisiform bone.l",
+      "targetPartId": "FJ3276",
+      "targetConceptId": "FMA24442",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.506038862580459,
+      "meanMm": 0.4500018773222266,
+      "p95Mm": 0.7665209064725786,
+      "maxMm": 1.2702582171186805
+    },
+    {
+      "sourceObject": "Pisiform bone.r",
+      "targetPartId": "FJ3382",
+      "targetConceptId": "FMA24441",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.37371155555735436,
+      "meanMm": 0.32918518327824037,
+      "p95Mm": 0.5651450046570972,
+      "maxMm": 1.1009477311745286
+    },
+    {
+      "sourceObject": "Trapezium bone.l",
+      "targetPartId": "FJ3283",
+      "targetConceptId": "FMA24444",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.4561648661345311,
+      "meanMm": 0.38003697254618085,
+      "p95Mm": 0.8301726047648114,
+      "maxMm": 1.0705265449360013
+    },
+    {
+      "sourceObject": "Trapezium bone.r",
+      "targetPartId": "FJ3388",
+      "targetConceptId": "FMA24443",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.34482439942841414,
+      "meanMm": 0.292944687371884,
+      "p95Mm": 0.5894195870496332,
+      "maxMm": 0.7105274708010256
+    },
+    {
+      "sourceObject": "Trapezoid bone.l",
+      "targetPartId": "FJ3284",
+      "targetConceptId": "FMA24445",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.4139748874091391,
+      "meanMm": 0.3331619685925922,
+      "p95Mm": 0.7902747456682846,
+      "maxMm": 1.145796268247068
+    },
+    {
+      "sourceObject": "Trapezoid bone.r",
+      "targetPartId": "FJ3389",
+      "targetConceptId": "FMA23725",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.30122759557803697,
+      "meanMm": 0.24459779391582076,
+      "p95Mm": 0.5503075663000345,
+      "maxMm": 0.73537218850106
+    },
+    {
+      "sourceObject": "Capitate bone.l",
+      "targetPartId": "FJ3257",
+      "targetConceptId": "FMA24447",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.6773427184222294,
+      "meanMm": 0.570389149944416,
+      "p95Mm": 1.20710531482473,
+      "maxMm": 2.247064607217908
+    },
+    {
+      "sourceObject": "Capitate bone.r",
+      "targetPartId": "FJ3361",
+      "targetConceptId": "FMA24446",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.422124025667421,
+      "meanMm": 0.377066084175279,
+      "p95Mm": 0.6542122573591769,
+      "maxMm": 0.8498899987898767
+    },
+    {
+      "sourceObject": "Hamate bone.l",
+      "targetPartId": "FJ3261",
+      "targetConceptId": "FMA24449",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.44045672175135747,
+      "meanMm": 0.3811430704189538,
+      "p95Mm": 0.7468420662917197,
+      "maxMm": 0.9784166468307376
+    },
+    {
+      "sourceObject": "Hamate bone.r",
+      "targetPartId": "FJ3367",
+      "targetConceptId": "FMA24448",
+      "role": "independent-regional-holdout",
+      "rmsMm": 0.3260546235318353,
+      "meanMm": 0.27959082391948137,
+      "p95Mm": 0.5601238808594644,
+      "maxMm": 0.73588005034253
+    }
+  ],
+  "newCurvePreviewExtents": [
+    {
+      "sourceObject": "Ulnar nerve.l",
+      "registeredBounds": [
+        [
+          0.09693879496163722,
+          0.9094756432231447,
+          -0.04090705737694482
+        ],
+        [
+          0.2294909724505934,
+          1.409431822120182,
+          0.0210285467571147
+        ]
+      ],
+      "vertices": 1596,
+      "triangles": 3168,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Ulnar nerve.r",
+      "registeredBounds": [
+        [
+          -0.22959657783601992,
+          0.9095367210517623,
+          -0.04099365577675357
+        ],
+        [
+          -0.09689788052146937,
+          1.409458023772147,
+          0.020917260301038586
+        ]
+      ],
+      "vertices": 1596,
+      "triangles": 3168,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Radial nerve.l",
+      "registeredBounds": [
+        [
+          0.11692575580653505,
+          1.1112664822703568,
+          -0.04379422338710809
+        ],
+        [
+          0.23621561878530903,
+          1.3899597210488923,
+          -0.013113257672004242
+        ]
+      ],
+      "vertices": 1164,
+      "triangles": 2304,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Radial nerve.r",
+      "registeredBounds": [
+        [
+          -0.23623700220379287,
+          1.111326947909253,
+          -0.04389237891984153
+        ],
+        [
+          -0.11688250393031327,
+          1.3899913284964172,
+          -0.013223108292226256
+        ]
+      ],
+      "vertices": 1164,
+      "triangles": 2304,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Axillary nerve.l",
+      "registeredBounds": [
+        [
+          0.10629872759765392,
+          1.3614958425592218,
+          -0.03393298942524126
+        ],
+        [
+          0.15824234267001094,
+          1.4097944497763,
+          -0.009727484509371633
+        ]
+      ],
+      "vertices": 588,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Axillary nerve.r",
+      "registeredBounds": [
+        [
+          -0.158201025863297,
+          1.3615378490231465,
+          -0.03400969953515658
+        ],
+        [
+          -0.10625589846467187,
+          1.409823040562449,
+          -0.00978069139873104
+        ]
+      ],
+      "vertices": 588,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Medial brachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.09693880219933351,
+          1.2128279180362072,
+          -0.04967864038925606
+        ],
+        [
+          0.16604959544800896,
+          1.409431937448652,
+          -0.0010106245427544155
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Medial brachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.16604032449463219,
+          1.2128720454475006,
+          -0.04975915980143879
+        ],
+        [
+          -0.0968978877106581,
+          1.4094581390741232,
+          -0.0010811106774125398
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Superior lateral brachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.1579227389427673,
+          1.3210480291649074,
+          -0.08527561653039145
+        ],
+        [
+          0.2222998551324488,
+          1.3752644335135598,
+          -0.032616125886371146
+        ]
+      ],
+      "vertices": 1020,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Superior lateral brachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.2222530452574269,
+          1.3210963348067315,
+          -0.08536612437069649
+        ],
+        [
+          -0.1578815060011103,
+          1.3753236550540149,
+          -0.03269316212821762
+        ]
+      ],
+      "vertices": 1020,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.20416029071489533,
+          1.194671438071359,
+          -0.04299339171550175
+        ],
+        [
+          0.23321844935102265,
+          1.240665963828244,
+          -0.021695568996801903
+        ]
+      ],
+      "vertices": 300,
+      "triangles": 576,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.23322722274178342,
+          1.1947336375227064,
+          -0.043092860293258727
+        ],
+        [
+          -0.2041470124615992,
+          1.2407206542187912,
+          -0.021808896510328555
+        ]
+      ],
+      "vertices": 300,
+      "triangles": 576,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Medial antebrachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.12469408306803342,
+          1.181299933391635,
+          -0.017202125563081993
+        ],
+        [
+          0.18348231632165773,
+          1.378198030535921,
+          -0.0006909959984315421
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Medial antebrachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.18349833837969884,
+          1.181348688964192,
+          -0.017289128048146637
+        ],
+        [
+          -0.12466243685971093,
+          1.3782315177368647,
+          -0.0007621132732620558
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Lateral antebrachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.2154030691177014,
+          0.9550674085057757,
+          -0.01439640270731429
+        ],
+        [
+          0.2664007245116075,
+          1.1117624388116305,
+          0.01097433437296991
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Lateral antebrachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.266486504192405,
+          0.955138512174647,
+          -0.014501394661509483
+        ],
+        [
+          -0.21543808942314072,
+          1.1118201553641076,
+          0.010853099666412501
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Posterior antebrachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.2312333577788597,
+          0.9118707153261364,
+          -0.05233989221419944
+        ],
+        [
+          0.24656244886843218,
+          1.1351630455275121,
+          -0.004584770441566966
+        ]
+      ],
+      "vertices": 1308,
+      "triangles": 2592,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Posterior antebrachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.2465889792112096,
+          0.9119364728727188,
+          -0.052457322193318334
+        ],
+        [
+          -0.23126218867861342,
+          1.135224868002872,
+          -0.004704462812031463
+        ]
+      ],
+      "vertices": 1308,
+      "triangles": 2592,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.18252863117133653,
+          0.9543618196548617,
+          -0.014887467335819624
+        ],
+        [
+          0.22775317347929153,
+          1.1814788773253702,
+          0.02221160074515154
+        ]
+      ],
+      "vertices": 732,
+      "triangles": 1440,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.22784757470348924,
+          0.9544225969583506,
+          -0.0149764517513803
+        ],
+        [
+          -0.18254468365600754,
+          1.1815278483046965,
+          0.022100967378608134
+        ]
+      ],
+      "vertices": 732,
+      "triangles": 1440,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.l",
+      "registeredBounds": [
+        [
+          0.17607073540577228,
+          0.9620610822150679,
+          -0.03453001221573375
+        ],
+        [
+          0.2190984660375195,
+          1.1814564435187067,
+          -0.009792735979200532
+        ]
+      ],
+      "vertices": 1164,
+      "triangles": 2304,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.r",
+      "registeredBounds": [
+        [
+          -0.21917523895795324,
+          0.9621195571302404,
+          -0.03461834112997474
+        ],
+        [
+          -0.17609636445645144,
+          1.1815052366036827,
+          -0.009899158715484897
+        ]
+      ],
+      "vertices": 1164,
+      "triangles": 2304,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Lateral pectoral nerve.l",
+      "registeredBounds": [
+        [
+          0.034275671417061504,
+          1.2419875628403396,
+          -0.012338131574414367
+        ],
+        [
+          0.1346578496795307,
+          1.4098211898770963,
+          0.12286631360522299
+        ]
+      ],
+      "vertices": 3660,
+      "triangles": 7200,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Lateral pectoral nerve.r",
+      "registeredBounds": [
+        [
+          -0.13464067810359548,
+          1.2420177036854374,
+          -0.012390290244687331
+        ],
+        [
+          -0.034319587257563976,
+          1.40984972067811,
+          0.12283178371430636
+        ]
+      ],
+      "vertices": 3660,
+      "triangles": 7200,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Medial pectoral nerve.l",
+      "registeredBounds": [
+        [
+          0.056940801634736374,
+          1.35035089965405,
+          -0.009583700776590397
+        ],
+        [
+          0.10099787369735103,
+          1.440502388771067,
+          0.050028827909411974
+        ]
+      ],
+      "vertices": 1032,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Medial pectoral nerve.r",
+      "registeredBounds": [
+        [
+          -0.10099446616075662,
+          1.350377451531249,
+          -0.009614493248103036
+        ],
+        [
+          -0.05693448832156477,
+          1.4405193869730422,
+          0.049980491071013725
+        ]
+      ],
+      "vertices": 1032,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Dorsal scapular nerve.l",
+      "registeredBounds": [
+        [
+          0.024632568109350366,
+          1.3169727648414367,
+          -0.10230750551687887
+        ],
+        [
+          0.05671079988215684,
+          1.4899514175497455,
+          -0.008007892638485493
+        ]
+      ],
+      "vertices": 1308,
+      "triangles": 2592,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Dorsal scapular nerve.r",
+      "registeredBounds": [
+        [
+          -0.056635591017574295,
+          1.3169874906018209,
+          -0.10233434238951483
+        ],
+        [
+          -0.02456916794199648,
+          1.4899581641212432,
+          -0.008020136313247756
+        ]
+      ],
+      "vertices": 1308,
+      "triangles": 2592,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Long thoracic nerve.l",
+      "registeredBounds": [
+        [
+          0.022257376685799947,
+          1.2113439956067238,
+          -0.050422395848128874
+        ],
+        [
+          0.13896027580011922,
+          1.4894589800593183,
+          0.0077652228223528495
+        ]
+      ],
+      "vertices": 2040,
+      "triangles": 4032,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Long thoracic nerve.r",
+      "registeredBounds": [
+        [
+          -0.13893748074474097,
+          1.2113769426348258,
+          -0.05048228843769595
+        ],
+        [
+          -0.02219442847389601,
+          1.4894660315520445,
+          0.007723180908062041
+        ]
+      ],
+      "vertices": 2040,
+      "triangles": 4032,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Thoracodorsal nerve.l",
+      "registeredBounds": [
+        [
+          0.08574685885534547,
+          1.2340495758769157,
+          -0.09836472186542522
+        ],
+        [
+          0.14494713278180216,
+          1.3897413770312523,
+          -0.021883569216634757
+        ]
+      ],
+      "vertices": 2340,
+      "triangles": 4608,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Thoracodorsal nerve.r",
+      "registeredBounds": [
+        [
+          -0.14491260878399947,
+          1.2340751637359963,
+          -0.09840654095826584
+        ],
+        [
+          -0.08570364315052692,
+          1.3897727681781233,
+          -0.02194082555970616
+        ]
+      ],
+      "vertices": 2340,
+      "triangles": 4608,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Suprascapular nerve.l",
+      "registeredBounds": [
+        [
+          0.05207264900635262,
+          1.3285787117422532,
+          -0.08602056182430842
+        ],
+        [
+          0.13860062240429713,
+          1.4614415319266971,
+          -0.009608953485258157
+        ]
+      ],
+      "vertices": 2508,
+      "triangles": 4896,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Suprascapular nerve.r",
+      "registeredBounds": [
+        [
+          -0.1385410987473854,
+          1.3286065590375065,
+          -0.0860712395219922
+        ],
+        [
+          -0.0520161060187973,
+          1.4614556243849266,
+          -0.0096345075487481
+        ]
+      ],
+      "vertices": 2508,
+      "triangles": 4896,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Superior subscapular nerve.l",
+      "registeredBounds": [
+        [
+          0.07719972733566989,
+          1.3632921058092706,
+          -0.08294463864648996
+        ],
+        [
+          0.10829177225387732,
+          1.3998033592864503,
+          -0.022227104360772392
+        ]
+      ],
+      "vertices": 588,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Superior subscapular nerve.r",
+      "registeredBounds": [
+        [
+          -0.1082455510322434,
+          1.3633128132968035,
+          -0.08298241080259547
+        ],
+        [
+          -0.07713399112491563,
+          1.3998320461198326,
+          -0.022279419860969613
+        ]
+      ],
+      "vertices": 588,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Inferior subscapular nerve.l",
+      "registeredBounds": [
+        [
+          0.0910852273338387,
+          1.3024143406230395,
+          -0.08556162403033321
+        ],
+        [
+          0.11436139273225628,
+          1.3939866607849078,
+          -0.022019310238005445
+        ]
+      ],
+      "vertices": 1032,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Inferior subscapular nerve.r",
+      "registeredBounds": [
+        [
+          -0.11431679264701072,
+          1.3024433972855316,
+          -0.08560615113877051
+        ],
+        [
+          -0.09103109094439428,
+          1.3940169666908333,
+          -0.02207458508757057
+        ]
+      ],
+      "vertices": 1032,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of axillary nerve.l",
+      "registeredBounds": [
+        [
+          0.15785838370580327,
+          1.359636110611511,
+          -0.03623042027283814
+        ],
+        [
+          0.19022596003938108,
+          1.3804349944738867,
+          -0.015393331804668571
+        ]
+      ],
+      "vertices": 588,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of axillary nerve.r",
+      "registeredBounds": [
+        [
+          -0.19018709918190246,
+          1.3596812159145495,
+          -0.03631591622542004
+        ],
+        [
+          -0.15781678554089898,
+          1.3804855067483588,
+          -0.015485360868691931
+        ]
+      ],
+      "vertices": 588,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of median nerve.l",
+      "registeredBounds": [
+        [
+          0.20471664556170863,
+          1.0313914520054837,
+          -0.011903139451253738
+        ],
+        [
+          0.22432386095359624,
+          1.0864736621761584,
+          0.010200406035615181
+        ]
+      ],
+      "vertices": 624,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of median nerve.r",
+      "registeredBounds": [
+        [
+          -0.22437228859729716,
+          1.0314461502472416,
+          -0.012008661478150674
+        ],
+        [
+          -0.20478459338501992,
+          1.0865318158664026,
+          0.01010067909213426
+        ]
+      ],
+      "vertices": 624,
+      "triangles": 1152,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of radial nerve.l",
+      "registeredBounds": [
+        [
+          0.1957379168822653,
+          1.1123159538728329,
+          -0.05517303222795893
+        ],
+        [
+          0.25567251357263643,
+          1.177224242292269,
+          -0.016495284812472383
+        ]
+      ],
+      "vertices": 1356,
+      "triangles": 2592,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of radial nerve.r",
+      "registeredBounds": [
+        [
+          -0.2557022238229523,
+          1.1123827169810618,
+          -0.05527701702199896
+        ],
+        [
+          -0.19573950649512023,
+          1.177281362512713,
+          -0.016609672067864154
+        ]
+      ],
+      "vertices": 1356,
+      "triangles": 2592,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of ulnar nerve.l",
+      "registeredBounds": [
+        [
+          0.18275008542752644,
+          1.0184001853845657,
+          -0.031677655061937704
+        ],
+        [
+          0.2131337274283028,
+          1.070529958544602,
+          -0.007018470527069944
+        ]
+      ],
+      "vertices": 312,
+      "triangles": 576,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Muscular branches of ulnar nerve.r",
+      "registeredBounds": [
+        [
+          -0.2131961807248463,
+          1.01845130589464,
+          -0.031766949162920013
+        ],
+        [
+          -0.18278782119780165,
+          1.0705794358069296,
+          -0.007122065632855305
+        ]
+      ],
+      "vertices": 312,
+      "triangles": 576,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Anterior interosseous nerve of forearm.l",
+      "registeredBounds": [
+        [
+          0.207224705297423,
+          0.910546956306657,
+          -0.018811876520104225
+        ],
+        [
+          0.2448195498365808,
+          1.1133369965247426,
+          0.015125613642212663
+        ]
+      ],
+      "vertices": 732,
+      "triangles": 1440,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Anterior interosseous nerve of forearm.r",
+      "registeredBounds": [
+        [
+          -0.24492218137803015,
+          0.9106123065583346,
+          -0.01892336570313287
+        ],
+        [
+          -0.20726099434249262,
+          1.1133925663890527,
+          0.015006432735299882
+        ]
+      ],
+      "vertices": 732,
+      "triangles": 1440,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Posterior interosseous nerve of forearm.l",
+      "registeredBounds": [
+        [
+          0.2305064313551466,
+          0.9219131923274079,
+          -0.02770575289308783
+        ],
+        [
+          0.24431794072742674,
+          1.0837352625151055,
+          0.009101928396001512
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Posterior interosseous nerve of forearm.r",
+      "registeredBounds": [
+        [
+          -0.24441459038768618,
+          0.9219784087347787,
+          -0.027822189215376464
+        ],
+        [
+          -0.2305566285263552,
+          1.0837991050077656,
+          0.008983213907858065
+        ]
+      ],
+      "vertices": 876,
+      "triangles": 1728,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Deep branch of radial nerve.l",
+      "registeredBounds": [
+        [
+          0.22561301725404714,
+          0.8732037142706315,
+          -0.029710612773244542
+        ],
+        [
+          0.2573158639183113,
+          1.1116809752537937,
+          0.014409528224478744
+        ]
+      ],
+      "vertices": 1020,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Deep branch of radial nerve.r",
+      "registeredBounds": [
+        [
+          -0.25742810084379664,
+          0.8732724035768478,
+          -0.02982637707028781
+        ],
+        [
+          -0.22564812987573218,
+          1.111741414721558,
+          0.014284505249259906
+        ]
+      ],
+      "vertices": 1020,
+      "triangles": 2016,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Superficial branch of radial nerve.l",
+      "registeredBounds": [
+        [
+          0.22552439837057733,
+          0.8519097653628506,
+          -0.013990627675402295
+        ],
+        [
+          0.2919717612141376,
+          1.1116264529364441,
+          0.04635213665434344
+        ]
+      ],
+      "vertices": 2208,
+      "triangles": 4320,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    },
+    {
+      "sourceObject": "Superficial branch of radial nerve.r",
+      "registeredBounds": [
+        [
+          -0.29210170636387695,
+          0.8519820034264911,
+          -0.014100476269698892
+        ],
+        [
+          -0.22555953630135608,
+          1.1116868212407416,
+          0.04621027134080885
+        ]
+      ],
+      "vertices": 2208,
+      "triangles": 4320,
+      "status": "Existing matrix applied only for preview; no target nerve counterpart or course validation asserted"
+    }
+  ],
+  "seconds": 3.076577416002692
+}

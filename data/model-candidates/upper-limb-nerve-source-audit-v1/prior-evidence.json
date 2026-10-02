@@ -1,0 +1,58 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "upperArmManifestSha256": "30429144b67b169ea459f0e44617a9d0a0c5e2c55148b12d9eb02ff994eb5f07",
+  "brachialPlexusManifestSha256": "3d838137b4c3e9d84bf82be99fcf9fa62ae4f9c2de24587b2bafb02d26f1ff4c",
+  "rootReviewReport": "docs/model/asset-registration-brachial-plexus.md",
+  "rootReviewReportSha256": "5edc88f7b6677bb5764da9917000bb6656ea488e99c29013672e724f2a80ecb5",
+  "coverage": {
+    "status": "partial_source_reference",
+    "bilateralObjects": 20,
+    "perSide": {
+      "rootBundles": 0,
+      "trunks": 3,
+      "divisions": 6,
+      "cords": 1
+    },
+    "unresolved": [
+      "No separate Medial cord or Lateral cord source curve found; neither is inferred from terminal nerve proximal segments.",
+      "Roots objects are excluded: each contains 5 main source branches, an additional superior branch and communicating spline of unverified anatomical identity, plus 3 single-point remnants. No C5-T1 labels are inferred from endpoint topology.",
+      "Terminal and collateral branches outside these 20 named objects are not exported."
+    ],
+    "excludedSourceObjects": [
+      "Roots of brachial plexus.l",
+      "Roots of brachial plexus.r"
+    ],
+    "excludedRootReview": "docs/model/asset-registration-brachial-plexus.md#root-spline-review",
+    "notDuplicated": [
+      "Median nerve.l",
+      "Median nerve.r",
+      "Musculocutaneous nerve.l",
+      "Musculocutaneous nerve.r"
+    ],
+    "sourceConnectivity": "Source endpoints and intersections preserved, not welded or anatomically reconnected",
+    "excludedRootSplineReview": {
+      "mainBranches": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "unverifiedSuperiorBranch": 5,
+      "communicatingSpline": 6,
+      "geometryFreeSinglePointRemnants": [
+        7,
+        8,
+        9
+      ],
+      "superiorMedialSourcePosition": [
+        0.013460719957947731,
+        0.015698183327913284,
+        1.5043705701828003
+      ],
+      "superiorSourceNeighborhood": "C3/C4 surface neighborhood; geometric proximity is not a per-root anatomical identity"
+    }
+  },
+  "reusedWithoutRepeatingRootSegmentation": true,
+  "identityDecision": "No medial/lateral cord CURVE in current inventory; cord collections and marker/font records do not establish independent cord geometry. Roots retain prior unresolved extra superior branch; no per-spline C5\u2013T1 identity inferred."
+}

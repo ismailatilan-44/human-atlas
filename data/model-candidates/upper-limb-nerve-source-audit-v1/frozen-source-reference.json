@@ -1,0 +1,273 @@
+{
+  "version": "Z-Anatomy upper-arm extension 1",
+  "sex": "male",
+  "scope": "Two source-derived musculocutaneous nerve tubes registered to Human Atlas; anatomical expert review pending",
+  "parts": [
+    {
+      "id": "ZA-MCN-L",
+      "conceptId": "atlas:left-musculocutaneous-nerve",
+      "name": "Left musculocutaneous nerve",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 0,
+      "normals": 8784,
+      "indices": 13176,
+      "vertexCount": 732,
+      "indexCount": 4320,
+      "bounds": [
+        [
+          0.1688496321439743,
+          1.111328125,
+          -0.025121206417679787
+        ],
+        [
+          0.21628449857234955,
+          1.3233962059020996,
+          -0.004875879269093275
+        ]
+      ],
+      "sourceObject": "Musculocutaneous nerve.l",
+      "sourceObjectType": "CURVE",
+      "curveSettings": {
+        "bevel_depth": 0.0005000000237487257,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "use_fill_caps": false
+      },
+      "mirroredWindingCorrected": true
+    },
+    {
+      "id": "ZA-MCN-R",
+      "conceptId": "atlas:right-musculocutaneous-nerve",
+      "name": "Right musculocutaneous nerve",
+      "system": "nervous",
+      "chunk": 0,
+      "positions": 30456,
+      "normals": 39240,
+      "indices": 43632,
+      "vertexCount": 732,
+      "indexCount": 4320,
+      "bounds": [
+        [
+          -0.21631939709186554,
+          1.111385703086853,
+          -0.025221416726708412
+        ],
+        [
+          -0.16883204877376556,
+          1.323441743850708,
+          -0.004958338104188442
+        ]
+      ],
+      "sourceObject": "Musculocutaneous nerve.r",
+      "sourceObjectType": "CURVE",
+      "curveSettings": {
+        "bevel_depth": 0.0005000000237487257,
+        "bevel_resolution": 4,
+        "resolution_u": 12,
+        "use_fill_caps": false
+      },
+      "mirroredWindingCorrected": false
+    }
+  ],
+  "chunks": [
+    {
+      "url": "/models/extensions/upper-arm-nerves.bin",
+      "bytes": 60912,
+      "gzip": "/models/extensions/upper-arm-nerves.bin.gz",
+      "gzipBytes": 34652,
+      "sha256": "626c2958827eeb9bf1e778c39b5d8c4357fd19ff37decc5d4a1702cd08fcb909"
+    }
+  ],
+  "triangles": 2880,
+  "concepts": [
+    {
+      "id": "atlas:left-musculocutaneous-nerve",
+      "name": "Left musculocutaneous nerve",
+      "elements": [
+        "ZA-MCN-L"
+      ]
+    },
+    {
+      "id": "atlas:right-musculocutaneous-nerve",
+      "name": "Right musculocutaneous nerve",
+      "elements": [
+        "ZA-MCN-R"
+      ]
+    }
+  ],
+  "source": {
+    "id": "zanatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "archiveUrl": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/master/Z-Anatomy.zip",
+    "member": "Z-Anatomy/Startup.blend",
+    "sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+    "blenderVersion": "5.2.0 LTS",
+    "license": "CC-BY-SA-4.0 (upstream general declaration; preserve upstream exceptions)",
+    "attribution": "/models/extensions/ATTRIBUTION.md",
+    "limitations": "Object-specific author/source provenance is not supplied by upstream. No relicensing or blanket commercial clearance of the full archive is asserted."
+  },
+  "registration": {
+    "method": "Labeled bidirectional nearest-surface similarity ICP; six bilateral bones fit, six muscles held out",
+    "sourceUnits": "meters",
+    "sourceAxes": "X left, Y posterior, Z superior",
+    "targetUnits": "meters",
+    "targetAxes": "X left, Y superior, Z anterior",
+    "matrixColumnVector": [
+      [
+        0.9671866243240652,
+        0.00023528145636534935,
+        0.00012901103675774293,
+        -0.00016226786293687626
+      ],
+      [
+        -0.00012912181418719748,
+        0.00045542301809920784,
+        0.9671865457035801,
+        0.055526909678332625
+      ],
+      [
+        0.00023522068024667758,
+        -0.9671865257048943,
+        0.0004554544112290538,
+        0.0018153935748660074
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "uniformScale": 0.9671866615460494,
+    "iterations": 56,
+    "lastTransformDelta": 7.576107106339121e-08,
+    "measurements": [
+      {
+        "axisOnlyRmsMm": 4.963650527248492,
+        "id": "FMA37687",
+        "name": "Long head of biceps brachii.l",
+        "role": "holdout",
+        "rmsMm": 0.9753917408644838,
+        "meanMm": 0.7673240641793253,
+        "p95Mm": 1.8048984086001847,
+        "maxMm": 5.631585780869321
+      },
+      {
+        "axisOnlyRmsMm": 4.665781517033104,
+        "id": "FMA37685",
+        "name": "Short head of biceps brachii.l",
+        "role": "holdout",
+        "rmsMm": 1.027914981938434,
+        "meanMm": 0.7743618847305284,
+        "p95Mm": 1.7087853265982285,
+        "maxMm": 7.9416528052871485
+      },
+      {
+        "axisOnlyRmsMm": 3.8454734726893753,
+        "id": "FMA37666",
+        "name": "Coracobrachialis muscle.l",
+        "role": "holdout",
+        "rmsMm": 2.258637679501795,
+        "meanMm": 1.4386321191597573,
+        "p95Mm": 5.848330644117843,
+        "maxMm": 6.606021541594108
+      },
+      {
+        "axisOnlyRmsMm": 6.760178554114519,
+        "id": "FMA13396",
+        "name": "Scapula.l",
+        "role": "fit",
+        "rmsMm": 1.8445469936062964,
+        "meanMm": 1.335287270820503,
+        "p95Mm": 4.248906742855731,
+        "maxMm": 7.607561661665768
+      },
+      {
+        "axisOnlyRmsMm": 14.974378067262114,
+        "id": "FMA23465",
+        "name": "Radius.l",
+        "role": "fit",
+        "rmsMm": 0.6441083543486626,
+        "meanMm": 0.5414723979148028,
+        "p95Mm": 1.2070493139786709,
+        "maxMm": 1.8929191868313546
+      },
+      {
+        "axisOnlyRmsMm": 8.630827331965383,
+        "id": "FMA23131",
+        "name": "Humerus.l",
+        "role": "fit",
+        "rmsMm": 0.6358259597094151,
+        "meanMm": 0.5298285844353013,
+        "p95Mm": 1.1594524713345082,
+        "maxMm": 1.7846521274309088
+      },
+      {
+        "axisOnlyRmsMm": 4.963843204843591,
+        "id": "FMA37686",
+        "name": "Long head of biceps brachii.r",
+        "role": "holdout",
+        "rmsMm": 0.9286492631593368,
+        "meanMm": 0.7168897883060488,
+        "p95Mm": 1.716915614321047,
+        "maxMm": 5.675181848247222
+      },
+      {
+        "axisOnlyRmsMm": 4.661631426394661,
+        "id": "FMA37684",
+        "name": "Short head of biceps brachii.r",
+        "role": "holdout",
+        "rmsMm": 0.9930681845048639,
+        "meanMm": 0.7247178854845538,
+        "p95Mm": 1.6591639763620327,
+        "maxMm": 8.026151670537653
+      },
+      {
+        "axisOnlyRmsMm": 3.845401313019966,
+        "id": "FMA37665",
+        "name": "Coracobrachialis muscle.r",
+        "role": "holdout",
+        "rmsMm": 2.266624295249603,
+        "meanMm": 1.4271752921988101,
+        "p95Mm": 5.8743821743701305,
+        "maxMm": 6.6148392871104225
+      },
+      {
+        "axisOnlyRmsMm": 6.760375269627677,
+        "id": "FMA13395",
+        "name": "Scapula.r",
+        "role": "fit",
+        "rmsMm": 1.84624154187596,
+        "meanMm": 1.3313193966694739,
+        "p95Mm": 4.3064002711560585,
+        "maxMm": 7.663448183971935
+      },
+      {
+        "axisOnlyRmsMm": 14.963013645530305,
+        "id": "FMA23464",
+        "name": "Radius.r",
+        "role": "fit",
+        "rmsMm": 0.6084768651870369,
+        "meanMm": 0.46976993816863666,
+        "p95Mm": 1.02565295578148,
+        "maxMm": 4.036539010177671
+      },
+      {
+        "axisOnlyRmsMm": 8.636855274788026,
+        "id": "FMA23130",
+        "name": "Humerus.r",
+        "role": "fit",
+        "rmsMm": 0.6151459435885938,
+        "meanMm": 0.517470328583418,
+        "p95Mm": 1.0831144358799003,
+        "maxMm": 1.7051918922331766
+      }
+    ],
+    "sourceSceneUnits": {
+      "system": "METRIC",
+      "scaleLength": 1.0
+    },
+    "limitations": "Surface discrepancy includes source edits and atlas simplification. Bone/muscle agreement is not anatomical validation of the nerve path."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "reviewed_primary_term_correction;no_geometry_or_expert_acceptance",
+  "inspectedAt": "2026-10-02",
+  "sourceTable": "work/open-assets-review/TA2.csv",
+  "sourceTableSha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+  "corrections": [
+    {
+      "numericId": 6442,
+      "en": "Superior lateral brachial cutaneous nerve",
+      "pinnedLatin": "Nervus cutaneus lateralis posterioris femoris",
+      "correctedLatin": "Nervus cutaneus lateralis superior brachii",
+      "reason": "Pinned Latin column names the femoral region despite the upper-arm English term; it cannot be treated as a verified upper-arm term.",
+      "primaryEvidence": {
+        "sourceId": "ifaa-ta98-rat-rules",
+        "url": "https://ifaa.unifr.ch/Public/EntryPage/TA98RATChangesNew.html",
+        "title": "IFAA — Changes Due to Regular Anatomical Terminology Rules",
+        "locator": "A14.2.03.061 / Superior lateral cutaneous nerve of arm / Remedy",
+        "term": "Nervus cutaneus lateralis superior brachii",
+        "scope": "Independently inspected published terminology; not a formal TA2/FMA crosswalk or anatomy/geometry acceptance"
+      }
+    }
+  ]
+}

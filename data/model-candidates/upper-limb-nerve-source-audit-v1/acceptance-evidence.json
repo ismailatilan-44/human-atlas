@@ -1,0 +1,65 @@
+{
+  "baselineRevision": "0ac477f2a686991bcb4f4d2a72267c9243547433",
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "environment": "macOS; Blender5.2.0LTS background with disabled autoexec; source never saved",
+  "disposition": "Root chose independent127 source-frame technical reference; main registration and anatomical expert/continuity acceptance pending",
+  "packageFileSha256": {
+    "atlas.json": "299f9eb315dc6ecbb4bdcbd388884595aeed0395a5cdb6d27be20b5e1c5642d0",
+    "anatomy.bin": "3355121fe3725b885c47f7f0412598ac87e82f83d5022e82e99496a98d949547",
+    "anatomy.bin.gz": "20f1090a1b6a64cb17730a624a593f9069e4af8cfc0a3f797886c535210fde28",
+    "ATTRIBUTION.md": "58a2568084cb095f444c31faa324944bc8950a82cfcfc5b66ef98adce9e5cea9",
+    "UPSTREAM-LICENSE.txt": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+  },
+  "auditFileSha256": {
+    "export.py": "30298edc739fa83ccb16d5f09e37eb2ae3fddf446a2eb82c8c464a69a6877f17",
+    "geometry.py": "4d3a4dd19df50248f06d8c38585fbb43a63cd06eb4deea5c4e6521494c0c94cf",
+    "new-object-mapping.json": "08fdcdebf820d122bc88dfde47af0672a93bdf541661dab63d6f84e241ce5278",
+    "context-mapping.json": "799723467ec0936bf4b80329233e161a1eca9707838a586424e2b8a608c05a34",
+    "evaluated-candidates.json": "4344bc94af22dc3a22bbf2253bedb382661130926c650a4e7ba2516d98e3860e",
+    "spline-checks.json": "727627e018ae2441c09d165f848d33ae7fd7660f1eb34b87b431dc39b5643b9b",
+    "registration-checks.json": "66c34622f18e567c83dc6dfda63b558cdc3b29ff7dec9a9b39600f99c01e22e7",
+    "frozen-source-reference.json": "30429144b67b169ea459f0e44617a9d0a0c5e2c55148b12d9eb02ff994eb5f07",
+    "prior-evidence.json": "1bfb91bfe6ba024e4f9517c89d75426a0e9e5b670a85ed12dc05a6624ef0bbf2",
+    "discovery.json": "47a2b74db82141b563f5d22977bc296a6955f46f12acdfb7d1ddad708831bc4b",
+    "validate.py": "06df8e5329dc5ea26f85cc3628d0132faca012e69dc7d688a01aca8c4f162adb",
+    "render.py": "e1b179fb45e9fa0659684458b6b9b9cf6904fc85659b6d38258535106e023106"
+  },
+  "openedRenderFileSha256": {
+    "source-decoded-forearm.png": "6f6c52a6021a059b9c2adeade27097b9bd43333e75706847bd7965b41e8d2490",
+    "source-decoded-whole-arm.png": "f64ed8c90b0f1f37bcb11ce069db429c831a78364ee70ffee11af06e2afa2415",
+    "source-decoded-shoulder.png": "58ce66e0a4c7f0223b5032452023a72aabfd1077a6c86fa13d65063e0ad9eb53",
+    "registered-main-forearm.png": "8922b0838e451d39e8738f5b53ff484b86c6f48eeacf8b07700ce57b4a74dfc3",
+    "registered-main-shoulder.png": "cf040f774cabc1ecd313f8bb4a498f48fb795dbbe3f1d6a3cdcbac55dc7665cc"
+  },
+  "checks": {
+    "parts": 127,
+    "uniquePartConceptIds": true,
+    "exactMapping": true,
+    "finitePositions": true,
+    "indexBounds": true,
+    "float32Bounds": true,
+    "offsetAlignment": true,
+    "gzipRoundTrip": true,
+    "maxNormalLengthError": 2.556389771468659e-05,
+    "all54IsolatedSplineTotalsMatch": true,
+    "deterministicPackageFiveFiles": true,
+    "fileSha256": {
+      "atlas.json": "299f9eb315dc6ecbb4bdcbd388884595aeed0395a5cdb6d27be20b5e1c5642d0",
+      "anatomy.bin": "3355121fe3725b885c47f7f0412598ac87e82f83d5022e82e99496a98d949547",
+      "anatomy.bin.gz": "20f1090a1b6a64cb17730a624a593f9069e4af8cfc0a3f797886c535210fde28",
+      "ATTRIBUTION.md": "58a2568084cb095f444c31faa324944bc8950a82cfcfc5b66ef98adce9e5cea9",
+      "UPSTREAM-LICENSE.txt": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+    }
+  },
+  "primaryVertices": 65448,
+  "primaryTriangles": 128448,
+  "newPrimarySplines": 104,
+  "renderingPrimarySplines": 102,
+  "unresolved": [
+    "Roots retain prior unresolved anatomical identity and remain excluded",
+    "No medial/lateral cord curve found; marker/group identity insufficient",
+    "Hand palmar/digital groups and named Subclavian nerve pair deferred",
+    "Grouped branch identities not individually resolved; source truncations/disconnections retained",
+    "Source-specific author lineage unresolved; underlying separate notices retained"
+  ]
+}

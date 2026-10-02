@@ -1,0 +1,732 @@
+[
+  {
+    "sourceObject": "Musculocutaneous nerve.l",
+    "partId": "ZA-MCN-L",
+    "conceptId": "atlas:left-musculocutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Musculocutaneous nerve.r",
+    "partId": "ZA-MCN-R",
+    "conceptId": "atlas:right-musculocutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Median nerve.l",
+    "partId": "ZA-MED-L",
+    "conceptId": "atlas:left-median-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Median nerve.r",
+    "partId": "ZA-MED-R",
+    "conceptId": "atlas:right-median-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Superior trunk of brachial plexus.l",
+    "partId": "ZA-BP-SUP-TRUNK-L",
+    "conceptId": "atlas:left-brachial-plexus-superior-trunk",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Middle trunk of brachial plexus.l",
+    "partId": "ZA-BP-MID-TRUNK-L",
+    "conceptId": "atlas:left-brachial-plexus-middle-trunk",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Inferior trunk of brachial plexus.l",
+    "partId": "ZA-BP-INF-TRUNK-L",
+    "conceptId": "atlas:left-brachial-plexus-inferior-trunk",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Anterior division of superior trunk of brachial plexus.l",
+    "partId": "ZA-BP-SUP-ANT-DIV-L",
+    "conceptId": "atlas:left-brachial-plexus-superior-anterior-division",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Anterior division of middle trunk of brachial plexus.l",
+    "partId": "ZA-BP-MID-ANT-DIV-L",
+    "conceptId": "atlas:left-brachial-plexus-middle-anterior-division",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Anterior division of inferior trunk of brachial plexus.l",
+    "partId": "ZA-BP-INF-ANT-DIV-L",
+    "conceptId": "atlas:left-brachial-plexus-inferior-anterior-division",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior division of superior trunk of brachial plexus.l",
+    "partId": "ZA-BP-SUP-POST-DIV-L",
+    "conceptId": "atlas:left-brachial-plexus-superior-posterior-division",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior division of middle trunk of brachial plexus.l",
+    "partId": "ZA-BP-MID-POST-DIV-L",
+    "conceptId": "atlas:left-brachial-plexus-middle-posterior-division",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior division of inferior trunk of brachial plexus.l",
+    "partId": "ZA-BP-INF-POST-DIV-L",
+    "conceptId": "atlas:left-brachial-plexus-inferior-posterior-division",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior cord of brachial plexus.l",
+    "partId": "ZA-BP-POST-CORD-L",
+    "conceptId": "atlas:left-brachial-plexus-posterior-cord",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Superior trunk of brachial plexus.r",
+    "partId": "ZA-BP-SUP-TRUNK-R",
+    "conceptId": "atlas:right-brachial-plexus-superior-trunk",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Middle trunk of brachial plexus.r",
+    "partId": "ZA-BP-MID-TRUNK-R",
+    "conceptId": "atlas:right-brachial-plexus-middle-trunk",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Inferior trunk of brachial plexus.r",
+    "partId": "ZA-BP-INF-TRUNK-R",
+    "conceptId": "atlas:right-brachial-plexus-inferior-trunk",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Anterior division of superior trunk of brachial plexus.r",
+    "partId": "ZA-BP-SUP-ANT-DIV-R",
+    "conceptId": "atlas:right-brachial-plexus-superior-anterior-division",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Anterior division of middle trunk of brachial plexus.r",
+    "partId": "ZA-BP-MID-ANT-DIV-R",
+    "conceptId": "atlas:right-brachial-plexus-middle-anterior-division",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Anterior division of inferior trunk of brachial plexus.r",
+    "partId": "ZA-BP-INF-ANT-DIV-R",
+    "conceptId": "atlas:right-brachial-plexus-inferior-anterior-division",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior division of superior trunk of brachial plexus.r",
+    "partId": "ZA-BP-SUP-POST-DIV-R",
+    "conceptId": "atlas:right-brachial-plexus-superior-posterior-division",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior division of middle trunk of brachial plexus.r",
+    "partId": "ZA-BP-MID-POST-DIV-R",
+    "conceptId": "atlas:right-brachial-plexus-middle-posterior-division",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior division of inferior trunk of brachial plexus.r",
+    "partId": "ZA-BP-INF-POST-DIV-R",
+    "conceptId": "atlas:right-brachial-plexus-inferior-posterior-division",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Posterior cord of brachial plexus.r",
+    "partId": "ZA-BP-POST-CORD-R",
+    "conceptId": "atlas:right-brachial-plexus-posterior-cord",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "context",
+    "scope": "Same-source context curve; existing nerve-frame registration not applied in independent source frame"
+  },
+  {
+    "sourceObject": "Clavicle.l",
+    "partId": "ZA-ULNR-CONTEXT-CLAVICLE-L",
+    "conceptId": "zanatomy:clavicle-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Clavicle.r",
+    "partId": "ZA-ULNR-CONTEXT-CLAVICLE-R",
+    "conceptId": "zanatomy:clavicle-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Scapula.l",
+    "partId": "ZA-ULNR-CONTEXT-SCAPULA-L",
+    "conceptId": "zanatomy:scapula-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Scapula.r",
+    "partId": "ZA-ULNR-CONTEXT-SCAPULA-R",
+    "conceptId": "zanatomy:scapula-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Humerus.l",
+    "partId": "ZA-ULNR-CONTEXT-HUMERUS-L",
+    "conceptId": "zanatomy:humerus-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Humerus.r",
+    "partId": "ZA-ULNR-CONTEXT-HUMERUS-R",
+    "conceptId": "zanatomy:humerus-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Radius.l",
+    "partId": "ZA-ULNR-CONTEXT-RADIUS-L",
+    "conceptId": "zanatomy:radius-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Radius.r",
+    "partId": "ZA-ULNR-CONTEXT-RADIUS-R",
+    "conceptId": "zanatomy:radius-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Ulna.l",
+    "partId": "ZA-ULNR-CONTEXT-ULNA-L",
+    "conceptId": "zanatomy:ulna-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Ulna.r",
+    "partId": "ZA-ULNR-CONTEXT-ULNA-R",
+    "conceptId": "zanatomy:ulna-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "First rib.l",
+    "partId": "ZA-ULNR-CONTEXT-FIRST-RIB-L",
+    "conceptId": "zanatomy:first-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "First rib.r",
+    "partId": "ZA-ULNR-CONTEXT-FIRST-RIB-R",
+    "conceptId": "zanatomy:first-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Second rib.l",
+    "partId": "ZA-ULNR-CONTEXT-SECOND-RIB-L",
+    "conceptId": "zanatomy:second-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Second rib.r",
+    "partId": "ZA-ULNR-CONTEXT-SECOND-RIB-R",
+    "conceptId": "zanatomy:second-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Third rib.l",
+    "partId": "ZA-ULNR-CONTEXT-THIRD-RIB-L",
+    "conceptId": "zanatomy:third-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Third rib.r",
+    "partId": "ZA-ULNR-CONTEXT-THIRD-RIB-R",
+    "conceptId": "zanatomy:third-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Fourth rib.l",
+    "partId": "ZA-ULNR-CONTEXT-FOURTH-RIB-L",
+    "conceptId": "zanatomy:fourth-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Fourth rib.r",
+    "partId": "ZA-ULNR-CONTEXT-FOURTH-RIB-R",
+    "conceptId": "zanatomy:fourth-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Fifth rib.l",
+    "partId": "ZA-ULNR-CONTEXT-FIFTH-RIB-L",
+    "conceptId": "zanatomy:fifth-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Fifth rib.r",
+    "partId": "ZA-ULNR-CONTEXT-FIFTH-RIB-R",
+    "conceptId": "zanatomy:fifth-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Sixth rib.l",
+    "partId": "ZA-ULNR-CONTEXT-SIXTH-RIB-L",
+    "conceptId": "zanatomy:sixth-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Sixth rib.r",
+    "partId": "ZA-ULNR-CONTEXT-SIXTH-RIB-R",
+    "conceptId": "zanatomy:sixth-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Seventh rib.l",
+    "partId": "ZA-ULNR-CONTEXT-SEVENTH-RIB-L",
+    "conceptId": "zanatomy:seventh-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Seventh rib.r",
+    "partId": "ZA-ULNR-CONTEXT-SEVENTH-RIB-R",
+    "conceptId": "zanatomy:seventh-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Eighth rib.l",
+    "partId": "ZA-ULNR-CONTEXT-EIGHTH-RIB-L",
+    "conceptId": "zanatomy:eighth-rib-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Eighth rib.r",
+    "partId": "ZA-ULNR-CONTEXT-EIGHTH-RIB-R",
+    "conceptId": "zanatomy:eighth-rib-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source bone context, inherited geometry defects preserved"
+  },
+  {
+    "sourceObject": "Vertebra C3",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C3",
+    "conceptId": "zanatomy:vertebra-c3",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Vertebra C4",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C4",
+    "conceptId": "zanatomy:vertebra-c4",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Vertebra C5",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C5",
+    "conceptId": "zanatomy:vertebra-c5",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Vertebra C6",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C6",
+    "conceptId": "zanatomy:vertebra-c6",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Vertebra C7",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C7",
+    "conceptId": "zanatomy:vertebra-c7",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Vertebra T1",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-T1",
+    "conceptId": "zanatomy:vertebra-t1",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Vertebra T2",
+    "partId": "ZA-ULNR-CONTEXT-VERTEBRA-T2",
+    "conceptId": "zanatomy:vertebra-t2",
+    "side": "midline",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source neck context; not evidence of named root identity"
+  },
+  {
+    "sourceObject": "Scaphoid bone.l",
+    "partId": "ZA-ULNR-CONTEXT-SCAPHOID-BONE-L",
+    "conceptId": "zanatomy:scaphoid-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Scaphoid bone.r",
+    "partId": "ZA-ULNR-CONTEXT-SCAPHOID-BONE-R",
+    "conceptId": "zanatomy:scaphoid-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Lunate bone.l",
+    "partId": "ZA-ULNR-CONTEXT-LUNATE-BONE-L",
+    "conceptId": "zanatomy:lunate-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Lunate bone.r",
+    "partId": "ZA-ULNR-CONTEXT-LUNATE-BONE-R",
+    "conceptId": "zanatomy:lunate-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Triquetrum bone.l",
+    "partId": "ZA-ULNR-CONTEXT-TRIQUETRUM-BONE-L",
+    "conceptId": "zanatomy:triquetrum-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Triquetrum bone.r",
+    "partId": "ZA-ULNR-CONTEXT-TRIQUETRUM-BONE-R",
+    "conceptId": "zanatomy:triquetrum-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Pisiform bone.l",
+    "partId": "ZA-ULNR-CONTEXT-PISIFORM-BONE-L",
+    "conceptId": "zanatomy:pisiform-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Pisiform bone.r",
+    "partId": "ZA-ULNR-CONTEXT-PISIFORM-BONE-R",
+    "conceptId": "zanatomy:pisiform-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Trapezium bone.l",
+    "partId": "ZA-ULNR-CONTEXT-TRAPEZIUM-BONE-L",
+    "conceptId": "zanatomy:trapezium-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Trapezium bone.r",
+    "partId": "ZA-ULNR-CONTEXT-TRAPEZIUM-BONE-R",
+    "conceptId": "zanatomy:trapezium-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Trapezoid bone.l",
+    "partId": "ZA-ULNR-CONTEXT-TRAPEZOID-BONE-L",
+    "conceptId": "zanatomy:trapezoid-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Trapezoid bone.r",
+    "partId": "ZA-ULNR-CONTEXT-TRAPEZOID-BONE-R",
+    "conceptId": "zanatomy:trapezoid-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Capitate bone.l",
+    "partId": "ZA-ULNR-CONTEXT-CAPITATE-BONE-L",
+    "conceptId": "zanatomy:capitate-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Capitate bone.r",
+    "partId": "ZA-ULNR-CONTEXT-CAPITATE-BONE-R",
+    "conceptId": "zanatomy:capitate-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Hamate bone.l",
+    "partId": "ZA-ULNR-CONTEXT-HAMATE-BONE-L",
+    "conceptId": "zanatomy:hamate-bone-l",
+    "side": "left",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  },
+  {
+    "sourceObject": "Hamate bone.r",
+    "partId": "ZA-ULNR-CONTEXT-HAMATE-BONE-R",
+    "conceptId": "zanatomy:hamate-bone-r",
+    "side": "right",
+    "system": "skeletal",
+    "componentRole": "bone",
+    "role": "context",
+    "scope": "Same-source wrist context; inherited defects preserved"
+  }
+]

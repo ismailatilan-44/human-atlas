@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+    "method": "GET",
+    "path": "license.html",
+    "retrievedAt": "2026-10-02T12:20:01.536005+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 2464,
+    "sha256": "63d46abcf1b112da9f2d587677d0f4edb7d1654a3c9a8a2bfd1c3d080340512e"
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/get-info.cgi?version=4.3&cmd=concept-objfiles-list",
+    "method": "GET",
+    "path": "mapping.zip",
+    "retrievedAt": "2026-10-02T12:20:04.800336+00:00",
+    "status": 200,
+    "contentType": "application/zip",
+    "bytes": 92926,
+    "sha256": "2684e35baa769f8938441b1bc2964f6c46519a9acae120df22b8d0934c46e382"
+  },
+  {
+    "url": "https://lifesciencedb.jp/bp3d/download.cgi",
+    "method": "POST",
+    "path": "source-objects.zip",
+    "retrievedAt": "2026-10-02T12:20:08.526801+00:00",
+    "status": 200,
+    "contentType": "application/zip",
+    "bytes": 550225,
+    "sha256": "76c0d76b5b5be593ec44f40defdeb15ebb00f4a7bad68bc9eb6aa6959df81f3c"
+  }
+]

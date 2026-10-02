@@ -1,0 +1,2221 @@
+{
+  "parts": 127,
+  "newNerves": 54,
+  "contextNerves": 24,
+  "contextBones": 49,
+  "vertices": 184698,
+  "triangles": 366040,
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "binarySha256": "3355121fe3725b885c47f7f0412598ac87e82f83d5022e82e99496a98d949547",
+  "gzipSha256": "20f1090a1b6a64cb17730a624a593f9069e4af8cfc0a3f797886c535210fde28",
+  "manifestSha256": "299f9eb315dc6ecbb4bdcbd388884595aeed0395a5cdb6d27be20b5e1c5642d0",
+  "checks": [
+    {
+      "sourceObject": "Ulnar nerve.l",
+      "partId": "ZA-ULNR-ULNAR-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.156772066030932e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.546161151803309e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1596
+      ]
+    },
+    {
+      "sourceObject": "Ulnar nerve.r",
+      "partId": "ZA-ULNR-ULNAR-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.213771240988649e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.546161151803309e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1596
+      ]
+    },
+    {
+      "sourceObject": "Radial nerve.l",
+      "partId": "ZA-ULNR-RADIAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3362062900766922e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.977823641269337e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1164
+      ]
+    },
+    {
+      "sourceObject": "Radial nerve.r",
+      "partId": "ZA-ULNR-RADIAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3362062900766922e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.977823641269337e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1164
+      ]
+    },
+    {
+      "sourceObject": "Axillary nerve.l",
+      "partId": "ZA-ULNR-AXILLARY-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4029412069026534e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.2236802999268063e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        588
+      ]
+    },
+    {
+      "sourceObject": "Axillary nerve.r",
+      "partId": "ZA-ULNR-AXILLARY-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4029412069026534e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.2236776994853294e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        588
+      ]
+    },
+    {
+      "sourceObject": "Medial brachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1622672709775692e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.5270592993022115e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Medial brachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3472899647436485e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.5270592993022115e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Superior lateral brachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.273517890327703e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.7553900243154746e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1020
+      ]
+    },
+    {
+      "sourceObject": "Superior lateral brachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3808669866398624e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.7553983965828097e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1020
+      ]
+    },
+    {
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1246401638697066e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.8611422821739476e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0093781500807317e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.8611002337655023e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Medial antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0173009086077442e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.7534936675926727e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Medial antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.056092071422988e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.7534936675926727e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Lateral antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2025483668031143e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.9992337820505543e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Lateral antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2025483668031143e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.9992338259360304e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Posterior antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2734713224226155e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.402565595645582e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1308
+      ]
+    },
+    {
+      "sourceObject": "Posterior antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2734713224226155e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.402565595645582e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1308
+      ]
+    },
+    {
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1773551051706974e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.243087730462157e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        732
+      ]
+    },
+    {
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1773551051706974e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.2430877876913655e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        732
+      ]
+    },
+    {
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.310585941645016e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.9725871410668134e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1164
+      ]
+    },
+    {
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.095907715071732e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.971926303656541e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1164
+      ]
+    },
+    {
+      "sourceObject": "Lateral pectoral nerve.l",
+      "partId": "ZA-ULNR-LATERAL-PECTORAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3708447796755294e-05,
+      "boundaryEdges": 120,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.0467141653656496e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 5,
+      "componentVertices": [
+        1308,
+        1020,
+        588,
+        444,
+        300
+      ]
+    },
+    {
+      "sourceObject": "Lateral pectoral nerve.r",
+      "partId": "ZA-ULNR-LATERAL-PECTORAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2980591770860315e-05,
+      "boundaryEdges": 120,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.0466714235994451e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 5,
+      "componentVertices": [
+        1308,
+        1020,
+        588,
+        444,
+        300
+      ]
+    },
+    {
+      "sourceObject": "Medial pectoral nerve.l",
+      "partId": "ZA-ULNR-MEDIAL-PECTORAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.267743469031025e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.8304823567660286e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        588,
+        444
+      ]
+    },
+    {
+      "sourceObject": "Medial pectoral nerve.r",
+      "partId": "ZA-ULNR-MEDIAL-PECTORAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.267743469031025e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.8304823567660286e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        588,
+        444
+      ]
+    },
+    {
+      "sourceObject": "Dorsal scapular nerve.l",
+      "partId": "ZA-ULNR-DORSAL-SCAPULAR-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.351760690999516e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.269608027596205e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1308
+      ]
+    },
+    {
+      "sourceObject": "Dorsal scapular nerve.r",
+      "partId": "ZA-ULNR-DORSAL-SCAPULAR-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.351760690999516e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.269608027596205e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1308
+      ]
+    },
+    {
+      "sourceObject": "Long thoracic nerve.l",
+      "partId": "ZA-ULNR-LONG-THORACIC-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2753806067976612e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.605279709406034e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        1884,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Long thoracic nerve.r",
+      "partId": "ZA-ULNR-LONG-THORACIC-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2490697333843457e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.6053047884713267e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        1884,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Thoracodorsal nerve.l",
+      "partId": "ZA-ULNR-THORACODORSAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2366395534989536e-05,
+      "boundaryEdges": 72,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.0821112659917866e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 3,
+      "componentVertices": [
+        1164,
+        732,
+        444
+      ]
+    },
+    {
+      "sourceObject": "Thoracodorsal nerve.r",
+      "partId": "ZA-ULNR-THORACODORSAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2366395534989536e-05,
+      "boundaryEdges": 72,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.0821112659917866e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 3,
+      "componentVertices": [
+        1164,
+        732,
+        444
+      ]
+    },
+    {
+      "sourceObject": "Suprascapular nerve.l",
+      "partId": "ZA-ULNR-SUPRASCAPULAR-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3148772053227518e-05,
+      "boundaryEdges": 120,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.1666144518963727e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 5,
+      "componentVertices": [
+        1020,
+        444,
+        444,
+        300,
+        300
+      ]
+    },
+    {
+      "sourceObject": "Suprascapular nerve.r",
+      "partId": "ZA-ULNR-SUPRASCAPULAR-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.252100798882939e-05,
+      "boundaryEdges": 120,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.1666144518963727e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 5,
+      "componentVertices": [
+        1020,
+        444,
+        444,
+        300,
+        300
+      ]
+    },
+    {
+      "sourceObject": "Superior subscapular nerve.l",
+      "partId": "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.336858270901576e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.6810186488765126e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        588
+      ]
+    },
+    {
+      "sourceObject": "Superior subscapular nerve.r",
+      "partId": "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4247237872643268e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.6810186488765126e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        588
+      ]
+    },
+    {
+      "sourceObject": "Inferior subscapular nerve.l",
+      "partId": "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2334262226753054e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.7921581948971216e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        588,
+        444
+      ]
+    },
+    {
+      "sourceObject": "Inferior subscapular nerve.r",
+      "partId": "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2334262226753054e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.7921581948971216e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        588,
+        444
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of axillary nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0542293508674092e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.2381304436214205e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        588
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of axillary nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0542293508674092e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.2381360644438818e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        588
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of median nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.256986280091411e-05,
+      "boundaryEdges": 96,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.9587572803066014e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 4,
+      "componentVertices": [
+        156,
+        156,
+        156,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of median nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.256986280091411e-05,
+      "boundaryEdges": 96,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.9587968358850544e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 4,
+      "componentVertices": [
+        156,
+        156,
+        156,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of radial nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3682464958207916e-05,
+      "boundaryEdges": 120,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.0323533417733207e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 5,
+      "componentVertices": [
+        444,
+        300,
+        300,
+        156,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of radial nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4815981199854953e-05,
+      "boundaryEdges": 120,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.0323533417733207e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 5,
+      "componentVertices": [
+        444,
+        300,
+        300,
+        156,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of ulnar nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9139663930856088e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.679534804173366e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        156,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Muscular branches of ulnar nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9139663930856088e-05,
+      "boundaryEdges": 48,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.679534804173366e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 2,
+      "componentVertices": [
+        156,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Anterior interosseous nerve of forearm.l",
+      "partId": "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0328493858690067e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.6658402326016872e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        732
+      ]
+    },
+    {
+      "sourceObject": "Anterior interosseous nerve of forearm.r",
+      "partId": "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0488740290591778e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.6656222072123448e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        732
+      ]
+    },
+    {
+      "sourceObject": "Posterior interosseous nerve of forearm.l",
+      "partId": "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1828035560167436e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.7311217613091926e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Posterior interosseous nerve of forearm.r",
+      "partId": "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1885327420201328e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.7306057612900466e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        876
+      ]
+    },
+    {
+      "sourceObject": "Deep branch of radial nerve.l",
+      "partId": "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0961405550634638e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.025011570785519e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1020
+      ]
+    },
+    {
+      "sourceObject": "Deep branch of radial nerve.r",
+      "partId": "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4171916554904804e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.024297593827733e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1020
+      ]
+    },
+    {
+      "sourceObject": "Superficial branch of radial nerve.l",
+      "partId": "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-L",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3265587283827216e-05,
+      "boundaryEdges": 96,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.133170671161141e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 4,
+      "componentVertices": [
+        1452,
+        300,
+        300,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Superficial branch of radial nerve.r",
+      "partId": "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-R",
+      "role": "primary",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4096007300022926e-05,
+      "boundaryEdges": 96,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.133170671161141e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 4,
+      "componentVertices": [
+        1452,
+        300,
+        300,
+        156
+      ]
+    },
+    {
+      "sourceObject": "Musculocutaneous nerve.l",
+      "partId": "ZA-MCN-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1733036928539562e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.803054156889578e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        732
+      ]
+    },
+    {
+      "sourceObject": "Musculocutaneous nerve.r",
+      "partId": "ZA-MCN-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1733036928539562e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.803054156889578e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        732
+      ]
+    },
+    {
+      "sourceObject": "Median nerve.l",
+      "partId": "ZA-MED-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1380508853585667e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.857596780335358e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        2604
+      ]
+    },
+    {
+      "sourceObject": "Median nerve.r",
+      "partId": "ZA-MED-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1745144597629107e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.857595414352874e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        2604
+      ]
+    },
+    {
+      "sourceObject": "Superior trunk of brachial plexus.l",
+      "partId": "ZA-BP-SUP-TRUNK-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3011856118415608e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.5818684096626376e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Middle trunk of brachial plexus.l",
+      "partId": "ZA-BP-MID-TRUNK-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9537355252507993e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.446978747888413e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Inferior trunk of brachial plexus.l",
+      "partId": "ZA-BP-INF-TRUNK-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.8317606833018196e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.4356427042140775e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Anterior division of superior trunk of brachial plexus.l",
+      "partId": "ZA-BP-SUP-ANT-DIV-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.061909018735708e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 8.188835248879442e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Anterior division of middle trunk of brachial plexus.l",
+      "partId": "ZA-BP-MID-ANT-DIV-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2768242120552173e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.4403820558524555e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Anterior division of inferior trunk of brachial plexus.l",
+      "partId": "ZA-BP-INF-ANT-DIV-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2174061401258882e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.439288553046453e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Posterior division of superior trunk of brachial plexus.l",
+      "partId": "ZA-BP-SUP-POST-DIV-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.8143435706052813e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 8.014059933019408e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Posterior division of middle trunk of brachial plexus.l",
+      "partId": "ZA-BP-MID-POST-DIV-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9449341613020366e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2506931834130271e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Posterior division of inferior trunk of brachial plexus.l",
+      "partId": "ZA-BP-INF-POST-DIV-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.184293730556064e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.0096826514221441e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Posterior cord of brachial plexus.l",
+      "partId": "ZA-BP-POST-CORD-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0091980707848123e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.783338860034546e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Superior trunk of brachial plexus.r",
+      "partId": "ZA-BP-SUP-TRUNK-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3011856118415608e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.5818677150411807e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Middle trunk of brachial plexus.r",
+      "partId": "ZA-BP-MID-TRUNK-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9537355252507993e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.446982682278912e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Inferior trunk of brachial plexus.r",
+      "partId": "ZA-BP-INF-TRUNK-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.8317606833018196e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.4356427042140775e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Anterior division of superior trunk of brachial plexus.r",
+      "partId": "ZA-BP-SUP-ANT-DIV-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.168647358169462e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 8.188839973146356e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Anterior division of middle trunk of brachial plexus.r",
+      "partId": "ZA-BP-MID-ANT-DIV-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2768242120552173e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.4403827959040003e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Anterior division of inferior trunk of brachial plexus.r",
+      "partId": "ZA-BP-INF-ANT-DIV-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1498334387581863e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.439256839621152e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Posterior division of superior trunk of brachial plexus.r",
+      "partId": "ZA-BP-SUP-POST-DIV-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.8143435706052813e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 8.014059933019408e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Posterior division of middle trunk of brachial plexus.r",
+      "partId": "ZA-BP-MID-POST-DIV-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9449341613020366e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2506913122255979e-06,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Posterior division of inferior trunk of brachial plexus.r",
+      "partId": "ZA-BP-INF-POST-DIV-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.184293730556064e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.0096520080541759e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        156
+      ]
+    },
+    {
+      "sourceObject": "Posterior cord of brachial plexus.r",
+      "partId": "ZA-BP-POST-CORD-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0091980707848123e-05,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.783333868723909e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        300
+      ]
+    },
+    {
+      "sourceObject": "Clavicle.l",
+      "partId": "ZA-ULNR-CONTEXT-CLAVICLE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 12,
+      "maxNormalLengthError": 2.1311131131129812e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2917141107697213e-08,
+      "looseVertices": 12,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        777
+      ]
+    },
+    {
+      "sourceObject": "Clavicle.r",
+      "partId": "ZA-ULNR-CONTEXT-CLAVICLE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 12,
+      "maxNormalLengthError": 2.1311131131129812e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2917141107697213e-08,
+      "looseVertices": 12,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        777
+      ]
+    },
+    {
+      "sourceObject": "Scapula.l",
+      "partId": "ZA-ULNR-CONTEXT-SCAPULA-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "cancelledOrLooseVertexNormals": 25,
+      "maxNormalLengthError": 2.3988320638101968e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 2,
+      "minDoubleArea": 0.0,
+      "looseVertices": 25,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        12665
+      ]
+    },
+    {
+      "sourceObject": "Scapula.r",
+      "partId": "ZA-ULNR-CONTEXT-SCAPULA-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 3,
+      "cancelledOrLooseVertexNormals": 25,
+      "maxNormalLengthError": 2.3988320638101968e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 2,
+      "minDoubleArea": 0.0,
+      "looseVertices": 25,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        12665
+      ]
+    },
+    {
+      "sourceObject": "Humerus.l",
+      "partId": "ZA-ULNR-CONTEXT-HUMERUS-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1641300701036315e-05,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 2,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.898698670942897e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        2143
+      ]
+    },
+    {
+      "sourceObject": "Humerus.r",
+      "partId": "ZA-ULNR-CONTEXT-HUMERUS-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1641300701036315e-05,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 2,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.898698670942897e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        2143
+      ]
+    },
+    {
+      "sourceObject": "Radius.l",
+      "partId": "ZA-ULNR-CONTEXT-RADIUS-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1837349151176966e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 8.014054225283925e-11,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        394
+      ]
+    },
+    {
+      "sourceObject": "Radius.r",
+      "partId": "ZA-ULNR-CONTEXT-RADIUS-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1837349151176966e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 8.014054225283925e-11,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        394
+      ]
+    },
+    {
+      "sourceObject": "Ulna.l",
+      "partId": "ZA-ULNR-CONTEXT-ULNA-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 2,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.130413411094434e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.0890691161899956e-11,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        454
+      ]
+    },
+    {
+      "sourceObject": "Ulna.r",
+      "partId": "ZA-ULNR-CONTEXT-ULNA-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 2,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.130413411094434e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.0890691161899956e-11,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        454
+      ]
+    },
+    {
+      "sourceObject": "First rib.l",
+      "partId": "ZA-ULNR-CONTEXT-FIRST-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.176842857659622e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.619247168967509e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1607
+      ]
+    },
+    {
+      "sourceObject": "First rib.r",
+      "partId": "ZA-ULNR-CONTEXT-FIRST-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.176842857659622e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.619247168967509e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1607
+      ]
+    },
+    {
+      "sourceObject": "Second rib.l",
+      "partId": "ZA-ULNR-CONTEXT-SECOND-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4579404984237385e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.046640545235912e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        2684
+      ]
+    },
+    {
+      "sourceObject": "Second rib.r",
+      "partId": "ZA-ULNR-CONTEXT-SECOND-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4579404984237385e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.046640545235912e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        2684
+      ]
+    },
+    {
+      "sourceObject": "Third rib.l",
+      "partId": "ZA-ULNR-CONTEXT-THIRD-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.556389771468659e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.5517032943714304e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        3492
+      ]
+    },
+    {
+      "sourceObject": "Third rib.r",
+      "partId": "ZA-ULNR-CONTEXT-THIRD-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.556389771468659e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.5517032943714304e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        3492
+      ]
+    },
+    {
+      "sourceObject": "Fourth rib.l",
+      "partId": "ZA-ULNR-CONTEXT-FOURTH-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3657782819319628e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.0761301904648403e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4325
+      ]
+    },
+    {
+      "sourceObject": "Fourth rib.r",
+      "partId": "ZA-ULNR-CONTEXT-FOURTH-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3657782819319628e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.0761267070368995e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4325
+      ]
+    },
+    {
+      "sourceObject": "Fifth rib.l",
+      "partId": "ZA-ULNR-CONTEXT-FIFTH-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.3044389793058784e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.987512001018216e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4690
+      ]
+    },
+    {
+      "sourceObject": "Fifth rib.r",
+      "partId": "ZA-ULNR-CONTEXT-FIFTH-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2808290522924324e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.987512001018216e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4690
+      ]
+    },
+    {
+      "sourceObject": "Sixth rib.l",
+      "partId": "ZA-ULNR-CONTEXT-SIXTH-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 10,
+      "maxNormalLengthError": 2.5372781977672787e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.685137332234184e-08,
+      "looseVertices": 10,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        5068
+      ]
+    },
+    {
+      "sourceObject": "Sixth rib.r",
+      "partId": "ZA-ULNR-CONTEXT-SIXTH-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 10,
+      "maxNormalLengthError": 2.4292533112646453e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.685137332234184e-08,
+      "looseVertices": 10,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        5068
+      ]
+    },
+    {
+      "sourceObject": "Seventh rib.l",
+      "partId": "ZA-ULNR-CONTEXT-SEVENTH-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2849270281843914e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 9.118787319116083e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4890
+      ]
+    },
+    {
+      "sourceObject": "Seventh rib.r",
+      "partId": "ZA-ULNR-CONTEXT-SEVENTH-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2849270281843914e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 9.118787319116083e-09,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4890
+      ]
+    },
+    {
+      "sourceObject": "Eighth rib.l",
+      "partId": "ZA-ULNR-CONTEXT-EIGHTH-RIB-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4109512627212837e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.146772919115191e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4137
+      ]
+    },
+    {
+      "sourceObject": "Eighth rib.r",
+      "partId": "ZA-ULNR-CONTEXT-EIGHTH-RIB-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4109512627212837e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.146772919115191e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        4137
+      ]
+    },
+    {
+      "sourceObject": "Vertebra C3",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C3",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4990619190368157e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.724172759268441e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1216
+      ]
+    },
+    {
+      "sourceObject": "Vertebra C4",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C4",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 6,
+      "maxNormalLengthError": 2.2839081274983464e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 7.834359937132914e-08,
+      "looseVertices": 6,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        966
+      ]
+    },
+    {
+      "sourceObject": "Vertebra C5",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C5",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0588861521897428e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.3980868761985893e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1164
+      ]
+    },
+    {
+      "sourceObject": "Vertebra C6",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C6",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.104194525276437e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 5.960660093610297e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1148
+      ]
+    },
+    {
+      "sourceObject": "Vertebra C7",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-C7",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.256334329220344e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.807559866354814e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1078
+      ]
+    },
+    {
+      "sourceObject": "Vertebra T1",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-T1",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.147831016041657e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 3.638786012481678e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        973
+      ]
+    },
+    {
+      "sourceObject": "Vertebra T2",
+      "partId": "ZA-ULNR-CONTEXT-VERTEBRA-T2",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.148901688192595e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.255557451902746e-10,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1071
+      ]
+    },
+    {
+      "sourceObject": "Scaphoid bone.l",
+      "partId": "ZA-ULNR-CONTEXT-SCAPHOID-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.8888553039220213e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.8553873129876688e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        197
+      ]
+    },
+    {
+      "sourceObject": "Scaphoid bone.r",
+      "partId": "ZA-ULNR-CONTEXT-SCAPHOID-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.8888553039220213e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.8553873129876688e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        197
+      ]
+    },
+    {
+      "sourceObject": "Lunate bone.l",
+      "partId": "ZA-ULNR-CONTEXT-LUNATE-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.131765064805613e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.983204294455531e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1046
+      ]
+    },
+    {
+      "sourceObject": "Lunate bone.r",
+      "partId": "ZA-ULNR-CONTEXT-LUNATE-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.131765064805613e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.983204294455531e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1046
+      ]
+    },
+    {
+      "sourceObject": "Triquetrum bone.l",
+      "partId": "ZA-ULNR-CONTEXT-TRIQUETRUM-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4304981994793806e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.4980767192262485e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        90
+      ]
+    },
+    {
+      "sourceObject": "Triquetrum bone.r",
+      "partId": "ZA-ULNR-CONTEXT-TRIQUETRUM-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.4304981994793806e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.4980767192262485e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        90
+      ]
+    },
+    {
+      "sourceObject": "Pisiform bone.l",
+      "partId": "ZA-ULNR-CONTEXT-PISIFORM-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.149786517657848e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.195097625540887e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        836
+      ]
+    },
+    {
+      "sourceObject": "Pisiform bone.r",
+      "partId": "ZA-ULNR-CONTEXT-PISIFORM-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.149786517657848e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 2.195097625540887e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        836
+      ]
+    },
+    {
+      "sourceObject": "Trapezium bone.l",
+      "partId": "ZA-ULNR-CONTEXT-TRAPEZIUM-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9817694941748343e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.4995323996898567e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        252
+      ]
+    },
+    {
+      "sourceObject": "Trapezium bone.r",
+      "partId": "ZA-ULNR-CONTEXT-TRAPEZIUM-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 1.9817694941748343e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 4.4995323996898567e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        252
+      ]
+    },
+    {
+      "sourceObject": "Trapezoid bone.l",
+      "partId": "ZA-ULNR-CONTEXT-TRAPEZOID-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2608514173905192e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 6.990192681570911e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        184
+      ]
+    },
+    {
+      "sourceObject": "Trapezoid bone.r",
+      "partId": "ZA-ULNR-CONTEXT-TRAPEZOID-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.2608514173905192e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 6.990192681570911e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        184
+      ]
+    },
+    {
+      "sourceObject": "Capitate bone.l",
+      "partId": "ZA-ULNR-CONTEXT-CAPITATE-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0196758781843016e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2804555987483931e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        238
+      ]
+    },
+    {
+      "sourceObject": "Capitate bone.r",
+      "partId": "ZA-ULNR-CONTEXT-CAPITATE-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.0196758781843016e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2804555987483931e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        238
+      ]
+    },
+    {
+      "sourceObject": "Hamate bone.l",
+      "partId": "ZA-ULNR-CONTEXT-HAMATE-BONE-L",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1005645144622775e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2054666969177124e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        270
+      ]
+    },
+    {
+      "sourceObject": "Hamate bone.r",
+      "partId": "ZA-ULNR-CONTEXT-HAMATE-BONE-R",
+      "role": "context",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "cancelledOrLooseVertexNormals": 0,
+      "maxNormalLengthError": 2.1005645144622775e-05,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.2054666969177124e-07,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        270
+      ]
+    }
+  ]
+}

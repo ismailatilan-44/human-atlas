@@ -1,0 +1,1495 @@
+{
+  "schemaVersion": 1,
+  "status": "observational_candidate_audit",
+  "entries": [
+    {
+      "conceptId": "atlas:left-ulnar-nerve",
+      "sourceObject": "Ulnar nerve.l",
+      "partId": "ZA-ULNR-ULNAR-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-ulnar-nerve",
+      "sourceObject": "Ulnar nerve.r",
+      "partId": "ZA-ULNR-ULNAR-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-radial-nerve",
+      "sourceObject": "Radial nerve.l",
+      "partId": "ZA-ULNR-RADIAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-radial-nerve",
+      "sourceObject": "Radial nerve.r",
+      "partId": "ZA-ULNR-RADIAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-axillary-nerve",
+      "sourceObject": "Axillary nerve.l",
+      "partId": "ZA-ULNR-AXILLARY-NERVE-L",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:left-axillary-nerve",
+        "name": "Left axillary nerve",
+        "side": "left",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / axillary row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:left-axillary-nerve|innervates|FMA32554"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": null,
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-axillary-nerve",
+      "sourceObject": "Axillary nerve.r",
+      "partId": "ZA-ULNR-AXILLARY-NERVE-R",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:right-axillary-nerve",
+        "name": "Right axillary nerve",
+        "side": "right",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / axillary row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:right-axillary-nerve|innervates|FMA32553"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": null,
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-medial-brachial-cutaneous-nerve",
+      "sourceObject": "Medial brachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-medial-brachial-cutaneous-nerve",
+      "sourceObject": "Medial brachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-superior-lateral-brachial-cutaneous-nerve",
+      "sourceObject": "Superior lateral brachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-superior-lateral-brachial-cutaneous-nerve",
+      "sourceObject": "Superior lateral brachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-inferior-lateral-brachial-cutaneous-nerve",
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-inferior-lateral-brachial-cutaneous-nerve",
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-medial-antebrachial-cutaneous-nerve",
+      "sourceObject": "Medial antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-medial-antebrachial-cutaneous-nerve",
+      "sourceObject": "Medial antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-lateral-antebrachial-cutaneous-nerve",
+      "sourceObject": "Lateral antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-lateral-antebrachial-cutaneous-nerve",
+      "sourceObject": "Lateral antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-posterior-antebrachial-cutaneous-nerve",
+      "sourceObject": "Posterior antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-posterior-antebrachial-cutaneous-nerve",
+      "sourceObject": "Posterior antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-anterior-branch-of-medial-antebrachial-cutaneous-nerve",
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-anterior-branch-of-medial-antebrachial-cutaneous-nerve",
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-posterior-branch-of-medial-antebrachial-cutaneous-nerve",
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.l",
+      "partId": "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-posterior-branch-of-medial-antebrachial-cutaneous-nerve",
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.r",
+      "partId": "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-lateral-pectoral-nerve",
+      "sourceObject": "Lateral pectoral nerve.l",
+      "partId": "ZA-ULNR-LATERAL-PECTORAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-lateral-pectoral-nerve",
+      "sourceObject": "Lateral pectoral nerve.r",
+      "partId": "ZA-ULNR-LATERAL-PECTORAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-medial-pectoral-nerve",
+      "sourceObject": "Medial pectoral nerve.l",
+      "partId": "ZA-ULNR-MEDIAL-PECTORAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-medial-pectoral-nerve",
+      "sourceObject": "Medial pectoral nerve.r",
+      "partId": "ZA-ULNR-MEDIAL-PECTORAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-dorsal-scapular-nerve",
+      "sourceObject": "Dorsal scapular nerve.l",
+      "partId": "ZA-ULNR-DORSAL-SCAPULAR-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-dorsal-scapular-nerve",
+      "sourceObject": "Dorsal scapular nerve.r",
+      "partId": "ZA-ULNR-DORSAL-SCAPULAR-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-long-thoracic-nerve",
+      "sourceObject": "Long thoracic nerve.l",
+      "partId": "ZA-ULNR-LONG-THORACIC-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-long-thoracic-nerve",
+      "sourceObject": "Long thoracic nerve.r",
+      "partId": "ZA-ULNR-LONG-THORACIC-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-thoracodorsal-nerve",
+      "sourceObject": "Thoracodorsal nerve.l",
+      "partId": "ZA-ULNR-THORACODORSAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-thoracodorsal-nerve",
+      "sourceObject": "Thoracodorsal nerve.r",
+      "partId": "ZA-ULNR-THORACODORSAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-suprascapular-nerve",
+      "sourceObject": "Suprascapular nerve.l",
+      "partId": "ZA-ULNR-SUPRASCAPULAR-NERVE-L",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:left-suprascapular-nerve",
+        "name": "Left suprascapular nerve",
+        "side": "left",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / suprascapular row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:left-suprascapular-nerve|innervates|FMA32545",
+        "atlas:left-suprascapular-nerve|innervates|FMA32548"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": null,
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-suprascapular-nerve",
+      "sourceObject": "Suprascapular nerve.r",
+      "partId": "ZA-ULNR-SUPRASCAPULAR-NERVE-R",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:right-suprascapular-nerve",
+        "name": "Right suprascapular nerve",
+        "side": "right",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / suprascapular row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:right-suprascapular-nerve|innervates|FMA32544",
+        "atlas:right-suprascapular-nerve|innervates|FMA32547"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": null,
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-upper-subscapular-nerve",
+      "sourceObject": "Superior subscapular nerve.l",
+      "partId": "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-L",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:left-upper-subscapular-nerve",
+        "name": "Left upper subscapular nerve",
+        "side": "left",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / upper subscapular row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:left-upper-subscapular-nerve|innervates|FMA13415"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": "atlas:left-superior-subscapular-nerve",
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-upper-subscapular-nerve",
+      "sourceObject": "Superior subscapular nerve.r",
+      "partId": "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-R",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:right-upper-subscapular-nerve",
+        "name": "Right upper subscapular nerve",
+        "side": "right",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / upper subscapular row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:right-upper-subscapular-nerve|innervates|FMA13414"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": "atlas:right-superior-subscapular-nerve",
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-lower-subscapular-nerve",
+      "sourceObject": "Inferior subscapular nerve.l",
+      "partId": "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-L",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:left-lower-subscapular-nerve",
+        "name": "Left lower subscapular nerve",
+        "side": "left",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / lower subscapular row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:left-lower-subscapular-nerve|innervates|FMA13415"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": "atlas:left-inferior-subscapular-nerve",
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-lower-subscapular-nerve",
+      "sourceObject": "Inferior subscapular nerve.r",
+      "partId": "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-R",
+      "existingGraphBinding": "same_canonical_id_meshless",
+      "existingEntity": {
+        "id": "atlas:right-lower-subscapular-nerve",
+        "name": "Right lower subscapular nerve",
+        "side": "right",
+        "kind": "nerve",
+        "geometryPartIds": [],
+        "representationStatus": "missing_geometry",
+        "expertReview": "pending",
+        "anatomicalCoverage": "non_exhaustive",
+        "evidence": [
+          {
+            "sourceId": "ttuhsc-axilla-shoulder-tables",
+            "locator": "Nerves / lower subscapular row / Motor"
+          },
+          {
+            "sourceId": "zanatomy-ta2-terminology",
+            "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+          }
+        ],
+        "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+      },
+      "preserveRelationIds": [
+        "atlas:right-lower-subscapular-nerve|innervates|FMA13414"
+      ],
+      "existingLabelReused": true,
+      "discardedProvisionalId": "atlas:right-inferior-subscapular-nerve",
+      "integrationAction": "Preserve canonical ID and facts; geometry-state/qualifier update is root-owned after dataset acceptance",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-muscular-branches-of-axillary-nerve",
+      "sourceObject": "Muscular branches of axillary nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-muscular-branches-of-axillary-nerve",
+      "sourceObject": "Muscular branches of axillary nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-muscular-branches-of-median-nerve",
+      "sourceObject": "Muscular branches of median nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-muscular-branches-of-median-nerve",
+      "sourceObject": "Muscular branches of median nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-muscular-branches-of-radial-nerve",
+      "sourceObject": "Muscular branches of radial nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-muscular-branches-of-radial-nerve",
+      "sourceObject": "Muscular branches of radial nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-muscular-branches-of-ulnar-nerve",
+      "sourceObject": "Muscular branches of ulnar nerve.l",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-muscular-branches-of-ulnar-nerve",
+      "sourceObject": "Muscular branches of ulnar nerve.r",
+      "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-anterior-interosseous-nerve-of-forearm",
+      "sourceObject": "Anterior interosseous nerve of forearm.l",
+      "partId": "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-anterior-interosseous-nerve-of-forearm",
+      "sourceObject": "Anterior interosseous nerve of forearm.r",
+      "partId": "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-posterior-interosseous-nerve-of-forearm",
+      "sourceObject": "Posterior interosseous nerve of forearm.l",
+      "partId": "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-posterior-interosseous-nerve-of-forearm",
+      "sourceObject": "Posterior interosseous nerve of forearm.r",
+      "partId": "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-deep-branch-of-radial-nerve",
+      "sourceObject": "Deep branch of radial nerve.l",
+      "partId": "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-deep-branch-of-radial-nerve",
+      "sourceObject": "Deep branch of radial nerve.r",
+      "partId": "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:left-superficial-branch-of-radial-nerve",
+      "sourceObject": "Superficial branch of radial nerve.l",
+      "partId": "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-L",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    },
+    {
+      "conceptId": "atlas:right-superficial-branch-of-radial-nerve",
+      "sourceObject": "Superficial branch of radial nerve.r",
+      "partId": "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-R",
+      "existingGraphBinding": "new_candidate_identity_no_existing_exact_binding",
+      "existingEntity": null,
+      "preserveRelationIds": [],
+      "existingLabelReused": false,
+      "discardedProvisionalId": null,
+      "integrationAction": "Candidate identity only; dataset and geometry acceptance remain pending",
+      "fmaCrossReference": null,
+      "fmaStatus": "not_established_by_this_bounded_source_object_audit"
+    }
+  ],
+  "preservedExistingEntities": [
+    {
+      "id": "atlas:left-suprascapular-nerve",
+      "name": "Left suprascapular nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:left-axillary-nerve",
+      "name": "Left axillary nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:left-upper-subscapular-nerve",
+      "name": "Left upper subscapular nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:left-lower-subscapular-nerve",
+      "name": "Left lower subscapular nerve",
+      "side": "left",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve",
+      "name": "Right suprascapular nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-axillary-nerve",
+      "name": "Right axillary nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-upper-subscapular-nerve",
+      "name": "Right upper subscapular nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    },
+    {
+      "id": "atlas:right-lower-subscapular-nerve",
+      "name": "Right lower subscapular nerve",
+      "side": "right",
+      "kind": "nerve",
+      "geometryPartIds": [],
+      "representationStatus": "missing_geometry",
+      "expertReview": "pending",
+      "anatomicalCoverage": "non_exhaustive",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        },
+        {
+          "sourceId": "zanatomy-ta2-terminology",
+          "locator": "TA2 ID 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "geometryNote": "Anatomical concept only. No current main-atlas or registered-extension geometry is mapped."
+    }
+  ],
+  "preservedExistingRelations": [
+    {
+      "id": "atlas:left-suprascapular-nerve|innervates|FMA32545",
+      "subject": "atlas:left-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32545",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve|innervates|FMA32544",
+      "subject": "atlas:right-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32544",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / supraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:left-suprascapular-nerve|innervates|FMA32548",
+      "subject": "atlas:left-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32548",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve|innervates|FMA32547",
+      "subject": "atlas:right-suprascapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA32547",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / infraspinatus row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / suprascapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:left-axillary-nerve|innervates|FMA32554",
+      "subject": "atlas:left-axillary-nerve",
+      "predicate": "innervates",
+      "object": "FMA32554",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:right-axillary-nerve|innervates|FMA32553",
+      "subject": "atlas:right-axillary-nerve",
+      "predicate": "innervates",
+      "object": "FMA32553",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / teres minor row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / axillary row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:left-upper-subscapular-nerve|innervates|FMA13415",
+      "subject": "atlas:left-upper-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13415",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:left-lower-subscapular-nerve|innervates|FMA13415",
+      "subject": "atlas:left-lower-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13415",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:right-upper-subscapular-nerve|innervates|FMA13414",
+      "subject": "atlas:right-upper-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13414",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / upper subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    },
+    {
+      "id": "atlas:right-lower-subscapular-nerve|innervates|FMA13414",
+      "subject": "atlas:right-lower-subscapular-nerve",
+      "predicate": "innervates",
+      "object": "FMA13414",
+      "evidence": [
+        {
+          "sourceId": "uams-upper-limb",
+          "locator": "subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Muscles / rotator cuff / subscapularis row / Innervation"
+        },
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves / lower subscapular row / Motor"
+        }
+      ],
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "typical_anatomy_non_exhaustive",
+      "qualifiers": {
+        "laterality": "Bilateral instantiation of general university anatomy descriptions; not specimen-validated",
+        "coverage": "Selected muscle-level motor supply; no complete territory or muscular branch geometry represented",
+        "geometry": "Nerve concept has no mapped geometry",
+        "displayNoteTr": "Sinir geometrisi yok"
+      }
+    }
+  ],
+  "contextEndpointBindings": [
+    {
+      "sourceObject": "Musculocutaneous nerve.l",
+      "conceptId": "atlas:left-musculocutaneous-nerve",
+      "partId": "ZA-MCN-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Musculocutaneous nerve.r",
+      "conceptId": "atlas:right-musculocutaneous-nerve",
+      "partId": "ZA-MCN-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Median nerve.l",
+      "conceptId": "atlas:left-median-nerve",
+      "partId": "ZA-MED-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Median nerve.r",
+      "conceptId": "atlas:right-median-nerve",
+      "partId": "ZA-MED-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Superior trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-superior-trunk",
+      "partId": "ZA-BP-SUP-TRUNK-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Middle trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-middle-trunk",
+      "partId": "ZA-BP-MID-TRUNK-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Inferior trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-inferior-trunk",
+      "partId": "ZA-BP-INF-TRUNK-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Anterior division of superior trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-superior-anterior-division",
+      "partId": "ZA-BP-SUP-ANT-DIV-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Anterior division of middle trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-middle-anterior-division",
+      "partId": "ZA-BP-MID-ANT-DIV-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Anterior division of inferior trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-inferior-anterior-division",
+      "partId": "ZA-BP-INF-ANT-DIV-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Posterior division of superior trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-superior-posterior-division",
+      "partId": "ZA-BP-SUP-POST-DIV-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Posterior division of middle trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-middle-posterior-division",
+      "partId": "ZA-BP-MID-POST-DIV-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Posterior division of inferior trunk of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-inferior-posterior-division",
+      "partId": "ZA-BP-INF-POST-DIV-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Posterior cord of brachial plexus.l",
+      "conceptId": "atlas:left-brachial-plexus-posterior-cord",
+      "partId": "ZA-BP-POST-CORD-L",
+      "side": "left"
+    },
+    {
+      "sourceObject": "Superior trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-superior-trunk",
+      "partId": "ZA-BP-SUP-TRUNK-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Middle trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-middle-trunk",
+      "partId": "ZA-BP-MID-TRUNK-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Inferior trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-inferior-trunk",
+      "partId": "ZA-BP-INF-TRUNK-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Anterior division of superior trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-superior-anterior-division",
+      "partId": "ZA-BP-SUP-ANT-DIV-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Anterior division of middle trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-middle-anterior-division",
+      "partId": "ZA-BP-MID-ANT-DIV-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Anterior division of inferior trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-inferior-anterior-division",
+      "partId": "ZA-BP-INF-ANT-DIV-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Posterior division of superior trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-superior-posterior-division",
+      "partId": "ZA-BP-SUP-POST-DIV-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Posterior division of middle trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-middle-posterior-division",
+      "partId": "ZA-BP-MID-POST-DIV-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Posterior division of inferior trunk of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-inferior-posterior-division",
+      "partId": "ZA-BP-INF-POST-DIV-R",
+      "side": "right"
+    },
+    {
+      "sourceObject": "Posterior cord of brachial plexus.r",
+      "conceptId": "atlas:right-brachial-plexus-posterior-cord",
+      "partId": "ZA-BP-POST-CORD-R",
+      "side": "right"
+    }
+  ],
+  "prohibitedInference": "Name agreement is not accepted registration; a separate reference does not confer main-body geometry."
+}

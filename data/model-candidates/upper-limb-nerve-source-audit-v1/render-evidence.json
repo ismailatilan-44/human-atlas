@@ -1,0 +1,80 @@
+{
+  "views": [
+    {
+      "file": "source-decoded-whole-arm.png",
+      "mode": "source-left decoded-right",
+      "center": [
+        0.1599999964237213,
+        1.149999976158142,
+        0.0
+      ],
+      "direction": [
+        0.09942499548196793,
+        0.03976999595761299,
+        0.9942499399185181
+      ],
+      "orthoScale": 1.1
+    },
+    {
+      "file": "source-decoded-shoulder.png",
+      "mode": "source-left decoded-right",
+      "center": [
+        0.10000000149011612,
+        1.3700000047683716,
+        0.0
+      ],
+      "direction": [
+        -0.3282516598701477,
+        0.11254341900348663,
+        0.9378618597984314
+      ],
+      "orthoScale": 0.5
+    },
+    {
+      "file": "source-decoded-forearm.png",
+      "mode": "source-left decoded-right",
+      "center": [
+        0.23999999463558197,
+        0.9900000095367432,
+        0.019999999552965164
+      ],
+      "direction": [
+        0.4471420645713806,
+        0.017885683104395866,
+        0.8942841291427612
+      ],
+      "orthoScale": 0.48
+    },
+    {
+      "file": "registered-main-shoulder.png",
+      "mode": "existing-matrix nerves and ivory source bones over blue main bones",
+      "center": [
+        0.10000000149011612,
+        1.3799999952316284,
+        0.0
+      ],
+      "direction": [
+        -0.3698001205921173,
+        0.09245003014802933,
+        0.9245002865791321
+      ],
+      "orthoScale": 0.5
+    },
+    {
+      "file": "registered-main-forearm.png",
+      "mode": "existing-matrix nerves and ivory source bones over blue main bones",
+      "center": [
+        0.23999999463558197,
+        1.0099999904632568,
+        0.019999999552965164
+      ],
+      "direction": [
+        0.4471420645713806,
+        0.017885683104395866,
+        0.8942841291427612
+      ],
+      "orthoScale": 0.52
+    }
+  ],
+  "limits": "Representative left-sided views, both sides numerically checked. Pair offsets are render-only. Registered views use old matrix without a new fit and are not acceptance."
+}

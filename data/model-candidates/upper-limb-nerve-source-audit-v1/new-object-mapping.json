@@ -1,0 +1,542 @@
+[
+  {
+    "sourceObject": "Ulnar nerve.l",
+    "partId": "ZA-ULNR-ULNAR-NERVE-L",
+    "conceptId": "atlas:left-ulnar-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Ulnar nerve.r",
+    "partId": "ZA-ULNR-ULNAR-NERVE-R",
+    "conceptId": "atlas:right-ulnar-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Radial nerve.l",
+    "partId": "ZA-ULNR-RADIAL-NERVE-L",
+    "conceptId": "atlas:left-radial-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Radial nerve.r",
+    "partId": "ZA-ULNR-RADIAL-NERVE-R",
+    "conceptId": "atlas:right-radial-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Axillary nerve.l",
+    "partId": "ZA-ULNR-AXILLARY-NERVE-L",
+    "conceptId": "atlas:left-axillary-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Axillary nerve.r",
+    "partId": "ZA-ULNR-AXILLARY-NERVE-R",
+    "conceptId": "atlas:right-axillary-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Medial brachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-medial-brachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Medial brachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-medial-brachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Superior lateral brachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-superior-lateral-brachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Superior lateral brachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-superior-lateral-brachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Inferior lateral brachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-inferior-lateral-brachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Inferior lateral brachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-inferior-lateral-brachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Medial antebrachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-medial-antebrachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Medial antebrachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-medial-antebrachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Lateral antebrachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-lateral-antebrachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Lateral antebrachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-lateral-antebrachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Posterior antebrachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-posterior-antebrachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Posterior antebrachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-posterior-antebrachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-anterior-branch-of-medial-antebrachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-anterior-branch-of-medial-antebrachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.l",
+    "partId": "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L",
+    "conceptId": "atlas:left-posterior-branch-of-medial-antebrachial-cutaneous-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.r",
+    "partId": "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R",
+    "conceptId": "atlas:right-posterior-branch-of-medial-antebrachial-cutaneous-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Lateral pectoral nerve.l",
+    "partId": "ZA-ULNR-LATERAL-PECTORAL-NERVE-L",
+    "conceptId": "atlas:left-lateral-pectoral-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Lateral pectoral nerve.r",
+    "partId": "ZA-ULNR-LATERAL-PECTORAL-NERVE-R",
+    "conceptId": "atlas:right-lateral-pectoral-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Medial pectoral nerve.l",
+    "partId": "ZA-ULNR-MEDIAL-PECTORAL-NERVE-L",
+    "conceptId": "atlas:left-medial-pectoral-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Medial pectoral nerve.r",
+    "partId": "ZA-ULNR-MEDIAL-PECTORAL-NERVE-R",
+    "conceptId": "atlas:right-medial-pectoral-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Dorsal scapular nerve.l",
+    "partId": "ZA-ULNR-DORSAL-SCAPULAR-NERVE-L",
+    "conceptId": "atlas:left-dorsal-scapular-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Dorsal scapular nerve.r",
+    "partId": "ZA-ULNR-DORSAL-SCAPULAR-NERVE-R",
+    "conceptId": "atlas:right-dorsal-scapular-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Long thoracic nerve.l",
+    "partId": "ZA-ULNR-LONG-THORACIC-NERVE-L",
+    "conceptId": "atlas:left-long-thoracic-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Long thoracic nerve.r",
+    "partId": "ZA-ULNR-LONG-THORACIC-NERVE-R",
+    "conceptId": "atlas:right-long-thoracic-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Thoracodorsal nerve.l",
+    "partId": "ZA-ULNR-THORACODORSAL-NERVE-L",
+    "conceptId": "atlas:left-thoracodorsal-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Thoracodorsal nerve.r",
+    "partId": "ZA-ULNR-THORACODORSAL-NERVE-R",
+    "conceptId": "atlas:right-thoracodorsal-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Suprascapular nerve.l",
+    "partId": "ZA-ULNR-SUPRASCAPULAR-NERVE-L",
+    "conceptId": "atlas:left-suprascapular-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Suprascapular nerve.r",
+    "partId": "ZA-ULNR-SUPRASCAPULAR-NERVE-R",
+    "conceptId": "atlas:right-suprascapular-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Superior subscapular nerve.l",
+    "partId": "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-L",
+    "conceptId": "atlas:left-upper-subscapular-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Superior subscapular nerve.r",
+    "partId": "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-R",
+    "conceptId": "atlas:right-upper-subscapular-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Inferior subscapular nerve.l",
+    "partId": "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-L",
+    "conceptId": "atlas:left-lower-subscapular-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Inferior subscapular nerve.r",
+    "partId": "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-R",
+    "conceptId": "atlas:right-lower-subscapular-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of axillary nerve.l",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-L",
+    "conceptId": "atlas:left-muscular-branches-of-axillary-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of axillary nerve.r",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-R",
+    "conceptId": "atlas:right-muscular-branches-of-axillary-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of median nerve.l",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-L",
+    "conceptId": "atlas:left-muscular-branches-of-median-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of median nerve.r",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-R",
+    "conceptId": "atlas:right-muscular-branches-of-median-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of radial nerve.l",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-L",
+    "conceptId": "atlas:left-muscular-branches-of-radial-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of radial nerve.r",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-R",
+    "conceptId": "atlas:right-muscular-branches-of-radial-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of ulnar nerve.l",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-L",
+    "conceptId": "atlas:left-muscular-branches-of-ulnar-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Muscular branches of ulnar nerve.r",
+    "partId": "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-R",
+    "conceptId": "atlas:right-muscular-branches-of-ulnar-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Anterior interosseous nerve of forearm.l",
+    "partId": "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L",
+    "conceptId": "atlas:left-anterior-interosseous-nerve-of-forearm",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Anterior interosseous nerve of forearm.r",
+    "partId": "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R",
+    "conceptId": "atlas:right-anterior-interosseous-nerve-of-forearm",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Posterior interosseous nerve of forearm.l",
+    "partId": "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L",
+    "conceptId": "atlas:left-posterior-interosseous-nerve-of-forearm",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Posterior interosseous nerve of forearm.r",
+    "partId": "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R",
+    "conceptId": "atlas:right-posterior-interosseous-nerve-of-forearm",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Deep branch of radial nerve.l",
+    "partId": "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-L",
+    "conceptId": "atlas:left-deep-branch-of-radial-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Deep branch of radial nerve.r",
+    "partId": "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-R",
+    "conceptId": "atlas:right-deep-branch-of-radial-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Superficial branch of radial nerve.l",
+    "partId": "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-L",
+    "conceptId": "atlas:left-superficial-branch-of-radial-nerve",
+    "side": "left",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  },
+  {
+    "sourceObject": "Superficial branch of radial nerve.r",
+    "partId": "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-R",
+    "conceptId": "atlas:right-superficial-branch-of-radial-nerve",
+    "side": "right",
+    "system": "nervous",
+    "componentRole": "nerve",
+    "role": "primary",
+    "scope": "Entire named source curve including all authored splines and radii; source extent only, anatomical course and expert acceptance pending; grouped branches are not subdivided"
+  }
+]

@@ -1,0 +1,4309 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate_only_not_integrated",
+  "sourceRevision": "0ac477f",
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "datasetId": "upper-limb-nerve-reference",
+  "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+  "scope": "127 source objects: 54 new nerve/group curves, 24 existing nerve context curves and 49 bone context objects; not a complete shoulder, upper-limb or hand nerve network",
+  "labels": [
+    {
+      "ids": [
+        "atlas:left-ulnar-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Ulnar nerve.l",
+      "sourceEnglish": "Ulnar nerve",
+      "tr": "Ulnar sinir",
+      "en": "Ulnar nerve",
+      "la": "Nervus ulnaris",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-ULNAR-NERVE-L"
+      ],
+      "ta2TableId": 6449,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir. Kaynaktaki tek kontrol noktalı spline görünür bir dal olarak sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6449; CSV line 6532; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-ulnar-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Ulnar nerve.r",
+      "sourceEnglish": "Ulnar nerve",
+      "tr": "Ulnar sinir",
+      "en": "Ulnar nerve",
+      "la": "Nervus ulnaris",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-ULNAR-NERVE-R"
+      ],
+      "ta2TableId": 6449,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir. Kaynaktaki tek kontrol noktalı spline görünür bir dal olarak sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6449; CSV line 6532; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Radial nerve.l",
+      "sourceEnglish": "Radial nerve",
+      "tr": "Radial sinir",
+      "en": "Radial nerve",
+      "la": "Nervus radialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-RADIAL-NERVE-L"
+      ],
+      "ta2TableId": 6431,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6431; CSV line 6514; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Radial nerve.r",
+      "sourceEnglish": "Radial nerve",
+      "tr": "Radial sinir",
+      "en": "Radial nerve",
+      "la": "Nervus radialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-RADIAL-NERVE-R"
+      ],
+      "ta2TableId": 6431,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6431; CSV line 6514; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-axillary-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Axillary nerve.l",
+      "sourceEnglish": "Axillary nerve",
+      "tr": "Aksiller sinir",
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris",
+      "side": "left",
+      "aliases": [
+        "axillary nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-AXILLARY-NERVE-L"
+      ],
+      "ta2TableId": 6440,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-axillary-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Axillary nerve.r",
+      "sourceEnglish": "Axillary nerve",
+      "tr": "Aksiller sinir",
+      "en": "Axillary nerve",
+      "la": "Nervus axillaris",
+      "side": "right",
+      "aliases": [
+        "axillary nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-AXILLARY-NERVE-R"
+      ],
+      "ta2TableId": 6440,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6440; CSV line 6523; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-medial-brachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Medial brachial cutaneous nerve.l",
+      "sourceEnglish": "Medial brachial cutaneous nerve",
+      "tr": "Kolun medial deri siniri",
+      "en": "Medial brachial cutaneous nerve",
+      "la": "Nervus cutaneus medialis brachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6445,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6445; CSV line 6528; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-medial-brachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Medial brachial cutaneous nerve.r",
+      "sourceEnglish": "Medial brachial cutaneous nerve",
+      "tr": "Kolun medial deri siniri",
+      "en": "Medial brachial cutaneous nerve",
+      "la": "Nervus cutaneus medialis brachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MEDIAL-BRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6445,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6445; CSV line 6528; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-superior-lateral-brachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superior lateral brachial cutaneous nerve.l",
+      "sourceEnglish": "Superior lateral brachial cutaneous nerve",
+      "tr": "Kolun üst lateral deri siniri",
+      "en": "Superior lateral brachial cutaneous nerve",
+      "la": "Nervus cutaneus lateralis superior brachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6442,
+      "latinStatus": "primary_IFAA_term_verified_pinned_Latin_conflict_retained",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir. Sabit kaynak tablosundaki yanlış bölgeyi adlandıran Latin alanı yerine ayrı IFAA terminoloji kanıtı kullanılır.",
+      "evidence": [
+        {
+          "sourceId": "ifaa-ta98-rat-terminology",
+          "locator": "TA code A14.2.03.061; Remedy column; superior lateral brachial cutaneous nerve"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-superior-lateral-brachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superior lateral brachial cutaneous nerve.r",
+      "sourceEnglish": "Superior lateral brachial cutaneous nerve",
+      "tr": "Kolun üst lateral deri siniri",
+      "en": "Superior lateral brachial cutaneous nerve",
+      "la": "Nervus cutaneus lateralis superior brachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6442,
+      "latinStatus": "primary_IFAA_term_verified_pinned_Latin_conflict_retained",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir. Sabit kaynak tablosundaki yanlış bölgeyi adlandıran Latin alanı yerine ayrı IFAA terminoloji kanıtı kullanılır.",
+      "evidence": [
+        {
+          "sourceId": "ifaa-ta98-rat-terminology",
+          "locator": "TA code A14.2.03.061; Remedy column; superior lateral brachial cutaneous nerve"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-inferior-lateral-brachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.l",
+      "sourceEnglish": "Inferior lateral brachial cutaneous nerve",
+      "tr": "Kolun alt lateral deri siniri",
+      "en": "Inferior lateral brachial cutaneous nerve",
+      "la": "Nervus cutaneus lateralis inferior brachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6433,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6433; CSV line 6516; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-inferior-lateral-brachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Inferior lateral brachial cutaneous nerve.r",
+      "sourceEnglish": "Inferior lateral brachial cutaneous nerve",
+      "tr": "Kolun alt lateral deri siniri",
+      "en": "Inferior lateral brachial cutaneous nerve",
+      "la": "Nervus cutaneus lateralis inferior brachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-INFERIOR-LATERAL-BRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6433,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6433; CSV line 6516; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-medial-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Medial antebrachial cutaneous nerve.l",
+      "sourceEnglish": "Medial antebrachial cutaneous nerve",
+      "tr": "Önkolun medial deri siniri",
+      "en": "Medial antebrachial cutaneous nerve",
+      "la": "Nervus cutaneus medialis antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6446,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6446; CSV line 6529; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-medial-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Medial antebrachial cutaneous nerve.r",
+      "sourceEnglish": "Medial antebrachial cutaneous nerve",
+      "tr": "Önkolun medial deri siniri",
+      "en": "Medial antebrachial cutaneous nerve",
+      "la": "Nervus cutaneus medialis antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6446,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6446; CSV line 6529; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-lateral-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Lateral antebrachial cutaneous nerve.l",
+      "sourceEnglish": "Lateral antebrachial cutaneous nerve",
+      "tr": "Önkolun lateral deri siniri",
+      "en": "Lateral antebrachial cutaneous nerve",
+      "la": "Nervus cutaneus lateralis antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6423,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6423; CSV line 6506; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-lateral-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Lateral antebrachial cutaneous nerve.r",
+      "sourceEnglish": "Lateral antebrachial cutaneous nerve",
+      "tr": "Önkolun lateral deri siniri",
+      "en": "Lateral antebrachial cutaneous nerve",
+      "la": "Nervus cutaneus lateralis antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-LATERAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6423,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6423; CSV line 6506; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-posterior-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior antebrachial cutaneous nerve.l",
+      "sourceEnglish": "Posterior antebrachial cutaneous nerve",
+      "tr": "Önkolun posterior deri siniri",
+      "en": "Posterior antebrachial cutaneous nerve",
+      "la": "Nervus cutaneus posterior antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6434,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6434; CSV line 6517; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-posterior-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior antebrachial cutaneous nerve.r",
+      "sourceEnglish": "Posterior antebrachial cutaneous nerve",
+      "tr": "Önkolun posterior deri siniri",
+      "en": "Posterior antebrachial cutaneous nerve",
+      "la": "Nervus cutaneus posterior antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-POSTERIOR-ANTEBRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6434,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6434; CSV line 6517; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-anterior-branch-of-medial-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.l",
+      "sourceEnglish": "Anterior branch of medial antebrachial cutaneous nerve",
+      "tr": "Önkolun medial deri sinirinin anterior dalı",
+      "en": "Anterior branch of medial antebrachial cutaneous nerve",
+      "la": "Ramus anterior nervi cutanei medialis antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6447,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6447; CSV line 6530; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-anterior-branch-of-medial-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior branch of medial antebrachial cutaneous nerve.r",
+      "sourceEnglish": "Anterior branch of medial antebrachial cutaneous nerve",
+      "tr": "Önkolun medial deri sinirinin anterior dalı",
+      "en": "Anterior branch of medial antebrachial cutaneous nerve",
+      "la": "Ramus anterior nervi cutanei medialis antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-ANTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6447,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6447; CSV line 6530; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-posterior-branch-of-medial-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.l",
+      "sourceEnglish": "Posterior branch of medial antebrachial cutaneous nerve",
+      "tr": "Önkolun medial deri sinirinin posterior dalı",
+      "en": "Posterior branch of medial antebrachial cutaneous nerve",
+      "la": "Ramus posterior nervi cutanei medialis antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-L"
+      ],
+      "ta2TableId": 6448,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6448; CSV line 6531; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-posterior-branch-of-medial-antebrachial-cutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior branch of medial antebrachial cutaneous nerve.r",
+      "sourceEnglish": "Posterior branch of medial antebrachial cutaneous nerve",
+      "tr": "Önkolun medial deri sinirinin posterior dalı",
+      "en": "Posterior branch of medial antebrachial cutaneous nerve",
+      "la": "Ramus posterior nervi cutanei medialis antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-POSTERIOR-BRANCH-OF-MEDIAL-ANTEBRACHIAL-CUTANEOUS-NERVE-R"
+      ],
+      "ta2TableId": 6448,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6448; CSV line 6531; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-lateral-pectoral-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Lateral pectoral nerve.l",
+      "sourceEnglish": "Lateral pectoral nerve",
+      "tr": "Lateral pektoral sinir",
+      "en": "Lateral pectoral nerve",
+      "la": "Nervus pectoralis lateralis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-LATERAL-PECTORAL-NERVE-L"
+      ],
+      "ta2TableId": 6419,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6419; CSV line 6502; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-lateral-pectoral-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Lateral pectoral nerve.r",
+      "sourceEnglish": "Lateral pectoral nerve",
+      "tr": "Lateral pektoral sinir",
+      "en": "Lateral pectoral nerve",
+      "la": "Nervus pectoralis lateralis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-LATERAL-PECTORAL-NERVE-R"
+      ],
+      "ta2TableId": 6419,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6419; CSV line 6502; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-medial-pectoral-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Medial pectoral nerve.l",
+      "sourceEnglish": "Medial pectoral nerve",
+      "tr": "Medial pektoral sinir",
+      "en": "Medial pectoral nerve",
+      "la": "Nervus pectoralis medialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MEDIAL-PECTORAL-NERVE-L"
+      ],
+      "ta2TableId": 6444,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6444; CSV line 6527; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-medial-pectoral-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Medial pectoral nerve.r",
+      "sourceEnglish": "Medial pectoral nerve",
+      "tr": "Medial pektoral sinir",
+      "en": "Medial pectoral nerve",
+      "la": "Nervus pectoralis medialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MEDIAL-PECTORAL-NERVE-R"
+      ],
+      "ta2TableId": 6444,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6444; CSV line 6527; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-dorsal-scapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Dorsal scapular nerve.l",
+      "sourceEnglish": "Dorsal scapular nerve",
+      "tr": "Dorsal skapular sinir",
+      "en": "Dorsal scapular nerve",
+      "la": "Nervus dorsalis scapulae",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-DORSAL-SCAPULAR-NERVE-L"
+      ],
+      "ta2TableId": 6409,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6409; CSV line 6492; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-dorsal-scapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Dorsal scapular nerve.r",
+      "sourceEnglish": "Dorsal scapular nerve",
+      "tr": "Dorsal skapular sinir",
+      "en": "Dorsal scapular nerve",
+      "la": "Nervus dorsalis scapulae",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-DORSAL-SCAPULAR-NERVE-R"
+      ],
+      "ta2TableId": 6409,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6409; CSV line 6492; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-long-thoracic-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Long thoracic nerve.l",
+      "sourceEnglish": "Long thoracic nerve",
+      "tr": "Uzun torasik sinir",
+      "en": "Long thoracic nerve",
+      "la": "Nervus thoracicus longus",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-LONG-THORACIC-NERVE-L"
+      ],
+      "ta2TableId": 6410,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6410; CSV line 6493; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-long-thoracic-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Long thoracic nerve.r",
+      "sourceEnglish": "Long thoracic nerve",
+      "tr": "Uzun torasik sinir",
+      "en": "Long thoracic nerve",
+      "la": "Nervus thoracicus longus",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-LONG-THORACIC-NERVE-R"
+      ],
+      "ta2TableId": 6410,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6410; CSV line 6493; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-thoracodorsal-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Thoracodorsal nerve.l",
+      "sourceEnglish": "Thoracodorsal nerve",
+      "tr": "Torakodorsal sinir",
+      "en": "Thoracodorsal nerve",
+      "la": "Nervus thoracodorsalis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-THORACODORSAL-NERVE-L"
+      ],
+      "ta2TableId": 6430,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6430; CSV line 6513; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-thoracodorsal-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Thoracodorsal nerve.r",
+      "sourceEnglish": "Thoracodorsal nerve",
+      "tr": "Torakodorsal sinir",
+      "en": "Thoracodorsal nerve",
+      "la": "Nervus thoracodorsalis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-THORACODORSAL-NERVE-R"
+      ],
+      "ta2TableId": 6430,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6430; CSV line 6513; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-suprascapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Suprascapular nerve.l",
+      "sourceEnglish": "Suprascapular nerve",
+      "tr": "Supraskapular sinir",
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis",
+      "side": "left",
+      "aliases": [
+        "suprascapular nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPRASCAPULAR-NERVE-L"
+      ],
+      "ta2TableId": 6411,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-suprascapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Suprascapular nerve.r",
+      "sourceEnglish": "Suprascapular nerve",
+      "tr": "Supraskapular sinir",
+      "en": "Suprascapular nerve",
+      "la": "Nervus suprascapularis",
+      "side": "right",
+      "aliases": [
+        "suprascapular nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPRASCAPULAR-NERVE-R"
+      ],
+      "ta2TableId": 6411,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6411; CSV line 6494; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-upper-subscapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superior subscapular nerve.l",
+      "sourceEnglish": "Superior subscapular nerve",
+      "tr": "Üst subskapular sinir",
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior",
+      "side": "left",
+      "aliases": [
+        "upper subscapular nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-L"
+      ],
+      "ta2TableId": 6428,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-upper-subscapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superior subscapular nerve.r",
+      "sourceEnglish": "Superior subscapular nerve",
+      "tr": "Üst subskapular sinir",
+      "en": "Superior subscapular nerve",
+      "la": "Nervus subscapularis superior",
+      "side": "right",
+      "aliases": [
+        "upper subscapular nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPERIOR-SUBSCAPULAR-NERVE-R"
+      ],
+      "ta2TableId": 6428,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6428; CSV line 6511; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-lower-subscapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Inferior subscapular nerve.l",
+      "sourceEnglish": "Inferior subscapular nerve",
+      "tr": "Alt subskapular sinir",
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior",
+      "side": "left",
+      "aliases": [
+        "lower subscapular nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-L"
+      ],
+      "ta2TableId": 6429,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-lower-subscapular-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Inferior subscapular nerve.r",
+      "sourceEnglish": "Inferior subscapular nerve",
+      "tr": "Alt subskapular sinir",
+      "en": "Inferior subscapular nerve",
+      "la": "Nervus subscapularis inferior",
+      "side": "right",
+      "aliases": [
+        "lower subscapular nerve"
+      ],
+      "geometryPartIds": [
+        "ZA-ULNR-INFERIOR-SUBSCAPULAR-NERVE-R"
+      ],
+      "ta2TableId": 6429,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6429; CSV line 6512; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-muscular-branches-of-axillary-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of axillary nerve.l",
+      "sourceEnglish": "Muscular branches of axillary nerve",
+      "tr": "Aksiller sinirin kas dalları",
+      "en": "Muscular branches of axillary nerve",
+      "la": "Rami musculares nervi axillaris",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-L"
+      ],
+      "ta2TableId": 6441,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6441; CSV line 6524; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-muscular-branches-of-axillary-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of axillary nerve.r",
+      "sourceEnglish": "Muscular branches of axillary nerve",
+      "tr": "Aksiller sinirin kas dalları",
+      "en": "Muscular branches of axillary nerve",
+      "la": "Rami musculares nervi axillaris",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-AXILLARY-NERVE-R"
+      ],
+      "ta2TableId": 6441,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6441; CSV line 6524; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-muscular-branches-of-median-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of median nerve.l",
+      "sourceEnglish": "Muscular branches of median nerve",
+      "tr": "Median sinirin kas dalları",
+      "en": "Muscular branches of median nerve",
+      "la": "Rami musculares nervi mediani",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-L"
+      ],
+      "ta2TableId": 6461,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6461; CSV line 6544; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-muscular-branches-of-median-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of median nerve.r",
+      "sourceEnglish": "Muscular branches of median nerve",
+      "tr": "Median sinirin kas dalları",
+      "en": "Muscular branches of median nerve",
+      "la": "Rami musculares nervi mediani",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-MEDIAN-NERVE-R"
+      ],
+      "ta2TableId": 6461,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6461; CSV line 6544; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-muscular-branches-of-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of radial nerve.l",
+      "sourceEnglish": "Muscular branches of radial nerve",
+      "tr": "Radial sinirin kas dalları",
+      "en": "Muscular branches of radial nerve",
+      "la": "Rami musculares nervi radialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-L"
+      ],
+      "ta2TableId": 6435,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6435; CSV line 6518; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-muscular-branches-of-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of radial nerve.r",
+      "sourceEnglish": "Muscular branches of radial nerve",
+      "tr": "Radial sinirin kas dalları",
+      "en": "Muscular branches of radial nerve",
+      "la": "Rami musculares nervi radialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-RADIAL-NERVE-R"
+      ],
+      "ta2TableId": 6435,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6435; CSV line 6518; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-muscular-branches-of-ulnar-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of ulnar nerve.l",
+      "sourceEnglish": "Muscular branches of ulnar nerve",
+      "tr": "Ulnar sinirin kas dalları",
+      "en": "Muscular branches of ulnar nerve",
+      "la": "Rami musculares nervi ulnaris",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-L"
+      ],
+      "ta2TableId": 6450,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6450; CSV line 6533; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-muscular-branches-of-ulnar-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Muscular branches of ulnar nerve.r",
+      "sourceEnglish": "Muscular branches of ulnar nerve",
+      "tr": "Ulnar sinirin kas dalları",
+      "en": "Muscular branches of ulnar nerve",
+      "la": "Rami musculares nervi ulnaris",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-MUSCULAR-BRANCHES-OF-ULNAR-NERVE-R"
+      ],
+      "ta2TableId": 6450,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynakta kas dalları adıyla tek nesnede gruplanmış eğriler gösterilir; tek tek kas hedefleri ya da bağımsız adlandırılmış dallar belirlenmiş değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6450; CSV line 6533; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-anterior-interosseous-nerve-of-forearm"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior interosseous nerve of forearm.l",
+      "sourceEnglish": "Anterior interosseous nerve of forearm",
+      "tr": "Önkolun anterior interosseöz siniri",
+      "en": "Anterior interosseous nerve of forearm",
+      "la": "Nervus interosseus anterior antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L"
+      ],
+      "ta2TableId": 6460,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6460; CSV line 6543; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-anterior-interosseous-nerve-of-forearm"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior interosseous nerve of forearm.r",
+      "sourceEnglish": "Anterior interosseous nerve of forearm",
+      "tr": "Önkolun anterior interosseöz siniri",
+      "en": "Anterior interosseous nerve of forearm",
+      "la": "Nervus interosseus anterior antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-ANTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R"
+      ],
+      "ta2TableId": 6460,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6460; CSV line 6543; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-posterior-interosseous-nerve-of-forearm"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior interosseous nerve of forearm.l",
+      "sourceEnglish": "Posterior interosseous nerve of forearm",
+      "tr": "Önkolun posterior interosseöz siniri",
+      "en": "Posterior interosseous nerve of forearm",
+      "la": "Nervus interosseus posterior antebrachii",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-L"
+      ],
+      "ta2TableId": 6437,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir. Derin radial dal ile sınırı kaynak tanımına bağlıdır; eşanlamlılık veya dal ayrımı bu geometriyle kesinleştirilmez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6437; CSV line 6520; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-posterior-interosseous-nerve-of-forearm"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior interosseous nerve of forearm.r",
+      "sourceEnglish": "Posterior interosseous nerve of forearm",
+      "tr": "Önkolun posterior interosseöz siniri",
+      "en": "Posterior interosseous nerve of forearm",
+      "la": "Nervus interosseus posterior antebrachii",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-POSTERIOR-INTEROSSEOUS-NERVE-OF-FOREARM-R"
+      ],
+      "ta2TableId": 6437,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir. Derin radial dal ile sınırı kaynak tanımına bağlıdır; eşanlamlılık veya dal ayrımı bu geometriyle kesinleştirilmez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6437; CSV line 6520; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-deep-branch-of-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Deep branch of radial nerve.l",
+      "sourceEnglish": "Deep branch of radial nerve",
+      "tr": "Radial sinirin derin dalı",
+      "en": "Deep branch of radial nerve",
+      "la": "Ramus profundus nervi radialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-L"
+      ],
+      "ta2TableId": 6436,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6436; CSV line 6519; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-deep-branch-of-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Deep branch of radial nerve.r",
+      "sourceEnglish": "Deep branch of radial nerve",
+      "tr": "Radial sinirin derin dalı",
+      "en": "Deep branch of radial nerve",
+      "la": "Ramus profundus nervi radialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-DEEP-BRANCH-OF-RADIAL-NERVE-R"
+      ],
+      "ta2TableId": 6436,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6436; CSV line 6519; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-superficial-branch-of-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superficial branch of radial nerve.l",
+      "sourceEnglish": "Superficial branch of radial nerve",
+      "tr": "Radial sinirin yüzeyel dalı",
+      "en": "Superficial branch of radial nerve",
+      "la": "Ramus superficialis nervi radialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-L"
+      ],
+      "ta2TableId": 6438,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6438; CSV line 6521; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:right-superficial-branch-of-radial-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superficial branch of radial nerve.r",
+      "sourceEnglish": "Superficial branch of radial nerve",
+      "tr": "Radial sinirin yüzeyel dalı",
+      "en": "Superficial branch of radial nerve",
+      "la": "Ramus superficialis nervi radialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-SUPERFICIAL-BRANCH-OF-RADIAL-NERVE-R"
+      ],
+      "ta2TableId": 6438,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Kaynak nesnenin mevcut seyri gösterilir; tüm sinir ağı, bütün dallar veya anatomik uzman kabulü değildir.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6438; CSV line 6521; English and Latin columns"
+        }
+      ],
+      "role": "primary"
+    },
+    {
+      "ids": [
+        "atlas:left-musculocutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Musculocutaneous nerve.l",
+      "sourceEnglish": "Musculocutaneous nerve",
+      "tr": "Muskülokutan sinir",
+      "en": "Musculocutaneous nerve",
+      "la": "Nervus musculocutaneus",
+      "side": "left",
+      "aliases": [
+        "muskulokutaneus",
+        "musculocutaneus"
+      ],
+      "geometryPartIds": [
+        "ZA-MCN-L"
+      ],
+      "ta2TableId": 6421,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6504; row 6421; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-musculocutaneous-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Musculocutaneous nerve.r",
+      "sourceEnglish": "Musculocutaneous nerve",
+      "tr": "Muskülokutan sinir",
+      "en": "Musculocutaneous nerve",
+      "la": "Nervus musculocutaneus",
+      "side": "right",
+      "aliases": [
+        "muskulokutaneus",
+        "musculocutaneus"
+      ],
+      "geometryPartIds": [
+        "ZA-MCN-R"
+      ],
+      "ta2TableId": 6421,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6504; row 6421; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-median-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Median nerve.l",
+      "sourceEnglish": "Median nerve",
+      "tr": "Median sinir",
+      "en": "Median nerve",
+      "la": "Nervus medianus",
+      "side": "left",
+      "aliases": [
+        "median",
+        "nervus medianus"
+      ],
+      "geometryPartIds": [
+        "ZA-MED-L"
+      ],
+      "ta2TableId": 6459,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6542; row 6459; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-median-nerve"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Median nerve.r",
+      "sourceEnglish": "Median nerve",
+      "tr": "Median sinir",
+      "en": "Median nerve",
+      "la": "Nervus medianus",
+      "side": "right",
+      "aliases": [
+        "median",
+        "nervus medianus"
+      ],
+      "geometryPartIds": [
+        "ZA-MED-R"
+      ],
+      "ta2TableId": 6459,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6542; row 6459; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-superior-trunk"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superior trunk of brachial plexus.l",
+      "sourceEnglish": "Superior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun üst gövdesi",
+      "en": "Superior trunk of brachial plexus",
+      "la": "Truncus superior plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-SUP-TRUNK-L"
+      ],
+      "ta2TableId": 6398,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6481; row 6398; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-middle-trunk"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Middle trunk of brachial plexus.l",
+      "sourceEnglish": "Middle trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun orta gövdesi",
+      "en": "Middle trunk of brachial plexus",
+      "la": "Truncus medius plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-MID-TRUNK-L"
+      ],
+      "ta2TableId": 6401,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6484; row 6401; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-inferior-trunk"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Inferior trunk of brachial plexus.l",
+      "sourceEnglish": "Inferior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun alt gövdesi",
+      "en": "Inferior trunk of brachial plexus",
+      "la": "Truncus inferior plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-INF-TRUNK-L"
+      ],
+      "ta2TableId": 6404,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6487; row 6404; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-superior-anterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior division of superior trunk of brachial plexus.l",
+      "sourceEnglish": "Anterior division of superior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun üst gövdesinin ön bölümü",
+      "en": "Anterior division of superior trunk of brachial plexus",
+      "la": "Divisio anterior trunci superioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-SUP-ANT-DIV-L"
+      ],
+      "ta2TableId": 6399,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6482; row 6399; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-middle-anterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior division of middle trunk of brachial plexus.l",
+      "sourceEnglish": "Anterior division of middle trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun orta gövdesinin ön bölümü",
+      "en": "Anterior division of middle trunk of brachial plexus",
+      "la": "Divisio anterior trunci medii plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-MID-ANT-DIV-L"
+      ],
+      "ta2TableId": 6402,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6485; row 6402; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-inferior-anterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior division of inferior trunk of brachial plexus.l",
+      "sourceEnglish": "Anterior division of inferior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun alt gövdesinin ön bölümü",
+      "en": "Anterior division of inferior trunk of brachial plexus",
+      "la": "Divisio anterior trunci inferioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-INF-ANT-DIV-L"
+      ],
+      "ta2TableId": 6405,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6488; row 6405; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-superior-posterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior division of superior trunk of brachial plexus.l",
+      "sourceEnglish": "Posterior division of superior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun üst gövdesinin arka bölümü",
+      "en": "Posterior division of superior trunk of brachial plexus",
+      "la": "Divisio posterior trunci superioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-SUP-POST-DIV-L"
+      ],
+      "ta2TableId": 6400,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6483; row 6400; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-middle-posterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior division of middle trunk of brachial plexus.l",
+      "sourceEnglish": "Posterior division of middle trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun orta gövdesinin arka bölümü",
+      "en": "Posterior division of middle trunk of brachial plexus",
+      "la": "Divisio posterior trunci medii plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-MID-POST-DIV-L"
+      ],
+      "ta2TableId": 6403,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6486; row 6403; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-inferior-posterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior division of inferior trunk of brachial plexus.l",
+      "sourceEnglish": "Posterior division of inferior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun alt gövdesinin arka bölümü",
+      "en": "Posterior division of inferior trunk of brachial plexus",
+      "la": "Divisio posterior trunci inferioris plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-INF-POST-DIV-L"
+      ],
+      "ta2TableId": 6406,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6489; row 6406; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:left-brachial-plexus-posterior-cord"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior cord of brachial plexus.l",
+      "sourceEnglish": "Posterior cord of brachial plexus",
+      "tr": "Brakiyal pleksusun arka kordonu",
+      "en": "Posterior cord of brachial plexus",
+      "la": "Fasciculus posterior plexus brachialis",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-POST-CORD-L"
+      ],
+      "ta2TableId": 6416,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6499; row 6416; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-superior-trunk"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Superior trunk of brachial plexus.r",
+      "sourceEnglish": "Superior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun üst gövdesi",
+      "en": "Superior trunk of brachial plexus",
+      "la": "Truncus superior plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-SUP-TRUNK-R"
+      ],
+      "ta2TableId": 6398,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6481; row 6398; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-middle-trunk"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Middle trunk of brachial plexus.r",
+      "sourceEnglish": "Middle trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun orta gövdesi",
+      "en": "Middle trunk of brachial plexus",
+      "la": "Truncus medius plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-MID-TRUNK-R"
+      ],
+      "ta2TableId": 6401,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6484; row 6401; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-inferior-trunk"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Inferior trunk of brachial plexus.r",
+      "sourceEnglish": "Inferior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun alt gövdesi",
+      "en": "Inferior trunk of brachial plexus",
+      "la": "Truncus inferior plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-INF-TRUNK-R"
+      ],
+      "ta2TableId": 6404,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6487; row 6404; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-superior-anterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior division of superior trunk of brachial plexus.r",
+      "sourceEnglish": "Anterior division of superior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun üst gövdesinin ön bölümü",
+      "en": "Anterior division of superior trunk of brachial plexus",
+      "la": "Divisio anterior trunci superioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-SUP-ANT-DIV-R"
+      ],
+      "ta2TableId": 6399,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6482; row 6399; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-middle-anterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior division of middle trunk of brachial plexus.r",
+      "sourceEnglish": "Anterior division of middle trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun orta gövdesinin ön bölümü",
+      "en": "Anterior division of middle trunk of brachial plexus",
+      "la": "Divisio anterior trunci medii plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-MID-ANT-DIV-R"
+      ],
+      "ta2TableId": 6402,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6485; row 6402; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-inferior-anterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Anterior division of inferior trunk of brachial plexus.r",
+      "sourceEnglish": "Anterior division of inferior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun alt gövdesinin ön bölümü",
+      "en": "Anterior division of inferior trunk of brachial plexus",
+      "la": "Divisio anterior trunci inferioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-INF-ANT-DIV-R"
+      ],
+      "ta2TableId": 6405,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6488; row 6405; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-superior-posterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior division of superior trunk of brachial plexus.r",
+      "sourceEnglish": "Posterior division of superior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun üst gövdesinin arka bölümü",
+      "en": "Posterior division of superior trunk of brachial plexus",
+      "la": "Divisio posterior trunci superioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-SUP-POST-DIV-R"
+      ],
+      "ta2TableId": 6400,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6483; row 6400; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-middle-posterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior division of middle trunk of brachial plexus.r",
+      "sourceEnglish": "Posterior division of middle trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun orta gövdesinin arka bölümü",
+      "en": "Posterior division of middle trunk of brachial plexus",
+      "la": "Divisio posterior trunci medii plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-MID-POST-DIV-R"
+      ],
+      "ta2TableId": 6403,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6486; row 6403; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-inferior-posterior-division"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior division of inferior trunk of brachial plexus.r",
+      "sourceEnglish": "Posterior division of inferior trunk of brachial plexus",
+      "tr": "Brakiyal pleksusun alt gövdesinin arka bölümü",
+      "en": "Posterior division of inferior trunk of brachial plexus",
+      "la": "Divisio posterior trunci inferioris plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-INF-POST-DIV-R"
+      ],
+      "ta2TableId": 6406,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6489; row 6406; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "atlas:right-brachial-plexus-posterior-cord"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Posterior cord of brachial plexus.r",
+      "sourceEnglish": "Posterior cord of brachial plexus",
+      "tr": "Brakiyal pleksusun arka kordonu",
+      "en": "Posterior cord of brachial plexus",
+      "la": "Fasciculus posterior plexus brachialis",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-BP-POST-CORD-R"
+      ],
+      "ta2TableId": 6416,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Kaynak eğrinin kapsamı tüm sinir ağı veya bütün dalların tamamlandığını göstermez.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 6499; row 6416; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:clavicle-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Clavicle.l",
+      "sourceEnglish": "Clavicle",
+      "tr": "Klavikula",
+      "en": "Clavicle",
+      "la": "Clavicula",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-CLAVICLE-L"
+      ],
+      "ta2TableId": 1168,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1225; row 1168; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:clavicle-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Clavicle.r",
+      "sourceEnglish": "Clavicle",
+      "tr": "Klavikula",
+      "en": "Clavicle",
+      "la": "Clavicula",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-CLAVICLE-R"
+      ],
+      "ta2TableId": 1168,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1225; row 1168; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:scapula-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Scapula.l",
+      "sourceEnglish": "Scapula",
+      "tr": "Skapula",
+      "en": "Scapula",
+      "la": "Scapula",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SCAPULA-L"
+      ],
+      "ta2TableId": 1143,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1200; row 1143; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:scapula-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Scapula.r",
+      "sourceEnglish": "Scapula",
+      "tr": "Skapula",
+      "en": "Scapula",
+      "la": "Scapula",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SCAPULA-R"
+      ],
+      "ta2TableId": 1143,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1200; row 1143; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:humerus-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Humerus.l",
+      "sourceEnglish": "Humerus",
+      "tr": "Humerus",
+      "en": "Humerus",
+      "la": "Humerus",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-HUMERUS-L"
+      ],
+      "ta2TableId": 1180,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1237; row 1180; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:humerus-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Humerus.r",
+      "sourceEnglish": "Humerus",
+      "tr": "Humerus",
+      "en": "Humerus",
+      "la": "Humerus",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-HUMERUS-R"
+      ],
+      "ta2TableId": 1180,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1237; row 1180; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:radius-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Radius.l",
+      "sourceEnglish": "Radius",
+      "tr": "Radius",
+      "en": "Radius",
+      "la": "Radius",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-RADIUS-L"
+      ],
+      "ta2TableId": 1210,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1267; row 1210; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:radius-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Radius.r",
+      "sourceEnglish": "Radius",
+      "tr": "Radius",
+      "en": "Radius",
+      "la": "Radius",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-RADIUS-R"
+      ],
+      "ta2TableId": 1210,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1267; row 1210; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:ulna-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Ulna.l",
+      "sourceEnglish": "Ulna",
+      "tr": "Ulna",
+      "en": "Ulna",
+      "la": "Ulna",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-ULNA-L"
+      ],
+      "ta2TableId": 1230,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1287; row 1230; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:ulna-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Ulna.r",
+      "sourceEnglish": "Ulna",
+      "tr": "Ulna",
+      "en": "Ulna",
+      "la": "Ulna",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-ULNA-R"
+      ],
+      "ta2TableId": 1230,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1287; row 1230; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:first-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "First rib.l",
+      "sourceEnglish": "First rib",
+      "tr": "Birinci kaburga",
+      "en": "First rib",
+      "la": "Costa prima",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-FIRST-RIB-L"
+      ],
+      "ta2TableId": 1107,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1145; row 1107; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:first-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "First rib.r",
+      "sourceEnglish": "First rib",
+      "tr": "Birinci kaburga",
+      "en": "First rib",
+      "la": "Costa prima",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-FIRST-RIB-R"
+      ],
+      "ta2TableId": 1107,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1145; row 1107; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:second-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Second rib.l",
+      "sourceEnglish": "Second rib",
+      "tr": "İkinci kaburga",
+      "en": "Second rib",
+      "la": "Costa secunda",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SECOND-RIB-L"
+      ],
+      "ta2TableId": 1111,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1149; row 1111; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:second-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Second rib.r",
+      "sourceEnglish": "Second rib",
+      "tr": "İkinci kaburga",
+      "en": "Second rib",
+      "la": "Costa secunda",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SECOND-RIB-R"
+      ],
+      "ta2TableId": 1111,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1149; row 1111; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:third-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Third rib.l",
+      "sourceEnglish": "Third rib",
+      "tr": "Üçüncü kaburga",
+      "en": "Third rib",
+      "la": null,
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-THIRD-RIB-L"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1151; custom row 1106*3; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:third-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Third rib.r",
+      "sourceEnglish": "Third rib",
+      "tr": "Üçüncü kaburga",
+      "en": "Third rib",
+      "la": null,
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-THIRD-RIB-R"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1151; custom row 1106*3; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:fourth-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Fourth rib.l",
+      "sourceEnglish": "Fourth rib",
+      "tr": "Dördüncü kaburga",
+      "en": "Fourth rib",
+      "la": null,
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-FOURTH-RIB-L"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1152; custom row 1106*4; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:fourth-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Fourth rib.r",
+      "sourceEnglish": "Fourth rib",
+      "tr": "Dördüncü kaburga",
+      "en": "Fourth rib",
+      "la": null,
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-FOURTH-RIB-R"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1152; custom row 1106*4; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:fifth-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Fifth rib.l",
+      "sourceEnglish": "Fifth rib",
+      "tr": "Beşinci kaburga",
+      "en": "Fifth rib",
+      "la": null,
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-FIFTH-RIB-L"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1153; custom row 1106*5; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:fifth-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Fifth rib.r",
+      "sourceEnglish": "Fifth rib",
+      "tr": "Beşinci kaburga",
+      "en": "Fifth rib",
+      "la": null,
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-FIFTH-RIB-R"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1153; custom row 1106*5; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:sixth-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Sixth rib.l",
+      "sourceEnglish": "Sixth rib",
+      "tr": "Altıncı kaburga",
+      "en": "Sixth rib",
+      "la": null,
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SIXTH-RIB-L"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1154; custom row 1106*6; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:sixth-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Sixth rib.r",
+      "sourceEnglish": "Sixth rib",
+      "tr": "Altıncı kaburga",
+      "en": "Sixth rib",
+      "la": null,
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SIXTH-RIB-R"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1154; custom row 1106*6; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:seventh-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Seventh rib.l",
+      "sourceEnglish": "Seventh rib",
+      "tr": "Yedinci kaburga",
+      "en": "Seventh rib",
+      "la": null,
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SEVENTH-RIB-L"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1155; custom row 1106*7; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:seventh-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Seventh rib.r",
+      "sourceEnglish": "Seventh rib",
+      "tr": "Yedinci kaburga",
+      "en": "Seventh rib",
+      "la": null,
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SEVENTH-RIB-R"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1155; custom row 1106*7; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:eighth-rib-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Eighth rib.l",
+      "sourceEnglish": "Eighth rib",
+      "tr": "Sekizinci kaburga",
+      "en": "Eighth rib",
+      "la": null,
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-EIGHTH-RIB-L"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1156; custom row 1113*8; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:eighth-rib-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Eighth rib.r",
+      "sourceEnglish": "Eighth rib",
+      "tr": "Sekizinci kaburga",
+      "en": "Eighth rib",
+      "la": null,
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-EIGHTH-RIB-R"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1156; custom row 1113*8; numeric generic row 1118 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-c3"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra C3",
+      "sourceEnglish": "Vertebra C3",
+      "tr": "Üçüncü servikal omur (C3)",
+      "en": "Vertebra C3",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-C3"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1072; custom row 1032*3; numeric generic row 1032 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-c4"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra C4",
+      "sourceEnglish": "Vertebra C4",
+      "tr": "Dördüncü servikal omur (C4)",
+      "en": "Vertebra C4",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-C4"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1073; custom row 1032*4; numeric generic row 1032 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-c5"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra C5",
+      "sourceEnglish": "Vertebra C5",
+      "tr": "Beşinci servikal omur (C5)",
+      "en": "Vertebra C5",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-C5"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1074; custom row 1032*5; numeric generic row 1032 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-c6"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra C6",
+      "sourceEnglish": "Vertebra C6",
+      "tr": "Altıncı servikal omur (C6)",
+      "en": "Vertebra C6",
+      "la": "Vertebra cervicalis VI",
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-C6"
+      ],
+      "ta2TableId": 1055,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1075; row 1055; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-c7"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra C7",
+      "sourceEnglish": "Vertebra C7",
+      "tr": "Yedinci servikal omur (C7)",
+      "en": "Vertebra C7",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-C7"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1076; custom row 1032*7; numeric generic row 1032 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-t1"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra T1",
+      "sourceEnglish": "Vertebra T1",
+      "tr": "Birinci torakal omur (T1)",
+      "en": "Vertebra T1",
+      "la": "Vertebra thoracica prima",
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-T1"
+      ],
+      "ta2TableId": 1063,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1101; row 1063; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:vertebra-t2"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Vertebra T2",
+      "sourceEnglish": "Vertebra T2",
+      "tr": "İkinci torakal omur (T2)",
+      "en": "Vertebra T2",
+      "la": null,
+      "side": null,
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-VERTEBRA-T2"
+      ],
+      "ta2TableId": null,
+      "latinStatus": "unresolved_exact_numbered_term_custom_source_row_only",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz. Numaraya özgü kesin Latin ad yalnız özel ek kaynak satırında bulundu; resmi sayısal terim olarak sunulmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1078; custom row 1059*2; numeric generic row 1059 is broader scope only"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:scaphoid-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Scaphoid bone.l",
+      "sourceEnglish": "Scaphoid bone",
+      "tr": "Skafoid kemik",
+      "en": "Scaphoid bone",
+      "la": "Os scaphoideum",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SCAPHOID-BONE-L"
+      ],
+      "ta2TableId": 1250,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1307; row 1250; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:scaphoid-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Scaphoid bone.r",
+      "sourceEnglish": "Scaphoid bone",
+      "tr": "Skafoid kemik",
+      "en": "Scaphoid bone",
+      "la": "Os scaphoideum",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-SCAPHOID-BONE-R"
+      ],
+      "ta2TableId": 1250,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1307; row 1250; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:lunate-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Lunate bone.l",
+      "sourceEnglish": "Lunate bone",
+      "tr": "Lunatum kemiği",
+      "en": "Lunate bone",
+      "la": "Os lunatum",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-LUNATE-BONE-L"
+      ],
+      "ta2TableId": 1252,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1309; row 1252; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:lunate-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Lunate bone.r",
+      "sourceEnglish": "Lunate bone",
+      "tr": "Lunatum kemiği",
+      "en": "Lunate bone",
+      "la": "Os lunatum",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-LUNATE-BONE-R"
+      ],
+      "ta2TableId": 1252,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1309; row 1252; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:triquetrum-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Triquetrum bone.l",
+      "sourceEnglish": "Triquetrum bone",
+      "tr": "Triquetrum kemiği",
+      "en": "Triquetrum bone",
+      "la": "Os triquetrum",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-TRIQUETRUM-BONE-L"
+      ],
+      "ta2TableId": 1253,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1310; row 1253; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:triquetrum-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Triquetrum bone.r",
+      "sourceEnglish": "Triquetrum bone",
+      "tr": "Triquetrum kemiği",
+      "en": "Triquetrum bone",
+      "la": "Os triquetrum",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-TRIQUETRUM-BONE-R"
+      ],
+      "ta2TableId": 1253,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1310; row 1253; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:pisiform-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Pisiform bone.l",
+      "sourceEnglish": "Pisiform bone",
+      "tr": "Pisiform kemik",
+      "en": "Pisiform bone",
+      "la": "Os pisiforme",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-PISIFORM-BONE-L"
+      ],
+      "ta2TableId": 1254,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1311; row 1254; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:pisiform-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Pisiform bone.r",
+      "sourceEnglish": "Pisiform bone",
+      "tr": "Pisiform kemik",
+      "en": "Pisiform bone",
+      "la": "Os pisiforme",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-PISIFORM-BONE-R"
+      ],
+      "ta2TableId": 1254,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1311; row 1254; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:trapezium-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Trapezium bone.l",
+      "sourceEnglish": "Trapezium bone",
+      "tr": "Trapezium kemiği",
+      "en": "Trapezium bone",
+      "la": "Os trapezium",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-TRAPEZIUM-BONE-L"
+      ],
+      "ta2TableId": 1255,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1312; row 1255; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:trapezium-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Trapezium bone.r",
+      "sourceEnglish": "Trapezium bone",
+      "tr": "Trapezium kemiği",
+      "en": "Trapezium bone",
+      "la": "Os trapezium",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-TRAPEZIUM-BONE-R"
+      ],
+      "ta2TableId": 1255,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1312; row 1255; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:trapezoid-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Trapezoid bone.l",
+      "sourceEnglish": "Trapezoid bone",
+      "tr": "Trapezoid kemik",
+      "en": "Trapezoid bone",
+      "la": "Os trapezoideum",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-TRAPEZOID-BONE-L"
+      ],
+      "ta2TableId": 1257,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1314; row 1257; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:trapezoid-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Trapezoid bone.r",
+      "sourceEnglish": "Trapezoid bone",
+      "tr": "Trapezoid kemik",
+      "en": "Trapezoid bone",
+      "la": "Os trapezoideum",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-TRAPEZOID-BONE-R"
+      ],
+      "ta2TableId": 1257,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1314; row 1257; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:capitate-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Capitate bone.l",
+      "sourceEnglish": "Capitate bone",
+      "tr": "Kapitat kemik",
+      "en": "Capitate bone",
+      "la": "Os capitatum",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-CAPITATE-BONE-L"
+      ],
+      "ta2TableId": 1258,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1315; row 1258; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:capitate-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Capitate bone.r",
+      "sourceEnglish": "Capitate bone",
+      "tr": "Kapitat kemik",
+      "en": "Capitate bone",
+      "la": "Os capitatum",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-CAPITATE-BONE-R"
+      ],
+      "ta2TableId": 1258,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1315; row 1258; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:hamate-bone-l"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Hamate bone.l",
+      "sourceEnglish": "Hamate bone",
+      "tr": "Hamat kemik",
+      "en": "Hamate bone",
+      "la": "Os hamatum",
+      "side": "left",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-HAMATE-BONE-L"
+      ],
+      "ta2TableId": 1259,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1316; row 1259; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    },
+    {
+      "ids": [
+        "zanatomy:hamate-bone-r"
+      ],
+      "datasetId": "upper-limb-nerve-reference",
+      "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending",
+      "sourceObject": "Hamate bone.r",
+      "sourceEnglish": "Hamate bone",
+      "tr": "Hamat kemik",
+      "en": "Hamate bone",
+      "la": "Os hamatum",
+      "side": "right",
+      "aliases": [],
+      "geometryPartIds": [
+        "ZA-ULNR-CONTEXT-HAMATE-BONE-R"
+      ],
+      "ta2TableId": 1259,
+      "latinStatus": "exact_unsided_numeric_pinned_term",
+      "translationStatus": "editorial_turkish_expert_review_pending",
+      "expertReview": "pending",
+      "scopeNoteTr": "Aynı kaynağın bağımsız referans çerçevesindeki bağlam nesnesidir; ana gövdeye yerleştirilmiş sayılmaz.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "CSV line 1316; row 1259; English/Latin pair"
+        }
+      ],
+      "role": "context"
+    }
+  ],
+  "relations": [
+    {
+      "id": "atlas:left-suprascapular-nerve|branch_of|atlas:left-brachial-plexus-superior-trunk",
+      "subject": "atlas:left-suprascapular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-brachial-plexus-superior-trunk",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / suprascapular row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-suprascapular-nerve|branch_of|atlas:right-brachial-plexus-superior-trunk",
+      "subject": "atlas:right-suprascapular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-brachial-plexus-superior-trunk",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / suprascapular row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-upper-subscapular-nerve|branch_of|atlas:left-brachial-plexus-posterior-cord",
+      "subject": "atlas:left-upper-subscapular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / upper subscapular row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-upper-subscapular-nerve|branch_of|atlas:right-brachial-plexus-posterior-cord",
+      "subject": "atlas:right-upper-subscapular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / upper subscapular row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-lower-subscapular-nerve|branch_of|atlas:left-brachial-plexus-posterior-cord",
+      "subject": "atlas:left-lower-subscapular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / lower subscapular row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-lower-subscapular-nerve|branch_of|atlas:right-brachial-plexus-posterior-cord",
+      "subject": "atlas:right-lower-subscapular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / lower subscapular row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-thoracodorsal-nerve|branch_of|atlas:left-brachial-plexus-posterior-cord",
+      "subject": "atlas:left-thoracodorsal-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / thoracodorsal (middle subscapular) row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-thoracodorsal-nerve|branch_of|atlas:right-brachial-plexus-posterior-cord",
+      "subject": "atlas:right-thoracodorsal-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / thoracodorsal (middle subscapular) row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-axillary-nerve|branch_of|atlas:left-brachial-plexus-posterior-cord",
+      "subject": "atlas:left-axillary-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / axillary row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-axillary-nerve|branch_of|atlas:right-brachial-plexus-posterior-cord",
+      "subject": "atlas:right-axillary-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / axillary row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-radial-nerve|branch_of|atlas:left-brachial-plexus-posterior-cord",
+      "subject": "atlas:left-radial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / radial row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-radial-nerve|branch_of|atlas:right-brachial-plexus-posterior-cord",
+      "subject": "atlas:right-radial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-brachial-plexus-posterior-cord",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / radial row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-superior-lateral-brachial-cutaneous-nerve|branch_of|atlas:left-axillary-nerve",
+      "subject": "atlas:left-superior-lateral-brachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-axillary-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / axillary row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-superior-lateral-brachial-cutaneous-nerve|branch_of|atlas:right-axillary-nerve",
+      "subject": "atlas:right-superior-lateral-brachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-axillary-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / axillary row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-inferior-lateral-brachial-cutaneous-nerve|branch_of|atlas:left-radial-nerve",
+      "subject": "atlas:left-inferior-lateral-brachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / radial row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-inferior-lateral-brachial-cutaneous-nerve|branch_of|atlas:right-radial-nerve",
+      "subject": "atlas:right-inferior-lateral-brachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / radial row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-posterior-antebrachial-cutaneous-nerve|branch_of|atlas:left-radial-nerve",
+      "subject": "atlas:left-posterior-antebrachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / radial row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-posterior-antebrachial-cutaneous-nerve|branch_of|atlas:right-radial-nerve",
+      "subject": "atlas:right-posterior-antebrachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / radial row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-lateral-antebrachial-cutaneous-nerve|branch_of|atlas:left-musculocutaneous-nerve",
+      "subject": "atlas:left-lateral-antebrachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-musculocutaneous-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / musculocutaneous row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-lateral-antebrachial-cutaneous-nerve|branch_of|atlas:right-musculocutaneous-nerve",
+      "subject": "atlas:right-lateral-antebrachial-cutaneous-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-musculocutaneous-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-axilla-shoulder-tables",
+          "locator": "Nerves table / musculocutaneous row / Branches column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-deep-branch-of-radial-nerve|branch_of|atlas:left-radial-nerve",
+      "subject": "atlas:left-deep-branch-of-radial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-forearm-wrist-tables",
+          "locator": "Nerves table / radial, deep row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-deep-branch-of-radial-nerve|branch_of|atlas:right-radial-nerve",
+      "subject": "atlas:right-deep-branch-of-radial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-forearm-wrist-tables",
+          "locator": "Nerves table / radial, deep row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-superficial-branch-of-radial-nerve|branch_of|atlas:left-radial-nerve",
+      "subject": "atlas:left-superficial-branch-of-radial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-forearm-wrist-tables",
+          "locator": "Nerves table / radial, superficial row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-superficial-branch-of-radial-nerve|branch_of|atlas:right-radial-nerve",
+      "subject": "atlas:right-superficial-branch-of-radial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-radial-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-forearm-wrist-tables",
+          "locator": "Nerves table / radial, superficial row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:left-anterior-interosseous-nerve-of-forearm|branch_of|atlas:left-median-nerve",
+      "subject": "atlas:left-anterior-interosseous-nerve-of-forearm",
+      "predicate": "branch_of",
+      "object": "atlas:left-median-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-forearm-wrist-tables",
+          "locator": "Nerves table / interosseous, anterior row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    },
+    {
+      "id": "atlas:right-anterior-interosseous-nerve-of-forearm|branch_of|atlas:right-median-nerve",
+      "subject": "atlas:right-anterior-interosseous-nerve-of-forearm",
+      "predicate": "branch_of",
+      "object": "atlas:right-median-nerve",
+      "datasetId": "upper-limb-nerve-reference",
+      "status": "candidate_source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-forearm-wrist-tables",
+          "locator": "Nerves table / interosseous, anterior row / Source column"
+        }
+      ],
+      "qualifiers": {
+        "semantics": "Named branch-to-parent anatomy; distinct from collection membership and part_of",
+        "laterality": "Same-side bilateral application of general educational anatomy; not specimen validation",
+        "geometry": "No claim of model contact, fused junction, exact branch level or complete course",
+        "scope": "non_exhaustive; no innervation inferred",
+        "datasetDecision": "root_selected_independent_source_frame_reference; runtime_integration_and_expert_acceptance_pending"
+      }
+    }
+  ],
+  "preserveMainOnlyRelationIds": [
+    "atlas:left-suprascapular-nerve|innervates|FMA32545",
+    "atlas:right-suprascapular-nerve|innervates|FMA32544",
+    "atlas:left-suprascapular-nerve|innervates|FMA32548",
+    "atlas:right-suprascapular-nerve|innervates|FMA32547",
+    "atlas:left-axillary-nerve|innervates|FMA32554",
+    "atlas:right-axillary-nerve|innervates|FMA32553",
+    "atlas:left-upper-subscapular-nerve|innervates|FMA13415",
+    "atlas:left-lower-subscapular-nerve|innervates|FMA13415",
+    "atlas:right-upper-subscapular-nerve|innervates|FMA13414",
+    "atlas:right-lower-subscapular-nerve|innervates|FMA13414"
+  ],
+  "representationNoteTr": "Adlandırılmış kaynak sinir eğrileri, gruplanmış kas dalları ve kemik bağlamı aynı bağımsız kaynak çerçevesinde korunur. Tam üst ekstremite sinir ağı, köklerin tamamı ve bütün el dalları temsil edilmiş değildir. Ana gövde yerleşimi kabul edilmemiştir; anatomik uzman incelemesi bekler."
+}
