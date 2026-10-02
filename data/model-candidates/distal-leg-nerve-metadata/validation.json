@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checkedOn": "2026-10-02",
+  "candidateOnly": true,
+  "checks": {
+    "uniqueLeafLabels": 4,
+    "ipsilateralBranchOfEdges": 4,
+    "partBindingsVerified": 4,
+    "exactTA2Pairs": 2,
+    "sourceExtentRecords": 4,
+    "inputSnapshotHashesVerified": 6,
+    "fmaMappingsWithheld": 4,
+    "matchedSourceReferenceNerveBindingsVerified": 4
+  },
+  "applicationChecksRun": false,
+  "geometryAcceptance": "main_atlas_registration_rejected; matched_source_reference_candidate_pending_expert_review",
+  "repeatReason": "Final diagnostic manifest now declares rejected main registration; independent source-reference manifest was added after the first validation."
+}

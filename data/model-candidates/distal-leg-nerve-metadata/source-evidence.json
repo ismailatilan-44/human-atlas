@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-02",
+  "inputSnapshots": [
+    {
+      "path": "work/open-assets-review/TA2.csv",
+      "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974"
+    },
+    {
+      "path": "public/models/extensions/sciatic-nerves.json",
+      "sha256": "c1ed2a84d350067078f794aa41e088b05ccd89772d06b4fd30312338972152a3"
+    },
+    {
+      "path": "data/model-candidates/coverage-labels/bp3d-isa-parts-list-e.txt",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "path": "data/model-candidates/coverage-labels/bp3d-partof-parts-list-e.txt",
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+    },
+    {
+      "path": "public/models/extensions/distal-leg-nerves.json",
+      "sha256": "2422354f092387ffceaf8adb50cd098acfa1f540b933c5aa9855db0bd1895d4a"
+    },
+    {
+      "path": "data/model-candidates/distal-leg-nerves/source-reference.json",
+      "sha256": "963fc3e79294c4e17bda1e5b8efdc11c96d2ebb8953838f138f9938df38d99b2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zanatomy-ta2-pinned",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+      "selectedTerms": [
+        {
+          "upstreamTableId": 6571,
+          "english": "Common fibular nerve",
+          "latin": "Nervus fibularis communis",
+          "csvLine": 6654
+        },
+        {
+          "upstreamTableId": 6582,
+          "english": "Tibial nerve",
+          "latin": "Nervus tibialis",
+          "csvLine": 6665
+        }
+      ],
+      "use": "Terminology pairs only, not connectivity"
+    },
+    {
+      "id": "ttuhsc-posterior-thigh-tables",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/gluteal_tables.html",
+      "retrievedOn": "2026-10-02",
+      "locator": "Nerves table; sciatic, fibular common and tibial rows",
+      "verifiedFact": "The two named nerves are terminal branches of sciatic; each has sciatic as its source.",
+      "use": "Selected relationship facts only; source table is not redistributed"
+    },
+    {
+      "id": "zanatomy-distal-leg-source",
+      "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+      "member": "Z-Anatomy/Startup.blend",
+      "sourceArtifactSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "creator": "Z-Anatomy / Gauthier Kervyn; underlying BodyParts3D attribution retained",
+      "referenceBody": "Same Z-Anatomy reference as the registered sciatic curves",
+      "licensing": "Upstream general CC BY-SA 4.0 declaration with separate underlying-model notices; no object-specific lineage provided; geometry worker supplies component attribution",
+      "useStatus": {
+        "privateInspection": "within upstream general license declaration",
+        "adaptation": "within upstream general license declaration with attribution and share-alike preserved",
+        "distribution": "retain final geometry component attribution and upstream exceptions; no blanket archive clearance"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "atlas:left-tibial-nerve",
+      "sourceObject": "Tibial nerve.l",
+      "laterality": {
+        "side": "left",
+        "evidence": "Source object .l suffix, preserved in the existing sciatic manifest continuation audit"
+      },
+      "terminology": {
+        "upstreamTableId": 6582,
+        "english": "Tibial nerve",
+        "latin": "Nervus tibialis",
+        "csvLine": 6665
+      },
+      "fmaMapping": {
+        "status": "unresolved_no_exact_authoritative_lateralized_mapping_verified",
+        "id": null,
+        "reason": "No tibial/common fibular nerve name matches in the consulted official BP3D English tables; absence there does not imply absence in the FMA ontology. Preserve the atlas identifier; do not infer an FMA ID from a name."
+      },
+      "ta2MappingScope": "Unsided English/Latin name pair; side retained separately without constructing an unverified Latin compound",
+      "anatomicalParent": {
+        "id": "atlas:left-sciatic-nerve",
+        "predicate": "branch_of",
+        "sourceId": "ttuhsc-posterior-thigh-tables",
+        "locator": "Nerves table; sciatic row, Branches and Notes columns; tibial row, Source column"
+      },
+      "sourceContinuityObservation": {
+        "sourceManifest": "public/models/extensions/sciatic-nerves.json",
+        "sourceObject": "Tibial nerve.l",
+        "nearestEndpointDistanceFromSciaticDistalMm": 0.00017912410617129963,
+        "interpretation": "Source curve endpoint proximity only, not anatomical accuracy or a fused surface assertion"
+      },
+      "extentStatus": "Observed whole named source curve; distal branch objects excluded; exact endpoint coordinates below carry no inferred named terminal landmark.",
+      "sourceExtentObservation": {
+        "sourceManifest": "public/models/extensions/distal-leg-nerves.json",
+        "partId": "ZA-TIB-L",
+        "sourceObject": "Tibial nerve.l",
+        "splineCount": 1,
+        "splineTypes": [
+          "BEZIER"
+        ],
+        "controlPointCounts": [
+          10
+        ],
+        "sourceWorldEndpoints": [
+          [
+            [
+              0.07654891908168793,
+              0.03978976979851723,
+              0.5401193499565125
+            ],
+            [
+              0.05792833864688873,
+              0.054879602044820786,
+              0.05775797739624977
+            ]
+          ]
+        ],
+        "atlasEndpoints": [
+          [
+            [
+              0.07801380844011528,
+              0.5601722274510934,
+              -0.03609175979944833
+            ],
+            [
+              0.05926087178496395,
+              0.06898747361635946,
+              -0.02639636103360893
+            ]
+          ]
+        ],
+        "atlasVerticalBoundsMeters": [
+          0.06873159855604172,
+          0.5604562759399414
+        ],
+        "nearestAtlasEndpointDistanceFromSciaticDistalMm": 0.00018234409735079008,
+        "limitations": "Preserves entire named source object; separate deep/superficial fibular, plantar, sural and muscular/digital branch objects are not exported. A continuous source junction does not prove anatomical accuracy."
+      },
+      "registrationStatus": "Geometry acceptance pending; distal reference mismatch must not be interpreted as an accepted anatomical path."
+    },
+    {
+      "id": "atlas:left-common-fibular-nerve",
+      "sourceObject": "Common fibular nerve.l",
+      "laterality": {
+        "side": "left",
+        "evidence": "Source object .l suffix, preserved in the existing sciatic manifest continuation audit"
+      },
+      "terminology": {
+        "upstreamTableId": 6571,
+        "english": "Common fibular nerve",
+        "latin": "Nervus fibularis communis",
+        "csvLine": 6654
+      },
+      "fmaMapping": {
+        "status": "unresolved_no_exact_authoritative_lateralized_mapping_verified",
+        "id": null,
+        "reason": "No tibial/common fibular nerve name matches in the consulted official BP3D English tables; absence there does not imply absence in the FMA ontology. Preserve the atlas identifier; do not infer an FMA ID from a name."
+      },
+      "ta2MappingScope": "Unsided English/Latin name pair; side retained separately without constructing an unverified Latin compound",
+      "anatomicalParent": {
+        "id": "atlas:left-sciatic-nerve",
+        "predicate": "branch_of",
+        "sourceId": "ttuhsc-posterior-thigh-tables",
+        "locator": "Nerves table; sciatic row, Branches and Notes columns; fibular, common row, Source column"
+      },
+      "sourceContinuityObservation": {
+        "sourceManifest": "public/models/extensions/sciatic-nerves.json",
+        "sourceObject": "Common fibular nerve.l",
+        "nearestEndpointDistanceFromSciaticDistalMm": 0.00017912410617129963,
+        "interpretation": "Source curve endpoint proximity only, not anatomical accuracy or a fused surface assertion"
+      },
+      "extentStatus": "Observed whole named source curve; distal branch objects excluded; exact endpoint coordinates below carry no inferred named terminal landmark.",
+      "sourceExtentObservation": {
+        "sourceManifest": "public/models/extensions/distal-leg-nerves.json",
+        "partId": "ZA-CFIB-L",
+        "sourceObject": "Common fibular nerve.l",
+        "splineCount": 1,
+        "splineTypes": [
+          "BEZIER"
+        ],
+        "controlPointCounts": [
+          8
+        ],
+        "sourceWorldEndpoints": [
+          [
+            [
+              0.07654891908168793,
+              0.03978976979851723,
+              0.5401193499565125
+            ],
+            [
+              0.12272316217422485,
+              0.04647650569677353,
+              0.3853034973144531
+            ]
+          ]
+        ],
+        "atlasEndpoints": [
+          [
+            [
+              0.07801380844011528,
+              0.5601722274510934,
+              -0.03609175979944833
+            ],
+            [
+              0.12508242589920768,
+              0.4024503181192883,
+              -0.034872743218690855
+            ]
+          ]
+        ],
+        "atlasVerticalBoundsMeters": [
+          0.40213140845298767,
+          0.56024569272995
+        ],
+        "nearestAtlasEndpointDistanceFromSciaticDistalMm": 0.00018234409735079008,
+        "limitations": "Preserves entire named source object; separate deep/superficial fibular, plantar, sural and muscular/digital branch objects are not exported. A continuous source junction does not prove anatomical accuracy."
+      },
+      "registrationStatus": "Geometry acceptance pending; distal reference mismatch must not be interpreted as an accepted anatomical path."
+    },
+    {
+      "id": "atlas:right-tibial-nerve",
+      "sourceObject": "Tibial nerve.r",
+      "laterality": {
+        "side": "right",
+        "evidence": "Source object .r suffix, preserved in the existing sciatic manifest continuation audit"
+      },
+      "terminology": {
+        "upstreamTableId": 6582,
+        "english": "Tibial nerve",
+        "latin": "Nervus tibialis",
+        "csvLine": 6665
+      },
+      "fmaMapping": {
+        "status": "unresolved_no_exact_authoritative_lateralized_mapping_verified",
+        "id": null,
+        "reason": "No tibial/common fibular nerve name matches in the consulted official BP3D English tables; absence there does not imply absence in the FMA ontology. Preserve the atlas identifier; do not infer an FMA ID from a name."
+      },
+      "ta2MappingScope": "Unsided English/Latin name pair; side retained separately without constructing an unverified Latin compound",
+      "anatomicalParent": {
+        "id": "atlas:right-sciatic-nerve",
+        "predicate": "branch_of",
+        "sourceId": "ttuhsc-posterior-thigh-tables",
+        "locator": "Nerves table; sciatic row, Branches and Notes columns; tibial row, Source column"
+      },
+      "sourceContinuityObservation": {
+        "sourceManifest": "public/models/extensions/sciatic-nerves.json",
+        "sourceObject": "Tibial nerve.r",
+        "nearestEndpointDistanceFromSciaticDistalMm": 0.00011996360263306363,
+        "interpretation": "Source curve endpoint proximity only, not anatomical accuracy or a fused surface assertion"
+      },
+      "extentStatus": "Observed whole named source curve; distal branch objects excluded; exact endpoint coordinates below carry no inferred named terminal landmark.",
+      "sourceExtentObservation": {
+        "sourceManifest": "public/models/extensions/distal-leg-nerves.json",
+        "partId": "ZA-TIB-R",
+        "sourceObject": "Tibial nerve.r",
+        "splineCount": 1,
+        "splineTypes": [
+          "BEZIER"
+        ],
+        "controlPointCounts": [
+          10
+        ],
+        "sourceWorldEndpoints": [
+          [
+            [
+              -0.07654893398284912,
+              0.039789728820323944,
+              0.5401193499565125
+            ],
+            [
+              -0.05792835354804993,
+              0.05487940087914467,
+              0.05775797367095947
+            ]
+          ]
+        ],
+        "atlasEndpoints": [
+          [
+            [
+              -0.07783615743922216,
+              0.5601090870678128,
+              -0.03603750316076555
+            ],
+            [
+              -0.05867847978094016,
+              0.06893969721803159,
+              -0.026355129178260654
+            ]
+          ]
+        ],
+        "atlasVerticalBoundsMeters": [
+          0.06868381798267365,
+          0.5603931546211243
+        ],
+        "nearestAtlasEndpointDistanceFromSciaticDistalMm": 0.00012212010601398983,
+        "limitations": "Preserves entire named source object; separate deep/superficial fibular, plantar, sural and muscular/digital branch objects are not exported. A continuous source junction does not prove anatomical accuracy."
+      },
+      "registrationStatus": "Geometry acceptance pending; distal reference mismatch must not be interpreted as an accepted anatomical path."
+    },
+    {
+      "id": "atlas:right-common-fibular-nerve",
+      "sourceObject": "Common fibular nerve.r",
+      "laterality": {
+        "side": "right",
+        "evidence": "Source object .r suffix, preserved in the existing sciatic manifest continuation audit"
+      },
+      "terminology": {
+        "upstreamTableId": 6571,
+        "english": "Common fibular nerve",
+        "latin": "Nervus fibularis communis",
+        "csvLine": 6654
+      },
+      "fmaMapping": {
+        "status": "unresolved_no_exact_authoritative_lateralized_mapping_verified",
+        "id": null,
+        "reason": "No tibial/common fibular nerve name matches in the consulted official BP3D English tables; absence there does not imply absence in the FMA ontology. Preserve the atlas identifier; do not infer an FMA ID from a name."
+      },
+      "ta2MappingScope": "Unsided English/Latin name pair; side retained separately without constructing an unverified Latin compound",
+      "anatomicalParent": {
+        "id": "atlas:right-sciatic-nerve",
+        "predicate": "branch_of",
+        "sourceId": "ttuhsc-posterior-thigh-tables",
+        "locator": "Nerves table; sciatic row, Branches and Notes columns; fibular, common row, Source column"
+      },
+      "sourceContinuityObservation": {
+        "sourceManifest": "public/models/extensions/sciatic-nerves.json",
+        "sourceObject": "Common fibular nerve.r",
+        "nearestEndpointDistanceFromSciaticDistalMm": 0.00011967404487884797,
+        "interpretation": "Source curve endpoint proximity only, not anatomical accuracy or a fused surface assertion"
+      },
+      "extentStatus": "Observed whole named source curve; distal branch objects excluded; exact endpoint coordinates below carry no inferred named terminal landmark.",
+      "sourceExtentObservation": {
+        "sourceManifest": "public/models/extensions/distal-leg-nerves.json",
+        "partId": "ZA-CFIB-R",
+        "sourceObject": "Common fibular nerve.r",
+        "splineCount": 1,
+        "splineTypes": [
+          "BEZIER"
+        ],
+        "controlPointCounts": [
+          8
+        ],
+        "sourceWorldEndpoints": [
+          [
+            [
+              -0.07654893398284912,
+              0.039789725095033646,
+              0.5401193499565125
+            ],
+            [
+              -0.12272317707538605,
+              0.04647641256451607,
+              0.3853034973144531
+            ]
+          ]
+        ],
+        "atlasEndpoints": [
+          [
+            [
+              -0.07783615743798299,
+              0.5601090872611202,
+              -0.03603749937343852
+            ],
+            [
+              -0.1247760981111702,
+              0.4023490929377215,
+              -0.03478573113179445
+            ]
+          ]
+        ],
+        "atlasVerticalBoundsMeters": [
+          0.40203019976615906,
+          0.560182511806488
+        ],
+        "nearestAtlasEndpointDistanceFromSciaticDistalMm": 0.00012182534310365252,
+        "limitations": "Preserves entire named source object; separate deep/superficial fibular, plantar, sural and muscular/digital branch objects are not exported. A continuous source junction does not prove anatomical accuracy."
+      },
+      "registrationStatus": "Geometry acceptance pending; distal reference mismatch must not be interpreted as an accepted anatomical path."
+    }
+  ],
+  "notAsserted": [
+    "Nerve roots or segment levels",
+    "Muscle innervation or skin territories",
+    "Patient-specific connectivity or variation",
+    "Complete distal branches or complete nerve arborization",
+    "Named terminal anatomical landmark from an endpoint coordinate"
+  ],
+  "expertReview": "pending",
+  "geometryDecision": {
+    "mainAtlasRegistration": "rejected",
+    "diagnosticManifest": "public/models/extensions/distal-leg-nerves.json",
+    "sourceReferenceManifest": "data/model-candidates/distal-leg-nerves/source-reference.json",
+    "sourceReferenceStatus": "inactive_matched_source_candidate; not_a_viewer_release",
+    "owningRecord": "docs/model/asset-registration-distal-leg-nerves.md",
+    "reason": "Measured and visibly changed distal source/target ankle relationships under the sciatic transform"
+  }
+}

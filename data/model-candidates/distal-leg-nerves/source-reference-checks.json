@@ -1,0 +1,122 @@
+{
+  "parts": 14,
+  "vertices": 10722,
+  "triangles": 21232,
+  "bytes": 447792,
+  "gzipBytes": 242442,
+  "binarySha256": "f6e4becc0a923be34e31e4bf1a58615aea01707ca52be20bbd35a12f31b2679e",
+  "checks": [
+    {
+      "partId": "ZA-TIB-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 5.612072624322146e-07,
+      "minFaceNormalDot": 0.9639762267806911,
+      "maxNormalLengthError": 2.2703047043215463e-05
+    },
+    {
+      "partId": "ZA-TIB-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 5.612072624322146e-07,
+      "minFaceNormalDot": 0.9639762455786287,
+      "maxNormalLengthError": 2.0467737922413853e-05
+    },
+    {
+      "partId": "ZA-CFIB-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 1.9681092742229286e-07,
+      "minFaceNormalDot": 0.9617393407498442,
+      "maxNormalLengthError": 2.137725765849474e-05
+    },
+    {
+      "partId": "ZA-CFIB-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 1.9680875632796302e-07,
+      "minFaceNormalDot": 0.9617424659661788,
+      "maxNormalLengthError": 2.137725765849474e-05
+    },
+    {
+      "partId": "ZA-DLN-TIBIA-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 2.0520307823543577e-10,
+      "minFaceNormalDot": 0.8727875773314594,
+      "maxNormalLengthError": 2.3318208995259937e-05
+    },
+    {
+      "partId": "ZA-DLN-TIBIA-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 2.0520307823543577e-10,
+      "minFaceNormalDot": 0.8727875773314594,
+      "maxNormalLengthError": 2.3318208995259937e-05
+    },
+    {
+      "partId": "ZA-DLN-FIBULA-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 19,
+      "minDoubleTriangleArea": 7.397478925451322e-08,
+      "minFaceNormalDot": 0.8843978092244144,
+      "maxNormalLengthError": 1.994988049913715e-05
+    },
+    {
+      "partId": "ZA-DLN-FIBULA-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 19,
+      "minDoubleTriangleArea": 7.397478925451322e-08,
+      "minFaceNormalDot": 0.8843978092244144,
+      "maxNormalLengthError": 1.994988049913715e-05
+    },
+    {
+      "partId": "ZA-DLN-PATELLA-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 3.8624263660572266e-07,
+      "minFaceNormalDot": 0.8872529306072057,
+      "maxNormalLengthError": 2.194493700935496e-05
+    },
+    {
+      "partId": "ZA-DLN-PATELLA-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 3.8624263660572266e-07,
+      "minFaceNormalDot": 0.8872529306072057,
+      "maxNormalLengthError": 2.194493700935496e-05
+    },
+    {
+      "partId": "ZA-DLN-TALUS-L",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 1.1119167867423957e-07,
+      "minFaceNormalDot": 0.7926498413791925,
+      "maxNormalLengthError": 2.2440869654305473e-05
+    },
+    {
+      "partId": "ZA-DLN-TALUS-R",
+      "nonpositiveInterpolatedFaceNormals": 0,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 1.1119167867423957e-07,
+      "minFaceNormalDot": 0.7926498413791925,
+      "maxNormalLengthError": 2.2440869654305473e-05
+    },
+    {
+      "partId": "ZA-DLN-CALCANEUS-L",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 8.310064860343351e-12,
+      "minFaceNormalDot": -0.5739917251172486,
+      "maxNormalLengthError": 2.2848804602793038e-05
+    },
+    {
+      "partId": "ZA-DLN-CALCANEUS-R",
+      "nonpositiveInterpolatedFaceNormals": 1,
+      "looseVertices": 0,
+      "minDoubleTriangleArea": 8.310064860343351e-12,
+      "minFaceNormalDot": -0.5739917251172486,
+      "maxNormalLengthError": 2.2848804602793038e-05
+    }
+  ]
+}

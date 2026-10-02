@@ -1,8 +1,10 @@
 # Model odaklı ürün — teslim planı ve güncel durum
 
-İlk plan: 20 Eylül 2026. Güncelleme: 22 Eylül 2026. Kod, kaynak paketi, görsel kabul ve yayın birbirinden ayrı izlenir.
+İlk plan: 20 Eylül 2026. Güncel durum: 2 Ekim 2026. Kod, kaynak paketi, görsel kabul ve yayın birbirinden ayrı izlenir.
 
-Güncel canlı sürüm: `caa938a` — ana atlas 2.290 parça, ayrı kadın pelvis 27 ve iç kulak 6 parça; 275 etiket kaydı. Akciğer kaynak seçimi düzeltmesi ve dört pulmoner damar etiketi gerçek yayında doğrulandı. [26 Eylül ilerleme/süre raporu](progress-report-2026-09-26.md) ve [kapsam-bitiş planı](model-scope-and-acceptance.md) güncel takibi verir. Aşağıdaki tarihî sürüm kayıtları önceki aşamaları gösterir.
+Güncel canlı sürüm: `caa938a` — ana atlas 2.290 parça, ayrı kadın pelvis 27 ve iç kulak 6 parça; 275 etiket kaydı. 2 Ekim'de canlı `release.json` aynı kaynak sürümünü döndürdü. Akciğer kaynak seçimi düzeltmesi ve dört pulmoner damar etiketi önceki yayın kabulünde doğrulandı. [2 Ekim eylem/süre raporu](progress-report-2026-10-02.md), [yeniden üretilebilir envanter](model-inventory.md) ve [kapsam-bitiş planı](model-scope-and-acceptance.md) güncel takibi verir. [26 Eylül raporu](progress-report-2026-09-26.md) ile aşağıdaki sürüm kayıtları tarihî kanıttır.
+
+P1'in kaynak kataloğu ve hedef matrisi üretildi: üç dataset için 3.572 kavram/seçim kaydı, 2.323 parça ve 208 bekleyen bölge/aile/ayrıntı hücresi. Yapıların tek tek hedefe açılması ve anatomik kabulü henüz tamamlanmadı. P2'de dört tibial/common-fibular sinir eğrisi ile dört etiket/ilişki adayı çıkarıldı; alt bacak/ayak bileği uyum incelemesi ana atlasa kaydı kabul etmedi. Bu adaylar aktif registry, etiket ve grafiğe eklenmedi; bu tur yeni ürün yayını yapılmadı.
 
 ## Hedef
 

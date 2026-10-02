@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate_only_main_registration_rejected",
+  "scope": "Four independently named Z-Anatomy tibial/common-fibular source objects, bilateral; four ipsilateral terminal-branch relationships to existing sciatic nerve concepts",
+  "representationNoteTr": "Tibial ve ortak fibular sinirlerin kaynakta ayrı adlandırılmış gövdeleri gösterilir. Ayrı distal dallar ve sinir kökleri bu pakette yoktur. Bu gösterim tam alt ekstremite sinir ağı değildir; anatomik uzman incelemesi bekliyor.",
+  "labelSource": {
+    "sourceId": "zanatomy-ta2-pinned",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/23d42ff2acf149e4cc0af666b3f80af2ed19909a/TA2.csv",
+    "sha256": "0f9092a328b27dcd15d696d9f9a4087deb229a1aad21b75876657622de835974",
+    "scope": "Exact unsided English/Latin terms from pinned upstream TA2 table; Turkish editorial translations"
+  },
+  "labels": [
+    {
+      "ids": [
+        "atlas:left-tibial-nerve"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Tibial nerve",
+      "tr": "Tibial sinir",
+      "en": "Tibial nerve",
+      "la": "Nervus tibialis",
+      "side": "left",
+      "aliases": [
+        "n. tibialis"
+      ],
+      "ta2TableId": 6582,
+      "geometryPartIds": [
+        "ZA-TIB-L"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Ayrı distal dallar, tüm alt ekstremite sinir ağı ve kökler bu seçimde yer almaz; anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6582; CSV line 6665; English and Latin columns"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:left-common-fibular-nerve"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Common fibular nerve",
+      "tr": "Ortak fibular sinir",
+      "en": "Common fibular nerve",
+      "la": "Nervus fibularis communis",
+      "side": "left",
+      "aliases": [
+        "common peroneal nerve",
+        "ortak peroneal sinir",
+        "n. fibularis communis"
+      ],
+      "ta2TableId": 6571,
+      "geometryPartIds": [
+        "ZA-CFIB-L"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Ayrı distal dallar, tüm alt ekstremite sinir ağı ve kökler bu seçimde yer almaz; anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6571; CSV line 6654; English and Latin columns"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-tibial-nerve"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Tibial nerve",
+      "tr": "Tibial sinir",
+      "en": "Tibial nerve",
+      "la": "Nervus tibialis",
+      "side": "right",
+      "aliases": [
+        "n. tibialis"
+      ],
+      "ta2TableId": 6582,
+      "geometryPartIds": [
+        "ZA-TIB-R"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Ayrı distal dallar, tüm alt ekstremite sinir ağı ve kökler bu seçimde yer almaz; anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6582; CSV line 6665; English and Latin columns"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "atlas:right-common-fibular-nerve"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "Common fibular nerve",
+      "tr": "Ortak fibular sinir",
+      "en": "Common fibular nerve",
+      "la": "Nervus fibularis communis",
+      "side": "right",
+      "aliases": [
+        "common peroneal nerve",
+        "ortak peroneal sinir",
+        "n. fibularis communis"
+      ],
+      "ta2TableId": 6571,
+      "geometryPartIds": [
+        "ZA-CFIB-R"
+      ],
+      "expertReview": "pending",
+      "trStatus": "editorial",
+      "scopeNoteTr": "Kaynakta ayrı adlandırılmış sinir nesnesinin kapsamı gösterilir. Ayrı distal dallar, tüm alt ekstremite sinir ağı ve kökler bu seçimde yer almaz; anatomik uzman incelemesi bekliyor.",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 6571; CSV line 6654; English and Latin columns"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "relations": [
+    {
+      "id": "atlas:left-tibial-nerve|branch_of|atlas:left-sciatic-nerve",
+      "subject": "atlas:left-tibial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; tibial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .l identifies left; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:left-common-fibular-nerve|branch_of|atlas:left-sciatic-nerve",
+      "subject": "atlas:left-common-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:left-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; fibular, common row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .l identifies left; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:right-tibial-nerve|branch_of|atlas:right-sciatic-nerve",
+      "subject": "atlas:right-tibial-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; tibial row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .r identifies right; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    },
+    {
+      "id": "atlas:right-common-fibular-nerve|branch_of|atlas:right-sciatic-nerve",
+      "subject": "atlas:right-common-fibular-nerve",
+      "predicate": "branch_of",
+      "object": "atlas:right-sciatic-nerve",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "evidence": [
+        {
+          "sourceId": "ttuhsc-posterior-thigh-tables",
+          "locator": "Nerves table; sciatic row, Branches and Notes columns; fibular, common row, Source column"
+        }
+      ],
+      "qualifiers": {
+        "relationshipType": "terminal_branch",
+        "semantics": "Named terminal branch of the ipsilateral sciatic nerve; distinct from generic part_of or source collection membership",
+        "scope": "Typical anatomy; bilateral application is not specimen validation",
+        "laterality": "Source object suffix .r identifies right; apply the unsided educational relationship only within that side",
+        "innervationInference": false,
+        "physicalContinuityClaim": false
+      }
+    }
+  ],
+  "proposedPredicate": {
+    "id": "branch_of",
+    "direction": "named branch → parent nerve",
+    "outgoingLabelTr": "Dalı olduğu sinir",
+    "incomingLabelTr": "Sinirin dalları",
+    "inverse": "has_branch",
+    "transitive": false,
+    "note": "Do not normalize to part_of; these are sourced anatomical terminal branches, not display collection membership. Existing sciatic viaDivision motor relationships remain parent-level functional summaries."
+  },
+  "activationGate": "Do not activate geometry or imply accepted registration solely from these term/relationship records; distal source-to-atlas registration review remains separate.",
+  "integrationGate": {
+    "active": false,
+    "plannedTargetDatasetId": "male-body",
+    "mainAtlasRegistration": "rejected",
+    "separateSourceReference": "data/model-candidates/distal-leg-nerves/source-reference.json",
+    "note": "The male-body label proposal remains inactive. A separate-reference integration would require dataset-scoped labels and an explicit decision for sciatic relationships, whose parent geometry is not present in the 14-object reference."
+  }
+}
