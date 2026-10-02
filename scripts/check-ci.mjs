@@ -17,6 +17,7 @@ const checks = [
   ['Atlas binary and identity validation', process.execPath, ['scripts/validate-atlas.mjs']],
   ['Interaction and reference contracts', process.execPath, ['scripts/validate-interactions.mjs']],
   ['Production build', 'npm', ['run', 'build']],
+  ['Production QA exclusion', process.execPath, ['scripts/check-dev-qa-production.mjs']],
   ['Production transfer budget', process.execPath, ['scripts/check-performance-budget.mjs']],
 ];
 for (const [label, command, args] of checks) {

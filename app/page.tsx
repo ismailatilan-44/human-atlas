@@ -1,4 +1,5 @@
-import StudyPanel from "./study-panel";
+import { learningStorage, fixtureMode } from './learning-storage';
+import StudyPanel, { type StudyDiagnostics } from "./study-panel";
 import { studyPacks, type StudyPack } from "./study-packs";
 import SavedScenesPanel from "./saved-scenes-panel";
 import { validateScene, type SavedScene } from "./saved-scenes";
@@ -18,7 +19,7 @@ import { registerAtlasTools } from "./agent-tools";
 import { getRepresentationNote } from "./atlas-metadata";
 import { selectionVariant } from "./reviewed-selections";
 import { explorerConcepts, relationshipsFor, knowledgeSource, representationFor, relationshipScopeNotes } from "./knowledge";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import {
   Activity,
   ArrowUpRight,
@@ -59,6 +60,7 @@ import {
   type View,
   type CameraPose,
 } from "./anatomy";
+const DevQaPanel = import.meta.env.DEV ? lazy(() => import('./dev-qa-panel')) : null;
 const initial: SceneState = {
   explode: 0,
   visible: DEFAULT_VISIBLE,
@@ -75,6 +77,8 @@ type ExplorerSnapshot = { dataset: DatasetId; state: SceneState; chosen: Concept
   panel: "layers" | "search" | null; language: "tr" | "en" | "la"; camera: CameraPose | null;
   history: { state: SceneState; chosen: Concept | null; details: boolean; camera: CameraPose | null }[] };
 export default function Home() {
+  const qaSlowLoad = useRef(false);
+  const qaStudy = useRef<StudyDiagnostics | null>(null);
   const [studying, setStudying] = useState(false);
   const [activePack, setActivePack] = useState<StudyPack>(studyPacks[0]);
   const [learningOpen, setLearningOpen] = useState(false);
@@ -83,7 +87,7 @@ export default function Home() {
   const [sceneNotice, setSceneNotice] = useState('');
   const [pendingPack, setPendingPack] = useState<StudyPack | null>(null);
   const [lastPack, setLastPack] = useState(() => {
-    try { return localStorage.getItem('atlas.last-study-pack') ?? ''; } catch { return ''; }
+    try { return learningStorage().getItem('atlas.last-study-pack') ?? ''; } catch { return ''; }
   });
   const studyReturn = useRef<(() => void) | null>(null);
   const launchSnapshot = useRef<ExplorerSnapshot | null>(null);
@@ -123,7 +127,8 @@ export default function Home() {
     setHistorySize(0);
     setState({ ...initial, visible: DEFAULT_VISIBLE });
     loadAtlas(abort.signal, dataset)
-      .then((loaded) => {
+      .then(async (loaded) => {
+        if (import.meta.env.DEV && fixtureMode() && qaSlowLoad.current) await new Promise(resolve => setTimeout(resolve, 1500));
         if (!abort.signal.aborted) {
           setState({
             ...initial,
@@ -302,7 +307,7 @@ export default function Home() {
     };
     setActivePack(pack); setLearningOpen(false);
     setLastPack(pack.id);
-    try { localStorage.setItem('atlas.last-study-pack', pack.id); } catch { /* Panel reports durable storage availability. */ }
+    try { learningStorage().setItem('atlas.last-study-pack', pack.id); } catch { /* Panel reports durable storage availability. */ }
     setPanel(null); setDetails(false); setStudying(true);
   };
   const requestStudy = (pack: StudyPack) => {
@@ -366,14 +371,34 @@ export default function Home() {
         />
       )}
       <div className="vignette" />
-      {studying ? <StudyPanel key={activePack.id} pack={activePack} language={language} concepts={conceptMap} reveal={(id, isolated) => {
+      {error && (
+        <div className="loading glass error" role="alert">
+          <p>{error}</p>
+          <Button variant="ghost" onClick={() => location.reload()}>
+            Reload viewer
+          </Button>
+        </div>
+      )}
+
+      {import.meta.env.DEV && DevQaPanel && <Suspense fallback={null}><DevQaPanel
+        read={() => ({ atlas, dataset, state, chosenId: chosen?.id ?? null, language,
+          camera: camera.current, progress, error, studying, activePack, historySize, liveStudy: qaStudy.current,
+          pending: { pack: pendingPack?.id ?? null, scene: pendingScene?.id ?? null, returning: !!returnSnapshot } })}
+        controls={{ explode: value => setState(s => ({ ...s, explode: value, isolate: false, focused: false, restoreCamera: undefined })), study: requestStudy, reference: changeReference, slowLoad: value => { qaSlowLoad.current = value; },
+          exit: () => { studyReturn.current?.(); setStudying(false); },
+          select: id => { const c = conceptMap.get(id); if (c) choose(c); },
+          language: setLanguage, restore: restoreScene,
+          isolate: () => setState(s => ({ ...s, isolate: true, focused: true, explode: 0, restoreCamera: undefined })),
+        }} /></Suspense>}
+
+      {studying ? <StudyPanel key={activePack.id} pack={activePack} onDiagnostics={import.meta.env.DEV ? value => { qaStudy.current = value; } : undefined} blocked={!!error || progress !== 100} language={language} concepts={conceptMap} reveal={(id, isolated) => {
         const c = conceptMap.get(id);
         if (!c) return;
         choose(c);
         setDetails(false);
         setState(s => ({ ...s, ghost: true, isolate: isolated, anchor: undefined, visible: ["skeletal"], hidden: [] }));
       }} exit={() => { studyReturn.current?.(); setStudying(false); }} /> : <>
-      <div className="study-entry"><button onClick={() => { launchSnapshot.current = learningOpen ? null : snapshot(); setLearningOpen(v => !v); setScenesOpen(false); setDetails(false); setPanel(null); }}>Çalışma ve tekrar</button><button disabled={!atlas || progress !== 100} onClick={() => { setScenesOpen(v => !v); setLearningOpen(false); setSceneNotice(''); }}>Kayıtlı sahneler</button></div>
+      <div className="study-entry"><button onClick={() => { if (learningOpen) setPendingPack(null); launchSnapshot.current = learningOpen ? null : snapshot(); setLearningOpen(v => !v); setScenesOpen(false); setDetails(false); setPanel(null); }}>Çalışma ve tekrar</button><button disabled={!atlas || progress !== 100} onClick={() => { setScenesOpen(v => !v); setLearningOpen(false); setSceneNotice(''); }}>Kayıtlı sahneler</button></div>
       {sceneNotice && createPortal(<div className="scene-notice" role="status">{sceneNotice}<button aria-label="Bildirimi kapat" onClick={() => setSceneNotice('')}>×</button></div>, document.body)}
       {scenesOpen && atlas && progress === 100 && <SavedScenesPanel atlas={atlas} dataset={dataset} state={state} camera={() => camera.current} chosenId={chosen?.id ?? null} details={details} language={language} onRestore={restoreScene} onClose={() => setScenesOpen(false)} />}
       {learningOpen && <section className="detail-sheet study-panel" aria-label="Çalışma modülleri">
@@ -786,14 +811,6 @@ export default function Home() {
               <i style={{ width: `${progress}%` }} />
             </div>
           </div>
-        </div>
-      )}
-      {error && (
-        <div className="loading glass error" role="alert">
-          <p>{error}</p>
-          <Button variant="ghost" onClick={() => location.reload()}>
-            Reload viewer
-          </Button>
         </div>
       )}
       <Sheet

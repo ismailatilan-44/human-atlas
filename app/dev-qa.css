@@ -1,0 +1,12 @@
+.dev-qa { position:fixed; z-index:10000; left:8px; top:110px; width:min(370px, calc(100vw - 16px)); color:#e8f4ff; font:12px/1.45 monospace; background:#142334f5; border:2px solid #f4b942; border-radius:8px; box-shadow:0 5px 25px #0005; }
+.dev-qa-toggle { width:100%; text-align:left; padding:8px; color:#f4b942; font-weight:bold; }
+.dev-qa-body { padding:8px; max-height:40vh; overflow:auto; }
+.dev-qa p { margin:5px 0 9px; }
+.dev-qa select { display:block; width:100%; color:#fff; background:#243b53; padding:6px; }
+.dev-qa-actions { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+.dev-qa-actions button { background:#365572; padding:6px; border-radius:4px; }
+.dev-qa button:disabled { opacity:.4; }
+.dev-qa pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:11px; }
+.dev-qa li { margin:8px 0; overflow-wrap:anywhere; }
+.dev-qa summary { cursor:pointer; padding:6px 0; }
+@media(max-width:600px) { .dev-qa { top:90px; } .dev-qa-body { max-height:28vh; } }

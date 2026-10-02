@@ -103,6 +103,8 @@ The current [shoulder–axilla–arm requirement seed v2](docs/model/upper-limb-
 
 The [forearm/wrist/hand requirement seed](docs/model/forearm-hand-targets-v1.md) adds 502 bilateral D1/selected-D2 requirements across four families: 188 have bounded positive source observations and 314 have no positive binding. Twenty-two individual intrinsic-muscle requirements remain unbound despite related compound source groups. The offline inventory retains 1,010 lower/upper/forearm requirements; none closes regional or expert acceptance. `python3 scripts/build-forearm-hand-targets.py --check` checks current membership; the candidate producer checks its independent frozen history.
 
+Development-only visual QA: run the local server with `?devqa=1` on loopback for isolated fixtures, readable live state, bounded replay and reload verification. See [QA controls and production exclusion](docs/model/development-qa.md). The panel is excluded from production builds.
+
 ## Anatomy data
 
 The current viewer uses **BodyParts3D 4.0**, an adult male reference anatomy, licensed **CC BY 4.0**. It does not represent every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
