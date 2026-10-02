@@ -1,0 +1,19 @@
+{
+  "taskStart": "not measured before initial audit",
+  "firstProducerFileCreatedAt": "2026-10-02T11:52:39.818197+00:00",
+  "completedAt": "2026-10-02T11:59:22.224591+00:00",
+  "elapsedSinceFirstProducerSeconds": 402.406,
+  "measurement": "Partial wall-clock measurement; initial repo/scope/source inspection preceding producer creation is unmeasured",
+  "waiting": "No external blocker; independent root support integration continued",
+  "rework": [
+    {
+      "reason": "Initial source-table parity assertion failed for pectoralis and subscapular groups; added official PART-OF names/memberships rather than overriding source memberships",
+      "duration": "not separately measured"
+    },
+    {
+      "reason": "Expanded attachment-landmark and proximal vessel context requirements before final scope review; related medial brachial vein evidence retained without plural-group promotion",
+      "duration": "not separately measured"
+    }
+  ],
+  "ownership": "Only this candidate directory; no active integration"
+}

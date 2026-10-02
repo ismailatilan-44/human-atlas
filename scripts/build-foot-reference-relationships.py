@@ -102,7 +102,7 @@ for r in relations:
 predicates = [dict(id='articulates_with', symmetric=True, transitive=False,
     meaning='Named bones participate in a sourced anatomical articulation; no surface, capsule, cartilage or contact measurement implied'),
     dict(id='attaches_to', symmetric=False, transitive=False,
-    meaning='Ligament attaches to named bone/region; bone geometry is not an attachment footprint')]
+    meaning='Sourced structure attaches to named bone/region; bone geometry is not an attachment footprint')]
 proposal = dict(schemaVersion=1, datasetId=dataset, discoveryRevision='41723bdf937ce50976c118230b0a29441700d4a2',
     inputSnapshots=[dict(path=p,sha256=hashlib.sha256((ROOT/p).read_bytes()).hexdigest())
                     for p in [MANIFEST,'scripts/build-foot-reference-relationships.py']],
@@ -135,7 +135,7 @@ if '--apply' in sys.argv:
         definitions[p['id']] = p
     metadata['relationshipPredicates'] = list(definitions.values())
     metadata['counts']['articulationRelations'] = 48
-    metadata['counts']['attachmentRelations'] = 12
+    metadata['counts']['attachmentRelations'] = sum(r['predicate'] == 'attaches_to' for r in metadata['relations'])
     metadata['counts']['totalRelations'] = len(metadata['relations'])
     if len(metadata['relations']) == 72:
         metadata['review']['relationshipEvidence'] = ('12 preserved same-side nerve branches; 48 sourced bone-level '

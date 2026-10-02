@@ -1,0 +1,222 @@
+[
+  {
+    "sourceObject": "Flexor retinaculum of ankle.l",
+    "partId": "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-L",
+    "conceptId": "zanatomy:flexor-retinaculum-of-ankle-l",
+    "side": "left",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Flexor retinaculum of ankle.r",
+    "partId": "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-R",
+    "conceptId": "zanatomy:flexor-retinaculum-of-ankle-r",
+    "side": "right",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Superior extensor retinaculum of ankle.l",
+    "partId": "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L",
+    "conceptId": "zanatomy:superior-extensor-retinaculum-of-ankle-l",
+    "side": "left",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Superior extensor retinaculum of ankle.r",
+    "partId": "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R",
+    "conceptId": "zanatomy:superior-extensor-retinaculum-of-ankle-r",
+    "side": "right",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Inferior extensor retinaculum of ankle.l",
+    "partId": "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L",
+    "conceptId": "zanatomy:inferior-extensor-retinaculum-of-ankle-l",
+    "side": "left",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Inferior extensor retinaculum of ankle.r",
+    "partId": "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R",
+    "conceptId": "zanatomy:inferior-extensor-retinaculum-of-ankle-r",
+    "side": "right",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Superior fibular retinaculum.l",
+    "partId": "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-L",
+    "conceptId": "zanatomy:superior-fibular-retinaculum-l",
+    "side": "left",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Superior fibular retinaculum.r",
+    "partId": "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-R",
+    "conceptId": "zanatomy:superior-fibular-retinaculum-r",
+    "side": "right",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Inferior fibular retinaculum.l",
+    "partId": "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-L",
+    "conceptId": "zanatomy:inferior-fibular-retinaculum-l",
+    "side": "left",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+    "expectedBoundaryEdges": 27
+  },
+  {
+    "sourceObject": "Inferior fibular retinaculum.r",
+    "partId": "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-R",
+    "conceptId": "zanatomy:inferior-fibular-retinaculum-r",
+    "side": "right",
+    "componentRole": "retinaculum",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+    "expectedBoundaryEdges": 27
+  },
+  {
+    "sourceObject": "Plantar aponeurosis.l",
+    "partId": "ZA-LLR-PLANTAR-APONEUROSIS-L",
+    "conceptId": "zanatomy:plantar-aponeurosis-l",
+    "side": "left",
+    "componentRole": "aponeurosis",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+    "expectedBoundaryEdges": 72
+  },
+  {
+    "sourceObject": "Plantar aponeurosis.r",
+    "partId": "ZA-LLR-PLANTAR-APONEUROSIS-R",
+    "conceptId": "zanatomy:plantar-aponeurosis-r",
+    "side": "right",
+    "componentRole": "aponeurosis",
+    "role": "primary",
+    "system": "muscular",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+    "expectedBoundaryEdges": 72
+  },
+  {
+    "sourceObject": "Long plantar ligament.l",
+    "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-L",
+    "conceptId": "zanatomy:long-plantar-ligament-l",
+    "side": "left",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Long plantar ligament.r",
+    "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-R",
+    "conceptId": "zanatomy:long-plantar-ligament-r",
+    "side": "right",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Plantar calcaneocuboid ligament.l",
+    "partId": "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-L",
+    "conceptId": "zanatomy:plantar-calcaneocuboid-ligament-l",
+    "side": "left",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Plantar calcaneocuboid ligament.r",
+    "partId": "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-R",
+    "conceptId": "zanatomy:plantar-calcaneocuboid-ligament-r",
+    "side": "right",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Plantar calcaneonavicular ligament.l",
+    "partId": "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-L",
+    "conceptId": "zanatomy:plantar-calcaneonavicular-ligament-l",
+    "side": "left",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Plantar calcaneonavicular ligament.r",
+    "partId": "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-R",
+    "conceptId": "zanatomy:plantar-calcaneonavicular-ligament-r",
+    "side": "right",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Intersesamoid ligament.l",
+    "partId": "ZA-LLR-INTERSESAMOID-LIGAMENT-L",
+    "conceptId": "zanatomy:intersesamoid-ligament-l",
+    "side": "left",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; placement and relationship to both source sesamoid components are not anatomically accepted",
+    "expectedBoundaryEdges": 0
+  },
+  {
+    "sourceObject": "Intersesamoid ligament.r",
+    "partId": "ZA-LLR-INTERSESAMOID-LIGAMENT-R",
+    "conceptId": "zanatomy:intersesamoid-ligament-r",
+    "side": "right",
+    "componentRole": "ligament",
+    "role": "primary",
+    "system": "skeletal",
+    "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; placement and relationship to both source sesamoid components are not anatomically accepted",
+    "expectedBoundaryEdges": 0
+  }
+]

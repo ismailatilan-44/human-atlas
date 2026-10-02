@@ -2,33 +2,36 @@
   "schemaVersion": 1,
   "datasetId": "lower-limb-nerve-reference",
   "scope": "Sixteen independently named nerve objects, two fibular artery objects, six ankle ligament objects and 63 same-source bone context objects; partial lower-limb reference",
-  "descriptionTr": "Kaynağın kendi kemik bağlamındaki kısmi sinir/arter seyirleri, seçilmiş ayak bileği bağları, ayak kasları ve sesamoid grupları. Ana gövdeye yerleştirilmiş değildir; tam ağ veya bütün ayak ayrıntısı değildir.",
+  "descriptionTr": "Kaynağın kendi kemik bağlamındaki kısmi sinir/arter seyirleri, seçilmiş bağlar, ayak kasları, sesamoid grupları, retinakulumlar ve plantar aponevroz. Ana gövdeye yerleştirilmiş değildir; tam ağ veya bütün ayak ayrıntısı değildir.",
   "representationNoteTr": "Kaynakta yazılmış sinir ve arter eğrileri, seçilmiş bağ yüzeyleri ve kemik bağlamı korunur. Nesnedeki spline sayısı adlandırılmış dal sayısı değildir. Kökler, tüm distal dallar, innervasyon ve damar ağı tamlığı bu paketten çıkarılamaz.",
   "counts": {
-    "labels": 119,
+    "labels": 137,
     "authoredNerveObjects": 16,
     "authoredArteryObjects": 2,
-    "ligamentObjects": 6,
+    "ligamentObjects": 12,
     "boneContextObjects": 65,
     "branchOfRelations": 12,
-    "verifiedDisplayLatin": 83,
+    "verifiedDisplayLatin": 101,
     "unresolvedSpecificLatin": 36,
     "articulationRelations": 48,
-    "attachmentRelations": 12,
-    "totalRelations": 84,
+    "attachmentRelations": 40,
+    "totalRelations": 112,
     "muscleObjects": 30,
     "sesamoidGroupObjects": 2,
     "muscleOriginRelations": 4,
     "muscleInsertionRelations": 4,
-    "muscleInnervationRelations": 4
+    "muscleInnervationRelations": 4,
+    "retinaculumObjects": 10,
+    "plantarAponeurosisObjects": 2
   },
   "review": {
-    "terminology": "119 TR/EN labels;83 exact pinned numeric-table Latin display terms; 34 digit-specific and two source-typo Latin displays unresolved; Turkish editorial, expert pending",
-    "relationshipEvidence": "12 nerve branches,48 bone articulations,12 ligament attachments; four muscle origins,four insertions,four innervations from selected direct teaching facts. No model footprints,contact,motor branch geometry or expert acceptance.",
+    "terminology": "137 TR/EN labels; 101 exact pinned numeric-table Latin terms; 34 digit-specific and two source-typo Latin displays unresolved; Turkish editorial, expert pending",
+    "relationshipEvidence": "12 nerve branches, 48 bone articulations, 40 selected ligament/fascial attachments and12 muscle facts. Selected typical teaching anatomy, not model contact, complete endpoint sets or expert acceptance.",
     "expertReview": "pending",
     "geometry": "Not assessed by this metadata task; see the owning reference package review",
     "mainAtlasRegistration": "Existing rejected distal registration is not accepted by this separate dataset metadata",
-    "integrationAndRelease": "Owned by the parent integration task; this file alone is not acceptance evidence"
+    "integrationAndRelease": "Owned by the parent integration task; this file alone is not acceptance evidence",
+    "supportGeometry": "18 source-preserved objects; two source-named intersesamoid meshes withheld because their source extent does not bridge the modeled sesamoid components. Open inferior fibular retinacula and plantar aponeuroses remain source sheets, not volumetric or layered reconstructions. Selected teaching attachment facts do not assert model contact, footprints, tunnel contents or expert acceptance."
   },
   "lateralityPolicy": "Keep unsided terminology text verbatim; side is separate. UI may append L/R or localized side labels without claiming a verified Latin side compound.",
   "labels": [
@@ -5777,6 +5780,1448 @@
         "geometryReviewPath": "data/model-candidates/foot-soft-tissue-source-audit-v1/evaluated-candidates.json",
         "scope": "Geometry connectivity only;not independent anatomical substructure identity"
       }
+    },
+    {
+      "ids": [
+        "zanatomy:flexor-retinaculum-of-ankle-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Flexor retinaculum of ankle",
+      "tr": "Ayak bileği fleksör retinakulumu",
+      "en": "Flexor retinaculum of ankle",
+      "la": "Retinaculum flexorium tali",
+      "side": "left",
+      "aliases": [
+        "Flexor retinaculum of ankle.l",
+        "Flexor retinaculum of ankle",
+        "Retinaculum flexorium tali"
+      ],
+      "ta2TableId": 2714,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2714,
+        "en": "Flexor retinaculum of ankle",
+        "la": "Retinaculum flexorium tali",
+        "csvLine": 2812
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2714; CSV line 2812; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Flexor retinaculum of ankle.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Flexor retinaculum of ankle.l",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 175,
+        "basePolygons": 154,
+        "evaluatedVertices": 350,
+        "evaluatedTriangles": 696,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1350212549757698e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            350
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:flexor-retinaculum-of-ankle-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Flexor retinaculum of ankle",
+      "tr": "Ayak bileği fleksör retinakulumu",
+      "en": "Flexor retinaculum of ankle",
+      "la": "Retinaculum flexorium tali",
+      "side": "right",
+      "aliases": [
+        "Flexor retinaculum of ankle.r",
+        "Flexor retinaculum of ankle",
+        "Retinaculum flexorium tali"
+      ],
+      "ta2TableId": 2714,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2714,
+        "en": "Flexor retinaculum of ankle",
+        "la": "Retinaculum flexorium tali",
+        "csvLine": 2812
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2714; CSV line 2812; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Flexor retinaculum of ankle.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Flexor retinaculum of ankle.r",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 175,
+        "basePolygons": 154,
+        "evaluatedVertices": 350,
+        "evaluatedTriangles": 696,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.134970205635448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            350
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:superior-extensor-retinaculum-of-ankle-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Superior extensor retinaculum of ankle",
+      "tr": "Ayak bileği üst ekstansör retinakulumu",
+      "en": "Superior extensor retinaculum of ankle",
+      "la": "Retinaculum extensorium superius tali",
+      "side": "left",
+      "aliases": [
+        "Superior extensor retinaculum of ankle.l",
+        "Superior extensor retinaculum of ankle",
+        "Retinaculum extensorium superius tali"
+      ],
+      "ta2TableId": 2712,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2712,
+        "en": "Superior extensor retinaculum of ankle",
+        "la": "Retinaculum extensorium superius tali",
+        "csvLine": 2810
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2712; CSV line 2810; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Superior extensor retinaculum of ankle.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Superior extensor retinaculum of ankle.l",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 66,
+        "basePolygons": 50,
+        "evaluatedVertices": 132,
+        "evaluatedTriangles": 260,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1786345867002448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            132
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:superior-extensor-retinaculum-of-ankle-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Superior extensor retinaculum of ankle",
+      "tr": "Ayak bileği üst ekstansör retinakulumu",
+      "en": "Superior extensor retinaculum of ankle",
+      "la": "Retinaculum extensorium superius tali",
+      "side": "right",
+      "aliases": [
+        "Superior extensor retinaculum of ankle.r",
+        "Superior extensor retinaculum of ankle",
+        "Retinaculum extensorium superius tali"
+      ],
+      "ta2TableId": 2712,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2712,
+        "en": "Superior extensor retinaculum of ankle",
+        "la": "Retinaculum extensorium superius tali",
+        "csvLine": 2810
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2712; CSV line 2810; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Superior extensor retinaculum of ankle.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Superior extensor retinaculum of ankle.r",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 66,
+        "basePolygons": 50,
+        "evaluatedVertices": 132,
+        "evaluatedTriangles": 260,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1786345867002448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            132
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:inferior-extensor-retinaculum-of-ankle-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Inferior extensor retinaculum of ankle",
+      "tr": "Ayak bileği alt ekstansör retinakulumu",
+      "en": "Inferior extensor retinaculum of ankle",
+      "la": "Retinaculum extensorium inferius tali",
+      "side": "left",
+      "aliases": [
+        "Inferior extensor retinaculum of ankle.l",
+        "Inferior extensor retinaculum of ankle",
+        "Retinaculum extensorium inferius tali"
+      ],
+      "ta2TableId": 2713,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2713,
+        "en": "Inferior extensor retinaculum of ankle",
+        "la": "Retinaculum extensorium inferius tali",
+        "csvLine": 2811
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2713; CSV line 2811; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Inferior extensor retinaculum of ankle.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Inferior extensor retinaculum of ankle.l",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 80,
+        "basePolygons": 65,
+        "evaluatedVertices": 160,
+        "evaluatedTriangles": 316,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.73292325613117e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            160
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:inferior-extensor-retinaculum-of-ankle-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Inferior extensor retinaculum of ankle",
+      "tr": "Ayak bileği alt ekstansör retinakulumu",
+      "en": "Inferior extensor retinaculum of ankle",
+      "la": "Retinaculum extensorium inferius tali",
+      "side": "right",
+      "aliases": [
+        "Inferior extensor retinaculum of ankle.r",
+        "Inferior extensor retinaculum of ankle",
+        "Retinaculum extensorium inferius tali"
+      ],
+      "ta2TableId": 2713,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2713,
+        "en": "Inferior extensor retinaculum of ankle",
+        "la": "Retinaculum extensorium inferius tali",
+        "csvLine": 2811
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2713; CSV line 2811; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Inferior extensor retinaculum of ankle.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Inferior extensor retinaculum of ankle.r",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 80,
+        "basePolygons": 65,
+        "evaluatedVertices": 160,
+        "evaluatedTriangles": 316,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.73292325613117e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            160
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:superior-fibular-retinaculum-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Superior fibular retinaculum",
+      "tr": "Üst fibular retinakulum",
+      "en": "Superior fibular retinaculum",
+      "la": "Retinaculum fibulare superius",
+      "side": "left",
+      "aliases": [
+        "Superior fibular retinaculum.l",
+        "Superior fibular retinaculum",
+        "Retinaculum fibulare superius"
+      ],
+      "ta2TableId": 2715,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2715,
+        "en": "Superior fibular retinaculum",
+        "la": "Retinaculum fibulare superius",
+        "csvLine": 2813
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2715; CSV line 2813; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Superior fibular retinaculum.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Superior fibular retinaculum.l",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 164,
+        "basePolygons": 138,
+        "evaluatedVertices": 328,
+        "evaluatedTriangles": 652,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.775185487647466e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            328
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:superior-fibular-retinaculum-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Superior fibular retinaculum",
+      "tr": "Üst fibular retinakulum",
+      "en": "Superior fibular retinaculum",
+      "la": "Retinaculum fibulare superius",
+      "side": "right",
+      "aliases": [
+        "Superior fibular retinaculum.r",
+        "Superior fibular retinaculum",
+        "Retinaculum fibulare superius"
+      ],
+      "ta2TableId": 2715,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2715,
+        "en": "Superior fibular retinaculum",
+        "la": "Retinaculum fibulare superius",
+        "csvLine": 2813
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2715; CSV line 2813; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Superior fibular retinaculum.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Superior fibular retinaculum.r",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 164,
+        "basePolygons": 138,
+        "evaluatedVertices": 328,
+        "evaluatedTriangles": 652,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.775185487647466e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            328
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:inferior-fibular-retinaculum-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Inferior fibular retinaculum",
+      "tr": "Alt fibular retinakulum",
+      "en": "Inferior fibular retinaculum",
+      "la": "Retinaculum fibulare inferius",
+      "side": "left",
+      "aliases": [
+        "Inferior fibular retinaculum.l",
+        "Inferior fibular retinaculum",
+        "Retinaculum fibulare inferius"
+      ],
+      "ta2TableId": 2716,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2716,
+        "en": "Inferior fibular retinaculum",
+        "la": "Retinaculum fibulare inferius",
+        "csvLine": 2814
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2716; CSV line 2814; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Inferior fibular retinaculum.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Inferior fibular retinaculum.l",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 32,
+        "basePolygons": 35,
+        "evaluatedVertices": 32,
+        "evaluatedTriangles": 35,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 27,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.371028833999893e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            32
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:inferior-fibular-retinaculum-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Inferior fibular retinaculum",
+      "tr": "Alt fibular retinakulum",
+      "en": "Inferior fibular retinaculum",
+      "la": "Retinaculum fibulare inferius",
+      "side": "right",
+      "aliases": [
+        "Inferior fibular retinaculum.r",
+        "Inferior fibular retinaculum",
+        "Retinaculum fibulare inferius"
+      ],
+      "ta2TableId": 2716,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "retinaculum",
+      "scopeNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış tutucu bağ dokusu yüzeyi gösterilir. Ayrı lif katmanları, tendon kılıfları ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2716,
+        "en": "Inferior fibular retinaculum",
+        "la": "Retinaculum fibulare inferius",
+        "csvLine": 2814
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2716; CSV line 2814; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Inferior fibular retinaculum.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Inferior fibular retinaculum.r",
+      "componentRole": "retinaculum",
+      "geometryPartIds": [
+        "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 32,
+        "basePolygons": 35,
+        "evaluatedVertices": 32,
+        "evaluatedTriangles": 35,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 27,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.371028013323952e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            32
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-aponeurosis-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar aponeurosis",
+      "tr": "Plantar aponevroz",
+      "en": "Plantar aponeurosis",
+      "la": "Aponeurosis plantaris",
+      "side": "left",
+      "aliases": [
+        "Plantar aponeurosis.l",
+        "Plantar aponeurosis",
+        "Aponeurosis plantaris"
+      ],
+      "ta2TableId": 2718,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "aponeurosis",
+      "scopeNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış plantar aponevroz yüzeyi gösterilir. Ayrı bantlar, parmak uzantıları ve ince lif katmanları bağımsız yapılar olarak doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış plantar aponevroz yüzeyi gösterilir. Ayrı bantlar, parmak uzantıları ve ince lif katmanları bağımsız yapılar olarak doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2718,
+        "en": "Plantar aponeurosis",
+        "la": "Aponeurosis plantaris",
+        "csvLine": 2816
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2718; CSV line 2816; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar aponeurosis.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Plantar aponeurosis.l",
+      "componentRole": "aponeurosis",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-APONEUROSIS-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 240,
+        "basePolygons": 211,
+        "evaluatedVertices": 240,
+        "evaluatedTriangles": 406,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": false,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 72,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.1155313782939083e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            240
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-aponeurosis-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar aponeurosis",
+      "tr": "Plantar aponevroz",
+      "en": "Plantar aponeurosis",
+      "la": "Aponeurosis plantaris",
+      "side": "right",
+      "aliases": [
+        "Plantar aponeurosis.r",
+        "Plantar aponeurosis",
+        "Aponeurosis plantaris"
+      ],
+      "ta2TableId": 2718,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "aponeurosis",
+      "scopeNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış plantar aponevroz yüzeyi gösterilir. Ayrı bantlar, parmak uzantıları ve ince lif katmanları bağımsız yapılar olarak doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynak modeli kenarları açık, ince bir yüzey olarak gösterilir; gerçek doku kalınlığı bu görünümden ölçülemez. Kaynakta adlandırılmış plantar aponevroz yüzeyi gösterilir. Ayrı bantlar, parmak uzantıları ve ince lif katmanları bağımsız yapılar olarak doğrulanmaz. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 2718,
+        "en": "Plantar aponeurosis",
+        "la": "Aponeurosis plantaris",
+        "csvLine": 2816
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 2718; CSV line 2816; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar aponeurosis.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Plantar aponeurosis.r",
+      "componentRole": "aponeurosis",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-APONEUROSIS-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 240,
+        "basePolygons": 211,
+        "evaluatedVertices": 240,
+        "evaluatedTriangles": 406,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": false,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 72,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.115530224803559e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            240
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:long-plantar-ligament-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Long plantar ligament",
+      "tr": "Uzun plantar bağ",
+      "en": "Long plantar ligament",
+      "la": "Ligamentum plantare longum",
+      "side": "left",
+      "aliases": [
+        "Long plantar ligament.l",
+        "Long plantar ligament",
+        "Ligamentum plantare longum"
+      ],
+      "ta2TableId": 1934,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinin bazı küçük alanlarında gölgelendirme kusuru görülebilir.",
+      "representationNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinin bazı küçük alanlarında gölgelendirme kusuru görülebilir.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1934,
+        "en": "Long plantar ligament",
+        "la": "Ligamentum plantare longum",
+        "csvLine": 2033
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1934; CSV line 2033; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Long plantar ligament.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Long plantar ligament.l",
+      "componentRole": "ligament",
+      "geometryPartIds": [
+        "ZA-LLR-LONG-PLANTAR-LIGAMENT-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 1741,
+        "basePolygons": 3486,
+        "evaluatedVertices": 1741,
+        "evaluatedTriangles": 3486,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions",
+        "inheritedNormalDefect": {
+          "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-L",
+          "sourceObject": "Long plantar ligament.l",
+          "nonpositiveInterpolatedFaceNormals": 5,
+          "minFaceNormalDot": -0.4783871266618519,
+          "cancelledVertexNormals": 0,
+          "duplicateIndexFaceSets": 0,
+          "duplicateFaceExtraCount": 0,
+          "minDoubleTriangleArea": 1.3747802592793167e-08,
+          "maxNormalLengthError": 2.256334329220344e-05,
+          "maxFloat32PositionErrorMeters": 0.0,
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        }
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:long-plantar-ligament-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Long plantar ligament",
+      "tr": "Uzun plantar bağ",
+      "en": "Long plantar ligament",
+      "la": "Ligamentum plantare longum",
+      "side": "right",
+      "aliases": [
+        "Long plantar ligament.r",
+        "Long plantar ligament",
+        "Ligamentum plantare longum"
+      ],
+      "ta2TableId": 1934,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinin bazı küçük alanlarında gölgelendirme kusuru görülebilir.",
+      "representationNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor. Kaynak yüzeyinin bazı küçük alanlarında gölgelendirme kusuru görülebilir.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1934,
+        "en": "Long plantar ligament",
+        "la": "Ligamentum plantare longum",
+        "csvLine": 2033
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1934; CSV line 2033; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Long plantar ligament.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Long plantar ligament.r",
+      "componentRole": "ligament",
+      "geometryPartIds": [
+        "ZA-LLR-LONG-PLANTAR-LIGAMENT-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 1741,
+        "basePolygons": 3486,
+        "evaluatedVertices": 1741,
+        "evaluatedTriangles": 3486,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions",
+        "inheritedNormalDefect": {
+          "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-R",
+          "sourceObject": "Long plantar ligament.r",
+          "nonpositiveInterpolatedFaceNormals": 5,
+          "minFaceNormalDot": -0.4783871266618519,
+          "cancelledVertexNormals": 0,
+          "duplicateIndexFaceSets": 0,
+          "duplicateFaceExtraCount": 0,
+          "minDoubleTriangleArea": 1.3747802592793167e-08,
+          "maxNormalLengthError": 2.256334329220344e-05,
+          "maxFloat32PositionErrorMeters": 0.0,
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        }
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-calcaneocuboid-ligament-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar calcaneocuboid ligament",
+      "tr": "Plantar kalkaneokuboid bağ",
+      "en": "Plantar calcaneocuboid ligament",
+      "la": "Ligamentum calcaneocuboideum plantare",
+      "side": "left",
+      "aliases": [
+        "Plantar calcaneocuboid ligament.l",
+        "Plantar calcaneocuboid ligament",
+        "Ligamentum calcaneocuboideum plantare"
+      ],
+      "ta2TableId": 1940,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1940,
+        "en": "Plantar calcaneocuboid ligament",
+        "la": "Ligamentum calcaneocuboideum plantare",
+        "csvLine": 2039
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1940; CSV line 2039; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar calcaneocuboid ligament.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Plantar calcaneocuboid ligament.l",
+      "componentRole": "ligament",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 12,
+        "basePolygons": 6,
+        "evaluatedVertices": 70,
+        "evaluatedTriangles": 136,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.774907418350885e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            70
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-calcaneocuboid-ligament-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar calcaneocuboid ligament",
+      "tr": "Plantar kalkaneokuboid bağ",
+      "en": "Plantar calcaneocuboid ligament",
+      "la": "Ligamentum calcaneocuboideum plantare",
+      "side": "right",
+      "aliases": [
+        "Plantar calcaneocuboid ligament.r",
+        "Plantar calcaneocuboid ligament",
+        "Ligamentum calcaneocuboideum plantare"
+      ],
+      "ta2TableId": 1940,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1940,
+        "en": "Plantar calcaneocuboid ligament",
+        "la": "Ligamentum calcaneocuboideum plantare",
+        "csvLine": 2039
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1940; CSV line 2039; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar calcaneocuboid ligament.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Plantar calcaneocuboid ligament.r",
+      "componentRole": "ligament",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 12,
+        "basePolygons": 6,
+        "evaluatedVertices": 70,
+        "evaluatedTriangles": 136,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.774907418350885e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            70
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-calcaneonavicular-ligament-l"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar calcaneonavicular ligament",
+      "tr": "Plantar kalkaneonaviküler bağ",
+      "en": "Plantar calcaneonavicular ligament",
+      "la": "Ligamentum calcaneonaviculare plantare",
+      "side": "left",
+      "aliases": [
+        "Plantar calcaneonavicular ligament.l",
+        "Plantar calcaneonavicular ligament",
+        "Ligamentum calcaneonaviculare plantare"
+      ],
+      "ta2TableId": 1937,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1937,
+        "en": "Plantar calcaneonavicular ligament",
+        "la": "Ligamentum calcaneonaviculare plantare",
+        "csvLine": 2036
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1937; CSV line 2036; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar calcaneonavicular ligament.l",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Plantar calcaneonavicular ligament.l",
+      "componentRole": "ligament",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-L"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 4,
+        "basePolygons": 1,
+        "evaluatedVertices": 18,
+        "evaluatedTriangles": 32,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3925995365486904e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            18
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
+    },
+    {
+      "ids": [
+        "zanatomy:plantar-calcaneonavicular-ligament-r"
+      ],
+      "datasetId": "lower-limb-nerve-reference",
+      "sourceEnglish": "Plantar calcaneonavicular ligament",
+      "tr": "Plantar kalkaneonaviküler bağ",
+      "en": "Plantar calcaneonavicular ligament",
+      "la": "Ligamentum calcaneonaviculare plantare",
+      "side": "right",
+      "aliases": [
+        "Plantar calcaneonavicular ligament.r",
+        "Plantar calcaneonavicular ligament",
+        "Ligamentum calcaneonaviculare plantare"
+      ],
+      "ta2TableId": 1937,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Bağın genel biçimi basit bir kaynak yüzeyiyle temsil edilir; ayrıntılı lif düzeni veya gerçek doku kalınlığı gösterilmez. Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1937,
+        "en": "Plantar calcaneonavicular ligament",
+        "la": "Ligamentum calcaneonaviculare plantare",
+        "csvLine": 2036
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1937; CSV line 2036; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend object Plantar calcaneonavicular ligament.r",
+          "scope": "Exact source object, authored support scope and laterality; geometry and license acceptance separate"
+        }
+      ],
+      "sourceObject": "Plantar calcaneonavicular ligament.r",
+      "componentRole": "ligament",
+      "geometryPartIds": [
+        "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-R"
+      ],
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceRepresentation": {
+        "objectType": "MESH",
+        "baseVertices": 4,
+        "basePolygons": 1,
+        "evaluatedVertices": 18,
+        "evaluatedTriangles": 32,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3925995365486904e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            18
+          ]
+        },
+        "geometryReviewPath": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+        "scope": "Connectivity and open boundaries describe source surface representation, not named anatomical layers or subdivisions"
+      }
     }
   ],
   "relations": [
@@ -7779,6 +9224,750 @@
         "modeledMotorBranch": false,
         "geometry": "No motor entry point, neural branch trajectory or contact asserted"
       }
+    },
+    {
+      "id": "zanatomy:long-plantar-ligament-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:long-plantar-ligament-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ],
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:long-plantar-ligament-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:long-plantar-ligament-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ],
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:long-plantar-ligament-l|attaches_to|zanatomy:cuboid-bone-l",
+      "subject": "zanatomy:long-plantar-ligament-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:cuboid-bone-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemikteki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ],
+        "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:long-plantar-ligament-r|attaches_to|zanatomy:cuboid-bone-r",
+      "subject": "zanatomy:long-plantar-ligament-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:cuboid-bone-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemikteki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ],
+        "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneocuboid-ligament-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:plantar-calcaneocuboid-ligament-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneusun alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneocuboid (short plantar) ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneusun alt yüzündeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneusun alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneocuboid-ligament-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:plantar-calcaneocuboid-ligament-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneusun alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneocuboid (short plantar) ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneusun alt yüzündeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneusun alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneocuboid-ligament-l|attaches_to|zanatomy:cuboid-bone-l",
+      "subject": "zanatomy:plantar-calcaneocuboid-ligament-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:cuboid-bone-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemiğin alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneocuboid (short plantar) ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemiğin alt yüzündeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kuboid kemiğin alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneocuboid-ligament-r|attaches_to|zanatomy:cuboid-bone-r",
+      "subject": "zanatomy:plantar-calcaneocuboid-ligament-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:cuboid-bone-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemiğin alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneocuboid (short plantar) ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemiğin alt yüzündeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kuboid kemiğin alt yüzündeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneonavicular-ligament-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:plantar-calcaneonavicular-ligament-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneusun sustentaculum tali bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneonavicular ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneusun sustentaculum tali bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneusun sustentaculum tali bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneonavicular-ligament-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:plantar-calcaneonavicular-ligament-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneusun sustentaculum tali bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneonavicular ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneusun sustentaculum tali bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneusun sustentaculum tali bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneonavicular-ligament-l|attaches_to|zanatomy:navicular-bone-l",
+      "subject": "zanatomy:plantar-calcaneonavicular-ligament-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:navicular-bone-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Naviküler kemiğin alt yüzü — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneonavicular ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Naviküler kemiğin alt yüzü",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Naviküler kemiğin alt yüzü — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-calcaneonavicular-ligament-r|attaches_to|zanatomy:navicular-bone-r",
+      "subject": "zanatomy:plantar-calcaneonavicular-ligament-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:navicular-bone-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Naviküler kemiğin alt yüzü — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; plantar calcaneonavicular ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Naviküler kemiğin alt yüzü",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Naviküler kemiğin alt yüzü — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-aponeurosis-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:plantar-aponeurosis-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneus tüberositesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Osteology; calcaneus / calcaneal tuberosity; Notes"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneus tüberositesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneus tüberositesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:plantar-aponeurosis-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:plantar-aponeurosis-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneus tüberositesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Osteology; calcaneus / calcaneal tuberosity; Notes"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneus tüberositesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneus tüberositesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:flexor-retinaculum-of-ankle-l|attaches_to|zanatomy:tibia-l",
+      "subject": "zanatomy:flexor-retinaculum-of-ankle-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:tibia-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Tibianın medial malleol ucundaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-schemes",
+          "locator": "Topographic Anatomy; flexor retinaculum; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Tibianın medial malleol ucundaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Tibianın medial malleol ucundaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:flexor-retinaculum-of-ankle-r|attaches_to|zanatomy:tibia-r",
+      "subject": "zanatomy:flexor-retinaculum-of-ankle-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:tibia-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Tibianın medial malleol ucundaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-schemes",
+          "locator": "Topographic Anatomy; flexor retinaculum; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Tibianın medial malleol ucundaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Tibianın medial malleol ucundaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:flexor-retinaculum-of-ankle-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:flexor-retinaculum-of-ankle-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-schemes",
+          "locator": "Topographic Anatomy; flexor retinaculum; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:flexor-retinaculum-of-ankle-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:flexor-retinaculum-of-ankle-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-schemes",
+          "locator": "Topographic Anatomy; flexor retinaculum; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-extensor-retinaculum-of-ankle-l|attaches_to|zanatomy:tibia-l",
+      "subject": "zanatomy:superior-extensor-retinaculum-of-ankle-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:tibia-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Tibiada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; extensor retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Tibiada malleolün proksimalindeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Tibiada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-extensor-retinaculum-of-ankle-r|attaches_to|zanatomy:tibia-r",
+      "subject": "zanatomy:superior-extensor-retinaculum-of-ankle-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:tibia-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Tibiada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; extensor retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Tibiada malleolün proksimalindeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Tibiada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-extensor-retinaculum-of-ankle-l|attaches_to|zanatomy:fibula-l",
+      "subject": "zanatomy:superior-extensor-retinaculum-of-ankle-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Fibulada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; extensor retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Fibulada malleolün proksimalindeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Fibulada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-extensor-retinaculum-of-ankle-r|attaches_to|zanatomy:fibula-r",
+      "subject": "zanatomy:superior-extensor-retinaculum-of-ankle-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Fibulada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; extensor retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Fibulada malleolün proksimalindeki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Fibulada malleolün proksimalindeki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:inferior-extensor-retinaculum-of-ankle-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:inferior-extensor-retinaculum-of-ankle-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneusun ön-üst yüzü — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; extensor retinaculum, inferior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneusun ön-üst yüzü",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneusun ön-üst yüzü — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:inferior-extensor-retinaculum-of-ankle-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:inferior-extensor-retinaculum-of-ankle-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneusun ön-üst yüzü — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; extensor retinaculum, inferior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneusun ön-üst yüzü",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneusun ön-üst yüzü — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-fibular-retinaculum-l|attaches_to|zanatomy:fibula-l",
+      "subject": "zanatomy:superior-fibular-retinaculum-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Fibulanın lateral malleol ucu — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; fibular retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Fibulanın lateral malleol ucu",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Fibulanın lateral malleol ucu — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-fibular-retinaculum-r|attaches_to|zanatomy:fibula-r",
+      "subject": "zanatomy:superior-fibular-retinaculum-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:fibula-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Fibulanın lateral malleol ucu — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; fibular retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Fibulanın lateral malleol ucu",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Fibulanın lateral malleol ucu — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-fibular-retinaculum-l|attaches_to|zanatomy:calcaneus-l",
+      "subject": "zanatomy:superior-fibular-retinaculum-l",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-l",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; fibular retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
+    },
+    {
+      "id": "zanatomy:superior-fibular-retinaculum-r|attaches_to|zanatomy:calcaneus-r",
+      "subject": "zanatomy:superior-fibular-retinaculum-r",
+      "predicate": "attaches_to",
+      "object": "zanatomy:calcaneus-r",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-leg-table",
+          "locator": "Topographic Anatomy; fibular retinaculum, superior; Boundaries/Description"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok"
+      }
     }
   ],
   "predicate": {
@@ -8063,6 +10252,77 @@
       "locator": "A04.7.02.068; English and Latin synonym columns",
       "use": "Explicit quadratus plantae/flexor accessorius synonym only;Latin display remains pinned numeric TA2 row2684",
       "fetchStatus": "Primary-source indexed search result read;direct page fetch returned502. TTUHSC TA2 PDF direct read also timed out;no access restriction bypassed."
+    },
+    {
+      "id": "foot-support-bp3d40-names",
+      "title": "Retained official BodyParts3D 4.0 names",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+      "path": "data/model-candidates/coverage-labels/bp3d-isa-parts-list-e.txt",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Retained pinned local source; no new remote fetch",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "id": "foot-support-bp3d40-membership",
+      "title": "Retained official BodyParts3D 4.0 element memberships",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+      "path": "data/model-candidates/concept-selection-review/isa_element_parts.txt",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Retained pinned local source; no new remote fetch",
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    {
+      "id": "foot-support-joints-table",
+      "title": "TTUHSC Anatomy Tables — Joints of the Lower Limb",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/joints_lower_tables.html",
+      "locator": "Joints - Foot; long plantar, plantar calcaneocuboid and plantar calcaneonavicular rows",
+      "use": "Selected named attachment facts only",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "foot-support-leg-table",
+      "title": "TTUHSC Anatomy Tables — Anterior & Lateral Leg & Foot",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/leg_tables.html",
+      "locator": "Osteology calcaneal tuberosity; Topographic Anatomy extensor and superior fibular retinacula",
+      "use": "Selected named attachment facts only",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "foot-support-leg-schemes",
+      "title": "TTUHSC Anatomy Tables — Leg & Foot",
+      "url": "https://anatomy.ttuhscep.edu/schemes/leg_tables.html",
+      "locator": "Topographic Anatomy; flexor retinaculum",
+      "use": "Selected named attachment facts only",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "ward-soames-1997",
+      "title": "Morphology of the plantar calcaneocuboid ligaments",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9347303/",
+      "doi": "10.1177/107110079701801009",
+      "locator": "Indexed primary publication abstract",
+      "use": "Variation rationale, not exact source-specimen attachment proof",
+      "fetchConstraint": "Direct PubMed open returned internal error; indexed primary abstract read successfully",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "hiramoto-1983",
+      "title": "Variation of the Long Plantar Ligament in Japanese",
+      "url": "https://www.jstage.jst.go.jp/article/ofaj1936/60/6/60_401/_article",
+      "doi": "10.2535/ofaj1936.60.6_401",
+      "locator": "Primary journal abstract",
+      "use": "Metatarsal attachment variation rationale; omit source-specimen digit assignment",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
     }
   ],
   "inputSnapshots": [
@@ -8099,7 +10359,9 @@
     "Anatomical expert approval",
     "Complete bone articulation/ligament network; segmented joint surfaces or attachment coordinates",
     "Independent numbered identities within compound muscle/sesamoid source objects",
-    "Whole-muscle relationship inheritance to individual source heads"
+    "Whole-muscle relationship inheritance to individual source heads",
+    "Complete retinacular tunnels, contents and tendon relationships",
+    "Volumetric or layer-complete plantar fascia and ligament representations"
   ],
   "expansionInputSnapshots": [
     {
@@ -8137,7 +10399,7 @@
       "id": "attaches_to",
       "symmetric": false,
       "transitive": false,
-      "meaning": "Ligament attaches to named bone/region; bone geometry is not an attachment footprint"
+      "meaning": "Sourced structure attaches to named bone/region; bone geometry is not an attachment footprint"
     },
     {
       "id": "originates_at",
@@ -8165,11 +10427,11 @@
     },
     {
       "path": "public/models/lower-limb-nerve-reference/atlas.json",
-      "sha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b"
+      "sha256": "1b6f34756b214406c381eb98bf99b850afe60a458e7b39324329dd3c5d887068"
     },
     {
       "path": "scripts/integrate-foot-soft-tissue.py",
-      "sha256": "6d12d69e7240e57aca9609b20c8a18e79d5c303d2d67369da8beadcd10298a5e"
+      "sha256": "d463f5af999f406046e5d3ec3e009f8dbd011430962ab429d6194a7e1e22b38f"
     },
     {
       "path": "data/model-candidates/foot-soft-tissue-source-audit-v1/new-object-mapping.json",
@@ -8180,5 +10442,40 @@
       "sha256": "2fe9163df7abe6a453b381962dbc71f0702269a673bf27750ed678b51892ebad"
     }
   ],
-  "softTissueInputNote": "Frozen pre-activation proposal preserves intake inputs; current candidate proposal can refresh active hashes independently."
+  "softTissueInputNote": "Frozen pre-activation proposal preserves intake inputs; current candidate proposal can refresh active hashes independently.",
+  "supportInputSnapshots": [
+    {
+      "path": "data/model-candidates/foot-support-metadata-v1/activation-proposal.json",
+      "sha256": "18ff1e2ca240876c6293f66e72445aebeaa843f3e0cedae48ba463e8be15061a"
+    },
+    {
+      "path": "public/models/lower-limb-nerve-reference/atlas.json",
+      "sha256": "1b6f34756b214406c381eb98bf99b850afe60a458e7b39324329dd3c5d887068"
+    },
+    {
+      "path": "scripts/integrate-foot-supports.py",
+      "sha256": "5aa7ba96bf962198b899c022d1610b98aca538b55241f5c10d8a3d188ae690df"
+    },
+    {
+      "path": "data/model-candidates/foot-support-source-audit-v1/new-object-mapping.json",
+      "sha256": "9f14b07a6a22ee79ca1bbdb28048d638548c316960ab194fb3103096e44fdef4"
+    },
+    {
+      "path": "data/model-candidates/foot-support-source-audit-v1/evaluated-candidates.json",
+      "sha256": "8145cf9bc61e3b5bb986e859a645bb092e7dcfb00bf90cc061681c13a91bfccc"
+    }
+  ],
+  "supportInputNote": "Frozen pre-activation proposal; source-sheet limits retained; selected teaching facts only.",
+  "excludedSupportCandidates": [
+    {
+      "conceptId": "zanatomy:intersesamoid-ligament-l",
+      "reason": "Source mesh does not span the two modeled sesamoid components; not accepted as connecting geometry",
+      "sourceReview": "data/model-candidates/foot-support-source-audit-v1/intersesamoid-placement.json"
+    },
+    {
+      "conceptId": "zanatomy:intersesamoid-ligament-r",
+      "reason": "Source mesh does not span the two modeled sesamoid components; not accepted as connecting geometry",
+      "sourceReview": "data/model-candidates/foot-support-source-audit-v1/intersesamoid-placement.json"
+    }
+  ]
 }

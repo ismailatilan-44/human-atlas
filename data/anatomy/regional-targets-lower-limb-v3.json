@@ -9,7 +9,7 @@
   "inputSnapshots": [
     {
       "path": "data/anatomy/regional-targets-lower-limb-v2.json",
-      "sha256": "42b4af11a5f59269caa829cdbba6c9eeb20cc257f4629990e0f91f3fa9c84dfd"
+      "sha256": "7b00bc0fb842a7ca27c9867641f39ab5da1bfec7595680af6a06d4276d530bb8"
     },
     {
       "path": "data/model-candidates/foot-soft-tissue-metadata-v1/activation-proposal.json",
@@ -21,19 +21,19 @@
     },
     {
       "path": "public/models/lower-limb-nerve-reference/atlas.json",
-      "sha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b"
+      "sha256": "1b6f34756b214406c381eb98bf99b850afe60a458e7b39324329dd3c5d887068"
     },
     {
       "path": "data/anatomy/labels.json",
-      "sha256": "1d3d46bcf011072ca50f7691086e0d76ac27ee92e46f9db1c82842ce699f9d0a"
+      "sha256": "a13a0d18270ccbd9dda230c426d8b07b44671273c8ad91540c82101ab4fe5963"
     },
     {
       "path": "data/anatomy/lower-limb-reference.json",
-      "sha256": "458c40d71910524a084b5dbe3af2b239bc02feccb13eaa03f7abd15b2a7ebcd8"
+      "sha256": "c0f9d85a6afa81dec5a4c0206b174ece2c02954d8e801e2d16789d82284b323f"
     },
     {
       "path": "scripts/build-foot-soft-tissue-targets.py",
-      "sha256": "49e3964e99fb35e5b5b4884f4092b5fd4e285be961cbf0ede71270a19f2afd07"
+      "sha256": "3b2e80ad9c2c70ae80b6694ce9001f60ed2e389ced20ee686ae9689a85b36642"
     }
   ],
   "summary": {

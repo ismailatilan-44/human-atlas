@@ -8611,6 +8611,92 @@
         "la": "Caput transversum adductoris hallucis",
         "csvLine": 2776
       }
+    },
+    {
+      "ids": [
+        "FMA44250"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "left long plantar ligament",
+      "tr": "Uzun plantar bağ",
+      "en": "Long plantar ligament",
+      "la": "Ligamentum plantare longum",
+      "side": "left",
+      "aliases": [
+        "left long plantar ligament",
+        "Long plantar ligament"
+      ],
+      "ta2TableId": 1934,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1934,
+        "en": "Long plantar ligament",
+        "la": "Ligamentum plantare longum",
+        "csvLine": 2033
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1934; CSV line 2033; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-support-bp3d40-names",
+          "locator": "line 1573; FMA44250"
+        },
+        {
+          "sourceId": "foot-support-bp3d40-membership",
+          "locator": "line 5710"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "FMA44249"
+      ],
+      "datasetId": "male-body",
+      "sourceEnglish": "right long plantar ligament",
+      "tr": "Uzun plantar bağ",
+      "en": "Long plantar ligament",
+      "la": "Ligamentum plantare longum",
+      "side": "right",
+      "aliases": [
+        "right long plantar ligament",
+        "Long plantar ligament"
+      ],
+      "ta2TableId": 1934,
+      "trStatus": "editorial",
+      "expertReview": "pending",
+      "anatomicalScope": "ligament",
+      "scopeNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "representationNoteTr": "Kaynakta adlandırılmış bağ yüzeyi gösterilir. Ayrı lif demetleri, katmanlar ve kesin kemik tutunma alanları bu seçimde ayırt edilmez. Anatomik uzman incelemesi bekliyor.",
+      "latinUnavailableReason": null,
+      "sourceTerm": {
+        "id": 1934,
+        "en": "Long plantar ligament",
+        "la": "Ligamentum plantare longum",
+        "csvLine": 2033
+      },
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 table row 1934; CSV line 2033; exact English/Latin columns",
+          "scope": "Exact numeric source term at named scope; no formal FMA crosswalk"
+        },
+        {
+          "sourceId": "foot-support-bp3d40-names",
+          "locator": "line 1572; FMA44249"
+        },
+        {
+          "sourceId": "foot-support-bp3d40-membership",
+          "locator": "line 5709"
+        }
+      ]
     }
   ]
 }

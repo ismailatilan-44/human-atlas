@@ -1,0 +1,53 @@
+{
+  "baselineRevision": "0a501618801a5fbc8db44599d24eb50dfde0fba4",
+  "environment": "macOS; Blender5.2.0LTS; background --disable-autoexec; pinned source opened without saving",
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "packageFileSha256": {
+    "atlas.json": "b5543dc45b3a897dfc2808d278b0c40d47140dc63994cfb6faafa2bdd56ce6ce",
+    "anatomy.bin": "a207ccb80737956445c8966cc99d57a42dd59b30635d0178aea96e5fad97b70d",
+    "anatomy.bin.gz": "fa440c9a767fa0f3affc7b286f8cfd44e39e5fde0ad47beccf0141b76a7770a8",
+    "ATTRIBUTION.md": "03046eccd9d14304890a664e43e05ef4e5984a20c8c7bd862f4dcf9e1836e28c",
+    "UPSTREAM-LICENSE.txt": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+  },
+  "producerSha256": "ecb2c2f4da9a2476af7a9c633f260e6442bf95fb08ba6f4e1001b1977fbd6958",
+  "mappingSha256": "9f14b07a6a22ee79ca1bbdb28048d638548c316960ab194fb3103096e44fdef4",
+  "evaluatedAuditSha256": "8145cf9bc61e3b5bb986e859a645bb092e7dcfb00bf90cc061681c13a91bfccc",
+  "baselineManifestSha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b",
+  "baselineGzipSha256": "2a1637fe928cd6cbc93f2804daf27a4c73dee3e45379e519c0e6b9872d225af1",
+  "checks": {
+    "deterministicTwoFinalNumericalRuns": "PASS: all5 package files byte-identical",
+    "baseline119PartRecords": "PASS: deep exact equality",
+    "baseline119ConceptRecords": "PASS: deep exact equality",
+    "baseline3442880BytePrefix": "PASS: byte-identical",
+    "unique139PartAndConceptIds": "PASS",
+    "gzipRoundTrip": "PASS",
+    "sourceWorldGeometryChecks": "PASS: exact evaluated geometry hash against separate inspection",
+    "decodedArraysBoundsIndicesNormals": "PASS with disclosed long-plantar normal disagreement",
+    "visualSourceDecodedReview": "PASS transfer comparison; anatomical intersesamoid placement concern recorded"
+  },
+  "renderFileSha256": {
+    "source-decoded-retinacula-lateral.png": "dbd9cff0a033e76c105bfa6f3c70e3a021620ba6b78161924ef854102610f106",
+    "source-decoded-retinacula-anterior.png": "7a37f54a7ab9d7fa5915e96f79ab1bd7df9574ab66a2bd5024f2a28eeb21e1f7",
+    "source-decoded-intersesamoid-close.png": "346f0d9c0f87f9c190797a2396a924e96023246bfd3940ffba3356569e686aa3",
+    "source-decoded-plantar-aponeurosis.png": "5c96bc93813fac204e785329bfa43def9b403c3c231fb6f7c3c25691c18185a6",
+    "source-decoded-plantar-ligaments.png": "d845acc130ff63513f27b56ffa1a07d26fb1eacd90b56367d492d61600515cfc"
+  },
+  "limits": [
+    "Source model preservation only; source anatomy extent, expert review, support layers/fascicles and attachments are unaccepted.",
+    "Two intersesamoid meshes do not span both modeled sesamoid components; candidate-only, excluded from active student reference by root.",
+    "Public integration, browser journey, deployment, regional acceptance and clinical acceptance belong to root and were not performed by this geometry agent.",
+    "No self-intersection or full mesh-contact validation performed."
+  ],
+  "integrationDisposition": {
+    "candidateObjects": 139,
+    "newInspectedObjects": 20,
+    "newActiveEligibleObjects": 18,
+    "candidateOnlyObjects": [
+      "Intersesamoid ligament.l",
+      "Intersesamoid ligament.r"
+    ],
+    "intendedActiveTotal": 137,
+    "reason": "Named source meshes do not span both modeled sesamoid components; connecting geometry/extent rejected for active student reference; source geometry unchanged"
+  },
+  "intersesamoidPlacementSha256": "7f0966a02e101d7bf423c0ba4e87cae51a77e5872f2b1db587920d3b7628f081"
+}

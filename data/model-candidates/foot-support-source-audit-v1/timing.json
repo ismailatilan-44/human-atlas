@@ -1,0 +1,10 @@
+{
+  "startedAt": "2026-10-02T11:29:57.373513+00:00",
+  "scope": "Elapsed wall time from candidate mapping/baseline snapshot through verification; excludes initial instruction/state read.",
+  "finishedAt": "2026-10-02T14:45:17.445841+03:00",
+  "elapsedSeconds": 920.072328,
+  "renderRunSeconds": 36.49377454199566,
+  "finalNumericalRunSeconds": 3.0690046249947045,
+  "rework": "Source-scope wording clarified; targeted intersesamoid placement audit following opened render concern; geometry unchanged",
+  "waiting": "Initial instruction/state-read time and pre-task scheduling unknown"
+}

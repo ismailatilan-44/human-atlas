@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "coverage": {
     "structural": "BodyParts3D source PART-OF snapshot",
-    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred; Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions; Bilateral rotator cuff origin/insertion regions and muscle-level innervation; bone-level context with named regions, no spatial attachment anchors; 22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.; 17 direct source parenchyma-to-segment relations, existing segment/lobe/lung paths, and two separate project display-selection groups; Selected bilateral abductor hallucis and extensor hallucis brevis origins/insertions; whole-bone context and named regions, not footprints or complete foot network",
+    "functional": "Bilateral biceps and coracobrachialis pilot; not complete upper arm; Bilateral median nerve innervation of pronator teres, flexor carpi radialis, palmaris longus and flexor digitorum superficialis; selected non-exhaustive forearm relationships; Bilateral ACL/PCL bone attachments and medial/lateral meniscus tibial root attachments; selected non-exhaustive knee relationships; Bilateral sciatic motor supply to semitendinosus, semimembranosus and the long/short heads of biceps femoris, qualified by tibial or common fibular division; non-exhaustive; Official BodyParts3D 4.3 thyroid lobe and isthmus membership; non-exhaustive anatomy; Official BodyParts3D 4.3 spinal cord neural tissue membership; no roots, meninges or segments inferred; Bilateral partial brachial plexus source-group membership only: 3 trunks, 6 divisions and posterior cord per side; roots excluded, no functional assertions; Bilateral rotator cuff origin/insertion regions and muscle-level innervation; bone-level context with named regions, no spatial attachment anchors; 22 existing cranial/facial bone surfaces, including mandible; no hyoid, eye/lacrimal soft tissue, or middle-ear ossicles. This is a display composite, not a new FMA assertion or anatomical completeness certificate.; 17 direct source parenchyma-to-segment relations, existing segment/lobe/lung paths, and two separate project display-selection groups; Selected bilateral abductor hallucis and extensor hallucis brevis origins/insertions; whole-bone context and named regions, not footprints or complete foot network; Selected bilateral long plantar ligament attachment bone/region facts; not a complete endpoint set, source-specimen geometry or footprint acceptance",
     "complete": false
   },
   "sources": [
@@ -769,6 +769,77 @@
       "locator": "A04.7.02.068; English and Latin synonym columns",
       "use": "Explicit quadratus plantae/flexor accessorius synonym only;Latin display remains pinned numeric TA2 row2684",
       "fetchStatus": "Primary-source indexed search result read;direct page fetch returned502. TTUHSC TA2 PDF direct read also timed out;no access restriction bypassed."
+    },
+    {
+      "id": "foot-support-bp3d40-names",
+      "title": "Retained official BodyParts3D 4.0 names",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+      "path": "data/model-candidates/coverage-labels/bp3d-isa-parts-list-e.txt",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Retained pinned local source; no new remote fetch",
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "id": "foot-support-bp3d40-membership",
+      "title": "Retained official BodyParts3D 4.0 element memberships",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+      "path": "data/model-candidates/concept-selection-review/isa_element_parts.txt",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Retained pinned local source; no new remote fetch",
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    {
+      "id": "foot-support-joints-table",
+      "title": "TTUHSC Anatomy Tables — Joints of the Lower Limb",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/joints_lower_tables.html",
+      "locator": "Joints - Foot; long plantar, plantar calcaneocuboid and plantar calcaneonavicular rows",
+      "use": "Selected named attachment facts only",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "foot-support-leg-table",
+      "title": "TTUHSC Anatomy Tables — Anterior & Lateral Leg & Foot",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/leg_tables.html",
+      "locator": "Osteology calcaneal tuberosity; Topographic Anatomy extensor and superior fibular retinacula",
+      "use": "Selected named attachment facts only",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "foot-support-leg-schemes",
+      "title": "TTUHSC Anatomy Tables — Leg & Foot",
+      "url": "https://anatomy.ttuhscep.edu/schemes/leg_tables.html",
+      "locator": "Topographic Anatomy; flexor retinaculum",
+      "use": "Selected named attachment facts only",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "ward-soames-1997",
+      "title": "Morphology of the plantar calcaneocuboid ligaments",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9347303/",
+      "doi": "10.1177/107110079701801009",
+      "locator": "Indexed primary publication abstract",
+      "use": "Variation rationale, not exact source-specimen attachment proof",
+      "fetchConstraint": "Direct PubMed open returned internal error; indexed primary abstract read successfully",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+    },
+    {
+      "id": "hiramoto-1983",
+      "title": "Variation of the Long Plantar Ligament in Japanese",
+      "url": "https://www.jstage.jst.go.jp/article/ofaj1936/60/6/60_401/_article",
+      "doi": "10.2535/ofaj1936.60.6_401",
+      "locator": "Primary journal abstract",
+      "use": "Metatarsal attachment variation rationale; omit source-specimen digit assignment",
+      "verifiedOn": "2026-10-02",
+      "verificationMethod": "Primary webpage or indexed primary abstract read via web",
+      "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
     }
   ],
   "geometryPartIds": [
@@ -129561,6 +129632,150 @@
         "semantics": "Named attachment region on a whole-bone context target;not a complete-bone attachment footprint",
         "geometry": "No anchor, coordinates, footprint segmentation or mesh contact asserted",
         "requiresLandmarkDisplay": true
+      }
+    },
+    {
+      "id": "FMA44250|attaches_to|FMA24498",
+      "subject": "FMA44250",
+      "predicate": "attaches_to",
+      "object": "FMA24498",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FMA44249|attaches_to|FMA24497",
+      "subject": "FMA44249",
+      "predicate": "attaches_to",
+      "object": "FMA24497",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FMA44250|attaches_to|FMA24529",
+      "subject": "FMA44250",
+      "predicate": "attaches_to",
+      "object": "FMA24529",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemikteki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FMA44249|attaches_to|FMA24528",
+      "subject": "FMA44249",
+      "predicate": "attaches_to",
+      "object": "FMA24528",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemikteki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
       }
     }
   ],

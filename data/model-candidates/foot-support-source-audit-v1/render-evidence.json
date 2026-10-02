@@ -1,0 +1,175 @@
+{
+  "views": [
+    {
+      "file": "source-decoded-retinacula-anterior.png",
+      "sourcePanel": "left",
+      "decodedPanel": "right",
+      "sourceObjects": [
+        "Flexor retinaculum of ankle.l",
+        "Inferior extensor retinaculum of ankle.l",
+        "Inferior fibular retinaculum.l",
+        "Superior extensor retinaculum of ankle.l",
+        "Superior fibular retinaculum.l"
+      ],
+      "contextObjects": "all included same-source foot bones and distal tibia/fibula",
+      "direction": [
+        0,
+        0.03,
+        1
+      ],
+      "center": [
+        0.08500000089406967,
+        0.07999999821186066,
+        -0.004999999888241291
+      ],
+      "orthoScale": 0.4
+    },
+    {
+      "file": "source-decoded-retinacula-lateral.png",
+      "sourcePanel": "left",
+      "decodedPanel": "right",
+      "sourceObjects": [
+        "Flexor retinaculum of ankle.l",
+        "Inferior extensor retinaculum of ankle.l",
+        "Inferior fibular retinaculum.l",
+        "Superior extensor retinaculum of ankle.l",
+        "Superior fibular retinaculum.l"
+      ],
+      "contextObjects": "all included same-source foot bones and distal tibia/fibula",
+      "direction": [
+        1,
+        0.08,
+        0.1
+      ],
+      "center": [
+        0.08500000089406967,
+        0.07500000298023224,
+        -0.004999999888241291
+      ],
+      "orthoScale": 0.42
+    },
+    {
+      "file": "source-decoded-plantar-aponeurosis.png",
+      "sourcePanel": "left",
+      "decodedPanel": "right",
+      "sourceObjects": [
+        "Plantar aponeurosis.l"
+      ],
+      "contextObjects": [
+        "Calcaneus.l",
+        "Cuboid bone.l",
+        "Distal phalanx of fifth finger of foot.l",
+        "Distal phalanx of first finger of foot.l",
+        "Distal phalanx of fourth finger of foot.l",
+        "Distal phalanx of second finger of foot.l",
+        "Distal phalanx of third finger of foot.l",
+        "Fifth metatarsal bone.l",
+        "First metatarsal bone.l",
+        "Fourth metatarsal bone.l",
+        "Intermediate cuneiform bone.l",
+        "Lateral cuneiform bone.l",
+        "Medial cuneiform bone.l",
+        "Middle phalanx of fifth finger of foot.l",
+        "Middle phalanx of fourth finger of foot.l",
+        "Middle phalanx of second finger of foot.l",
+        "Middle phalanx of third finger of foot.l",
+        "Navicular bone.l",
+        "Proximal phalanx of fifth finger of foot.l",
+        "Proximal phalanx of first finger of foot.l",
+        "Proximal phalanx of fourth finger of foot.l",
+        "Proximal phalanx of second finger of foot.l",
+        "Proximal phalanx of third finger of foot.l",
+        "Second metatarsal bone.l",
+        "Sesamoid bones of foot.l",
+        "Talus.l",
+        "Third metatarsal bone.l"
+      ],
+      "direction": [
+        0,
+        -1,
+        0.08
+      ],
+      "center": [
+        0.09000000357627869,
+        0.03999999910593033,
+        0.02500000037252903
+      ],
+      "orthoScale": 0.45
+    },
+    {
+      "file": "source-decoded-plantar-ligaments.png",
+      "sourcePanel": "left",
+      "decodedPanel": "right",
+      "sourceObjects": [
+        "Long plantar ligament.l",
+        "Plantar calcaneocuboid ligament.l",
+        "Plantar calcaneonavicular ligament.l"
+      ],
+      "contextObjects": [
+        "Calcaneus.l",
+        "Cuboid bone.l",
+        "Distal phalanx of fifth finger of foot.l",
+        "Distal phalanx of first finger of foot.l",
+        "Distal phalanx of fourth finger of foot.l",
+        "Distal phalanx of second finger of foot.l",
+        "Distal phalanx of third finger of foot.l",
+        "Fifth metatarsal bone.l",
+        "First metatarsal bone.l",
+        "Fourth metatarsal bone.l",
+        "Intermediate cuneiform bone.l",
+        "Lateral cuneiform bone.l",
+        "Medial cuneiform bone.l",
+        "Middle phalanx of fifth finger of foot.l",
+        "Middle phalanx of fourth finger of foot.l",
+        "Middle phalanx of second finger of foot.l",
+        "Middle phalanx of third finger of foot.l",
+        "Navicular bone.l",
+        "Proximal phalanx of fifth finger of foot.l",
+        "Proximal phalanx of first finger of foot.l",
+        "Proximal phalanx of fourth finger of foot.l",
+        "Proximal phalanx of second finger of foot.l",
+        "Proximal phalanx of third finger of foot.l",
+        "Second metatarsal bone.l",
+        "Sesamoid bones of foot.l",
+        "Talus.l",
+        "Third metatarsal bone.l"
+      ],
+      "direction": [
+        0,
+        -1,
+        0.1
+      ],
+      "center": [
+        0.09000000357627869,
+        0.03999999910593033,
+        0.004999999888241291
+      ],
+      "orthoScale": 0.45
+    },
+    {
+      "file": "source-decoded-intersesamoid-close.png",
+      "sourcePanel": "left",
+      "decodedPanel": "right",
+      "sourceObjects": [
+        "Intersesamoid ligament.l"
+      ],
+      "contextObjects": [
+        "First metatarsal bone.l",
+        "Proximal phalanx of first finger of foot.l",
+        "Sesamoid bones of foot.l"
+      ],
+      "direction": [
+        0,
+        -1,
+        0.12
+      ],
+      "center": [
+        0.07699999958276749,
+        0.014000000432133675,
+        0.07000000029802322
+      ],
+      "orthoScale": 0.115
+    }
+  ],
+  "method": "Fresh evaluated viewport meshes versus decoded Float32/Uint32/Int16 arrays; identical view and scale. No render-modifier re-evaluation or sheet healing."
+}

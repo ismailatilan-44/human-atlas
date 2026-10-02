@@ -39,10 +39,10 @@ export const REFERENCE_DATASETS = {
     identity: "Alt ekstremite · Z-Anatomy",
     sex: "male",
     manifest: "/models/lower-limb-nerve-reference/atlas.json",
-    scope: "Kısmi sinir/arter seyirleri, seçilmiş ayak bileği bağları, ayak kasları ve sesamoid grupları; aynı kaynaktan kemik bağlamı. Bütün ayak ayrıntıları veya tam ağ değildir; uzman incelemesi bekliyor.",
+    scope: "Kısmi sinir/arter seyirleri, seçilmiş bağlar, ayak kasları, sesamoid grupları, retinakulumlar ve plantar aponevroz; aynı kaynaktan kemik bağlamı. Bütün ayak ayrıntıları veya tam ağ değildir; uzman incelemesi bekliyor.",
     description: lowerLimb.descriptionTr,
     sourceName: "Z-Anatomy · alt ekstremite referansı",
-    placeholder: "Abductor hallucis, plantar sinir, sesamoid…",
+    placeholder: "Retinakulum, plantar bağ, ayak kası…",
   },
 } as const;
 
@@ -142,7 +142,7 @@ export function datasetSearchTerms(dataset: DatasetId, id: string, name: string)
   if (dataset === "lower-limb-nerve-reference") {
     const entry = lowerLimb.labels.find((label) => label.ids.includes(id));
     const compactTurkish = entry?.side === "left" || entry?.side === "right"
-      ? `${entry.side === "left" ? "Sol" : "Sağ"} ${entry.tr.replace(/^Ayağın /, "")}`
+      ? `${entry.side === "left" ? "Sol" : "Sağ"} ${entry.tr.replace(/^(Ayağın |Ayak bileği )/, "")}`
       : entry?.tr;
     const terms = [id, name, ...["tr", "en", "la"].map((language) =>
       datasetLabel(dataset, id, name, language as AnatomyLanguage)), ...(compactTurkish ? [compactTurkish] : []), ...(entry?.aliases ?? [])];

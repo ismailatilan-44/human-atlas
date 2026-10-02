@@ -171,7 +171,7 @@ try {
   lower = await loadAtlas(new AbortController().signal, 'lower-limb-nerve-reference');
 } finally { globalThis.fetch = originalFetch; }
 assert.deepEqual(lowerRequests, ['/models/lower-limb-nerve-reference/atlas.json']);
-assert.equal(lower.parts.length, 119);
+assert.equal(lower.parts.length, 137);
 assert.equal(lower.compatibleWithMainAtlas, false);
 assert.equal(lower.anchors.length, 0);
 const lowerConcepts = explorerConcepts(lower), lowerMap = new Map(lowerConcepts.map(c => [c.id, c]));
@@ -233,7 +233,36 @@ for (const side of ['left','right']) {
   const mainLinks = relationshipsFor(mainMuscle, undefined, 'male-body');
   assert(mainLinks.some(r => r.predicate === 'originates_at' && r.otherId === (side === 'left' ? 'FMA24498' : 'FMA24497')));
   assert(!mainLinks.some(r => r.otherId.startsWith('zanatomy:') || r.otherId.includes('plantar-nerve')), 'No reference-only nerve in main graph');
+  const supports = ['flexor-retinaculum-of-ankle','superior-extensor-retinaculum-of-ankle',
+    'inferior-extensor-retinaculum-of-ankle','superior-fibular-retinaculum','inferior-fibular-retinaculum',
+    'plantar-aponeurosis','long-plantar-ligament','plantar-calcaneocuboid-ligament',
+    'plantar-calcaneonavicular-ligament'];
+  for (const slug of supports) {
+    const cid = `zanatomy:${slug}-${suffix}`, concept = lowerMap.get(cid);
+    assert.equal(concept.elements.length, 1);
+    const part = lower.parts.find(p => p.id === concept.elements[0]);
+    assert.equal(part.side, side);
+    assert.match(datasetLabel(lower.datasetId, cid, concept.name, 'la'), new RegExp(`\\(${suffix.toUpperCase()}\\)$`));
+    assert.match(referenceDescription(lower.datasetId, cid), /uzman/i);
+    const links = relationshipsFor(cid, lowerMap, lower.datasetId);
+    assert(links.every(r => r.predicate === 'attaches_to' && r.attachmentNoteTr && lowerMap.has(r.otherId)));
+    if (slug === 'inferior-fibular-retinaculum')
+      assert.equal(links.length, 0, 'Unsupported endpoints must not be inferred from source proximity');
+  }
+  assert(!lowerMap.has(`zanatomy:intersesamoid-ligament-${suffix}`), 'Source extent failure remains candidate-only');
+  const supportLinks = relationshipsFor(`zanatomy:long-plantar-ligament-${suffix}`, lowerMap, lower.datasetId);
+  assert.deepEqual(supportLinks.map(r => r.otherId).sort(), [`zanatomy:calcaneus-${suffix}`, `zanatomy:cuboid-bone-${suffix}`]);
+  assert(relationshipsFor(`zanatomy:cuboid-bone-${suffix}`, lowerMap, lower.datasetId)
+    .some(r => r.otherId === `zanatomy:long-plantar-ligament-${suffix}`), 'Attachment traversal must work from context bone');
+  assert.match(referenceDescription(lower.datasetId, `zanatomy:plantar-aponeurosis-${suffix}`), /açık/i);
+  assert.match(referenceDescription(lower.datasetId, `zanatomy:inferior-fibular-retinaculum-${suffix}`), /açık/i);
+  const mainSupportId = side === 'left' ? 'FMA44250' : 'FMA44249';
+  const mainSupportLinks = relationshipsFor(mainSupportId, undefined, 'male-body');
+  assert.equal(mainSupportLinks.filter(r => r.predicate === 'attaches_to').length, 2);
+  assert(mainSupportLinks.every(r => !r.otherId.startsWith('zanatomy:')), 'Reference support facts stay in their own dataset');
 }
+assert.deepEqual(findLower.execute({query:'sol fleksor retinakulum'}).map(r => r.id), ['zanatomy:flexor-retinaculum-of-ankle-l']);
+assert.deepEqual(findLower.execute({query:'sag plantar aponevroz'}).map(r => r.id), ['zanatomy:plantar-aponeurosis-r']);
 assert(relationshipsFor('atlas:left-sciatic-nerve', undefined, 'male-body').some(r => r.predicate === 'innervates'));
 assert.deepEqual(relationshipsFor('atlas:left-sciatic-nerve', lowerMap, 'inner-ear-reference'), []);
 console.log('Lower-limb reference resolves its own branch geometry without male graph leakage.');

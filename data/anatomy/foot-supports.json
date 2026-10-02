@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "scope": "Selected bilateral long plantar ligament attachment bone/region facts; not a complete endpoint set, source-specimen geometry or footprint acceptance",
+  "entities": [],
+  "relations": [
+    {
+      "id": "FMA44250|attaches_to|FMA24498",
+      "subject": "FMA44250",
+      "predicate": "attaches_to",
+      "object": "FMA24498",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FMA44249|attaches_to|FMA24497",
+      "subject": "FMA44249",
+      "predicate": "attaches_to",
+      "object": "FMA24497",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kalkaneustaki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kalkaneustaki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FMA44250|attaches_to|FMA24529",
+      "subject": "FMA44250",
+      "predicate": "attaches_to",
+      "object": "FMA24529",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemikteki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FMA44249|attaches_to|FMA24528",
+      "subject": "FMA44249",
+      "predicate": "attaches_to",
+      "object": "FMA24528",
+      "status": "source_supported",
+      "expertReview": "pending",
+      "scope": "selected_typical_anatomy;non_exhaustive",
+      "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+      "evidence": [
+        {
+          "sourceId": "foot-support-joints-table",
+          "locator": "Joints - Foot; long plantar ligament; Significance"
+        }
+      ],
+      "qualifiers": {
+        "landmarkTr": "Kuboid kemikteki tutunma bölgesi",
+        "targetRole": "context_bone",
+        "laterality": "Same-side instantiation of an unsided educational fact; not source-specimen validated",
+        "semantics": "Selected named region on a whole-bone context target; not a complete endpoint set or whole-bone attachment footprint",
+        "geometry": "No model coordinates, contact, anchors or segmented attachment surface asserted",
+        "requiresLandmarkDisplay": true,
+        "attachmentNoteTr": "Kuboid kemikteki tutunma bölgesi — kesin model yüzey işareti yok",
+        "incompleteEndpointSet": "Only calcaneus and cuboid selected; metatarsal patterns vary and remain unresolved for this specimen/source object",
+        "variationEvidence": [
+          {
+            "sourceId": "ward-soames-1997",
+            "locator": "Abstract; shape, bands and attachments vary"
+          },
+          {
+            "sourceId": "hiramoto-1983",
+            "locator": "Abstract; anterior metatarsal attachment patterns vary"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceAudit": "data/model-candidates/foot-support-metadata-v1/activation-proposal.json"
+}

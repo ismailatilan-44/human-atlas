@@ -11,7 +11,7 @@ MANIFEST = 'public/models/lower-limb-nerve-reference/atlas.json'
 read = lambda p: json.loads((ROOT/p).read_text())
 proposal = read(AUDIT)
 manifest = read(MANIFEST)
-assert len(manifest['parts']) == 119
+assert len(manifest['parts']) >= 119
 concepts = {c['id']:c for c in manifest['concepts']}
 parts = {p['id']:p for p in manifest['parts']}
 
@@ -39,7 +39,7 @@ def merge_sources(rows, additions):
 
 main = read('data/anatomy/labels.json')
 merge(main['entries'], proposal['mainLabelProposals'], lambda l:tuple(l['ids']))
-assert len(main['entries']) == 399
+assert len(main['entries']) >= 399
 reference = read('data/anatomy/lower-limb-reference.json')
 for label in proposal['referenceLabelProposals']:
     cid = label['ids'][0]
@@ -50,17 +50,19 @@ relations = [{k:v for k,v in r.items() if k != 'datasetId'}
              for r in proposal['relationProposals'] if r['datasetId'] == reference['datasetId']]
 merge(reference['relations'], relations, lambda r:r['id'])
 merge_sources(reference['sources'], proposal['sources'])
-assert len(reference['labels']) == 119 and len(reference['relations']) == 84
+assert len(reference['labels']) == len(manifest['parts']) and len(reference['relations']) >= 84
 assert all(r['subject'] in concepts and r['object'] in concepts for r in reference['relations'])
-reference['descriptionTr'] = ('Kaynağın kendi kemik bağlamındaki kısmi sinir/arter seyirleri, seçilmiş ayak bileği '
+if len(manifest['parts']) == 119:
+    reference['descriptionTr'] = ('Kaynağın kendi kemik bağlamındaki kısmi sinir/arter seyirleri, seçilmiş ayak bileği '
     'bağları, ayak kasları ve sesamoid grupları. Ana gövdeye yerleştirilmiş değildir; tam ağ veya bütün ayak ayrıntısı değildir.')
-reference['counts'].update(labels=119, muscleObjects=30, sesamoidGroupObjects=2,
+    reference['counts'].update(labels=119, muscleObjects=30, sesamoidGroupObjects=2,
     boneContextObjects=65, verifiedDisplayLatin=83, unresolvedSpecificLatin=36,
     muscleOriginRelations=4, muscleInsertionRelations=4, muscleInnervationRelations=4, totalRelations=84)
-assert sum(l['la'] is not None for l in reference['labels']) == 83
-reference['review']['terminology'] = ('119 TR/EN labels;83 exact pinned numeric-table Latin display terms; '
+assert sum(l['la'] is not None for l in reference['labels']) >= 83
+if len(manifest['parts']) == 119:
+    reference['review']['terminology'] = ('119 TR/EN labels;83 exact pinned numeric-table Latin display terms; '
     '34 digit-specific and two source-typo Latin displays unresolved; Turkish editorial, expert pending')
-reference['review']['relationshipEvidence'] = ('12 nerve branches,48 bone articulations,12 ligament attachments; '
+    reference['review']['relationshipEvidence'] = ('12 nerve branches,48 bone articulations,12 ligament attachments; '
     'four muscle origins,four insertions,four innervations from selected direct teaching facts. '
     'No model footprints,contact,motor branch geometry or expert acceptance.')
 for predicate in ['originates_at','inserts_at','innervates']:
@@ -90,4 +92,4 @@ for path, value in [('data/anatomy/labels.json',main), ('data/anatomy/lower-limb
     content = json.dumps(value,ensure_ascii=False,indent=2)+'\n'
     if '--check' in sys.argv: assert (ROOT/path).read_text() == content, f'{path} needs integration'
     else: (ROOT/path).write_text(content)
-print('PASS 399 main labels;119 reference labels;84 reference and8 new main relations; source scope preserved')
+print('PASS original38 main/32 reference labels and20 relations preserved; later source packages retained')

@@ -1,0 +1,195 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "coordinateFrame": "Original source world metres; no rotation needed for Euclidean proximity",
+  "method": "Connected triangles of source sesamoid mesh, source viewport-evaluated surfaces; BVH nearest-surface distances sampled at vertices in both directions. No medial/lateral component labels inferred; distances are not contact or attachment acceptance.",
+  "rows": [
+    {
+      "side": "l",
+      "ligamentSourceObject": "Intersesamoid ligament.l",
+      "ligamentSourceWorldBounds": [
+        [
+          0.07214398682117462,
+          -0.07450782507658005,
+          0.010385531932115555
+        ],
+        [
+          0.08102520555257797,
+          -0.06635233014822006,
+          0.01411617174744606
+        ]
+      ],
+      "ligamentCentroid": [
+        0.0766306459903717,
+        -0.07103758454322814,
+        0.012252055356899898
+      ],
+      "sesamoidSourceObject": "Sesamoid bones of foot.l",
+      "components": [
+        {
+          "componentIndex": 0,
+          "vertices": 107,
+          "triangles": 210,
+          "sourceWorldBounds": [
+            [
+              0.07192358374595642,
+              -0.07726883888244629,
+              0.010635171085596085
+            ],
+            [
+              0.08037590235471725,
+              -0.06363531202077866,
+              0.018555406481027603
+            ]
+          ],
+          "centroid": [
+            0.07697126137040486,
+            -0.06939984092088504,
+            0.015435978483025716
+          ],
+          "ligamentVerticesToSurfaceMeters": {
+            "min": 3.26880399370566e-05,
+            "max": 0.0017630874644964933
+          },
+          "componentVerticesToLigamentSurfaceMeters": {
+            "min": 5.941088238614611e-05,
+            "max": 0.006685696542263031
+          },
+          "aabbOverlapAxes": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "componentIndex": 1,
+          "vertices": 42,
+          "triangles": 80,
+          "sourceWorldBounds": [
+            [
+              0.06302047520875931,
+              -0.07618935406208038,
+              0.01205251831561327
+            ],
+            [
+              0.07056054472923279,
+              -0.0667167529463768,
+              0.018657632172107697
+            ]
+          ],
+          "centroid": [
+            0.06714597734667006,
+            -0.07126500315609433,
+            0.014980188415696224
+          ],
+          "ligamentVerticesToSurfaceMeters": {
+            "min": 0.002697707386687398,
+            "max": 0.011432833969593048
+          },
+          "componentVerticesToLigamentSurfaceMeters": {
+            "min": 0.002474776702001691,
+            "max": 0.009992768988013268
+          },
+          "aabbOverlapAxes": [
+            false,
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "side": "r",
+      "ligamentSourceObject": "Intersesamoid ligament.r",
+      "ligamentSourceWorldBounds": [
+        [
+          -0.08102520555257797,
+          -0.07450783252716064,
+          0.010385528206825256
+        ],
+        [
+          -0.07214398682117462,
+          -0.06635233759880066,
+          0.014116168022155762
+        ]
+      ],
+      "ligamentCentroid": [
+        -0.0766306459903717,
+        -0.07103759199380874,
+        0.0122520516316096
+      ],
+      "sesamoidSourceObject": "Sesamoid bones of foot.r",
+      "components": [
+        {
+          "componentIndex": 0,
+          "vertices": 107,
+          "triangles": 210,
+          "sourceWorldBounds": [
+            [
+              -0.08037590235471725,
+              -0.07726883888244629,
+              0.010635171085596085
+            ],
+            [
+              -0.07192358374595642,
+              -0.06363531202077866,
+              0.018555406481027603
+            ]
+          ],
+          "centroid": [
+            -0.07697126137040486,
+            -0.06939984092088504,
+            0.015435978483025716
+          ],
+          "ligamentVerticesToSurfaceMeters": {
+            "min": 3.268852015025914e-05,
+            "max": 0.001763085718266666
+          },
+          "componentVerticesToLigamentSurfaceMeters": {
+            "min": 5.941008930676617e-05,
+            "max": 0.006685704458504915
+          },
+          "aabbOverlapAxes": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "componentIndex": 1,
+          "vertices": 42,
+          "triangles": 80,
+          "sourceWorldBounds": [
+            [
+              -0.07056054472923279,
+              -0.07618935406208038,
+              0.01205251831561327
+            ],
+            [
+              -0.06302047520875931,
+              -0.0667167529463768,
+              0.018657632172107697
+            ]
+          ],
+          "centroid": [
+            -0.06714597734667006,
+            -0.07126500315609433,
+            0.014980188415696224
+          ],
+          "ligamentVerticesToSurfaceMeters": {
+            "min": 0.0026977090165019035,
+            "max": 0.011432833038270473
+          },
+          "componentVerticesToLigamentSurfaceMeters": {
+            "min": 0.00247477856464684,
+            "max": 0.009992777369916439
+          },
+          "aabbOverlapAxes": [
+            false,
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  ]
+}

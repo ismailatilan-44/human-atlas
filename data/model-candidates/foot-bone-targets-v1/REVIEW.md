@@ -69,3 +69,8 @@ Root integration added all 52 proposals unchanged to active main labels, with ex
 ## Root publication acceptance
 
 Published source `0dd4bb19a8bfbacd4e25bd2edc272ce25c6efdac`, static `2c2409c4e641ecdd02f8e039f06a0c21e54c2cc1`, successful Pages run #36994436788; live release.json matched. Bounded live Chromium 390×844 selection/relationship/source journeys passed with zero console errors/warnings. The whole-foot mobile group remains visually small after automatic focus; detailed-study camera acceptance, physical-device performance, geometry detail and expert acceptance remain open. Exact local/live flows and timing are recorded in the owning action report.
+
+
+## Historical target snapshot preservation — 2 October support integration
+
+Root froze `activation-proposal.json` from revision `0a501618801a5fbc8db44599d24eb50dfde0fba4` before regenerating target v2/v3/v4. The mutable `proposal.json` refreshes its current source-version observations; using it for historical targets had rewritten 38 sourceVersion fields. The frozen proposal restores exact historical values. The original per-target `sourceAudit` locator is preserved; current `inputSnapshots` authoritatively pin the immutable activation proposal. A direct comparison confirms all previous 136 v3 target records remain exactly equal in v4. This snapshot fix changes no geometry or anatomical claim.

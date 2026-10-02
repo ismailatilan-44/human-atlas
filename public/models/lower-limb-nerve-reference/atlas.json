@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": "Z-Anatomy independent lower-limb and intrinsic-foot reference3",
+  "version": "Z-Anatomy independent lower-limb foot and support reference4",
   "datasetId": "lower-limb-nerve-reference",
   "status": "independent_source_reference",
   "releaseStatus": "packaged_reference;anatomical_expert_review_pending",
   "sex": "male",
   "compatibleWithMainAtlas": false,
   "atlasRegistration": null,
-  "scope": "Sixteen nerve curves, two fibular artery curves, six ankle ligament surfaces, thirty source-named intrinsic foot muscle objects and sixty-five bone objects including compound sesamoid groups. Compound interosseous/lumbrical/sesamoid objects retain source scope; full innervation/circulation/support detail and expert acceptance remain open.",
+  "scope": "Sixteen nerve curves, two fibular artery curves, twelve selected ligament objects, thirty source-named foot muscle objects, ten retinacula, two open plantar aponeuroses and65 bone objects. Two source-named intersesamoid meshes are candidate-only because they do not span both modeled sesamoid components. Source sheet/group limits, remaining networks/supports and expert anatomy acceptance stay open.",
   "coordinates": {
     "units": "meters",
     "axes": "X left, Y superior, Z anterior",
@@ -12636,6 +12636,2164 @@
       "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
       "sourceScope": "head explicitly named by source; no finer fascicles inferred",
       "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:flexor-retinaculum-of-ankle-l",
+      "name": "Left flexor retinaculum of ankle",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3442880,
+      "normals": 3447080,
+      "indices": 3449180,
+      "vertexCount": 350,
+      "indexCount": 2088,
+      "bounds": [
+        [
+          0.046269018203020096,
+          0.013608197681605816,
+          -0.08440697193145752
+        ],
+        [
+          0.06224074959754944,
+          0.09313228726387024,
+          -0.029997890815138817
+        ]
+      ],
+      "sourceObject": "Flexor retinaculum of ankle.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Flexor retinaculum of ankle.l",
+        "objectType": "MESH",
+        "dataBlock": "Flexor retinaculum of ankle",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 175,
+        "basePolygons": 154,
+        "evaluatedVertices": 350,
+        "evaluatedTriangles": 696,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.05406559258699417
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.06714294105768204
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.04691340774297714
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.000000238418579,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.046269018203020096,
+            0.029997890815138817,
+            0.013608197681605816
+          ],
+          [
+            0.06224074959754944,
+            0.08440697193145752,
+            0.09313228726387024
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1350212549757698e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            350
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d5fa79f2042662d2328b5620b913e5350c004a52983c7213dd8342597579e085"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:flexor-retinaculum-of-ankle-r",
+      "name": "Right flexor retinaculum of ankle",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3457532,
+      "normals": 3461732,
+      "indices": 3463832,
+      "vertexCount": 350,
+      "indexCount": 2088,
+      "bounds": [
+        [
+          -0.062240779399871826,
+          0.01360830944031477,
+          -0.08440696448087692
+        ],
+        [
+          -0.046269048005342484,
+          0.093132384121418,
+          -0.029997890815138817
+        ]
+      ],
+      "sourceObject": "Flexor retinaculum of ankle.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Flexor retinaculum of ankle.r",
+        "objectType": "MESH",
+        "dataBlock": "Flexor retinaculum of ankle",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 175,
+        "basePolygons": 154,
+        "evaluatedVertices": 350,
+        "evaluatedTriangles": 696,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.05406562238931656
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.06714293360710144
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.0469135120511055
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999997615814209,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.062240779399871826,
+            0.029997890815138817,
+            0.01360830944031477
+          ],
+          [
+            -0.046269048005342484,
+            0.08440696448087692,
+            0.093132384121418
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.134970205635448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            350
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "74f1b25a25c4ac9832a25da459cd2444c86a46392bf7b8e12123f9ef3ca9bf47"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:superior-extensor-retinaculum-of-ankle-l",
+      "name": "Left superior extensor retinaculum of ankle",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3472184,
+      "normals": 3473768,
+      "indices": 3474560,
+      "vertexCount": 132,
+      "indexCount": 780,
+      "bounds": [
+        [
+          0.06884092092514038,
+          0.11014508455991745,
+          -0.043968722224235535
+        ],
+        [
+          0.10615778714418411,
+          0.1416807919740677,
+          -0.01505191158503294
+        ]
+      ],
+      "sourceObject": "Superior extensor retinaculum of ankle.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Superior extensor retinaculum of ankle.l",
+        "objectType": "MESH",
+        "dataBlock": "Superior extensor retinaculum of ankle",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 66,
+        "basePolygons": 50,
+        "evaluatedVertices": 132,
+        "evaluatedTriangles": 260,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.09104220569133759
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.025885099545121193
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.1237192451953888
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.000000238418579,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06884092092514038,
+            0.01505191158503294,
+            0.11014508455991745
+          ],
+          [
+            0.10615778714418411,
+            0.043968722224235535,
+            0.1416807919740677
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1786345867002448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            132
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "2fa2b018ef47d44e67dc4b98cd0d49357ee5e6b7f576cbe660317fbf2392b44a"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:superior-extensor-retinaculum-of-ankle-r",
+      "name": "Right superior extensor retinaculum of ankle",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3477680,
+      "normals": 3479264,
+      "indices": 3480056,
+      "vertexCount": 132,
+      "indexCount": 780,
+      "bounds": [
+        [
+          -0.1061578169465065,
+          0.11014518141746521,
+          -0.04396871477365494
+        ],
+        [
+          -0.06884095072746277,
+          0.14168088138103485,
+          -0.01505191158503294
+        ]
+      ],
+      "sourceObject": "Superior extensor retinaculum of ankle.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Superior extensor retinaculum of ankle.r",
+        "objectType": "MESH",
+        "dataBlock": "Superior extensor retinaculum of ankle",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 66,
+        "basePolygons": 50,
+        "evaluatedVertices": 132,
+        "evaluatedTriangles": 260,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.09104223549365997
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.025885097682476044
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.12371933460235596
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999997615814209,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.1061578169465065,
+            0.01505191158503294,
+            0.11014518141746521
+          ],
+          [
+            -0.06884095072746277,
+            0.04396871477365494,
+            0.14168088138103485
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1786345867002448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            132
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ee5a1bb59ababf3409ddaa7e75774ee543c8cf26c21d27db0d8951e581deec29"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:inferior-extensor-retinaculum-of-ankle-l",
+      "name": "Left inferior extensor retinaculum of ankle",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3483176,
+      "normals": 3485096,
+      "indices": 3486056,
+      "vertexCount": 160,
+      "indexCount": 948,
+      "bounds": [
+        [
+          0.05321101099252701,
+          0.07810001075267792,
+          -0.043351881206035614
+        ],
+        [
+          0.10606591403484344,
+          0.10653705894947052,
+          -0.006525623612105846
+        ]
+      ],
+      "sourceObject": "Inferior extensor retinaculum of ankle.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Inferior extensor retinaculum of ankle.l",
+        "objectType": "MESH",
+        "dataBlock": "Inferior extensor retinaculum of ankle",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 80,
+        "basePolygons": 65,
+        "evaluatedVertices": 160,
+        "evaluatedTriangles": 316,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08844079077243805
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.02025386318564415
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.09451760351657867
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.000000238418579,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.05321101099252701,
+            0.006525623612105846,
+            0.07810001075267792
+          ],
+          [
+            0.10606591403484344,
+            0.043351881206035614,
+            0.10653705894947052
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.73292325613117e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            160
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "8194b47210499e48f7ac36ece13224615f4d66a69c7a165ae6581017e9e66001"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:inferior-extensor-retinaculum-of-ankle-r",
+      "name": "Right inferior extensor retinaculum of ankle",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3489848,
+      "normals": 3491768,
+      "indices": 3492728,
+      "vertexCount": 160,
+      "indexCount": 948,
+      "bounds": [
+        [
+          -0.10606594383716583,
+          0.07810010761022568,
+          -0.043351881206035614
+        ],
+        [
+          -0.053211040794849396,
+          0.10653714835643768,
+          -0.006525629200041294
+        ]
+      ],
+      "sourceObject": "Inferior extensor retinaculum of ankle.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Inferior extensor retinaculum of ankle.r",
+        "objectType": "MESH",
+        "dataBlock": "Inferior extensor retinaculum of ankle",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 80,
+        "basePolygons": 65,
+        "evaluatedVertices": 160,
+        "evaluatedTriangles": 316,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08844082057476044
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.0202538650482893
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.09451769292354584
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999997615814209,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.10606594383716583,
+            0.006525629200041294,
+            0.07810010761022568
+          ],
+          [
+            -0.053211040794849396,
+            0.043351881206035614,
+            0.10653714835643768
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.73292325613117e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            160
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "dd201bcfb2452dd5ada27a3984e5cd5a70b1f576d63319182e5b589402d1fba2"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:superior-fibular-retinaculum-l",
+      "name": "Left superior fibular retinaculum",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3496520,
+      "normals": 3500456,
+      "indices": 3502424,
+      "vertexCount": 328,
+      "indexCount": 1956,
+      "bounds": [
+        [
+          0.051058825105428696,
+          0.036293815821409225,
+          -0.062288183718919754
+        ],
+        [
+          0.10842440277338028,
+          0.0960465595126152,
+          0.018754877150058746
+        ]
+      ],
+      "sourceObject": "Superior fibular retinaculum.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Superior fibular retinaculum.l",
+        "objectType": "MESH",
+        "dataBlock": "Superior fibular retinaculum",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 164,
+        "basePolygons": 138,
+        "evaluatedVertices": 328,
+        "evaluatedTriangles": 652,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08452297747135162
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.011124512180685997
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.07247374206781387
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.000000238418579,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.051058825105428696,
+            -0.018754877150058746,
+            0.036293815821409225
+          ],
+          [
+            0.10842440277338028,
+            0.062288183718919754,
+            0.0960465595126152
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.775185487647466e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            328
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "7d65945078754807773e98fd4e16731d0e5f8e7dc39a6c9a6c302e2b77f8aa2c"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:superior-fibular-retinaculum-r",
+      "name": "Right superior fibular retinaculum",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3510248,
+      "normals": 3514184,
+      "indices": 3516152,
+      "vertexCount": 328,
+      "indexCount": 1956,
+      "bounds": [
+        [
+          -0.10842443257570267,
+          0.03629392758011818,
+          -0.06228817254304886
+        ],
+        [
+          -0.05105885490775108,
+          0.09604665637016296,
+          0.01875486597418785
+        ]
+      ],
+      "sourceObject": "Superior fibular retinaculum.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Superior fibular retinaculum.r",
+        "objectType": "MESH",
+        "dataBlock": "Superior fibular retinaculum",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 164,
+        "basePolygons": 138,
+        "evaluatedVertices": 328,
+        "evaluatedTriangles": 652,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08452300727367401
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.011124515905976295
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.07247384637594223
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999997615814209,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.10842443257570267,
+            -0.01875486597418785,
+            0.03629392758011818
+          ],
+          [
+            -0.05105885490775108,
+            0.06228817254304886,
+            0.09604665637016296
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.775185487647466e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            328
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "b62d9b86d6037cec35da8f4c1dd3272f6110923215205e768c078219f78dfa1f"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:inferior-fibular-retinaculum-l",
+      "name": "Left inferior fibular retinaculum",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3523976,
+      "normals": 3524360,
+      "indices": 3524552,
+      "vertexCount": 32,
+      "indexCount": 105,
+      "bounds": [
+        [
+          0.09270687401294708,
+          0.02491394802927971,
+          -0.00971315149217844
+        ],
+        [
+          0.12019830197095871,
+          0.07370448857545853,
+          0.01852443441748619
+        ]
+      ],
+      "sourceObject": "Inferior fibular retinaculum.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Inferior fibular retinaculum.l",
+        "objectType": "MESH",
+        "dataBlock": "Inferior fibular retinaculum",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 32,
+        "basePolygons": 35,
+        "evaluatedVertices": 32,
+        "evaluatedTriangles": 35,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.11154057085514069
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            -0.0021231784485280514
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.05062950402498245
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.000000238418579,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.09270687401294708,
+            -0.01852443441748619,
+            0.02491394802927971
+          ],
+          [
+            0.12019830197095871,
+            0.00971315149217844,
+            0.07370448857545853
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 27,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.371028833999893e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            32
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "32a0c5219c316c0565658e1899522ade13aa98788aeef5d835a96d6121df9e94"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+      "sourceSurfaceStatus": "authored-open-sheet",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:inferior-fibular-retinaculum-r",
+      "name": "Right inferior fibular retinaculum",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3524972,
+      "normals": 3525356,
+      "indices": 3525548,
+      "vertexCount": 32,
+      "indexCount": 105,
+      "bounds": [
+        [
+          -0.1201983317732811,
+          0.024914059787988663,
+          -0.009713154286146164
+        ],
+        [
+          -0.09270690381526947,
+          0.07370458543300629,
+          0.018524423241615295
+        ]
+      ],
+      "sourceObject": "Inferior fibular retinaculum.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Inferior fibular retinaculum.r",
+        "objectType": "MESH",
+        "dataBlock": "Inferior fibular retinaculum",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 32,
+        "basePolygons": 35,
+        "evaluatedVertices": 32,
+        "evaluatedTriangles": 35,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11154060065746307
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            -0.0021231723949313164
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.05062960833311081
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999997615814209,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.1201983317732811,
+            -0.018524423241615295,
+            0.024914059787988663
+          ],
+          [
+            -0.09270690381526947,
+            0.009713154286146164,
+            0.07370458543300629
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 27,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.371028013323952e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            32
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "47bda8295702da9f392a8516c553e91e12829646b4bd04466463877228d95942"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+      "sourceSurfaceStatus": "authored-open-sheet",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-APONEUROSIS-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-aponeurosis-l",
+      "name": "Left plantar aponeurosis",
+      "side": "left",
+      "system": "muscular",
+      "componentRole": "aponeurosis",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3525968,
+      "normals": 3528848,
+      "indices": 3530288,
+      "vertexCount": 240,
+      "indexCount": 1218,
+      "bounds": [
+        [
+          0.06308511644601822,
+          0.006664924323558807,
+          -0.06934376060962677
+        ],
+        [
+          0.1268075704574585,
+          0.025959612801671028,
+          0.07343850284814835
+        ]
+      ],
+      "sourceObject": "Plantar aponeurosis.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar aponeurosis.l",
+        "objectType": "MESH",
+        "dataBlock": "Plantar aponeurosis",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb",
+          "Superficial muscles"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 240,
+        "basePolygons": 211,
+        "evaluatedVertices": 240,
+        "evaluatedTriangles": 406,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08351186662912369
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            -0.005144212860614061
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.014887448400259018
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": -1.000000238418579,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06308511644601822,
+            -0.07343850284814835,
+            0.006664924323558807
+          ],
+          [
+            0.1268075704574585,
+            0.06934376060962677,
+            0.025959612801671028
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": false,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 72,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.1155313782939083e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            240
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "1c525aa88a7c9ed19fab97998f85eb4a906bf83b814c35dfb0071efc88bcd925"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+      "sourceSurfaceStatus": "authored-open-sheet",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-APONEUROSIS-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-aponeurosis-r",
+      "name": "Right plantar aponeurosis",
+      "side": "right",
+      "system": "muscular",
+      "componentRole": "aponeurosis",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3535160,
+      "normals": 3538040,
+      "indices": 3539480,
+      "vertexCount": 240,
+      "indexCount": 1218,
+      "bounds": [
+        [
+          -0.12680760025978088,
+          0.006665041670203209,
+          -0.06934374570846558
+        ],
+        [
+          -0.0630851462483406,
+          0.02595972642302513,
+          0.07343848794698715
+        ]
+      ],
+      "sourceObject": "Plantar aponeurosis.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar aponeurosis.r",
+        "objectType": "MESH",
+        "dataBlock": "Plantar aponeurosis",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Superficial muscles"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "baseVertices": 240,
+        "basePolygons": 211,
+        "evaluatedVertices": 240,
+        "evaluatedTriangles": 406,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08351189643144608
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            -0.005144206341356039
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.01488756388425827
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "worldDeterminant": 0.9999997615814209,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.12680760025978088,
+            -0.07343848794698715,
+            0.006665041670203209
+          ],
+          [
+            -0.0630851462483406,
+            0.06934374570846558,
+            0.02595972642302513
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": false,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 72,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.115530224803559e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            240
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "2d5220927e85266bf845124e104debe3f4bf264a9fb74550205eae38d0364d5d"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+      "sourceSurfaceStatus": "authored-open-sheet",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-LONG-PLANTAR-LIGAMENT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:long-plantar-ligament-l",
+      "name": "Left long plantar ligament",
+      "side": "left",
+      "system": "skeletal",
+      "componentRole": "ligament",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3544352,
+      "normals": 3565244,
+      "indices": 3575692,
+      "vertexCount": 1741,
+      "indexCount": 10458,
+      "bounds": [
+        [
+          0.06448595970869064,
+          0.019086109474301338,
+          -0.06719271838665009
+        ],
+        [
+          0.1152970939874649,
+          0.044466231018304825,
+          0.032635439187288284
+        ]
+      ],
+      "sourceObject": "Long plantar ligament.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Long plantar ligament.l",
+        "objectType": "MESH",
+        "dataBlock": "Long plantar ligament",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "3: Joints",
+          "Left foot",
+          "Left lower limb",
+          "Transverse tarsal joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "baseVertices": 1741,
+        "basePolygons": 3486,
+        "evaluatedVertices": 1741,
+        "evaluatedTriangles": 3486,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0859849750995636
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.010977707803249359
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.030696183443069458
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999999403953552,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.06448595970869064,
+            -0.032635439187288284,
+            0.019086109474301338
+          ],
+          [
+            0.1152970939874649,
+            0.06719271838665009,
+            0.044466231018304825
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ef005263c172d86885640ec65c763fa8085f85903c5db96345d77f94b0076f68"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-LONG-PLANTAR-LIGAMENT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:long-plantar-ligament-r",
+      "name": "Right long plantar ligament",
+      "side": "right",
+      "system": "skeletal",
+      "componentRole": "ligament",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3617524,
+      "normals": 3638416,
+      "indices": 3648864,
+      "vertexCount": 1741,
+      "indexCount": 10458,
+      "bounds": [
+        [
+          -0.11529712378978729,
+          0.019086109474301338,
+          -0.06719271838665009
+        ],
+        [
+          -0.06448598951101303,
+          0.044466231018304825,
+          0.032635439187288284
+        ]
+      ],
+      "sourceObject": "Long plantar ligament.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Long plantar ligament.r",
+        "objectType": "MESH",
+        "dataBlock": "Long plantar ligament",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "3: Joints",
+          "Right foot",
+          "Right lower limb",
+          "Transverse tarsal joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "baseVertices": 1741,
+        "basePolygons": 3486,
+        "evaluatedVertices": 1741,
+        "evaluatedTriangles": 3486,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08598500490188599
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.010977707803249359
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.030696183443069458
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999999403953552,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.11529712378978729,
+            -0.032635439187288284,
+            0.019086109474301338
+          ],
+          [
+            -0.06448598951101303,
+            0.06719271838665009,
+            0.044466231018304825
+          ]
+        ],
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "4923a73bcf3bccbf9972bbb7b94f6db49c19c294972c6085756918263c14aff7"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-calcaneocuboid-ligament-l",
+      "name": "Left plantar calcaneocuboid ligament",
+      "side": "left",
+      "system": "skeletal",
+      "componentRole": "ligament",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3690696,
+      "normals": 3691536,
+      "indices": 3691956,
+      "vertexCount": 70,
+      "indexCount": 408,
+      "bounds": [
+        [
+          0.07964090257883072,
+          0.02785147726535797,
+          -0.03162741661071777
+        ],
+        [
+          0.09668204188346863,
+          0.03378414735198021,
+          -0.01693694479763508
+        ]
+      ],
+      "sourceObject": "Plantar calcaneocuboid ligament.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar calcaneocuboid ligament.l",
+        "objectType": "MESH",
+        "dataBlock": "Plantar calcaneocuboid ligament",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "3: Joints",
+          "Calcaneocuboid joint",
+          "Left foot",
+          "Left lower limb"
+        ],
+        "parent": "Intertarsal joints.g",
+        "baseVertices": 12,
+        "basePolygons": 6,
+        "evaluatedVertices": 70,
+        "evaluatedTriangles": 136,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08760097622871399
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.024071602150797844
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.030454453080892563
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999999403953552,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.07964090257883072,
+            0.01693694479763508,
+            0.02785147726535797
+          ],
+          [
+            0.09668204188346863,
+            0.03162741661071777,
+            0.03378414735198021
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.774907418350885e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            70
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "25f9e3677188aab08daafd2b5cef8399257d96e9921ddb783d702c6ee9ee1856"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-calcaneocuboid-ligament-r",
+      "name": "Right plantar calcaneocuboid ligament",
+      "side": "right",
+      "system": "skeletal",
+      "componentRole": "ligament",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3693588,
+      "normals": 3694428,
+      "indices": 3694848,
+      "vertexCount": 70,
+      "indexCount": 408,
+      "bounds": [
+        [
+          -0.09668207168579102,
+          0.02785147726535797,
+          -0.03162741661071777
+        ],
+        [
+          -0.0796409323811531,
+          0.03378414735198021,
+          -0.01693694479763508
+        ]
+      ],
+      "sourceObject": "Plantar calcaneocuboid ligament.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar calcaneocuboid ligament.r",
+        "objectType": "MESH",
+        "dataBlock": "Plantar calcaneocuboid ligament",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "3: Joints",
+          "Calcaneocuboid joint",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Intertarsal joints.g",
+        "baseVertices": 12,
+        "basePolygons": 6,
+        "evaluatedVertices": 70,
+        "evaluatedTriangles": 136,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08760100603103638
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.024071602150797844
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.030454453080892563
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999999403953552,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.09668207168579102,
+            0.01693694479763508,
+            0.02785147726535797
+          ],
+          [
+            -0.0796409323811531,
+            0.03162741661071777,
+            0.03378414735198021
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.774907418350885e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            70
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ad59a93d9608c88f0e6e1576b32fd065c44773958262a4112eedda639f4f9426"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-L",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-calcaneonavicular-ligament-l",
+      "name": "Left plantar calcaneonavicular ligament",
+      "side": "left",
+      "system": "skeletal",
+      "componentRole": "ligament",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3696480,
+      "normals": 3696696,
+      "indices": 3696804,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          0.061996474862098694,
+          0.04882168024778366,
+          -0.030201124027371407
+        ],
+        [
+          0.0713922381401062,
+          0.05360545217990875,
+          -0.009279541671276093
+        ]
+      ],
+      "sourceObject": "Plantar calcaneonavicular ligament.l",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar calcaneonavicular ligament.l",
+        "objectType": "MESH",
+        "dataBlock": "Plantar calcaneonavicular ligament",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "3: Joints",
+          "Left foot",
+          "Left lower limb",
+          "Talocalcaneonavicular joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "baseVertices": 4,
+        "basePolygons": 1,
+        "evaluatedVertices": 18,
+        "evaluatedTriangles": 32,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.06931854039430618
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.0186325516551733
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.05111284554004669
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": -0.9999999403953552,
+        "mirroredWindingCorrected": true,
+        "sourceWorldBounds": [
+          [
+            0.061996474862098694,
+            0.009279541671276093,
+            0.04882168024778366
+          ],
+          [
+            0.0713922381401062,
+            0.030201124027371407,
+            0.05360545217990875
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3925995365486904e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            18
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "751882681d765a489f5e01b536c13a86701bd977bb9f4a130e39173b4e168143"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
+    },
+    {
+      "id": "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-R",
+      "datasetId": "lower-limb-nerve-reference",
+      "conceptId": "zanatomy:plantar-calcaneonavicular-ligament-r",
+      "name": "Right plantar calcaneonavicular ligament",
+      "side": "right",
+      "system": "skeletal",
+      "componentRole": "ligament",
+      "role": "primary",
+      "chunk": 0,
+      "positions": 3697188,
+      "normals": 3697404,
+      "indices": 3697512,
+      "vertexCount": 18,
+      "indexCount": 96,
+      "bounds": [
+        [
+          -0.07139226794242859,
+          0.04882168024778366,
+          -0.030201124027371407
+        ],
+        [
+          -0.06199650466442108,
+          0.05360545217990875,
+          -0.009279541671276093
+        ]
+      ],
+      "sourceObject": "Plantar calcaneonavicular ligament.r",
+      "sourceObjectType": "MESH",
+      "sourceGeometry": {
+        "name": "Plantar calcaneonavicular ligament.r",
+        "objectType": "MESH",
+        "dataBlock": "Plantar calcaneonavicular ligament",
+        "materials": [
+          "Ligament"
+        ],
+        "collections": [
+          "3: Joints",
+          "Right foot",
+          "Right lower limb",
+          "Talocalcaneonavicular joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "baseVertices": 4,
+        "basePolygons": 1,
+        "evaluatedVertices": 18,
+        "evaluatedTriangles": 32,
+        "evaluation": "evaluated viewport dependency graph; authored visible modifiers preserved",
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.06931857019662857
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.0186325516551733
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.05111284554004669
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "worldDeterminant": 0.9999999403953552,
+        "mirroredWindingCorrected": false,
+        "sourceWorldBounds": [
+          [
+            -0.07139226794242859,
+            0.009279541671276093,
+            0.04882168024778366
+          ],
+          [
+            -0.06199650466442108,
+            0.030201124027371407,
+            0.05360545217990875
+          ]
+        ],
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3925995365486904e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            18
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "2133e6f2e413ac810a17e3e36679bd99cca711d424bc0f8cbd9f5dcdf1770b59"
+      },
+      "normalMethod": "angle-weighted face normals quantized to signed 16-bit",
+      "looseVertices": 0,
+      "cancelledVertexNormals": 0,
+      "cancelledVertexNormalFallback": "Largest incident face normal for source vertices whose angle-weighted normals cancel; faces and positions unchanged",
+      "sourceScope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "sourceSurfaceStatus": "evaluated-source-surface",
+      "expertReview": "pending"
     }
   ],
   "concepts": [
@@ -13471,18 +15629,144 @@
       "elements": [
         "ZA-LLR-TRANSVERSE-HEAD-OF-ADDUCTOR-HALLUCIS-R"
       ]
+    },
+    {
+      "id": "zanatomy:flexor-retinaculum-of-ankle-l",
+      "name": "Left flexor retinaculum of ankle",
+      "elements": [
+        "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-L"
+      ]
+    },
+    {
+      "id": "zanatomy:flexor-retinaculum-of-ankle-r",
+      "name": "Right flexor retinaculum of ankle",
+      "elements": [
+        "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-R"
+      ]
+    },
+    {
+      "id": "zanatomy:superior-extensor-retinaculum-of-ankle-l",
+      "name": "Left superior extensor retinaculum of ankle",
+      "elements": [
+        "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L"
+      ]
+    },
+    {
+      "id": "zanatomy:superior-extensor-retinaculum-of-ankle-r",
+      "name": "Right superior extensor retinaculum of ankle",
+      "elements": [
+        "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R"
+      ]
+    },
+    {
+      "id": "zanatomy:inferior-extensor-retinaculum-of-ankle-l",
+      "name": "Left inferior extensor retinaculum of ankle",
+      "elements": [
+        "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L"
+      ]
+    },
+    {
+      "id": "zanatomy:inferior-extensor-retinaculum-of-ankle-r",
+      "name": "Right inferior extensor retinaculum of ankle",
+      "elements": [
+        "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R"
+      ]
+    },
+    {
+      "id": "zanatomy:superior-fibular-retinaculum-l",
+      "name": "Left superior fibular retinaculum",
+      "elements": [
+        "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-L"
+      ]
+    },
+    {
+      "id": "zanatomy:superior-fibular-retinaculum-r",
+      "name": "Right superior fibular retinaculum",
+      "elements": [
+        "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-R"
+      ]
+    },
+    {
+      "id": "zanatomy:inferior-fibular-retinaculum-l",
+      "name": "Left inferior fibular retinaculum",
+      "elements": [
+        "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-L"
+      ]
+    },
+    {
+      "id": "zanatomy:inferior-fibular-retinaculum-r",
+      "name": "Right inferior fibular retinaculum",
+      "elements": [
+        "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-R"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-aponeurosis-l",
+      "name": "Left plantar aponeurosis",
+      "elements": [
+        "ZA-LLR-PLANTAR-APONEUROSIS-L"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-aponeurosis-r",
+      "name": "Right plantar aponeurosis",
+      "elements": [
+        "ZA-LLR-PLANTAR-APONEUROSIS-R"
+      ]
+    },
+    {
+      "id": "zanatomy:long-plantar-ligament-l",
+      "name": "Left long plantar ligament",
+      "elements": [
+        "ZA-LLR-LONG-PLANTAR-LIGAMENT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:long-plantar-ligament-r",
+      "name": "Right long plantar ligament",
+      "elements": [
+        "ZA-LLR-LONG-PLANTAR-LIGAMENT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-calcaneocuboid-ligament-l",
+      "name": "Left plantar calcaneocuboid ligament",
+      "elements": [
+        "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-calcaneocuboid-ligament-r",
+      "name": "Right plantar calcaneocuboid ligament",
+      "elements": [
+        "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-R"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-calcaneonavicular-ligament-l",
+      "name": "Left plantar calcaneonavicular ligament",
+      "elements": [
+        "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-L"
+      ]
+    },
+    {
+      "id": "zanatomy:plantar-calcaneonavicular-ligament-r",
+      "name": "Right plantar calcaneonavicular ligament",
+      "elements": [
+        "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-R"
+      ]
     }
   ],
   "chunks": [
     {
       "url": "/models/lower-limb-nerve-reference/anatomy.bin",
-      "bytes": 3442880,
+      "bytes": 3697896,
       "gzip": "/models/lower-limb-nerve-reference/anatomy.bin.gz",
-      "gzipBytes": 1931012,
-      "sha256": "038387150768d7c34670bdce332ad4870dc15fbcbb622c0e441ab064cc979350"
+      "gzipBytes": 2080141,
+      "sha256": "d01a0fb6156b72d836367ee4b025e4dc08e186a1b291666c0a92b98ce15cb203"
     }
   ],
-  "triangles": 163404,
+  "triangles": 175442,
   "source": {
     "id": "zanatomy",
     "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
@@ -21670,21 +23954,77 @@
       "componentVertices": [
         181
       ]
+    },
+    {
+      "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-L",
+      "sourceObject": "Long plantar ligament.l",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.4783871266618519,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 1.3747802592793167e-08,
+      "maxNormalLengthError": 2.256334329220344e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.3747802592793167e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1741
+      ]
+    },
+    {
+      "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-R",
+      "sourceObject": "Long plantar ligament.r",
+      "nonpositiveInterpolatedFaceNormals": 5,
+      "minFaceNormalDot": -0.4783871266618519,
+      "cancelledVertexNormals": 0,
+      "duplicateIndexFaceSets": 0,
+      "duplicateFaceExtraCount": 0,
+      "minDoubleTriangleArea": 1.3747802592793167e-08,
+      "maxNormalLengthError": 2.256334329220344e-05,
+      "maxFloat32PositionErrorMeters": 0.0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaTriangles": 0,
+      "minDoubleArea": 1.3747802592793167e-08,
+      "looseVertices": 0,
+      "triangleConnectedComponents": 1,
+      "componentVertices": [
+        1741
+      ]
     }
   ],
   "anatomicalExpertReview": "pending",
   "priorRejectedMainFrameAudit": "docs/model/asset-registration-distal-leg-nerves.md",
   "candidateBaseline": {
-    "manifestSha256": "a9b76a85da63937bd3c34230c902457d330cec7b75ab6df41c3db9b1cd8154ed",
-    "binarySha256": "572a92f6c7f630c226e70fd5e02d93db70714c063c8fd493d4eaa4c87472ca56",
-    "parts": 87,
+    "manifestSha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b",
+    "binarySha256": "038387150768d7c34670bdce332ad4870dc15fbcbb622c0e441ab064cc979350",
+    "parts": 119,
     "geometryPreservation": "Entire baseline binary prefix and all offsets/arrays unchanged"
   },
-  "candidateSourceReview": "data/model-candidates/foot-soft-tissue-source-audit-v1/REVIEW.md",
+  "candidateSourceReview": "data/model-candidates/foot-support-source-audit-v1/REVIEW.md",
   "packaging": {
     "producer": "scripts/export-lower-limb-reference.py",
-    "sourceExport": "data/model-candidates/foot-soft-tissue-source-audit-v1/export.py",
-    "sourceCandidateManifestSha256": "d746e77f27af6b92153dc05930b6af7fde7612c9732ad4ad2c4ce76432d5a4f8",
-    "inclusion": "Source-preserved D1 reference with disclosed mesh/group limits; not regional anatomy acceptance"
-  }
+    "sourceExport": "data/model-candidates/foot-support-source-audit-v1/export.py",
+    "sourceCandidateManifestSha256": "b5543dc45b3a897dfc2808d278b0c40d47140dc63994cfb6faafa2bdd56ce6ce",
+    "inclusion": "18 new source-preserved supports; two connecting geometries withheld; no regional anatomy acceptance"
+  },
+  "excludedSourceObjects": [
+    {
+      "sourceObject": "Intersesamoid ligament.l",
+      "conceptId": "zanatomy:intersesamoid-ligament-l",
+      "reason": "Source-space extent does not span both modeled sesamoid components; connecting geometry rejected",
+      "evidence": "data/model-candidates/foot-support-source-audit-v1/intersesamoid-placement.json"
+    },
+    {
+      "sourceObject": "Intersesamoid ligament.r",
+      "conceptId": "zanatomy:intersesamoid-ligament-r",
+      "reason": "Source-space extent does not span both modeled sesamoid components; connecting geometry rejected",
+      "evidence": "data/model-candidates/foot-support-source-audit-v1/intersesamoid-placement.json"
+    }
+  ]
 }

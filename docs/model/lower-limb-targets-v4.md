@@ -1,0 +1,11 @@
+# Alt ekstremite yapı hedefleri — v4
+
+Bu sürüm **156 proje hedefi** taşır. [v3'ün](lower-limb-targets-v3.md) 136 hedefi ve değerleri aynen korunur; 20 kaynak kapsamlı destek hedefi eklenir: 10 retinakulum, iki plantar aponevroz ve sekiz bağ nesnesi. Hepsinde gözlenen kaynak temsil bağı vardır; 154 hedef aktif ürüne bağlıdır, iki intersesamoid hedef yalnız aday kayıttadır. **Sıfır anatomik uzman kabulü**. Liste eksiksiz değildir; hiçbir bölge veya kapsam hücresi kapanmaz.
+
+[Makine kaydı](../../data/anatomy/regional-targets-lower-limb-v4.json), [geometri incelemesi](../../data/model-candidates/foot-support-source-audit-v1/REVIEW.md) ve [terim/kimlik incelemesi](../../data/model-candidates/foot-support-metadata-v1/REVIEW.md) ayrı kaynak kimliklerini ve açık koşulları taşır. Güncel envanter v4'ü kullanır; v1–v3 tarihî kayıtları tutulur.
+
+Kaynağın açık inferior fibular retinakulum ve plantar aponevroz yüzeyleri korunur. Açık yüzey, tam hacim veya fasya katmanı kabulü değildir. Plantar calcaneonavicular bağ kaba kaynak biçimiyle gösterilir; ayrı kompleks alt parçaları veya tutunma yüzeyi üretilmez. Seçilmiş tutunma bölgesi bilgileri 28 referans ve dört ana model bağlantısıyla açılır. Bütün kemiğe geçiş modelde tutunma izi veya temas doğrulaması değildir. Retinakulum tünelindeki içerikler, tendon bağlantıları ve bütün tutunma uçları bu paketle tamamlanmaz. Ana modelde yalnız uzun plantar bağın iki taraflı mevcut parçası kesin kaynak üyeliğiyle eşlenir; diğer desteklerin ana karşılığı bu sınırlı incelemede çözülmemiştir, yokluk iddiası değildir. İki modelin konum veya yüzey eşdeğerliği kabul edilmez.
+
+İntersesamoid adlı iki kaynak yüzeyi, kaynak koordinatlarında iki sesamoid bileşenini birleştirmediğinden öğrenci referansına eklenmez. Teknik aktarım eşitliği bu geometri kapsamını kabul ettirmez. Nesne, terim ve hedef kimlikleri aday kayıtta korunur; doğru bağlayıcı geometri veya alternatif kaynak gerekli kabul koşulu olarak açıktır. Bu iki hedef, aktif kaynak bağı bulunan 154 hedefe katılmaz.
+
+Üretim: `python3 scripts/build-foot-support-targets.py`; yazmadan güncellik kontrolü: `--check`. Kontrol 136 eski hedefin aynı kalmasını, 156 benzersiz kimliği, dataset içindeki kesin parça üyeliğini ve yeni etiketlerin dondurulmuş öneriye eşitliğini kapsar. Anatomik uzman veya bütün bölge kabulü değildir.

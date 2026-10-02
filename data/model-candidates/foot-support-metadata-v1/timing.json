@@ -1,0 +1,20 @@
+{
+  "firstMeasuredAuditAt": "2026-10-02T11:28:56.716217+00:00",
+  "measurement": "Wall clock since first recorded audit timestamp; initial source-reading time before this timestamp unmeasured; includes concurrent geometry evaluation",
+  "waiting": "Source mapping/evaluation pending while deterministic producer was prepared;duration not separately measured",
+  "rework": [
+    {
+      "reason": "Aligned proposed ligament family with existing skeletal-support family before handoff; no new family introduced",
+      "duration": "not separately measured"
+    }
+  ],
+  "ownership": "Only foot-support-metadata-v1; root integrates and source agent owns geometry",
+  "initialMetadataCompletedAt": "2026-10-02T11:35:09.538531+00:00",
+  "initialMetadataElapsedSeconds": 372.822,
+  "scopeExtension": {
+    "reason": "Root requested independently verified selected attachment facts after initial metadata was ready",
+    "outputs": "28 reference +4 main attaches_to candidates; separate primary-source locators and variation rationale"
+  },
+  "completedAt": "2026-10-02T11:39:03.752278+00:00",
+  "elapsedSeconds": 607.036
+}

@@ -1,0 +1,2880 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "blenderVersion": "5.2.0 LTS",
+  "sourceSceneUnits": {
+    "system": "METRIC",
+    "scaleLength": 1.0
+  },
+  "baselineManifestSha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b",
+  "candidates": [
+    {
+      "sourceObject": "Flexor retinaculum of ankle.l",
+      "partId": "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-L",
+      "conceptId": "zanatomy:flexor-retinaculum-of-ankle-l",
+      "side": "left",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Flexor retinaculum of ankle.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Flexor retinaculum of ankle",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFlexor retinaculum of ankle.l\", name=\"M3\", address=0x7b10204aa0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFlexor retinaculum of ankle.l\", name=\"SheetGenerator\", address=0x7b10204b60>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.05406559258699417
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.06714294105768204
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.04691340774297714
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.00000023841862,
+        "sourceWorldBounds": [
+          [
+            0.046269018203020096,
+            0.029997890815138817,
+            0.013608197681605816
+          ],
+          [
+            0.06224074959754944,
+            0.08440697193145752,
+            0.09313228726387024
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.046269018203020096,
+            0.013608197681605816,
+            -0.08440697193145752
+          ],
+          [
+            0.06224074959754944,
+            0.09313228726387024,
+            -0.029997890815138817
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.015971731394529343,
+          0.07952408958226442,
+          0.0544090811163187
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 350,
+        "evaluatedTriangles": 696,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 175,
+        "basePolygons": 154,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.1350212549757698e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            350
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "d5fa79f2042662d2328b5620b913e5350c004a52983c7213dd8342597579e085"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Flexor retinaculum of ankle.r",
+      "partId": "ZA-LLR-FLEXOR-RETINACULUM-OF-ANKLE-R",
+      "conceptId": "zanatomy:flexor-retinaculum-of-ankle-r",
+      "side": "right",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Flexor retinaculum of ankle.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Flexor retinaculum of ankle",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBFlexor retinaculum of ankle.r\", name=\"M3\", address=0x7b102053a0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBFlexor retinaculum of ankle.r\", name=\"SheetGenerator\", address=0x7b10205460>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.05406562238931656
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.06714293360710144
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.0469135120511055
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 0.9999997615814616,
+        "sourceWorldBounds": [
+          [
+            -0.062240779399871826,
+            0.029997890815138817,
+            0.01360830944031477
+          ],
+          [
+            -0.046269048005342484,
+            0.08440696448087692,
+            0.093132384121418
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.062240779399871826,
+            0.01360830944031477,
+            -0.08440696448087692
+          ],
+          [
+            -0.046269048005342484,
+            0.093132384121418,
+            -0.029997890815138817
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.015971731394529343,
+          0.07952407468110323,
+          0.054409073665738106
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 350,
+        "evaluatedTriangles": 696,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 175,
+        "basePolygons": 154,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.134970205635448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            350
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "74f1b25a25c4ac9832a25da459cd2444c86a46392bf7b8e12123f9ef3ca9bf47"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Superior extensor retinaculum of ankle.l",
+      "partId": "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L",
+      "conceptId": "zanatomy:superior-extensor-retinaculum-of-ankle-l",
+      "side": "left",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Superior extensor retinaculum of ankle.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Superior extensor retinaculum of ankle",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBSuperior extensor retinaculum of ankle.l\", name=\"M3\", address=0x7b0fbb8e60>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBSuperior extensor retinaculum of ankle.l\", name=\"SheetGenerator\", address=0x7b0fbb8f20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.09104220569133759
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.025885099545121193
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.1237192451953888
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.00000023841862,
+        "sourceWorldBounds": [
+          [
+            0.06884092092514038,
+            0.01505191158503294,
+            0.11014508455991745
+          ],
+          [
+            0.10615778714418411,
+            0.043968722224235535,
+            0.1416807919740677
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.06884092092514038,
+            0.11014508455991745,
+            -0.043968722224235535
+          ],
+          [
+            0.10615778714418411,
+            0.1416807919740677,
+            -0.01505191158503294
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.03731686621904373,
+          0.03153570741415024,
+          0.028916810639202595
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 132,
+        "evaluatedTriangles": 260,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 66,
+        "basePolygons": 50,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1786345867002448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            132
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "2fa2b018ef47d44e67dc4b98cd0d49357ee5e6b7f576cbe660317fbf2392b44a"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Superior extensor retinaculum of ankle.r",
+      "partId": "ZA-LLR-SUPERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R",
+      "conceptId": "zanatomy:superior-extensor-retinaculum-of-ankle-r",
+      "side": "right",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Superior extensor retinaculum of ankle.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Superior extensor retinaculum of ankle",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBSuperior extensor retinaculum of ankle.r\", name=\"M3\", address=0x7b0fbb9760>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBSuperior extensor retinaculum of ankle.r\", name=\"SheetGenerator\", address=0x7b0fbb9820>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.09104223549365997
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.025885097682476044
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.12371933460235596
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 0.9999997615814616,
+        "sourceWorldBounds": [
+          [
+            -0.1061578169465065,
+            0.01505191158503294,
+            0.11014518141746521
+          ],
+          [
+            -0.06884095072746277,
+            0.04396871477365494,
+            0.14168088138103485
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.1061578169465065,
+            0.11014518141746521,
+            -0.04396871477365494
+          ],
+          [
+            -0.06884095072746277,
+            0.14168088138103485,
+            -0.01505191158503294
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.03731686621904373,
+          0.03153569996356964,
+          0.028916803188621998
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 132,
+        "evaluatedTriangles": 260,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 66,
+        "basePolygons": 50,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.1786345867002448e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            132
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ee5a1bb59ababf3409ddaa7e75774ee543c8cf26c21d27db0d8951e581deec29"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Inferior extensor retinaculum of ankle.l",
+      "partId": "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-L",
+      "conceptId": "zanatomy:inferior-extensor-retinaculum-of-ankle-l",
+      "side": "left",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Inferior extensor retinaculum of ankle.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Inferior extensor retinaculum of ankle",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBInferior extensor retinaculum of ankle.l\", name=\"M3\", address=0x7b10320560>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBInferior extensor retinaculum of ankle.l\", name=\"SheetGenerator\", address=0x7b10320620>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08844079077243805
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.02025386318564415
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.09451760351657867
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.00000023841862,
+        "sourceWorldBounds": [
+          [
+            0.05321101099252701,
+            0.006525623612105846,
+            0.07810001075267792
+          ],
+          [
+            0.10606591403484344,
+            0.043351881206035614,
+            0.10653705894947052
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.05321101099252701,
+            0.07810001075267792,
+            -0.043351881206035614
+          ],
+          [
+            0.10606591403484344,
+            0.10653705894947052,
+            -0.006525623612105846
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.05285490304231644,
+          0.028437048196792603,
+          0.03682625759392977
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 160,
+        "evaluatedTriangles": 316,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 80,
+        "basePolygons": 65,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.73292325613117e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            160
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "8194b47210499e48f7ac36ece13224615f4d66a69c7a165ae6581017e9e66001"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Inferior extensor retinaculum of ankle.r",
+      "partId": "ZA-LLR-INFERIOR-EXTENSOR-RETINACULUM-OF-ANKLE-R",
+      "conceptId": "zanatomy:inferior-extensor-retinaculum-of-ankle-r",
+      "side": "right",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Inferior extensor retinaculum of ankle.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Inferior extensor retinaculum of ankle",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBInferior extensor retinaculum of ankle.r\", name=\"M3\", address=0x7b10320e60>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBInferior extensor retinaculum of ankle.r\", name=\"SheetGenerator\", address=0x7b10320f20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08844082057476044
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.0202538650482893
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.09451769292354584
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 0.9999997615814616,
+        "sourceWorldBounds": [
+          [
+            -0.10606594383716583,
+            0.006525629200041294,
+            0.07810010761022568
+          ],
+          [
+            -0.053211040794849396,
+            0.043351881206035614,
+            0.10653714835643768
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.10606594383716583,
+            0.07810010761022568,
+            -0.043351881206035614
+          ],
+          [
+            -0.053211040794849396,
+            0.10653714835643768,
+            -0.006525629200041294
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.05285490304231644,
+          0.028437040746212006,
+          0.03682625200599432
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 160,
+        "evaluatedTriangles": 316,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 80,
+        "basePolygons": 65,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 9.73292325613117e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            160
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "dd201bcfb2452dd5ada27a3984e5cd5a70b1f576d63319182e5b589402d1fba2"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Superior fibular retinaculum.l",
+      "partId": "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-L",
+      "conceptId": "zanatomy:superior-fibular-retinaculum-l",
+      "side": "left",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Superior fibular retinaculum.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Superior fibular retinaculum",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBSuperior fibular retinaculum.l\", name=\"M3\", address=0x7b0fbbbe60>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBSuperior fibular retinaculum.l\", name=\"SheetGenerator\", address=0x7b0fbbbf20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08452297747135162
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            0.011124512180685997
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.07247374206781387
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.00000023841862,
+        "sourceWorldBounds": [
+          [
+            0.051058825105428696,
+            -0.018754877150058746,
+            0.036293815821409225
+          ],
+          [
+            0.10842440277338028,
+            0.062288183718919754,
+            0.0960465595126152
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.051058825105428696,
+            0.036293815821409225,
+            -0.062288183718919754
+          ],
+          [
+            0.10842440277338028,
+            0.0960465595126152,
+            0.018754877150058746
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.057365577667951584,
+          0.05975274369120598,
+          0.0810430608689785
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 328,
+        "evaluatedTriangles": 652,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 164,
+        "basePolygons": 138,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.775185487647466e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            328
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "7d65945078754807773e98fd4e16731d0e5f8e7dc39a6c9a6c302e2b77f8aa2c"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Superior fibular retinaculum.r",
+      "partId": "ZA-LLR-SUPERIOR-FIBULAR-RETINACULUM-R",
+      "conceptId": "zanatomy:superior-fibular-retinaculum-r",
+      "side": "right",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Superior fibular retinaculum.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Superior fibular retinaculum",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBSuperior fibular retinaculum.r\", name=\"M3\", address=0x7b0fbc07a0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBSuperior fibular retinaculum.r\", name=\"SheetGenerator\", address=0x7b0fbc0860>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08452300727367401
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            0.011124515905976295
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.07247384637594223
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 0.9999997615814616,
+        "sourceWorldBounds": [
+          [
+            -0.10842443257570267,
+            -0.01875486597418785,
+            0.03629392758011818
+          ],
+          [
+            -0.05105885490775108,
+            0.06228817254304886,
+            0.09604665637016296
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.10842443257570267,
+            0.03629392758011818,
+            -0.06228817254304886
+          ],
+          [
+            -0.05105885490775108,
+            0.09604665637016296,
+            0.01875486597418785
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.057365577667951584,
+          0.059752728790044785,
+          0.08104303851723671
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 328,
+        "evaluatedTriangles": 652,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 164,
+        "basePolygons": 138,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.775185487647466e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            328
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "b62d9b86d6037cec35da8f4c1dd3272f6110923215205e768c078219f78dfa1f"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Inferior fibular retinaculum.l",
+      "partId": "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-L",
+      "conceptId": "zanatomy:inferior-fibular-retinaculum-l",
+      "side": "left",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+      "expectedBoundaryEdges": 27,
+      "geometry": {
+        "sourceObject": "Inferior fibular retinaculum.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Inferior fibular retinaculum",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBInferior fibular retinaculum.l\", name=\"M3\", address=0x7b10321760>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBInferior fibular retinaculum.l\", name=\"SheetGenerator\", address=0x7b10321820>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.11154057085514069
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            -0.0021231784485280514
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.05062950402498245
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.00000023841862,
+        "sourceWorldBounds": [
+          [
+            0.09270687401294708,
+            -0.01852443441748619,
+            0.02491394802927971
+          ],
+          [
+            0.12019830197095871,
+            0.00971315149217844,
+            0.07370448857545853
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.09270687401294708,
+            0.02491394802927971,
+            -0.00971315149217844
+          ],
+          [
+            0.12019830197095871,
+            0.07370448857545853,
+            0.01852443441748619
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.027491427958011627,
+          0.04879054054617882,
+          0.02823758590966463
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 32,
+        "evaluatedTriangles": 35,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 32,
+        "basePolygons": 35,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 27,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.371028833999893e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            32
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "32a0c5219c316c0565658e1899522ade13aa98788aeef5d835a96d6121df9e94"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Inferior fibular retinaculum.r",
+      "partId": "ZA-LLR-INFERIOR-FIBULAR-RETINACULUM-R",
+      "conceptId": "zanatomy:inferior-fibular-retinaculum-r",
+      "side": "right",
+      "componentRole": "retinaculum",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 27 boundary edges",
+      "expectedBoundaryEdges": 27,
+      "geometry": {
+        "sourceObject": "Inferior fibular retinaculum.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Inferior fibular retinaculum",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBInferior fibular retinaculum.r\", name=\"M3\", address=0x7b10322060>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBInferior fibular retinaculum.r\", name=\"SheetGenerator\", address=0x7b10322120>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11154060065746307
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            -0.0021231723949313164
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.05062960833311081
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 0.9999997615814616,
+        "sourceWorldBounds": [
+          [
+            -0.1201983317732811,
+            -0.018524423241615295,
+            0.024914059787988663
+          ],
+          [
+            -0.09270690381526947,
+            0.009713154286146164,
+            0.07370458543300629
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.1201983317732811,
+            0.024914059787988663,
+            -0.009713154286146164
+          ],
+          [
+            -0.09270690381526947,
+            0.07370458543300629,
+            0.018524423241615295
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.027491427958011627,
+          0.048790525645017624,
+          0.02823757752776146
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 32,
+        "evaluatedTriangles": 35,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 32,
+        "basePolygons": 35,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 27,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 5.371028013323952e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            32
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "47bda8295702da9f392a8516c553e91e12829646b4bd04466463877228d95942"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Plantar aponeurosis.l",
+      "partId": "ZA-LLR-PLANTAR-APONEUROSIS-L",
+      "conceptId": "zanatomy:plantar-aponeurosis-l",
+      "side": "left",
+      "componentRole": "aponeurosis",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+      "expectedBoundaryEdges": 72,
+      "geometry": {
+        "sourceObject": "Plantar aponeurosis.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Plantar aponeurosis",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Left lower limb",
+          "Muscles",
+          "Muscles of lower limb",
+          "Superficial muscles"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBPlantar aponeurosis.l\", name=\"M3\", address=0x7b0f8019a0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBPlantar aponeurosis.l\", name=\"SheetGenerator\", address=0x7b0f801a60>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08351186662912369
+          ],
+          [
+            0.0,
+            -1.629206423103824e-07,
+            -1.0000001192092896,
+            -0.005144212860614061
+          ],
+          [
+            0.0,
+            1.0000001192092896,
+            -1.629206423103824e-07,
+            0.014887448400259018
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.00000023841862,
+        "sourceWorldBounds": [
+          [
+            0.06308511644601822,
+            -0.07343850284814835,
+            0.006664924323558807
+          ],
+          [
+            0.1268075704574585,
+            0.06934376060962677,
+            0.025959612801671028
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.06308511644601822,
+            0.006664924323558807,
+            -0.06934376060962677
+          ],
+          [
+            0.1268075704574585,
+            0.025959612801671028,
+            0.07343850284814835
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.06372245401144028,
+          0.01929468847811222,
+          0.14278226345777512
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 240,
+        "evaluatedTriangles": 406,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 240,
+        "basePolygons": 211,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": false,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 72,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.1155313782939083e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            240
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "1c525aa88a7c9ed19fab97998f85eb4a906bf83b814c35dfb0071efc88bcd925"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Plantar aponeurosis.r",
+      "partId": "ZA-LLR-PLANTAR-APONEUROSIS-R",
+      "conceptId": "zanatomy:plantar-aponeurosis-r",
+      "side": "right",
+      "componentRole": "aponeurosis",
+      "role": "primary",
+      "system": "muscular",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; authored open source sheet with 72 boundary edges",
+      "expectedBoundaryEdges": 72,
+      "geometry": {
+        "sourceObject": "Plantar aponeurosis.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Plantar aponeurosis",
+        "dataBlockUsers": 2,
+        "collections": [
+          "4: Muscular system",
+          "Muscles",
+          "Muscles of lower limb",
+          "Right lower limb",
+          "Superficial muscles"
+        ],
+        "parent": "Fasciae of lower limb.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBPlantar aponeurosis.r\", name=\"M3\", address=0x7b0f8022a0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBPlantar aponeurosis.r\", name=\"SheetGenerator\", address=0x7b0f802360>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08351189643144608
+          ],
+          [
+            0.0,
+            -1.6292068494294654e-07,
+            -0.9999998807907104,
+            -0.005144206341356039
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            -1.6292068494294654e-07,
+            0.01488756388425827
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 0.9999997615814616,
+        "sourceWorldBounds": [
+          [
+            -0.12680760025978088,
+            -0.07343848794698715,
+            0.006665041670203209
+          ],
+          [
+            -0.0630851462483406,
+            0.06934374570846558,
+            0.02595972642302513
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.12680760025978088,
+            0.006665041670203209,
+            -0.06934374570846558
+          ],
+          [
+            -0.0630851462483406,
+            0.02595972642302513,
+            0.07343848794698715
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.06372245401144028,
+          0.019294684752821922,
+          0.14278223365545273
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 240,
+        "evaluatedTriangles": 406,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 240,
+        "basePolygons": 211,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": false,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0010000000474974513
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 72,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 3.115530224803559e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            240
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "2d5220927e85266bf845124e104debe3f4bf264a9fb74550205eae38d0364d5d"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Long plantar ligament.l",
+      "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-L",
+      "conceptId": "zanatomy:long-plantar-ligament-l",
+      "side": "left",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Long plantar ligament.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Long plantar ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Left foot",
+          "Left lower limb",
+          "Transverse tarsal joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBLong plantar ligament.l\", name=\"M3\", address=0x7b0fd570e0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBLong plantar ligament.l\", name=\"SheetGenerator\", address=0x7b0fd571a0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.0859849750995636
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.010977707803249359
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.030696183443069458
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "determinant": -0.9999999403953872,
+        "sourceWorldBounds": [
+          [
+            0.06448595970869064,
+            -0.032635439187288284,
+            0.019086109474301338
+          ],
+          [
+            0.1152970939874649,
+            0.06719271838665009,
+            0.044466231018304825
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.06448595970869064,
+            0.019086109474301338,
+            -0.06719271838665009
+          ],
+          [
+            0.1152970939874649,
+            0.044466231018304825,
+            0.032635439187288284
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.05081113427877426,
+          0.025380121544003487,
+          0.09982815757393837
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 1741,
+        "evaluatedTriangles": 3486,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 1741,
+        "basePolygons": 3486,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ef005263c172d86885640ec65c763fa8085f85903c5db96345d77f94b0076f68"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Long plantar ligament.r",
+      "partId": "ZA-LLR-LONG-PLANTAR-LIGAMENT-R",
+      "conceptId": "zanatomy:long-plantar-ligament-r",
+      "side": "right",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Long plantar ligament.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Long plantar ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Right foot",
+          "Right lower limb",
+          "Transverse tarsal joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBLong plantar ligament.r\", name=\"M3\", address=0x7b0fd5dbe0>",
+          "SheetGenerator": "<bpy id prop: owner=\"OBLong plantar ligament.r\", name=\"SheetGenerator\", address=0x7b0fd5dca0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08598500490188599
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.010977707803249359
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.030696183443069458
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "determinant": 0.9999999403953872,
+        "sourceWorldBounds": [
+          [
+            -0.11529712378978729,
+            -0.032635439187288284,
+            0.019086109474301338
+          ],
+          [
+            -0.06448598951101303,
+            0.06719271838665009,
+            0.044466231018304825
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.11529712378978729,
+            0.019086109474301338,
+            -0.06719271838665009
+          ],
+          [
+            -0.06448598951101303,
+            0.044466231018304825,
+            0.032635439187288284
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.05081113427877426,
+          0.025380121544003487,
+          0.09982815757393837
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 1741,
+        "evaluatedTriangles": 3486,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 1741,
+        "basePolygons": 3486,
+        "modifiers": [],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3747802592793167e-08,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            1741
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "4923a73bcf3bccbf9972bbb7b94f6db49c19c294972c6085756918263c14aff7"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Plantar calcaneocuboid ligament.l",
+      "partId": "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-L",
+      "conceptId": "zanatomy:plantar-calcaneocuboid-ligament-l",
+      "side": "left",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Plantar calcaneocuboid ligament.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Plantar calcaneocuboid ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Calcaneocuboid joint",
+          "Left foot",
+          "Left lower limb"
+        ],
+        "parent": "Intertarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBPlantar calcaneocuboid ligament.l\", name=\"M3\", address=0x7b0f803c20>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.08760097622871399
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.024071602150797844
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.030454453080892563
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "determinant": -0.9999999403953872,
+        "sourceWorldBounds": [
+          [
+            0.07964090257883072,
+            0.01693694479763508,
+            0.02785147726535797
+          ],
+          [
+            0.09668204188346863,
+            0.03162741661071777,
+            0.03378414735198021
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.07964090257883072,
+            0.02785147726535797,
+            -0.03162741661071777
+          ],
+          [
+            0.09668204188346863,
+            0.03378414735198021,
+            -0.01693694479763508
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01704113930463791,
+          0.005932670086622238,
+          0.014690471813082695
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 70,
+        "evaluatedTriangles": 136,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 12,
+        "basePolygons": 6,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.774907418350885e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            70
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "25f9e3677188aab08daafd2b5cef8399257d96e9921ddb783d702c6ee9ee1856"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Plantar calcaneocuboid ligament.r",
+      "partId": "ZA-LLR-PLANTAR-CALCANEOCUBOID-LIGAMENT-R",
+      "conceptId": "zanatomy:plantar-calcaneocuboid-ligament-r",
+      "side": "right",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Plantar calcaneocuboid ligament.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Plantar calcaneocuboid ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Calcaneocuboid joint",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Intertarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBPlantar calcaneocuboid ligament.r\", name=\"M3\", address=0x7b0f804560>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.08760100603103638
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.024071602150797844
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.030454453080892563
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "determinant": 0.9999999403953872,
+        "sourceWorldBounds": [
+          [
+            -0.09668207168579102,
+            0.01693694479763508,
+            0.02785147726535797
+          ],
+          [
+            -0.0796409323811531,
+            0.03162741661071777,
+            0.03378414735198021
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.09668207168579102,
+            0.02785147726535797,
+            -0.03162741661071777
+          ],
+          [
+            -0.0796409323811531,
+            0.03378414735198021,
+            -0.01693694479763508
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.01704113930463791,
+          0.005932670086622238,
+          0.014690471813082695
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 70,
+        "evaluatedTriangles": 136,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 12,
+        "basePolygons": 6,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 2.774907418350885e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            70
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "ad59a93d9608c88f0e6e1576b32fd065c44773958262a4112eedda639f4f9426"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Plantar calcaneonavicular ligament.l",
+      "partId": "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-L",
+      "conceptId": "zanatomy:plantar-calcaneonavicular-ligament-l",
+      "side": "left",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Plantar calcaneonavicular ligament.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Plantar calcaneonavicular ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Left foot",
+          "Left lower limb",
+          "Talocalcaneonavicular joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBPlantar calcaneonavicular ligament.l\", name=\"M3\", address=0x7b0f98b860>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.06931854039430618
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.0186325516551733
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.05111284554004669
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "determinant": -0.9999999403953872,
+        "sourceWorldBounds": [
+          [
+            0.061996474862098694,
+            0.009279541671276093,
+            0.04882168024778366
+          ],
+          [
+            0.0713922381401062,
+            0.030201124027371407,
+            0.05360545217990875
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.061996474862098694,
+            0.04882168024778366,
+            -0.030201124027371407
+          ],
+          [
+            0.0713922381401062,
+            0.05360545217990875,
+            -0.009279541671276093
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.009395763278007507,
+          0.0047837719321250916,
+          0.020921582356095314
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 18,
+        "evaluatedTriangles": 32,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 4,
+        "basePolygons": 1,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3925995365486904e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            18
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "751882681d765a489f5e01b536c13a86701bd977bb9f4a130e39173b4e168143"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Plantar calcaneonavicular ligament.r",
+      "partId": "ZA-LLR-PLANTAR-CALCANEONAVICULAR-LIGAMENT-R",
+      "conceptId": "zanatomy:plantar-calcaneonavicular-ligament-r",
+      "side": "right",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Plantar calcaneonavicular ligament.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Plantar calcaneonavicular ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Right foot",
+          "Right lower limb",
+          "Talocalcaneonavicular joint"
+        ],
+        "parent": "Intertarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBPlantar calcaneonavicular ligament.r\", name=\"M3\", address=0x7b0f98c1a0>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.06931857019662857
+          ],
+          [
+            0.0,
+            0.9999999403953552,
+            1.7881393432617188e-07,
+            0.0186325516551733
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.05111284554004669
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.9999999403953552
+          ]
+        ],
+        "determinant": 0.9999999403953872,
+        "sourceWorldBounds": [
+          [
+            -0.07139226794242859,
+            0.009279541671276093,
+            0.04882168024778366
+          ],
+          [
+            -0.06199650466442108,
+            0.030201124027371407,
+            0.05360545217990875
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.07139226794242859,
+            0.04882168024778366,
+            -0.030201124027371407
+          ],
+          [
+            -0.06199650466442108,
+            0.05360545217990875,
+            -0.009279541671276093
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.009395763278007507,
+          0.0047837719321250916,
+          0.020921582356095314
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 18,
+        "evaluatedTriangles": 32,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 4,
+        "basePolygons": 1,
+        "modifiers": [
+          {
+            "name": "Subdivision",
+            "type": "SUBSURF",
+            "showViewport": true,
+            "showRender": true,
+            "levels": 1,
+            "renderLevels": 2,
+            "thickness": null
+          },
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.3925995365486904e-06,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            18
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "2133e6f2e413ac810a17e3e36679bd99cca711d424bc0f8cbd9f5dcdf1770b59"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Intersesamoid ligament.l",
+      "partId": "ZA-LLR-INTERSESAMOID-LIGAMENT-L",
+      "conceptId": "zanatomy:intersesamoid-ligament-l",
+      "side": "left",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; placement and relationship to both source sesamoid components are not anatomically accepted",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Intersesamoid ligament.l",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Intersesamoid ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Intermetatarsal joints",
+          "Left foot",
+          "Left lower limb"
+        ],
+        "parent": "Intermetatarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBIntersesamoid ligament.l\", name=\"M3\", address=0x7b103e2720>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            -1.0,
+            0.0,
+            0.0,
+            0.07659345865249634
+          ],
+          [
+            0.0,
+            1.0,
+            1.7881393432617188e-07,
+            -0.07101355493068695
+          ],
+          [
+            0.0,
+            -1.7881393432617188e-07,
+            1.0,
+            0.012042851187288761
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": -1.000000000000032,
+        "sourceWorldBounds": [
+          [
+            0.07214398682117462,
+            -0.07450782507658005,
+            0.010385531932115555
+          ],
+          [
+            0.08102520555257797,
+            -0.06635233014822006,
+            0.01411617174744606
+          ]
+        ],
+        "displayBounds": [
+          [
+            0.07214398682117462,
+            0.010385531932115555,
+            0.06635233014822006
+          ],
+          [
+            0.08102520555257797,
+            0.01411617174744606,
+            0.07450782507658005
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.00888121873140335,
+          0.0037306398153305054,
+          0.008155494928359985
+        ],
+        "observedSide": "left",
+        "evaluatedVertices": 30,
+        "evaluatedTriangles": 56,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 15,
+        "basePolygons": 8,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.9201473872047994e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            30
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "c56a3ff680f34f3e9925d80bb1a191d5b1e38c1ddcdfccd18787fa2534adf6a7"
+      },
+      "expertReview": "pending"
+    },
+    {
+      "sourceObject": "Intersesamoid ligament.r",
+      "partId": "ZA-LLR-INTERSESAMOID-LIGAMENT-R",
+      "conceptId": "zanatomy:intersesamoid-ligament-r",
+      "side": "right",
+      "componentRole": "ligament",
+      "role": "primary",
+      "system": "skeletal",
+      "scope": "Entire preserved named source mesh; anatomical extent and expert review pending; no full-layer, fascicle or attachment claim; placement and relationship to both source sesamoid components are not anatomically accepted",
+      "expectedBoundaryEdges": 0,
+      "geometry": {
+        "sourceObject": "Intersesamoid ligament.r",
+        "sourceIdentity": "Blender object name within pinned SHA; no external anatomical ID asserted",
+        "sourceObjectType": "MESH",
+        "dataBlock": "Intersesamoid ligament",
+        "dataBlockUsers": 2,
+        "collections": [
+          "3: Joints",
+          "Intermetatarsal joints",
+          "Right foot",
+          "Right lower limb"
+        ],
+        "parent": "Intermetatarsal joints.g",
+        "customProperties": {
+          "M3": "<bpy id prop: owner=\"OBIntersesamoid ligament.r\", name=\"M3\", address=0x7b103e2f60>",
+          "Cross-section-X": "1",
+          "Cross-section-Y": "1",
+          "Cross-section-Z": "1",
+          "Cross-section-X-inverse": "0",
+          "Cross-section-Y-inverse": "0",
+          "Cross-section-Z-inverse": "0",
+          "muscle_color": "0",
+          "comic_shader": "False",
+          "key_color": "False"
+        },
+        "worldMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.07659345865249634
+          ],
+          [
+            0.0,
+            1.0,
+            1.788139485370266e-07,
+            -0.07101356238126755
+          ],
+          [
+            0.0,
+            -1.788139485370266e-07,
+            1.0,
+            0.012042847461998463
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "determinant": 1.000000000000032,
+        "sourceWorldBounds": [
+          [
+            -0.08102520555257797,
+            -0.07450783252716064,
+            0.010385528206825256
+          ],
+          [
+            -0.07214398682117462,
+            -0.06635233759880066,
+            0.014116168022155762
+          ]
+        ],
+        "displayBounds": [
+          [
+            -0.08102520555257797,
+            0.010385528206825256,
+            0.06635233759880066
+          ],
+          [
+            -0.07214398682117462,
+            0.014116168022155762,
+            0.07450783252716064
+          ]
+        ],
+        "displayDimensionsMeters": [
+          0.00888121873140335,
+          0.0037306398153305054,
+          0.008155494928359985
+        ],
+        "observedSide": "right",
+        "evaluatedVertices": 30,
+        "evaluatedTriangles": 56,
+        "selectableEvaluatedGeometry": true,
+        "baseVertices": 15,
+        "basePolygons": 8,
+        "modifiers": [
+          {
+            "name": "Solidify",
+            "type": "SOLIDIFY",
+            "showViewport": true,
+            "showRender": true,
+            "levels": null,
+            "renderLevels": null,
+            "thickness": 0.0005000000237487257
+          }
+        ],
+        "topology": {
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "zeroAreaTriangles": 0,
+          "minDoubleArea": 1.9201473872047994e-07,
+          "looseVertices": 0,
+          "triangleConnectedComponents": 1,
+          "componentVertices": [
+            30
+          ]
+        },
+        "evaluatedWorldGeometrySha256": "1d6e71effcfd6f208239d34a00044a9b6c101cd657177c73909e8ff510c5eb04"
+      },
+      "expertReview": "pending"
+    }
+  ],
+  "relatedSourceObjects": [
+    {
+      "name": "Flexor retinaculum of ankle.l",
+      "type": "MESH",
+      "dataBlock": "Flexor retinaculum of ankle",
+      "baseVertices": 175,
+      "basePolygons": 154,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Flexor retinaculum of ankle.r",
+      "type": "MESH",
+      "dataBlock": "Flexor retinaculum of ankle",
+      "baseVertices": 175,
+      "basePolygons": 154,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Inferior extensor retinaculum of ankle.l",
+      "type": "MESH",
+      "dataBlock": "Inferior extensor retinaculum of ankle",
+      "baseVertices": 80,
+      "basePolygons": 65,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Inferior extensor retinaculum of ankle.r",
+      "type": "MESH",
+      "dataBlock": "Inferior extensor retinaculum of ankle",
+      "baseVertices": 80,
+      "basePolygons": 65,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Inferior fibular retinaculum.l",
+      "type": "MESH",
+      "dataBlock": "Inferior fibular retinaculum",
+      "baseVertices": 32,
+      "basePolygons": 35,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Inferior fibular retinaculum.r",
+      "type": "MESH",
+      "dataBlock": "Inferior fibular retinaculum",
+      "baseVertices": 32,
+      "basePolygons": 35,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Intersesamoid ligament.l",
+      "type": "MESH",
+      "dataBlock": "Intersesamoid ligament",
+      "baseVertices": 15,
+      "basePolygons": 8,
+      "collections": [
+        "3: Joints",
+        "Intermetatarsal joints",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Intersesamoid ligament.r",
+      "type": "MESH",
+      "dataBlock": "Intersesamoid ligament",
+      "baseVertices": 15,
+      "basePolygons": 8,
+      "collections": [
+        "3: Joints",
+        "Intermetatarsal joints",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Long plantar ligament.l",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament",
+      "baseVertices": 1741,
+      "basePolygons": 3486,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Transverse tarsal joint"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Long plantar ligament.o1l",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o1",
+      "baseVertices": 31,
+      "basePolygons": 37,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o1r",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o1",
+      "baseVertices": 31,
+      "basePolygons": 37,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o2l",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o2",
+      "baseVertices": 23,
+      "basePolygons": 26,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o2r",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o2",
+      "baseVertices": 23,
+      "basePolygons": 26,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o3l",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o3",
+      "baseVertices": 10,
+      "basePolygons": 8,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o3r",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o3",
+      "baseVertices": 10,
+      "basePolygons": 8,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o4l",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o4",
+      "baseVertices": 22,
+      "basePolygons": 12,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.o4r",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o4",
+      "baseVertices": 22,
+      "basePolygons": 12,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.ol",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o",
+      "baseVertices": 42,
+      "basePolygons": 45,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.or",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament.o",
+      "baseVertices": 42,
+      "basePolygons": 45,
+      "collections": [
+        "2: Muscular insertions"
+      ],
+      "selected": false
+    },
+    {
+      "name": "Long plantar ligament.r",
+      "type": "MESH",
+      "dataBlock": "Long plantar ligament",
+      "baseVertices": 1741,
+      "basePolygons": 3486,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Transverse tarsal joint"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Plantar aponeurosis.l",
+      "type": "MESH",
+      "dataBlock": "Plantar aponeurosis",
+      "baseVertices": 240,
+      "basePolygons": 211,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb",
+        "Superficial muscles"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Plantar aponeurosis.r",
+      "type": "MESH",
+      "dataBlock": "Plantar aponeurosis",
+      "baseVertices": 240,
+      "basePolygons": 211,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb",
+        "Superficial muscles"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Plantar calcaneocuboid ligament.l",
+      "type": "MESH",
+      "dataBlock": "Plantar calcaneocuboid ligament",
+      "baseVertices": 12,
+      "basePolygons": 6,
+      "collections": [
+        "3: Joints",
+        "Calcaneocuboid joint",
+        "Left foot",
+        "Left lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Plantar calcaneocuboid ligament.r",
+      "type": "MESH",
+      "dataBlock": "Plantar calcaneocuboid ligament",
+      "baseVertices": 12,
+      "basePolygons": 6,
+      "collections": [
+        "3: Joints",
+        "Calcaneocuboid joint",
+        "Right foot",
+        "Right lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Plantar calcaneonavicular ligament.l",
+      "type": "MESH",
+      "dataBlock": "Plantar calcaneonavicular ligament",
+      "baseVertices": 4,
+      "basePolygons": 1,
+      "collections": [
+        "3: Joints",
+        "Left foot",
+        "Left lower limb",
+        "Talocalcaneonavicular joint"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Plantar calcaneonavicular ligament.r",
+      "type": "MESH",
+      "dataBlock": "Plantar calcaneonavicular ligament",
+      "baseVertices": 4,
+      "basePolygons": 1,
+      "collections": [
+        "3: Joints",
+        "Right foot",
+        "Right lower limb",
+        "Talocalcaneonavicular joint"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Superior extensor retinaculum of ankle.l",
+      "type": "MESH",
+      "dataBlock": "Superior extensor retinaculum of ankle",
+      "baseVertices": 66,
+      "basePolygons": 50,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Superior extensor retinaculum of ankle.r",
+      "type": "MESH",
+      "dataBlock": "Superior extensor retinaculum of ankle",
+      "baseVertices": 66,
+      "basePolygons": 50,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Superior fibular retinaculum.l",
+      "type": "MESH",
+      "dataBlock": "Superior fibular retinaculum",
+      "baseVertices": 164,
+      "basePolygons": 138,
+      "collections": [
+        "4: Muscular system",
+        "Left lower limb",
+        "Muscles",
+        "Muscles of lower limb"
+      ],
+      "selected": true
+    },
+    {
+      "name": "Superior fibular retinaculum.r",
+      "type": "MESH",
+      "dataBlock": "Superior fibular retinaculum",
+      "baseVertices": 164,
+      "basePolygons": 138,
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Muscles of lower limb",
+        "Right lower limb"
+      ],
+      "selected": true
+    }
+  ],
+  "coordinates": "Source X left/Y posterior/Z superior; shared display (x,z,-y), meters; no fitting or source saving",
+  "scope": "Twenty exact bilateral support objects; source companions distinguish markers/text and anatomy; no completeness claim",
+  "measuredInspectionSeconds": 2.501284833997488
+}

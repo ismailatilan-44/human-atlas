@@ -5,11 +5,11 @@
   "inputSnapshots": [
     {
       "path": "public/models/lower-limb-nerve-reference/atlas.json",
-      "sha256": "b730ab72e709624fa08d09653209dc822ded549c885573a17026f33bc456d14b"
+      "sha256": "1b6f34756b214406c381eb98bf99b850afe60a458e7b39324329dd3c5d887068"
     },
     {
       "path": "scripts/build-foot-reference-relationships.py",
-      "sha256": "fb8d51baf963fac5a2f9e7ea132d7e485aeb760490265b135e39652c12755f7a"
+      "sha256": "ce1972a8f817080ec16d929a99c31c15f6b9e99e8db3a9fee11c19b0eb10cfee"
     }
   ],
   "summary": {
@@ -30,7 +30,7 @@
       "id": "attaches_to",
       "symmetric": false,
       "transitive": false,
-      "meaning": "Ligament attaches to named bone/region; bone geometry is not an attachment footprint"
+      "meaning": "Sourced structure attaches to named bone/region; bone geometry is not an attachment footprint"
     }
   ],
   "sources": [
