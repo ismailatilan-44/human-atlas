@@ -833,5 +833,49 @@
     "verifiedOn": "2026-10-02",
     "verificationMethod": "Primary webpage or indexed primary abstract read via web",
     "redistribution": "Original factual paraphrases and anatomical names only; no table prose or images copied"
+  },
+  {
+    "id": "bp3d43-live",
+    "title": "BodyParts3D official live source",
+    "url": "https://lifesciencedb.jp/bp3d/",
+    "creator": "Database Center for Life Science (DBCLS)",
+    "version": "Data4.3 / Objects4.3 / FMA3.0",
+    "license": "CC BY-SA 2.1 Japan",
+    "licenseUrl": "https://lifesciencedb.jp/bp3d/info_en/license/index.html",
+    "sourceLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+    "sourceReferenceBody": "Source body; demographic/specimen detail not established in this bounded intake",
+    "rightsStatus": {
+      "privateInspection": "permitted under captured public source license",
+      "adaptation": "attribution/share-alike obligations retained",
+      "distribution": "not activated; require source attribution/license retained and separate technical/expert acceptance"
+    },
+    "coordinateUnits": "OBJ source header states mm; no transform applied",
+    "access": "Public normal selected-download endpoint;no authentication or access restriction bypass",
+    "retrievedOn": "2026-10-02"
+  },
+  {
+    "id": "bp3d43-left-cord-objects",
+    "title": "Official BP3D4.3 returned left cord objects",
+    "url": "https://lifesciencedb.jp/bp3d/",
+    "version": "Data4.3 / Objects4.3 / FMA3.0",
+    "use": "Two original OBJ headers and official is_a file-membership rows only; no branch relation inferred from membership",
+    "paths": [
+      "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4274_BP29122_FMA45239_Lateral cord of left brachial nerve plexus.obj",
+      "data/model-candidates/upper-limb-bp3d43-intake-v1/objs/FJ4275_BP29196_FMA45241_Medial cord of left brachial nerve plexus.obj"
+    ]
+  },
+  {
+    "id": "umich-bluelink-brachial-plexus",
+    "title": "University of Michigan BlueLink — Brachial Plexus LabLink",
+    "url": "https://sites.google.com/a/umich.edu/bluelink/curricula/m1-foundational-anatomy/sequence-7-neuroanatomy/brachial-plexus-subclavian-vessels-scalene-muscles/lablink",
+    "retrievedOn": "2026-10-02",
+    "use": "Selected anatomical component/branch/contribution facts with step locators only; no page prose, donor images or multimedia redistributed"
+  },
+  {
+    "id": "atlas-left-cords-registration",
+    "title": "Two left BP3D4.3 cords: local source registration",
+    "url": "https://lifesciencedb.jp/bp3d/",
+    "path": "public/models/extensions/left-cords-bp3d43.json",
+    "sha256": "0ee1bb2cc29c491724a1d88f65dd2ed62483f4450460ffa4edc5b0d4c155b846"
   }
 ]

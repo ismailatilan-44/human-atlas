@@ -42,6 +42,7 @@ type ExplorerRelation = {
   id: string; subject: string; predicate: string; object: string;
   evidence: { sourceId: string; locator?: string }[];
   viaDivision?: string | null; attachmentNoteTr?: string | null;
+  qualifiers?: Record<string, unknown>;
 };
 export function relationshipsFor(id: string, concepts?: Map<string, Concept>, dataset: DatasetId = "male-body") {
   const relations: ExplorerRelation[] = dataset === "upper-limb-nerve-reference" ? upperLimb.relations : dataset === "lower-limb-nerve-reference"
@@ -69,4 +70,22 @@ export function relationshipsFor(id: string, concepts?: Map<string, Concept>, da
         Number(a.predicate === "part_of") - Number(b.predicate === "part_of") ||
         a.name.localeCompare(b.name),
     );
+}
+
+/** Preserve source constraints for both students and programmatic consumers. */
+export function representationFor(id: string, dataset: DatasetId = "male-body") {
+  if (dataset !== "male-body") return undefined;
+  return knowledgeEntities.get(id);
+}
+export function relationshipScopeNotes(qualifiers?: Record<string, unknown>): string[] {
+  const names: Record<string, string> = {
+    semantics: "İlişkinin anlamı", geometry: "Geometri sınırı", scope: "Kapsam",
+    variation: "Varyasyon", coverage: "Kapsam sınırı",
+    incompleteEndpointSet: "Uçların tamamı gösterilmiyor",
+  };
+  return Object.entries(names).flatMap(([key, label]) => {
+    const value = qualifiers?.[key];
+    if (value === undefined || value === null || value === false) return [];
+    return [value === true ? label : `${label}: ${typeof value === "string" ? value : JSON.stringify(value)}`];
+  });
 }
