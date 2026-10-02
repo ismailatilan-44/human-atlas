@@ -10,6 +10,8 @@
 
 **Ölçüm ve tahmin:**127 referans entegrasyon penceresi15:48:59→19:23:39 TRT,3h34m40s duvar süresi; aktif emek/bekleme dökümü bilinmiyor. Önkol aday üretim/doğrulaması8m09s; ön okuma bilinmiyor, paralel süreler toplanmaz. Önceki düşük güvenli bütün model planı30–40 aktif saat/hafta varsayımıyla hedef açılımı2–4 hafta, öncelikli paketler2–4 ay, bütün bölgelerde güçlü D1/seçilmiş D2 deneyimi6–12 ay. Kesin takvim veya sürekli arka plan çalışma taahhüdü değildir; aralıklar toplanmaz, uzman beklemesi hariçtir. Yaygın D3 için güvenilir tarih yok. Çalışan alt ajan kalmadı; root entegrasyon/kapanış sahibidir. Her anlamlı teslimde mevcut rapor güncellenir, periyodik otomasyon kurulmadı.
 
+Önkol envanteri/aday kanıtı ve eylem raporu kaynak teslimi `e2b92772ebe241dadc8cc42748134df7862d9ce1`, fork main/geliştirme dalına gönderilip uzak SHA ile doğrulandı. Canlı ürün e005d53 olarak kalır; bu sonraki kaynak teslimi runtime/geometri değiştirmez.
+
 ## Önceki durum fotoğrafları — 2 Ekim, 19:23 canlı kabulünden önce
 
 Aşağıdaki kayıtlar önceki yerel/ara/yayın fotoğraflarını korur; güncel durum yukarıdadır.
