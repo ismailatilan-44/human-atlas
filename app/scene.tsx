@@ -343,7 +343,7 @@ export default function AnatomyScene({
         if (!disposed) onError(e instanceof Error ? e.message : "Could not load the anatomy.");
       }
     })();
-    const fit = (view: string, extent = 0) => {
+    const fit = (view: string, extent = 0, orbitDirection?: T.Vector3) => {
       const aspect = camera.aspect,
         mobile = el.clientWidth < 768,
         normalDistance = mobile
@@ -375,7 +375,7 @@ export default function AnatomyScene({
         extent,
       );
       if (extent > 0.8) view = "front";
-      const direction =
+      const direction = orbitDirection ?? (
         view === "front"
           ? new T.Vector3(0, 0.02, 1)
           : view === "back"
@@ -385,7 +385,7 @@ export default function AnatomyScene({
               : view === "right" ? new T.Vector3(-1, 0.02, 0)
               : view === "superior" ? new T.Vector3(0, 1, 0.001)
               : view === "inferior" ? new T.Vector3(0, -1, 0.001)
-              : new T.Vector3(0.35, 0.06, 1).normalize();
+              : new T.Vector3(0.35, 0.06, 1).normalize());
       controls.target.set(
         extent > 0.1 && el.clientWidth > 767 ? -packingWidth * 0.12 : 0,
         extent > 0.1 || mobile ? 0.85 : 0.68,
@@ -722,7 +722,8 @@ export default function AnatomyScene({
           }
         } else if (!inspecting && lastIsolate && !keepRestoredFraming) {
           camera.clearViewOffset();
-          fit(s.view, amount);
+          // Leaving inspection changes framing, not the learner's viewing angle.
+          fit(s.view, amount, !requestedView && !moving && amount < 0.05 ? orbitDirection : undefined);
         }
         lastIsolate = isolateKey;
       }
