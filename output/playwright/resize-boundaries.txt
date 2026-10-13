@@ -1,0 +1,48 @@
+### Result
+{"passed":true,"checks":[{"name":"unfocused scene","width":844,"height":390,"poseDelta":0.0007012227802361714,"stateMatches":true},{"name":"unfocused scene","width":390,"height":844,"poseDelta":0.0007012301637076036,"stateMatches":true},{"name":"unfocused scene","width":1200,"height":942,"poseDelta":0.0007012301784216258,"stateMatches":true},{"name":"settled exploded grid","width":844,"height":390,"poseDelta":1.625442318935485e-9,"stateMatches":true},{"name":"settled exploded grid","width":390,"height":844,"poseDelta":1.6263734840752033e-9,"stateMatches":true},{"name":"settled exploded grid","width":1200,"height":942,"poseDelta":1.6263768191186006e-9,"stateMatches":true},{"name":"restored isolated scene","width":844,"height":390,"poseDelta":2.5742298220230904e-8,"stateMatches":true},{"name":"restored isolated scene","width":390,"height":844,"poseDelta":2.592113137846748e-8,"stateMatches":true},{"name":"restored isolated scene","width":1200,"height":942,"poseDelta":2.5921457475632688e-8,"stateMatches":true}],"beforeFocus":{"reference":"female-pelvis","loadedReference":"female-pelvis","sourceVersion":"atlas-content-b877954-2026-10-02:4809543","conceptId":"hra-female:VH_F_sacrum","camera":{"position":[-0.0058380510372442185,0.20358651499751548,0.44449565904588173],"target":[-0.008112957701086998,0.09331985474273097,-0.1299130371917272],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["reproductive","skeletal"],"hidden":[],"selected":["HRA-FP-VH_F_sacrum"],"isolate":true,"ghost":false},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":4,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"focused":{"reference":"female-pelvis","loadedReference":"female-pelvis","sourceVersion":"atlas-content-b877954-2026-10-02:4809543","conceptId":"hra-female:VH_F_sacrum","camera":{"position":[-0.006001465405122219,0.19570733127526152,0.40313954338712676],"target":[-0.008112957701086998,0.0933615043759346,-0.13000740110874173],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["reproductive","skeletal"],"hidden":[],"selected":["HRA-FP-VH_F_sacrum"],"isolate":true,"ghost":false},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":5,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"undo":{"reference":"female-pelvis","loadedReference":"female-pelvis","sourceVersion":"atlas-content-b877954-2026-10-02:4809543","conceptId":"hra-female:VH_F_sacrum","camera":{"position":[-0.0058380510372442185,0.20358651499751548,0.44449565904588173],"target":[-0.008112957701086998,0.09331985474273097,-0.1299130371917272],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["reproductive","skeletal"],"hidden":[],"selected":["HRA-FP-VH_F_sacrum"],"isolate":true,"ghost":false},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":4,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"back":{"reference":"female-pelvis","loadedReference":"female-pelvis","sourceVersion":"atlas-content-b877954-2026-10-02:4809543","conceptId":"hra-female:VH_F_sacrum","camera":{"position":[-0.008112957701086932,0.09336150437593463,-0.6631824324421954],"target":[-0.008112957701086998,0.0933615043759346,-0.13000740110874173],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["reproductive","skeletal"],"hidden":[],"selected":["HRA-FP-VH_F_sacrum"],"isolate":true,"ghost":false},"language":"tr","viewMode":"back","progress":100,"error":"","explorerHistory":4,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}}}
+### Ran Playwright code
+```js
+await (async page => {
+  if(new URL(page.url()).searchParams.get('devqa')!=='1') throw new Error('Fixture required');
+  await page.setViewportSize({width:1200,height:942}); await page.reload();
+  const button=name=>page.getByRole('button',{name,exact:true}).click();
+  const snap=async()=>{await page.waitForTimeout(450);return JSON.parse(await page.getByTestId('qa-snapshot').textContent());};
+  const delta=(a,b)=>Math.max(...a.map((n,i)=>Math.abs(n-b[i])));
+  const distance=c=>Math.hypot(...c.position.map((n,i)=>n-c.target[i]));
+  const checks=[];
+  const resizeCheck=async name=>{
+    const before=await snap();
+    for(const [width,height] of [[844,390],[390,844],[1200,942]]){
+      await page.setViewportSize({width,height});await page.waitForTimeout(700);const after=await snap();
+      const poseDelta=Math.max(delta(before.camera.position,after.camera.position),delta(before.camera.target,after.camera.target))/distance(before.camera);
+      const stateMatches=before.conceptId===after.conceptId&&JSON.stringify(before.visibility)===JSON.stringify(after.visibility);
+      if(poseDelta>1e-3||!stateMatches)throw new Error(JSON.stringify({name,width,before,after,poseDelta,stateMatches}));
+      checks.push({name,width,height,poseDelta,stateMatches});
+    }
+  };
+  await page.getByRole('combobox',{name:'Anatomi referansı',exact:true}).selectOption('female-pelvis');
+  await page.getByRole('button',{name:'Kayıtlı sahneler',exact:true}).click();await button('Kayıtlı sahneleri kapat');
+  await button('DEV ONLY · QA sandbox −');
+  await page.mouse.move(535,380);await page.mouse.down();await page.mouse.move(595,410,{steps:12});await page.mouse.up();await page.mouse.wheel(0,-100);await page.waitForTimeout(2600);
+  await button('DEV ONLY · QA sandbox +');await resizeCheck('unfocused scene');
+  await page.getByRole('slider',{name:'Explode anatomy',exact:true}).press('End');await page.waitForTimeout(2200);
+  await button('DEV ONLY · QA sandbox −');await page.mouse.move(520,390);await page.mouse.down();await page.mouse.move(540,405,{steps:6});await page.mouse.up();await page.mouse.wheel(0,-80);await page.waitForTimeout(2600);await button('DEV ONLY · QA sandbox +');
+  await resizeCheck('settled exploded grid');
+  await button('Görünümü ve katmanları sıfırla');await page.waitForTimeout(1800);
+  await button('Anatomi ara');await page.getByRole('option',{name:'Sakrum (sağrı kemiği) 1 parça',exact:true}).click();await button('Yapıyı yalnız göster');
+  await button('DEV ONLY · QA sandbox −');await page.mouse.move(520,390);await page.mouse.down();await page.mouse.move(570,410,{steps:8});await page.mouse.up();await page.mouse.wheel(0,-120);await page.waitForTimeout(2600);await button('DEV ONLY · QA sandbox +');
+  await button('Sahneyi kaydet');
+  const sceneName='Resize fixture';const old=page.getByRole('button',{name:`${sceneName} kaydını sil`,exact:true});while(await old.count())await old.last().click();
+  await page.getByRole('textbox',{name:'Sahne adı',exact:true}).fill(sceneName);await button('Bu sahneyi kaydet');await button(`Devam et · ${sceneName}`);await page.waitForTimeout(450);
+  await resizeCheck('restored isolated scene');
+  const beforeFocus=await snap();await button('Odaklan');const focused=await snap();
+  if(Math.abs(distance(beforeFocus.camera)-distance(focused.camera))<1e-4)throw new Error('Focus did not release resize preservation');
+  await button('Önceki görünüme dön');const undo=await snap();
+  if(delta(beforeFocus.camera.position,undo.camera.position)>1e-5 || delta(beforeFocus.camera.target,undo.camera.target)>1e-5)throw new Error(JSON.stringify({name:'Focus undo failed',beforeFocus,undo}));
+  await page.getByRole('button',{name:'back view',exact:true}).click();const back=await snap();
+  if(Math.abs((back.camera.position[2]-back.camera.target[2])/distance(back.camera)+1)>1e-5)throw new Error('Named view blocked');
+  return {passed:true,checks,beforeFocus,focused,undo,back};
+})(page);
+```
+### Events
+- New console entries: .playwright-cli/console-2026-10-13T05-05-30-948Z.log#L2-L5

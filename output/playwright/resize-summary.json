@@ -1,0 +1,12 @@
+{
+  "source": "2f462a9",
+  "passed": true,
+  "references": 5,
+  "scenes": 10,
+  "resizeTransitions": 80,
+  "boundaryResizeTransitions": 9,
+  "maxDirectionDelta": 5.91008011280314e-09,
+  "maxZoomRelativeDelta": 5.773159728050814e-15,
+  "maxTargetRelativeDelta": 1.1670771166989332e-09,
+  "maxBoundaryRelativePoseDelta": 0.0007012301784216258
+}
