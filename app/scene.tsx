@@ -49,6 +49,8 @@ export default function AnatomyScene({
       amount = 0;
     let lastState: SceneState | null = null,
       lastRestore: CameraPose | undefined;
+    let restoredViewport = "";
+    let restoredFramingIntent = "";
     const abort = new AbortController();
     let renderer: T.WebGLRenderer;
     try {
@@ -614,6 +616,8 @@ export default function AnatomyScene({
       if (s.concealLabels) hover.hidden = true;
       const inspecting = s.isolate || s.focused || !!s.skull;
       const inspectionParts = s.skull && !s.isolate && !s.focused ? skullParts : s.selected;
+      const framingIntent = JSON.stringify([s.selected, s.hidden, s.isolate, !!s.focused,
+        !!s.inspectorOpen, s.anchor?.conceptId, s.skull, s.refit ?? 0]);
       const inspectorRect = s.inspectorOpen
         ? document.querySelector(".detail-sheet")?.getBoundingClientRect()
         : undefined;
@@ -640,7 +644,13 @@ export default function AnatomyScene({
           Math.round(viewControlsBottom)
         : "";
       if (isolateKey !== lastIsolate || (inspecting && moving)) {
-        if (inspecting) {
+        // A restored pose is authoritative while the returning inspector settles.
+        // Do not let its late layout measurement replace saved zoom/target.
+        // Explicit view actions and viewport changes still permit a new fit.
+        const keepRestoredFraming = !!s.restoreCamera && s.restoreCamera === lastRestore &&
+          restoredViewport === `${el.clientWidth}:${el.clientHeight}` && framingIntent === restoredFramingIntent &&
+          !requestedView && !moving;
+        if (inspecting && !keepRestoredFraming) {
           const box = new T.Box3();
           atlas.parts.forEach((p, i) => {
             if (inspectionParts.includes(p.id))
@@ -710,7 +720,7 @@ export default function AnatomyScene({
             controls.update();
             dirty = true;
           }
-        } else if (lastIsolate) {
+        } else if (!inspecting && lastIsolate && !keepRestoredFraming) {
           camera.clearViewOffset();
           fit(s.view, amount);
         }
@@ -731,6 +741,8 @@ export default function AnatomyScene({
         controls.target.fromArray(pose.target);
         controls.update();
         lastRestore = pose;
+        restoredViewport = `${el.clientWidth}:${el.clientHeight}`;
+        restoredFramingIntent = framingIntent;
         dirty = true;
       }
       controls.enableRotate = amount < 0.8;
