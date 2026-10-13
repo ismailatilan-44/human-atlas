@@ -1,0 +1,6 @@
+### Result
+"production study entry and return PASS"
+### Ran Playwright code
+```js
+await (async (page) => { await page.getByRole("button",{name:"Kafatası başlangıç düzeni",exact:true}).click(); await page.getByRole("button",{name:"Çalışma",exact:true}).click(); await page.getByRole("heading",{name:"İncele · 1/22",exact:true}).waitFor(); await page.getByRole("button",{name:"Kaydet ve Geri",exact:true}).click(); await page.getByRole("heading",{name:"Kafatası kemikleri",exact:true}).waitFor(); return "production study entry and return PASS"; })(page);
+```

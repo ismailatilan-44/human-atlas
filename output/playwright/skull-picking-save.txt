@@ -1,0 +1,6 @@
+### Result
+"four views, displaced picking, saved separated scene PASS"
+### Ran Playwright code
+```js
+await (async (page) => { await page.getByRole("button",{name:"DEV ONLY · QA sandbox −",exact:true}).click(); for(const view of ["side","right","superior","inferior"]){ await page.getByRole("combobox",{name:"Kafatası bakışı",exact:true}).selectOption(view); await page.screenshot({path:"output/playwright/skull-view-"+view+".png"}); } await page.getByRole("combobox",{name:"Kafatası bakışı",exact:true}).selectOption("front"); await page.getByRole("combobox",{name:"Kafatası kemiği",exact:true}).selectOption("FMA53646"); await page.getByRole("button",{name:"Seçili kemiği ayır",exact:true}).click(); await page.getByRole("combobox",{name:"Kafatası kemiği",exact:true}).selectOption("FMA53645"); await page.mouse.click(723,465); if(await page.getByRole("combobox",{name:"Kafatası kemiği",exact:true}).inputValue()!=="FMA53646") throw new Error("displaced picking failed"); await page.getByRole("button",{name:"Sahneyi kaydet",exact:true}).click(); await page.getByRole("textbox",{name:"Sahne adı",exact:true}).fill("Kafatasi ayri"); await page.getByRole("button",{name:"Bu sahneyi kaydet",exact:true}).click(); await page.getByRole("button",{name:"Kayıtlı sahneleri kapat",exact:true}).click(); return "four views, displaced picking, saved separated scene PASS"; })(page);
+```
