@@ -1,0 +1,230 @@
+
+> anatomy-studio@0.1.0 check:ci
+> node scripts/check-ci.mjs
+
+
+TypeScript: npm run check
+
+> anatomy-studio@0.1.0 check
+> tsc --noEmit
+
+
+All repository unit tests: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node --test scripts/anatomy-knowledge.test.mjs scripts/dev-qa.test.mjs scripts/saved-scenes.test.mjs scripts/skull-study.test.mjs scripts/study-history.test.mjs scripts/study-packs.test.mjs scripts/study-session.test.mjs
+TAP version 13
+# Subtest: the source parent/child columns are imported in child-to-parent direction
+ok 1 - the source parent/child columns are imported in child-to-parent direction
+  ---
+  duration_ms: 56.783292
+  type: 'test'
+  ...
+# Subtest: registered nerve geometry merges with the existing biceps relationships
+ok 2 - registered nerve geometry merges with the existing biceps relationships
+  ---
+  duration_ms: 27.935291
+  type: 'test'
+  ...
+# Subtest: each registered median nerve innervates the four sourced muscles on its own side
+ok 3 - each registered median nerve innervates the four sourced muscles on its own side
+  ---
+  duration_ms: 32.212916
+  type: 'test'
+  ...
+# Subtest: broken evidence, wrong-side links and missing endpoints are rejected
+ok 4 - broken evidence, wrong-side links and missing endpoints are rejected
+  ---
+  duration_ms: 137.449125
+  type: 'test'
+  ...
+# Subtest: cycles in part-of data cannot silently enter the graph
+ok 5 - cycles in part-of data cannot silently enter the graph
+  ---
+  duration_ms: 24.949375
+  type: 'test'
+  ...
+# Subtest: fixture storage isolates reads, writes and backups; production ignores activation flags
+ok 6 - fixture storage isolates reads, writes and backups; production ignores activation flags
+  ---
+  duration_ms: 40.58975
+  type: 'test'
+  ...
+# Subtest: scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+ok 7 - scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+  ---
+  duration_ms: 1.813167
+  type: 'test'
+  ...
+# Subtest: content and identity changes never silently restore a stale scene
+ok 8 - content and identity changes never silently restore a stale scene
+  ---
+  duration_ms: 0.27275
+  type: 'test'
+  ...
+# Subtest: malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+ok 9 - malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+  ---
+  duration_ms: 0.106584
+  type: 'test'
+  ...
+# Subtest: corrupt data can recover previous good backup and unreadable original is retained on repair
+ok 10 - corrupt data can recover previous good backup and unreadable original is retained on repair
+  ---
+  duration_ms: 0.174125
+  type: 'test'
+  ...
+# Subtest: quota or denied storage reports failure while last valid primary survives
+ok 11 - quota or denied storage reports failure while last valid primary survives
+  ---
+  duration_ms: 0.10175
+  type: 'test'
+  ...
+# Subtest: storage bounds reject missing versions, duplicate slots and overlarge arrays
+ok 12 - storage bounds reject missing versions, duplicate slots and overlarge arrays
+  ---
+  duration_ms: 0.15225
+  type: 'test'
+  ...
+# Subtest: whole skull: exact 22 source bindings, bilateral labels and bounded answer evidence
+ok 13 - whole skull: exact 22 source bindings, bilateral labels and bounded answer evidence
+  ---
+  duration_ms: 7.724792
+  type: 'test'
+  ...
+# Subtest: skull separation is source-preserving, stable across selection and reversible; saved state rejects foreign identities
+ok 14 - skull separation is source-preserving, stable across selection and reversible; saved state rejects foreign identities
+  ---
+  duration_ms: 141.170583
+  type: 'test'
+  ...
+# Subtest: inferior concha prompts retain their separate source row rather than nasal-bone substring matches
+ok 15 - inferior concha prompts retain their separate source row rather than nasal-bone substring matches
+  ---
+  duration_ms: 0.171959
+  type: 'test'
+  ...
+# Subtest: scheduler correct intervals, early practice, mastery, cap and UTC across DST
+ok 16 - scheduler correct intervals, early practice, mastery, cap and UTC across DST
+  ---
+  duration_ms: 0.5885
+  type: 'test'
+  ...
+# Subtest: wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+ok 17 - wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+  ---
+  duration_ms: 0.373792
+  type: 'test'
+  ...
+# Subtest: hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+ok 18 - hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+  ---
+  duration_ms: 0.166209
+  type: 'test'
+  ...
+# Subtest: storage resumes session and rejects absent versions, stale concepts and invalid state
+ok 19 - storage resumes session and rejects absent versions, stale concepts and invalid state
+  ---
+  duration_ms: 0.446292
+  type: 'test'
+  ...
+# Subtest: bounded audit log continues accepting distinct events beyond 500 reviews
+ok 20 - bounded audit log continues accepting distinct events beyond 500 reviews
+  ---
+  duration_ms: 2.484541
+  type: 'test'
+  ...
+# Subtest: full content identity invalidates changed source evidence and undo survives storage reload
+ok 21 - full content identity invalidates changed source evidence and undo survives storage reload
+  ---
+  duration_ms: 0.296958
+  type: 'test'
+  ...
+# Subtest: left-ankle-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+ok 22 - left-ankle-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+  ---
+  duration_ms: 11.514458
+  type: 'test'
+  ...
+# Subtest: right-upper-limb-bones-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+ok 23 - right-upper-limb-bones-v1: versioned prompts bind distinct source surfaces, side, evidence and exact terms
+  ---
+  duration_ms: 5.012041
+  type: 'test'
+  ...
+# Subtest: new ankle module preserves original recognition scope with separate left identities
+ok 24 - new ankle module preserves original recognition scope with separate left identities
+  ---
+  duration_ms: 0.818708
+  type: 'test'
+  ...
+# Subtest: every scored item has one same-side source surface and exact verified label evidence
+ok 25 - every scored item has one same-side source surface and exact verified label evidence
+  ---
+  duration_ms: 5.589333
+  type: 'test'
+  ...
+# Subtest: wrong, skipped and repeated submissions preserve first attempt through repeated retry rounds
+ok 26 - wrong, skipped and repeated submissions preserve first attempt through repeated retry rounds
+  ---
+  duration_ms: 0.235125
+  type: 'test'
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 430.093041
+
+Current knowledge projection: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/build-anatomy-knowledge.mjs --check
+{"entities":3516,"relations":1539,"assetBindings":170,"output":"data/anatomy/knowledge.json"}
+
+Current explorer projection: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/build-explorer-catalog.mjs --check
+{"entities":84,"relations":1539,"bytes":720653,"path":"/Users/ismailkerematilan/Desktop/atlas/data/anatomy/explorer.json"}
+
+Current source and coverage inventory: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/build-model-inventory.mjs --check
+{"mode":"check","individualTargetRows":1010,"individualTargetInventories":3,"expertAcceptedTargets":0,"catalogRows":3838,"assetRows":2589,"pilotTargetRows":65,"regions":13,"familyRequirements":52,"targetMatrixCells":208,"classifiedCatalogRows":764,"unassignedCatalogRows":3074,"surfaceAnchorConcepts":6,"unresolvedAnchorConcepts":2,"relationRecords":1677}
+
+Atlas binary and identity validation: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/validate-atlas.mjs
+Verified 2234 individually indexed meshes, 3432 complete concept mappings, 2,288,268 triangles, and every binary buffer.
+
+Interaction and reference contracts: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/validate-interactions.mjs
+atlas.json with 2292 registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.
+Female reference loads independently and exposes only its own structures.
+Inner-ear reference exposes only its own six structures.
+Lower-limb reference resolves its own branch geometry without male graph leakage.
+Upper-limb reference search and cited parent routes stay in its own127 structures.
+Tap, drag, multitouch, cancellation, and empty-view checks passed.
+
+Production build: npm run build
+
+> anatomy-studio@0.1.0 prebuild
+> node scripts/build-explorer-catalog.mjs --check
+
+{"entities":84,"relations":1539,"bytes":720653,"path":"/Users/ismailkerematilan/Desktop/atlas/data/anatomy/explorer.json"}
+
+> anatomy-studio@0.1.0 build
+> vite build
+
+vite v8.0.13 building client environment for production...
+[2K
+transforming...✓ 2506 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.62 kB │ gzip:   0.39 kB
+dist/assets/index-CG46ic_r.css    207.43 kB │ gzip:  33.33 kB
+dist/assets/index-CZbZ1S7C.js   2,451.05 kB │ gzip: 401.44 kB
+
+✓ built in 1.44s
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+Production QA exclusion: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/check-dev-qa-production.mjs
+Production QA exclusion: no panel, controls, sandbox namespace or activation flag in dist JS/CSS/HTML/maps.
+
+Production transfer budget: /Users/ismailkerematilan/.nvm/versions/node/v22.23.2/bin/node scripts/check-performance-budget.mjs
+Production JavaScript gzip: 397540 bytes / 450000 byte budget (1 files).

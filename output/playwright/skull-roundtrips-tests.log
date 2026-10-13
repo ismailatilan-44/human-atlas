@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+ok 1 - scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+  ---
+  duration_ms: 1.892583
+  type: 'test'
+  ...
+# Subtest: content and identity changes never silently restore a stale scene
+ok 2 - content and identity changes never silently restore a stale scene
+  ---
+  duration_ms: 0.253375
+  type: 'test'
+  ...
+# Subtest: malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+ok 3 - malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+  ---
+  duration_ms: 0.358416
+  type: 'test'
+  ...
+# Subtest: corrupt data can recover previous good backup and unreadable original is retained on repair
+ok 4 - corrupt data can recover previous good backup and unreadable original is retained on repair
+  ---
+  duration_ms: 0.216042
+  type: 'test'
+  ...
+# Subtest: quota or denied storage reports failure while last valid primary survives
+ok 5 - quota or denied storage reports failure while last valid primary survives
+  ---
+  duration_ms: 0.10975
+  type: 'test'
+  ...
+# Subtest: storage bounds reject missing versions, duplicate slots and overlarge arrays
+ok 6 - storage bounds reject missing versions, duplicate slots and overlarge arrays
+  ---
+  duration_ms: 0.157167
+  type: 'test'
+  ...
+# Subtest: scheduler correct intervals, early practice, mastery, cap and UTC across DST
+ok 7 - scheduler correct intervals, early practice, mastery, cap and UTC across DST
+  ---
+  duration_ms: 0.539417
+  type: 'test'
+  ...
+# Subtest: wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+ok 8 - wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+  ---
+  duration_ms: 0.583875
+  type: 'test'
+  ...
+# Subtest: hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+ok 9 - hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+  ---
+  duration_ms: 0.170792
+  type: 'test'
+  ...
+# Subtest: storage resumes session and rejects absent versions, stale concepts and invalid state
+ok 10 - storage resumes session and rejects absent versions, stale concepts and invalid state
+  ---
+  duration_ms: 0.443584
+  type: 'test'
+  ...
+# Subtest: bounded audit log continues accepting distinct events beyond 500 reviews
+ok 11 - bounded audit log continues accepting distinct events beyond 500 reviews
+  ---
+  duration_ms: 2.545292
+  type: 'test'
+  ...
+# Subtest: full content identity invalidates changed source evidence and undo survives storage reload
+ok 12 - full content identity invalidates changed source evidence and undo survives storage reload
+  ---
+  duration_ms: 0.316209
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 261.624
