@@ -1,0 +1,11 @@
+### Result
+{"before":{"position":[-0.1399293707684463,1.8477263562066206,0.8229346158639694],"target":[-0.0006660000000000069,1.6070612,-0.01358400000000001],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"after":{"position":[0.11797054590218876,1.7289466168971777,0.575926596132037],"target":[-0.000655199999999998,1.6535261999999997,0.04201199999999998],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"isolate":true}
+### Ran Playwright code
+```js
+await (async (page) => { await page.reload(); await page.setViewportSize({width:1200,height:942}); await page.getByRole("button",{name:"Kafatası · 22 kemik",exact:true}).click(); await page.getByRole("button",{name:"Yapıyı yalnız göster",exact:true}).click(); await page.mouse.move(535,410); await page.mouse.down(); await page.mouse.move(645,450,{steps:12}); await page.mouse.up(); await page.getByRole("button",{name:"Snapshot",exact:true}).click(); const before=JSON.parse(await page.getByTestId("qa-snapshot").textContent()); await page.getByRole("combobox",{name:"Kafatası kemiği",exact:true}).selectOption("FMA52734"); await page.getByRole("button",{name:"Snapshot",exact:true}).click(); const after=JSON.parse(await page.getByTestId("qa-snapshot").textContent()); return {before:before.camera,after:after.camera,isolate:after.visibility.isolate}; })(page);
+```
+### Page
+- Page URL: http://localhost:3017/?devqa=1
+- Page Title: Human Atlas
+### Events
+- New console entries: .playwright-cli/console-2026-10-13T03-51-28-598Z.log#L21

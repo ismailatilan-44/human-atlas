@@ -1,0 +1,45 @@
+### Result
+{"before":{"reference":"male-body","loadedReference":"male-body","sourceVersion":"atlas-content-b877954-2026-10-02:af0d031d","conceptId":"atlas:skull-bones","camera":{"position":[-0.31900843594074735,1.9181113849721643,0.747325504767033],"target":[-0.0006660000000000069,1.6070612,-0.01358400000000001],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["skeletal"],"hidden":[],"selected":["FJ3199","FJ3200","FJ3263","FJ3265","FJ3269","FJ3272","FJ3273","FJ3274","FJ3281","FJ3287","FJ3289","FJ3309","FJ3369","FJ3371","FJ3375","FJ3378","FJ3379","FJ3380","FJ3386","FJ3392","FJ3394","FJ3395"],"isolate":true,"ghost":false,"skull":{}},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":2,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"picked":{"reference":"male-body","loadedReference":"male-body","sourceVersion":"atlas-content-b877954-2026-10-02:af0d031d","conceptId":"FMA52734","camera":{"position":[-0.3190086363296557,1.9181114687686915,0.747325386675133],"target":[-0.0006660000000000069,1.6070612,-0.01358400000000001],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["skeletal"],"hidden":[],"selected":["FJ3200"],"isolate":true,"ghost":false,"skull":{}},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":3,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"small":{"reference":"male-body","loadedReference":"male-body","sourceVersion":"atlas-content-b877954-2026-10-02:af0d031d","conceptId":"FMA53646","camera":{"position":[-0.021812489641852062,1.624135047159803,0.1400616750249171],"target":[0.012625270000000001,1.5904862,0.057748],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["skeletal"],"hidden":[],"selected":["FJ3265"],"isolate":true,"ghost":false,"skull":{}},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":4,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"large":{"reference":"male-body","loadedReference":"male-body","sourceVersion":"atlas-content-b877954-2026-10-02:af0d031d","conceptId":"FMA52734","camera":{"position":[-0.2051462559449633,1.853332647301142,0.5307894488717971],"target":[-0.000655199999999998,1.6535261999999997,0.04201199999999998],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["skeletal"],"hidden":[],"selected":["FJ3200"],"isolate":true,"ghost":false,"skull":{}},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":5,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"explicit":{"reference":"male-body","loadedReference":"male-body","sourceVersion":"atlas-content-b877954-2026-10-02:af0d031d","conceptId":"FMA52734","camera":{"position":[-0.0006551759806480408,1.6535262087343097,-0.46607602114700925],"target":[-0.000655199999999998,1.6535261999999997,0.04201199999999998],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["skeletal"],"hidden":[],"selected":["FJ3200"],"isolate":true,"ghost":false,"skull":{}},"language":"tr","viewMode":"back","progress":100,"error":"","explorerHistory":6,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"back":{"reference":"male-body","loadedReference":"male-body","sourceVersion":"atlas-content-b877954-2026-10-02:af0d031d","conceptId":"FMA52734","camera":{"position":[-0.20514626664640703,1.8533326517761626,0.5307894425652713],"target":[-0.000655199999999998,1.6535261999999997,0.04201199999999998],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["skeletal"],"hidden":[],"selected":["FJ3200"],"isolate":true,"ghost":false,"skull":{}},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":5,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":1,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}}}
+### Ran Playwright code
+```js
+await (async (page) => {
+  await page.reload();
+  await page.setViewportSize({width:1200,height:942});
+  await page.getByRole('button',{name:'Kafatası · 22 kemik',exact:true}).click();
+  await page.getByRole('button',{name:'Yapıyı yalnız göster',exact:true}).click();
+  await page.mouse.move(535,410); await page.mouse.down();
+  await page.mouse.move(645,450,{steps:12}); await page.mouse.up();
+  await page.waitForTimeout(2200); // Allow OrbitControls damping to settle before comparing poses.
+
+  const snap = async () => {
+    await page.getByRole('button', { name: 'Snapshot', exact: true }).click();
+    return JSON.parse(await page.getByTestId('qa-snapshot').textContent());
+  };
+  const direction = camera => { const v = camera.position.map((n,i) => n-camera.target[i]); const l=Math.hypot(...v); return v.map(n=>n/l); };
+  const same = (a,b) => Math.max(...a.map((n,i)=>Math.abs(n-b[i]))) < 1e-5;
+  const before = await snap();
+  await page.mouse.click(540,375);
+  const picked = await snap();
+  if(picked.conceptId==='atlas:skull-bones') throw new Error('No geometry picked');
+  if(!same(before.camera.position,picked.camera.position)||!same(before.camera.target,picked.camera.target)) throw new Error('Canvas pick changed camera');
+  await page.screenshot({path:'output/playwright/skull-orbit-pick-after.png'});
+  await page.getByRole('combobox',{name:'Kafatası kemiği',exact:true}).selectOption('FMA53646');
+  const small = await snap();
+  if(!same(direction(before.camera),direction(small.camera))) throw new Error('Small bone refit reset orbit');
+  await page.getByRole('combobox',{name:'Kafatası kemiği',exact:true}).selectOption('FMA52734');
+  const large = await snap();
+  if(!same(direction(before.camera),direction(large.camera))) throw new Error('Large bone refit reset orbit');
+  await page.getByRole('combobox',{name:'Kafatası bakışı',exact:true}).selectOption('back');
+  const explicit = await snap();
+  if(!same(direction(explicit.camera),[0,0,-1])) throw new Error('Explicit view did not change direction');
+  await page.getByRole('button',{name:'Önceki görünüme dön',exact:true}).click();
+  const back = await snap();
+  if(!same(back.camera.position,large.camera.position)||!same(back.camera.target,large.camera.target)) throw new Error('Back failed to restore orbit');
+  return {before,picked,small,large,explicit,back};
+})(page);
+```
+### Page
+- Page URL: http://localhost:3017/?devqa=1
+- Page Title: Human Atlas
+### Events
+- New console entries: .playwright-cli/console-2026-10-13T03-51-28-598Z.log#L23
