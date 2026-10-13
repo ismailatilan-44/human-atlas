@@ -51,6 +51,10 @@ export default function AnatomyScene({
       lastRestore: CameraPose | undefined;
     let restoredViewport = "";
     let restoredFramingIntent = "";
+    let lastFramingIntent = "";
+    let resizedFramingIntent: string | undefined;
+    let viewportInitialized = false;
+    let viewportWidth = 0, viewportHeight = 0;
     const abort = new AbortController();
     let renderer: T.WebGLRenderer;
     try {
@@ -397,16 +401,30 @@ export default function AnatomyScene({
       dirty = true;
     };
     const resize = () => {
+      const w = el.clientWidth, h = el.clientHeight;
+      if (!w || !h) return;
+      if (w === viewportWidth && h === viewportHeight) return;
+      if (viewportInitialized) resizedFramingIntent = lastFramingIntent;
+      viewportWidth = w;
+      viewportHeight = h;
       layoutKey = "";
       lastIsolate = "";
       lastState = null;
       renderer.setPixelRatio(
         Math.min(devicePixelRatio, el.clientWidth < 768 || el.clientHeight < 600 ? 1.5 : 2),
       );
-      camera.aspect = el.clientWidth / el.clientHeight;
+      camera.aspect = w / h;
+      const v = camera.view;
+      if (v?.enabled) {
+        // Keep projection dimensions current until the inspector's new layout is measured.
+        camera.setViewOffset(w, h, v.offsetX * w / v.fullWidth, v.offsetY * h / v.fullHeight,
+          v.width * w / v.fullWidth, v.height * h / v.fullHeight);
+      }
       camera.updateProjectionMatrix();
-      renderer.setSize(el.clientWidth, el.clientHeight);
-      fit(latest.current.view, amount);
+      renderer.setSize(w, h);
+      if (!viewportInitialized) fit(latest.current.view, amount);
+      viewportInitialized = true;
+      dirty = true;
     };
     const observer = new ResizeObserver(resize);
     observer.observe(el);
@@ -497,6 +515,9 @@ export default function AnatomyScene({
     const animate = () => {
       if (disposed) return;
       frame = requestAnimationFrame(animate);
+      // Layout may change before ResizeObserver is delivered in this frame.
+      // Establish resize intent before any automatic framing can run.
+      if (el.clientWidth !== viewportWidth || el.clientHeight !== viewportHeight) resize();
       const dt = Math.min(clock.getDelta(), 0.05),
         s = latest.current;
       // Selection/panel changes may need a new fit, but only an explicit view or
@@ -518,6 +539,11 @@ export default function AnatomyScene({
       const restoring = !!s.restoreCamera && s.restoreCamera !== lastRestore;
       if (restoring) amount = s.explode;
       const moving = Math.abs(amount - s.explode) > 0.0001;
+      const framingIntent = JSON.stringify([s.selected, s.hidden, s.visible, s.ghost, s.explode,
+        s.isolate, !!s.focused, !!s.inspectorOpen, s.anchor?.conceptId, s.skull, s.refit ?? 0]);
+      if (requestedView || moving || framingIntent !== resizedFramingIntent) resizedFramingIntent = undefined;
+      const keepResizePose = resizedFramingIntent !== undefined;
+      lastFramingIntent = framingIntent;
       if (moving) {
         amount = T.MathUtils.damp(amount, s.explode, 8, dt);
         dirty = true;
@@ -545,7 +571,7 @@ export default function AnatomyScene({
             offsets[i] = cell ? new T.Vector3(cell.x, cell.y + 0.85, 0) : centers[i].clone();
           });
           layoutKey = nextLayoutKey;
-          if (amount > 0.05 && !s.isolate) fit(s.view, Math.max(0, (amount - 0.3) / 0.7));
+          if (amount > 0.05 && !s.isolate && !keepResizePose) fit(s.view, Math.max(0, (amount - 0.3) / 0.7));
         }
 
         atlas.parts.forEach((p, i) => {
@@ -616,8 +642,6 @@ export default function AnatomyScene({
       if (s.concealLabels) hover.hidden = true;
       const inspecting = s.isolate || s.focused || !!s.skull;
       const inspectionParts = s.skull && !s.isolate && !s.focused ? skullParts : s.selected;
-      const framingIntent = JSON.stringify([s.selected, s.hidden, s.isolate, !!s.focused,
-        !!s.inspectorOpen, s.anchor?.conceptId, s.skull, s.refit ?? 0]);
       const inspectorRect = s.inspectorOpen
         ? document.querySelector(".detail-sheet")?.getBoundingClientRect()
         : undefined;
@@ -646,10 +670,10 @@ export default function AnatomyScene({
       if (isolateKey !== lastIsolate || (inspecting && moving)) {
         // A restored pose is authoritative while the returning inspector settles.
         // Do not let its late layout measurement replace saved zoom/target.
-        // Explicit view actions and viewport changes still permit a new fit.
+        // Resize updates the screen offset below without replacing the current pose.
         const keepRestoredFraming = !!s.restoreCamera && s.restoreCamera === lastRestore &&
           restoredViewport === `${el.clientWidth}:${el.clientHeight}` && framingIntent === restoredFramingIntent &&
-          !requestedView && !moving;
+          !requestedView && !moving && !keepResizePose;
         if (inspecting && !keepRestoredFraming) {
           const box = new T.Box3();
           atlas.parts.forEach((p, i) => {
@@ -709,14 +733,16 @@ export default function AnatomyScene({
                   : s.view === "superior" ? new T.Vector3(0, 1, 0.001).normalize()
                   : s.view === "inferior" ? new T.Vector3(0, -1, 0.001).normalize()
                   : new T.Vector3(0.35, 0.1, 1).normalize();
-            const distance = inspectionDistance(
-              box, direction, camera.fov, h, availableWidth, availableHeight,
-            );
-            controls.maxDistance = Math.max(40, distance * 2);
-            controls.target.copy(center);
-            camera.position
-              .copy(center)
-              .addScaledVector(direction, distance);
+            if (!keepResizePose) {
+              const distance = inspectionDistance(
+                box, direction, camera.fov, h, availableWidth, availableHeight,
+              );
+              controls.maxDistance = Math.max(40, distance * 2);
+              controls.target.copy(center);
+              camera.position
+                .copy(center)
+                .addScaledVector(direction, distance);
+            }
             controls.update();
             dirty = true;
           }
