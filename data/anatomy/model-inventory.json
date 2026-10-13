@@ -9,7 +9,7 @@
   "inputSnapshots": [
     {
       "path": "app/anatomy.ts",
-      "sha256": "d6840d7f5087305f17779bf60517708b7554a2f4fa26aa99359d205692a5dbba"
+      "sha256": "61bc1d29f201309ce13494cfa6a8c89993646e541ccb4c05e1cfc6831b9e284c"
     },
     {
       "path": "app/asset-url.ts",

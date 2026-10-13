@@ -195,6 +195,8 @@ export interface SceneState {
   view: View;
   rotate: boolean;
   reset: number;
+  /** Transient framing request; unlike reset, retains the current orbit direction. */
+  refit?: number;
   focused?: boolean;
   hidden?: string[];
   ghost?: boolean;

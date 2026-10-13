@@ -623,7 +623,7 @@ export default function AnatomyScene({
       const isolateKey = inspecting
         ? (s.anchor?.conceptId ?? inspectionParts.join(",")) + ":" + (s.skull?.separated ?? "") +
           ":" +
-          s.reset +
+          s.reset + ":" + (s.refit ?? 0) +
           ":" +
           s.view +
           ":" +

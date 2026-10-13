@@ -6,7 +6,7 @@ const js = ts.transpileModule(readFileSync('app/saved-scenes.ts','utf8'), { comp
 const api = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
 const atlas = { datasetId:'male-body', version:'4.0', parts:[{id:'p1',bounds:[[0,0,0],[1,1,1]]}],concepts:[{id:'c1',elements:['p1']}],chunks:[] };
 const concepts = new Map([['c1',atlas.concepts[0]]]);
-const state = { explode:0.25, visible:['skeletal'],selected:['p1'],hidden:[],isolate:true,view:'front',rotate:false,focused:true,ghost:true,concealLabels:true,reset:9 };
+const state = { explode:0.25, visible:['skeletal'],selected:['p1'],hidden:[],isolate:true,view:'front',rotate:false,focused:true,ghost:true,concealLabels:true,reset:9,refit:7 };
 const camera = {position:[1,2,3],target:[0,0,0],viewOffset:{fullWidth:390,fullHeight:844,width:390,height:844,offsetX:0,offsetY:120}};
 const create = () => api.captureScene({atlas,dataset:'male-body',state,camera,chosenId:'c1',details:true,language:'la',name:' Test '},new Date('2026-10-02T10:00:00Z'),'one');
 function storage() { const data=new Map(); return {data,getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v)}; }
@@ -14,7 +14,7 @@ test('scene roundtrip preserves camera, stable IDs, visibility and label languag
  const scene=create(), store=storage();
  assert.equal(api.writeSceneStore(store,[scene]),null);
  const saved=api.loadSceneStore(store).scenes[0];
- assert.deepEqual(saved,scene); assert.equal(saved.name,'Test');assert.equal(saved.state.reset,0);
+ assert.deepEqual(saved,scene); assert.equal(saved.name,'Test');assert.equal(saved.state.reset,0); assert.equal(saved.state.refit,undefined);
  assert.deepEqual(saved.camera,camera); assert.equal(saved.language,'la');assert.equal(saved.state.concealLabels,true);
  assert.equal(api.validateScene(saved,atlas,concepts),null);
  state.visible.push('nervous');assert.deepEqual(saved.state.visible,['skeletal']);state.visible.pop();
@@ -30,7 +30,7 @@ test('content and identity changes never silently restore a stale scene',()=>{
 });
 test('malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected',()=>{
  const scene=create();
- for(const broken of [{...scene,schema:2},{...scene,state:{...scene.state,explode:2}},{...scene,camera:{...camera,position:[0,0,0]}},{...scene,camera:{...camera,position:[NaN,2,3]}},{...scene,camera:{...camera,viewOffset:{...camera.viewOffset,width:0}}},{...scene,state:{...scene.state,visible:['unknown']}},{...scene,state:{...scene.state,selected:['p1','p1']}},{...scene,state:{...scene.state,hidden:undefined}}]) assert.equal(api.isSavedScene(broken),false);
+ for(const broken of [{...scene,schema:2},{...scene,state:{...scene.state,refit:1}},{...scene,state:{...scene.state,explode:2}},{...scene,camera:{...camera,position:[0,0,0]}},{...scene,camera:{...camera,position:[NaN,2,3]}},{...scene,camera:{...camera,viewOffset:{...camera.viewOffset,width:0}}},{...scene,state:{...scene.state,visible:['unknown']}},{...scene,state:{...scene.state,selected:['p1','p1']}},{...scene,state:{...scene.state,hidden:undefined}}]) assert.equal(api.isSavedScene(broken),false);
 });
 test('corrupt data can recover previous good backup and unreadable original is retained on repair',()=>{
  const store=storage(), scene=create();

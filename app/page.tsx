@@ -861,7 +861,7 @@ export default function Home() {
               </select></label>
               <label>Bakış <select aria-label="Kafatası bakışı" value={state.view} onChange={e => skullView(e.target.value as View)}>{skullViews.map(v => <option key={v.id} value={v.id}>{v.label}</option>)}</select></label>
               <div><button disabled={state.selected.length !== 1} onClick={() => skullAction('separate')}>Seçili kemiği ayır</button><button disabled={!state.skull.separated} onClick={() => skullAction('assemble')}>Kemiği yerine döndür</button></div>
-              <button onClick={() => { remember(); setState(s => ({ ...s, isolate: false, focused: false, ghost: false, reset: s.reset + 1, restoreCamera: undefined })); }}>Bütün kafatasını göster</button>
+              <button onClick={() => { remember(); setState(s => ({ ...s, isolate: false, focused: false, ghost: false, refit: (s.refit ?? 0) + 1, restoreCamera: undefined })); }}>Bütün kafatasını göster</button>
               <button onClick={() => skullAction('start')}>Kafatası başlangıç düzeni</button>
               <p>Sağ/sol bireye aittir. Ayırma eğitim düzenidir; doğal hareket değildir. Küçük kemikler için listeden seçip yalnız gösterin.</p>
               <details><summary>Kaynak ve kapsam</summary><p>BodyParts3D 4.0 · mevcut 22 kemik. İnce ayrıntı ve uzman onayı yoktur.</p><a href="https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html" target="_blank" rel="noreferrer">Kemik konumları: TTUHSC</a></details>
@@ -1010,7 +1010,7 @@ export default function Home() {
                     ...s,
                     focused: true,
                     explode: 0,
-                    reset: s.reset + 1,
+                    refit: (s.refit ?? 0) + 1,
                     rotate: false,
                     restoreCamera: undefined,
                   }));
