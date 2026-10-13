@@ -497,6 +497,10 @@ export default function AnatomyScene({
       frame = requestAnimationFrame(animate);
       const dt = Math.min(clock.getDelta(), 0.05),
         s = latest.current;
+      // Selection/panel changes may need a new fit, but only an explicit view or
+      // reset request may replace the direction the learner reached by orbiting.
+      const requestedView = s.view !== lastView || s.reset !== lastReset;
+      const orbitDirection = camera.position.clone().sub(controls.target).normalize();
       const changed =
         lastState?.skull !== s.skull ||
         lastState?.visible !== s.visible ||
@@ -685,7 +689,7 @@ export default function AnatomyScene({
               w,
               h,
             );
-            const direction = s.view === "front"
+            const direction = !requestedView ? orbitDirection : s.view === "front"
               ? new T.Vector3(0, 0, 1)
               : s.view === "back"
                 ? new T.Vector3(0, 0, -1)

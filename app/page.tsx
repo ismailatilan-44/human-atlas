@@ -227,7 +227,7 @@ export default function Home() {
       .sort((a, b) => a.name.length - b.name.length)
       .slice(0, 80);
   }, [atlas, concepts, query, dataset, reference]);
-  const choose = (c: Concept, preserveIsolation = false) => {
+  const choose = (c: Concept, preserveIsolation = false, fromCanvas = false) => {
     const anchor = anchorMap.get(c.id);
     const skullSelection = dataset === 'male-body' && (c.id === SKULL_GROUP || !!skullItem(c.id));
     const retainSkull = !!state.skull && skullSelection;
@@ -241,11 +241,11 @@ export default function Home() {
       anchor: anchor ? { ...anchor, label: label(c) } : undefined,
       ghost: anchor ? true : s.ghost,
       isolate: retainSkull || preserveIsolation ? s.isolate : false,
-      focused: skullSelection ? (retainSkull ? s.focused : false) : c.elements.length > 0 || !!anchor,
+      focused: skullSelection ? (retainSkull ? s.focused : false) : fromCanvas && s.explode === 0 ? s.focused : c.elements.length > 0 || !!anchor,
       explode: 0,
       rotate: false,
       hidden: skullSelection && !s.skull ? [] : s.hidden?.filter((id) => !c.elements.includes(id)),
-      restoreCamera: retainSkull && !s.isolate ? camera.current ?? undefined : undefined,
+      restoreCamera: (retainSkull && !s.isolate) || (fromCanvas && s.explode === 0) ? camera.current ?? undefined : undefined,
     }));
     setDetails(true);
     setPanel(null);
@@ -258,10 +258,10 @@ export default function Home() {
       flushSync(() => chooseLatest.current(c)),
     );
   }, [atlas, concepts, studying]);
-  const choosePart = (id: string) => {
+  const choosePart = (id: string, fromCanvas = false) => {
     const p = parts.get(id);
     if (!p) return;
-    choose({ id: p.conceptId, name: p.name, elements: [id] });
+    choose({ id: p.conceptId, name: p.name, elements: [id] }, false, fromCanvas);
   };
   const setLayers = (visible: SystemId[]) => {
     remember();
@@ -378,7 +378,7 @@ export default function Home() {
           onCameraChange={(pose) => {
             camera.current = pose;
           }}
-          onSelect={studying ? () => {} : choosePart}
+          onSelect={studying ? () => {} : id => choosePart(id, true)}
           onProgress={(n) => {
             setProgress(n);
             if (n === 100) setError("");
