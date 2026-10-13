@@ -1,3 +1,4 @@
+import { skullParts, skullOffset } from './skull';
 import { atlasDataset, referenceDataset } from "./reference-datasets";
 import { assetUrl } from "./asset-url";
 import { useEffect, useRef } from "react";
@@ -379,6 +380,9 @@ export default function AnatomyScene({
             ? new T.Vector3(0, 0.02, -1)
             : view === "side"
               ? new T.Vector3(1, 0.02, 0)
+              : view === "right" ? new T.Vector3(-1, 0.02, 0)
+              : view === "superior" ? new T.Vector3(0, 1, 0.001)
+              : view === "inferior" ? new T.Vector3(0, -1, 0.001)
               : new T.Vector3(0.35, 0.06, 1).normalize();
       controls.target.set(
         extent > 0.1 && el.clientWidth > 767 ? -packingWidth * 0.12 : 0,
@@ -494,6 +498,7 @@ export default function AnatomyScene({
       const dt = Math.min(clock.getDelta(), 0.05),
         s = latest.current;
       const changed =
+        lastState?.skull !== s.skull ||
         lastState?.visible !== s.visible ||
         lastState?.selected !== s.selected ||
         lastState?.isolate !== s.isolate ||
@@ -518,7 +523,7 @@ export default function AnatomyScene({
         const context = new Set(s.anchor?.contextPartIds ?? []);
         const visibleParts = atlas.parts.filter(
           (p) =>
-            !hidden.has(p.id) &&
+            (!s.skull || skullParts.includes(p.id)) && !hidden.has(p.id) &&
             (s.isolate
               ? selection.has(p.id)
               : visible.has(p.system) || selection.has(p.id) || context.has(p.id)),
@@ -558,9 +563,10 @@ export default function AnatomyScene({
             dy = T.MathUtils.lerp((c.y - 0.85) * 0.28, destination.y - c.y, t);
             dz = T.MathUtils.lerp(Math.cos(angle) * 0.48, -c.z, t);
           }
+          if (s.skull) [dx, dy, dz] = skullOffset(p.id, s.skull.separated);
           const selected = selection.has(p.id);
           const shown =
-            !hidden.has(p.id) &&
+            (!s.skull || skullParts.includes(p.id)) && !hidden.has(p.id) &&
             (s.isolate ? selected : visible.has(p.system) || selected || context.has(p.id));
           data.set(
             [
@@ -602,7 +608,8 @@ export default function AnatomyScene({
       if (moving && !s.isolate)
         fit(amount > 0.5 ? "front" : s.view, Math.max(0, (amount - 0.3) / 0.7));
       if (s.concealLabels) hover.hidden = true;
-      const inspecting = s.isolate || s.focused;
+      const inspecting = s.isolate || s.focused || !!s.skull;
+      const inspectionParts = s.skull && !s.isolate && !s.focused ? skullParts : s.selected;
       const inspectorRect = s.inspectorOpen
         ? document.querySelector(".detail-sheet")?.getBoundingClientRect()
         : undefined;
@@ -610,7 +617,7 @@ export default function AnatomyScene({
       const viewControlsBottom = viewControls && getComputedStyle(viewControls).visibility !== "hidden"
         ? viewControls.getBoundingClientRect().bottom : 0;
       const isolateKey = inspecting
-        ? (s.anchor?.conceptId ?? s.selected.join(",")) +
+        ? (s.anchor?.conceptId ?? inspectionParts.join(",")) + ":" + (s.skull?.separated ?? "") +
           ":" +
           s.reset +
           ":" +
@@ -632,7 +639,7 @@ export default function AnatomyScene({
         if (inspecting) {
           const box = new T.Box3();
           atlas.parts.forEach((p, i) => {
-            if (s.selected.includes(p.id))
+            if (inspectionParts.includes(p.id))
               box.union(
                 bounds[i]
                   .clone()
@@ -684,6 +691,9 @@ export default function AnatomyScene({
                 ? new T.Vector3(0, 0, -1)
                 : s.view === "side"
                   ? new T.Vector3(1, 0, 0)
+                  : s.view === "right" ? new T.Vector3(-1, 0, 0)
+                  : s.view === "superior" ? new T.Vector3(0, 1, 0.001).normalize()
+                  : s.view === "inferior" ? new T.Vector3(0, -1, 0.001).normalize()
                   : new T.Vector3(0.35, 0.1, 1).normalize();
             const distance = inspectionDistance(
               box, direction, camera.fov, h, availableWidth, availableHeight,

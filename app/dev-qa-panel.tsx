@@ -49,7 +49,7 @@ export default function DevQaPanel({ read, controls }: { read: () => State; cont
         reviewSchedule: h?.cards ?? {} };
     } catch { persistence = { health: 'unavailable' }; }
     return { reference: s.dataset, loadedReference: s.atlas?.datasetId, sourceVersion: version.current.value,
-      conceptId: s.chosenId, camera: s.camera, visibility: { systems: s.state.visible, hidden: s.state.hidden, selected: s.state.selected, isolate: s.state.isolate, ghost: s.state.ghost },
+      conceptId: s.chosenId, camera: s.camera, visibility: { systems: s.state.visible, hidden: s.state.hidden, selected: s.state.selected, isolate: s.state.isolate, ghost: s.state.ghost, skull: s.state.skull },
       language: s.language, viewMode: s.state.view, progress: s.progress, error: s.error,
       explorerHistory: s.historySize, pending: s.pending, study: persistence };
   }

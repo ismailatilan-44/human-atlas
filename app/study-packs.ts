@@ -1,3 +1,4 @@
+import wholeSkull from '../data/study/whole-skull-v1.json';
 import rightAnkle from '../data/study/right-ankle-v1.json';
 import leftAnkle from '../data/study/left-ankle-v1.json';
 import rightUpperLimb from '../data/study/right-upper-limb-bones-v1.json';
@@ -29,6 +30,7 @@ export const studyPacks: StudyPack[] = [
     learningGoals: ['Vurgulanan kaynak yüzeyini adı ve tarafıyla eşleştir.', 'Yanlış veya atlanan yanıtı kaynak kanıtıyla düzelt.'] },
   { ...leftAnkle, datasetId: 'lower-limb-nerve-reference' },
   { ...rightUpperLimb, datasetId: 'upper-limb-nerve-reference' },
+  { ...wholeSkull, datasetId: 'male-body' },
 ];
 
 export function studyPack(id: string): StudyPack | undefined {

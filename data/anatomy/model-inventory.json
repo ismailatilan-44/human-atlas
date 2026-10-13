@@ -9,7 +9,7 @@
   "inputSnapshots": [
     {
       "path": "app/anatomy.ts",
-      "sha256": "d8c71a3f084d5710768c57c576741a379596a60506c52952a4eb348637308efc"
+      "sha256": "d6840d7f5087305f17779bf60517708b7554a2f4fa26aa99359d205692a5dbba"
     },
     {
       "path": "app/asset-url.ts",
@@ -277,7 +277,7 @@
     },
     {
       "path": "scripts/build-model-inventory.mjs",
-      "sha256": "9acd0d736ed8b3b5fb06dd70cb2ded8a86f236f627bab8c2ddb019deb33f11c2"
+      "sha256": "b34eb7857ac3489e1ebbdfc24c977533ddb4273914b1e73dbb1e0da5dd56bd2a"
     }
   ],
   "summary": {

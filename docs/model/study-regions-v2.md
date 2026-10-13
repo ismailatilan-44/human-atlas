@@ -28,3 +28,55 @@ The selected sets are a bounded recognition exercise within the [lower-limb v4](
 `node --test scripts/study-packs.test.mjs` passed three tests: all 14 new source/part/side/label/evidence bindings and frozen input hashes, distinct question identities, preserved left/right scope, and the exact five-item upper-limb boundary. `npm run check` passed after catalog creation. Existing right-ankle tests remain separate. No historical source producer was rerun and no source geometry changed.
 
 Browser acceptance and final publication are the integration owner's responsibility: run each new pack through inspection, wrong/correct/skip feedback, correction/finish and return, including 320/390-pixel layouts and dataset switching. Test persisted sessions against the same pack/version and reject stale identities. Record the exact integrated source and live build in the delivery handoff; this record alone makes no live-site claim. The [human review packet](learning-review-packet.md) records remaining device/expert cases when available.
+
+## Whole-skull orientation extension — 13 October 2026
+
+### Decision: 22-bone orientation and recognition
+
+- Scope/status: user-authorized local first delivery, all 22 instances in `atlas:skull-bones`; whole-bone D0/D1 recognition only. [Authored pack](../../data/study/whole-skull-v1.json) preserves all source IDs and labels; previous 23 items remain unchanged.
+- Evidence: [current inventory](skull-research/current-inventory.md#exact-22-part-selection), [integrated label review](../../data/model-candidates/skull-labels/REVIEW.md), [learning options](skull-research/learning-content.md#bounded-content-options--no-product-decision-yet), [renderer/mechanism research](skull-research/interactions-and-pedagogy.md). [TTUHSC bone table](https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html), consulted 13 October, named whole-bone rows support brief original location notes. No table, image, feature/canal explanation or third-party question is reproduced.
+- Evidence boundary: manifest/labels establish source identity and side; class membership follows the existing reviewed 8 cranial/14 facial inventory. Location notes are sourced anatomy, not certified mesh fidelity. Learning effectiveness and expert acceptance remain untested.
+- Choice and reason: use an explicit bounded skull workspace, stable camera/context on selection, direct searchable list for tiny bones, six direction views, optional single-bone educational translation and exact return. Isolation provides access to obscured whole surfaces. Existing recall/correction/scheduling is reused. No need to acquire assets or implement cuts, free assembly or jaw motion for this goal. Research relational-core option is deferred.
+- Rights/frame constraints: existing BodyParts3D TARO geometry/attribution unchanged, original shared transform preserved; display translation is reversible, not physiological motion. Independent ear/other reference bodies remain separate. No new rights clearance claimed.
+- Owning change/check path: `data/study/whole-skull-v1.json` → `app/study-packs.ts`, shared viewer/study/saved-scene state; targeted binding/state tests, existing validators, loaded browser journeys and final `check:ci`. Model inventory regenerated only for fingerprinted runtime/producer changes.
+- Open verification: target-level rendered audit, independent mechanism review, physical device/multitouch/thermal and anatomist review. Fine features, sutures and passage courses are outside this package.
+- Review/result: pending implementation and acceptance evidence below; this decision alone claims no rendered or expert acceptance.
+
+### Target audit and rendered acceptance
+
+All 22 active concept/part/label bindings are checked by `scripts/skull-study.test.mjs`, including 8 cranial/14 facial, 8 left/8 right/6 unpaired and source-input hashes. Original public geometry and source coordinates have no diff. Existing atlas validation checks decoded buffers; no new raw-source conversion is performed. Display X is left-positive in this source frame; bounds centers below are observations, not independent identity proof.
+
+Actual loaded Chromium at 1200×942 rendered every item in isolation from front and back using ordinary bone/view selects. All 44 captures show distinct nonempty whole-bone silhouettes with inspectable opposite surfaces. [Contact sheet 1](../../output/playwright/skull-contact-0.jpg) and [contact sheet 2](../../output/playwright/skull-contact-1.jpg) preserve the named rows; full screenshots are retained locally as `output/playwright/skull-audit-FMA*-front/back.png`. These are minimum whole-source inspection views, not named anatomical surfaces or fine-feature acceptance. Coarse angular facets/edges remain conspicuous, particularly on nasal/lacrimal/concha/palatine surfaces and cranial borders. Smoothness, openings, thin plates and suture accuracy are not certified.
+
+| Concept / source part | Source name | Side | Vertices / triangles | Display bounds center X (m) | Rendered check |
+|---|---|---|---:|---:|---|
+| FMA52740 / FJ3199 | Ethmoid | unpaired | 5334 / 8618 | -0.00065 | front + back, isolated |
+| FMA52734 / FJ3200 | Frontal bone | unpaired | 3315 / 5112 | -0.00066 | front + back, isolated |
+| FMA54738 / FJ3263 | Left inferior nasal concha | left | 435 / 662 | 0.01027 | front + back, isolated |
+| FMA53646 / FJ3265 | Left lacrimal bone | left | 347 / 604 | 0.01263 | front + back, isolated |
+| FMA53650 / FJ3269 | Left maxilla | left | 2678 / 3598 | 0.02136 | front + back, isolated |
+| FMA53648 / FJ3272 | Left nasal bone | left | 236 / 388 | 0.00234 | front + back, isolated |
+| FMA53656 / FJ3273 | Left palatine bone | left | 986 / 1606 | 0.01296 | front + back, isolated |
+| FMA52789 / FJ3274 | Left parietal bone | left | 2927 / 3732 | 0.03349 | front + back, isolated |
+| FMA52739 / FJ3281 | Left temporal bone | left | 1835 / 2828 | 0.04210 | front + back, isolated |
+| FMA52893 / FJ3287 | Left zygomatic bone | left | 721 / 1056 | 0.04757 | front + back, isolated |
+| FMA52748 / FJ3289 | Mandible | unpaired | 1207 / 2348 | -0.00065 | front + back, isolated |
+| FMA52735 / FJ3309 | Occipital bone | unpaired | 2938 / 4912 | -0.00063 | front + back, isolated |
+| FMA54737 / FJ3369 | Right inferior nasal concha | right | 530 / 636 | -0.01161 | front + back, isolated |
+| FMA53645 / FJ3371 | Right lacrimal bone | right | 378 / 658 | -0.01276 | front + back, isolated |
+| FMA53649 / FJ3375 | Right maxilla | right | 2591 / 3660 | -0.02393 | front + back, isolated |
+| FMA53647 / FJ3378 | Right nasal bone | right | 253 / 392 | -0.00495 | front + back, isolated |
+| FMA53655 / FJ3379 | Right palatine bone | right | 994 / 1486 | -0.01433 | front + back, isolated |
+| FMA52788 / FJ3380 | Right parietal bone | right | 2734 / 3694 | -0.03559 | front + back, isolated |
+| FMA52738 / FJ3386 | Right temporal bone | right | 1976 / 2906 | -0.04334 | front + back, isolated |
+| FMA52892 / FJ3392 | Right zygomatic bone | right | 717 / 1146 | -0.04891 | front + back, isolated |
+| FMA52736 / FJ3394 | Sphenoid bone | unpaired | 2791 / 4238 | -0.00064 | front + back, isolated |
+| FMA9710 / FJ3395 | Vomer | unpaired | 820 / 1586 | -0.00065 | front + back, isolated |
+
+Assembled source context is preserved for all 22; dense/deep bones can be occluded. The UI offers ghost context, explicit focus, isolated enlarged inspection and educational translation, rather than asserting all surfaces are visible from one assembled angle. Small-bone list selection is the reliable touch alternative; successful separated-lacrimal picking is a bounded example, not every-pixel/touch-target acceptance.
+
+Verification observed: front/back/left/right/superior/inferior whole-skull cameras; camera and separation retained while changing left→right lacrimal; Back restores the former selection; return clears displacement; group option restores 22 selected IDs. Search/group and source-linked bone navigation retain the bounded workspace. Saved separated scene reopened through inner-ear reference and reload with equal camera, selected ID and displacement. Existing scene schema 1 accepts the optional bounded skull state; old scenes and old 23 question identities remain unchanged. No semantic label/relationship revision is needed because existing anatomy labels/graph are unchanged; new pack has its own identity/version. Malformed skull state and non-member displacement are rejected.
+
+Study acceptance: at390×844, inspected all22 then answered frontal for ethmoid, saw the explicit correct name/location; exited and reloaded, resumed the same wrong-feedback state. At320×568, isolation + separation retained consistent button/state, remaining21 answers were correct, summary21/22 first success, retry corrected the remaining item to22/22 and returned to the captured explorer. [Round/reload evidence](../../output/playwright/skull-study-round.txt), [wrong feedback](../../output/playwright/skull-study-wrong-390.png), [small-screen inspection](../../output/playwright/skull-study-isolated-320.png). Same-source context may remain pedagogically difficult for tiny/deep bones until enlarged/isolated; effectiveness and instructor suitability remain open.
+
+Independent read-only review found and closed: incorrect concha description/source-row substring match, first-entry layer invariants, whole-group select no-op, and study-isolation ownership mismatch. A browser-only reference-transition crash from temporarily absent concept labels was then repaired and independently reviewed; cross-reference/reload journey rerun successfully. [State evidence](../../output/playwright/skull-state-flow.txt), [picking/save](../../output/playwright/skull-picking-save.txt), [cross-reference/reload](../../output/playwright/skull-persistence.txt). Final revision/check results belong to the delivery handoff. No expert, physical-device, live-site or full regional acceptance is implied.

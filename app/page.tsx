@@ -1,3 +1,4 @@
+import { SKULL_GROUP, skullItems, skullParts, skullItem, skullDescription, skullViews, skullStart } from './skull';
 import { learningStorage, fixtureMode } from './learning-storage';
 import StudyPanel, { type StudyDiagnostics } from "./study-panel";
 import { studyPacks, type StudyPack } from "./study-packs";
@@ -199,7 +200,7 @@ export default function Home() {
   const visibleCount =
     atlas?.parts.filter(
       (p) =>
-        !state.hidden?.includes(p.id) &&
+        (!state.skull || skullParts.includes(p.id)) && !state.hidden?.includes(p.id) &&
         (state.isolate
           ? state.selected.includes(p.id)
           : state.visible.includes(p.system) || state.selected.includes(p.id)),
@@ -228,19 +229,23 @@ export default function Home() {
   }, [atlas, concepts, query, dataset, reference]);
   const choose = (c: Concept, preserveIsolation = false) => {
     const anchor = anchorMap.get(c.id);
+    const skullSelection = dataset === 'male-body' && (c.id === SKULL_GROUP || !!skullItem(c.id));
+    const retainSkull = !!state.skull && skullSelection;
     remember();
     setChosen(c);
     setState((s) => ({
       ...s,
+      ...(skullSelection && !s.skull ? skullStart(s) : {}),
+      skull: skullSelection ? (s.skull ?? {}) : undefined,
       selected: c.elements,
       anchor: anchor ? { ...anchor, label: label(c) } : undefined,
       ghost: anchor ? true : s.ghost,
-      isolate: preserveIsolation ? s.isolate : false,
-      focused: c.elements.length > 0 || !!anchor,
+      isolate: retainSkull || preserveIsolation ? s.isolate : false,
+      focused: skullSelection ? (retainSkull ? s.focused : false) : c.elements.length > 0 || !!anchor,
       explode: 0,
       rotate: false,
-      hidden: s.hidden?.filter((id) => !c.elements.includes(id)),
-      restoreCamera: undefined,
+      hidden: skullSelection && !s.skull ? [] : s.hidden?.filter((id) => !c.elements.includes(id)),
+      restoreCamera: retainSkull && !s.isolate ? camera.current ?? undefined : undefined,
     }));
     setDetails(true);
     setPanel(null);
@@ -265,6 +270,7 @@ export default function Home() {
     setState((s) => ({
       ...s,
       visible,
+      skull: undefined,
       selected: [],
       anchor: undefined,
       focused: false,
@@ -288,6 +294,16 @@ export default function Home() {
     setDetails(false);
     setPanel(null);
   };
+  const skullAction = (action: 'assemble' | 'separate' | 'start') => {
+    remember();
+    if (action === 'start') {
+      setChosen(conceptMap.get(SKULL_GROUP) ?? null);
+      setState(s => skullStart(s)); setDetails(true); return;
+    }
+    setState(s => ({ ...s, skull: { separated: action === 'separate' ? s.selected[0] : undefined },
+      isolate: studying ? s.isolate : false, focused: false, explode: 0, rotate: false, restoreCamera: undefined }));
+  };
+  const skullView = (view: View) => { remember(); setState(s => ({ ...s, view, reset: s.reset + 1, rotate: false, restoreCamera: undefined })); };
   const openPanel = (next: "layers" | "search") => {
     setDetails(false);
     setPanel((p) => (p === next ? null : next));
@@ -348,7 +364,7 @@ export default function Home() {
     startSession(pendingPack); setPendingPack(null);
   }, [pendingPack, dataset, atlas, progress, conceptMap]);
   return (
-    <main className={`studio ${reference ? "regional-reference" : ""}`}>
+    <main className={`studio ${reference ? "regional-reference" : ""} ${state.skull ? "skull-workspace" : ""}`}>
       {atlas && (
         <AnatomyScene
           key={dataset}
@@ -391,14 +407,14 @@ export default function Home() {
           isolate: () => setState(s => ({ ...s, isolate: true, focused: true, explode: 0, restoreCamera: undefined })),
         }} /></Suspense>}
 
-      {studying ? <StudyPanel key={activePack.id} pack={activePack} onDiagnostics={import.meta.env.DEV ? value => { qaStudy.current = value; } : undefined} blocked={!!error || progress !== 100} language={language} concepts={conceptMap} reveal={(id, isolated) => {
+      {studying ? <StudyPanel key={activePack.id} pack={activePack} onDiagnostics={import.meta.env.DEV ? value => { qaStudy.current = value; } : undefined} blocked={!!error || progress !== 100} skullControls={activePack.id === 'whole-skull-v1' ? <div className="skull-tools"><label>Bakış <select aria-label="Kafatası bakışı" value={state.view} onChange={e => skullView(e.target.value as View)}>{skullViews.map(v => <option key={v.id} value={v.id}>{v.label}</option>)}</select></label><button onClick={() => skullAction(state.skull?.separated ? 'assemble' : 'separate')}>{state.skull?.separated ? 'Kemiği yerine döndür' : 'Seçili kemiği ayır'}</button><p>Sağ/sol bireye aittir. Ayırma eğitim düzenidir; doğal hareket değildir.</p></div> : undefined} language={language} concepts={conceptMap} reveal={(id, isolated) => {
         const c = conceptMap.get(id);
         if (!c) return;
         choose(c);
         setDetails(false);
-        setState(s => ({ ...s, ghost: true, isolate: isolated, anchor: undefined, visible: ["skeletal"], hidden: [] }));
+        setState(s => ({ ...s, ghost: true, isolate: isolated, anchor: undefined, visible: ["skeletal"], hidden: [], skull: activePack.id === 'whole-skull-v1' ? (s.skull ?? {}) : undefined, focused: activePack.id !== 'whole-skull-v1', restoreCamera: undefined }));
       }} exit={() => { studyReturn.current?.(); setStudying(false); }} /> : <>
-      <div className="study-entry"><button onClick={() => { if (learningOpen) setPendingPack(null); launchSnapshot.current = learningOpen ? null : snapshot(); setLearningOpen(v => !v); setScenesOpen(false); setDetails(false); setPanel(null); }}>Çalışma ve tekrar</button><button disabled={!atlas || progress !== 100} onClick={() => { setScenesOpen(v => !v); setLearningOpen(false); setSceneNotice(''); }}>Kayıtlı sahneler</button></div>
+      <div className="study-entry">{dataset === 'male-body' && <button disabled={!atlas || progress !== 100} onClick={() => { const c = conceptMap.get(SKULL_GROUP); if (c) choose(c); }}>Kafatası · 22 kemik</button>}<button onClick={() => { if (learningOpen) setPendingPack(null); launchSnapshot.current = learningOpen ? null : snapshot(); setLearningOpen(v => !v); setScenesOpen(false); setDetails(false); setPanel(null); }}>Çalışma ve tekrar</button><button disabled={!atlas || progress !== 100} onClick={() => { setScenesOpen(v => !v); setLearningOpen(false); setSceneNotice(''); }}>Kayıtlı sahneler</button></div>
       {sceneNotice && createPortal(<div className="scene-notice" role="status">{sceneNotice}<button aria-label="Bildirimi kapat" onClick={() => setSceneNotice('')}>×</button></div>, document.body)}
       {scenesOpen && atlas && progress === 100 && <SavedScenesPanel atlas={atlas} dataset={dataset} state={state} camera={() => camera.current} chosenId={chosen?.id ?? null} details={details} language={language} onRestore={restoreScene} onClose={() => setScenesOpen(false)} />}
       {learningOpen && <section className="detail-sheet study-panel" aria-label="Çalışma modülleri">
@@ -465,10 +481,10 @@ export default function Home() {
           variant="ghost"
           className={panel === "search" ? "active" : ""}
           onClick={() => openPanel("search")}
-          aria-label="Search anatomy"
+          aria-label="Anatomi ara"
         >
           <Search size={18} />
-          <span>Find a structure</span>
+          <span>Yapı bul</span>
           <kbd>/</kbd>
         </Button>
         <Button
@@ -614,14 +630,14 @@ export default function Home() {
         </div>
       </section>
       {panel === "search" && (
-        <section className="search-panel glass" aria-label="Find anatomy">
+        <section className="search-panel glass" aria-label="Anatomi ara">
           <div className="panel-heading">
-            <span>Find a structure</span>
+            <span>Yapı bul</span>
             <Button
               variant="ghost"
               className="icon-button"
               onClick={() => setPanel(null)}
-              aria-label="Close search"
+              aria-label="Aramayı kapat"
             >
               <X size={18} />
             </Button>
@@ -644,11 +660,11 @@ export default function Home() {
             <ComboboxInput
               autoFocus
               placeholder={reference?.placeholder ?? "Biceps, skapula, musculocutaneous…"}
-              aria-label="Search named anatomical structures"
+              aria-label="Anatomik yapı ara"
               showTrigger={false}
             />
             <ComboboxContent className="anatomy-search-results">
-              <ComboboxEmpty>No structures match your search.</ComboboxEmpty>
+              <ComboboxEmpty>Eşleşen yapı yok.</ComboboxEmpty>
               <ComboboxList>
                 {(c: Concept) => (
                   <ComboboxItem key={c.id} value={c}>
@@ -704,7 +720,7 @@ export default function Home() {
         >
           {state.rotate ? <Pause size={17} /> : <RotateCw size={18} />}
         </Button>
-        <Button variant="ghost" aria-label="Reset view and layers" title="Reset" onClick={reset}>
+        <Button variant="ghost" aria-label="Görünümü ve katmanları sıfırla" title="Reset" onClick={reset}>
           <RotateCcw size={17} />
         </Button>
       </nav>
@@ -719,7 +735,7 @@ export default function Home() {
               ? "ANATOMICAL INVENTORY"
               : state.explode > 0.05
                 ? "SEPARATED STRUCTURES"
-                : (reference?.title ?? "ADULT HUMAN · MALE")}
+                : (state.skull ? "KAFATASI · 22 KEMİK" : reference?.title ?? "ADULT HUMAN · MALE")}
         </span>
         <span className="caption-line" />
       </div>
@@ -733,7 +749,7 @@ export default function Home() {
           <Layers3 size={20} />
           <span>Systems</span>
         </Button>
-        <div className="explode-control">
+        {state.skull ? <div className="skull-dock"><button onClick={() => { setDetails(true); setPanel(null); if (!chosen) setChosen(conceptMap.get(SKULL_GROUP) ?? null); }}>22 kemik · çalışma düzeni</button><button onClick={() => skullAction('start')}>Başlangıç düzeni</button></div> : <div className="explode-control">
           <div className="explode-label">
             <label id="explode-label">Explode anatomy</label>
             <output>
@@ -761,11 +777,11 @@ export default function Home() {
             <span>Every piece</span>
           </div>
         </div>
-        <Button
+        }<Button
           variant="ghost"
           className="dock-reset"
           onClick={reset}
-          aria-label="Assemble and reset"
+          aria-label="Birleştir ve sıfırla"
         >
           <RotateCcw size={18} />
           <span>Reset</span>
@@ -785,8 +801,7 @@ export default function Home() {
       )}
       <footer className="studio-footer">
         <span>
-          {state.explode > 0.8 ? "Drag to pan" : "Drag to orbit"} <b>·</b> Pinch to zoom <b>·</b>{" "}
-          Tap to inspect
+          {state.skull ? "Sürükle: döndür · Kaydır: yakınlaştır · Dokun: seç" : <>{state.explode > 0.8 ? "Drag to pan" : "Drag to orbit"} <b>·</b> Pinch to zoom <b>·</b> Tap to inspect</>}
         </span>
         <Button
           variant="ghost"
@@ -821,25 +836,36 @@ export default function Home() {
       >
         <SheetContent
           initialFocus={detailTitle}
-          className={`detail-sheet glass ${state.isolate ? "is-isolated" : ""}`}
+          className={`detail-sheet glass ${state.isolate ? "is-isolated" : ""} ${state.skull ? "skull-detail" : ""}`}
           showCloseButton={true}
         >
           <div className="detail-header">
             <div className="detail-learning-actions">
               <button onClick={() => { setScenesOpen(true); setLearningOpen(false); setSceneNotice(''); }}>Sahneyi kaydet</button>
-              <button onClick={() => { launchSnapshot.current = snapshot(); setLearningOpen(true); setDetails(false); }}>Çalışma</button>
+              <button onClick={() => { if (state.skull) requestStudy(studyPacks.find(p => p.id === 'whole-skull-v1')!); else { launchSnapshot.current = snapshot(); setLearningOpen(true); setDetails(false); } }}>Çalışma</button>
             </div>
             <div className="detail-accent" style={{ background: system?.color }} />
             <div className="eyebrow">
               {new Set(selectedParts.map((p) => p.system)).size > 1
                 ? "Bileşik yapı"
-                : (system?.name ?? "ANATOMİ")}
+                : (state.skull ? "KAFATASI" : system?.name ?? "ANATOMİ")}
             </div>
             <SheetTitle ref={detailTitle} tabIndex={-1} className="structure-title">
               {chosen ? label(chosen) : null}
             </SheetTitle>
           </div>
           <div className="detail-scroll" key={`${chosen?.id}-${state.isolate}`}>
+            {state.skull && <section className="skull-tools" aria-label="Kafatası çalışma düzeni">
+              <label>Kemik seç · 22 <select aria-label="Kafatası kemiği" value={skullItem(chosen?.id) ? chosen!.id : ''} onChange={e => { const c = conceptMap.get(e.target.value || SKULL_GROUP); if (c) choose(c); }}>
+                <option value="">Bütün kafatası</option>{skullItems.map(it => <option key={it.id} value={it.conceptId}>{label(conceptMap.get(it.conceptId) ?? { id: it.conceptId, name: it.sourceObject })}</option>)}
+              </select></label>
+              <label>Bakış <select aria-label="Kafatası bakışı" value={state.view} onChange={e => skullView(e.target.value as View)}>{skullViews.map(v => <option key={v.id} value={v.id}>{v.label}</option>)}</select></label>
+              <div><button disabled={state.selected.length !== 1} onClick={() => skullAction('separate')}>Seçili kemiği ayır</button><button disabled={!state.skull.separated} onClick={() => skullAction('assemble')}>Kemiği yerine döndür</button></div>
+              <button onClick={() => { remember(); setState(s => ({ ...s, isolate: false, focused: false, ghost: false, reset: s.reset + 1, restoreCamera: undefined })); }}>Bütün kafatasını göster</button>
+              <button onClick={() => skullAction('start')}>Kafatası başlangıç düzeni</button>
+              <p>Sağ/sol bireye aittir. Ayırma eğitim düzenidir; doğal hareket değildir. Küçük kemikler için listeden seçip yalnız gösterin.</p>
+              <details><summary>Kaynak ve kapsam</summary><p>BodyParts3D 4.0 · mevcut 22 kemik. İnce ayrıntı ve uzman onayı yoktur.</p><a href="https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html" target="_blank" rel="noreferrer">Kemik konumları: TTUHSC</a></details>
+            </section>}
             {chosenAnchor && (
               <p className="anchor-note">
                 Tutunma yüzeyinden alınmış referans noktasıdır; yapının sınırlarını göstermez.
@@ -858,7 +884,7 @@ export default function Home() {
               </Button>
             )}
             <SheetDescription className="structure-description">
-              {reference
+              {state.skull ? skullDescription(chosen?.id) : reference
                 ? referenceDescription(dataset, chosen?.id)
                 : chosen && getRepresentationNote(chosen.id)
                   ? getRepresentationNote(chosen.id)
@@ -872,7 +898,7 @@ export default function Home() {
                           ? explanation(chosen.name, selected.system)
                           : ""}
             </SheetDescription>
-            {!reference &&
+            {!reference && !state.skull &&
               chosen &&
               selected &&
               !getRepresentationNote(chosen.id) &&
@@ -944,7 +970,7 @@ export default function Home() {
             </div>
             {selectedParts.length > 1 && (
               <div className="member-list">
-                <h3>Included structures</h3>
+                <h3>İçerdiği yapılar</h3>
                 {selectedParts.slice(0, 50).map((p) => (
                   <Button variant="ghost" key={p.id} onClick={() => choosePart(p.id)}>
                     <span>{label({ id: p.conceptId, name: p.name })}</span>

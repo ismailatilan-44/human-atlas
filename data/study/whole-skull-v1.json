@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "id": "whole-skull-v1",
+  "version": "1",
+  "datasetId": "male-body",
+  "title": "Bütün kafatası · 22 kemik",
+  "labelSource": "data/anatomy/labels.json",
+  "attribution": "/ATTRIBUTION.md",
+  "expertReview": "pending",
+  "scope": "22 kaynak kemiğinin adını ve sağ/sol tarafını tanıma. İnce ayrıntılar ve klinik bilgi değerlendirilmez; anatomist incelemesi bekliyor.",
+  "learningGoals": [
+    "Kemiği bütün kafatasında ve tek başına incele.",
+    "Vurgulanan kemiğin adını ve tarafını hatırla; yanlışını kaynakla düzelt."
+  ],
+  "sourceInputs": [
+    {
+      "path": "public/models/atlas.json",
+      "sha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee"
+    },
+    {
+      "path": "data/anatomy/skull-bones.json",
+      "sha256": "772d3943cdd671d3c79e08494957f57e31d7e2c19be2dbe5965cc2dae4aabb65"
+    },
+    {
+      "path": "data/anatomy/labels.json",
+      "sha256": "571b4a5266dd39c0fa259013cf975cad19dc636c478350fefea6194777cf54e3"
+    }
+  ],
+  "items": [
+    {
+      "id": "skull-FJ3199",
+      "conceptId": "FMA52740",
+      "sourceObject": "Ethmoid",
+      "geometryPartId": "FJ3199",
+      "side": null,
+      "boneClass": "cranial",
+      "description": "İki göz çukuru arasındadır.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3199 / FMA52740"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52740"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / ethmoid"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3200",
+      "conceptId": "FMA52734",
+      "sourceObject": "Frontal bone",
+      "geometryPartId": "FJ3200",
+      "side": null,
+      "boneClass": "cranial",
+      "description": "Alın bölgesindeki kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3200 / FMA52734"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52734"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / frontal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3263",
+      "conceptId": "FMA54738",
+      "sourceObject": "Left inferior nasal concha",
+      "geometryPartId": "FJ3263",
+      "side": "left",
+      "boneClass": "facial",
+      "description": "Burun boşluğunun yan duvarındaki ayrı kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3263 / FMA54738"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA54738"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / inferior nasal concha"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3265",
+      "conceptId": "FMA53646",
+      "sourceObject": "Left lacrimal bone",
+      "geometryPartId": "FJ3265",
+      "side": "left",
+      "boneClass": "facial",
+      "description": "Göz çukurunun iç duvarındaki küçük kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3265 / FMA53646"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53646"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / lacrimal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3269",
+      "conceptId": "FMA53650",
+      "sourceObject": "Left maxilla",
+      "geometryPartId": "FJ3269",
+      "side": "left",
+      "boneClass": "facial",
+      "description": "Üst çene bölgesindeki kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3269 / FMA53650"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53650"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / maxilla"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3272",
+      "conceptId": "FMA53648",
+      "sourceObject": "Left nasal bone",
+      "geometryPartId": "FJ3272",
+      "side": "left",
+      "boneClass": "facial",
+      "description": "Burun köprüsüne katılır.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3272 / FMA53648"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53648"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / nasal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3273",
+      "conceptId": "FMA53656",
+      "sourceObject": "Left palatine bone",
+      "geometryPartId": "FJ3273",
+      "side": "left",
+      "boneClass": "facial",
+      "description": "Sert damağın arka bölümüne katılır.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3273 / FMA53656"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53656"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / palatine"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3274",
+      "conceptId": "FMA52789",
+      "sourceObject": "Left parietal bone",
+      "geometryPartId": "FJ3274",
+      "side": "left",
+      "boneClass": "cranial",
+      "description": "Kafatasının üst ve yan bölümündedir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3274 / FMA52789"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52789"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / parietal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3281",
+      "conceptId": "FMA52739",
+      "sourceObject": "Left temporal bone",
+      "geometryPartId": "FJ3281",
+      "side": "left",
+      "boneClass": "cranial",
+      "description": "Kafatasının yan ve taban bölümündedir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3281 / FMA52739"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52739"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / temporal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3287",
+      "conceptId": "FMA52893",
+      "sourceObject": "Left zygomatic bone",
+      "geometryPartId": "FJ3287",
+      "side": "left",
+      "boneClass": "facial",
+      "description": "Elmacık bölgesindeki kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3287 / FMA52893"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52893"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / zygomatic"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3289",
+      "conceptId": "FMA52748",
+      "sourceObject": "Mandible",
+      "geometryPartId": "FJ3289",
+      "side": null,
+      "boneClass": "facial",
+      "description": "Alt çeneyi oluşturur.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3289 / FMA52748"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52748"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / mandible"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3309",
+      "conceptId": "FMA52735",
+      "sourceObject": "Occipital bone",
+      "geometryPartId": "FJ3309",
+      "side": null,
+      "boneClass": "cranial",
+      "description": "Kafatasının arka bölümündedir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3309 / FMA52735"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52735"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / occipital"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3369",
+      "conceptId": "FMA54737",
+      "sourceObject": "Right inferior nasal concha",
+      "geometryPartId": "FJ3369",
+      "side": "right",
+      "boneClass": "facial",
+      "description": "Burun boşluğunun yan duvarındaki ayrı kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3369 / FMA54737"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA54737"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / inferior nasal concha"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3371",
+      "conceptId": "FMA53645",
+      "sourceObject": "Right lacrimal bone",
+      "geometryPartId": "FJ3371",
+      "side": "right",
+      "boneClass": "facial",
+      "description": "Göz çukurunun iç duvarındaki küçük kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3371 / FMA53645"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53645"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / lacrimal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3375",
+      "conceptId": "FMA53649",
+      "sourceObject": "Right maxilla",
+      "geometryPartId": "FJ3375",
+      "side": "right",
+      "boneClass": "facial",
+      "description": "Üst çene bölgesindeki kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3375 / FMA53649"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53649"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / maxilla"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3378",
+      "conceptId": "FMA53647",
+      "sourceObject": "Right nasal bone",
+      "geometryPartId": "FJ3378",
+      "side": "right",
+      "boneClass": "facial",
+      "description": "Burun köprüsüne katılır.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3378 / FMA53647"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53647"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / nasal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3379",
+      "conceptId": "FMA53655",
+      "sourceObject": "Right palatine bone",
+      "geometryPartId": "FJ3379",
+      "side": "right",
+      "boneClass": "facial",
+      "description": "Sert damağın arka bölümüne katılır.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3379 / FMA53655"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA53655"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / palatine"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3380",
+      "conceptId": "FMA52788",
+      "sourceObject": "Right parietal bone",
+      "geometryPartId": "FJ3380",
+      "side": "right",
+      "boneClass": "cranial",
+      "description": "Kafatasının üst ve yan bölümündedir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3380 / FMA52788"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52788"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / parietal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3386",
+      "conceptId": "FMA52738",
+      "sourceObject": "Right temporal bone",
+      "geometryPartId": "FJ3386",
+      "side": "right",
+      "boneClass": "cranial",
+      "description": "Kafatasının yan ve taban bölümündedir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3386 / FMA52738"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52738"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / temporal"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3392",
+      "conceptId": "FMA52892",
+      "sourceObject": "Right zygomatic bone",
+      "geometryPartId": "FJ3392",
+      "side": "right",
+      "boneClass": "facial",
+      "description": "Elmacık bölgesindeki kemiktir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3392 / FMA52892"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52892"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / zygomatic"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3394",
+      "conceptId": "FMA52736",
+      "sourceObject": "Sphenoid bone",
+      "geometryPartId": "FJ3394",
+      "side": null,
+      "boneClass": "cranial",
+      "description": "Kafatası tabanının orta bölümündedir.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3394 / FMA52736"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA52736"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / sphenoid"
+        }
+      ]
+    },
+    {
+      "id": "skull-FJ3395",
+      "conceptId": "FMA9710",
+      "sourceObject": "Vomer",
+      "geometryPartId": "FJ3395",
+      "side": null,
+      "boneClass": "facial",
+      "description": "Kemik burun bölmesinin bir parçasıdır.",
+      "evidence": [
+        {
+          "sourceId": "bp3d-4.0",
+          "locator": "public/models/atlas.json / FJ3395 / FMA9710"
+        },
+        {
+          "sourceId": "skull-label-review",
+          "locator": "data/model-candidates/skull-labels/REVIEW.md / FMA9710"
+        },
+        {
+          "sourceId": "ttuhsc-head-neck-bones",
+          "locator": "https://anatomy.ttuhscep.edu/anatomytables/bones_head_neck.html / vomer"
+        }
+      ]
+    }
+  ]
+}

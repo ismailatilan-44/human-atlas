@@ -1,3 +1,5 @@
+import { skullDescription } from './skull';
+import type { ReactNode } from 'react';
 import { learningStorage, studyNow } from './learning-storage';
 import { useEffect, useRef, useState } from 'react';
 import type { LearnerHistory } from './study-history';
@@ -11,7 +13,8 @@ import { assetUrl } from './asset-url';
 import type { Concept } from './anatomy';
 import type { AnatomyLanguage } from './atlas-metadata';
 
-export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics, blocked = false, language = 'tr' }: {
+export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics, skullControls, blocked = false, language = 'tr' }: {
+  skullControls?: ReactNode;
   onDiagnostics?: (value: StudyDiagnostics) => void; blocked?: boolean; pack: StudyPack; concepts: Map<string, Concept>; reveal: (id: string, isolated: boolean) => void; exit: () => void; language?: AnatomyLanguage;
 }) {
   const [loaded] = useState(() => { try { return loadStudy(learningStorage(), pack); } catch { return { notice: 'Yerel depolama kullanılamıyor.' }; } });
@@ -116,13 +119,14 @@ export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics
         </> : <>
           {session.phase === 'feedback' && <p role="status">{session.answer === item.conceptId ? session.hinted ? 'İpucuyla doğru.' : 'Doğru.' : session.answer === null ? 'Atlandı. Doğru yanıt:' : `Yanlış: ${name(session.answer!)}. Doğru yanıt:`}</p>}
           <h3>{name(item.conceptId)}</h3><p>{name(item.conceptId, 'en')} · {name(item.conceptId, 'la')}</p>
-          <p>{referenceDescription(pack.datasetId, item.conceptId)}</p>
+          <p>{pack.id === 'whole-skull-v1' ? skullDescription(item.conceptId) : referenceDescription(pack.datasetId, item.conceptId)}</p>
           <details><summary>Kaynak ve sınırlar</summary><p>{item.conceptId} · {item.sourceObject}</p>{item.evidence.map(e => <p key={e.sourceId}>{e.sourceId}: {e.locator}</p>)}<p>Kaynak yüzey kusurları korunur; uzman incelemesi bekliyor.</p><a href={assetUrl(pack.attribution)} target="_blank" rel="noreferrer">Kaynak ve lisans kaydı</a></details>
           {session.phase === 'feedback' && history.undo && <button onClick={() => { setHistory(h => h.undo ?? h); }}>Son yanıtı geri al</button>}
           <button onClick={() => transition({ type: 'next' })}>{session.phase === 'inspect' && session.index === pack.items.length - 1 ? 'Hatırlamayı başlat' : 'Sonraki'}</button>
         </>}
         <button onClick={() => setHistory(h => ({ ...h, isolated: !h.isolated }))}>{history.isolated ? 'Bağlamı göster' : 'Yalnız yapıyı göster'}</button>
       </>}
+      {skullControls}
       <button onClick={() => restart()}>Yeni çalışma</button>
       <button disabled={!due.length} onClick={() => restart(true)}>Zamanı gelenleri çalış · {due.length}</button>
       <details><summary>İlerleme ve tekrar planı</summary><p>{history.completed.length} tamamlanan tur (en fazla 50 kayıt). Aralıklı başarı: {mastered}/{pack.items.length} (en az 3 zamanı gelmiş ipucusuz doğru).</p><p>Doğru: 1, 3, 7, 14, 30 gün. Yanlış/ipucu: 10 dakika. Atla: tarih değişmez. Erken pratik aralığı artırmaz. Tarihler UTC; saat geri alınırsa son kayıt zamanı korunur. Bu bir öğrenme göstergesidir; anatomik yeterlik ölçümü değildir.</p>{pack.items.map(it => <p key={it.id}>{name(it.conceptId)}: {history.cards[it.id] ? new Date(history.cards[it.id].due).toISOString().replace('T',' ').slice(0,16) + ' UTC' : 'Yeni'}</p>)}<p>İçerik sürümü: {pack.version}</p></details>

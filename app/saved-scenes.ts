@@ -27,7 +27,8 @@ function cameraValid(v: unknown): boolean {
 export function isSavedScene(v: unknown): v is SavedScene {
   if (!record(v) || v.schema !== 1 || typeof v.id !== 'string' || !v.id || v.id.length > 100 || typeof v.name !== 'string' || !v.name.trim() || v.name.length > 80 || typeof v.savedAt !== 'string' || !Number.isFinite(Date.parse(v.savedAt)) || !datasets.includes(v.dataset as string) || typeof v.contentVersion !== 'string' || !v.contentVersion || v.contentVersion.length > 200 || (v.chosenId !== null && typeof v.chosenId !== 'string') || !['tr','en','la'].includes(v.language as string) || typeof v.details !== 'boolean' || !cameraValid(v.camera) || !record(v.state)) return false;
   const s = v.state;
-  return finite(s.explode) && s.explode >= 0 && s.explode <= 1 && strings(s.visible) && s.visible.every(x => systems.includes(x)) && strings(s.selected) && strings(s.hidden) && ['three-quarter','front','back','side'].includes(s.view as string) && ['isolate','rotate','focused','ghost','concealLabels'].every(k => typeof s[k] === 'boolean') && s.reset === 0 && s.anchor === undefined && s.restoreCamera === undefined;
+  if (s.skull !== undefined && (!record(s.skull) || Object.keys(s.skull).some(k => k !== 'separated') || (s.skull.separated !== undefined && (typeof s.skull.separated !== 'string' || !/^FJ[0-9]+$/.test(s.skull.separated))) || v.dataset !== 'male-body' || s.explode !== 0)) return false;
+  return finite(s.explode) && s.explode >= 0 && s.explode <= 1 && strings(s.visible) && s.visible.every(x => systems.includes(x)) && strings(s.selected) && strings(s.hidden) && ['three-quarter','front','back','side','right','superior','inferior'].includes(s.view as string) && ['isolate','rotate','focused','ghost','concealLabels'].every(k => typeof s[k] === 'boolean') && s.reset === 0 && s.anchor === undefined && s.restoreCamera === undefined;
 }
 /** Fingerprint the loaded, merged manifest; stable across camera/UI changes. */
 export function sceneContentVersion(atlas: Atlas): string {
@@ -39,7 +40,7 @@ export function sceneContentVersion(atlas: Atlas): string {
 export function captureScene(input: { atlas: Atlas; dataset: DatasetId; state: SceneState; camera: CameraPose | null; chosenId: string | null; details: boolean; language: SavedScene['language']; name: string }, now = new Date(), id = `${Date.now()}-${Math.random().toString(36).slice(2)}`): SavedScene {
   const s = input.state;
   const scene: SavedScene = { schema: 1, id, name: input.name.trim().slice(0,80) || 'Kayıtlı sahne', savedAt: now.toISOString(), dataset: input.dataset, contentVersion: sceneContentVersion(input.atlas), chosenId: input.chosenId, language: input.language, details: input.details, camera: input.camera,
-    state: { explode: s.explode, visible: [...s.visible], selected: [...s.selected], hidden: [...(s.hidden ?? [])], isolate: s.isolate, view: s.view, rotate: s.rotate, focused: !!s.focused, ghost: !!s.ghost, concealLabels: !!s.concealLabels, reset: 0 } };
+    state: { ...(s.skull ? { skull: { ...s.skull } } : {}), explode: s.explode, visible: [...s.visible], selected: [...s.selected], hidden: [...(s.hidden ?? [])], isolate: s.isolate, view: s.view, rotate: s.rotate, focused: !!s.focused, ghost: !!s.ghost, concealLabels: !!s.concealLabels, reset: 0 } };
   return JSON.parse(JSON.stringify(scene)) as SavedScene;
 }
 export function validateScene(scene: SavedScene, atlas: Atlas, concepts: Map<string, Concept>): string | null {
@@ -48,6 +49,10 @@ export function validateScene(scene: SavedScene, atlas: Atlas, concepts: Map<str
   if (scene.dataset !== dataset) return 'Sahne başka bir referansa ait.';
   if (scene.contentVersion !== sceneContentVersion(atlas)) return 'Model içerik sürümü değişmiş; eski sahne uygulanmadı. Kaydı silip yeni bir sahne kaydedebilirsiniz.';
   const ids = new Set(atlas.parts.map(p => p.id));
+  if (scene.state.skull) {
+    const members = concepts.get('atlas:skull-bones')?.elements ?? [];
+    if (members.length !== 22 || scene.state.selected.some(id => !members.includes(id)) || (scene.state.skull.separated && !members.includes(scene.state.skull.separated))) return 'Kafatası çalışma kimliği geçersiz; kayıt uygulanmadı.';
+  }
   if ([...scene.state.selected, ...(scene.state.hidden ?? [])].some(id => !ids.has(id)) || (scene.chosenId !== null && !concepts.has(scene.chosenId))) return 'Kayıttaki yapı kimliği artık bulunamıyor; sahne uygulanmadı.';
   return null;
 }

@@ -169,7 +169,7 @@ export interface Atlas {
   chunks: { url: string; bytes: number; gzip?: string; gzipBytes?: number }[];
   triangles: number;
 }
-export type View = "three-quarter" | "front" | "back" | "side";
+export type View = "three-quarter" | "front" | "back" | "side" | "right" | "superior" | "inferior";
 export interface CameraPose {
   position: [number, number, number];
   target: [number, number, number];
@@ -183,6 +183,8 @@ export interface CameraPose {
   } | null;
 }
 export interface SceneState {
+  /** Bounded original-source skull workspace; absent in legacy scenes. */
+  skull?: { separated?: string };
   concealLabels?: boolean;
   inspectorOpen?: boolean;
   anchor?: AtlasAnchor & { label: string };
