@@ -1,0 +1,30 @@
+{
+  "source": "e22c8f3",
+  "applicationSource": "2f462a9",
+  "passed": true,
+  "referenceViewportCases": 15,
+  "twoFingerGestures": 45,
+  "geometryTaps": 15,
+  "emptySpaceTaps": 15,
+  "trustedTouchContactsPerCase": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "maxReleaseRelativePoseDelta": 1.963641190766363e-06,
+  "maxTapRelativePoseDelta": 1.747021893385271e-10,
+  "maxDirectionDelta": 0.0008010299509738916,
+  "tapViewOffsetsPreserved": true
+}

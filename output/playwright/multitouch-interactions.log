@@ -1,0 +1,6 @@
+atlas.json with 2292 registered pieces: packing at desktop/mobile aspect ratios and search/inspection contracts passed.
+Female reference loads independently and exposes only its own structures.
+Inner-ear reference exposes only its own six structures.
+Lower-limb reference resolves its own branch geometry without male graph leakage.
+Upper-limb reference search and cited parent routes stay in its own127 structures.
+Tap, drag, multitouch, cancellation, and empty-view checks passed.
