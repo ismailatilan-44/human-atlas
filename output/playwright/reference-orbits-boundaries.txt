@@ -1,0 +1,23 @@
+### Result
+{"back":{"reference":"inner-ear-reference","loadedReference":"inner-ear-reference","sourceVersion":"atlas-content-b877954-2026-10-02:d674fa4c","conceptId":"inner-ear-reference:left-cochlea","camera":{"position":[0.039504284039139755,1.5800737738609312,-0.07001733517274261],"target":[0.03950428403913975,1.5800737738609312,-0.00001733517274260521],"viewOffset":{"enabled":true,"fullWidth":1200,"fullHeight":942,"offsetX":70,"offsetY":30,"width":1200,"height":942}},"visibility":{"systems":["sensory","skeletal"],"hidden":[],"selected":["IE-COCHLEA-L"],"isolate":false,"ghost":true},"language":"tr","viewMode":"back","progress":100,"error":"","explorerHistory":1,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":0,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"cleared":{"reference":"inner-ear-reference","loadedReference":"inner-ear-reference","sourceVersion":"atlas-content-b877954-2026-10-02:d674fa4c","conceptId":"inner-ear-reference:left-cochlea","camera":{"position":[3.7494447424115495e-17,1.5859360694885254,-0.3095558439547898],"target":[0,1.5859360694885254,-0.003390446305274963],"viewOffset":null},"visibility":{"systems":["sensory","skeletal"],"hidden":[],"selected":[],"isolate":false,"ghost":false},"language":"tr","viewMode":"back","progress":100,"error":"","explorerHistory":1,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":0,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"reset":{"reference":"inner-ear-reference","loadedReference":"inner-ear-reference","sourceVersion":"atlas-content-b877954-2026-10-02:d674fa4c","conceptId":null,"camera":{"position":[0.10098007082045789,1.6032469387720325,0.2851240417531762],"target":[0,1.5859360694885254,-0.003390446305274963],"viewOffset":null},"visibility":{"systems":["sensory","skeletal"],"hidden":[],"selected":["IE-COCHLEA-L","IE-COCHLEA-R","IE-VESTIBULAR-COMPLEX-L","IE-VESTIBULAR-COMPLEX-R"],"isolate":false,"ghost":true},"language":"tr","viewMode":"three-quarter","progress":100,"error":"","explorerHistory":2,"pending":{"pack":null,"scene":null,"returning":false},"study":{"health":"readable","observed":"stored","storedPhase":null,"sceneCount":0,"phase":"inactive","module":null,"retry":false,"firstAttempt":{},"eventualCorrect":[],"undo":false,"completedRounds":0,"reviewEvents":0,"reviewSchedule":{}}},"exploded":"PASS: Exploded camera restore. Replay runs the same bounded visible flow."}
+### Ran Playwright code
+```js
+await (async page => {
+  await page.getByRole('combobox',{name:'Anatomi referansı',exact:true}).selectOption('inner-ear-reference');
+  await page.getByRole('button',{name:'Anatomi ara',exact:true}).click();
+  await page.getByRole('option',{name:'Sol koklea (salyangoz) 1 parça',exact:true}).click();
+  const snap=async()=>{await page.getByRole('button',{name:'Snapshot',exact:true}).click();return JSON.parse(await page.getByTestId('qa-snapshot').textContent());};
+  const dir=c=>{const v=c.position.map((n,i)=>n-c.target[i]);const l=Math.hypot(...v);return v.map(n=>n/l);};
+  await page.getByRole('button',{name:'back view',exact:true}).click(); const back=await snap();
+  if(Math.abs(dir(back.camera)[2]+1)>1e-5)throw new Error('Explicit back view failed');
+  await page.getByRole('button',{name:'Seçimi temizle',exact:true}).click();const cleared=await snap();
+  if(Math.abs(dir(cleared.camera)[2]+1)>1e-5)throw new Error('Clear changed explicit angle');
+  await page.getByRole('button',{name:'Görünümü ve katmanları sıfırla',exact:true}).click();const reset=await snap();
+  if(dir(reset.camera)[2]<0.5)throw new Error('Reset did not restore preset');
+  const exploded=await page.getByRole('status').filter({hasText:'PASS: Exploded camera restore.'}).innerText();
+  return {back,cleared,reset,exploded};
+})(page);
+```
+### Page
+- Page URL: http://localhost:3017/?devqa=1
+- Page Title: Human Atlas

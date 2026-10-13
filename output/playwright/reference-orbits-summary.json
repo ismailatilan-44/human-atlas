@@ -1,0 +1,11 @@
+{
+  "source": "94b91c6",
+  "passed": true,
+  "cases": 12,
+  "transitions": 120,
+  "backChecks": 96,
+  "savedReturns": 12,
+  "maxFirstSearchDirectionDelta": 0.0007860358243778089,
+  "maxOtherDirectionDelta": 2.4924506902834764e-14,
+  "maxReturnPoseDelta": 4.925004848388426e-12
+}
