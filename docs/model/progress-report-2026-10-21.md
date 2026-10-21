@@ -37,3 +37,10 @@ On that live build: guide→search with focused input, uppercase SİNİR, Kalp83
 Anatomik uzman kabulü, fiziksel telefon/iOS/Android ve ekran okuyucu kabulü, öğrenme etkisi ve kalan bölgesel kapsam açık. Dar masaüstü tarayıcı görünümü fiziksel mobil cihaz testi değildir. Burs programı, başvuru biçimi/takvimi ve kişisel katkı beyanı verilmedi; başvuru gönderilmedi. Sonraki iş: [insan değerlendirme paketindeki](learning-review-packet.md) sınırlı akışı bir öğrenci ve anatomist ile değerlendirmek.
 
 Ölçüm: başlangıç goal zamanından itibaren duvar süresi kapanışta kaydedilecek; aktif emek ve önceki çalışmaların süresi bilinmiyor. İlk yeniden çalışma nedeni rehber→arama geçişinde gerçek tarayıcıda bulunan kapanış/odak yarışıdır.
+
+
+## Önbellekte kalan sayfanın yayın güvenilirliği
+
+Son yayın denemesi, Pages HTML yanıtında `Cache-Control: max-age=600` bulunduğunu ve önceki `assets/index-Cx6lOCmP.js` / `assets/index-DQw3vV3e.js` isteklerinin404 döndüğünü kanıtladı. Daha önce açılmış test çerçevesi eski düzeni korudu, yeniden açılışında boş kaldı; doğrudan yeni sayfa güncel bundle ile çiziliyordu. Bu, eski HTML'in silinmiş bundle'a işaret edebilmesiyle tutarlı gerçek dağıtım riskidir.
+
+Astra yayın düzeltmesi son24 saatteki sürümlerin hash'li `assets/` dosyalarını ve pencere başında hâlâ sunulan önceki sürümü Git geçmişinden geri getirir. Her release kendi özgün build dosyalarını listeler; eski taşınmış dosyalar sonsuza dek birikmez. Yeni build aynı yolu kazanır; commit edilmemiş public çıktılar dışarıda kalır; temiz kaynak/revision/non-force kontrolleri korunur. Bağımsız Astra incelemesi blocker bulmadı. Gerçek `file://` Git remote üzerinden iki regresyon testi yeni/güncel/eski sınır sürümlerini, silinmiş bundle kurtarmayı, süresi dolmuş taşınan dosyaları ve exporter dışlamasını doğruladı. Son tamCI ve yayın sonucu kapanışa eklenecek.

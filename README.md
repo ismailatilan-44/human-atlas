@@ -135,7 +135,7 @@ The repository includes browser-ready geometry. Rebuilding it is optional: obtai
 
 ## Deploy
 
-GitHub Pages serves the `gh-pages` branch. After committing and pushing source changes to the `fork` remote, run `npm run deploy:pages`. This builds for the repository subpath, commits only static output to a temporary checkout, and pushes without force. The GitHub Pages repository setting must select `gh-pages` at `/`. This avoids requiring OAuth workflow-file permission. To inspect the build locally: `npm run build -- --base=/human-atlas/` then `npx vite preview --base=/human-atlas/`.
+GitHub Pages serves the `gh-pages` branch. After committing and pushing source changes to the `fork` remote, run `npm run deploy:pages`. This builds for the repository subpath, commits only static output to a temporary checkout, and pushes without force. Hashed bundles from the preceding 24 hours plus the build served at that window’s boundary remain available for cached HTML; `release.json` records only the current build’s assets so carried files expire. The GitHub Pages repository setting must select `gh-pages` at `/`. This avoids requiring OAuth workflow-file permission. To inspect the build locally: `npm run build -- --base=/human-atlas/` then `npx vite preview --base=/human-atlas/`.
 
 Import this repository into Vercel as a Vite project. The included `vercel.json` configures `npm ci`, `npm run build`, and the `dist` output directory. It can also be served by a static host.
 
