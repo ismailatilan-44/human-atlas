@@ -157,11 +157,11 @@
     },
     {
       "path": "docs/model/model-scope-and-acceptance.md",
-      "sha256": "ca20dfa32a23d585be63a43401f4211a1f49dcd580c7e52c559732c20c334ddf"
+      "sha256": "31916758f453005b6bb8d7339c7ec3554aee24f459ae2081f7b2c94586af6b49"
     },
     {
       "path": "public/ATTRIBUTION.md",
-      "sha256": "40e5a3d5ce2a9bc942972daafa2da63c9ee8135216858dccf358d3dd85bde501"
+      "sha256": "71020a6fd374675dea199ebed9079428850c94b8e818767bd31cbf1d7cc159b7"
     },
     {
       "path": "public/models/atlas.json",

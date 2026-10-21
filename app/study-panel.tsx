@@ -61,9 +61,10 @@ export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics
     } catch { setPersistence('failed'); setNotice('Yerel depolama kullanılamıyor; oturum bellekte sürüyor.'); }
   }, [history, pack]);
   useEffect(() => {
+    if (blocked || !concepts.has(item.conceptId)) return;
     revealRef.current(item.conceptId, history.isolated);
     setQuery(''); heading.current?.focus();
-  }, [item.conceptId, session.phase, history.isolated, revision]);
+  }, [item.conceptId, session.phase, history.isolated, revision, concepts, blocked]);
   useEffect(() => {
     if (import.meta.env.DEV) onDiagnostics?.({ module: pack.id, history, persistence });
   }, [history, persistence, pack, onDiagnostics]);
@@ -114,7 +115,10 @@ export default function StudyPanel({ pack, concepts, reveal, exit, onDiagnostics
           <p>Vurgulanan yapının adı nedir?</p>
           {session.hinted && <p role="status">İpucu: {name(item.conceptId)}. Bu yanıt ipucusuz başarı sayılmaz.</p>}
           <input aria-label="Yanıt seçeneklerinde ara" placeholder="Ad veya kaynak kimliği ara…" value={query} onChange={e => setQuery(e.target.value)} />
-          <div className="study-answers">{[...pack.items].sort((a,b) => name(a.conceptId).localeCompare(name(b.conceptId),'tr')).filter(it => matchesAnatomyQuery(pack.datasetId, concepts.get(it.conceptId)!, query)).map(it => <button key={it.id} onClick={() => answer(it.conceptId)}>{name(it.conceptId)}</button>)}</div>
+          <div className="study-answers">{[...pack.items].sort((a,b) => name(a.conceptId).localeCompare(name(b.conceptId),'tr')).filter(it => {
+            const concept = concepts.get(it.conceptId);
+            return concept && matchesAnatomyQuery(pack.datasetId, concept, query);
+          }).map(it => <button key={it.id} onClick={() => answer(it.conceptId)}>{name(it.conceptId)}</button>)}</div>
           <button onClick={() => transition({ type: 'hint' })}>İpucu göster</button><button onClick={() => answer(null)}>Atla</button>
         </> : <>
           {session.phase === 'feedback' && <p role="status">{session.answer === item.conceptId ? session.hinted ? 'İpucuyla doğru.' : 'Doğru.' : session.answer === null ? 'Atlandı. Doğru yanıt:' : `Yanlış: ${name(session.answer!)}. Doğru yanıt:`}</p>}

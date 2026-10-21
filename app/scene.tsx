@@ -7,7 +7,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { createExplosionLayout } from "./explosion-layout";
-import { decodeModelResponse } from "./model-download";
+import { decodeModelResponse, loadModelChunks } from "./model-download";
 import { PointerTap } from "./pointer-tap";
 import { createPerformanceReport } from "./performance-report";
 import { inspectionDistance } from "./inspection-camera";
@@ -275,13 +275,14 @@ export default function AnatomyScene({
     const mats = new Map(SYSTEMS.map((s) => [s.id, materialFor(s.id)])),
       ghostMats = new Map(SYSTEMS.map((s) => [s.id, materialFor(s.id, true)]));
     let loaded = 0;
-    const loadChunk = async (ci: number) => {
+    const loadChunk = async (ci: number, signal: AbortSignal) => {
       const chunk = atlas.chunks[ci],
         compressed = !!chunk.gzip && typeof DecompressionStream !== "undefined";
       const response = await fetch(assetUrl(compressed ? chunk.gzip! : chunk.url), {
-        signal: abort.signal,
+        signal,
       });
       const buffer = await decodeModelResponse(response, chunk.bytes, compressed);
+      signal.throwIfAborted();
       if (disposed) return;
       const groups = new Map<string, T.BufferGeometry[]>();
       atlas.parts.forEach((p, i) => {
@@ -330,21 +331,14 @@ export default function AnatomyScene({
     };
     (async () => {
       try {
-        let cursor = 0;
-        await Promise.all(
-          Array.from({ length: 3 }, async () => {
-            while (cursor < atlas.chunks.length) {
-              const i = cursor++;
-              await loadChunk(i);
-            }
-          }),
-        );
+        await loadModelChunks(atlas.chunks.length, abort.signal, loadChunk);
         if (!disposed) {
           ready = true;
           dirty = true;
         }
       } catch (e) {
-        if (!disposed) onError(e instanceof Error ? e.message : "Could not load the anatomy.");
+        if (!disposed && !abort.signal.aborted)
+          onError(e instanceof Error ? e.message : "Could not load the anatomy.");
       }
     })();
     const fit = (view: string, extent = 0, orbitDirection?: T.Vector3) => {
@@ -850,8 +844,10 @@ export default function AnatomyScene({
     animate();
     const contextLost = (e: Event) => {
       e.preventDefault();
+      // Prevent late chunk progress from clearing the context-loss error.
+      abort.abort();
       performanceReport?.contextLost();
-      onError("The 3D session was paused by your device. Reload to continue.");
+      onError("The 3D session was paused by your device. Try loading the viewer again to continue.");
     };
     renderer.domElement.addEventListener("webglcontextlost", contextLost);
     return () => {

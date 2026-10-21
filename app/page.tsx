@@ -94,6 +94,9 @@ export default function Home() {
   const launchSnapshot = useRef<ExplorerSnapshot | null>(null);
   const [returnSnapshot, setReturnSnapshot] = useState<ExplorerSnapshot | null>(null);
   const detailTitle = useRef<HTMLHeadingElement>(null);
+  const guideAction = useRef<(() => void) | null>(null);
+  const guideSearchHandoff = useRef(false);
+  const guideTitle = useRef<HTMLHeadingElement>(null);
   const camera = useRef<CameraPose | null>(null);
   const history = useRef<
     { state: SceneState; chosen: Concept | null; details: boolean; camera: CameraPose | null }[]
@@ -101,6 +104,7 @@ export default function Home() {
   const [historySize, setHistorySize] = useState(0),
     [language, setLanguage] = useState<"tr" | "en" | "la">("tr");
   const [dataset, setDataset] = useState<DatasetId>("male-body");
+  const [loadAttempt, setLoadAttempt] = useState(0);
   const reference = referenceDataset(dataset);
   const [atlas, setAtlas] = useState<Atlas | null>(null),
     [state, setState] = useState(initial),
@@ -139,10 +143,13 @@ export default function Home() {
         }
       })
       .catch((e) => {
-        if (e.name !== "AbortError") { setError(e.message); setPendingPack(null); setPendingScene(null); }
+        if (!abort.signal.aborted) {
+          setError(e instanceof Error ? e.message : "Model yüklenemedi. Lütfen yeniden deneyin.");
+          setPendingPack(null); setPendingScene(null);
+        }
       });
     return () => abort.abort();
-  }, [dataset]);
+  }, [dataset, loadAttempt]);
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
       if (
@@ -390,8 +397,8 @@ export default function Home() {
       {error && (
         <div className="loading glass error" role="alert">
           <p>{error}</p>
-          <Button variant="ghost" onClick={() => location.reload()}>
-            Reload viewer
+          <Button variant="ghost" onClick={() => setLoadAttempt(attempt => attempt + 1)}>
+            Yeniden dene
           </Button>
         </div>
       )}
@@ -489,15 +496,17 @@ export default function Home() {
         </Button>
         <Button
           variant="ghost"
-          className="icon-button"
-          aria-label="About this atlas"
+          className="guide-trigger"
+          aria-label="Başlangıç rehberi ve kaynaklar"
           onClick={() => {
             setDetails(false);
             setPanel(null);
+            guideSearchHandoff.current = false;
             setAbout(true);
           }}
         >
           <Info size={18} />
+          <span>Rehber</span>
         </Button>
       </nav>
       <section
@@ -808,10 +817,11 @@ export default function Home() {
           onClick={() => {
             setDetails(false);
             setPanel(null);
+            guideSearchHandoff.current = false;
             setAbout(true);
           }}
         >
-          Source & credits <ArrowUpRight size={12} />
+          Rehber ve kaynaklar <ArrowUpRight size={12} />
         </Button>
       </footer>
       {progress < 100 && !error && (
@@ -1103,15 +1113,53 @@ export default function Home() {
           }}
         />
       )}
-      <Sheet open={about} onOpenChange={setAbout}>
-        <SheetContent className="about-sheet glass">
-          <div className="eyebrow">SOURCE & SCOPE</div>
-          <SheetTitle className="structure-title">
-            {reference?.title ?? "A body, revealed."}
-          </SheetTitle>
+      <Sheet open={about} onOpenChange={setAbout} onOpenChangeComplete={(open) => {
+        if (!open && guideAction.current) {
+          const action = guideAction.current;
+          guideAction.current = null;
+          action();
+        }
+      }}>
+        <SheetContent className="about-sheet glass" initialFocus={guideTitle} finalFocus={() => !guideSearchHandoff.current}>
+          <div className="eyebrow">HUMAN ATLAS · BAŞLANGIÇ REHBERİ</div>
+          <SheetTitle ref={guideTitle} tabIndex={-1} className="structure-title">Anatomiyi keşfederek öğren.</SheetTitle>
           <SheetDescription>
-            {reference?.scope ?? "Explore the adult male reference anatomy from BodyParts3D."}
+            Kaynak modelleri incele, yapıların bağlamını gör ve kısa çalışma modüllerini dene.
           </SheetDescription>
+          <ol className="visitor-steps">
+            <li><span className="visitor-step-number" aria-hidden="true">01</span><div>
+              <h3>Bir yapı bul</h3>
+              <p><strong>Yapı bul</strong> ile {reference ? 'bu referanstaki bir yapıyı' : '“kalp” veya “skapula” gibi bir adı'} ara. Sonucu seç; odak ve izolasyon kontrolleriyle incele. <strong>Geri</strong> önceki görünümü getirir.</p>
+            </div></li>
+            <li><span className="visitor-step-number" aria-hidden="true">02</span><div>
+              <h3>Bütün ile parçayı karşılaştır</h3>
+              <p><strong>Erkek vücut</strong> referansında <strong>Kafatası · 22 kemik</strong> seçeneğini aç. Bir kemik seçip ayır; farklı bakışlardan incele ve yerine döndür.</p>
+            </div></li>
+            <li><span className="visitor-step-number" aria-hidden="true">03</span><div>
+              <h3>Kendini dene</h3>
+              <p><strong>Çalışma ve tekrar</strong> içinden bir modül seç. İncele, hatırla ve geri bildirimle tekrar et. İlerleme yalnız bu tarayıcıda saklanır.</p>
+            </div></li>
+          </ol>
+          <Button className="visitor-start" disabled={!atlas || progress !== 100 || !!error} onClick={() => {
+            // The close-complete callback precedes focus-manager cleanup. Keep return focus
+            // suppressed through that cleanup so it cannot blur and dismiss the new search.
+            guideSearchHandoff.current = true;
+            guideAction.current = () => { setLearningOpen(false); setScenesOpen(false); setDetails(false); setQuery(''); setPanel('search'); };
+            setAbout(false);
+          }}>Yapı bul ile başla <ArrowUpRight size={16} /></Button>
+          <p className="visitor-controls">Sürükle: döndür · Kaydır veya iki parmak: yakınlaştır · Tıkla/dokun: seç. TR / EN / LA, anatomik adların dilini değiştirir; bazı adlar henüz çevrilmemiştir.</p>
+          <section className="visitor-scope" aria-label="Proje ve kapsam">
+            <h3>Gelişen bir eğitim prototipi</h3>
+            <p>Bu sürüm kaynaklı 3B keşif ve sınırlı yapı tanıma alıştırmaları sunar. Tam bir anatomi müfredatı değildir; anatomik uzman incelemesi bekler. Ayrı bölgesel referanslar aynı bedenin parçaları olarak birleştirilmez.</p>
+            <p>Özgün Human Atlas uygulaması üzerine geliştirilen bu çalışma; Türkçe bölgesel adlar, kaynaklı ilişkiler, ayrı referanslar ve çalışma akışları ekler.</p>
+            <div className="visitor-project-links">
+              <a href="https://github.com/ismailatilan-44/human-atlas" target="_blank" rel="noreferrer">Proje ve geliştirme kayıtları <ArrowUpRight size={14} /></a>
+              <a href="https://github.com/ashemag/human-atlas" target="_blank" rel="noreferrer">Özgün uygulama · ashemag · MIT <ArrowUpRight size={14} /></a>
+            </div>
+          </section>
+          <details className="visitor-sources">
+            <summary>Model kaynakları, lisanslar ve kapsam</summary>
+            <p className="visitor-current-reference">Açık referans: {reference?.title ?? 'Erkek vücut'}</p>
           <div className="about-copy">
             {reference ? (
               <>
@@ -1142,19 +1190,18 @@ export default function Home() {
             ) : (
               <>
                 <p>
-                  <strong>Male · BodyParts3D</strong>
+                  <strong>Erkek vücut · BodyParts3D + Z-Anatomy</strong>
                   <br />
-                  2,234 individual meshes and 3,432 named concepts from an adult male reference
-                  anatomy.
+                  {atlas?.parts.length.toLocaleString() ?? '—'} paketli model parçası. Temel BodyParts3D referansı ve ek kaynak paketleri kendi kimliklerini ve lisanslarını korur.
                 </p>
                 <p>
-                  This reference does not contain every human structure or variation. Named concepts
-                  can contain multiple pieces; each source mesh is rendered once.
+                  Bu referans her insan yapısını veya varyasyonunu içermez. Bir adlandırılmış
+                  seçim birden çok model parçası içerebilir; parça sayısı anatomik tamlık ölçüsü değildir.
                 </p>
                 <p>
-                  Colors and system groupings are designed for exploration. The geometry is
-                  simplified for the web, and short explanations provide general educational
-                  context. This is an anatomical reference, not a diagnostic or surgical tool.
+                  Renkler ve sistem grupları keşfi kolaylaştırır. Geometri ve kısa açıklamalar
+                  eğitim amaçlıdır; tanı veya cerrahi planlama için kullanılmaz. Kafatası ayırma
+                  görünümü bir eğitim düzenidir, doğal hareketi göstermez.
                 </p>
                 <h3>Ek modeller ve yüzey işaretleri</h3>
                 <p>
@@ -1205,7 +1252,13 @@ export default function Home() {
                 >
                   Omurilik dokusu: BodyParts3D 4.3 kaynak ve atıfları
                 </a>
-                <h3>Source</h3>
+                <a href={assetUrl("/models/extensions/LEFT-CORDS-BP3D43-ATTRIBUTION.md")} target="_blank" rel="noreferrer">
+                  İki sol pleksus kordu: kaynak, lisans ve kapsam
+                </a>
+                <a href={assetUrl("/models/extensions/LUNG-BP3D43-ATTRIBUTION.md")} target="_blank" rel="noreferrer">
+                  Akciğer doku yüzeyleri: kaynak, lisans ve kapsam
+                </a>
+                <h3>Temel BodyParts3D kaynağı</h3>
                 <p>
                   BodyParts3D, © The Database Center for Life Science licensed under CC Attribution
                   4.0 International.
@@ -1234,6 +1287,7 @@ export default function Home() {
               </>
             )}
           </div>
+          </details>
         </SheetContent>
       </Sheet>
       </>}
