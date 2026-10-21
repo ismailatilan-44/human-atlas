@@ -214,3 +214,27 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
   .about-sheet { padding-inline: 22px !important; padding-bottom: max(24px, env(safe-area-inset-bottom)) !important; }
   .visitor-project-links a { min-height: 44px; }
 }
+
+/* Landscape inspectors reserve the right column; navigation stays above the model on the left. */
+@media (max-height: 600px) and (orientation: landscape) {
+  body:has(.detail-sheet) .study-entry { display: none; }
+  body:has(.detail-sheet) .top-actions {
+    visibility: visible;
+    top: max(12px, env(safe-area-inset-top));
+    left: max(12px, env(safe-area-inset-left));
+    right: 324px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  body:has(.detail-sheet) .top-actions .language-select { width: 48px; min-height: 44px; padding: 6px; }
+  body:has(.detail-sheet) .top-actions button { width: 44px; min-width: 44px; min-height: 44px; padding: 0; }
+  body:has(.detail-sheet) .top-actions > button[aria-label="Önceki görünüme dön"] { width: 48px; font-size: 10px; }
+  body:has(.detail-sheet) .top-actions button:not(.guide-trigger) span,
+  body:has(.detail-sheet) .top-actions kbd { display: none; }
+  body:has(.detail-sheet) .top-actions .guide-trigger { width: 80px; min-width: 80px; gap: 5px; }
+  body:has(.detail-sheet) .identity { top: 68px; }
+  body:has(.detail-sheet) .identity .eyebrow { display: none; }
+  body:has(.detail-sheet) .identity h1 { margin: 0 0 6px; }
+  body:has(.detail-sheet) .dataset-select { margin-top: 6px; }
+}
