@@ -58,7 +58,7 @@ These priorities concern a credible bounded showcase. They do not require comple
 | Before claiming educational benefit | Learning improvement, transfer and usability with intended learners have not been demonstrated. Current practice tests recognition, not relation recall or clinical reasoning. | A defined learner task and consent-appropriate pilot with observations, errors and feedback; any effectiveness claim requires an appropriate study rather than usage counts or a demo score. |
 | Subsequent model work | Unbound targets, term gaps, fine anatomy and network continuity remain in versioned regional queues. | One explicitly chosen source-backed package through search → selection → focus/context → relationship → return, with its owning source/target/attribution records and review gates updated. |
 
-The next action is to close the release-and-demo evidence row for this bounded presentation. New anatomy acquisition, clinical content, account/backend work and a scholarship submission are separate decisions.
+The release-and-demo evidence row is now technically closed by the current delivery handoff; it records the final hosted SHA, passing CI and real browser journeys. The next action is the bounded learner/anatomist review. New anatomy acquisition, clinical content, account/backend work and a scholarship submission are separate decisions.
 
 ## Verification of this documentation
 

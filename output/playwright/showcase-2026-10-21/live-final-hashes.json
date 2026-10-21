@@ -1,0 +1,36 @@
+{
+  "index.html": {
+    "status": 200,
+    "sha256": "7bddce0ba8bafd8fb13ed9898307acad1d72528c777112385947a39274d8f076",
+    "matches_build": true
+  },
+  "assets/index--yHQ5Z_I.js": {
+    "status": 200,
+    "sha256": "f2ecefc633baa970c9707585de2417665e0629c2498671bbbe16bce1c8c246dd",
+    "matches_build": true
+  },
+  "assets/index-CBhKVene.css": {
+    "status": 200,
+    "sha256": "1ea6c87bf6941d50e4f1b7cb5070f3349a78034bde0975792ca17d683db8e036",
+    "matches_build": true
+  },
+  "recovered/index-B8_76qD6.js": {
+    "status": 200,
+    "bytes": 2433227
+  },
+  "recovered/index-Cx6lOCmP.js": {
+    "status": 200,
+    "bytes": 2456002
+  },
+  "recovered/index-DQw3vV3e.js": {
+    "status": 200,
+    "bytes": 2456002
+  },
+  "release": {
+    "revision": "9ccaa60b661f36a95f2cd10355882033eaa8c987",
+    "assets": [
+      "assets/index--yHQ5Z_I.js",
+      "assets/index-CBhKVene.css"
+    ]
+  }
+}
