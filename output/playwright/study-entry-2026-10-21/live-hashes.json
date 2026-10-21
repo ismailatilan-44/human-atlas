@@ -1,0 +1,26 @@
+{
+  "release": {
+    "revision": "dd4b927ea95115c18758487b7d1f81911a5c0aee",
+    "assets": [
+      "assets/index-BSm3PM2P.js",
+      "assets/index-CBhKVene.css"
+    ]
+  },
+  "checks": [
+    {
+      "path": "index.html",
+      "sha256": "dc91615eb45c74cc937ca6fbbc189de801bb8c5ea90b7574f0a17f8eebc66bd8",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/index-BSm3PM2P.js",
+      "sha256": "e84ea5eb9a7c05b49f86ef75d41634c2a0bec648e3cd4c4e2f4610b34866120e",
+      "matchesBuild": true
+    },
+    {
+      "path": "assets/index-CBhKVene.css",
+      "sha256": "1ea6c87bf6941d50e4f1b7cb5070f3349a78034bde0975792ca17d683db8e036",
+      "matchesBuild": true
+    }
+  ]
+}

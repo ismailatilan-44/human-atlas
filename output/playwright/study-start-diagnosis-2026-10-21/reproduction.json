@@ -1,0 +1,35 @@
+{
+  "source": "0c1984ad2946020c618b4d81cad796923992bf2b",
+  "liveSource": "9ccaa60b661f36a95f2cd10355882033eaa8c987",
+  "environment": "Node22.23.2; actual React SSR + real study modules; isolated in-memory storage; no user storage accessed",
+  "fresh": {
+    "heading": "İncele · 1/9",
+    "summary": false
+  },
+  "reopen": {
+    "launcherLabel": "Çalışmaya başla",
+    "phase": "summary",
+    "firstCorrect": 9,
+    "total": 9,
+    "isolated": true,
+    "revealedItem": {
+      "id": "left-ankle-v1:fibula",
+      "conceptId": "zanatomy:fibula-l",
+      "sourceObject": "Fibula.l",
+      "evidence": [
+        {
+          "sourceId": "zanatomy-ta2-pinned",
+          "locator": "TA2 1427; CSV line 1502; English and Latin columns"
+        },
+        {
+          "sourceId": "zanatomy-lower-limb-source",
+          "locator": "Z-Anatomy/Startup.blend; object Fibula.l",
+          "scope": "Source object identity and side naming; geometry acceptance is separate"
+        }
+      ],
+      "geometryPartId": "ZA-DLN-FIBULA-L"
+    },
+    "storageUnchangedByRender": true
+  },
+  "limitation": "Reproduces a saved completed session; does not establish who created the user browser record or when. SSR does not execute visual effects; displayed bone derived from existing reveal effect."
+}
