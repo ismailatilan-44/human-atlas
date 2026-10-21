@@ -43,3 +43,30 @@ test('a recall session renders safely while retry clears the atlas, then retains
     await server.close();
   }
 });
+
+test('explicit new/result entries preserve legacy history and ongoing answers', async () => {
+ const server=await createServer({configFile:false,plugins:[react()],optimizeDeps:{noDiscovery:true,include:[]},server:{middlewareMode:true,hmr:false,watch:null},appType:'custom'});
+ try {
+  const {default:Panel}=await server.ssrLoadModule('/app/study-panel.tsx');
+  const {newHistory,restartHistory,saveStudy}=await server.ssrLoadModule('/app/study-history.ts');
+  const {startStudy}=await server.ssrLoadModule('/app/study-session.ts');
+  const {studyPacks}=await server.ssrLoadModule('/app/study-packs.ts');
+  const pack=studyPacks.find(p=>p.id==='left-ankle-v1');
+  let h=newHistory(pack,startStudy(9),1);
+  h.session={...h.session,phase:'summary',index:8,first:Object.fromEntries(pack.items.map((_,i)=>[i,'correct'])),success:pack.items.map((_,i)=>i)};
+  h.completed=[{at:1,firstCorrect:9,successful:9,total:9}]; h.isolated=true;
+  const values=new Map(),storage={getItem:k=>values.get(k)??null,setItem:(k,v)=>values.set(k,v)};
+  globalThis.window={localStorage:storage};saveStudy(storage,pack,h);
+  const render=entry=>renderToStaticMarkup(createElement(Panel,{pack,entry,concepts:new Map(),reveal(){},exit(){}}));
+  const before=[...values];
+  assert.match(render('new'),/İncele · 1\/9/);assert.doesNotMatch(render('new'),/heading.*Çalışma özeti/);
+  assert.match(render('result'),/Önceki çalışma sonucu/);assert.match(render('result'),/9\/9/);
+  assert.deepEqual([...values],before);
+  h=restartHistory(h,pack,{...startStudy(9),phase:'recall',index:1,first:{0:'correct'},success:[0]},2);
+  saveStudy(storage,pack,h);
+  assert.match(render('resume'),/Hatırla · 2\/9/);
+  assert.match(render('result'),/Önceki çalışma sonucu/);assert.match(render('result'),/>Devam et</);
+  h.lastResult=undefined;saveStudy(storage,pack,h);
+  assert.match(render('result'),/yalnız toplam sonuç/);assert.match(render('result'),/9\/9/);
+ } finally {delete globalThis.window;await server.close();}
+});

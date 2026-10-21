@@ -67,3 +67,26 @@ test('full content identity invalidates changed source evidence and undo survive
  assert.ok(!validateHistory(h,{...sourcePack,items:[{...sourcePack.items[0],evidence:[{sourceId:'source',locator:'changed'}]}]}));
  assert.ok(!validateHistory({...h,undo:{...before,undo:before}},sourcePack));
 });
+
+test('legacy completed result survives new practice, reload and further retries without losing scheduling', async () => {
+ const {previousResult,hasPreviousResult,restartHistory}=await load('app/study-history.ts');
+ let h=review(fresh(),event('legacy','correct'));
+ h.session={...h.session,phase:'summary',first:{0:'correct'},success:[0]};h.isolated=true;
+ h.completed=[{at,firstCorrect:1,successful:1,total:1}];
+ const old=JSON.parse(JSON.stringify(h));
+ assert.ok(validateHistory(h,pack));
+ assert.ok(hasPreviousResult(h));
+ const next=restartHistory(h,pack,startStudy(1),at+1000);
+ assert.equal(next.session.phase,'inspect');assert.deepEqual(next.session.first,{});
+ assert.deepEqual(next.cards,h.cards);assert.deepEqual(next.events,h.events);assert.deepEqual(next.completed,h.completed);
+ assert.deepEqual(previousResult(next),{session:h.session,at});assert.deepEqual(h,old);
+ const values=new Map(), storage={getItem:k=>values.get(k)??null,setItem:(k,v)=>values.set(k,v)};
+ assert.ok(saveStudy(storage,pack,next));const restored=loadStudy(storage,pack).history;
+ assert.deepEqual(restored,JSON.parse(JSON.stringify(next)));assert.ok(validateHistory(restored,pack));
+ const again=restartHistory(restored,pack,startStudy(1),at+2000);
+ assert.deepEqual(previousResult(again),previousResult(next));
+ assert.equal(validateHistory({...next,lastResult:{session:startStudy(1),at}},pack),false);
+ assert.equal(validateHistory({...next,lastResult:{session:old.session,at:-1}},pack),false);
+ // Old versions stored aggregates only after starting a subsequent round.
+ assert.ok(hasPreviousResult({...next,lastResult:undefined}));
+});

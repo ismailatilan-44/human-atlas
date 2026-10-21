@@ -1,3 +1,4 @@
+import { loadStudy, hasPreviousResult, type StudyEntry } from './study-history';
 import { SKULL_GROUP, skullItems, skullParts, skullItem, skullDescription, skullViews, skullStart } from './skull';
 import { learningStorage, fixtureMode } from './learning-storage';
 import StudyPanel, { type StudyDiagnostics } from "./study-panel";
@@ -87,9 +88,8 @@ export default function Home() {
   const [pendingScene, setPendingScene] = useState<SavedScene | null>(null);
   const [sceneNotice, setSceneNotice] = useState('');
   const [pendingPack, setPendingPack] = useState<StudyPack | null>(null);
-  const [lastPack, setLastPack] = useState(() => {
-    try { return learningStorage().getItem('atlas.last-study-pack') ?? ''; } catch { return ''; }
-  });
+  const [studyEntry, setStudyEntry] = useState<StudyEntry>('resume');
+  const pendingEntry = useRef<StudyEntry>('resume');
   const studyReturn = useRef<(() => void) | null>(null);
   const launchSnapshot = useRef<ExplorerSnapshot | null>(null);
   const [returnSnapshot, setReturnSnapshot] = useState<ExplorerSnapshot | null>(null);
@@ -329,11 +329,12 @@ export default function Home() {
       else applySnapshot(saved);
     };
     setActivePack(pack); setLearningOpen(false);
-    setLastPack(pack.id);
+    setStudyEntry(pendingEntry.current);
     try { learningStorage().setItem('atlas.last-study-pack', pack.id); } catch { /* Panel reports durable storage availability. */ }
     setPanel(null); setDetails(false); setStudying(true);
   };
-  const requestStudy = (pack: StudyPack) => {
+  const requestStudy = (pack: StudyPack, entry: StudyEntry = 'resume') => {
+    pendingEntry.current = entry;
     launchSnapshot.current ??= snapshot();
     if (dataset === pack.datasetId && atlas?.datasetId === pack.datasetId && progress === 100) startSession(pack);
     else { setPendingPack(pack); setDataset(pack.datasetId); }
@@ -414,7 +415,7 @@ export default function Home() {
           isolate: () => setState(s => ({ ...s, isolate: true, focused: true, explode: 0, restoreCamera: undefined })),
         }} /></Suspense>}
 
-      {studying ? <StudyPanel key={activePack.id} pack={activePack} onDiagnostics={import.meta.env.DEV ? value => { qaStudy.current = value; } : undefined} blocked={!!error || progress !== 100} skullControls={activePack.id === 'whole-skull-v1' ? <div className="skull-tools"><label>Bakış <select aria-label="Kafatası bakışı" value={state.view} onChange={e => skullView(e.target.value as View)}>{skullViews.map(v => <option key={v.id} value={v.id}>{v.label}</option>)}</select></label><button onClick={() => skullAction(state.skull?.separated ? 'assemble' : 'separate')}>{state.skull?.separated ? 'Kemiği yerine döndür' : 'Seçili kemiği ayır'}</button><p>Sağ/sol bireye aittir. Ayırma eğitim düzenidir; doğal hareket değildir.</p></div> : undefined} language={language} concepts={conceptMap} reveal={(id, isolated) => {
+      {studying ? <StudyPanel key={activePack.id} pack={activePack} entry={studyEntry} overview={() => { setChosen(null); setState(s => ({ ...s, selected: [], isolate: false, focused: false, ghost: false, skull: undefined, restoreCamera: undefined })); }} onDiagnostics={import.meta.env.DEV ? value => { qaStudy.current = value; } : undefined} blocked={!!error || progress !== 100} skullControls={activePack.id === 'whole-skull-v1' ? <div className="skull-tools"><label>Bakış <select aria-label="Kafatası bakışı" value={state.view} onChange={e => skullView(e.target.value as View)}>{skullViews.map(v => <option key={v.id} value={v.id}>{v.label}</option>)}</select></label><button onClick={() => skullAction(state.skull?.separated ? 'assemble' : 'separate')}>{state.skull?.separated ? 'Kemiği yerine döndür' : 'Seçili kemiği ayır'}</button><p>Sağ/sol bireye aittir. Ayırma eğitim düzenidir; doğal hareket değildir.</p></div> : undefined} language={language} concepts={conceptMap} reveal={(id, isolated) => {
         const c = conceptMap.get(id);
         if (!c) return;
         choose(c);
@@ -427,11 +428,17 @@ export default function Home() {
       {learningOpen && <section className="detail-sheet study-panel" aria-label="Çalışma modülleri">
         <button onClick={() => { setLearningOpen(false); setPendingPack(null); launchSnapshot.current = null; }}>Kapat</button>
         <h2>Kaynak modelle çalış</h2>
-        <p>İncele, hatırla, düzelt ve zamanı gelen soruları tekrar et. İlerleme bu tarayıcıda saklanır.</p>
-        {studyPacks.map(pack => <div key={pack.id}>
-          <h3>{pack.title}</h3><p>{pack.scope}</p>
-          <button disabled={!!pendingPack} onClick={() => requestStudy(pack)}>{lastPack === pack.id ? 'Devam et' : 'Çalışmaya başla'} · {pack.items.length} yapı</button>
-        </div>)}
+        <p>İncele, hatırla, düzelt ve zamanı gelen soruları tekrar et. Yeni çalışma mevcut turu baştan başlatır; geçmiş sonuçlar ve tekrar takvimi korunur. Yarım tur için Devam et seçeneğini kullanın.</p>
+        {studyPacks.map(pack => {
+          let saved;
+          try { saved = loadStudy(learningStorage(), pack).history; } catch { /* New session remains available. */ }
+          return <div key={pack.id} role="group" aria-label={pack.title}>
+            <h3>{pack.title}</h3><p>{pack.scope}</p>
+            <button disabled={!!pendingPack} onClick={() => requestStudy(pack, 'new')}>Yeni çalışma · {pack.items.length} yapı</button>
+            {saved && saved.session.phase !== 'summary' && <button disabled={!!pendingPack} onClick={() => requestStudy(pack, 'resume')}>Devam et</button>}
+            {saved && hasPreviousResult(saved) && <button disabled={!!pendingPack} onClick={() => requestStudy(pack, 'result')}>Önceki sonucu gör</button>}
+          </div>;
+        })}
         {pendingPack && <p role="status">Referans yükleniyor…</p>}
       </section>}
       <header className="identity">
@@ -852,7 +859,7 @@ export default function Home() {
           <div className="detail-header">
             <div className="detail-learning-actions">
               <button onClick={() => { setScenesOpen(true); setLearningOpen(false); setSceneNotice(''); }}>Sahneyi kaydet</button>
-              <button onClick={() => { if (state.skull) requestStudy(studyPacks.find(p => p.id === 'whole-skull-v1')!); else { launchSnapshot.current = snapshot(); setLearningOpen(true); setDetails(false); } }}>Çalışma</button>
+              <button onClick={() => { launchSnapshot.current = snapshot(); setLearningOpen(true); setDetails(false); }}>Çalışma</button>
             </div>
             <div className="detail-accent" style={{ background: system?.color }} />
             <div className="eyebrow">

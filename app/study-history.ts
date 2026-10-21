@@ -4,10 +4,13 @@ export type StudyIdentity = { id: string; datasetId: string; version: string; it
 export type ReviewOutcome = 'correct' | 'wrong' | 'hint' | 'skip';
 export type ReviewCard = { due: number; last: number; streak: number; reviews: number };
 export type ReviewEvent = { id: string; itemId: string; at: number; outcome: ReviewOutcome };
+export type StudyEntry = 'new' | 'resume' | 'result';
+export type StudyResult = { session: StudySession; at?: number };
 export type LearnerHistory = {
   schema: 1; identity: string; cards: Record<string, ReviewCard>; events: ReviewEvent[];
   session: StudySession; isolated: boolean; sessionId: string;
   undo?: LearnerHistory;
+  lastResult?: StudyResult;
   completed: { at: number; firstCorrect: number; successful: number; total: number }[];
 };
 const DAY = 86400000;
@@ -18,6 +21,19 @@ export function studyIdentity(pack: StudyIdentity): string {
 export function newHistory(pack: StudyIdentity, session: StudySession, now: number): LearnerHistory {
   return { schema: 1, identity: studyIdentity(pack), cards: {}, events: [], session, isolated: false,
     sessionId: `${now}-${Math.random().toString(36).slice(2)}`, completed: [] };
+}
+/** Legacy summary sessions remain readable without rewriting or changing content identity. */
+export function previousResult(history: LearnerHistory): StudyResult | undefined {
+  return history.session.phase === 'summary'
+    ? { session: history.session, at: history.completed.at(-1)?.at }
+    : history.lastResult;
+}
+export function hasPreviousResult(history: LearnerHistory): boolean {
+  return !!previousResult(history) || history.completed.length > 0;
+}
+export function restartHistory(history: LearnerHistory, pack: StudyIdentity, session: StudySession, now: number): LearnerHistory {
+  return { ...history, lastResult: previousResult(history), undo: undefined, session, isolated: false,
+    sessionId: newHistory(pack, session, now).sessionId };
 }
 /** UTC epoch milliseconds; early practice cannot accelerate a scheduled interval. No clinical mastery claim. */
 export function review(history: LearnerHistory, event: ReviewEvent): LearnerHistory {
@@ -57,6 +73,9 @@ export function validateHistory(value: unknown, pack: StudyIdentity): value is L
     || !Object.entries(h.cards).every(([id,c]) => ids.has(id) && c && time(c.due) && time(c.last) && Number.isInteger(c.streak) && c.streak >= 0 && c.streak <= 5 && Number.isInteger(c.reviews) && c.reviews >= 0)
     || !Array.isArray(h.events) || h.events.length > 500 || !h.events.every(e => e && typeof e.id === 'string' && ids.has(e.itemId) && time(e.at) && ['correct','wrong','hint','skip'].includes(e.outcome))
     || !Array.isArray(h.completed) || h.completed.length > 50 || !h.completed.every(c => c && time(c.at) && [c.firstCorrect,c.successful,c.total].every(v => Number.isInteger(v) && v >= 0 && v <= n))) return false;
+  if (h.lastResult && (h.lastResult.session?.phase !== 'summary'
+    || (h.lastResult.at !== undefined && !time(h.lastResult.at))
+    || !validateHistory({ ...h, session: h.lastResult.session, lastResult: undefined, undo: undefined }, pack))) return false;
   if (h.undo && (h.undo.undo || !validateHistory(h.undo, pack))) return false;
   return true;
 }
