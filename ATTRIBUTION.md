@@ -15,7 +15,20 @@ Source OBJ comments mention an older CC BY-SA 2.1 Japan license. The official cu
 
 BodyParts3D represents an adult male reference anatomy based on TARO MRI and anatomical illustration refinements. It is not a complete model of every possible human anatomical structure or variation. This interface is educational and is not a clinical tool.
 
-## Historical assets (not included in the current release)
+## Current independent references and extensions
+
+The current application also offers a separate **27-part female pelvis reference** from HRA, plus separate inner-ear, lower-limb and upper-limb references. These packages preserve their own source frames and component licenses; they are not registered additions to the male body. Their complete attribution records are:
+
+- [Female pelvis — HRA](models/female-pelvis/ATTRIBUTION.md)
+- [Inner ear — component-specific terms](models/inner-ear-reference/ATTRIBUTION.md)
+- [Lower limb — Z-Anatomy](models/lower-limb-nerve-reference/ATTRIBUTION.md)
+- [Upper-limb nerves — Z-Anatomy](models/upper-limb-nerve-reference/ATTRIBUTION.md)
+
+Registered male-body extensions have separate attribution for [arm/median nerves](models/extensions/ATTRIBUTION.md), [knee](models/extensions/KNEE-ATTRIBUTION.md), [sciatic nerves](models/extensions/SCIATIC-ATTRIBUTION.md), [brachial plexus](models/extensions/BRACHIAL-PLEXUS-ATTRIBUTION.md), [left cords](models/extensions/LEFT-CORDS-BP3D43-ATTRIBUTION.md), [thyroid](models/extensions/THYROID-BP3D43-ATTRIBUTION.md), [spinal cord](models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md), and [lung tissue](models/extensions/LUNG-BP3D43-ATTRIBUTION.md). The base license above does not replace these component terms.
+
+## Historical whole-body female assembly (not included in the current release)
+
+This historical 888-mesh assembly is different from the current 27-part female pelvis reference linked above.
 
 Earlier repository revisions included female reference anatomy: Kristen Browne and Heidi Schlehlein, Human Reference Atlas / HuBMAP, *3D Reference Organ Set for Female v1.5* (2023). CC BY 4.0. Geometry adapted for this viewer.
 
