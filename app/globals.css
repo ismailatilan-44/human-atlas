@@ -238,3 +238,9 @@ h1 .edition{font-family:inherit;font-weight:500;font-size:10px;letter-spacing:.0
   body:has(.detail-sheet) .identity h1 { margin: 0 0 6px; }
   body:has(.detail-sheet) .dataset-select { margin-top: 6px; }
 }
+
+/* Very short landscape screens give the remaining left column entirely to anatomy and navigation. */
+@media (max-height: 360px) and (orientation: landscape) {
+  .studio { min-height: 0; }
+  body:has(.detail-sheet) .identity { display: none; }
+}
