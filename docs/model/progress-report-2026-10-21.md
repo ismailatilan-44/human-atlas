@@ -88,3 +88,35 @@ Normal [canlı URL](https://ismailatilan-44.github.io/human-atlas/) üzerinden g
 [Canlı konsol gözlemi](../../output/playwright/study-entry-2026-10-21/live-console.json) hızlı referans değişimlerinde dört AbortError kaydı içeriyor. Bunlar sahne cleanup'ının iptal ettiği önceki indirmelere ait; `loadModelChunks`/scene catch iptalleri karşılıyor, hata paneli oluşmadı ve hedef referans tamamlandı. Bu kayıt “sıfır konsol hatası” kabulü olarak sunulmaz. Kullanıcının bildirdiği başla→eski başarı özeti ve üç giriş akışı için açık kriter kalmadı.
 
 Kaynak değişmeyen bu kapanış kanıtları ayrı doküman commit'idir; yeni ürün yayını gerektirmez. Önceden kirli2 Ekim raporu128 satırla ayrı kaldı. Görev sunucusu durdurulur ve temiz yayın worktree'si arşivlenir. Bekleme yaklaşık5 dakika büyük statik Git aktarımı; toplam aktif süre ölçülmedi. Sonraki tek paket mevcut insan değerlendirme planının öğrenci/anatomist ile yürütülmesidir; fiziksel telefon, erişilebilirlik ve anatomik kabul iddiası eklenmedi.
+
+## Diğer çalışma bölgeleri: giriş ve geçmiş kabulü
+
+21 Ekim takip isteği sağ ayak bileği, sağ üst ekstremite ve bütün kafatasında Yeni çalışma / Devam et / Önceki sonucu gör akışlarını denetlemektir. Başlangıç `22a140baf892d6cd9f0e81315db015f7da6d38b3`, dal `codex/scholarship-readiness`; fork main aynı SHA, gh-pages `f96fd7f` olarak ağdan doğrulandı. Canlı release.json hâlâ ürün kaynağı `dd4b927ea95115c18758487b7d1f81911a5c0aee`. Önceden kirli2 Ekim raporunun128 satırı korunuyor.
+
+**Sonuç: aynı tür ürün hatası tekrarlanmadı; runtime kodu/şema/içerik değişikliği gerekmedi.** Önceki ortak düzeltme üç modülü de kapsıyor. Bu takip teslimi otomatik regresyon kapsamı ve tarayıcı kanıtıdır; aynı ürün dosyalarını tekrar dağıtmak yerine zaten yayındaki doğrulanmış Pages sürümü korunur.
+
+### Gerçek tarayıcı matrisi
+
+Chrome desktop1710×952 ve dar390×844; gerçek düğmeler ve model görüntüsü. Ayrı loopback sandbox'ta şema1, lastResult alanı bulunmayan üç tamamlanmış tarihî kayıt oluşturuldu. Last-pack başka modüldü. [Fixture](../../output/playwright/study-regions-2026-10-21/fixture.html) yalnız geçici olarak `web/study-entry-matrix.html` konumunda çalıştırıldı; sonra kaldırıldı. Asıl öğrenci alanına fixture yazılmaz. [Akış günlüğü](../../output/playwright/study-regions-2026-10-21/journeys.json).
+
+| Modül | Önceki sonuç | Yeni | İlk gerçek cevaptan sonra | Sonuçtan dönüş ve yenileme |390px üç eylem |
+| --- | --- | --- | --- | --- | --- |
+| Sağ ayak bileği |9/9, tarihli |İncele1/9 |Hatırla2/9, yalnız ilk cevap doğru |Aynı2/9 ve sağ calcaneus izolasyonu |PASS |
+| Sağ üst ekstremite |5/5, tarihli |İncele1/5 |Hatırla2/5, yalnız ilk cevap doğru |Aynı2/5 ve sağ scapula izolasyonu |PASS |
+| Bütün kafatası |22/22, tarihli |İncele1/22 |Hatırla2/22, yalnız ilk cevap doğru |Aynı2/22 ve frontal kemik izolasyonu |PASS |
+
+Eski sonuçları görüntüleme yeni başarı üretmedi. Modüller ve referanslar arasında geçiş yapıldı; tüm kayıtlar modüle bağlı kaldı. [İlk kalıcılık karşılaştırması](../../output/playwright/study-regions-2026-10-21/preservation.json) ve [mobil yeni turlardan sonraki karşılaştırma](../../output/playwright/study-regions-2026-10-21/preservation-after-mobile.json): üç modülde eski olay dizisi, tamamlanan tur ve due tarihleri birebir korundu; son eski ayrıntılı sonuç erişilebilir kaldı. Mobil Yeni sonrası mevcut ilk cevap/success boş, yeni tur inspect0; eski olay sayıları10/6/23 ve tamamlanan eski tur sayısı1 korundu. Bu sayılar ayrı test kayıtlarına aittir.
+
+Görsel kanıtlar: [sağ devam](../../output/playwright/study-regions-2026-10-21/right-resume.png), [üst devam](../../output/playwright/study-regions-2026-10-21/upper-resume.png), [kafatası devam](../../output/playwright/study-regions-2026-10-21/skull-resume.png); [sağ390](../../output/playwright/study-regions-2026-10-21/right-mobile-resume.png), [üst390](../../output/playwright/study-regions-2026-10-21/upper-mobile-resume.png), [kafatası390](../../output/playwright/study-regions-2026-10-21/skull-mobile-resume.png). Panel içi kaydırmayla alt düğmelere erişildi; viewport sonunda sıfırlandı. Fiziksel telefon kabulü değildir.
+
+### Canlı sürüm ve gerçek geçmiş
+
+[Normal Pages adresinde](https://ismailatilan-44.github.io/human-atlas/) sağ ayak bileği eski kaydı ilk deneme8/9,1 atlanan, tekrarlar dahil9/9 idi. Yeni→İncele1/9→Sonraki2/9→Kaydet/geri→yenileme→Devam2/9→Önceki sonuç dizisi eski tarihi,8/9'u ve “Atlandı · Sonradan doğru” ayrıntısını korudu: [canlı sağ](../../output/playwright/study-regions-2026-10-21/live-right-result.png). Sağ üst ekstremitede aynı akış1/5→2/5→yenileme→devam→eski5/5 olarak geçti: [canlı üst](../../output/playwright/study-regions-2026-10-21/live-upper-result.png). Canlıda cevap verilmedi; yeni puan/tamamlanan tur eklenmedi. Bu iki yeni inceleme turu2. adımda kaldı.
+
+Kafatasındaki mevcut yarım tur İncele1/22/Etmoid idi; sıfırlamadan Devam→Kaydet/geri→yenileme→Devam yapıldı. Önce/sonra panel metni birebir aynıydı: [canlı kafatası](../../output/playwright/study-regions-2026-10-21/live-skull-resume.png). Bu gerçek kayıtta önceki tamamlanmış sonuç yoktu; yapay bir22/22 canlıya yazılmadı. Kafatasının tamamlanmış sonuç→Yeni ve sonuçtan aktif oturuma dönüş yolları yukarıdaki ayrı test kayıtlarıyla gerçek tarayıcıda doğrulandı.
+
+### Regresyon ve kapanış
+
+`scripts/study-loading.test.mjs` explicit-entry regresyonu yalnız sol modül yerine **dört mevcut modülü** dolaşır. Her pakette tamamlanmış eski turda atlanan ama sonradan doğru cevap, Yeni1/N, mevcut2/N'e devam, eski ayrıntılı sonuç, aggregate-only eski sonuç ve render sırasında storage değişmemesi denetlenir. [Node22.23.2 ilgili kontroller](../../output/playwright/study-regions-2026-10-21/regression.log):13/13 PASS (4 paket alt testi dahil). Önceki37-test runtime kabulü değişmemiş ürün için geçerli; yeni CI sonucu kapanışa eklenir.
+
+Ürün hatası veya yeniden yayın gerektiren kaynak değişikliği bulunmadı. Test/kanıt commit'i fork main'e gönderilir; Pages ürün kaynağıdd4b927 olarak kalır. Geçici yerel fixture kaldırıldı, görev sunucusu kapatılır. Ölçüm: toplam aktif süre bilinmiyor; test fixture bağlantısının dar ekranda satıra bölünmesi otomasyon tıklamasını iki kez etkiledi, gözlenen bağlantıya doğrudan gidilerek ürün testine devam edildi. Bu geçici test sayfası ürüne dahil değildir. Açık kriter: bu üç modülün istenen giriş/geçmiş yolunda yok; fiziksel cihaz/anatomist/öğrenme etkisi sınırları değişmedi. Sonraki tek iş mevcut insan değerlendirme paketidir.

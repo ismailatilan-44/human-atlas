@@ -1,0 +1,89 @@
+TAP version 13
+# Subtest: scheduler correct intervals, early practice, mastery, cap and UTC across DST
+ok 1 - scheduler correct intervals, early practice, mastery, cap and UTC across DST
+  ---
+  duration_ms: 0.513584
+  type: 'test'
+  ...
+# Subtest: wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+ok 2 - wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+  ---
+  duration_ms: 0.361166
+  type: 'test'
+  ...
+# Subtest: hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+ok 3 - hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+  ---
+  duration_ms: 0.131917
+  type: 'test'
+  ...
+# Subtest: storage resumes session and rejects absent versions, stale concepts and invalid state
+ok 4 - storage resumes session and rejects absent versions, stale concepts and invalid state
+  ---
+  duration_ms: 0.433333
+  type: 'test'
+  ...
+# Subtest: bounded audit log continues accepting distinct events beyond 500 reviews
+ok 5 - bounded audit log continues accepting distinct events beyond 500 reviews
+  ---
+  duration_ms: 1.974167
+  type: 'test'
+  ...
+# Subtest: full content identity invalidates changed source evidence and undo survives storage reload
+ok 6 - full content identity invalidates changed source evidence and undo survives storage reload
+  ---
+  duration_ms: 0.175834
+  type: 'test'
+  ...
+# Subtest: legacy completed result survives new practice, reload and further retries without losing scheduling
+ok 7 - legacy completed result survives new practice, reload and further retries without losing scheduling
+  ---
+  duration_ms: 10.428083
+  type: 'test'
+  ...
+# Subtest: a recall session renders safely while retry clears the atlas, then retains its question
+ok 8 - a recall session renders safely while retry clears the atlas, then retains its question
+  ---
+  duration_ms: 173.661375
+  type: 'test'
+  ...
+# Subtest: all study packs preserve legacy results and ongoing answers across explicit entries
+    # Subtest: right-ankle-v1
+    ok 1 - right-ankle-v1
+      ---
+      duration_ms: 10.268666
+      type: 'test'
+      ...
+    # Subtest: left-ankle-v1
+    ok 2 - left-ankle-v1
+      ---
+      duration_ms: 7.318958
+      type: 'test'
+      ...
+    # Subtest: right-upper-limb-bones-v1
+    ok 3 - right-upper-limb-bones-v1
+      ---
+      duration_ms: 7.360542
+      type: 'test'
+      ...
+    # Subtest: whole-skull-v1
+    ok 4 - whole-skull-v1
+      ---
+      duration_ms: 10.547708
+      type: 'test'
+      ...
+    1..4
+ok 9 - all study packs preserve legacy results and ongoing answers across explicit entries
+  ---
+  duration_ms: 139.540834
+  type: 'test'
+  ...
+1..9
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 443.902833
