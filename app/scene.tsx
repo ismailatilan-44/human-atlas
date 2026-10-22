@@ -6,7 +6,7 @@ import * as T from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
-import { createExplosionLayout } from "./explosion-layout";
+import { createCameraExplosionLayout } from "./explosion-layout";
 import { decodeModelResponse, loadModelChunks } from "./model-download";
 import { PointerTap } from "./pointer-tap";
 import { createPerformanceReport } from "./performance-report";
@@ -174,6 +174,14 @@ export default function AnatomyScene({
     ground.visible = platform.visible = ring.visible = innerRing.visible = !regionalReference;
     let packingWidth = 1,
       packingHeight = 1;
+    // The inventory is a display arrangement, in the learner's camera plane.
+    // Source vertices, identities and saved learning records are never changed.
+    const explosionOrigin = regionalReference ? referenceCenter.clone() : new T.Vector3(0, 0.85, 0);
+    let explosionStart: { target: T.Vector3; distance: number } | undefined;
+    let explosionDistance = 4;
+    let lastExplosionRequest = 0;
+    let explosionCameraKey = "";
+    let explosionMinimumDistance = 0.07;
     const markerPositions = new Float32Array(atlas.parts.length * 3),
       markerGeometry = new T.BufferGeometry();
     markerGeometry.setAttribute("position", new T.BufferAttribute(markerPositions, 3));
@@ -372,7 +380,6 @@ export default function AnatomyScene({
         Math.max(0.2, atlasDistance),
         extent,
       );
-      if (extent > 0.8) view = "front";
       const direction = orbitDirection ?? (
         view === "front"
           ? new T.Vector3(0, 0.02, 1)
@@ -517,6 +524,20 @@ export default function AnatomyScene({
       // Selection/panel changes may need a new fit, but only an explicit view or
       // reset request may replace the direction the learner reached by orbiting.
       const requestedView = s.view !== lastView || s.reset !== lastReset;
+      if (requestedView && !s.restoreCamera) {
+        controls.minDistance = 0.07;
+        fit(s.view, 0);
+        if (explosionStart) explosionStart = { target: controls.target.clone(), distance: camera.position.distanceTo(controls.target) };
+      }
+      // Restore before deriving the packing basis, not after building a front-view grid.
+      if (s.restoreCamera && s.restoreCamera !== lastRestore) {
+        camera.position.fromArray(s.restoreCamera.position);
+        controls.target.fromArray(s.restoreCamera.target);
+        explosionDistance = camera.position.distanceTo(controls.target);
+        controls.maxDistance = Math.max(40, explosionDistance * 2);
+        controls.minDistance = 0.07;
+        controls.update();
+      }
       const orbitDirection = camera.position.clone().sub(controls.target).normalize();
       const changed =
         lastState?.skull !== s.skull ||
@@ -532,7 +553,20 @@ export default function AnatomyScene({
       if (!s.restoreCamera) lastRestore = undefined;
       const restoring = !!s.restoreCamera && s.restoreCamera !== lastRestore;
       if (restoring) amount = s.explode;
-      const moving = Math.abs(amount - s.explode) > 0.0001;
+      const moving = amount !== s.explode;
+      const exploding = amount > 0 || s.explode > 0;
+      if (exploding && !explosionStart) {
+        explosionStart = { target: controls.target.clone(), distance: camera.position.distanceTo(controls.target) };
+        layoutKey = "";
+      }
+      if (s.explode !== lastExplosionRequest || requestedView || restoring) layoutKey = "";
+      lastExplosionRequest = s.explode;
+      const nextExplosionCameraKey = exploding
+        ? [...orbitDirection.toArray(), ...(moving ? [] : [...camera.position.toArray(), ...controls.target.toArray()])]
+          .map(v => v.toFixed(6)).join(",")
+        : "";
+      const explosionCameraChanged = nextExplosionCameraKey !== explosionCameraKey;
+      explosionCameraKey = nextExplosionCameraKey;
       const framingIntent = JSON.stringify([s.selected, s.hidden, s.visible, s.ghost, s.explode,
         s.isolate, !!s.focused, !!s.inspectorOpen, s.anchor?.conceptId, s.skull, s.refit ?? 0]);
       if (requestedView || moving || framingIntent !== resizedFramingIntent) resizedFramingIntent = undefined;
@@ -540,9 +574,10 @@ export default function AnatomyScene({
       lastFramingIntent = framingIntent;
       if (moving) {
         amount = T.MathUtils.damp(amount, s.explode, 8, dt);
+        if (Math.abs(amount - s.explode) < 0.0001) amount = s.explode;
         dirty = true;
       }
-      if (changed || moving || restoring || lastExtent < 0) {
+      if (changed || moving || restoring || explosionCameraChanged || lastExtent < 0) {
         const visible = new Set(s.visible),
           selection = new Set(s.selected);
         const hidden = new Set(s.hidden ?? []);
@@ -554,18 +589,41 @@ export default function AnatomyScene({
               ? selection.has(p.id)
               : visible.has(p.system) || selection.has(p.id) || context.has(p.id)),
         );
-        const nextLayoutKey =
-          visibleParts.map((p) => p.id).join(",") + ":" + camera.aspect.toFixed(3);
+        const nextLayoutKey = visibleParts.map(p => p.id).join(",") + ":" + camera.aspect.toFixed(3) +
+          ":" + orbitDirection.toArray().map(v => v.toFixed(6)).join(",") +
+          (moving ? ":moving" : ":" + nextExplosionCameraKey);
         if (nextLayoutKey !== layoutKey) {
-          const layout = createExplosionLayout(visibleParts, camera.aspect);
+          const targetOffset = controls.target.clone().sub(explosionOrigin);
+          let distance = camera.position.distanceTo(controls.target);
+          let layout = createCameraExplosionLayout(visibleParts, camera.aspect, orbitDirection.toArray(), distance, targetOffset.toArray());
+          if (exploding && (moving || requestedView) && !restoring && !keepResizePose && explosionStart) {
+            // Fit without changing direction. Repack at the fitted perspective distance.
+            const h = el.clientHeight, w = el.clientWidth;
+            const availableWidth = Math.max(160, w - (w < 768 ? 40 : 600));
+            const availableHeight = Math.max(160, h - (w < 768 ? 350 : 270));
+            const focal = h / (2 * Math.tan(T.MathUtils.degToRad(camera.fov / 2)));
+            distance = Math.max(explosionStart.distance, layout.minimumDistance);
+            for (let pass = 0; pass < 8; pass++) {
+              layout = createCameraExplosionLayout(visibleParts, camera.aspect, orbitDirection.toArray(), distance);
+              const required = Math.max(layout.minimumDistance, focal * Math.max(layout.width / availableWidth, layout.height / availableHeight) * 1.08);
+              if (distance >= required) break;
+              distance = required;
+            }
+            explosionDistance = distance;
+            layout = createCameraExplosionLayout(visibleParts, camera.aspect, orbitDirection.toArray(), distance);
+          }
+          explosionMinimumDistance = layout.minimumDistance;
+          if (!moving && exploding && distance < layout.actualDistance && !restoring) {
+            camera.position.copy(controls.target).addScaledVector(orbitDirection, layout.actualDistance);
+            controls.update();
+          }
           packingWidth = layout.width;
           packingHeight = layout.height;
           atlas.parts.forEach((p, i) => {
-            const cell = layout.cells.get(p.id);
-            offsets[i] = cell ? new T.Vector3(cell.x, cell.y + 0.85, 0) : centers[i].clone();
+            const center = layout.centers.get(p.id);
+            offsets[i] = center ? new T.Vector3().fromArray(center).add(explosionOrigin) : centers[i].clone();
           });
           layoutKey = nextLayoutKey;
-          if (amount > 0.05 && !s.isolate && !keepResizePose) fit(s.view, Math.max(0, (amount - 0.3) / 0.7));
         }
 
         atlas.parts.forEach((p, i) => {
@@ -587,7 +645,7 @@ export default function AnatomyScene({
               angle = (group / SYSTEMS.length) * Math.PI * 2;
             dx = T.MathUtils.lerp(Math.sin(angle) * 0.48, destination.x - c.x, t);
             dy = T.MathUtils.lerp((c.y - 0.85) * 0.28, destination.y - c.y, t);
-            dz = T.MathUtils.lerp(Math.cos(angle) * 0.48, -c.z, t);
+            dz = T.MathUtils.lerp(Math.cos(angle) * 0.48, destination.z - c.z, t);
           }
           if (s.skull) [dx, dy, dz] = skullOffset(p.id, s.skull.separated);
           const selected = selection.has(p.id);
@@ -627,12 +685,18 @@ export default function AnatomyScene({
         dirty = true;
       }
       if (s.view !== lastView || s.reset !== lastReset) {
-        fit(s.view, amount);
         lastView = s.view;
         lastReset = s.reset;
       }
-      if (moving && !s.isolate)
-        fit(amount > 0.5 ? "front" : s.view, Math.max(0, (amount - 0.3) / 0.7));
+      if ((moving || requestedView) && !restoring && !s.isolate && explosionStart) {
+        camera.clearViewOffset();
+        const t = Math.max(0, (amount - 0.3) / 0.7);
+        controls.target.copy(explosionStart.target).lerp(explosionOrigin, t);
+        camera.position.copy(controls.target).addScaledVector(orbitDirection,
+          T.MathUtils.lerp(explosionStart.distance, explosionDistance, t));
+        controls.update();
+      }
+      if (!exploding) explosionStart = undefined;
       if (s.concealLabels) hover.hidden = true;
       const inspecting = s.isolate || s.focused || !!s.skull;
       const inspectionParts = s.skull && !s.isolate && !s.focused ? skullParts : s.selected;
@@ -743,7 +807,7 @@ export default function AnatomyScene({
         } else if (!inspecting && lastIsolate && !keepRestoredFraming) {
           camera.clearViewOffset();
           // Leaving inspection changes framing, not the learner's viewing angle.
-          fit(s.view, amount, !requestedView && !moving && amount < 0.05 ? orbitDirection : undefined);
+          if (!moving) fit(s.view, amount, !requestedView ? orbitDirection : undefined);
         }
         lastIsolate = isolateKey;
       }
@@ -760,12 +824,18 @@ export default function AnatomyScene({
         }
         camera.position.fromArray(pose.position);
         controls.target.fromArray(pose.target);
+        controls.minDistance = amount >= 0.8 ? explosionMinimumDistance : 0.07;
+        controls.maxDistance = Math.max(40, camera.position.distanceTo(controls.target) * 2);
         controls.update();
         lastRestore = pose;
         restoredViewport = `${el.clientWidth}:${el.clientHeight}`;
         restoredFramingIntent = framingIntent;
         dirty = true;
       }
+      controls.minDistance = amount >= 0.8 ? explosionMinimumDistance : 0.07;
+      controls.maxDistance = Math.max(40, explosionDistance * 2, camera.position.distanceTo(controls.target) * 1.1);
+      const far = Math.max(100, controls.maxDistance * 2 + referenceSize.length());
+      if (camera.far !== far) { camera.far = far; camera.updateProjectionMatrix(); }
       controls.enableRotate = amount < 0.8;
       controls.mouseButtons.LEFT = amount < 0.8 ? T.MOUSE.ROTATE : T.MOUSE.PAN;
       controls.touches.ONE = amount < 0.8 ? T.TOUCH.ROTATE : T.TOUCH.PAN;

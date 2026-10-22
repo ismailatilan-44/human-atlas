@@ -60,7 +60,7 @@ All 127 objects have dataset-scoped Turkish/English labels; 110 have sourced exa
 
 - Orbit, zoom, and select structures directly on the body.
 - Toggle individual systems or use skeleton and organ presets.
-- Move from assembled anatomy to a spaced inventory of every visible piece.
+- Separate visible pieces from the current viewing angle into a camera-facing inventory. Perspective-aware spacing keeps fully separated parts apart during zoom and pan; named views remain available.
 - Search anatomical names and source identifiers.
 - Isolate a selected structure and read its details.
 - Use compact controls and detail panels on mobile.

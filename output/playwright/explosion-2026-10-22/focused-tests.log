@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: camera-facing packing prevents actual perspective overlap across angles, zoom and pan
+ok 1 - camera-facing packing prevents actual perspective overlap across angles, zoom and pan
+  ---
+  duration_ms: 165.191458
+  type: 'test'
+  ...
+# Subtest: packing does not cancel a lateral pan and preserves stable source identities
+ok 2 - packing does not cancel a lateral pan and preserves stable source identities
+  ---
+  duration_ms: 0.692583
+  type: 'test'
+  ...
+# Subtest: legacy cell packing and empty camera layout remain supported
+ok 3 - legacy cell packing and empty camera layout remain supported
+  ---
+  duration_ms: 0.302375
+  type: 'test'
+  ...
+# Subtest: real atlas depth-heavy bounds stay separated at fitted, close and panned poses
+ok 4 - real atlas depth-heavy bounds stay separated at fitted, close and panned poses
+  ---
+  duration_ms: 304.213458
+  type: 'test'
+  ...
+# Subtest: scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+ok 5 - scene roundtrip preserves camera, stable IDs, visibility and label language without transient resets
+  ---
+  duration_ms: 1.796083
+  type: 'test'
+  ...
+# Subtest: content and identity changes never silently restore a stale scene
+ok 6 - content and identity changes never silently restore a stale scene
+  ---
+  duration_ms: 0.265041
+  type: 'test'
+  ...
+# Subtest: malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+ok 7 - malformed schema, invalid numeric camera, selection duplicates and missing fields are rejected
+  ---
+  duration_ms: 0.114791
+  type: 'test'
+  ...
+# Subtest: corrupt data can recover previous good backup and unreadable original is retained on repair
+ok 8 - corrupt data can recover previous good backup and unreadable original is retained on repair
+  ---
+  duration_ms: 0.18925
+  type: 'test'
+  ...
+# Subtest: quota or denied storage reports failure while last valid primary survives
+ok 9 - quota or denied storage reports failure while last valid primary survives
+  ---
+  duration_ms: 0.111709
+  type: 'test'
+  ...
+# Subtest: storage bounds reject missing versions, duplicate slots and overlarge arrays
+ok 10 - storage bounds reject missing versions, duplicate slots and overlarge arrays
+  ---
+  duration_ms: 0.17975
+  type: 'test'
+  ...
+# Subtest: scheduler correct intervals, early practice, mastery, cap and UTC across DST
+ok 11 - scheduler correct intervals, early practice, mastery, cap and UTC across DST
+  ---
+  duration_ms: 0.565458
+  type: 'test'
+  ...
+# Subtest: wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+ok 12 - wrong and hint reset interval, skip preserves, duplicate and bad clock are safe
+  ---
+  duration_ms: 0.435458
+  type: 'test'
+  ...
+# Subtest: hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+ok 13 - hint does not become first-attempt success, explicit undo restores score and scheduling atomically
+  ---
+  duration_ms: 0.158458
+  type: 'test'
+  ...
+# Subtest: storage resumes session and rejects absent versions, stale concepts and invalid state
+ok 14 - storage resumes session and rejects absent versions, stale concepts and invalid state
+  ---
+  duration_ms: 0.509458
+  type: 'test'
+  ...
+# Subtest: bounded audit log continues accepting distinct events beyond 500 reviews
+ok 15 - bounded audit log continues accepting distinct events beyond 500 reviews
+  ---
+  duration_ms: 3.190125
+  type: 'test'
+  ...
+# Subtest: full content identity invalidates changed source evidence and undo survives storage reload
+ok 16 - full content identity invalidates changed source evidence and undo survives storage reload
+  ---
+  duration_ms: 0.224583
+  type: 'test'
+  ...
+# Subtest: legacy completed result survives new practice, reload and further retries without losing scheduling
+ok 17 - legacy completed result survives new practice, reload and further retries without losing scheduling
+  ---
+  duration_ms: 12.551792
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 779.302791

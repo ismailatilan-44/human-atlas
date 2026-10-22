@@ -709,7 +709,6 @@ export default function Home() {
             key={v}
             className={state.view === v ? "active" : ""}
             aria-pressed={state.view === v}
-            disabled={state.explode > 0.8 && v !== "front"}
             onClick={() =>
               setState((s) => ({
                 ...s,
@@ -783,7 +782,9 @@ export default function Home() {
               setState((s) => ({
                 ...s,
                 explode: (Array.isArray(v) ? v[0] : v) / 100,
-                view: (Array.isArray(v) ? v[0] : v) > 80 ? "front" : s.view,
+                isolate: false,
+                focused: false,
+                restoreCamera: undefined,
                 rotate: false,
               }))
             }

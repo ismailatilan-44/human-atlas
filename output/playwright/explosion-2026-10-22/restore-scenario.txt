@@ -1,0 +1,1 @@
+Exploded camera restore: PASS, exact camera delta 0 (upper-limb reference).
