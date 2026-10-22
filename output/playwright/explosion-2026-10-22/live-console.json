@@ -1,0 +1,32 @@
+[
+  {
+    "level": "error",
+    "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:3655:10421\n    at Ic (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:92238)\n    at Al (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:110070)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:109308)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:109672)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:109440)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:109490)\n    at Hu (https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js:8:120097)",
+    "timestamp": "2026-10-22T08:44:27.519Z",
+    "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-BSm3PM2P.js"
+  },
+  {
+    "level": "error",
+    "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:3655:12115\n    at Ic (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:92238)\n    at Al (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:110070)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109308)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109672)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109440)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109490)\n    at Hu (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:120097)",
+    "timestamp": "2026-10-22T08:52:12.340Z",
+    "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js"
+  },
+  {
+    "level": "error",
+    "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:3655:12115\n    at Ic (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:92238)\n    at Al (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:110070)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109308)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109672)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109440)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109490)\n    at Hu (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:120097)",
+    "timestamp": "2026-10-22T08:52:12.340Z",
+    "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js"
+  },
+  {
+    "level": "error",
+    "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:3655:12115\n    at Ic (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:92238)\n    at Al (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:110070)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109308)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109672)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109440)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109490)\n    at Hu (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:120097)",
+    "timestamp": "2026-10-22T08:52:12.340Z",
+    "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js"
+  },
+  {
+    "level": "error",
+    "message": "AbortError: signal is aborted without reason\n    at https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:3655:12115\n    at Ic (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:92238)\n    at Al (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:110070)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109308)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109672)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109440)\n    at Dl (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109370)\n    at Ol (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:109490)\n    at Hu (https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js:8:120097)",
+    "timestamp": "2026-10-22T08:52:37.678Z",
+    "url": "https://ismailatilan-44.github.io/human-atlas/assets/index-nQSpRJCa.js"
+  }
+]
