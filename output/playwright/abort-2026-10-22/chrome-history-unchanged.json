@@ -1,0 +1,50 @@
+[
+  {
+    "module": "right-ankle-v1",
+    "exactHistoryUnchanged": true,
+    "phase": "inspect",
+    "index": 0,
+    "first": {},
+    "success": [],
+    "isolated": false,
+    "events": 10,
+    "completed": 1,
+    "retainedOldEvents": true,
+    "retainedCompleted": true,
+    "retainedDueDates": true,
+    "retainedOldResult": false,
+    "savedResult": "summary"
+  },
+  {
+    "module": "right-upper-limb-bones-v1",
+    "exactHistoryUnchanged": true,
+    "phase": "inspect",
+    "index": 0,
+    "first": {},
+    "success": [],
+    "isolated": false,
+    "events": 6,
+    "completed": 1,
+    "retainedOldEvents": true,
+    "retainedCompleted": true,
+    "retainedDueDates": true,
+    "retainedOldResult": false,
+    "savedResult": "summary"
+  },
+  {
+    "module": "whole-skull-v1",
+    "exactHistoryUnchanged": true,
+    "phase": "inspect",
+    "index": 0,
+    "first": {},
+    "success": [],
+    "isolated": false,
+    "events": 23,
+    "completed": 1,
+    "retainedOldEvents": true,
+    "retainedCompleted": true,
+    "retainedDueDates": true,
+    "retainedOldResult": false,
+    "savedResult": "summary"
+  }
+]

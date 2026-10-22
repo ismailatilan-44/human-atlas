@@ -1,0 +1,24 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Diğer modüller: geçmiş koruma testi</title><style>body{font:16px system-ui;padding:24px}button,a{margin:10px;padding:10px}pre{white-space:pre-wrap}</style>
+<h1>Diğer çalışma modülleri · yerel test</h1><p>Yalnız bu loopback origin'deki atlas-devqa-sandbox test kayıtlarını kullanır.</p>
+<button id="seed" disabled>Üç eski tamamlanmış kaydı hazırla</button><button id="baseline">Mevcut test geçmişini başlangıç olarak al</button><button id="audit" disabled>Geçmiş korumasını karşılaştır</button><a href="/?devqa=1">Atlas testini aç</a><pre id="report">Hazırlanıyor</pre>
+<script type="module">
+import {studyPacks} from '../app/study-packs.ts';
+import {startStudy,studyTransition} from '../app/study-session.ts';
+import {newHistory,review,saveStudy,loadStudy,previousResult} from '../app/study-history.ts';
+const packs=studyPacks.filter(p=>p.id!=='left-ankle-v1');
+const store={getItem:k=>localStorage.getItem('atlas-devqa-sandbox:'+k),setItem:(k,v)=>localStorage.setItem('atlas-devqa-sandbox:'+k,v)};
+const report=document.querySelector('#report');
+document.querySelector('#seed').onclick=()=>{
+ const baseline={};
+ for(const p of packs){const at=Date.now()-1000; let s={...startStudy(p.items.length),phase:'recall'};let h=newHistory(p,s,at);
+ for(let i=0;i<p.items.length;i++){h=review(h,{id:'legacy:'+p.id+':'+i,itemId:p.items[i].id,at,outcome:'correct'});s=studyTransition(s,{type:'answer',value:p.items[i].conceptId,correct:true});s=studyTransition(s,{type:'next'});}
+ h.session=s;h.isolated=true;h.completed=[{at,firstCorrect:p.items.length,successful:p.items.length,total:p.items.length}];saveStudy(store,p,h);baseline[p.id]=h;
+ }store.setItem('matrix-baseline',JSON.stringify(baseline));store.setItem('atlas.last-study-pack','left-ankle-v1');report.textContent='Hazır: sağ ayak bileği9/9, sağ üst ekstremite5/5, kafatası22/22. Eski şema1; lastResult yok; son modül farklı.';
+};
+document.querySelector('#baseline').onclick=()=>{store.setItem('matrix-baseline',JSON.stringify(Object.fromEntries(packs.map(p=>[p.id,loadStudy(store,p).history]))));report.textContent='Mevcut geçmiş değiştirilmeden karşılaştırma başlangıcı alındı.';};
+document.querySelector('#audit').onclick=()=>{
+ const baseline=JSON.parse(store.getItem('matrix-baseline')||'{}');const result=packs.map(p=>{const h=loadStudy(store,p).history,b=baseline[p.id];if(!h||!b)return {module:p.id,error:'Missing history'};
+ const old=previousResult(h);return {module:p.id,exactHistoryUnchanged:JSON.stringify(h)===JSON.stringify(b),phase:h.session.phase,index:h.session.index,first:h.session.first,success:h.session.success,isolated:h.isolated,events:h.events.length,completed:h.completed.length,retainedOldEvents:JSON.stringify(h.events.slice(0,b.events.length))===JSON.stringify(b.events),retainedCompleted:JSON.stringify(h.completed.slice(0,b.completed.length))===JSON.stringify(b.completed),retainedDueDates:p.items.every(it=>h.cards[it.id]?.due===b.cards[it.id].due),retainedOldResult:JSON.stringify(old?.session.first)===JSON.stringify(b.session.first),savedResult:h.lastResult?.session.phase??null};});report.textContent=JSON.stringify(result,null,2);
+};
+document.querySelector('#seed').disabled=false;document.querySelector('#audit').disabled=false;report.textContent='Hazır';
+</script></html>

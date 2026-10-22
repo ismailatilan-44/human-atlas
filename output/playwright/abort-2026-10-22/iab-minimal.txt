@@ -1,0 +1,19 @@
+Browser tab: 1, Title: "Abort tanısı", URL: "http://127.0.0.1:3020/".
+1 AXWebArea Abort tanısı, URL: 127.0.0.1:3020/
+	2 heading Bağımsız fetch iptal testi, Value: 1
+		3 text Bağımsız fetch iptal testi
+	4 button Yanıt gelmeden iptal, ID: headers
+	5 button Gövde okunurken iptal, ID: body
+	6 text [
+  {
+    "caught": "AbortError"
+  },
+  {
+    "headers": true
+  },
+  {
+    "caught": "AbortError"
+  }
+]
+
+The focused UI element is 5 button Gövde okunurken iptal, ID: body

@@ -1,0 +1,300 @@
+Browser tab: 1, Title: "Human Atlas", URL: "http://localhost:3017/?devqa=1".
+1 AXWebArea Human Atlas, URL: localhost:3017/?devqa=1
+	2 container
+		174 image Interactive human anatomy. Drag to orbit, pinch or scroll to zoom, and tap a structure to inspect it.
+		4 container DEV ONLY visual QA
+			5 button DEV ONLY · QA sandbox −
+				6 text DEV ONLY · QA sandbox
+				7 text −
+			175 container
+				176 text No real learner storage. Local development only. Scenario
+				177 pop up button (collapsed, settable) Description: QA scenario, Value: Upper limb / wrong → undo, Secondary Actions: Expand
+					178 menu
+						179 Right ankle / wrong → undo
+						180 Left ankle / wrong → undo
+						181 (selected) Upper limb / wrong → undo
+						182 Saved scene / reference restore
+						183 Rapid reference return regression
+						184 WebGL loss / study safety
+						185 Dismiss pending module / delayed load
+						186 Exploded camera restore
+						187 Due schedule / clock and focus
+				188 button Start scenario
+				189 button Replay scenario
+				190 button Snapshot
+				191 button (disabled) Reload + resume
+				192 button Reset sandbox
+				193 text Fixture storage only. Start and replay preserve the journal; Reset clears only this sandbox.
+				194 button (expanded) Readable state snapshot, Secondary Actions: Collapse
+					195 text Readable state snapshot
+				196 text {
+  "reference": "male-body",
+  "loadedReference": "male-body",
+  "sourceVersion": "atlas-content-b877954-2026-10-02:af0d031d",
+  "conceptId": null,
+  "camera": {
+    "position": [
+      1.3192878306392493,
+      0.9061636281095857,
+      3.7693938018264275
+    ],
+    "target": [
+      0,
+      0.68,
+      0
+    ],
+    "viewOffset": null
+  },
+  "visibility": {
+    "systems": [
+      "skeletal",
+      "sensory",
+      "nervous",
+      "connective",
+      "muscular",
+      "arterial",
+      "endocrine",
+      "venous",
+      "digestive",
+      "cardiac",
+      "respiratory",
+      "lymphatic",
+      "reproductive",
+      "urinary"
+    ],
+    "hidden": [],
+    "selected": [],
+    "isolate": false,
+    "ghost": false
+  },
+  "language": "tr",
+  "viewMode": "three-quarter",
+  "progress": 100,
+  "error": "",
+  "explorerHistory": 0,
+  "pending": {
+    "pack": null,
+    "scene": null,
+    "returning": false
+  },
+  "study": {
+    "health": "readable",
+    "observed": "stored",
+    "storedPhase": "summary",
+    "sceneCount": 0,
+    "phase": "inactive",
+    "module": null,
+    "retry": false,
+    "firstAttempt": {
+      "0": "correct",
+      "1": "correct",
+      "2": "correct",
+      "3": "correct",
+      "4": "correct",
+      "5": "correct",
+      "6": "correct",
+      "7": "correct",
+      "8": "correct"
+    },
+    "eventualCorrect": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "undo": false,
+    "completedRounds": 1,
+    "reviewEvents": 9,
+    "reviewSchedule": {
+      "right-ankle-v1:talus": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:calcaneus": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:navicular-bone": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:cuboid-bone": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:medial-cuneiform-bone": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:intermediate-cuneiform-bone": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:lateral-cuneiform-bone": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:tibia": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      },
+      "right-ankle-v1:fibula": {
+        "due": 1792742391958,
+        "last": 1792655991958,
+        "streak": 1,
+        "reviews": 1
+      }
+    }
+  }
+}
+				197 button (expanded) Event sequence · expected / actual, Secondary Actions: Collapse
+					198 text Event sequence · expected / actual
+		159 button Kafatası · 22 kemik
+		34 button Çalışma ve tekrar
+		35 button Kayıtlı sahneler
+		36 text INTERACTIVE ANATOMY
+		37 heading Human Atlas 3D, Value: 1
+			38 text Human Atlas 3D
+		39 container
+			40 text 2.292  modeled pieces  · Erkek · BodyParts3D + Z-Anatomy
+		41 pop up button (collapsed, settable) Description: Anatomi referansı, Value: Erkek vücut, Secondary Actions: Expand
+			42 menu
+				43 (selected) Erkek vücut
+				44 Kadın pelvis referansı
+				45 İç kulak referansı
+				46 Alt ekstremite referansı
+				47 Üst ekstremite sinir referansı
+		48 container Explorer panels
+			49 pop up button (collapsed, settable) Description: Anatomik ad dili, Value: TR, Secondary Actions: Expand
+				50 menu
+					51 (selected) TR
+					52 EN
+					53 LA
+			54 button (disabled) Önceki görünüme dön
+			55 button Anatomi ara
+				56 text Yapı bul
+				57 text /
+			58 button Başlangıç rehberi ve kaynaklar
+		59 container Anatomical layers
+			60 text Systems 15
+			61 checkbox All, Value: 0
+			62 checkbox Skeleton, Value: 0
+			63 checkbox Organs, Value: 0
+			160 text Bölgeye git
+			161 pop up button (collapsed, settable) Description: Anatomik bölge, Value: Bir bölge seç…, Secondary Actions: Expand
+				162 menu
+					163 (selected) Bir bölge seç…
+					164 Baş
+					165 Boyun
+					166 Toraks
+					167 Abdomen
+					168 Pelvis
+					169 Sol üst ekstremite
+					170 Sağ üst ekstremite
+					171 Sol alt ekstremite
+					172 Sağ alt ekstremite
+			173 button Bölgesel yapı listesi ve kapsam
+			199 container
+				200 button Skeleton 286, Help: Show only skeleton
+					201 text Skeleton
+					202 text 286
+				203 switch Description: Show skeleton, Value: 1, ID: base-ui-_r_7b_
+				204 button Muscles 430, Help: Show only muscles
+					205 text Muscles
+					206 text 430
+				207 switch Description: Show muscles, Value: 1, ID: base-ui-_r_7e_
+				208 button Heart 18, Help: Show only heart
+					209 text Heart
+					210 text 18
+				211 switch Description: Show heart, Value: 1, ID: base-ui-_r_7h_
+				212 button Sensory organs 43, Help: Show only sensory organs
+					213 text Sensory organs
+					214 text 43
+				215 switch Description: Show sensory organs, Value: 1, ID: base-ui-_r_7k_
+				216 button Arteries 639, Help: Show only arteries
+					217 text Arteries
+					218 text 639
+				219 switch Description: Show arteries, Value: 1, ID: base-ui-_r_7n_
+				220 button Veins 395, Help: Show only veins
+					221 text Veins
+					222 text 395
+				223 switch Description: Show veins, Value: 1, ID: base-ui-_r_7q_
+				224 button Nervous system 173, Help: Show only nervous system
+					225 text Nervous system
+					226 text 173
+				227 switch Description: Show nervous system, Value: 1, ID: base-ui-_r_7t_
+				228 button Respiratory 123, Help: Show only respiratory
+					229 text Respiratory
+					230 text 123
+				231 switch Description: Show respiratory, Value: 1, ID: base-ui-_r_80_
+				232 button Digestive 106, Help: Show only digestive
+					233 text Digestive
+					234 text 106
+				235 switch Description: Show digestive, Value: 1, ID: base-ui-_r_83_
+				236 button Urinary 6, Help: Show only urinary
+					237 text Urinary
+					238 text 6
+				239 switch Description: Show urinary, Value: 1, ID: base-ui-_r_86_
+				240 button Lymphatic 3, Help: Show only lymphatic
+					241 text Lymphatic
+					242 text 3
+				243 switch Description: Show lymphatic, Value: 1, ID: base-ui-_r_89_
+				244 button Endocrine 7, Help: Show only endocrine
+					245 text Endocrine
+					246 text 7
+				247 switch Description: Show endocrine, Value: 1, ID: base-ui-_r_8c_
+				248 button Reproductive 12, Help: Show only reproductive
+					249 text Reproductive
+					250 text 12
+				251 switch Description: Show reproductive, Value: 1, ID: base-ui-_r_8f_
+				252 button Body surface 5, Help: Show only body surface
+					253 text Body surface
+					254 text 5
+				255 switch Description: Show body surface, Value: 0, ID: base-ui-_r_8i_
+				256 button Connective tissue 46, Help: Show only connective tissue
+					257 text Connective tissue
+					258 text 46
+				259 switch Description: Show connective tissue, Value: 1, ID: base-ui-_r_8l_
+			139 text 2.287  pieces visible
+			140 button Hide all
+		141 container Camera controls
+			142 checkbox Description: three-quarter view, Value: 1
+			143 checkbox Description: front view, Value: 0
+			144 checkbox Description: side view, Value: 0
+			145 checkbox Description: back view, Value: 0
+			146 button Description: Rotate body, Help: Auto rotate
+			147 button Description: Görünümü ve katmanları sıfırla, Help: Reset
+		148 text ADULT HUMAN · MALE
+		149 text Explode anatomy
+		150 container
+			151 text 0 %
+		152 container Description: Explode anatomy, ID: base-ui-_r_0_
+			153 container
+				154 slider (settable, integer) Explode anatomy, Value: 0, ID: base-ui-_r_3_
+		155 text Assembled Every piece
+		156 button Birleştir ve sıfırla
+		157 text Drag to orbit ·  Pinch to zoom  ·  Tap to inspect
+		158 button Rehber ve kaynaklar
+
+The focused UI element is 194 button (expanded) Readable state snapshot, Secondary Actions: Collapse

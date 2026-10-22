@@ -1,0 +1,131 @@
+{
+  "local": [
+    {
+      "round": 0,
+      "label": "Kadın pelvis referansı",
+      "loading": true
+    },
+    {
+      "round": 0,
+      "label": "İç kulak referansı",
+      "loading": true
+    },
+    {
+      "round": 0,
+      "label": "Alt ekstremite referansı",
+      "loading": true
+    },
+    {
+      "round": 0,
+      "label": "Üst ekstremite sinir referansı",
+      "loading": true
+    },
+    {
+      "round": 0,
+      "label": "Erkek vücut",
+      "loading": true
+    },
+    {
+      "round": 1,
+      "label": "Kadın pelvis referansı",
+      "loading": true
+    },
+    {
+      "round": 1,
+      "label": "İç kulak referansı",
+      "loading": true
+    },
+    {
+      "round": 1,
+      "label": "Alt ekstremite referansı",
+      "loading": true
+    },
+    {
+      "round": 1,
+      "label": "Üst ekstremite sinir referansı",
+      "loading": true
+    },
+    {
+      "round": 1,
+      "label": "Erkek vücut",
+      "loading": true
+    },
+    {
+      "round": 2,
+      "label": "Kadın pelvis referansı",
+      "loading": true
+    },
+    {
+      "round": 2,
+      "label": "İç kulak referansı",
+      "loading": true
+    },
+    {
+      "round": 2,
+      "label": "Alt ekstremite referansı",
+      "loading": true
+    },
+    {
+      "round": 2,
+      "label": "Üst ekstremite sinir referansı",
+      "loading": true
+    },
+    {
+      "round": 2,
+      "label": "Erkek vücut",
+      "loading": true
+    }
+  ],
+  "live": [
+    {
+      "round": 0,
+      "label": "Kadın pelvis referansı",
+      "loading": false
+    },
+    {
+      "round": 0,
+      "label": "İç kulak referansı",
+      "loading": false
+    },
+    {
+      "round": 0,
+      "label": "Alt ekstremite referansı",
+      "loading": false
+    },
+    {
+      "round": 0,
+      "label": "Üst ekstremite sinir referansı",
+      "loading": false
+    },
+    {
+      "round": 0,
+      "label": "Erkek vücut",
+      "loading": false
+    },
+    {
+      "round": 1,
+      "label": "Kadın pelvis referansı",
+      "loading": false
+    },
+    {
+      "round": 1,
+      "label": "İç kulak referansı",
+      "loading": false
+    },
+    {
+      "round": 1,
+      "label": "Alt ekstremite referansı",
+      "loading": false
+    },
+    {
+      "round": 1,
+      "label": "Üst ekstremite sinir referansı",
+      "loading": false
+    },
+    {
+      "round": 1,
+      "label": "Erkek vücut",
+      "loading": false
+    }
+  ]
+}
