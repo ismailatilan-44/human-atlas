@@ -2,6 +2,7 @@ import { loadStudy, hasPreviousResult, type StudyEntry } from './study-history';
 import { SKULL_GROUP, skullItems, skullParts, skullItem, skullDescription, skullViews, skullStart } from './skull';
 import { learningStorage, fixtureMode } from './learning-storage';
 import StudyPanel, { type StudyDiagnostics } from "./study-panel";
+import CustomStudyBuilder from "./custom-study-builder";
 import { studyPacks, type StudyPack } from "./study-packs";
 import SavedScenesPanel from "./saved-scenes-panel";
 import { validateScene, type SavedScene } from "./saved-scenes";
@@ -429,6 +430,7 @@ export default function Home() {
         <button onClick={() => { setLearningOpen(false); setPendingPack(null); launchSnapshot.current = null; }}>Kapat</button>
         <h2>Kaynak modelle çalış</h2>
         <p>İncele, hatırla, düzelt ve zamanı gelen soruları tekrar et. Yeni çalışma mevcut turu baştan başlatır; geçmiş sonuçlar ve tekrar takvimi korunur. Yarım tur için Devam et seçeneğini kullanın.</p>
+        <CustomStudyBuilder packs={studyPacks} disabled={!!pendingPack} onStart={requestStudy} />
         {studyPacks.map(pack => {
           let saved;
           try { saved = loadStudy(learningStorage(), pack).history; } catch { /* New session remains available. */ }
