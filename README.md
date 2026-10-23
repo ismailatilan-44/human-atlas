@@ -1,146 +1,107 @@
 # Human Atlas
 
-An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. The current checkout combines the **2,234-mesh BodyParts3D adult male base** with 58 registered extension meshes (**2,292 main-body parts**) and four separate regional references. Search, inspect source-backed relationships, save scenes locally, and practise bounded structure recognition. These counts describe packaged geometry, not anatomical completeness.
+**İnsan anatomisini üç boyutta keşfetmek, yapılar arasındaki ilişkileri izlemek ve öğrendiklerini tekrar etmek için açık kaynak bir çalışma alanı.**
 
-**[Working model explorer](https://ismailatilan-44.github.io/human-atlas/)**
+Human Atlas, tıp ve sağlık bilimleri öğrencilerinin anatomik yapıları adları, konumları ve çevreleriyle birlikte incelemesi için geliştiriliyor. Tarayıcıda bir yapıyı bulabilir, çevresinden ayırarak inceleyebilir, kaynaklı ilişkilerini takip edebilir ve kaldığın görünümü daha sonra yeniden açabilirsin.
 
-**[Original upstream demo](https://human-atlas-seven.vercel.app)** · **[Upstream repository by ashemag](https://github.com/ashemag/human-atlas)**
+**[Atlası aç](https://ismailatilan-44.github.io/human-atlas/)** · [Kapsam ve yol haritası](docs/model/model-scope-and-acceptance.md) · [Geliştirme rehberi](docs/model/agent-workflow.md)
 
-## Current scope and showcase
+## Vizyonumuz
 
-Documentation reconciled on **21 October 2026** against local baseline `fb39d24`; documentation integration is on `codex/scholarship-readiness`. The hosted explorer and this checkout have separate release histories; the [delivery handoff](docs/model/progress-report-2026-10-21.md) records exact source, local checks and publication evidence. Do not assume a locally described feature is already live.
+Anatomi çalışırken bir yapının adını öğrenmek, onun vücuttaki yerini ve diğer yapılarla ilişkisini anlamakla birlikte ilerlemeli. Human Atlas ile bütün vücuttan bölgelere, bölgelerden tekil yapılara ve zamanla daha ince ayrıntılara geçilebilen bir öğrenme ortamı kurmayı hedefliyoruz.
 
-Start with the [short demo journey and readiness checklist](docs/model/scholarship-readiness-2026-10-21.md). The [generated inventory](docs/model/model-inventory.md) records five datasets with 2,589 packaged parts, 3,838 dataset-qualified catalog records and 1,677 relationships. Catalog records overlap anatomically. The [scope and acceptance plan](docs/model/model-scope-and-acceptance.md) retains 208 pending detail cells and 1,010 non-exhaustive individual requirements; no whole-body completion or anatomical expert acceptance is claimed.
+Bu vizyonun merkezinde model üzerinde çalışmak var: bir sinirin seyrini izlemek, bir kemiği komşularıyla birlikte görmek, bir organın parçaları arasında gezinmek ve aynı yapıya farklı açılardan yeniden bakmak. Türkçe, İngilizce ve Latince adları kaynak kimlikleriyle bir arada sunarak öğrencinin model ile kullandığı ders kaynakları arasında bağlantı kurmasını istiyoruz.
 
-This fork extends ashemag’s original explorer with registered/independent reference packages, regional Turkish/English/Latin metadata and relationship navigation, explicit source limits, saved scenes, four recognition modules, skull orientation controls and camera/input fixes. The original viewer, source anatomy and third-party assets must remain credited separately. See the [contribution boundary](docs/model/scholarship-readiness-2026-10-21.md#contribution-and-attribution) before presenting the project.
+Ürünü bölge bölge genişletiyoruz. Her yeni pakette yapının kaynağı, temsil ettiği ayrıntı ve henüz karşılanmayan hedefler izlenebilir kalıyor. Öğrenci ve anatomist değerlendirmeleriyle hem model kapsamını hem çalışma deneyimini geliştirmek, yol haritamızın bir parçası.
 
-## Model explorer work
+## Bugün neler yapabilirsin?
 
-This branch adds registered Z-Anatomy musculocutaneous, median and sciatic nerves plus bilateral menisci and cruciate ligaments and BodyParts3D 4.3 thyroid lobes/isthmus and spinal cord tissue and 20 partial brachial-plexus source components plus 18 BodyParts3D 4.3 lung tissue surfaces and two left plexus cord surfaces (2,292 total meshes), six source-derived attachment markers, regional Turkish/English/Latin labels, and source-backed relationship navigation. Selection supports context transparency, hiding, focus and back navigation. A regional coverage panel exposes 65 first-release target groups; it is not a comprehensive anatomy syllabus. Their 83 directly bound concepts have Turkish and English labels; four Latin labels remain intentionally unavailable. A separate skull-bones selection contains 22 existing bone surfaces while preserving the broader original source group. Rotator cuff muscles have 26 sourced attachment/innervation links, with named regions and explicit missing nerve geometry.
+- **Bul ve keşfet.** Anatomik adlarla veya kaynak kimlikleriyle ara; modeli döndür, yakınlaştır ve bir yapıyı doğrudan seç. Desteklenen bölgesel kayıtlarda Türkçe, İngilizce ve kaynakla doğrulanmış Latince adları kullan.
+- **Bağlamı incele.** Seçime odaklan, çevredeki yapıları saydamlaştır veya gizle. Mevcut kaynaklı ilişkiler üzerinden başka bir yapıya geç ve geri dön.
+- **Parçaları ayrı gör.** Görünür parçaları baktığın açıdan ayrılmış bir düzende incele. Kafatası çalışma alanında 22 kemiği seç, hazır yönleri kullan veya seçili kemiği ayırıp yerine döndür.
+- **Tanıma pratiği yap.** Kafatası, sağ ve sol ayak bileği çevresi ve sağ üst ekstremite için dört sınırlı modülde inceleme, hatırlama, geri bildirim ve tekrar adımlarını izle. Yeni bir çalışma başlatabilir, yarım oturuma devam edebilir veya önceki sonucunu açabilirsin.
+- **Kaldığın yere dön.** Seçimini, kamera açını ve görünürlük ayarlarını içeren en fazla 12 sahne kaydet. Çalışma geçmişin ve tekrar tarihlerin de aynı tarayıcıda saklanır.
 
-Run locally to inspect the work. Read [current delivery evidence](docs/model/progress-report-2026-10-21.md), [source catalog and pending whole-body targets](docs/model/model-inventory.md), [regional coverage](docs/model/regional-coverage.md), [nerve registration](docs/model/asset-registration-upper-arm-nerves.md), and [attachment markers](docs/model/landmark-registration.md). Two humeral attachment locations remain unresolved; nerve branches, brachial-plexus roots and right medial/lateral cords, detailed spinal segments/roots and broader female anatomy remain open. Anatomical expert review is pending. The low-detail Z-Anatomy thyroid candidate is deliberately excluded from the active model registry after visual review.
+Hesap veya API anahtarı gerekmez. Kayıtlar cihazlar arasında eşitlenmez; tarayıcı verilerini temizlemek yerel sahneleri ve çalışma geçmişini siler. Parçaları ayırma, incelemeyi kolaylaştıran bir gösterimdir; anatomik hareket simülasyonu değildir.
 
-Lung exploration now retains the original bronchovascular pieces while adding segment tissue to 24 existing lung, lobe and segment selections. Two tissue-only groups let students hide nine surfaces on either side together. Seventeen source relationships connect tissue to its segment and the existing lobe/lung hierarchy. Regional labels total 403 records; this is not a full atlas translation. Source-group scope notes remain visible even when Latin terms are unavailable. Another 26 muscle and nine hepatic tissue surfaces use corrected display layers. See the [lung source review](data/model-candidates/lung-surfaces/REVIEW.md) and [component attribution](public/models/extensions/LUNG-BP3D43-ATTRIBUTION.md). Two legacy source surfaces carry pulmonary IDs but lie at renal level. Reviewed pulmonary/thoracic selections exclude them, while a visible toggle retains raw source membership. Direct selection marks their identity unverified; no renal reassignment or geometry change is made. Right lung selects 163 reviewed / 165 raw-source pieces. Four pulmonary branch labels now provide Turkish/English names; two also have verified TA2 Latin terms. See the [source discrepancy review](data/model-candidates/lung-source-outliers/REVIEW.md).
+## İlk keşif
 
-The extensions have separate [arm/median attribution](public/models/extensions/ATTRIBUTION.md), [knee attribution](public/models/extensions/KNEE-ATTRIBUTION.md), and [sciatic attribution](public/models/extensions/SCIATIC-ATTRIBUTION.md), and [BodyParts3D 4.3 thyroid attribution](public/models/extensions/THYROID-BP3D43-ATTRIBUTION.md), and [spinal cord attribution](public/models/extensions/SPINAL-CORD-BP3D43-ATTRIBUTION.md). The [brachial-plexus attribution](public/models/extensions/BRACHIAL-PLEXUS-ATTRIBUTION.md) records its missing roots/cords and regional registration limits. Extension licenses must not be replaced by the base atlas license.
+1. [Atlası aç](https://ismailatilan-44.github.io/human-atlas/) ve **Kafatası · 22 kemik** alanına geç.
+2. Bir kemik seç; modeli döndür, **Odaklan** ile yakından incele ve çevre bağlamını açıp kapat.
+3. **Geri** ile önceki seçimine dön veya görünümü **Kayıtlı sahneler** üzerinden sakla.
+4. **Çalışma ve tekrar** bölümünden bir modül seçip yeni çalışma başlat.
 
-## Registered left plexus cords and shared metadata
+<a id="model-explorer-work"></a>
 
-The local branch adds shared Turkish/ASCII UI and agent search, canonical source-point metadata and visible source constraints, and exactly two BP3D4.3 left cord surfaces with two labels and three relationships. Main atlas: 2,292 parts. The existing ten-piece plexus selection is preserved; right cords, root contributions and expert acceptance remain open. See [local verification and release limits](docs/model/left-cords-local-acceptance.md), [upper targets v3](docs/model/upper-limb-targets-v3.md) and [component attribution](public/models/extensions/LEFT-CORDS-BP3D43-ATTRIBUTION.md). Source and exact deployed revision are recorded separately in the latest delivery handoff.
+## Mevcut model kapsamı
 
-## Separate female pelvis reference
+Ana vücut, BodyParts3D erişkin erkek referansını ve seçilmiş bölgesel ekleri içerir. Dört ek referans kendi kaynak koordinatlarında ayrı açılır; tek bir vücut modelinde birleştirilmez.
 
-The reference selector opens 27 HRA surfaces covering the uterus, two ovaries and pelvic bones in their original shared female coordinate frame. It loads separately from the male body. Turkish, English and Latin display labels preserve source identifiers; duplicated ovary aliases appear once in search. Switching references clears selection, view history and camera state. This is a regional reference, not a complete female body.
+| Model | Paketli parça | İçerik |
+| --- | ---: | --- |
+| Ana vücut | 2.292 | 2.234 parçalık BodyParts3D tabanı ve 58 kayıtlı ek parça |
+| Kadın pelvis referansı | 27 | Uterus, iki ovaryum ve pelvis kemikleri |
+| İç kulak referansı | 6 | İki taraflı koklea, vestibüler kompleks ve temporal kemik bağlamı |
+| Alt ekstremite referansı | 137 | Seçilmiş sinir, arter, bağ, ayak kası ve destek yapıları ile kemik bağlamı |
+| Üst ekstremite sinir referansı | 127 | Adlandırılmış sinirler, dal grupları ve kemik bağlamı |
 
-See [source review](docs/model/female-pelvis-source-review.md) and [CC BY 4.0 attribution](public/models/female-pelvis/ATTRIBUTION.md). `python3 scripts/package-female-pelvis.py` reproduces the public package from the pinned candidate without changing geometry.
+Bu sayılar paketli geometriyi anlatır; benzersiz anatomik yapı sayısı veya tamamlanma oranı değildir. Güncel sayımlar ve kaynak bağlantıları [model envanterinde](docs/model/model-inventory.md), açık bölgesel hedefler [kapsam planında](docs/model/model-scope-and-acceptance.md) tutulur.
 
-## Separate inner-ear reference
+Proje geliştirme aşamasındadır. Bütün vücut ayrıntıları ve tüm adların çevirisi henüz tamamlanmış değildir. Anatomik uzman değerlendirmesi, fiziksel mobil cihaz kabulü ve öğrenme etkisinin değerlendirilmesi açık işlerdir. Çalışma modülleri sınırlı yapı tanıma pratiği sunar. Yerel kontroller ve yayımlanmış sürümlerin kanıtları [teslim kaydında](docs/model/progress-report-2026-10-21.md) ayrı izlenir.
 
-A second regional reference contains six Z-Anatomy surfaces: two cochleae, two combined vestibular/semicircular surfaces, and their original temporal-bone context. All positions receive one uniform display-axis rotation; no fitting to a different skull is applied. The source does not identify a sex. Inner-ear components retain noncommercial/share-alike terms separately from temporal-bone attribution. See [source review](docs/model/inner-ear-reference-review.md) and [component attribution](public/models/inner-ear-reference/ATTRIBUTION.md).
+## Yerel kurulum
 
-The source canal labels are not independent surfaces. Internal membranes, sensory cells and detailed cochlear compartments are not modeled. Turkish/English/Latin search and the shared selection controls work independently of the male atlas.
-
-## Separate lower-limb reference
-
-The reference selector opens 137 Z-Anatomy source objects: 16 bilateral nerve curves, two fibular artery curves, 12 ligament surfaces, 30 intrinsic foot muscle objects, 10 retinacula, two plantar aponeuroses and 65 bone objects including two compound sesamoid groups. A single display-axis rotation preserves the shared source frame. The distal fit to the main male body was rejected; these objects load as an independent reference. All previous 119 objects retain their original records and byte-identical decoded geometry arrays.
-
-All 137 objects have dataset-scoped Turkish/English labels; 101 have verified exact Latin terms. 34 digit-specific and two source-typo Latin displays remain explicitly unresolved. Muscle heads and compound lumbrical/interosseous/sesamoid selections retain their source scope; they do not establish independent numbered identities. Twelve nerve branch links, 48 bone articulations, 40 selected ligament/fascial attachments and 12 selected muscle origin/insertion/innervation links are separate source-backed facts. Fine branches, full networks and complete supports remain open. Coarse source shapes and inherited normal/duplicate-face defects are disclosed; anatomical expert review is pending. Plantar aponeuroses and inferior fibular retinacula retain their open source sheets. Two source-named intersesamoid meshes remain candidate-only because they do not span the modeled sesamoid components. See [support geometry/source review](data/model-candidates/foot-support-source-audit-v1/REVIEW.md), [support term/relationship evidence](data/model-candidates/foot-support-metadata-v1/REVIEW.md), [earlier muscle review](data/model-candidates/foot-soft-tissue-source-audit-v1/REVIEW.md), [historical reference review](docs/model/lower-limb-nerve-reference-review.md) and [component attribution](public/models/lower-limb-nerve-reference/ATTRIBUTION.md).
-
-The main atlas has 403 regional label records, including two long plantar ligament labels, 38 individual metatarsal/toe bones and 14 existing foot/toe source parents. The original 44 main-body lower-limb representations retain TR/EN/LA labels; 34 specific foot-bone Latin terms and two foot-proper parent terms remain explicitly unresolved. Toe parents select only two/three phalanges; foot-proper parents select only five metatarsals, with scope notes. Their 38 existing source PART-OF relationships are reused. See [original main-label evidence](data/model-candidates/lower-limb-main-labels/REVIEW.md) and [foot label/target evidence](data/model-candidates/foot-bone-targets-v1/REVIEW.md). A BP3D 4.0/4.3 fibular-artery identity discrepancy remains candidate-only; the base mapping is preserved.
-
-The independent reference retains the earlier 84 relations and adds 28 selected support attachments, totaling 112. Four corresponding long plantar ligament facts are available in the main atlas. Students can follow corresponding toe segments or move between a support and its source bone context. Articulation is nontransitive and does not create segmented joint surfaces; attachment notes describe anatomy without asserting model contact, footprints, coordinates or a complete endpoint set. See [earlier relationship evidence](data/model-candidates/foot-reference-relationships-v1/REVIEW.md) and [support evidence](data/model-candidates/foot-support-metadata-v1/REVIEW.md).
-
-## Separate upper-limb nerve reference
-
-The reference selector opens 127 Z-Anatomy objects in one preserved source frame: 54 additional named nerve/group curves, 24 same-source nerve objects and 49 context bones. It loads independently of the male body. The previous arm fit was insufficient for the whole neck/shoulder context; no new fitting, bridging or per-object placement is applied.
-
-All 127 objects have dataset-scoped Turkish/English labels; 110 have sourced exact Latin displays and 17 numbered-bone terms remain explicitly unresolved. Twenty-six selected branch relationships support navigation within this reference. Existing main-body motor relationships remain separate. Plural muscular branch objects retain their group scope. C5–T1 contributions, medial/lateral cords, complete hand branches and expert acceptance remain open. See [product/source review](docs/model/upper-limb-nerve-reference-review.md) and [component attribution](public/models/upper-limb-nerve-reference/ATTRIBUTION.md). `python3 scripts/package-upper-limb-reference.py --check` verifies the source-preserved package and metadata.
-
-## Explore
-
-- Orbit, zoom, and select structures directly on the body.
-- Toggle individual systems or use skeleton and organ presets.
-- Separate visible pieces from the current viewing angle into a camera-facing inventory. Perspective-aware spacing keeps fully separated parts apart during zoom and pan; named views remain available.
-- Search anatomical names and source identifiers.
-- Isolate a selected structure and read its details.
-- Use compact controls and detail panels on mobile.
-
-## Saved scenes and regional study
-
-**Kafatası · 22 kemik** opens whole-skull orientation with a bone selector, six named views and reversible separation of one selected bone. Manual orbit is retained through selection, focus/context, study/saved-scene return and viewport changes in the recorded local browser checks. Separation is an educational arrangement, not physiological motion; canals, cuts and fine landmarks are outside this package. See [skull scope and acceptance](docs/model/study-regions-v2.md#whole-skull-orientation-extension--13-october-2026).
-
-**Çalışma ve tekrar** opens four bounded source-model recognition modules: 22 whole-skull bones, nine right ankle bones, nine left ankle bones and five right upper-limb bones. Inspection, recall, source correction, retry and finish reuse the existing renderer and Back flow. Original IDs and separate licenses are preserved; no new geometry or relationship claims are added. See [module scope and bindings](docs/model/study-regions-v2.md).
-
-Study progress resumes by reopening the module after reload. First-attempt correctness, eventual recognition and spaced-review progress remain separate. The transparent bounded UTC scheduler uses 1/3/7/14/30-day correct intervals, 10-minute wrong/hint retry, unchanged skip dates and atomic undo; early practice cannot increase an interval. It is not FSRS or a validated mastery model. History is local to this browser, with 50 completed rounds and 500 recent review events retained; no account/backend is used.
-
-**Kayıtlı sahneler** saves up to 12 explorer views including reference, source-content fingerprint, selected concept/parts, camera, visibility and language. Saved views reopen across reference switches and reloads. Unknown/stale versions or IDs are rejected; backup recovery and storage failures are visible. Browser data deletion removes these local records. Review [device/anatomist acceptance packet](docs/model/learning-review-packet.md); those human acceptance gates remain pending.
-
-## Run locally
-
-Requires Node.js 22.13 or newer. No API keys or accounts are needed.
+Node.js **22.13 veya üzeri** gerekir; CI ortamı **22.23.2** kullanır. Tarayıcıya hazır model dosyaları depoda bulunur.
 
 ```sh
+git clone https://github.com/ismailatilan-44/human-atlas.git
+cd human-atlas
 npm ci
 npm run dev
 ```
 
-Open http://localhost:3016. To build the static site, run `npm run build`; the output is in `dist/`.
+Uygulamayı [localhost:3016](http://localhost:3016) adresinde aç. React, TypeScript, Three.js ve Vite üzerine kurulu uygulamanın arayüzü Tailwind CSS ve shadcn/ui kullanır.
 
-## Validate
+## Geliştiriciler ve ajanlar için başlangıç
 
-Agent and isolated-worktree setup, authored/generated ownership, and check selection are documented in [source → producer → check routing](docs/model/agent-workflow.md). `npm run check` runs TypeScript only; build success is not a test-suite or 3D acceptance result.
+Yeni bir işe başlarken [AGENTS.md](AGENTS.md) yönergelerini oku; mevcut dalı, commit'i ve çalışma ağacındaki değişiklikleri kontrol et. [Kapsam planı](docs/model/model-scope-and-acceptance.md) ürün hedefini, [son teslim kaydı](docs/model/progress-report-2026-10-21.md) tarihli sonuçları ve açık işleri taşır. Bu kayıtların sürümlerini çalıştığın kaynakla karşılaştır; yapılacak işi kullanıcının güncel isteğiyle sınırla.
+
+| İhtiyaç | Başvurulacak yer |
+| --- | --- |
+| Hangi dosya değişmeli, hangi çıktı üretilmeli, hangi kontrol çalışmalı? | [Kaynak → üretici → kontrol rehberi](docs/model/agent-workflow.md#ownership-and-dependency-order) |
+| Mevcut modelde ne var, hangi hedefler açık? | [Model envanteri](docs/model/model-inventory.md) ve [kapsam planı](docs/model/model-scope-and-acceptance.md) |
+| Kaynak, geometri veya terminoloji çalışması nasıl yürütülür? | [Depoya ait uzmanlık yönergeleri](.agents/skills/) ve göreve ait bölgesel kayıt |
+| Görünür davranış nasıl sınanır? | [Tarayıcı QA rehberi](docs/model/development-qa.md) |
+| Teslim nasıl kaydedilir ve README ne zaman güncellenir? | [Dokümantasyon bakım akışı](docs/model/agent-workflow.md#readme-maintenance) ve [teslim kaydı](docs/model/progress-report-2026-10-21.md) |
+
+İşe başlamadan önce gözlenebilir sonucu ve kabul kanıtını belirle. İlgili değişikliği ve doğrulamayı tamamladıktan sonra sonucu, denenen ortamı ve kalan işi teslim kaydına işle. Ürünün özellikleri, kapsamı, kurulumu veya geliştirme giriş noktaları değiştiğinde README'yi aynı teslimde güncelle; ayrıntılı test günlükleri ve sürüm geçmişi ilgili kayıtlarda kalsın.
+
+## Geliştirme ve doğrulama
+
+Değiştirdiğin alana uygun kontrolleri [geliştirme rehberinden](docs/model/agent-workflow.md) seç. Yaygın komutlar:
 
 ```sh
-npm run check:ci # frozen-input checks, all tests, types, validators, build and transfer budget
-
-# Individual checks
-npm run check
+npm run check                              # TypeScript
 node --test scripts/anatomy-knowledge.test.mjs
 node scripts/validate-atlas.mjs
 node scripts/validate-interactions.mjs
-npm run build
+node scripts/build-model-inventory.mjs --check
+npm run build                              # dist/ altında statik çıktı
+npm run check:ci                            # Tam otomatik doğrulama kapısı
 ```
 
-The read-only [code workflow](.github/workflows/code-checks.yml) pins Node and action revisions and uses `npm ci` with the checked-in lockfile. It is separate from the existing gh-pages publication. It does not execute historical source activation scripts or grant publishing permissions.
+[CI iş akışı](.github/workflows/code-checks.yml), veri üretim kontrollerini, testleri, tip denetimini, doğrulayıcıları, üretim derlemesini ve aktarım bütçesini çalıştırır. Görsel veya etkileşim değişikliklerinde ilgili kullanıcı akışını tarayıcıda da doğrula; [geliştirme QA rehberi](docs/model/development-qa.md) bu kontrolleri açıklar.
 
-Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, isolation, rotation, and 390×844, 320×568, and 844×390 layouts. Phone controls stay clear of the exploded inventory, and isolated structures fit the space above or beside the detail panel. Physical-device performance and real multitouch hardware have not been tested. Opt-in `?qa=1` reports actual WebGL diagnostics; [measurement semantics and budgets](docs/model/performance-qa.md) distinguish CPU submission from GPU/device performance.
+Üretim çıktısı statik bir sunucuda barındırılabilir. Bu projenin GitHub Pages yayını için `npm run deploy:pages` kullanılır; yayın betiği kaynak değişikliklerinin commit edilmesini ve `fork` adlı uzak depoya gönderilmesini bekler. Yeni klonda bu uzak adını ayrıca yapılandırmak gerekir. Kaynak commit'i ile yayımlanan çıktı arasındaki bağ `release.json` içinde tutulur.
 
-For the offline source catalog and pending scope matrix, run `node scripts/build-model-inventory.mjs --check`. After changes to its recorded inputs, regenerate with `node scripts/build-model-inventory.mjs`. This inventory checks source/selection links; it does not inspect anatomical geometry or establish regional completeness.
+## Katkıda bulun
 
-The [current lower-limb target seed](docs/model/lower-limb-targets-v4.md) opens 156 proposed bilateral D1/selected-D2 targets and preserves all previous 136 target records. 154 have active-product bindings; two intersesamoid targets remain candidate-only with rejected connecting geometry. This non-exhaustive seed closes no region or expert criterion. Reproduce v1 with `python3 scripts/build-lower-limb-targets.py`, v2 with `python3 scripts/build-foot-bone-targets.py`, v3 with `python3 scripts/build-foot-soft-tissue-targets.py`, v4 with `python3 scripts/build-foot-support-targets.py`; use `--check` without writing. The pinned local TA2 table is required. The historical activation scripts `integrate-foot-supports.py` and `integrate-foot-soft-tissue.py` preserve frozen-proposal contracts; in particular the former requires the historical 401-label snapshot and is not a current 403-label validator. For current label/relation edits use knowledge tests, interaction validation and inventory checks as routed in [agent workflow](docs/model/agent-workflow.md); `python3 scripts/build-foot-reference-relationships.py --check` checks the preserved foot bone/ligament facts without forbidding later relations. Blender `--background --disable-autoexec work/open-assets-review/Startup.blend --python scripts/export-lower-limb-reference.py` reproduces the 137-object source-preserved package from its immutable 119-object baseline, retaining the full 139-object source candidate separately.
+Arayüz iyileştirmeleri, yeniden üretilebilir hata bildirimleri, kaynaklı terminoloji düzeltmeleri ve kapsamı belirli model katkıları değerlidir. Hata bildirirken kullandığın referansı, yaptığın adımları, beklediğin sonucu ve tarayıcı/cihaz bilgilerini ekle.
 
-The current [shoulder–axilla–arm requirement seed v3](docs/model/upper-limb-targets-v3.md) retains all 352 bilateral requirements and adds 80 independent reference bindings. 180 targets have observed mesh membership; six attachment reference points remain separate. 164 targets lack positive bindings and two humeral locations remain unresolved. No region or expert criterion is closed. These two seeds retain all 508 lower/upper targets, including requirements without model bindings, and join them to the pending region/detail matrix. The forearm/hand seed below brings the general inventory to 1,010 requirements. `python3 scripts/build-left-cord-targets.py --check` checks the active v3 projection; `python3 scripts/build-upper-limb-reference-targets.py --check` checks historical v2; `python3 scripts/build-upper-limb-targets.py --check` checks preserved v1, and `python3 data/model-candidates/upper-limb-target-inventory-v1/build.py --check` checks its immutable planning observations. Two Latin-column defects retain separately cited corrections and the original source CSV.
+Anatomi veya model değişikliklerinde önce [kaynak → üretici → kontrol akışını](docs/model/agent-workflow.md) oku. Kaynak kimliklerini, koordinat bağlamını ve bileşen atıflarını koru. Çalışma modüllerinin sınırları [çalışma tasarımında](docs/model/study-regions-v2.md), öğrenci ve anatomist değerlendirmesi için sonraki adımlar [değerlendirme paketinde](docs/model/learning-review-packet.md) yer alır.
 
-The [forearm/wrist/hand requirement seed](docs/model/forearm-hand-targets-v1.md) adds 502 bilateral D1/selected-D2 requirements across four families: 188 have bounded positive source observations and 314 have no positive binding. Twenty-two individual intrinsic-muscle requirements remain unbound despite related compound source groups. The offline inventory retains 1,010 lower/upper/forearm requirements; none closes regional or expert acceptance. `python3 scripts/build-forearm-hand-targets.py --check` checks current membership; the candidate producer checks its independent frozen history.
+## Kaynak proje ve lisanslar
 
-Development-only visual QA: run the local server with `?devqa=1` on loopback for isolated fixtures, readable live state, bounded replay and reload verification. See [QA controls and production exclusion](docs/model/development-qa.md). The panel is excluded from production builds.
+Human Atlas, [ashemag/human-atlas](https://github.com/ashemag/human-atlas) projesinden fork edilerek geliştiriliyor. İlk 3B görüntüleyici altyapısı için ashemag'a teşekkür ederiz. Bu depodaki geliştirmeler bölgesel model paketleri, çok dilli metadata, ilişki gezinmesi, kayıtlı sahneler ve çalışma deneyimi üzerine kuruludur.
 
-## Anatomy data
-
-The current viewer uses **BodyParts3D 4.0**, an adult male reference anatomy, licensed **CC BY 4.0**. It does not represent every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
-
-Geometry is simplified for browser performance while retaining every source mesh. The base BodyParts3D package contains 2,288,268 triangles and downloads approximately 33 MB of compressed geometry; extensions and independent references add their own payloads. Full credits, source links, and adaptation details are in [ATTRIBUTION.md](public/ATTRIBUTION.md).
-
-This is an educational explorer, not a diagnostic or surgical tool.
-
-## How it works
-
-Geometry is merged into batches. Per-structure GPU textures control translation, visibility, and selection, while component geometry supports accurate picking. Exploded layouts pack only the visible pieces. Rendering updates when the scene changes; orbit controls remain responsive without thousands of separate draw calls.
-
-The optional WebMCP tools expose anatomy search and inspection in compatible browsers. The visible interface works without them.
-
-## Rebuilding geometry
-
-The repository includes browser-ready geometry. Rebuilding it is optional: obtain the official BodyParts3D OBJ archive and English metadata tables, prepare the joined concepts and display-system mappings, run `scripts/convert-anatomy.py`, then `node scripts/optimize-anatomy.mjs` and `node scripts/compress-models.mjs`. Simplification uses a 0.2% relative error limit per structure.
-
-## Deploy
-
-GitHub Pages serves the `gh-pages` branch. After committing and pushing source changes to the `fork` remote, run `npm run deploy:pages`. This builds for the repository subpath, commits only static output to a temporary checkout, and pushes without force. Hashed bundles from the preceding 24 hours plus the build served at that window’s boundary remain available for cached HTML; `release.json` records only the current build’s assets so carried files expire. The GitHub Pages repository setting must select `gh-pages` at `/`. This avoids requiring OAuth workflow-file permission. To inspect the build locally: `npm run build -- --base=/human-atlas/` then `npx vite preview --base=/human-atlas/`.
-
-Import this repository into Vercel as a Vite project. The included `vercel.json` configures `npm ci`, `npm run build`, and the `dist` output directory. It can also be served by a static host.
-
-## License
-
-Original application code is released under the [MIT License](LICENSE). **The base anatomy data is CC BY 4.0; the Z-Anatomy extension has separate attribution and licensing**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
-
-Issues and pull requests are welcome. Please include reproduction steps and browser/device details for interaction problems.
+Uygulama kodu [MIT lisansını](LICENSE) ve özgün telif bildirimini korur. Anatomik modeller BodyParts3D, Z-Anatomy ve Human Reference Atlas gibi ayrı kaynaklardan gelir; bileşenlerin kendi lisans ve atıf koşulları vardır. İç kulak paketindeki ticari olmayan kullanım ve aynı lisansla paylaşım koşulları dahil tüm ayrıntılar [veri kaynakları ve atıflar](public/ATTRIBUTION.md) belgesinden erişilebilir.

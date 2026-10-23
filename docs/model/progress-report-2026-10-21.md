@@ -178,3 +178,27 @@ Canlıda eski sonuç yalnız “Önceki sonucu gör” ile okundu; yeni tur aç�
 [Canlı konsol](../../output/playwright/explosion-2026-10-22/live-console.json), önceki sürümden bir ve yeni sürümün referans cleanup'ından dört AbortError kaydı içeriyor. Daha önce bağımsız testle Chrome profiline daraltılan ve kullanıcı tarafından araştırması durdurulan bu konu yeniden açılmadı; global hata susturma veya yükleme iptal davranışı değiştirilmedi. Sıfır konsol hatası iddiası yoktur. İstenen ayırma açısı/yerleşim/geçmiş kriterleri geçti.
 
 Yerel Vite durduruldu; test viewport'u sıfırlandı, geçici HTML'ler kaldırıldı; yayın worktree'si arşivleme aracına verildi. Önceden kirli 2 Ekim raporu128 satırla korundu. Ağ beklemesi yaklaşık5 dakika büyük statik Git aktarımı; toplam aktif süre bilinmiyor. Bu kapanış yalnız kanıt/doküman commit'idir, aynı ürün için ikinci dağıtım gerektirmez. Sonraki tek paket mevcut öğrenci/anatomist değerlendirmesidir; bu teslim anatomik uzman veya fiziksel telefon kabulünü genişletmez.
+
+
+## 23 Ekim 2026 — ürün odaklı README
+
+Başlangıç kaynak `8d03af4e00fb9a87294be2836f3ca3f51a74442a`, dal `codex/scholarship-readiness`. Kapsam belgesinin `fb39d24` tabanı ve son ürün tesliminin `6ffe72e` kaynağı mevcut HEAD'in ataları olarak doğrulandı. Bu düzenleme yerel doküman değişikliğidir; uzak dal eşitliği veya yeni yayın kabulü değildir. Önceden değişmiş 2 Ekim raporu ve izlenmeyen araştırma/kanıt dosyaları korundu.
+
+Kullanıcı isteği: kaynak projeye kısa kredi bırakarak README'yi ürünün vizyonuna göre özgün yazmak ve geçersiz eski bağlantıları kaldırmak. Kabul ölçütü: okuyucunun ürünün amacını, mevcut keşif/çalışma deneyimini, kapsam sınırlarını ve yerel kurulumunu tek giriş belgesinden anlayabilmesi; kaynak atıflarına ve teknik kayıtlara çalışan bağlantılarla ulaşabilmesi.
+
+README Türkçe olarak yeniden yazıldı. Vizyon, mevcut özellikler ve ilk keşif adımları öne alındı; ayrıntılı teslim geçmişi yerine owning kapsam/envanter/çalışma/QA kayıtlarına bağlantı verildi. Kısa ashemag kredisi, MIT telif bildirimi ve ayrı model atıflarına erişim korundu. Başka bir belgenin kullandığı `model-explorer-work` bağlantı hedefi uyumluluk için bırakıldı. Eski upstream demo kaldırıldı; kurulum kendi fork adresini kullanıyor.
+
+macOS/Python 3 ile yerel doğrulama: README'nin 13 yerel bağlantısının dosyaları mevcut ve Git'te izleniyor; belgelenen npm komutları package.json ile, kontrol betikleri dosyalarıyla eşleşiyor; gelen eski bölüm bağlantısı korunuyor; `git diff --check` PASS. 23 Ekim HTTP kontrolü: kendi Pages adresi, kendi repo ve upstream repo 200; kaldırılan upstream demo 503. Bunlar bağlantı erişim sonuçlarıdır, yeni tarayıcı veya ürün kabulü değildir. Ürün kodu/verisi değişmediğinden build, model testleri ve canlı kullanıcı akışı yeniden çalıştırılmadı; commit/push/yayın yapılmadı.
+
+Bu doküman isteğinde açık teknik engel yok. Önceki anatomik, cihaz ve öğrenme değerlendirmesi sınırları geçerli. Sonraki tek paket: mevcut öğrenci/anatomist değerlendirmesini yürütmek. Aktif süre ölçülmedi; belirgin yeniden çalışma veya dış bekleme kaydedilmedi.
+
+
+### README takip teslimi — ajanların geliştirme akışı
+
+Kullanıcı commit ve kendi reposuna push istedi; ayrıca README'nin geliştirme sürecinde ajanlarca değerlendirilip kullanılabilir tutulmasını istedi. Ağdan doğrulanan `fork` varsayılan dalı `main`; hem `main` hem `codex/scholarship-readiness` başlangıçta `8d03af4e00fb9a87294be2836f3ca3f51a74442a`. Bu teslimin kapsamı README, AGENTS, agent-workflow ve bu kayıttır; önceden değişmiş 2 Ekim raporu ve izlenmeyen dosyalar kapsam dışı korunur.
+
+README'ye ajan/geliştirici başlangıç rotası ve görevden kabul kanıtına uzanan kısa kullanım akışı eklendi. AGENTS her teslimde README etkisini değerlendirmeye yönlendirir; ayrıntılı bakım kuralı agent-workflow içinde tek yerde tutulur. Özellik, kapsam, kurulum, komut veya bağlantı değiştiğinde ilgili README bölümü aynı teslimde güncellenir; değişiklik gerekmediğinde kapanışta kısa değerlendirme yeterlidir. Bu, geliştirme görevlerine bağlı bir bakım kuralıdır; zamanlanmış otomasyon oluşturulmadı.
+
+İncelemede agent-workflow'un artık README'de olmayan bölgesel üretici ayrıntılarına yönlendirdiği bulundu. Güncel alt ekstremite v4, üst ekstremite v3 ve önkol/el v1 kayıtlarına doğrudan yönlendirilerek düzeltildi. macOS/Python 3 kontrolü: üç yönerge dosyasında 40 yerel dosya/dizin/bölüm bağlantısı, Git'te izlenen hedefler, altı skill'in varlığı, README komutları ve eski gelen bölüm bağlantısı PASS. README → workflow → üç bölgesel kayıt → mevcut üretici/--check rotası PASS; `git diff --check` PASS. Ürün/veri değişmedi; yerel ürün testleri ve tarayıcı kabulü yeniden çalıştırılmadı. Uzak CI ve push sonucu commit'e bağlı olarak ayrıca kontrol edilir; Pages ürün dağıtımı gerekmiyor.
+
+Doküman kabulünde açık kriter yok. Sonraki geliştirmede bu bakım rotası kullanılır; önceki öğrenci/anatomist değerlendirme paketi ürünün sonraki işi olarak kalır. Süre ölçülmedi; tek yeniden çalışma nedeni eski README üretici yönlendirmelerinin düzeltilmesiydi. Bu bölümü içeren commit, takip tesliminin doküman revizyonudur.
